@@ -1,0 +1,28 @@
+--- 
+title: "Databrary User Guide"
+author: "Rick O. Gilmore and Andrea R. Seisler"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: databrary/guide
+description: "This is an open web-book describing how to use Databrary."
+---
+
+# Preface {-}
+
+```{r databrary_logo_img, fig.link='https://databrary.org', echo=FALSE}
+  knitr::include_graphics("img/databrary-nav-sm.jpg")
+```
+
+This book describes how to use the Databrary data library.
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

@@ -1,0 +1,10 @@
+book_filename: "Databrary User Guide"
+language:
+  ui:
+    chapter_name: "Chapter "
+  label:
+    fig: "Figure "
+    tab: "Table "
+delete_merged_file: true
+output_dir: "_book"
+repo: https://github.com/databrary/guide
