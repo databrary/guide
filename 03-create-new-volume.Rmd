@@ -1,0 +1,80 @@
+# Create a new volume
+
+Click the pink `Login` button in the middle of the [Databrary homepage](https://nyu.databrary.org/) to sign into your Databrary account.
+
+<p align="center">
+<img src="img/db-main-page.JPG" alt="Databrary Home" width="70%"/>
+</p>
+
+
+Click on `Your Profile`
+
+<p align="center">
+<img src="img/db-main-page-logged-in.JPG" alt="Databrary Home" width="70%"/>
+</p>
+
+Click on `Create Volume` to the right of **Data Owner Volumes**
+
+<p align="center">
+<img src="img/db-create-volume.JPG" alt="Databrary Home" width="70%"/>
+</p>
+
+There are multiple tabs on the left side of the screen that need to be completed to set up a new volume. These tabs need to be completed in order.
+
+Volume **Overview** is created by choosing if the volume is related to a published resource and answering the related questions (Title, Description, Internal Short Name and additional citation information if necessary). 
+
+Please describe the context of data collection and the types of data uploaded (e.g. video, pictures, )
+
+If you need this data to be associated with a DOI, please answer `YES` to the question **Does this volume correspond to a published paper or resource**
+
+When all items are entered, select `Save`
+
+<p align="center">
+<img src="img/db-new-volume-overview.JPG" alt="Databrary Home" width="70%"/>
+</p>
+
+Next, go to **Manage Access** to choose volume sharing options and add collaborators (faculty, staff, students) that already have an account on Databrary that is Sponsored by an Institution or an Authorized Investigator.
+
+Click `Save` when done.
+
+Please note: Only the Authorized Investigator who created this volume can 'Share Entire Volume'
+
+<p align="center">
+<img src="img/db-new-volume-manage-access.JPG" alt="Databrary Home" width="70%"/>
+</p>
+
+Now, go to **Design Spreadsheet** and choose all the categories and sub-categories you would like to include in your spreadsheet for participant/session metadata.
+
+<p align="center">
+<img src="img/db-new-volume-design-spreadsheet.JPG" alt="Databrary Home" width="70%"/>
+</p>
+
+Now it is time to **Enter Data**. There are two options:
+
+1. Upload a participant metadata file.
+
+What is an appropriately formatted .csv file?
+
+DETAILS IN THE WORKS
+
+2. Enter individually (the upload as you go method)
+
+- Click inside the **ID** box to add a participant. 
+- Complete each metadata item selected to create the participant, then
+- Add files related to that participant
+
+<p align="center">
+<img src="img/db-new-volume-enter-data.JPG" alt="Databrary Home" width="70%"/>
+</p>
+
+Please share more information in your Databrary Volume using **Add Links**. Here you will want to add links to any outside resources related to this dataset (e.g. published paper, github repository)
+
+<p align="center">
+<img src="img/db-new-volume-add-links.JPG" alt="Databrary Home" width="70%"/>
+</p>
+
+Finally, please share your funding source for your volume in **List Funding**. If your funding source is not listed here, please email Databrary Staff at contact@databrary.org to have it added.
+
+<p align="center">
+<img src="img/db-new-volume-list-funding.JPG" alt="Databrary Home" width="70%"/>
+</p>

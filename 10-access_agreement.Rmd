@@ -233,8 +233,8 @@ Regarding data contribution and use, the Institution:
 
 ### Responsibilities of Authorized Investigators {-}
 
-Authorized Investigators agree to adhere to the Terms of the Databrary
-Access Agreement, [Annex I](#daa_annex_I) ("Statement of Rights and Responsibilities"), and [Annex III](#daa_annex_III) ("Databrary Access Guide").
+Authorized Investigators agree to adhere to the Terms of the [Databrary
+Access Agreement](#daa), [Annex I](#daa_annex_I) ("Statement of Rights and Responsibilities"), and [Annex III](#daa_annex_III) ("Databrary Access Guide").
 
 Authorized Investigators acknowledge and agree to comply with
 Databrary's three guiding ethical principles, which are to:
@@ -437,7 +437,7 @@ Databrary encourages the storage and sharing of video for all of these
 purposes, in a manner consistent with subject permissions and
 institutional approvals.
 
-##### Institutions determine when research ethics board or IRB approval is necessary
+##### Institutions determine when research ethics board or IRB approval is necessary  {-}
 
 Databrary does not require prior research ethics board or IRB approval
 for an Authorized Investigator to be granted access to the system or to
@@ -634,7 +634,7 @@ and an Institution to secure signatures on the Databrary Access
 Agreement. The authorization process typically takes a few days to a few
 weeks.
 
-Selecting and managing Affiliates
+##### Selecting and managing Affiliates {-}
 
 Once authorized by their Institution, Authorized Investigators may then
 authorize staff, undergraduate or graduate students, or postdoctoral
@@ -668,7 +668,7 @@ levels:
     download videos and other identifying information, including data
     that is not released for sharing.)
 -   *Read/Write Access*: Affiliate can access and edit all of the
-    Authorized Investigator's. (The affiliate may view, download, add,
+    Authorized Investigator's data. (The affiliate may view, download, add,
     change, and remove data as the Authorized Investigator without
     restriction.)
 -   *Manager*: Affiliate can access and change permissions on all of the
@@ -846,7 +846,7 @@ Authorized Investigators must ensure that the process used for obtaining
 participant release for sharing meets relevant regulatory requirements,
 e.g. GDPR.
 
-##### Why ask
+##### Why ask {-}
 
 Video and audio recordings of participants are inherently identifiable.
 In order to share identifiable data on Databrary Authorized
@@ -859,7 +859,7 @@ these data elements means, and (c) secure participants' permission to
 share. Databrary calls this data sharing permission a "release" since
 it involves releasing data for use by other researchers.
 
-##### When to ask
+##### When to ask {-}
 
 Databrary recommends that Authorized Investigators ask participants for
 permission to share at the end of data collection after participants
@@ -873,7 +873,7 @@ research consent process or even to have data sharing permission be part
 of an entirely separate protocol. The important and essential point is
 to secure sharing permission and record it faithfully.
 
-##### How to ask
+##### How to ask {-}
 
 To standardize the process of obtaining data sharing releases from
 participants---and make it as simple as possible for
@@ -886,9 +886,9 @@ share data in Databrary.
 The template makes it clear and unambiguous to participants about what
 agreeing to share data in Databrary will mean.
 
-### Uploading to Databrary
+### Uploading to Databrary {-}
 
-#### What to upload
+#### What to upload {-}
 
 In addition to video, Databrary can store many types of data and
 supplemental files associated with a research project. These can be
@@ -931,7 +931,7 @@ Other low risk data items like race, ethnicity, gender, and related
 personal characteristics may be stored on Databrary without specific
 permission.
 
-#### Assignment of sharing release level
+#### Assignment of sharing release level {-}
 
 The only essential item of information required for uploading files to
 Databrary is the sharing release level. Authorized Investigators are
@@ -943,12 +943,12 @@ to share a file with people other than an Authorized Investigator's
 Affiliates or Authorized Investigators who are research collaborators on
 a specific dataset.
 
-#### Who may upload
+#### Who may upload {-}
 
 Authorized Investigators may upload data, and Authorized Investigators
 determine who among their Affiliates may also upload data to Databrary.
 
-#### When to upload
+#### When to upload {-}
 
 Authorized Investigators need not wait until a research project ends to
 upload data to Databrary. Authorized Investigators may upload files to
@@ -956,12 +956,12 @@ Databrary as soon as possible after a data collection. This is called
 active curation. It distributes the time required to curate a dataset
 for sharing and thereby reduces the overall burden of data sharing.
 
-### Non-human animal data
+### Non-human animal data {-}
 
 We are developing guidance for the use of Databrary to store non-human
 animal data.
 
-### Sharing data
+### Sharing data {-}
 
 Authorized Investigators determine when data stored on Databrary are
 ready to be shared with the broader community of Databrary Authorized
@@ -976,7 +976,7 @@ levels indicated for each file. Datasets receive a persistent identifier
 but except under unusual circumstances, this is not considered best
 practice.
 
-### Removing or altering participant data
+### Removing or altering participant data {-}
 
 Research participants in the European Economic Area (EEA) have certain
 rights under the General Data Protection Regulation (GDPR) pertaining to
@@ -994,7 +994,7 @@ personal data via Databrary, Authorized Investigators should communicate
 that there are limits to a participant's right to modify or delete
 personal data previously shared on Databrary.
 
-### Changing institutions
+### Changing institutions {-}
 
 Authorized Investigators who change Institutions must notify Databrary
 of the change and its effective date. As soon as possible, the

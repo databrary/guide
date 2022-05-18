@@ -1,3 +1,5 @@
 # Managing people
 
-test
+Authorized investigators can manage their collaborators and affiliates.
+  
+

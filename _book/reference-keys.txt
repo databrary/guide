@@ -20,3 +20,10 @@ sharing-data-1
 removing-or-altering-participant-data
 changing-institutions
 definitions
+how-to-register-for-databrary-access
+should-i-register-for-authorized-investigator-or-affiliate-status
+to-register-as-an-authorized-investigator
+to-register-as-an-affiliate
+to-register-as-an-authorized-investigator-at-an-institution
+to-register-as-an-affiliate-of-an-authorized-investigator
+create-a-new-volume
