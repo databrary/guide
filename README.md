@@ -12,6 +12,7 @@ User guide to the Databrary system
   - What kind of approvals/permissions are needed
 
 - How do I become authorized to use Databrary?
+  - How to register
 
 - Create a New Volume
 
