@@ -40,3 +40,9 @@ User guide to the Databrary system
   - Annex I  
   - Annex II  
   - Annex III  
+  - Privacy Policy
+  - Terms and Conditions
+  
+  - Databrary Participant Release Template
+  - Databrary Lab Staff Release Template
+  - Affiliate Databrary Access Agreement
