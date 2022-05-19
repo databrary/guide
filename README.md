@@ -15,6 +15,17 @@ User guide to the Databrary system
 
 - Create a New Volume
 
+- Edit a Volume
+
+  - Overview
+  - Manage Access
+  - Set up the Spreadsheet
+  - Add Data
+  - New Session or Materials
+  - Enter Metadata
+  - Add files
+  - Add additional sessions to a volume
+
 - Sharing data
 
   - permission to share/upload to Databrary
@@ -22,6 +33,11 @@ User guide to the Databrary system
     - researcher if they are in a video
   - with my collaborators/lab members that work on the data set
   - with other Databrary Authorized Investigators
+  - manage my affiliates
+  
+- Download
+  - entire volume
+  - a single session
   
 - Re-using others' shared data on Databrary
 
