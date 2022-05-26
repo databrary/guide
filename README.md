@@ -29,10 +29,13 @@ User guide to the Databrary system
 
 - Sharing data
 
-  - permission to share/upload to Databrary
-    - participant 
-    - researcher if they are in a video
+  - Permission to share/upload to Databrary
+    - How do I request permission to share participant video?  
+    - How do I request permission to share if a research team member is in a video?  
+    - How do I share older video research data if I didn't specifically ask to share with Databrary?  
   - with my collaborators/lab members that work on the data set
+    - Grant Affiliate Access to indiviuals are under my supervision
+    - Grant Collaborator Access - ONLY to an investigator already sponsored by an institution or another authorized investigator
   - with other Databrary Authorized Investigators
   - manage my affiliates
   
