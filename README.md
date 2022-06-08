@@ -21,7 +21,8 @@ User guide to the Databrary system
   - Overview
   - Manage Access
   - Set up the Spreadsheet
-  - Add Data
+  - Add Data - indvidually
+  - Add Data via CSV
   - New Session or Materials
   - Enter Metadata
   - Add files

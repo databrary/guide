@@ -53,9 +53,27 @@ Now it is time to **Enter Data**. There are two options:
 
 1. Upload a participant metadata file.
 
+Click the `participant` tab.
+
+<p align="center">
+<img src="img/db-enter-data-participant.png" alt="Participant Tab" width="70%"/>
+</p>
+
 What is an appropriately formatted .csv file?
 
+- ensure that the Header row is exactly the same as the **Spreadsheet Preview** in the `Design Spreadsheet` tab.
+
+<p align="center">
+<img src="img/db-design-spreadsheet.png" alt="Participant Tab" width="70%"/>
+</p>
+
+so this .csv file would look like:
+
+
+
 DETAILS IN THE WORKS
+
+
 
 2. Enter individually (the upload as you go method)
 
