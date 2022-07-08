@@ -46,18 +46,14 @@ Please note: Only the Authorized Investigator who created this volume can 'Share
 Now, go to **Design Spreadsheet** and choose all the categories and sub-categories you would like to include in your spreadsheet for participant/session metadata.
 
 <p align="center">
-<img src="img/db-new-volume-design-spreadsheet.JPG" alt="Databrary Home" width="70%"/>
+<img src="img/db-new-volume-design-spreadsheet.png" alt="Databrary Home" width="70%"/>
 </p>
 
 Now it is time to **Enter Data**. There are two options:
 
 1. Upload a participant metadata file.
 
-Click the `participant` tab.
-
-<p align="center">
-<img src="img/db-enter-data-participant.png" alt="Participant Tab" width="70%"/>
-</p>
+See video instructions to [upload participant metadata](https://nyu.databrary.org/volume/686/slot/27587/-?asset=122478) or follow the instructions below.
 
 What is an appropriately formatted .csv file?
 
@@ -69,11 +65,49 @@ What is an appropriately formatted .csv file?
 
 so this .csv file would look like:
 
+<p align="center">
+<img src="img/db-participant-metadata.png" alt="Participant Tab" width="70%"/>
+</p>
+
+Now it is time to upload the participant .csv file. 
+
+Click the `participant` tab. Then `Choose File` to navigate to the appropriate file. Finally click `Upload`.
+
+<p align="center">
+<img src="img/db-enter-data-participant.png" alt="Participant Tab" width="70%"/>
+</p>
+
+You will see a window that summarizes the data uploaded and will point out any potential errors (e.g. wrong header names, missing data)
+
+<p align="center">
+<img src="img/db-data-upload-summary.png" alt="Participant Tab" width="70%"/>
+</p>
+
+Please review these data
+
+Then click `Yes`.
+
+Now the uploaded data will show like this.
+
+<p align="center">
+<img src="img/db-uploaded-metadata.png" alt="Participant Tab" width="70%"/>
+</p>
 
 
-DETAILS IN THE WORKS
+After the participant metadata is uploaded, the data regarding the testing session and any relevant filed get uploaded individually. See video instructions for uploading [participant session data](https://nyu.databrary.org/volume/686/slot/27588/-?asset=122480) or follow the instructions below.
+
+Click on the  `folder` tab
+
+Click on `add folder` and choose to add a **session** or **materials** folder.
+
+<p align="center">
+<img src="img/db-add-folder.png" alt="Participant Tab" width="70%"/>
+</p>
+
+Session folders are for participant sessions and materials folders are for thing related to the study such as surveys used, sample consent forms, and stimuli.
 
 
+**Continue working HERE**
 
 2. Enter individually (the upload as you go method)
 

@@ -22,7 +22,8 @@ User guide to the Databrary system
   - Manage Access
   - Set up the Spreadsheet
   - Add Data - indvidually
-  - Add Data via CSV
+  - Add Participant Metatdata via CSV (video https://nyu.databrary.org/volume/686/slot/27587/-?asset=122478)
+  - Add Session Data (video https://nyu.databrary.org/volume/686/slot/27588/-?asset=122480)
   - New Session or Materials
   - Enter Metadata
   - Add files
