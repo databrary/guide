@@ -27,3 +27,9 @@ to-register-as-an-affiliate
 to-register-as-an-authorized-investigator-at-an-institution
 to-register-as-an-affiliate-of-an-authorized-investigator
 create-a-new-volume
+what-is-databrary
+what-is-my-role
+as-an-institution
+as-a-student-or-staff
+why-should-i-use-databrary
+as-a-researcher

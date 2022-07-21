@@ -2,7 +2,6 @@
 User guide to the Databrary system
 
 ## Outline for planning purposes
-- test i[date]
 
 - Introduction
   - What is Databrary?
