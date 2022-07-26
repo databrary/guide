@@ -143,7 +143,8 @@ User guide to the Databrary system
   - Can individuals not associated with an institution be authorized?
   - what if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status?
   - level of access for sessions vs. level of access for each specific file if they set a sessions folder to a specific level of access, they don't need to do it again for each of the files they upload to that session
-
+  - Fix an audio file that is not playing in Databrary
+  - Fix a video file that is not playing in Databrary
 - Appendix  
 
   - Agreement  

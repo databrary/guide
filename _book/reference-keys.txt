@@ -33,3 +33,11 @@ as-an-institution
 as-a-student-or-staff
 why-should-i-use-databrary
 as-a-researcher
+frequently-asked-questions
+i-qualify-as-an-authorized-organizational-representative-aor.-can-i-sign-as-both-authorized-investigator-and-aor
+can-individuals-not-associated-with-an-institution-be-authorized
+what-if-an-authorized-investigator-is-leaving-their-institution-for-another-institution-but-should-still-retain-authorized-investigator-status
+level-of-access-for-sessions-vs.-level-of-access-for-each-specific-file-if-they-set-a-sessions-folder-to-a-specific-level-of-access-they-dont-need-to-do-it-again-for-each-of-the-files-they-upload-to-that-session
+fix-an-audio-file-that-is-not-playing-in-databrary
+fix-a-video-file-that-is-not-playing-in-databrary
+oops-i-uploaded-the-wrong-file-in-my-session.-can-i-replace-it

@@ -1,0 +1,50 @@
+# Frequently Asked Questions
+
+## I Qualify as an Authorized Organizational Representative (AOR). Can I sign as both Authorized Investigator and AOR?
+
+## Can individuals not associated with an institution be authorized?
+
+## what if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status?
+
+## level of access for sessions vs. level of access for each specific file if they set a sessions folder to a specific level of access, they don't need to do it again for each of the files they upload to that session
+
+## Fix an audio file that is not playing in Databrary
+
+1. download original session from Databrary and unzip the file
+2. open audacity
+3. file > open
+4. select the file from the appropriate folder in the downloads folder
+5. Now the file shows up in audacity
+
+<p align="center">
+<img src="img/audacity-openfile" alt="Audio File Open in Audacity" width="70%"/>
+</p>
+  
+6. Go to File > export > export as MP3
+7. use the following default parameters 
+
+<p align="center">
+<img src="img/audacity-export-window" alt="Audacity File Export Window" width="70%"/>
+</p>
+
+7. a window pops up called 'edit metadata tags'. just select OK
+
+8. This new file needs to be [replaced]() in the Databrary session folder.
+
+## Fix a video file that is not playing in Databrary
+
+## Oops, I uploaded the wrong file in my session. Can I replace it?
+
+Yes! Please follow these instructions:
+
+1. Login to [Databrary](https://nyu.databrary.org/)
+2. Click on '[Your Profile](https://nyu.databrary.org/profile)' in the center of the screen
+3. Navigate to the appropriate volume
+4. Then the appropriate session
+5. Single Click on the file that needs to be replaced.
+6. Click on the Edit Button (the small pencil)
+7. Ensure the appropriate file is highlighted in gray.
+8. Click 'Replace File' at the top right of the screen
+9. Navigate in the files pane to the correct file then select Open
+
+....insert instructions here
