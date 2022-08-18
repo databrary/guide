@@ -35,6 +35,14 @@
 
 ## Fix a video file that is not playing in Databrary
 
+If you ever find that there are videos that don't play in Databrary, the following instructions may be helpful to you.
+
+- use Handbrake (https://handbrake.fr/) to convert/transcode these files to .mp4 (this will change and fix the file if there is any corrupted block)
+- Go back to the session
+- highlight the video
+- click on the pencil in the upper left corner to edit
+- click on 'replace' in the upper right corner
+
 ## Oops, I uploaded the wrong file in my session. Can I replace it?
 
 Yes! Please follow these instructions:
@@ -50,3 +58,9 @@ Yes! Please follow these instructions:
 9. Navigate in the files pane to the correct file then select Open
 
 ....insert instructions here
+
+## I downloaded files from Databrary, but the filenames are truncated.
+
+When Databrary downloads files there is a `32 character filename limit`. Please ensure the file names do not exceed this. If they are too long, it may not be able to distinguish between multiple files and it will appear that only 1 file was downloaded.
+
+

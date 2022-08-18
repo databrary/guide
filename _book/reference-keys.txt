@@ -41,3 +41,6 @@ level-of-access-for-sessions-vs.-level-of-access-for-each-specific-file-if-they-
 fix-an-audio-file-that-is-not-playing-in-databrary
 fix-a-video-file-that-is-not-playing-in-databrary
 oops-i-uploaded-the-wrong-file-in-my-session.-can-i-replace-it
+i-downloaded-files-from-databrary-but-the-filenames-are-truncated.
+participant-info
+bill-of-rights-httpsgithub.comdatabrarypoliciesblobmasterbill-of-rights.md
