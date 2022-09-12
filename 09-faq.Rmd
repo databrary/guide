@@ -1,8 +1,22 @@
 # Frequently Asked Questions
 
-## I Qualify as an Authorized Organizational Representative (AOR). Can I sign as both Authorized Investigator and AOR?
+## I qualify as an Authorized Organizational Representative (AOR). Can I sign as both Authorized Investigator and AOR?
+
+No. If you qualify as an Authorized Organizational Representative you will need to have the staff member above you on an organizational chart sign for you. 
 
 ## Can individuals not associated with an institution be authorized?
+
+Not at this time.
+
+To become an Authorized Investigator on Databrary you/your institution must meet __All__ of the below conditions:  
+
+  - Have PI status or you are eligible to conduct independent research at this Institution and the Institution accepts responsibility for its Authorized Investigators’ actions related to the use of Databrary  
+  - Have all current research ethics training that addresses human subjects policy and issues required by your institution; and  
+  - Your institution must maintain an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects,  
+  - Be part of an institution that grants you the authority to choose and manage affiliates who meet Databrary's qualifications and who agree to follow Databrary's ethical principles, and  
+  - The person executing this Access Agreement on behalf of the Institution has the authority to do so  
+  - Data on Databrary is provided for non-commercial and non-personal use only and is subject to the terms of use outlined in the Databrary Access Agreement.   
+
 
 ## what if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status?
 
@@ -24,7 +38,7 @@
 7. use the following default parameters 
 
 <p align="center">
-<img src="img/audacity-export-window" alt="Audacity File Export Window" width="70%"/>
+<img src="/img/audacity-export-window.png" alt="Audacity File Export Window" width="70%"/>
 </p>
 
 - if your file is name incorrectly (e.g. spaces/brackets/filename truncated) please edit the filename here.
@@ -43,6 +57,8 @@ If you ever find that there are videos that don't play in Databrary, the followi
 - click on the pencil in the upper left corner to edit
 - click on 'replace' in the upper right corner
 
+The default settings in Handbrake should work just fine.
+
 ## Oops, I uploaded the wrong file in my session. Can I replace it?
 
 Yes! Please follow these instructions:
@@ -57,10 +73,10 @@ Yes! Please follow these instructions:
 8. Click 'Replace File' at the top right of the screen
 9. Navigate in the files pane to the correct file then select Open
 
-....insert instructions here
-
 ## I downloaded files from Databrary, but the filenames are truncated.
 
-When Databrary downloads files there is a `32 character filename limit`. Please ensure the file names do not exceed this. If they are too long, it may not be able to distinguish between multiple files and it will appear that only 1 file was downloaded.
+When Databrary downloads files there is a `32 character filename limit`. Please ensure the file names do not exceed this. 
+
+If the file name is too long (the first 32 characters of the filename are exactly the same), it is impossible to distinguish between these files when they download and only __one__ file will be downloaded.
 
 

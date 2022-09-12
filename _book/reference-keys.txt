@@ -44,3 +44,4 @@ oops-i-uploaded-the-wrong-file-in-my-session.-can-i-replace-it
 i-downloaded-files-from-databrary-but-the-filenames-are-truncated.
 participant-info
 bill-of-rights-httpsgithub.comdatabrarypoliciesblobmasterbill-of-rights.md
+databrary-definitions
