@@ -30,15 +30,15 @@ To become an Authorized Investigator on Databrary you/your institution must meet
 4. select the file from the appropriate folder in the downloads folder
 5. Now the file shows up in audacity
 
-<p align="center">
-<img src="img/audacity-openfile" alt="Audio File Open in Audacity" width="70%"/>
-</p>
+<p align="center">  
+<img src="img/audacity-openfile.png" alt="Audio File Open in Audacity" width="70%"/>  
+</p>  
   
 6. Go to File > export > export as MP3
 7. use the following default parameters 
 
-<p align="center">
-<img src="/img/audacity-export-window.png" alt="Audacity File Export Window" width="70%"/>
+<p align="center">  
+<img src="img/audacity-export-window.png" alt="Audacity File Export Window" width="70%"/>  
 </p>
 
 - if your file is name incorrectly (e.g. spaces/brackets/filename truncated) please edit the filename here.

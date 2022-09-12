@@ -26,4 +26,3 @@ formal-access-agreement
 definitions
 participant-info
 bill-of-rights-httpsgithub.comdatabrarypoliciesblobmasterbill-of-rights.md
-databrary-definitions
