@@ -79,4 +79,43 @@ When Databrary downloads files there is a `32 character filename limit`. Please 
 
 If the file name is too long (the first 32 characters of the filename are exactly the same), it is impossible to distinguish between these files when they download and only __one__ file will be downloaded.
 
+## I have a dataset that has been completely collected. Now we are ready to share with Databrary. What do I do?
+
+<a href = "mailto: contact@databrary.org">Send Email to Databrary</a> so they may assist you. You will need answers to the following questions:
+- Who is the PI for this project?
+- Do you have permission to share these data with the Databrary community?
+    - Was a [Data Sharing Release](https://databrary.org/support/irb/release-template.html) or something similar completed at the time of Data Collection?
+    - Do you have parmission from your IRB or Research Ethics Board used at your instituiton to share these data with Databrary?
+- How many files are there for this dataset?
+- What file types do you have (e.g. .mov, .mp4, .mp3, .pdf, .xls)?
+- What is the total size of dataset (X GB)?
+- How many different sessions/participants do you have?
+- do you have materials to share (e.g. data collection instructions, survey questions) in addition to the videos collected for the study?
+
+After you have discussed this project with the Databrary Team, you are ready to prepare your dataset for ingest to Databrary.
+
+1. Format your data with the same file structure for all sessions/participants
+
+  ***insert picture examples***
+  
+  
+  
+2. Share data folder with the <a href = "mailto:andrea.seisler@databrary.org"> Databrary Support Specialist </a> on Box.
+3. Create list of files using Terminal (how to find terminal on [Windows](https://www.makeuseof.com/windows-11-open-windows-terminal/#:~:text=This%20is%20how%20you%20can,Terminal%20to%20open%20that%20app.) and [Mac](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac#:~:text=Open%20Terminal&text=Click%20the%20Launchpad%20icon%20in,%2C%20then%20double%2Dclick%20Terminal.))
+    a. find [path to folder with files] > out.txt 
+    b. E.g. find /Users/username/Box/Data_for_Databrary > out.txt 
+4. Download [ingest_template.xls](https://github.com/databrary/curation/tree/master/spec/templates)  by opening the link, then click on the filename and select download.
+  a. Details for what needs to be completed on these templates are found [here](https://github.com/databrary/curation/blob/master/spec/metadata.md)  
+    i.    Make sure the items in the required column are completed for each file.
+        - the table `Session Metadata` describes the fields in the sessions_template.csv 
+        - the table `Participant Metadata` describes the fields in the participants_template.csv 
+    ii.   The participantID on the sessions_template and participants_template must match   
+    iii.  key is typically the same as participantID    
+  b. It may be easier to complete ingest_template.xlsx then save each tab as a .csv  
+    i.   participants_template.csv  
+    ii.  sessions_template.csv  
+
+
+
+
 

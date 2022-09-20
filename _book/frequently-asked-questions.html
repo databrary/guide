@@ -23,7 +23,7 @@
 <meta name="author" content="Rick O. Gilmore and Andrea R. Seisler" />
 
 
-<meta name="date" content="2022-09-12" />
+<meta name="date" content="2022-09-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -120,6 +120,7 @@
 <li class="chapter" data-level="7.6" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#fix-a-video-file-that-is-not-playing-in-databrary"><i class="fa fa-check"></i><b>7.6</b> Fix a video file that is not playing in Databrary</a></li>
 <li class="chapter" data-level="7.7" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#oops-i-uploaded-the-wrong-file-in-my-session.-can-i-replace-it"><i class="fa fa-check"></i><b>7.7</b> Oops, I uploaded the wrong file in my session. Can I replace it?</a></li>
 <li class="chapter" data-level="7.8" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#i-downloaded-files-from-databrary-but-the-filenames-are-truncated."><i class="fa fa-check"></i><b>7.8</b> I downloaded files from Databrary, but the filenames are truncated.</a></li>
+<li class="chapter" data-level="7.9" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#i-have-a-dataset-that-has-been-completely-collected.-now-we-are-ready-to-share-with-databrary.-what-do-i-do"><i class="fa fa-check"></i><b>7.9</b> I have a dataset that has been completely collected. Now we are ready to share with Databrary. What do I do?</a></li>
 </ul></li>
 <li class="appendix"><span><b>Appendix</b></span></li>
 <li class="chapter" data-level="A" data-path="formal-access-agreement.html"><a href="formal-access-agreement.html"><i class="fa fa-check"></i><b>A</b> Formal Access Agreement</a>
@@ -151,10 +152,9 @@
 <li class="chapter" data-level="" data-path="formal-access-agreement.html"><a href="formal-access-agreement.html#changing-institutions"><i class="fa fa-check"></i>Changing institutions</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="B" data-path="definitions.html"><a href="definitions.html"><i class="fa fa-check"></i><b>B</b> Definitions</a></li>
-<li class="chapter" data-level="C" data-path="participant-info.html"><a href="participant-info.html"><i class="fa fa-check"></i><b>C</b> Participant Info</a>
+<li class="chapter" data-level="B" data-path="participant-info.html"><a href="participant-info.html"><i class="fa fa-check"></i><b>B</b> Participant Info</a>
 <ul>
-<li class="chapter" data-level="C.1" data-path="participant-info.html"><a href="participant-info.html#bill-of-rights-httpsgithub.comdatabrarypoliciesblobmasterbill-of-rights.md"><i class="fa fa-check"></i><b>C.1</b> Bill of Rights (<span>https://github.com/databrary/policies/blob/master/bill-of-rights.md</span>)</a></li>
+<li class="chapter" data-level="B.1" data-path="participant-info.html"><a href="participant-info.html#bill-of-rights-httpsgithub.comdatabrarypoliciesblobmasterbill-of-rights.md"><i class="fa fa-check"></i><b>B.1</b> Bill of Rights (<span>https://github.com/databrary/policies/blob/master/bill-of-rights.md</span>)</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -264,6 +264,47 @@
 <h2><span class="header-section-number">7.8</span> I downloaded files from Databrary, but the filenames are truncated.<a href="frequently-asked-questions.html#i-downloaded-files-from-databrary-but-the-filenames-are-truncated." class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>When Databrary downloads files there is a <code>32 character filename limit</code>. Please ensure the file names do not exceed this.</p>
 <p>If the file name is too long (the first 32 characters of the filename are exactly the same), it is impossible to distinguish between these files when they download and only <strong>one</strong> file will be downloaded.</p>
+</div>
+<div id="i-have-a-dataset-that-has-been-completely-collected.-now-we-are-ready-to-share-with-databrary.-what-do-i-do" class="section level2 hasAnchor" number="7.9">
+<h2><span class="header-section-number">7.9</span> I have a dataset that has been completely collected. Now we are ready to share with Databrary. What do I do?<a href="frequently-asked-questions.html#i-have-a-dataset-that-has-been-completely-collected.-now-we-are-ready-to-share-with-databrary.-what-do-i-do" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><a href = "mailto: contact@databrary.org">Send Email to Databrary</a> so they may assist you. You will need answers to the following questions:
+- Who is the PI for this project?
+- Do you have permission to share these data with the Databrary community?
+- Was a <a href="https://databrary.org/support/irb/release-template.html">Data Sharing Release</a> or something similar completed at the time of Data Collection?
+- Do you have parmission from your IRB or Research Ethics Board used at your instituiton to share these data with Databrary?
+- How many files are there for this dataset?
+- What file types do you have (e.g. .mov, .mp4, .mp3, .pdf, .xls)?
+- What is the total size of dataset (X GB)?
+- How many different sessions/participants do you have?
+- do you have materials to share (e.g. data collection instructions, survey questions) in addition to the videos collected for the study?</p>
+<p>After you have discussed this project with the Databrary Team, you are ready to prepare your dataset for ingest to Databrary.</p>
+<ol style="list-style-type: decimal">
+<li>Format your data with the same file structure for all sessions/participants</li>
+</ol>
+<p><strong><em>insert picture examples</em></strong></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Share data folder with the <a href = "mailto:andrea.seisler@databrary.org"> Databrary Support Specialist </a> on Box.</li>
+<li>Create list of files using Terminal (how to find terminal on <a href="https://www.makeuseof.com/windows-11-open-windows-terminal/#:~:text=This%20is%20how%20you%20can,Terminal%20to%20open%20that%20app.">Windows</a> and <a href="https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac#:~:text=Open%20Terminal&amp;text=Click%20the%20Launchpad%20icon%20in,%2C%20then%20double%2Dclick%20Terminal.">Mac</a>)
+<ol style="list-style-type: lower-alpha">
+<li>find [path to folder with files] &gt; out.txt</li>
+<li>E.g. find /Users/username/Box/Data_for_Databrary &gt; out.txt</li>
+</ol></li>
+<li>Download <a href="https://github.com/databrary/curation/tree/master/spec/templates">ingest_template.xls</a> by opening the link, then click on the filename and select download.</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>Details for what needs to be completed on these templates are found <a href="https://github.com/databrary/curation/blob/master/spec/metadata.md">here</a><br />
+i. Make sure the items in the required column are completed for each file.
+<ul>
+<li>the table <code>Session Metadata</code> describes the fields in the sessions_template.csv</li>
+<li>the table <code>Participant Metadata</code> describes the fields in the participants_template.csv
+ii. The participantID on the sessions_template and participants_template must match<br />
+iii. key is typically the same as participantID<br />
+</li>
+</ul></li>
+<li>It may be easier to complete ingest_template.xlsx then save each tab as a .csv<br />
+i. participants_template.csv<br />
+ii. sessions_template.csv</li>
+</ol>
 
 </div>
 </div>
