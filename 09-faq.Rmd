@@ -41,7 +41,7 @@ To become an Authorized Investigator on Databrary you/your institution must meet
 <img src="img/audacity-export-window.png" alt="Audacity File Export Window" width="70%"/>  
 </p>
 
-- if your file is name incorrectly (e.g. spaces/brackets/filename truncated) please edit the filename here.
+- if your file is named incorrectly (e.g. spaces/brackets/filename truncated) please edit the filename here.
 
 7. a window pops up called 'edit metadata tags'. just select OK
 
