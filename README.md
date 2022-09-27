@@ -118,7 +118,8 @@ User guide to the Databrary system
  - when do I use materials folder
  - how I do describe data
 
-  
+- Searching on Databrary
+  - Describe Filter By bar on Search page
   
 - Download
   - entire volume
