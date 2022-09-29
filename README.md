@@ -146,6 +146,14 @@ User guide to the Databrary system
   - level of access for sessions vs. level of access for each specific file if they set a sessions folder to a specific level of access, they don't need to do it again for each of the files they upload to that session
   - Fix an audio file that is not playing in Databrary
   - Fix a video file that is not playing in Databrary
+  
+  - Is use of Databrary free? If not, what is the payment structure?
+  - Regarding permissions for users. We anticipate that we will have a range of users including faculty, professional developers, graduate students. We think getting access will be pretty straightforward for individuals connected to a university. However, how would someone (e.g., professional developer in a school district) gain access?
+  - Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit
+  - Is there a storage capacity limit for each project?
+  
+  
+  
 - Appendix  
 
   - Agreement  
