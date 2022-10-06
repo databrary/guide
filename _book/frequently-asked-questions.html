@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 7 Frequently Asked Questions | Databrary User Guide</title>
   <meta name="description" content="This is an open web-book describing how to use Databrary." />
-  <meta name="generator" content="bookdown 0.28 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 7 Frequently Asked Questions | Databrary User Guide" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 <meta name="author" content="Rick O. Gilmore and Andrea R. Seisler" />
 
 
-<meta name="date" content="2022-09-22" />
+<meta name="date" content="2022-10-06" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -100,7 +100,12 @@
 <li class="chapter" data-level="" data-path="create-a-new-volume.html"><a href="create-a-new-volume.html#step7"><i class="fa fa-check"></i>Step 7: Add Links</a></li>
 <li class="chapter" data-level="" data-path="create-a-new-volume.html"><a href="create-a-new-volume.html#step8"><i class="fa fa-check"></i>Step 8: List Funding</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="reusing-data.html"><a href="reusing-data.html"><i class="fa fa-check"></i><b>5</b> Reusing data</a></li>
+<li class="chapter" data-level="5" data-path="reusing-data.html"><a href="reusing-data.html"><i class="fa fa-check"></i><b>5</b> Reusing data</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="reusing-data.html"><a href="reusing-data.html#how-to-access-data-for-reuse"><i class="fa fa-check"></i><b>5.1</b> How to access data for reuse</a></li>
+<li class="chapter" data-level="5.2" data-path="reusing-data.html"><a href="reusing-data.html#ethics-of-reusing-data"><i class="fa fa-check"></i><b>5.2</b> Ethics of Reusing Data</a></li>
+<li class="chapter" data-level="5.3" data-path="reusing-data.html"><a href="reusing-data.html#how-to-cite-reused-data"><i class="fa fa-check"></i><b>5.3</b> How to cite reused data</a></li>
+</ul></li>
 <li class="chapter" data-level="6" data-path="requesting-access.html"><a href="requesting-access.html"><i class="fa fa-check"></i><b>6</b> Requesting access</a>
 <ul>
 <li class="chapter" data-level="6.1" data-path="requesting-access.html"><a href="requesting-access.html#should-i-register-for-authorized-investigator-or-affiliate-status"><i class="fa fa-check"></i><b>6.1</b> Should I register for Authorized Investigator or Affiliate Status?</a></li>
@@ -152,9 +157,10 @@
 <li class="chapter" data-level="" data-path="formal-access-agreement.html"><a href="formal-access-agreement.html#changing-institutions"><i class="fa fa-check"></i>Changing institutions</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="B" data-path="participant-info.html"><a href="participant-info.html"><i class="fa fa-check"></i><b>B</b> Participant Info</a>
+<li class="chapter" data-level="B" data-path="definitions.html"><a href="definitions.html"><i class="fa fa-check"></i><b>B</b> Definitions</a></li>
+<li class="chapter" data-level="C" data-path="participant-info.html"><a href="participant-info.html"><i class="fa fa-check"></i><b>C</b> Participant Info</a>
 <ul>
-<li class="chapter" data-level="B.1" data-path="participant-info.html"><a href="participant-info.html#bill-of-rights-httpsgithub.comdatabrarypoliciesblobmasterbill-of-rights.md"><i class="fa fa-check"></i><b>B.1</b> Bill of Rights (<span>https://github.com/databrary/policies/blob/master/bill-of-rights.md</span>)</a></li>
+<li class="chapter" data-level="C.1" data-path="participant-info.html"><a href="participant-info.html#bill-of-rights-httpsgithub.comdatabrarypoliciesblobmasterbill-of-rights.md"><i class="fa fa-check"></i><b>C.1</b> Bill of Rights (https://github.com/databrary/policies/blob/master/bill-of-rights.md)</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -271,7 +277,7 @@
 - Who is the PI for this project?
 - Do you have permission to share these data with the Databrary community?
 - Was a <a href="https://databrary.org/support/irb/release-template.html">Data Sharing Release</a> or something similar completed at the time of Data Collection?
-- Do you have parmission from your IRB or Research Ethics Board used at your instituiton to share these data with Databrary?
+- Do you have parmission from your IRB or Research Ethics Board used at your instituiton to share these data with Databrary?<br />
 - How many files are there for this dataset?
 - What file types do you have (e.g. .mov, .mp4, .mp3, .pdf, .xls)?
 - What is the total size of dataset (X GB)?
@@ -289,18 +295,22 @@
 <li>find [path to folder with files] &gt; out.txt</li>
 <li>E.g. find /Users/username/Box/Data_for_Databrary &gt; out.txt</li>
 </ol></li>
-<li>Download <a href="https://github.com/databrary/curation/tree/master/spec/templates">ingest_template.xls</a> by opening the link, then click on the filename and select download.</li>
-</ol>
+<li>Download <a href="https://github.com/databrary/curation/tree/master/spec/templates">ingest_template.xls</a> by opening the link, then click on the filename and select download.
 <ol style="list-style-type: lower-alpha">
 <li>Details for what needs to be completed on these templates are found <a href="https://github.com/databrary/curation/blob/master/spec/metadata.md">here</a><br />
-i. Make sure the items in the required column are completed for each file.
-<ul>
-<li>the table <code>Session Metadata</code> describes the fields in the sessions_template.csv</li>
-<li>the table <code>Participant Metadata</code> describes the fields in the participants_template.csv
-ii. The participantID on the sessions_template and participants_template must match<br />
-iii. key is typically the same as participantID<br />
 </li>
-</ul></li>
+<li>Make sure the items in the required column are completed for each file.
+- the table <code>Session Metadata</code> describes the fields in the sessions_template.csv
+- the table <code>Participant Metadata</code> describes the fields in the participants_template.csv</li>
+</ol>
+<ol start="2" style="list-style-type: lower-roman">
+<li>The participantID on the sessions_template and participants_template must match<br />
+</li>
+<li>key is typically the same as participantID<br />
+</li>
+</ol></li>
+</ol>
+<ol start="2" style="list-style-type: lower-alpha">
 <li>It may be easier to complete ingest_template.xlsx then save each tab as a .csv<br />
 i. participants_template.csv<br />
 ii. sessions_template.csv</li>

@@ -8,6 +8,9 @@ ethics
 managing-people
 create-a-new-volume
 reusing-data
+how-to-access-data-for-reuse
+ethics-of-reusing-data
+how-to-cite-reused-data
 requesting-access
 should-i-register-for-authorized-investigator-or-affiliate-status
 how-to-register-for-databrary-access
@@ -22,8 +25,8 @@ fix-an-audio-file-that-is-not-playing-in-databrary
 fix-a-video-file-that-is-not-playing-in-databrary
 oops-i-uploaded-the-wrong-file-in-my-session.-can-i-replace-it
 i-downloaded-files-from-databrary-but-the-filenames-are-truncated.
+i-have-a-dataset-that-has-been-completely-collected.-now-we-are-ready-to-share-with-databrary.-what-do-i-do
 formal-access-agreement
 definitions
 participant-info
 bill-of-rights-httpsgithub.comdatabrarypoliciesblobmasterbill-of-rights.md
-i-have-a-dataset-that-has-been-completely-collected.-now-we-are-ready-to-share-with-databrary.-what-do-i-do

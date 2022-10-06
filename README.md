@@ -47,11 +47,6 @@ User guide to the Databrary system
       - Signatory requirements
       - Ethics
       
-
-    
-  
-
-  
 - Ethics
   - more specific here than in other sections
    - why would use different forms and what you are agreeing too
@@ -84,8 +79,6 @@ User guide to the Databrary system
   
   
 - How do I upload and/or share data
-  - Upload Participant Data - individually
-  - Upload Participant Metatdata via CSV (video https://nyu.databrary.org/volume/686/slot/27587/-?asset=122478)
   - Add Session Data (video https://nyu.databrary.org/volume/686/slot/27588/-?asset=122480)
   - New Session or Materials
    - definition of session and materials
@@ -126,27 +119,14 @@ User guide to the Databrary system
     - Download as .zip
   - a single session
     - Download vs. Download Original 
-    
 
 
-- Re-using shared data on Databrary
-  - Download
-    - entire volume
-      - Download as .zip
-    - a single session
-      - Download vs. Download Original 
-    - cite data
-  - Ethics of Reusing
- 
 - FAQ
 
-  - I Qualify as an Authorized Organizational Representative (AOR). Can I sign as both Authorized Investigator and AOR?
-  - Can individuals not associated with an institution be authorized?
+
   - what if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status?
   - level of access for sessions vs. level of access for each specific file if they set a sessions folder to a specific level of access, they don't need to do it again for each of the files they upload to that session
-  - Fix an audio file that is not playing in Databrary
-  - Fix a video file that is not playing in Databrary
-  
+
   - Is use of Databrary free? If not, what is the payment structure?
   - Regarding permissions for users. We anticipate that we will have a range of users including faculty, professional developers, graduate students. We think getting access will be pretty straightforward for individuals connected to a university. However, how would someone (e.g., professional developer in a school district) gain access?
   - Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit
