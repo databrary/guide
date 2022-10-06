@@ -1,1 +1,19 @@
 # Ethics
+
+Databrary strives to uphold the highest research ethics while maximizing open and secure access to research data. We achieve this through multiple means:
+
+- Requiring that researchers fulfill all institutional requirements, including ethics board or Institutional Review Board (IRB) review if needed, in order to use Databrary materials.
+- Providing researchers with [template language](https://databrary.org/support/irb/irb-application.html) that may be used to apply for and secure ethics board approval.
+- Requiring researchers to ask research participants for their permission to share data and providing [template language](https://databrary.org/support/irb/release-template.html) to guide the process. We also provide a [template](https://databrary.org/support/irb/staff-release.html) for securing sharing permission from research staff that are recorded.
+- Providing a sample participant data sharing release [script](https://databrary.org/support/irb/script.html) and example [videos](https://databrary.org/support/irb/examples.html) of the data sharing release process.
+- Developing consistent [terminology and visual icons](https://databrary.org/support/irb/release-levels.html) for documenting sharing release levels.
+- Providing [guidance](https://databrary.org/support/irb/grandfathering-data.html) about when and how data collected previously might be stored and shared on Databrary.
+
+## Ethics/IRB Review {-}
+
+## Permission to share {-}
+
+## Sharing release levels {-}
+
+## Sharing data collected without a Databrary-specific release {-}
+

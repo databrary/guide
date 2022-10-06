@@ -1,9 +1,4 @@
-what-is-databrary
-what-is-my-role
-as-an-institution
-as-a-researcher
-as-a-student-or-staff
-why-should-i-use-databrary
+about-databrary
 ethics
 managing-people
 create-a-new-volume
