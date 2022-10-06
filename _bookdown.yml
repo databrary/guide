@@ -6,5 +6,5 @@ language:
     fig: "Figure "
     tab: "Table "
 delete_merged_file: true
-output_dir: "_book"
+output_dir: "docs"
 repo: https://github.com/databrary/guide
