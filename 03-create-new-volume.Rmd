@@ -39,6 +39,25 @@ When all items are entered, select `Save`
 <img src="img/db-new-volume-overview.JPG" alt="Databrary Home" width="70%"/>
 </p>
 
+You may have the option to enter Keywords associated with the Volume.
+
+### Volume Tags vs. Keywords{- #Volume}
+
+What is the difference between a Tag and a Keyword?
+
+Tag - Anyone can tag a volume
+Keyword - Only Volume Owners/Authors/Investigators (best word here?)
+
+How to Tags and Keywords affect the search function?
+
+Tags can be searched for on the [Databrary Search Page](http://nyu.databrary.org/search)
+
+Keywords are for??? Maybe these are the same keywords that would have been used in the associated Journal article.
+
+Can I tag a Session?
+
+This appears to be possible, but the search function cannot present results by session. Therefore only Volume Tags are currently searchable.
+
 ## Step 4: Manage Access {- #step4}
 
 Next, go to **Manage Access** to choose volume sharing options and add collaborators (faculty, staff, students) that already have an account on Databrary that is Sponsored by an Institution or an Authorized Investigator.
@@ -133,6 +152,8 @@ Session folders are for participant sessions and materials folders are for thing
 <img src="img/db-new-volume-enter-data.JPG" alt="Databrary Home" width="70%"/>
 </p>
 
+
+
 ## Step 7: Add Links {- #step7}
 
 Please share more information in your Databrary Volume using **Add Links**. Here you will want to add links to any outside resources related to this dataset (e.g. published paper, github repository)
@@ -148,3 +169,20 @@ Finally, please share your funding source for your volume in **List Funding**. I
 <p align="center">
 <img src="img/db-new-volume-list-funding.JPG" alt="Databrary Home" width="70%"/>
 </p>
+
+### Volume Tags vs. Keywords{- #Volume}
+
+What is the difference between a Tag and a Keyword?
+
+Tag - Anyone can tag a volume
+Keyword - Only Volume Owners/Authors/Investigators (best word here?)
+
+How to Tags and Keywords affect the search function?
+
+Tags can be searched for on the [Databrary Search Page](http://nyu.databrary.org/search)
+
+Keywords are for??? Maybe these are the same keywords that would have been used in the associated Journal article.
+
+Can I tag a Session?
+
+This appears to be possible, but the search function cannot present results by session. Therefore only Volume Tags are currently searchable.
