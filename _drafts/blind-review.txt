@@ -1,0 +1,10 @@
+Databrary is a restricted access data repository that promotes the storage and sharing of identifiable and sensitive data. As such, Databrary has unique policies to protect the privacy of research participants. These policies govern who can access identifiable data and under what circumstances. The policies are codified in a formal access agreement that binds NYU, Databrary's parent institution, and similar institutions where Databrary's users conduct research. For the forseeable future, these policies make it impossible to support full double-blinded anonymous review of data and materials.
+
+While some data and materials are shared with the public, Databrary restricts access to sensitive and identifiable information to people who have received authorization from an institution or to those whose access is supervised by an authorized investigator. Only authorized investigators can create and share datasets. Dataset creators, not Databrary, determine what level of sharing is appropriate for individual data files and for datasets as a whole.
+
+So, the level of access a reviewer can have to a dataset depends on two things: Has the dataset been shared with the Databrary community? Does the reviewer have authorization from an institution to view restricted data or materials? 
+
+If both answers are yes, the reviewer may fully vet a shared dataset. Databrary does not report on access to specific datasets, so the reviewer can remain anonymous. Databrary does not mask the identities of dataset owners, so the blinding is only one-way.
+
+If the dataset is shared, but the reviewer does not have authorization from an institution, the reviewer can confirm that a shared dataset exists, that the dataset has a persistent identifier, and that the dataset has a specific number of shared restricted access files. The reviewer may also examine any items that are shared with the public, stimuli, protocol, aggregated and de-identified datasets, etc.
+

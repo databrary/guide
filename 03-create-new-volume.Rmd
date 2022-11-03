@@ -69,6 +69,8 @@ Now it is time to **Enter Data**. There are two options:
 
 See video instructions to [upload participant metadata](https://nyu.databrary.org/volume/686/slot/27587/-?asset=122478) or follow the instructions below.
 
+<!-- Embed URL: https://nyu.databrary.org/slot/27587/0,183810/asset/122478/download?inline=true -->
+
 What is an appropriately formatted .csv file?
 
 - ensure that the Header row is exactly the same as the **Spreadsheet Preview** in the `Design Spreadsheet` tab.
@@ -110,7 +112,7 @@ Now the uploaded data will show like this.
 
 After the participant metadata is uploaded, the data regarding the testing session and any relevant filed get uploaded individually. See video instructions for uploading [participant session data](https://nyu.databrary.org/volume/686/slot/27588/-?asset=122480) or follow the instructions below.
 
-Click on the  `folder` tab
+Click on the  `folder` tab.
 
 Click on `add folder` and choose to add a **session** or **materials** folder.
 
@@ -119,7 +121,6 @@ Click on `add folder` and choose to add a **session** or **materials** folder.
 </p>
 
 Session folders are for participant sessions and materials folders are for thing related to the study such as surveys used, sample consent forms, and stimuli.
-
 
 **Continue working HERE**
 
