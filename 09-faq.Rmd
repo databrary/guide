@@ -17,6 +17,11 @@ To become an Authorized Investigator on Databrary you/your institution must meet
   - The person executing this Access Agreement on behalf of the Institution has the authority to do so  
   - Data on Databrary is provided for non-commercial and non-personal use only and is subject to the terms of use outlined in the Databrary Access Agreement.
   
+## I did all registration and authorization steps on databrary. I need to download a data set. My supervising professor has registered and gave me access but I still can't download it.
+
+Your supervising professor did register and requested access to Databrary. Access is not immediate. Your supervising professor and an authorized signatory on behalf of the university must review and approve the agreement. After Databrary receives the completed agreement, we may grant Databrary authorization to your supervising professor.
+
+
 ## Does Databrary offer "blind review"?
 
 Databrary is a restricted access data repository that promotes the storage and sharing of identifiable and sensitive data. As such, Databrary has unique policies to protect the privacy of research participants. These policies govern who can access identifiable data and under what circumstances. The policies are codified in a formal access agreement that binds NYU, Databrary's parent institution, and similar institutions where Databrary's users conduct research. For the forseeable future, these policies make it impossible to support full double-blinded anonymous review of data and materials.
