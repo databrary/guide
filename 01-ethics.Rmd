@@ -6,10 +6,13 @@ Databrary strives to uphold the highest research ethics while maximizing open an
 - Providing researchers with [template language](https://databrary.org/support/irb/irb-application.html) that may be used to apply for and secure ethics board approval.
 - Requiring researchers to ask research participants for their permission to share data and providing [template language](https://databrary.org/support/irb/release-template.html) to guide the process. We also provide a [template](https://databrary.org/support/irb/staff-release.html) for securing sharing permission from research staff that are recorded.
 - Providing a sample participant data sharing release [script](https://databrary.org/support/irb/script.html) and example [videos](https://databrary.org/support/irb/examples.html) of the data sharing release process.
+- [Sample Email](https://databrary.org/support/irb/email.html) requesting data sharing release when it is not possible to obtain permission at the time of the visit
 - Developing consistent [terminology and visual icons](https://databrary.org/support/irb/release-levels.html) for documenting sharing release levels.
 - Providing [guidance](https://databrary.org/support/irb/grandfathering-data.html) about when and how data collected previously might be stored and shared on Databrary.
 
 ## Ethics/IRB Review {-}
+
+[IRB Application Template Language](https://databrary.org/support/irb/irb-application.html)
 
 ## Permission to share {-}
 
@@ -17,3 +20,32 @@ Databrary strives to uphold the highest research ethics while maximizing open an
 
 ## Sharing data collected without a Databrary-specific release {-}
 
+# Grants
+
+## Data Management Plan Template {-}
+
+[Sample](https://databrary.org/support/irb/irb-application.html)
+
+## Internal Data Use Agreement Information {-}
+
+This Agreement is different from a traditional DUA because there is no obligation for authorized investigators to use or to contribute data. Once our researchers are planning to share data from their lab or repurpose shared data, they would seek proper IRB approval for those activities.  
+
+The Data on Databrary Contains PII  
+
+HIPAA data is not stored on Databrary  
+
+Does the Consent Form used to collect the data permit its disclosure or has it been authorized by the relevant IRB(s)? Yes  
+
+All data on Databrary were collected and shared under the supervision of an IRB.  
+
+What is the purpose of the Data Exchange? The purpose of Databrary is to share research data between researchers to foster data reuse.  
+
+Describe the data being exchanged: The data are primarily video data of behavioral research in addition to stimuli that have been used for research studies.  
+
+Databrary’s Contact Information:   
+<p>Databrary<br/>
+4 Washington Place<br/>
+Room 409<br/>
+New York, NY 10003<br/>
+tel: (212) 998-9058<br/>
+contact@databrary.org</p><br/>
