@@ -24,10 +24,8 @@ fix-a-video-file-that-is-not-playing-in-databrary
 oops-i-uploaded-the-wrong-file-in-my-session.-can-i-replace-it
 i-downloaded-files-from-databrary-but-the-filenames-are-truncated.
 i-have-a-dataset-that-has-been-completely-collected.-now-we-are-ready-to-share-with-databrary.-what-do-i-do
+i-have-a-multisite-study-is-there-a-recommendation-on-volumefile-naming-schemes
 formal-access-agreement
 definitions
 participant-info
 bill-of-rights-httpsgithub.comdatabrarypoliciesblobmasterbill-of-rights.md
-i-have-a-multisite-study-is-there-a-recommendation-on-volumefile-naming-schemes
-sharing-release-template-form
-sample-script-for-requesting-permission-to-share
