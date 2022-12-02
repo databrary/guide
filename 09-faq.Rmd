@@ -131,6 +131,20 @@ After you have discussed this project with the Databrary Team, you are ready to 
     i.   participants_template.csv  
     ii.  sessions_template.csv  
 
+## I have a multisite study is there a recommendation on volume/file naming schemes?
+
+Try naming the each volume: ProjectName_SITEID
+
+** emphasize this in a box of some type **
+Please note: The Short Name is INTERNAL only to volume Investigators and Collaborators
+
+Where each SITEID has a unique id to each site, typically with the same number of characters.
+
+Each file uploaded can have a standard naming scheme which includes the SITEID.
+
+In the Volume Description, list the name of the university/institution in full. This allows for use of an API pull to ingest data when necessary.
+
+After all data are collected, a new volume with __ALL__ of the final data, including which data are from which site, can be created.
 
 
 
