@@ -16,11 +16,22 @@ To become an Authorized Investigator on Databrary you/your institution must meet
   - Be part of an institution that grants you the authority to choose and manage affiliates who meet Databrary's qualifications and who agree to follow Databrary's ethical principles, and  
   - The person executing this Access Agreement on behalf of the Institution has the authority to do so  
   - Data on Databrary is provided for non-commercial and non-personal use only and is subject to the terms of use outlined in the Databrary Access Agreement.
+
+## How much does Databrary cost?
+
+There is no cost to use Databrary.
+
+## How is Databrary funded?
+
+Databrary is supported through grants from federal agencies, and private foundations.
+
+## Where is Databrary located?
+
+Databrary is located at New York University (NYU). All data is stored on servers that are maintained by NYU IT staff.
   
 ## I did all registration and authorization steps on databrary. I need to download a data set. My supervising professor has registered and gave me access but I still can't download it.
 
 Your supervising professor did register and requested access to Databrary. Access is not immediate. Your supervising professor and an authorized signatory on behalf of the university must review and approve the agreement. After Databrary receives the completed agreement, we may grant Databrary authorization to your supervising professor.
-
 
 ## Does Databrary offer "blind review"?
 
