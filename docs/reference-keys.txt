@@ -1,5 +1,6 @@
 about-databrary
 ethics
+share-data-with-databrary
 grants
 managing-people
 create-a-new-volume
@@ -24,7 +25,7 @@ what-if-an-authorized-investigator-is-leaving-their-institution-for-another-inst
 level-of-access-for-sessions-vs.-level-of-access-for-each-specific-file-if-they-set-a-sessions-folder-to-a-specific-level-of-access-they-dont-need-to-do-it-again-for-each-of-the-files-they-upload-to-that-session
 fix-an-audio-file-that-is-not-playing-in-databrary
 fix-a-video-file-that-is-not-playing-in-databrary
-oops-i-uploaded-the-wrong-file-in-my-session.-can-i-replace-it
+replace-file
 i-downloaded-files-from-databrary-but-the-filenames-are-truncated.
 i-have-a-dataset-that-has-been-completely-collected.-now-we-are-ready-to-share-with-databrary.-what-do-i-do
 i-have-a-multisite-study-is-there-a-recommendation-on-volumefile-naming-schemes

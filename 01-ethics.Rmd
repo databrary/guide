@@ -41,6 +41,20 @@ Example videos of requesting permission to share participant data on Databrary: 
 
 ## Sharing data collected without a Databrary-specific release {-}
 
+Does your consent form permit you to show or reuse recordings for educational and scientific purposes?
+
+If you already use a video/audio or photo release form and want to find out whether you can share with Databrary, follow the following steps.
+
+### Seek formal permission from your IRB {-}
+If your release permits you to show recordings in educational or scientific settings, you may apply for formal permission from your IRB to share these recordings with Databrary. 
+
+### Determine what [sharing permission level](https://databrary.org/support/irb/release-levels.html) applies {-}
+Authorized Users Release: Your current release mean that recordings can be shared __only__ for research use by other Databrary Investigators
+Learning Audiences: Clips from those recordings be shown in educational and scientific contexts
+
+### Share data with Databrary
+You may [create a new volume](/docs/create-a-new-volume.html) yourself or contact Databrary for help in doing so.
+
 # Grants
 
 ## Data Management Plan Template {-}

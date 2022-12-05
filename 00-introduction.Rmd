@@ -17,7 +17,7 @@ Databrary is grateful to have received financial and in-kind support from the Eu
 
 ## Code base {-}
 
-Databrary's code base is open source and is hosted on [GitHub.](https://github.com/databrary).
+Databrary's code base is open source and is hosted on [GitHub](https://github.com/databrary).
 
 ## What is my role? {-}
 
@@ -29,7 +29,7 @@ Institutions are responsible for overseeing the researchers at their institution
 
 I must have human subjects training (e.g. [CITI](https://about.citiprogram.org/) training), be employed at an institution that has an ethics or [Institutional Review Board](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/institutional-review-boards-frequently-asked-questions), and be able to conduct independent research at my institution.
 
-I would like to reuse or upload data to Databrary. I need to read and sign a Databary Access agreement and its' Annexes (I, II, III) before I may be authorized.
+I would like to reuse or upload data to Databrary. I need to read and sign a Databrary Access agreement and its' Annexes (I, II, III) before I may be authorized.
 
 I can sponsor lab staff/students that are working on my projects to see my data or others data on Databrary.
 

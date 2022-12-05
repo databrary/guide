@@ -12,5 +12,6 @@ As a person who shares information with Databrary, you have the right to:
 - Refuse to share data without penalty
 - Ask to have your data removed from sharing on Databrary, without any penalty
 - Receive a copy of your Databrary release form for you to keep
--  assured that your identity will be kept in confidence by Databrary and its authorized researchers.
+- Be assured that your identity will be kept in confidence by Databrary and its authorized researchers.
+
 If I have any questions or concerns I can contact Databrary staff by email at contact@databrary.org. I can also ask the staff from the study I participated in for help.

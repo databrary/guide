@@ -72,7 +72,7 @@ If the dataset is shared, but the reviewer does not have authorization from an i
 
 7. a window pops up called 'edit metadata tags'. just select OK
 
-8. This new file needs to be [replaced]() in the Databrary session folder.
+8. This new file needs to be [replaced](#replace-file) in the Databrary session folder.
 
 ## Fix a video file that is not playing in Databrary
 
@@ -86,7 +86,7 @@ If you ever find that there are videos that don't play in Databrary, the followi
 
 The default settings in Handbrake should work just fine.
 
-## Oops, I uploaded the wrong file in my session. Can I replace it?
+## Oops, I uploaded the wrong file in my session. Can I replace it? {#replace-file}
 
 Yes! Please follow these instructions:
 
