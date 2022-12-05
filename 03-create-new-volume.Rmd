@@ -1,4 +1,4 @@
-# Create a new volume
+# Create a new volume {#newvol}
 
 ## Step 1: Login/Go to Profile {- #step1}
 
@@ -39,24 +39,7 @@ When all items are entered, select `Save`
 <img src="img/db-new-volume-overview.JPG" alt="Databrary Home" width="70%"/>
 </p>
 
-You may have the option to enter Keywords associated with the Volume.
-
-### Volume Tags vs. Keywords{- #Volume}
-
-What is the difference between a Tag and a Keyword?
-
-Tag - Anyone can tag a volume
-Keyword - Only Volume Owners/Authors/Investigators (best word here?)
-
-How to Tags and Keywords affect the search function?
-
-Tags can be searched for on the [Databrary Search Page](http://nyu.databrary.org/search)
-
-Keywords are for??? Maybe these are the same keywords that would have been used in the associated Journal article.
-
-Can I tag a Session?
-
-This appears to be possible, but the search function cannot present results by session. Therefore only Volume Tags are currently searchable.
+You may have the option to enter Keywords associated with the Volume. See [below](#Volume) for description.
 
 ## Step 4: Manage Access {- #step4}
 
@@ -171,14 +154,14 @@ Finally, please share your funding source for your volume in **List Funding**. I
 <img src="img/db-new-volume-list-funding.JPG" alt="Databrary Home" width="70%"/>
 </p>
 
-### Volume Tags vs. Keywords{- #Volume}
+## Volume Tags vs. Keywords{- #Volume}
 
 What is the difference between a Tag and a Keyword?
 
 Tag - Anyone can tag a volume
-Keyword - Only Volume Owners/Authors/Investigators (best word here?)
+Keyword - Only Volume Owners/Authors/Investigators can enter keywords
 
-How to Tags and Keywords affect the search function?
+How do Tags and Keywords affect the search function?
 
 Tags can be searched for on the [Databrary Search Page](http://nyu.databrary.org/search)
 

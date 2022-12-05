@@ -2,7 +2,7 @@ about-databrary
 ethics
 grants
 managing-people
-create-a-new-volume
+newvol
 reusing-data
 requesting-access
 frequently-asked-questions
