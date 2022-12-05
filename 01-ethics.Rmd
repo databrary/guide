@@ -82,7 +82,7 @@ Authorized Users Release: Your current release mean that recordings can be share
 Learning Audiences: Clips from those recordings be shown in educational and scientific contexts
 
 ### Share data with Databrary {-}
-You may [create a new volume]() yourself or contact Databrary for help in doing so.
+You may [create a new volume](/guide/create-new-volume.html) yourself or contact Databrary for help in doing so.
 
 # Grants
 
