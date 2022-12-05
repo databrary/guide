@@ -1,6 +1,6 @@
 # Participant Info
 
-## Bill of Rights (https://github.com/databrary/policies/blob/master/bill-of-rights.md)
+## Bill of Rights (https://github.com/databrary/policies/blob/master/bill-of-rights.md) {-}
 As a person who shares information with Databrary, you have the right to:
 
 - Be free of pressure from anyone else when deciding if you wish to share information

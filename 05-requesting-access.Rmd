@@ -1,6 +1,6 @@
 # Requesting access
 
-## Should I register for Authorized Investigator or Affiliate Status?  
+## Should I register for Authorized Investigator or Affiliate Status? {-} 
 
 I am an **Authorized Investigator** if:  
 
@@ -18,7 +18,7 @@ I am an **Affiliate** if:
 
 Your Supervisor or Research Sponsor must register as an Authorized Investigator BEFORE you may request affiliate access from them.
 
-## How to Register for Databrary Access  
+## How to Register for Databrary Access  {-}
 
 To start the authorization process on Databrary, please complete out the [Registration Form](https://nyu.databrary.org/user/register?page=create) or click `register` on the top right of the menu bar on databrary.org.  
 
@@ -62,7 +62,7 @@ Decide if you are entitled to Authorized Investigator status, or are requesting 
 <img src="img/db-request-authorization.JPG" alt="Request Authorization" width="70%"/>
 </p>
 
-### To register as an **Authorized Investigator** at an Institution:
+### To register as an **Authorized Investigator** at an Institution: {-}
 
 1. Select the `Authorized Investigator` radio button and search for your institution. 
     * If your institution is not found in the drop down box, please select 'Other' and provide more information on the next screen.
@@ -78,7 +78,7 @@ Decide if you are entitled to Authorized Investigator status, or are requesting 
 <img src="img/db-submit-authorization-AI-other.JPG" alt="Request Authorization for New Instituiton" width="70%"/>
 </p>
 
-### To register as an **Affiliate** of an Authorized Investigator:
+### To register as an **Affiliate** of an Authorized Investigator: {-}
 
 You can only do this if your Supervisor or Research Sponsor ALREADY has a Databrary Account.
 

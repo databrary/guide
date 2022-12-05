@@ -1,6 +1,6 @@
 # Reusing data
 
-## How to access data for reuse
+## How to access data for reuse {-}
 
 Re-using shared data on Databrary
   - Download
@@ -10,9 +10,9 @@ Re-using shared data on Databrary
       - Download vs. Download Original 
  
   
-## Ethics of Reusing Data
+## Ethics of Reusing Data {-}
 
 
 
-## How to cite reused data
+## How to cite reused data {-}
 

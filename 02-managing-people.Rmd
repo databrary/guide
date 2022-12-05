@@ -1,5 +1,22 @@
 # Managing people
 
 Authorized investigators can manage their collaborators and affiliates.
-  
 
+## Collaborators {-}
+
+## Affiliates {-}
+
+An Affiliate is a individual who 
+- conducts research under an Authorized Investigator's sponsorship and supervision 
+- who has been granted access to Databrary by the Authorized Investigator
+- is a student, research staff, or Post-doctoral research
+- is not eligible for Authorized Investigator status.
+
+The Supervisor or Research Sponsor must register as an Authorized Investigator BEFORE you may request affiliate access from them.
+
+An affiliate will not have access to non-public data on Databrary until AFTER the Authorized Investigator has submitted all paperwork to Databrary, and granted the affiliate appropriate access.
+
+
+
+
+[Lab Staff Access Agreement](file/staff-agreement.pdf) for Download 
