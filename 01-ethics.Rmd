@@ -16,7 +16,28 @@ Databrary strives to uphold the highest research ethics while maximizing open an
 
 ## Permission to share {-}
 
+### Sharing release template forms for download {-} 
+
+Data sharing release templates for  [Participants](file/DB-participant-release-template_2022-03-22.docx)
+and [Lab Staff](file/staff-release.pdf).  
+
+### Sample Script for requesting permission to share {-}
+
+Now that you have finished this session, there's one more thing we want to ask you. The data that researchers collect from babies and families are incredibly valuable for helping scientists to understand how children develop.
+
+So we wanted to ask if you are comfortable with allowing us to share the data we collected from this session with other researchers just like the professor who runs this lab/project. The data would be shared in a secure, online library, it's not available to the public-- only researchers that are authorized by their University would be able to access the information in the library.
+
+This permission form also asks whether you would allow other professors/ researchers like Dr. [PI’s Name] to show short bits of the videos to students or researchers for educational and scientific purposes. These data will not be used or shown for commercial purposes.
+
+### Videos {-}
+
+Example videos of requesting permission to share participant data on Databrary: https://databrary.org/support/irb/examples.html
+
+
+
 ## Sharing release levels {-}
+
+**Insert picture of sharing release levels here: https://databrary.org/support/irb/release-levels.html**
 
 ## Sharing data collected without a Databrary-specific release {-}
 
