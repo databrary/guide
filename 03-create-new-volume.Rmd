@@ -1,16 +1,19 @@
 # Create a new volume {#newvol}
+```{r include = FALSE}
+knitr::opts_chunk$set(echo=FALSE, out.width="80%", fig.align = "center")
+```
 
 ## Step 1: Login/Go to Profile {- #step1}
 
 Click the pink `Login` button in the middle of the [Databrary homepage](https://nyu.databrary.org/) to sign into your Databrary account.
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-main-page.JPG")
 ```
 
 Click on `Your Profile`
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-main-page-logged-in.JPG")
 ```
 
@@ -19,7 +22,7 @@ knitr::include_graphics("img/db-main-page-logged-in.JPG")
 
 Click on `Create Volume` to the right of **Data Owner Volumes**
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-create-volume.JPG")
 ```
 
@@ -36,7 +39,7 @@ If you need this data to be associated with a DOI, please answer `YES` to the qu
 
 When all items are entered, select `Save`
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-new-volume-overview.JPG")
 ```
 
@@ -52,7 +55,7 @@ Please be sure to pick the appropriate sharing setting, Private, Share Volume Ov
 
 Please note: Only the Authorized Investigator who created this volume can 'Share Entire Volume'
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-new-volume-manage-access.JPG")
 ```
 
@@ -60,7 +63,7 @@ knitr::include_graphics("img/db-new-volume-manage-access.JPG")
 
 Now, go to **Design Spreadsheet** and choose all the categories and sub-categories you would like to include in your spreadsheet for participant/session metadata.
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-new-volume-design-spreadsheet.png")
 ```
 
@@ -70,9 +73,9 @@ Now it is time to **Enter Data**. There are two options:
 
 ### Upload a participant metadata file. {- #participantmetadata}
 
-See video instructions to [upload participant metadata](https://nyu.databrary.org/volume/686/slot/27587/-?asset=122478) or follow the instructions below.
+See video instructions or follow the step by step instructions below.
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r, out.width="90%"}
 knitr::include_url("https://nyu.databrary.org/slot/27587/0,183810/asset/122478/download?inline=true")
 ```
 
@@ -81,13 +84,13 @@ What is an appropriately formatted .csv file?
 
 - ensure that the Header row is exactly the same as the **Spreadsheet Preview** in the `Design Spreadsheet` tab.
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-design-spreadsheet.png")
 ```
 
 so this .csv file would look like:
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-participant-metadata.png")
 ```
 
@@ -95,13 +98,13 @@ Now it is time to upload the participant .csv file.
 
 Click the `participant` tab. Then `Choose File` to navigate to the appropriate file. Finally click `Upload`.
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-enter-data-participant.png")
 ```
 
 You will see a window that summarizes the data uploaded and will point out any potential errors (e.g. wrong header names, missing data)
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-data-upload-summary.png")
 ```
 
@@ -111,17 +114,23 @@ Then click `Yes`.
 
 Now the uploaded data will show like this.
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-uploaded-metadata.png")
 ```
 
-After the participant metadata is uploaded, the data regarding the testing session and any relevant filed get uploaded individually. See video instructions for uploading [participant session data](https://nyu.databrary.org/volume/686/slot/27588/-?asset=122480) or follow the instructions below.
+After the participant metadata is uploaded, the data regarding the testing session and any relevant filed get uploaded individually. 
 
-Click on the  `folder` tab.
+See video instructions or follow the step by step instructions below.
+
+```{r, out.width="90%"}
+knitr::include_url("https://nyu.databrary.org/slot/27588/0,170067/asset/122480/download?inline=true")
+```
+
+Click on the `folder` tab.
 
 Click on `add folder` and choose to add a **session** or **materials** folder.
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-add-folder.png")
 ```
 
@@ -135,7 +144,7 @@ Session folders need to be added individually. Once the Participant ID is entere
 - Complete each metadata item selected to create the participant, then
 - Add files related to that participant
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-new-volume-enter-data.JPG")
 ```
 
@@ -143,7 +152,7 @@ knitr::include_graphics("img/db-new-volume-enter-data.JPG")
 
 Please share more information in your Databrary Volume using **Add Links**. Here you will want to add links to any outside resources related to this dataset (e.g. published paper, github repository)
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-new-volume-add-links.JPG")
 ```
 
@@ -151,7 +160,7 @@ knitr::include_graphics("img/db-new-volume-add-links.JPG")
 
 Finally, please share your funding source for your volume in **List Funding**. If your funding source is not listed here, please email Databrary Staff at contact@databrary.org to have it added.
 
-```{r, out.width='70%', fig.align = 'center'}
+```{r}
 knitr::include_graphics("img/db-new-volume-list-funding.JPG")
 ```
 
