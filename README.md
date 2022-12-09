@@ -1,6 +1,22 @@
 # guide
 User guide to the Databrary system
 
+## Helpful Notes
+
+```{r}
+knitr::include_graphics("")
+```
+try image on Databrary
+path to local file
+
+\@ref(section_label)
+
+\@fig(fig_label)
+
+
+take sections in annex III and make them as child rmd documents
+
+
 ## Outline for planning purposes
 
 - Introduction

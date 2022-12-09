@@ -4,24 +4,25 @@
 
 Click the pink `Login` button in the middle of the [Databrary homepage](https://nyu.databrary.org/) to sign into your Databrary account.
 
-<p align="center">
-<img src="img/db-main-page.JPG" alt="Databrary Home" width="70%"/>
-</p>
-
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-main-page.JPG")
+```
 
 Click on `Your Profile`
 
-<p align="center">
-<img src="img/db-main-page-logged-in.JPG" alt="Databrary Home" width="70%"/>
-</p>
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-main-page-logged-in.JPG")
+```
+
 
 ## Step 2: Begin Create Volume {- #step2}
 
 Click on `Create Volume` to the right of **Data Owner Volumes**
 
-<p align="center">
-<img src="img/db-create-volume.JPG" alt="Databrary Home" width="70%"/>
-</p>
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-create-volume.JPG")
+```
+
 
 There are multiple tabs on the left side of the screen that need to be completed to set up a new volume. These tabs need to be completed in order.
 
@@ -35,9 +36,9 @@ If you need this data to be associated with a DOI, please answer `YES` to the qu
 
 When all items are entered, select `Save`
 
-<p align="center">
-<img src="img/db-new-volume-overview.JPG" alt="Databrary Home" width="70%"/>
-</p>
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-new-volume-overview.JPG")
+```
 
 You may have the option to enter Keywords associated with the Volume. See [below](#Volume) for description.
 
@@ -51,17 +52,17 @@ Please be sure to pick the appropriate sharing setting, Private, Share Volume Ov
 
 Please note: Only the Authorized Investigator who created this volume can 'Share Entire Volume'
 
-<p align="center">
-<img src="img/db-new-volume-manage-access.JPG" alt="Databrary Home" width="70%"/>
-</p>
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-new-volume-manage-access.JPG")
+```
 
 ## Step 5: Design Spreadsheet {- #step5}
 
 Now, go to **Design Spreadsheet** and choose all the categories and sub-categories you would like to include in your spreadsheet for participant/session metadata.
 
-<p align="center">
-<img src="img/db-new-volume-design-spreadsheet.png" alt="Databrary Home" width="70%"/>
-</p>
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-new-volume-design-spreadsheet.png")
+```
 
 ## Step 6: Enter Data {- #step6}
 
@@ -71,35 +72,38 @@ Now it is time to **Enter Data**. There are two options:
 
 See video instructions to [upload participant metadata](https://nyu.databrary.org/volume/686/slot/27587/-?asset=122478) or follow the instructions below.
 
-<!-- Embed URL: https://nyu.databrary.org/slot/27587/0,183810/asset/122478/download?inline=true -->
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_url("https://nyu.databrary.org/slot/27587/0,183810/asset/122478/download?inline=true")
+```
+
 
 What is an appropriately formatted .csv file?
 
 - ensure that the Header row is exactly the same as the **Spreadsheet Preview** in the `Design Spreadsheet` tab.
 
-<p align="center">
-<img src="img/db-design-spreadsheet.png" alt="Participant Tab" width="70%"/>
-</p>
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-design-spreadsheet.png")
+```
 
 so this .csv file would look like:
 
-<p align="center">
-<img src="img/db-participant-metadata.png" alt="Participant Tab" width="70%"/>
-</p>
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-participant-metadata.png")
+```
 
 Now it is time to upload the participant .csv file. 
 
 Click the `participant` tab. Then `Choose File` to navigate to the appropriate file. Finally click `Upload`.
 
-<p align="center">
-<img src="img/db-enter-data-participant.png" alt="Participant Tab" width="70%"/>
-</p>
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-enter-data-participant.png")
+```
 
 You will see a window that summarizes the data uploaded and will point out any potential errors (e.g. wrong header names, missing data)
 
-<p align="center">
-<img src="img/db-data-upload-summary.png" alt="Participant Tab" width="70%"/>
-</p>
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-data-upload-summary.png")
+```
 
 Please review these data
 
@@ -107,10 +111,9 @@ Then click `Yes`.
 
 Now the uploaded data will show like this.
 
-<p align="center">
-<img src="img/db-uploaded-metadata.png" alt="Participant Tab" width="70%"/>
-</p>
-
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-uploaded-metadata.png")
+```
 
 After the participant metadata is uploaded, the data regarding the testing session and any relevant filed get uploaded individually. See video instructions for uploading [participant session data](https://nyu.databrary.org/volume/686/slot/27588/-?asset=122480) or follow the instructions below.
 
@@ -118,13 +121,13 @@ Click on the  `folder` tab.
 
 Click on `add folder` and choose to add a **session** or **materials** folder.
 
-<p align="center">
-<img src="img/db-add-folder.png" alt="Participant Tab" width="70%"/>
-</p>
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-add-folder.png")
+```
 
 Session folders are for participant sessions and materials folders are for thing related to the study such as surveys used, sample consent forms, and stimuli.
 
-**Continue working HERE**
+Session folders need to be added individually. Once the Participant ID is entered, the related metadata will be filled in. Then the rest of the session information will need to be added individually.
 
 ### Enter Data individually (the upload as you go method) {- #individually}
 
@@ -132,27 +135,25 @@ Session folders are for participant sessions and materials folders are for thing
 - Complete each metadata item selected to create the participant, then
 - Add files related to that participant
 
-<p align="center">
-<img src="img/db-new-volume-enter-data.JPG" alt="Databrary Home" width="70%"/>
-</p>
-
-
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-new-volume-enter-data.JPG")
+```
 
 ## Step 7: Add Links {- #step7}
 
 Please share more information in your Databrary Volume using **Add Links**. Here you will want to add links to any outside resources related to this dataset (e.g. published paper, github repository)
 
-<p align="center">
-<img src="img/db-new-volume-add-links.JPG" alt="Databrary Home" width="70%"/>
-</p>
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-new-volume-add-links.JPG")
+```
 
 ## Step 8: List Funding {- #step8}
 
 Finally, please share your funding source for your volume in **List Funding**. If your funding source is not listed here, please email Databrary Staff at contact@databrary.org to have it added.
 
-<p align="center">
-<img src="img/db-new-volume-list-funding.JPG" alt="Databrary Home" width="70%"/>
-</p>
+```{r, out.width='70%', fig.align = 'center'}
+knitr::include_graphics("img/db-new-volume-list-funding.JPG")
+```
 
 ## Volume Tags vs. Keywords{- #Volume}
 
