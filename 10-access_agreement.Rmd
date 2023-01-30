@@ -1031,3 +1031,14 @@ of the Databary Access Agreement.
 **Institution**: An academic, not-for-profit, research, government, or
 health entity whose employees or students conduct scientific research or
 educational activities.
+
+**Volume**:
+
+**Session**: A type of folder in Databrary 
+
+**Materials**: A type of folder in Datatbrary for items such as stimuli, blank survey materials,
+
+**Volume Sharing Levels**:
+
+**Participant Sharing Levels**:
+
