@@ -1,10 +1,10 @@
 about-databrary
 ethics
 grants
+requesting-access
 managing-people
 newvol
 reusing-data
-requesting-access
 frequently-asked-questions
 i-qualify-as-an-authorized-organizational-representative-aor.-can-i-sign-as-both-authorized-investigator-and-aor
 can-individuals-not-associated-with-an-institution-be-authorized
