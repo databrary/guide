@@ -2,10 +2,7 @@ about-databrary
 ethics
 grants
 requesting-access
-i-am-an-authorized-investigator-now-what
-review-your-notification-settings
-add-affiliates
-i-am-an-affiliate-what-do-i-do-now
+onboarding
 managing-people
 newvol
 reusing-data

@@ -1,12 +1,14 @@
-# I am an Authorized Investigator, Now What?
+# Onboarding
 
-## Update your profile {-}
+## for Authorized Investigators {-}
+
+### Update your profile {-}
 
 We want Databrary users to get to know each other.
 
 add picture of profile tab
 
-### Edit Profile Tab Options {-}
+#### Edit Profile Tab Options {-}
 
 - Upload your profile picture 
 
@@ -14,13 +16,13 @@ We have found the a picture of proportions XXX looks nice, but you may upload a 
 
 - Add in your lab or personal website
 
-### Review your Notification Settings
+#### Review your Notification Settings {-}
 
 Ensure you are getting the notifications that you choose. Please review all of the notification settings.
 
 add picture of notification tab
 
-### Add Affiliates
+#### Add Affiliates {-}
 
 You may add access to Databrary for students, postdocs, or lab staff that you supervise. In order for you to add affiliates, they must have already completed the first 4 tabs of [registration](https://nyu.databrary.org/user/register?page=create).
 
@@ -30,15 +32,15 @@ If your lab staff will possibly be videotaped during data collection, they will 
 
 add picture of affiliates tab
 
-# I am an Affiliate, What do I do now?
+## for Affiliates {-}
 
-## Update your profile {-}
+### Update your profile {-}
 
 We want Databrary users to get to know each other.
 
 add picture of profile tab
 
-## Request Databrary Access {-}
+### Request Databrary Access {-}
 
 Now that you have completed the first 4 tabs of [registration](https://nyu.databrary.org/user/register?page=create), it is time for you to request access to Databrary from your supervising professor
 
