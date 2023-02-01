@@ -24,3 +24,7 @@ i-have-a-multisite-study-is-there-a-recommendation-on-volumefile-naming-schemes
 formal-access-agreement
 definitions
 participant-info
+i-am-an-authorized-investigator-now-what
+review-your-notification-settings
+add-affiliates
+i-am-an-affiliate-what-do-i-do-now
