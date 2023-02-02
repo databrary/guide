@@ -19,20 +19,6 @@ take sections in annex III and make them as child rmd documents
 
 ## Outline for planning purposes
 
-- Introduction
-  - What is Databrary?
-    - what is my role
-      - as an institution
-      - as a researcher
-      - as a staff or student
-        - 1 sent description
-        - to find additional details (link)
-      - as a participant
-      
-  - Why should I use Databrary?
-    - Grants 
-      - grants require you to share data
-      
 - Getting Access to Databrary
   - Ethics required
     - CITI or equivalent training
