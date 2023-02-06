@@ -16,3 +16,10 @@ Re-using shared data on Databrary
 
 ## How to cite reused data {-}
 
+
+## How to cite Databrary {-}
+
+Databrary. (2014). Databrary.org. https://nyu.databrary.org/
+
+Datavyu Team (2014). Datavyu: A Video Coding Tool. Databrary Project, New York University. URL http://datavyu.org.
+
