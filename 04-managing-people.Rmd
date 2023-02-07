@@ -4,9 +4,19 @@ Authorized investigators can manage their collaborators and affiliates.
 
 ## Collaborators {-}
 
+Collaborator: an **Authorized Investigator** at your Institution or another Institution who
+- have already been granted Authorized Investigator Status on Databrary by their Institution
+- are working with you on the data volume  
+- have PI status or you are eligible to conduct independent research at their Institution and the Institution accepts responsibility for its Authorized Investigators’ actions related to the use of Databrary  
+- have all current research ethics training that addresses human subjects policy and issues required by your institution; and
+- are at an institution that maintains an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects,
+
+`You are not responsible for the use of Databrary by another individual that qualifies for Authorized Investigator approval by their home institution`
+
 ## Affiliates {-}
 
-An Affiliate is a individual who 
+Affiliate: an individual who meets the following conditions
+
 - conducts research under an Authorized Investigator's sponsorship and supervision 
 - who has been granted access to Databrary by the Authorized Investigator
 - is a student, research staff, or Post-doctoral research
@@ -16,6 +26,27 @@ The Supervisor or Research Sponsor must register as an Authorized Investigator B
 
 An affiliate will not have access to non-public data on Databrary until AFTER the Authorized Investigator has submitted all paperwork to Databrary, and granted the affiliate appropriate access.
 
+### How to grant Affiliate Access {-}
+
+When you have authorization, you may add them as an "affiliate". Affiliate access may be granted by following the directions below.
+
+Your Affiliate (students, post-docs, lab staff)  
+1. Create an account on Databrary by selecting the 'register' link in the upper right corner.   Complete the first 4 tabs on the left side of the screen.   
+2. Go to the profile page of your supervising professor on Databrary.   
+3. Click on the button 'Apply for authorization from [Supervising professor name]' near the bottom of the page.  
+
+** Insert image here **
+
+Authorized Investigator  (faculty)  
+You will need to log in and grant affiliate access by completing the following:   
+1. Click on the edit button (the little pencil) next to your name   
+2. Choose the affiliates tab   
+3. Select the appropriate radio buttons to 'Allow access to others' data shared on Databrary' in addition to selecting the radio button to 'Grant access to your group/lab data'.   
+4. Save Changes  
+
+** Insert image here **
+
+It is not required, but you may wish to have your staff read and sign the Lab Staff Access Agreement (https://databrary.org/policies/staff-agreement.pdf). This does not get sent to Databrary, you would keep this for your own records.
 
 
 
