@@ -1,0 +1,38 @@
+# Edit a Volume
+
+## Overview
+
+### Edit Citation
+
+update the citation of my project
+    - setting sharing level
+    - Manage Access
+    - add cited authors vs. non cited researchers
+
+## Manage Access
+
+### to the Volume
+
+### for my Affiliates
+
+## Set up Spreadsheet
+
+## Add Data
+
+## New Session or Materials
+
+### Enter Metadata
+
+### Add Files
+
+## Add additional sessions to a volume
+
+## Share a volume
+
+### Directly with other Authorized Databrary Users
+
+ 
+    - with my collaborators/lab members that work on the data set
+      - Grant Affiliate Access to individuals are under my supervision
+      - Grant Collaborator Access - ONLY to an investigator already sponsored by an institution or another authorized investigator  
+### All Authorized Databrary Users

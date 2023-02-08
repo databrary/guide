@@ -62,23 +62,12 @@ take sections in annex III and make them as child rmd documents
 
 
 
-- Create a Volume
-  - Overview
-    - update the citation of my project
-    - setting sharing level
-    - Manage Access
-    - add cited authors vs. non cited researchers
-  - Set up the Spreadsheet
-  
   - Ethics of Sharing
     - Permission to share/upload to Databrary
       - How do I request permission to share participant video?  
       - How do I request permission to share if a research team member is in a video?  
       - How do I share older video research data if I didn't specifically ask to share with Databrary?  
-    - with my collaborators/lab members that work on the data set
-      - Grant Affiliate Access to individuals are under my supervision
-      - Grant Collaborator Access - ONLY to an investigator already sponsored by an institution or another authorized investigator  
-  
+    
   
 - How do I upload and/or share data
   - Add Session Data (video https://nyu.databrary.org/volume/686/slot/27588/-?asset=122480)
@@ -98,20 +87,11 @@ take sections in annex III and make them as child rmd documents
   
 - My data collection is complete and I am ready to share
  - add citation to publication
- - ensure DATA description is complete
-  - EG. what file types are included
-  - do not just paste abstract
-  - avoid acronyms or lab conventions
-  - describe displays and task agnostic to research question
-   - bad - complimentary gesture study
-   - good - videos of child and parent playing with 3 toys from 3 camera angles
+
+  
  - how do I share the volume
   
 
-- best practices
- - when do I need a new volume or the same volume
- - when do I use materials folder
- - how I do describe data
 
 - Searching on Databrary
   - Describe Filter By bar on Search page

@@ -158,6 +158,9 @@ In the Volume Description, list the name of the university/institution in full. 
 After all data are collected, a new volume with __ALL__ of the final data, including which data are from which site, can be created.
 
 
+## Regarding permissions for users. We anticipate that we will have a range of users including faculty, professional developers, graduate students. We think getting access will be pretty straightforward for individuals connected to a university. However, how would someone (e.g., professional developer in a school district) gain access?
 
+## Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit
 
-
+## Is there a storage capacity limit for each project?
+  

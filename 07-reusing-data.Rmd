@@ -1,6 +1,8 @@
 # Reusing data
 
-## How to access data for reuse {-}
+
+
+## How do I download data on Databrary for reuse {-}
 
 Re-using shared data on Databrary
   - Download

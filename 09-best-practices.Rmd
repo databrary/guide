@@ -1,0 +1,12 @@
+# Best Practices
+
+ - when do I need a new volume or the same volume
+ - when do I use materials folder
+## How I do describe data?
+ - ensure DATA description is complete
+  - EG. what file types are included
+  - do not just paste abstract
+  - avoid acronyms or lab conventions
+ - describe displays and task agnostic to research question
+   - bad - complimentary gesture study
+   - good - videos of child and parent playing with 3 toys from 3 camera angles
