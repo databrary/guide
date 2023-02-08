@@ -19,13 +19,13 @@ update the citation of my project
 
 ## Add Data
 
-## New Session or Materials
-
 ### Enter Metadata
 
-### Add Files
 
-## Add additional sessions to a volume
+
+### New Session or Materials Folder to a volume 
+
+### Add Files to an existing session/materials folder
 
 ## Share a volume
 

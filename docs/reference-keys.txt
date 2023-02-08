@@ -13,10 +13,9 @@ to-the-volume
 for-my-affiliates
 set-up-spreadsheet
 add-data
-new-session-or-materials
 enter-metadata
-add-files
-add-additional-sessions-to-a-volume
+new-session-or-materials-folder-to-a-volume
+add-files-to-an-existing-sessionmaterials-folder
 share-a-volume
 directly-with-other-authorized-databrary-users
 all-authorized-databrary-users
@@ -44,4 +43,6 @@ is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahea
 is-there-a-storage-capacity-limit-for-each-project
 formal-access-agreement
 definitions
+privacy-policy
+terms-and-conditions-of-use
 participant-info
