@@ -81,38 +81,17 @@ take sections in annex III and make them as child rmd documents
     - my video file isn't viewable, what do I do?
     - my audio file isn't playing, now what?
     
-  - Add additional sessions to a volume
-  - Select appropriate [release level](https://www.databrary.org/resources/guide/investigators/release/release-levels.html) for session in Databrary.
-  
-  
-- My data collection is complete and I am ready to share
- - add citation to publication
-
-  
- - how do I share the volume
-  
 
 
 - Searching on Databrary
   - Describe Filter By bar on Search page
   
-- Download
-  - entire volume
-    - Download as .zip
-  - a single session
-    - Download vs. Download Original 
 
 
 
   
-- Appendix  
 
-  - Privacy Policy
-  - Terms and Conditions
-  
-  - Databrary Participant Release Template
-  - Databrary Lab Staff Release Template
-  - Affiliate Databrary Access Agreement
-  
-  - data management plan template
-  - template language for IRB when required just to access
+
+
+
+
