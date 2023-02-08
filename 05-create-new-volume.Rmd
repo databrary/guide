@@ -2,6 +2,11 @@
 ```{r include = FALSE}
 knitr::opts_chunk$set(echo=FALSE, out.width="80%", fig.align = "center")
 ```
+## What stage is my project  {-}
+
+### New Project
+### Ongoing
+### Completed
 
 ## Step 1: Login/Go to Profile {- #step1}
 
@@ -53,6 +58,12 @@ Click `Save` when done.
 
 Please be sure to pick the appropriate sharing setting, Private, Share Volume Overview Only or Share Entire Volume. The default sharing setting is Private.
 
+Private: keeps the volume private to you and your chosen affiliates and collaborators
+
+Share Volume Overview Only: This will only share the Title and description of the volume exactly as it is entered in the Overview Tab
+
+Shared: 
+
 Please note: Only the Authorized Investigator who created this volume can 'Share Entire Volume'
 
 ```{r}
@@ -66,6 +77,10 @@ Now, go to **Design Spreadsheet** and choose all the categories and sub-categori
 ```{r}
 knitr::include_graphics("img/db-new-volume-design-spreadsheet.png")
 ```
+
+### Definitions for all Spreadsheet Options 
+
+pictures
 
 ## Step 6: Enter Data {- #step6}
 

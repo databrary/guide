@@ -51,3 +51,11 @@ Now that you have completed the first 4 tabs of [registration](https://nyu.datab
 
 add picture of supervising professor with 'apply for authorization' button
 
+## Tour of Databrary Dashboard
+
+### Edit View
+
+### Button Dictionary
+
+### Public View
+

@@ -1,6 +1,6 @@
 # Edit a Volume
 
-## Overview
+## Overview {-}
 
 ### Edit Citation
 
@@ -9,30 +9,32 @@ update the citation of my project
     - Manage Access
     - add cited authors vs. non cited researchers
 
-## Manage Access
+## Manage Access {-}
 
-### to the Volume
+### to the Volume {-}
 
-### for my Affiliates
+### for my Affiliates {-}
 
-## Set up Spreadsheet
+## Set up Spreadsheet {-}
 
-## Add Data
+## Add Data {-}
 
-### Enter Metadata
+- Select appropriate [release level](https://www.databrary.org/resources/guide/investigators/release/release-levels.html) for session in Databrary.
+
+### Enter Metadata {-}
 
 
 
-### New Session or Materials Folder to a volume 
+### New Session or Materials Folder to a volume {-} 
 
-### Add Files to an existing session/materials folder
+### Add Files to an existing session/materials folder {-}
 
-## Share a volume
+## Share a volume {-}
 
-### Directly with other Authorized Databrary Users
+### Directly with other Authorized Databrary Users {-}
 
  
     - with my collaborators/lab members that work on the data set
       - Grant Affiliate Access to individuals are under my supervision
       - Grant Collaborator Access - ONLY to an investigator already sponsored by an institution or another authorized investigator  
-### All Authorized Databrary Users
+### All Authorized Databrary Users {-}
