@@ -6,9 +6,7 @@ No. If you qualify as an Authorized Organizational Representative you will need 
 
 ## Can individuals not associated with an institution be authorized? {-}
 
-Not at this time.
-
-To become an Authorized Investigator on Databrary you/your institution must meet __All__ of the below conditions:  
+No. To become an Authorized Investigator on Databrary you/your institution must meet __All__ of the below conditions:  
 
   - Have PI status or you are eligible to conduct independent research at this Institution and the Institution accepts responsibility for its Authorized Investigators’ actions related to the use of Databrary  
   - Have all current research ethics training that addresses human subjects policy and issues required by your institution; and  
@@ -31,7 +29,7 @@ Databrary is located at New York University (NYU). All data is stored on servers
   
 ## I did all registration and authorization steps on databrary. I need to download a data set. My supervising professor has registered and gave me access but I still can't download it. {-}
 
-Your supervising professor did register and requested access to Databrary. Access is not immediate. Your supervising professor and an authorized signatory on behalf of the university must review and approve the agreement. After Databrary receives the completed agreement, we may grant Databrary authorization to your supervising professor.
+Your supervising professor did register and requested access to Databrary. Access is not immediate. Your supervising professor and an authorized signatory on behalf of the university must review and approve the agreement. After Databrary receives the completed agreement, we may grant Databrary authorization to your supervising professor. The time it takes for this to be completed depends on the internal requirements of each institution.
 
 ## Does Databrary offer "blind review"? {-}
 
@@ -47,6 +45,8 @@ If the dataset is shared, but the reviewer does not have authorization from an i
 
 ## what if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status? {-}
 
+The authorized investigator would need to meet all criteria required for authorization at both institutions.
+
 ## level of access for sessions vs. level of access for each specific file if they set a sessions folder to a specific level of access, they don't need to do it again for each of the files they upload to that session {-}
 
 ## Fix an audio file that is not playing in Databrary {-}
@@ -57,16 +57,17 @@ If the dataset is shared, but the reviewer does not have authorization from an i
 4. select the file from the appropriate folder in the downloads folder
 5. Now the file shows up in audacity
 
-<p align="center">  
-<img src="img/audacity-openfile.png" alt="Audio File Open in Audacity" width="70%"/>  
-</p>  
-  
+
+```{r, out.width = "70%", fig.align = "center", fig.cap="Open an Audio File in Audacity"}
+knitr::include_graphics("img/audacity-openfile.png")
+```
+
 6. Go to File > export > export as MP3
 7. use the following default parameters 
 
-<p align="center">  
-<img src="img/audacity-export-window.png" alt="Audacity File Export Window" width="70%"/>  
-</p>
+```{r, out.width = "70%", fig.align = "center", fig.cap="File Export Window in Audacity"}
+knitr::include_graphics("img/audacity-export-window.png")
+```
 
 - if your file is named incorrectly (e.g. spaces/brackets/filename truncated) please edit the filename here.
 
@@ -108,18 +109,19 @@ If the file name is too long (the first 32 characters of the filename are exactl
 
 ## I have a dataset that has been completely collected. Now we are ready to share with Databrary. What do I do? {-}
 
-<a href = "mailto: contact@databrary.org">Send Email to Databrary</a> so they may assist you. You will need answers to the following questions:
-- Who is the PI for this project?
-- Do you have permission to share these data with the Databrary community?
-    - Was a [Data Sharing Release](https://databrary.org/support/irb/release-template.html) or something similar completed at the time of Data Collection?
-    - Do you have parmission from your IRB or Research Ethics Board used at your instituiton to share these data with Databrary?  
-  - How many files are there for this dataset?
-  - What file types do you have (e.g. .mov, .mp4, .mp3, .pdf, .xls)?
-  - What is the total size of dataset (X GB)?
-  - How many different sessions/participants do you have?
-  - do you have materials to share (e.g. data collection instructions, survey questions) in addition to the videos collected for the study?
+<a href = "mailto: contact@databrary.org">Send an Email to Databrary</a> so they may assist you. You will need to include answers to the following questions:  
 
-After you have discussed this project with the Databrary Team, you are ready to prepare your dataset for ingest to Databrary.
+* What is the name and email address for PI for this project?  
+* Do you have permission to share these data with the Databrary community?  
+    + Was a [Data Sharing Release](https://databrary.org/support/irb/release-template.html) or something similar completed at the time of Data Collection?  
+    + Do you have permission from your IRB or Research Ethics Board used at your institution to share these data with Databrary?   
+* How many files are there for this dataset?  
+* What file types do you have (e.g. .mov, .mp4, .mp3, .pdf, .xls)? [Databrary Supported File Formats](https://nyu.databrary.org/asset/formats)
+* What is the total size of dataset (X GB)?  
+* How many different sessions/participants do you have?  
+* Do you have materials to share (e.g. data collection instructions, survey questions) in addition to the videos collected for the study?  
+ 
+Discuss this project with the Databrary Team to determine the next steps.
 
 1. Format your data with the same file structure for all sessions/participants
 
@@ -132,22 +134,21 @@ After you have discussed this project with the Databrary Team, you are ready to 
     a. find [path to folder with files] > out.txt 
     b. E.g. find /Users/username/Box/Data_for_Databrary > out.txt 
 4. Download [ingest_template.xls](https://github.com/databrary/curation/tree/master/spec/templates)  by opening the link, then click on the filename and select download.  
-    a. Details for what needs to be completed on these templates are found [here](https://github.com/databrary/curation/blob/master/spec/metadata.md)  
-    i.    Make sure the items in the required column are completed for each file.
-        - the table `Session Metadata` describes the fields in the sessions_template.csv 
-        - the table `Participant Metadata` describes the fields in the participants_template.csv 
-    ii.   The participantID on the sessions_template and participants_template must match   
-    iii.  key is typically the same as participantID    
-  b. It may be easier to complete ingest_template.xlsx then save each tab as a .csv  
-    i.   participants_template.csv  
-    ii.  sessions_template.csv  
+    a. Details for what needs to be completed on these templates are found   [here](https://github.com/databrary/curation/blob/master/spec/metadata.md)  
+        i. Make sure the items in the required columns are completed for each file.  
+            - the table `Session Metadata` describes the fields in the `sessions_template.csv`  
+            - the table `Participant Metadata` describes the fields in the `participants_template.csv`   
+        ii. The participantID on the sessions_template and participants_template must match   
+        iii. `key` is typically the same as `participantID`    
+    b. It may be easier to complete `ingest_template.xlsx` then save each tab as a .csv  
+        i.   participants_template.csv  
+        ii.  sessions_template.csv  
 
-## I have a multisite study is there a recommendation on volume/file naming schemes? {-}
+## I have a multi-site study is there a recommendation on volume/file naming schemes? {-}
 
-Try naming the each volume: ProjectName_SITEID
+Try naming the each Volume: ProjectName_SITEID
 
-** emphasize this in a box of some type **
-Please note: The Short Name is INTERNAL only to volume Investigators and Collaborators
+`The Short Name is INTERNAL only to volume Investigators and Collaborators`
 
 Where each SITEID has a unique id to each site, typically with the same number of characters.
 
