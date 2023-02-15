@@ -1,4 +1,6 @@
-# Ethics
+# Ethics and Grants
+
+## Databrary Ethics {-}
 
 Databrary strives to uphold the highest research ethics while maximizing open and secure access to research data. We achieve this through multiple means:
 
@@ -84,13 +86,13 @@ Learning Audiences: Clips from those recordings be shown in educational and scie
 ### Share data with Databrary {-}
 You may [create a new volume](#newvol) yourself or contact Databrary for help in doing so.
 
-# Grants
+## Grants {-}
 
 Many users want to know how to incorporate data sharing using Databrary in funding proposals to agencies like the U.S. National Science Foundation or National Institutes of Health.
 
 Researchers should confirm funding agency, directorate, or program-specific resource sharing plans or data management plan requirements.
 
-## Data Management Plan Template {-}
+### Data Management Plan Template {-}
 
 Below is boilerplate language prepared by Databrary that researchers can use to help draft data management or resource sharing plans. This document is intended to help researchers who plan to store and share video data in Databrary prepare grant materials for submission. The material here is particularly suited to NSF application requirements, but similar language can be adapted for NIH grants as well as private foundations. Please contact us at contact@databrary.org for further assistance.
 
