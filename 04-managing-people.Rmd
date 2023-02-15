@@ -11,7 +11,9 @@ Collaborator: an **Authorized Investigator** at your Institution or another Inst
 - have all current research ethics training that addresses human subjects policy and issues required by your institution; and
 - are at an institution that maintains an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects,
 
-`You are not responsible for the use of Databrary by another individual that qualifies for Authorized Investigator approval by their home institution`
+`
+You are not responsible for the use of Databrary by another individual that qualifies for Authorized Investigator approval by their home institution
+`
 
 ## Affiliates {-}
 
