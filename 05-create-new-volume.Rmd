@@ -80,7 +80,9 @@ knitr::include_graphics("img/db-new-volume-design-spreadsheet.png")
 
 ### Definitions for all Spreadsheet Options 
 
-pictures
+`ID` A unique, anonymized, primary identifier, such as a participant ID.
+
+`birthdate` Date of birth (used with session date to calculate age)
 
 ## Step 6: Enter Data {- #step6}
 
