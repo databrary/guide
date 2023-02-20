@@ -27,7 +27,7 @@ Databrary is supported through grants from federal agencies, and private foundat
 
 Databrary is located at New York University (NYU). All data is stored on servers that are maintained by NYU IT staff.
   
-## I did all registration and authorization steps on databrary. I need to download a data set. My supervising professor has registered and gave me access but I still can't download it. {-}
+## I did all registration and authorization steps on Databrary. I need to download a data set. My supervising professor has registered and gave me access but I still can't download it. {-}
 
 Your supervising professor did register and requested access to Databrary. Access is not immediate. Your supervising professor and an authorized signatory on behalf of the university must review and approve the agreement. After Databrary receives the completed agreement, we may grant Databrary authorization to your supervising professor. The time it takes for this to be completed depends on the internal requirements of each institution.
 
@@ -43,11 +43,19 @@ If both answers are yes, the reviewer may fully vet a shared dataset. Databrary 
 
 If the dataset is shared, but the reviewer does not have authorization from an institution, the reviewer can confirm that a shared dataset exists, that the dataset has a persistent identifier, and that the dataset has a specific number of shared restricted access files. The reviewer may also examine any items that are shared with the public, stimuli, protocol, aggregated and de-identified datasets, etc.
 
-## what if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status? {-}
+## What if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status? {-}
 
-The authorized investigator would need to meet all criteria required for authorization at both institutions.
+The authorized investigator would need to meet all criteria required for authorization at both institutions. 
 
-## level of access for sessions vs. level of access for each specific file if they set a sessions folder to a specific level of access, they don't need to do it again for each of the files they upload to that session {-}
+## As an authorized investigator moving to another institution, do I need to be re-authorized by my new institution? How do I change my institutional affiliation on Databrary? {-]
+
+**Answer here**
+
+## What if a Databrary user, who was originally authorized as an affiliate, now needs be an authorized investigator on Databrary? {-}
+
+**Answer here**
+
+## Level of access for sessions vs. level of access for each specific file if they set a sessions folder to a specific level of access, they don't need to do it again for each of the files they upload to that session {-}
 
 ## Fix an audio file that is not playing in Databrary {-}
 
@@ -101,6 +109,8 @@ Yes! Please follow these instructions:
 8. Click 'Replace File' at the top right of the screen
 9. Navigate in the files pane to the correct file then select Open
 
+## I just uploaded a video file onto Databrary and it says my uploading is complete. Why can't I see it on or download it from Databrary right away? {-}
+
 ## I downloaded files from Databrary, but the filenames are truncated. {-}
 
 When Databrary downloads files there is a `32 character filename limit`. Please ensure the file names do not exceed this. 
@@ -144,7 +154,7 @@ Discuss this project with the Databrary Team to determine the next steps.
         i.   participants_template.csv  
         ii.  sessions_template.csv  
 
-## I have a multi-site study is there a recommendation on volume/file naming schemes? {-}
+## I have a multi-site study. Is there a recommendation on volume/file naming schemes? {-}
 
 Try naming the each Volume: ProjectName_SITEID
 
@@ -158,10 +168,14 @@ In the Volume Description, list the name of the university/institution in full. 
 
 After all data are collected, a new volume with __ALL__ of the final data, including which data are from which site, can be created.
 
+## I have a multisite study. How do I add my co-investigators in the right order to the Databrary volume? {-}
+
+## I am an authorized investigator. What is the best practice for revoking access to affiliates who originally were in my lab but have left? {-}
 
 ## Regarding permissions for users. We anticipate that we will have a range of users including faculty, professional developers, graduate students. We think getting access will be pretty straightforward for individuals connected to a university. However, how would someone (e.g., professional developer in a school district) gain access? {-}
 
 ## Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit {-}
 
 ## Is there a storage capacity limit for each project? {-}
+
   
