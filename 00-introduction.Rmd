@@ -35,7 +35,7 @@ I can sponsor lab staff/students that are working on my projects to see my data 
 
 ### As a Student or Staff {-}
 
-I can only use non-public content on Databrary AFTER my supervisor has been granted authorization by their institution. This may take longer than I anticipate, so I will ask for authorization as early as possible.
+I can only use non-public content on Databrary AFTER my supervisor has been granted authorization by their institution. This may take longer than I anticipate, so I will ask for authorization as early as possible. I must also have human subjects training (e.g. [CITI](https://about.citiprogram.org/) training).
 
 ## Why should I use Databrary? {-}
 
