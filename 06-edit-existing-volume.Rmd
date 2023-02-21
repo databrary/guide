@@ -2,6 +2,8 @@
 
 ## Overview {-}
 
+### Edit Volume Overview
+
 ### Edit Citation
 
 update the citation of my project
@@ -13,17 +15,33 @@ update the citation of my project
 
 ### to the Volume {-}
 
-### for my Affiliates {-}
+Volume level:
+    - "private"
+    - "share overview only"
+    - "share entire volume"
+
+### for my Collaborators {-}
+
+Authorized investigators can add affiliates and give them different levels of permission:
+    - view and access only public data
+    - view and access only shared data
+    - read only
+    - read/write
+    - investigator (read/write/share)
+    
+Appearance order of investigators for citation purposes 
+
+Add yourself last!
 
 ## Set up Spreadsheet {-}
+
+### Spreadsheet preview
 
 ## Add Data {-}
 
 - Select appropriate [release level](https://www.databrary.org/resources/guide/investigators/release/release-levels.html) for session in Databrary.
 
 ### Enter Metadata {-}
-
-
 
 ### New Session or Materials Folder to a volume {-} 
 
