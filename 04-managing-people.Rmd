@@ -5,21 +5,21 @@ Authorized investigators can manage their collaborators and affiliates.
 ## Collaborators {-}
 
 Collaborator: an **Authorized Investigator** at your Institution or another Institution who
-- have already been granted Authorized Investigator Status on Databrary by their Institution
-- are working with you on the data volume  
-- have PI status or you are eligible to conduct independent research at their Institution and the Institution accepts responsibility for its Authorized Investigators’ actions related to the use of Databrary  
-- have all current research ethics training that addresses human subjects policy and issues required by your institution; and
-- are at an institution that maintains an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects,
+- has already been granted Authorized Investigator Status on Databrary by their Institution
+- is working with you on the data volume  
+- has PI status or you are eligible to conduct independent research at their Institution and the Institution accepts responsibility for its Authorized Investigators’ actions related to the use of Databrary  
+- has all current research ethics training that addresses human subjects policy and issues required by your institution; and
+- - is at an institution that maintains an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects,
 
 `You are not responsible for the use of Databrary by another individual that qualifies for Authorized Investigator approval by their home institution`
 
 ## Affiliates {-}
 
-Affiliate: an individual who meets the following conditions
+Affiliate: an individual who meets the following conditions:
 
 - conducts research under an Authorized Investigator's sponsorship and supervision 
 - who has been granted access to Databrary by the Authorized Investigator
-- is a student, research staff, or Post-doctoral research
+- is a student, research staff, or post-doctoral researcher
 - is not eligible for Authorized Investigator status.
 
 The Supervisor or Research Sponsor must register as an Authorized Investigator BEFORE you may request affiliate access from them.
@@ -28,9 +28,9 @@ An affiliate will not have access to non-public data on Databrary until AFTER th
 
 ### How to grant Affiliate Access {-}
 
-When you have authorization, you may add them as an "affiliate". Affiliate access may be granted by following the directions below.
+As an Authorized Investigator on Databrary, you may add your students, research staff, and post-doctoral researchers as "affiliates". Affiliate access may be granted to these individuals by following the directions below.
 
-Your Affiliate (students, post-docs, lab staff)  
+Your Affiliate (students, post-docs, lab staff) must: 
 1. Create an account on Databrary by selecting the 'register' link in the upper right corner.   Complete the first 4 tabs on the left side of the screen.   
 2. Go to the profile page of your supervising professor on Databrary.   
 3. Click on the button 'Apply for authorization from [Supervising professor name]' near the bottom of the page.  
