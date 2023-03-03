@@ -168,7 +168,7 @@ In the Volume Description, list the name of the university/institution in full. 
 
 After all data are collected, a new volume with __ALL__ of the final data, including which data are from which site, can be created.
 
-## I have a multisite study. How do I add my co-investigators in the right order to the Databrary volume? {-}
+## I am working on a multi-site study. How do I add my co-investigators in the right order to the Databrary volume to reflect our contributions to the project? {-}
 
 ## I am an authorized investigator. What is the best practice for revoking access to affiliates who originally were in my lab but have left? {-}
 
@@ -178,4 +178,6 @@ After all data are collected, a new volume with __ALL__ of the final data, inclu
 
 ## Is there a storage capacity limit for each project? {-}
 
-  
+## How do I get notified when a student or staff requests for affiliate access? {-}
+
+## Can I add another professor at my university as an affiliate? {-}
