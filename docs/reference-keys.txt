@@ -1,14 +1,9 @@
-fig:unnamed-chunk-20
-fig:unnamed-chunk-21
+fig:unnamed-chunk-31
+fig:unnamed-chunk-32
 about-databrary
-ethics
-grants
+ethics-and-grants
 requesting-access
 onboarding
-tour-of-databrary-dashboard
-edit-view
-button-dictionary
-public-view
 managing-people
 newvol
 new-project

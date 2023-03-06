@@ -1,5 +1,9 @@
 # Requesting access
 
+```{r include = FALSE}
+knitr::opts_chunk$set(echo=FALSE, out.width="80%", fig.align = "center")
+```
+
 ***Make sure to include:something on the website that indicates who/when/ and how to be approved based on particular parameters. ***
 
 ## Should I register for Authorized Investigator or Affiliate Status? {-} 
@@ -24,45 +28,43 @@ Your Supervisor or Research Sponsor must register as an Authorized Investigator 
 
 To start the authorization process on Databrary, please complete out the [Registration Form](https://nyu.databrary.org/user/register?page=create) or click `register` on the top right of the menu bar on databrary.org.  
 
-<p align="center">
-<img src="img/db-main-page.JPG" alt="Databrary Home" width="70%"/>
-</p>
-  
+```{r}
+knitr::include_graphics("img/db-main-page.JPG")
+```
+
 Fill out the Create Account form with your full name, valid institutional email address, and the name of your research institution.
 
-<p align="center">
-<img src="img/db-create-account.JPG" alt="Create Account" width="70%"/>
-</p>
- 
-  
+```{r}
+knitr::include_graphics("img/db-create-account.JPG")
+```
+
 Read the [Databrary Access Agreement](https://databrary.org/about/agreement/agreement.html), [Annex I](https://databrary.org/about/agreement/agreement-annex-I.html), [Annex II](https://databrary.org/about/agreement/agreement-annex-II.html), and [Annex III](https://databrary.org/about/agreement/agreement-annex-III.html) and check the box to agree to the access terms. 
 
-<p align="center">
-<img src="img/db-get-started.JPG" alt="Sign Agreement" width="70%"/>
-</p>
+```{r}
+knitr::include_graphics("img/db-get-started.JPG")
+```
 
 Go to your email box, locate the auto-generated email from Databrary, and confirm your email. If you don't receive the email within a few minutes, check your spam folder.  
 
-<p align="center">
-<img src="img/db-confirm-email.JPG" alt="Confirm Email" width="70%"/>
-</p>
+```{r}
+knitr::include_graphics("img/db-confirm-email.JPG")
+```
 
-<p align="center">
-<img src="img/db-registration-email.png" alt="Account Created Email" width="70%"/>
-</p>
+```{r}
+knitr::include_graphics("img/db-registration-email.png")
+```
 
 Please choose a password.  
 
-<p align="center">
-<img src="img/db-set-password.JPG" alt="Set Password" width="70%"/>
-</p>
+```{r}
+knitr::include_graphics("img/db-set-password.JPG")
+```
 
+Please read the requirements for `Authorized Investigator` and `Affiliate`. Choose the radio button that accurately reflects your qualifications.
 
-Decide if you are entitled to Authorized Investigator status, or are requesting affiliate status from your Supervisor or Research Sponsor.
-
-<p align="center">
-<img src="img/db-request-authorization.JPG" alt="Request Authorization" width="70%"/>
-</p>
+```{r}
+knitr::include_graphics("img/db-request-authorization.JPG")
+```
 
 ### To register as an **Authorized Investigator** at an Institution: {-}
 
@@ -71,14 +73,13 @@ Decide if you are entitled to Authorized Investigator status, or are requesting 
 2. This will auto-generate a notification to the Databrary team.
 3. Databrary's authorization team will be in touch (typically within 24-48 business hours) to help you through the process and initiate a DocuSign envelope for signature.
 
+```{r}
+knitr::include_graphics("img/db-request-authorization-AI-other.JPG")
+```
 
-<p align="center">
-<img src="img/db-request-authorization-AI-other.JPG" alt="Request Authorization for New Instituiton" width="70%"/>
-</p>
-
-<p align="center">
-<img src="img/db-submit-authorization-AI-other.JPG" alt="Request Authorization for New Instituiton" width="70%"/>
-</p>
+```{r}
+knitr::include_graphics("img/db-submit-authorization-AI-other.JPG")
+```
 
 ### To register as an **Affiliate** of an Authorized Investigator: {-}
 
@@ -87,9 +88,9 @@ You can only do this if your Supervisor or Research Sponsor ALREADY has a Databr
 1. Select the `Affiliate` radio button and search for your Supervisor or Research Sponsor's name. 
 2. Your Supervisor or Research Sponsor Investigator will receive a notification that you have applied for access, and can approve you. 
 
-<p align="center">
-<img src="img/db-request-authorization-affiliate.JPG" alt="Request Authorization for New Instituiton" width="70%"/>
-</p>
+```{r}
+knitr::include_graphics("img/db-request-authorization-affiliate.JPG")
+```
 
 If you need to request Affiliate Authorization in a separate session from creating your account, you may go to your Supervisor or Research Sponsors page on Databrary and request Affiliate Access from them.
 
