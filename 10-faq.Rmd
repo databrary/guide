@@ -178,4 +178,6 @@ After all data are collected, a new volume with __ALL__ of the final data, inclu
 
 ## Is there a storage capacity limit for each project? {-}
 
-  
+## Can I batch delete files from one of my volumes? {-}
+
+## Can I delete a volume? {-}
