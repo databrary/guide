@@ -181,3 +181,7 @@ After all data are collected, a new volume with __ALL__ of the final data, inclu
 ## How do I get notified when a student or staff requests for affiliate access? {-}
 
 ## Can I add another professor at my university as an affiliate? {-}
+
+## Can I batch delete files from one of my volumes? {-}
+
+## Can I delete a volume? {-}

@@ -58,24 +58,32 @@ Do not click `Save` until you have completed both steps below.
 
 ### Step 4.1 Sharing this Volume 
 
-Please be sure to pick the appropriate sharing setting, Private, Share Volume Overview Only or Share Entire Volume. The default sharing setting is Private.
+Please be sure to pick the appropriate sharing setting: **Private**, **Share Volume Overview Only** or **Share Entire Volume**. The default sharing setting is Private.
 
-Private: This keeps the volume private to you and your chosen affiliates and collaborators. The volume does not appear through the search functions on Databrary and only you and your chosen affiliates and collaborators will be able to view and access the volume. 
+**Private**: This keeps the volume private to you and your chosen affiliates and collaborators. The volume does not appear through the search functions on Databrary and only you and your chosen affiliates and collaborators will be able to view and access the volume. 
 
 The other volume sharing settings that can be selected are "Share Volume Overview Only" or "Share Entire Volume".
 
-Share Volume Overview Only: This will only share the title and description of the volume exactly as it is entered in the Overview tab.
+**Share Volume Overview Only**: This will only share the title and description of the volume exactly as it is entered in the Overview tab.
 
-Share Entire Volume: This will share the title and the description of the volume exactly as it is entered in the Overview tab. In addition, files that are shared with authorized investigators, for learning audiences, or publicly would be accessible depending on the specified file settings.
+**Share Entire Volume**: This will share the title and the description of the volume exactly as it is entered in the Overview tab. In addition, files that are shared with authorized investigators, for learning audiences, or publicly would be accessible depending on the specified file settings.
 
-Please note: Only the Authorized Investigator who created this volume can 'Share Entire Volume'
+Please note: Only the Authorized Investigator who created this volume can select the 'Share Entire Volume' option.
 
 ```{r}
 knitr::include_graphics("img/db-new-volume-manage-access.JPG")
 ```
 ### Step 4.2 Adding Collaborators
 
+You may choose to add collaborating researchers who are registered on Databrary to your Databrary volume. All collaborators that you add will appear in the citation generated for this volume.
 
+Search for your collaborator through the search function (see image below). You may search for an individual through the name or the email address affiliated with their Databrary account. Once you have selected their name, you will see several permission levels that you may grant them as a colloborator to your volume: **Read only**, **Read/write**, **Investigator (Read/write/share)**. You also have the ability to grant access to your collaborator's own affiliates (students, research staff, or post-doctoral researchers who have been granted access by your affiliate to access data on Databrary). 
+
+**Read only**:
+
+**Read/write**:
+
+**Investigator (Read/write/share)**:
 
 ## Step 5: Design Spreadsheet {- #step5}
 
