@@ -9,13 +9,17 @@ newvol
 new-project
 ongoing
 completed
+step-4.1-sharing-this-volume
 definitions-for-all-spreadsheet-options
 edit-a-volume
+edit-volume-overview
 edit-citation
+spreadsheet-preview
 reusing-data
 data-sharing
 best-practices
 frequently-asked-questions
+as-an-authorized-investigator-moving-to-another-institution-do-i-need-to-be-re-authorized-by-my-new-institution-how-do-i-change-my-institutional-affiliation-on-databrary--
 formal-access-agreement
 definitions
 privacy-policy
