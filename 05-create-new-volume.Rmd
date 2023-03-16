@@ -77,13 +77,16 @@ knitr::include_graphics("img/db-new-volume-manage-access.JPG")
 
 You may choose to add collaborating researchers who are registered on Databrary to your Databrary volume. All collaborators that you add will appear in the citation generated for this volume.
 
+Adding collaborators is the next section on this tab. Here, you are the ability to add any faculty, students, or staff who are working with you on the project associated with the Databrary volume. 
+
 Search for your collaborator through the search function (see image below). You may search for an individual through the name or the email address affiliated with their Databrary account. Once you have selected their name, you will see several permission levels that you may grant them as a colloborator to your volume: **Read only**, **Read/write**, **Investigator (Read/write/share)**. You also have the ability to grant access to your collaborator's own affiliates (students, research staff, or post-doctoral researchers who have been granted access by your affiliate to access data on Databrary). 
 
-**Read only**:
+**Read only**: This allows the individual to access and download any data in your volume.
 
-**Read/write**:
+**Read/write**:This allows the same permissions as the level below below, as well as the ability to upload, edit, and delete any data as well.
 
-**Investigator (Read/write/share)**:
+**Investigator (Read/write/share)**: This allows the same permissions as the level below, as well as the ability to add new collaborators to the volume. As a general rule of thumb, you should add any co-investigators on the grant to this volume and give them this level of permission.
+
 
 ## Step 5: Design Spreadsheet {- #step5}
 
