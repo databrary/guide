@@ -79,7 +79,6 @@ knitr::include_graphics("img/db-new-volume-manage-access.JPG")
 ```
 ### Step 4.2 Adding Collaborators
 
-<<<<<<< Updated upstream
 You may choose to add collaborating researchers who are registered on Databrary to your Databrary volume. All collaborators that you add will appear in the citation generated for this volume.
 
 Adding collaborators is the next section on this tab. Here, you are the ability to add any faculty, students, or staff who are working with you on the project associated with the Databrary volume. 
@@ -91,17 +90,6 @@ Search for your collaborator through the search function (see image below). You 
 **Read/write**:This allows the same permissions as the level below below, as well as the ability to upload, edit, and delete any data as well.
 
 **Investigator (Read/write/share)**: This allows the same permissions as the level below, as well as the ability to add new collaborators to the volume. As a general rule of thumb, you should add any co-investigators on the grant to this volume and give them this level of permission.
-=======
-Adding collaborators is the next section on this tab. Here, you are the ability to add any faculty, students, or staff who are working with you on the project associated with the Databrary volume. 
->>>>>>> Stashed changes
-
-There are 3 levels of permission you can grant a collaborator: Read only, Read/write, and Investigator (Read/write/share).
-
-Read only: This allows the individual to access and download any data in your volume.
-
-Read/write: This allows the same permissions as the level below below, as well as the ability to upload, edit, and delete any data as well.
-
-Investigator (Read/write/share): This allows the same permissions as the level below, as well as the ability to add new collaborators to the volume. As a general rule of thumb, you should add any co-investigators on the grant to this volume and give them this level of permission.
 
 In addition to granting an individual "Investigator" status on your volume, you can choose to extend access to their affiliates.
 
