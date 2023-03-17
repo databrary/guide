@@ -1,5 +1,6 @@
 # Best Practices
 
+ - Best practices for sharing entire volume when preparing for publication of paper?  Based on information from Databrary volumes in KEA's lab
  - when do I need a new volume or the same volume
  - when do I use materials folder
 ## How I do describe data?
