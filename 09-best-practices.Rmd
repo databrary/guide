@@ -18,8 +18,8 @@ Volumes used in example:
 
 * Should the citation of the dataset match the article that it is associated with? 
   + For example...
-    + `Tamis-LeMonda, C., Adolph, K. & Herzberg, O. (2020). Infant exuberant object play at home: Immense amounts of time-distributed, variable practice. Databrary. Retrieved March 21, 2023 from http://doi.org/10.17910/b7.1118.`
-    + `Herzberg, O., Fletcher, K. K., Schatz, J. L., Adolph, K. E., & Tamis-LeMonda, C. S. (2021). Infant exuberant object play at home: Immense amounts of time-distributed, variable practice. Child Development, 00, 1– 15. https://doi.org/10.1111/cdev.13669 `
+    + Tamis-LeMonda, C., Adolph, K. & Herzberg, O. (2020). Infant exuberant object play at home: Immense amounts of time-distributed, variable practice. Databrary. Retrieved March 21, 2023 from http://doi.org/10.17910/b7.1118.
+    + Herzberg, O., Fletcher, K. K., Schatz, J. L., Adolph, K. E., & Tamis-LeMonda, C. S. (2021). Infant exuberant object play at home: Immense amounts of time-distributed, variable practice. Child Development, 00, 1– 15. https://doi.org/10.1111/cdev.13669 
   + Thoughts... is this a question of who owns the data/deserves citation for the data?
 
 ### Description of dataset {-}
@@ -38,20 +38,34 @@ Volumes used in example:
     
   + Abstract can be added as supplemental information but should not be the only thing in the description. 
 
+### External links {-}
+
+Volumes should have external links to the following:
+
++ The journal article (if it's been published)
++ The parent volume
++ Other DB volumes that use the parent volume data (ex. the many LEGO projects)
++ Project website (ex. PLAY project volume should link to PLAY website)
+
 ### Organizing the data itself {-}
 
 * Individual sessions folders for each participant's video data
-  + Do **not** share birth date or test date but **can share** age, gender, race, ethnicity, language, group, tasks, and context (lab/home, state, country)
-  + Exemplar folder with videos that are public. If public permissoin is not explicitly given, blurred out faces of participants.
-  + Coding spreadsheet/datavyu folder with csv files from **all** participants. The same level of permission granted from each participant should reflect on the associated spreadsheet.
-  + Separate folder for coding manual
-  + Seperate folder or same folder for coding scripts?
-  + Folder for analysis scripts
-  + Folder for processed data
+  + Do **not** share birth date or test date publicly but **can share** age, gender, race, ethnicity, language, group, tasks, and context (lab/home, state, country) 
+  + If pulling videos from a "parent" volume, should researchers re-download and re-upload the videos? Or just keep them in the parent volume and link out to that said volume?
+* Exemplar folder with videos that are **public**. If public permissoin is not explicitly given, blurred out faces of participants.
+* Coding spreadsheet/datavyu folder with csv files from **all** participants. The same level of permission granted from each participant should reflect on the associated spreadsheet.
+* Separate folder for coding manual. Sharing permission is **public**
+* Seperate folder or same folder for coding scripts? Sharing permission is **public** 
+* Folder for analysis scripts. Sharing permission is **public**
+* Folder for processed data. Sharing permission is **public**
+* Add .readme file on how to use the data and how to use files.
+
 
 ### Datavyu files {-}
 
 * Delete unnecessary or extraneous columns
+* Delete unnecessary or extraneous codes
+* What should be deleted/included in the Datavyu files themselves? Date of birth is already on the Databrary volume. SHould it also be in the Datavyu file?
 
 ## Other best practices ideas
 
