@@ -37,6 +37,7 @@ Volumes used in example:
   + Additional sentence to be added if entire volume is not shared: Requests for sharing will be assessed on a case-by-case basis. Please contact `person@university.edu` for all inquiries and requests regarding this dataset.
     
   + Abstract can be added as supplemental information but should not be the only thing in the description. 
+  + **Add year(s) when data was collected**
 
 ### External links {-}
 
@@ -66,6 +67,18 @@ Volumes should have external links to the following:
 * Delete unnecessary or extraneous columns
 * Delete unnecessary or extraneous codes
 * What should be deleted/included in the Datavyu files themselves? Date of birth is already on the Databrary volume. SHould it also be in the Datavyu file?
+* SPSS and datavyu files should NOT have birth date and test date
+* alternative: create an age column for the kid that is openly shared
+
+
+### Notes from lab meeting 
++ internal name versus paper name
++ part of the process at the end
++ proof stage check list?
++ what if parent volume isn't shared?
++ child volumes go to the parent and vice versa
++ "This project is a longitudinal study of language, cognitive, social, emotional, and gender development from infants' birth through various critical transitions to schooling (preschool, kindergarten, 1st grade). Children came from diverse backgrounds (African-American, Dominican, Mexican, Chinese) and lived in the New York City metro area. Videos were recorded during various activities and tasks specific to each observation age (e.g., book reading, mother-child free play, novel toy, familiar toy at the 14-month visit) in children's homes or in the laboratory at 14, 24, 36, 52, 64, and 76 months of age." 
++ LEGO: The project includes a corpus of 234 hours of video recording (across 2 days, 2 hours per visit) of infants and mothers going about their daily routines. We video coded foundational passes on infant object play, motor play, and language behaviours, thereby producing rich descriptive data on how infants play, how play changes across the course of a day and the second year, and which environmental and social factors support infant play. This project yields several valuable products that are disseminated to and shared with the scientific community, parents, and other stakeholders.
 
 ## Other best practices ideas
 
