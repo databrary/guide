@@ -6,9 +6,6 @@ requesting-access
 onboarding
 managing-people
 newvol
-new-project
-ongoing
-completed
 definitions-for-all-spreadsheet-options
 edit-a-volume
 edit-citation
