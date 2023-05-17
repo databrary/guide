@@ -55,7 +55,7 @@ If you need this data to be associated with a DOI, please answer `YES` to the qu
 When all items are entered, select `Save`
 
 ```{r}
-knitr::include_graphics("img/db-new-volume-overview.JPG")
+knitr::include_graphics("img/db-new-volume-overview.png")
 ```
 
 You may have the option to enter Keywords associated with the Volume. See [below](#Volume) for description.
