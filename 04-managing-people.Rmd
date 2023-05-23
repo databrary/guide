@@ -1,4 +1,8 @@
 # Managing people
+```{r include = FALSE}
+knitr::opts_chunk$set(echo=FALSE, out.width="50%", fig.align = "center")
+```
+
 
 Authorized investigators can manage their collaborators and affiliates.
 
@@ -21,35 +25,46 @@ Affiliate: an individual who meets the following conditions
 
 - conducts research under an Authorized Investigator's sponsorship and supervision 
 - who has been granted access to Databrary by the Authorized Investigator
-- is a student, research staff, or Post-doctoral research
+- is a student, research staff, or post-doctoral researcher
 - is not eligible for Authorized Investigator status.
 
 The Supervisor or Research Sponsor must register as an Authorized Investigator BEFORE you may request affiliate access from them.
 
 An affiliate will not have access to non-public data on Databrary until AFTER the Authorized Investigator has submitted all paperwork to Databrary, and granted the affiliate appropriate access.
 
-### How to grant Affiliate Access {-}
+### How to request and grant Affiliate Access {-}
 
 When you have authorization, you may add them as an "affiliate". Affiliate access may be granted by following the directions below.
 
-Your Affiliate (students, post-docs, lab staff)  
-1. Create an account on Databrary by selecting the 'register' link in the upper right corner.   Complete the first 4 tabs on the left side of the screen.   
+#### How to Request Affiliate Access (students, post-docs, lab staff) {-}
+1. Create an account on Databrary by selecting the 'register' link in the upper right corner. Complete the first 4 tabs on the left side of the screen.   
 2. Go to the profile page of your supervising professor on Databrary.   
+
 3. Click on the button 'Apply for authorization from [Supervising professor name]' near the bottom of the page.  
 
-** Insert image here **
+```{r, out.width="40%"}
+knitr::include_graphics("img/db-apply-affiliate.png")
+```
 
-Authorized Investigator  (faculty)  
+#### How to Grant Affiliate Access (faculty) {-} 
 You will need to log in and grant affiliate access by completing the following:   
 1. Click on the edit button (the little pencil) next to your name   
+```{r, out.width="40%"}
+knitr::include_graphics("img/db-edit-profile.png")
+```
 2. Choose the affiliates tab   
+```{r, out.width="30%"}
+knitr::include_graphics("img/db-affiliates-tab.png")
+```
 3. Select the appropriate radio buttons to 'Allow access to others' data shared on Databrary' in addition to selecting the radio button to 'Grant access to your group/lab data'.   
+```{r, out.width="70%"}
+knitr::include_graphics("img/db-grant-affiliate-access.png")
+```
 4. Save Changes  
 
-** Insert image here **
-
-It is not required, but you may wish to have your staff read and sign the Lab Staff Access Agreement (https://databrary.org/policies/staff-agreement.pdf). This does not get sent to Databrary, you would keep this for your own records.
 
 
+
+It is not required, but you may wish to have your students, staff and postdocs read and sign the Lab Staff Access Agreement (https://databrary.org/policies/staff-agreement.pdf). This does not get sent to Databrary, you would keep this for your own records.
 
 [Lab Staff Access Agreement](file/staff-agreement.pdf) for Download 

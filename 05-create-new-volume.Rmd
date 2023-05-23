@@ -1,12 +1,22 @@
 # Create a new volume {#newvol}
-```{r include = FALSE}
+```{r, include = FALSE}
 knitr::opts_chunk$set(echo=FALSE, out.width="80%", fig.align = "center")
 ```
 ## What stage is my project  {-}
 
-### New Project
-### Ongoing
-### Completed
+### New Project {-}
+
+Excellent! BEFORE collecting data is the best time to start planning for curation of your project. In this case, you would utilize the upload as you go method of data curation. 
+
+Complete Steps 1-5, 7, and 8 Now.
+
+After each data collection session, follow the directions for [Enter Data Individually](#individually) in Step 6.
+
+### Ongoing {-}
+
+### Completed {-}
+
+
 
 ## Step 1: Login/Go to Profile {- #step1}
 
@@ -61,7 +71,7 @@ If you need this data to be associated with a DOI, please answer `YES` to the qu
 When all items are entered, select `Save`
 
 ```{r}
-knitr::include_graphics("img/db-new-volume-overview.JPG")
+knitr::include_graphics("img/db-new-volume-overview.png")
 ```
 
 You may have the option to enter Keywords associated with the Volume. See [below](#Volume) for description.
@@ -108,7 +118,7 @@ Now it is time to **Enter Data**. There are two options:
 
 See video instructions or follow the step by step instructions below.
 
-```{r, out.width="90%"}
+```{r,  fig.align = "center"}
 knitr::include_url("https://nyu.databrary.org/slot/27587/0,183810/asset/122478/download?inline=true")
 ```
 
@@ -155,7 +165,7 @@ After the participant metadata is uploaded, the data regarding the testing sessi
 
 See video instructions or follow the step by step instructions below.
 
-```{r, out.width="90%"}
+```{r,  fig.align="center"}
 knitr::include_url("https://nyu.databrary.org/slot/27588/0,170067/asset/122480/download?inline=true")
 ```
 
@@ -163,7 +173,7 @@ Click on the `folder` tab.
 
 Click on `add folder` and choose to add a **session** or **materials** folder.
 
-```{r}
+```{r, out.width="100%"}
 knitr::include_graphics("img/db-add-folder.png")
 ```
 
@@ -171,7 +181,7 @@ Session folders are for participant sessions and materials folders are for thing
 
 Session folders need to be added individually. Once the Participant ID is entered, the related metadata will be filled in. Then the rest of the session information will need to be added individually.
 
-### Enter Data individually (the upload as you go method) {- #individually}
+### Enter Data Individually (the upload as you go method) {- #individually}
 
 - Click inside the **ID** box to add a participant. 
 - Complete each metadata item selected to create the participant, then
