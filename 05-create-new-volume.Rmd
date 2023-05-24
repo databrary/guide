@@ -66,6 +66,10 @@ Please describe the context of data collection and the types of data that will b
    - Materials folder containing stimuli, copies of questionnaires used in study, additional participant demographic information, and other materials utilized for the study\
    - Exemplar study intake video of experimenter with participant
 
+```{r}
+knitr::include_graphics("img/db-example-data-description.png")
+```
+
 If you need this data to be associated with a DOI, please answer `YES` to the question **Does this volume correspond to a published paper or resource**
 
 When all items are entered, select `Save`
