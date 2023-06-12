@@ -93,7 +93,12 @@ If you ever find that there are videos that don't play in Databrary, the followi
 - click on the pencil in the upper left corner to edit
 - click on 'replace' in the upper right corner
 
-The default settings in Handbrake should work just fine.
+The defaults in Handbrake are the same that as the .mp4 codec that Databrary uses.
+
+- H.264 (x264) PFR video
+- AAC, 2ch Stereo audio (force to 2ch mixdown)
+- Choose the option for "passthru" metadata
+
 
 ## Oops, I uploaded the wrong file in my session. Can I replace it? {- #replace-file}
 

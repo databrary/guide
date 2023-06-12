@@ -14,7 +14,16 @@ After each data collection session, follow the directions for [Enter Data Indivi
 
 ### Ongoing {-}
 
+
+
 ### Completed {-}
+
+The following items need to be considered to prepare for upload:
+
+- Do you have (at least some of) participants’ permission to share their data with other authorized Databrary investigators? If not, who is allowed access to the videos?
+- Do you have IRB permission to share the data on Databrary?
+- All video tapes need to be digitized
+- How are the data organized? Will these need to be re-organized to utilize the Databrary Spreadsheet structure?
 
 
 
