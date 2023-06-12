@@ -54,17 +54,18 @@ Please describe the context of data collection and the types of data that will b
    
    Videos were [Please provide a general description of what the videos were coded for. (Some examples may include: transcribed for mother speech and child vocalizations; coded for mother and child object interaction; child locomotion and emotion*).] (see Materials folder).
    
-   This volume contains [Please list the types of files along with approximate numbers for each. Some examples are provided below]:
-   - XX videos (MP4/MOV files)
+   This volume contains [Please list the types of files along with approximate numbers for each. Some examples are provided below]: 
+   
+   - XX videos (MP4/MOV files) 
    - XX Datavyu transcription files (OPF files)
-   - XX Datavyu coding files (OPF files)
-   - Questionnaire data (.xls file)
-   - Several video exemplars of child behaviors (.mp4 files)
-   - Transcription manual (.docx file)
-   - Coding manual (.docx file)
+   - XX Datavyu coding files (OPF files) 
+   - Questionnaire data (.xls file) 
+   - Several video exemplars of child behaviors (.mp4 files) 
+   - Transcription manual (.docx file) 
+   - Coding manual (.docx file) 
    - Scripts for processing and exporting data from Datayu (Ruby)
-   - Materials folder containing stimuli, copies of questionnaires used in study, additional participant demographic information, and other materials utilized for the study\
-   - Exemplar study intake video of experimenter with participant
+   - Materials folder containing stimuli, copies of questionnaires used in study, additional participant demographic information, and other materials utilized for the study. 
+   - Exemplar study intake video of experimenter with participant 
 
 ```{r}
 knitr::include_graphics("img/db-example-data-description.png")
