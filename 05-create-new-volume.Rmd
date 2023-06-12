@@ -50,11 +50,11 @@ Volume **Overview** is created by choosing if the volume is related to a publish
 
 Please describe the context of data collection and the types of data that will be uploaded (e.g. video, pictures, coding files, survey data, etc.). The recommended template is provided. Please be sure to fill in all of the brackets with the relevant information for your volume.
 
-   This dataset focuses on [Please provide a description of behavor, location of study, and age range].  Dataset includes [description of videos, questionnaires, materials, etc.]
+   This dataset focuses on [**Provide provide a description of behavor, location of study, and age range**].  Dataset includes [**Enter description of videos, questionnaires, materials, etc.**]
    
-   Videos were [Please provide a general description of what the videos were coded for. (Some examples may include: transcribed for mother speech and child vocalizations; coded for mother and child object interaction; child locomotion and emotion*).] (see Materials folder).
+   Videos were [**Provide provide a general description of what the videos were coded for. (Some examples may include: transcribed for mother speech and child vocalizations; coded for mother and child object interaction; child locomotion and emotion).**] (see Materials folder).
    
-   This volume contains [Please list the types of files along with approximate numbers for each. Some examples are provided below]: 
+   This volume contains [**Enter list the types of files along with approximate numbers for each. Some examples are provided below**]: 
    
    - XX videos (MP4/MOV files) 
    - XX Datavyu transcription files (OPF files)
