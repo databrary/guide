@@ -119,7 +119,7 @@ knitr::include_graphics("img/db-new-volume-design-spreadsheet.png")
 
 `birthdate` Date of birth (used with session date to calculate age)
 
-`description` A longer explanation or description
+`description` A longer explanation or description *('description' is NOT sortable through the Databrary volume filters)*
 
 `gender` "Male", "Female", or any other relevent gender
 
@@ -145,13 +145,13 @@ knitr::include_graphics("img/db-new-volume-design-spreadsheet.png")
 
 **pilot: Indicates that the methods used were not finalized or were non-standard**
 
-`name` A label or identifier referring to the pilot method
+`name` A label or identifier referring to the pilot method *(This is the only field in the "pilot" section that is sortable through the Databrary volume filters)*
 
 `description` A longer explanation or description of the pilot method
 
 **exclusion: Indicates that deta were not usable**
 
-`name` A label or identifier referring to the exclusion criterion
+`name` A label or identifier referring to the exclusion criterion *(This is the only field in the "exclusion" section that is sortable through the Databrary volume filters)*
 
 `reason` The reason for excluding these data
 
@@ -159,7 +159,7 @@ knitr::include_graphics("img/db-new-volume-design-spreadsheet.png")
 
 **condition: An experimenter-determined manipulation (within or between sessions)**
 
-`name` A label or identifier referring to the exclusion criterion
+`name` A label or identifier referring to the exclusion criterion *(This is the only field in the "label" section that is sortable through the Databrary volume filters)*
 
 `reason` The reason for excluding these data
 
@@ -167,7 +167,7 @@ knitr::include_graphics("img/db-new-volume-design-spreadsheet.png")
 
 **group: A grouping determined by an aspect of the data (participant ability, age, grade level, experience, longitudinal visit, measurements used/available)**
 
-`name` A label or identifier referring to the exclusion criterion
+`name` A label or identifier referring to the exclusion criterion *(This is the only field in the "group" section that is sortable through the Databrary volume filters)*
 
 `reason` The reason for excluding these data
 
@@ -175,7 +175,7 @@ knitr::include_graphics("img/db-new-volume-design-spreadsheet.png")
 
 **task: A particular task, activity, or phase of the session or study**
 
-`name` A label or identifier referring to the exclusion criterion
+`name` A label or identifier referring to the exclusion criterion *(This is the only field in the "task" section that is sortable through the Databrary volume filters)*
 
 `reason` The reason for excluding these data
 
