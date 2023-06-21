@@ -118,11 +118,89 @@ Now, go to **Design Spreadsheet** and choose all the categories and sub-categori
 knitr::include_graphics("img/db-new-volume-design-spreadsheet.png")
 ```
 
-### Definitions for all Spreadsheet Options 
+### Definitions for all Spreadsheet Options
+
+**participant: An individual human subject whose data are used or represented**
 
 `ID` A unique, anonymized, primary identifier, such as a participant ID.
 
+`info` Other information or alternative identifier
+
 `birthdate` Date of birth (used with session date to calculate age)
+
+`description` A longer explanation or description *('description' is NOT sortable through the Databrary volume filters)*
+
+`gender` "Male", "Female", or any other relevent gender
+
+`race` As classified by NIH, or user-defined classification
+
+`ethnicity` As classified by NIH (Hispanic/Non-Hispanic), or user-defined classification
+
+`gestational age` Pregnancy age in weeks between last menstrual period and birth (or pre-natal observation)
+
+`pregnancy term` "Full term", "Preterm", or other gestational term (assumed "Full term" by default)
+
+`birth weight` Weight at birth (in grams, e.g., 3250)
+
+`disability` Any developmental, physical, or mental disability or disabilities (assumed "Typical" by default)
+
+`language` Primary language(s) spoken by and to participant (assumed "English" by default)
+
+`country` Country where participant was born (assumed "US" by default)
+
+`state` State/territory where particpiant was born
+
+`setting` The physical context of the participant (please do not use for new data: see the context category instead)
+
+**pilot: Indicates that the methods used were not finalized or were non-standard**
+
+`name` A label or identifier referring to the pilot method *(This is the only field in the "pilot" section that is sortable through the Databrary volume filters)*
+
+`description` A longer explanation or description of the pilot method
+
+**exclusion: Indicates that deta were not usable**
+
+`name` A label or identifier referring to the exclusion criterion *(This is the only field in the "exclusion" section that is sortable through the Databrary volume filters)*
+
+`reason` The reason for excluding these data
+
+`description` A longer explanation or description of the reason for excluding data
+
+**condition: An experimenter-determined manipulation (within or between sessions)**
+
+`name` A label or identifier referring to the exclusion criterion *(This is the only field in the "label" section that is sortable through the Databrary volume filters)*
+
+`reason` The reason for excluding these data
+
+`description` A longer explanation or description of the reason for excluding data
+
+**group: A grouping determined by an aspect of the data (participant ability, age, grade level, experience, longitudinal visit, measurements used/available)**
+
+`name` A label or identifier referring to the exclusion criterion *(This is the only field in the "group" section that is sortable through the Databrary volume filters)*
+
+`reason` The reason for excluding these data
+
+`description` A longer explanation or description of the reason for excluding data
+
+**task: A particular task, activity, or phase of the session or study**
+
+`name` A label or identifier referring to the exclusion criterion *(This is the only field in the "task" section that is sortable through the Databrary volume filters)*
+
+`reason` The reason for excluding these data
+
+`description` A longer explanation or description of the reason for excluding data
+
+**context: A particular setting or other aspect of where/when/how data were collected**
+
+`name` A label or identifier referring to the exclusion criterion
+
+`setting` The physical context
+
+`language` Language used in this context (assumed "English" by default)
+
+`country` Country of data collection (assumed "US" by default)
+
+`state` State/territory of data collection
 
 ## Step 6: Enter Data {- #step6}
 
