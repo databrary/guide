@@ -47,7 +47,7 @@ If the dataset is shared, but the reviewer does not have authorization from an i
 
 The authorized investigator would need to meet all criteria required for authorization at both institutions. 
 
-## As an authorized investigator moving to another institution, do I need to be re-authorized by my new institution? How do I change my institutional affiliation on Databrary? {-]
+## As an authorized investigator moving to another institution, do I need to be re-authorized by my new institution? How do I change my institutional affiliation on Databrary? {-}
 
 **Answer here**
 
@@ -93,12 +93,14 @@ If you ever find that there are videos that don't play in Databrary, the followi
 - click on the pencil in the upper left corner to edit
 - click on 'replace' in the upper right corner
 
-The defaults in Handbrake are the same that as the .mp4 codec that Databrary uses.
+The defaults in Handbrake are the same that as the .mp4 codec that Databrary uses during the transcoding process after a video file is uploaded. Recommended settings are below.
 
-- H.264 (x264) PFR video
-- AAC, 2ch Stereo audio (force to 2ch mixdown)
-- Choose the option for "passthru" metadata
-
+| Summary|Dimensions|Filters|Video|Audio|
+|---|---|---|---|---|
+|Format = MP4|Cropping = None|Deinterlace = Decomb|Video Encoder = H.264 (x264)|Codec = AAC (CoreAudio)|
+|Select "passthru" metadata|Resolution Limit = 1080p HD||Framerate (FPS) = Same as source|Mixdown = 2ch Stereo audio (force to 2ch mixdown)|
+| Align A/V Start|Anamorphic = Automatic||Variable Framerate||
+|H.264 (x264) VFR video|Select 'Optimal Size'||Quality = Constant Quality||
 
 ## Oops, I uploaded the wrong file in my session. Can I replace it? {- #replace-file}
 
