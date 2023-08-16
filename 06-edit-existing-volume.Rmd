@@ -39,7 +39,7 @@ To add files to an existing folder:
 * Select "add file", which will take you to the "Manage" page for the folder.
 * You may upload files by either dragging and dropping them into the outlined space or by clicking and selecting the files you wish to upload.
 
-**PUT SHORT VIDEO HERE**
+Here is a video tutorial on how to [add a file on Databrary](https://nyu.databrary.org/volume/686/slot/27588/-?asset=122480)
 
 ### Remove or Replace files from an existing Session or Materials folder {-}
 
@@ -47,14 +47,14 @@ To remove a file:
 * Navigate to the "Manage" page for the folder. 
 * Click on the file that you wish to remove and select the "Remove file" button. Databrary will prompt you to confirm that you wish to remove the file. Please note that removed files cannot be recovered.
 
-**PUT SHORT VIDEO HERE**
+Here is a video tutorial on how to [remove a Databrary file](https://nyu.databrary.org/volume/686/slot/67044/-?asset=434274)
 
 Alternatively, you can replace a file to upload a newer version of the same file while preserving the associated information. To replace a file:
 
 * Click on the file that you wish to remove.
 * Select the "Remove file" button. A window will pop up for you to select the file that you wish to replace the original file on Databrary with.
 
-**PUT SHORT VIDEO HERE**
+Here is a video tutorial on how to [replace a Databrary file](https://nyu.databrary.org/volume/686/slot/67045/-?asset=434276)
 
 ### Deleting a Sessions or Materials folder {-}
 
@@ -62,8 +62,7 @@ To delete a sessions of materials folder from your volume, you need to first rem
 
 To remove files, see instructions above **insert link to section above**
 
-To remove all metadata:
-* 
+Here is a video tutorial on how to [delete a Databrary folder](https://nyu.databrary.org/volume/686/slot/67043/-?asset=434284)
 
 ## Share a volume {-}
 
