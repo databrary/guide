@@ -31,4 +31,4 @@ knitr::write_bib(c(
 
 Rick Gilmore is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.
 
-Andrea Seisler Manages the Brain and Behavioral Dynamics Laboratory at Penn State and is Authorizations Specialist for Databrary.
+Andrea Seisler manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.
