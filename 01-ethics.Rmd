@@ -1,4 +1,4 @@
-# Ethics and Grants
+# Ethics
 
 ## Databrary Ethics {-}
 
@@ -130,21 +130,21 @@ Data and metadata stored in Databrary are subject to the security policies and b
 
 ## Internal Data Use Agreement Information {-}
 
-This Agreement is different from a traditional DUA because there is no obligation for authorized investigators to use or to contribute data. Once our researchers are planning to share data from their lab or repurpose shared data, they would seek proper IRB approval for those activities.  
+- This Agreement is different from a traditional DUA because there is no obligation for authorized investigators to use or to contribute data. Once our researchers are planning to share data from their lab or repurpose shared data, they would seek proper IRB approval for those activities.  
 
-The Data on Databrary Contains PII  
+- The Data on Databrary Contains PII  
 
-HIPAA data is not stored on Databrary  
+- HIPAA data is not stored on Databrary  
 
-Does the Consent Form used to collect the data permit its disclosure or has it been authorized by the relevant IRB(s)? Yes  
+- Does the Consent Form used to collect the data permit its disclosure or has it been authorized by the relevant IRB(s)? Yes  
 
-All data on Databrary were collected and shared under the supervision of an IRB.  
+- All data on Databrary were collected and shared under the supervision of an IRB.  
 
-What is the purpose of the Data Exchange? The purpose of Databrary is to share research data between researchers to foster data reuse.  
+- What is the purpose of the Data Exchange? The purpose of Databrary is to share research data between researchers to foster data reuse.  
 
-Describe the data being exchanged: The data are primarily video data of behavioral research in addition to stimuli that have been used for research studies.  
+- Describe the data being exchanged: The data are primarily video data of behavioral research in addition to stimuli that have been used for research studies.  
 
-Databrary’s Contact Information:   
+- Databrary’s Contact Information:   
 <p>Databrary<br/>
 4 Washington Place<br/>
 Room 409<br/>

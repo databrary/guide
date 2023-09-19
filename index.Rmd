@@ -1,6 +1,6 @@
 --- 
 title: "Databrary User Guide"
-author: "Rick O. Gilmore and Andrea R. Seisler"
+author: "Rick O. Gilmore, Andrea R. Seisler, and Melody Xu"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -32,3 +32,5 @@ knitr::write_bib(c(
 Rick Gilmore is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.
 
 Andrea Seisler manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.
+
+Melody Xu was a User Support Specialist at Databrary until she began a PhD program at Johns Hopkins University in August 2023.
