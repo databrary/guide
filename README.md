@@ -50,7 +50,7 @@ take sections in annex III and make them as child rmd documents
       - Ethics
       
 - Ethics
-  - more specific here than in other sections
+  - Be more specific here than in other sections
    - why would use different forms and what you are agreeing too
    
   - What kind of approvals/permissions are needed
