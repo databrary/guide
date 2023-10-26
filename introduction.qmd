@@ -1,0 +1,52 @@
+# About Databrary
+
+Databrary is a *restricted access* data library that is specialized for storing, streaming, and sharing video and audio recordings collected as research data or documentation. 
+Databrary supports sharing of [many types](https://nyu.databrary.org/asset/formats) of research data and documentation beyond video and audio. 
+Based at [New York University](https://www.nyu.edu), Databrary's mission is to support data sharing among researchers in the behavioral, social, educational, developmental, neural, and computer sciences.
+
+Databrary is also a resource for and a community of scientists who use video or audio in their research or teaching.
+
+We encourage you to read [Databrary's Access Agreement](access_agreement.qmd) and its three annexes. 
+These documents, especially [Annex III--Databrary Access Guide](access_agreement.qmd#daa_annex_III), provide extensive information about how Databrary is structured and how it should be used. 
+You may also get guidance about working with a research ethics board or IRB or see how to incorporate data sharing using Databrary in a Data Management Plan for a grant proposal. 
+Look up a term in the glossary if something doesn't make sense, or contact us directly for one-on-one support.
+
+## History {-}
+
+Databrary was built in 2013-2014 at New York University, its home institution, and went live to the research community in 2014.
+The system has had steady growth, as the following figure from the [Databrary analytics site](https://databrary.github.io/analytics) indicates:
+
+![Growth in researchers and institutions since Databrary's inception. Source: <https://databrary.github.io/analytics>](https://databrary.github.io/analytics/include/img/fig-databrary-inst-invest-timeseries-1.png){fig-align="center"}
+Karen Adolph and Rick Gilmore co-founded and co-direct Databrary.
+
+## Support {-}
+
+Databrary is grateful to have received financial and in-kind support from the Eunice Kennedy Shriver National Institute of Child Health and Human Development, the National Science Foundation, the Defense Advanced Research Projects Agency, the Society for Research in Child Development, the Alfred P. Sloan Foundation, the James S. McDonnell Foundation, The LEGO Foundation, New York University, and the Pennsylvania State University.
+
+## Code base {-}
+
+Databrary's code base is open source and is hosted on [GitHub](https://github.com/databrary).
+
+## What is my role? {-}
+
+### As an Institution {-}
+
+Institutions are responsible for overseeing the researchers at their institution and for monitoring their use of Databrary and its resources.
+
+### As a Researcher {-}
+
+I must have human subjects training (e.g. [CITI](https://about.citiprogram.org/) training), be employed at an institution that has an ethics or [Institutional Review Board](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/institutional-review-boards-frequently-asked-questions), and be able to conduct independent research at my institution.
+
+I would like to reuse or upload data to Databrary. I need to read and sign a Databrary Access agreement and its' Annexes (I, II, III) before I may be authorized.
+
+I can sponsor lab staff/students that are working on my projects to see my data or others data on Databrary.
+
+### As a Student or Staff {-}
+
+I can only use non-public content on Databrary AFTER my supervisor has been granted authorization by their institution. This may take longer than I anticipate, so I will ask for authorization as early as possible. I must also have human subjects training (e.g. [CITI](https://about.citiprogram.org/) training).
+
+## Why should I use Databrary? {-}
+
+Videos are expensive and time consuming to collect. It is likely that another researcher could answer their research questions by utilizing my videos.
+
+Many granting agencies require that data are shared. Databrary is a way to share video data and link the published papers and other repositories (e.g. GitHub) to it.

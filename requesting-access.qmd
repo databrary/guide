@@ -1,0 +1,108 @@
+# Requesting access
+
+## Overview {-}
+
+Databrary stores and shares data that are available to the public.
+But most of the library's holdings are restricted to researchers who have secured authorization from their home institution or are affiliated with a researcher who has authorization.
+
+This extra step ensures that sensitive and identifiable data are shared only with people who have formal authorization to access it, who have research ethics training, and who are affiliated with institutions that have agreed to monitor data use.
+
+## Determining status {-}
+
+To determine what level of access you can request from Databrary, see the following.
+
+I am eligible to become an **Authorized Investigator** if:  
+
++ I can conduct independent research;  
++ I can submit funding proposals as the lead investigator;  
++ I have Principal Investigator (PI) status or a tenure-track faculty position at my Institution;
++ My Institution maintains or uses an ethics board to review and approve research involving human subjects (or animals where relevant); AND
++ I have current training that addresses research ethics with human subject (or animals where relevant)    
+
+I am eligible to become an **Affiliate** if: 
+
++ I conduct research under the supervision of a Principal Investigator an Authorized Investigator's sponsorship; AND
++ I am a student, research staff, or post-doctoral researcher  
+
+If you are eligible for **Affiliate** status, your supervisor or research sponsor must register as an Authorized Investigator BEFORE you may request affiliate access from them.
+
+## Registering for Databrary Access  {-}
+
+To start the authorization process on Databrary, please complete the [Registration Form](https://nyu.databrary.org/user/register?page=create) or click on the green 'Register' button or click on `register` on the top right of the menu bar at [databrary.org](https://databrary.org).
+
+![Image from Databrary home page](img/db-main-page.JPG){#fig-databrary-home fig-align="center"}
+
+### Creating an account {-}
+
+Fill out the `Create Account` form with your full name, valid institutional email address, and the name of your research institution.
+
+![Creating a Databrary account](img/db-create-account.JPG){#fig-create-account fig-align="center"}
+
+Read the [Databrary Access Agreement](https://databrary.org/about/agreement/agreement.html), [Annex I](https://databrary.org/about/agreement/agreement-annex-I.html), [Annex II](https://databrary.org/about/agreement/agreement-annex-II.html), and [Annex III](https://databrary.org/about/agreement/agreement-annex-III.html) and check the box to agree to the access terms. 
+
+![Duplicate image of getting started](img/db-get-started.JPG){#fig-getting-started fig-align="center"}
+
+Go to your email box, locate the auto-generated email from Databrary, and confirm your email. If you don't receive the email within a few minutes, check your spam folder.
+
+![Databrary screen indicating confirmation email has been sent](img/db-confirm-email.JPG){#fig-confirmation-email fig-align="center"}
+
+![Sample Databrary registration email](img/db-registration-email.png){#fig-registration-email fig-align="center"}
+
+### Choosing a password {-}
+
+Next, please choose a password. 
+
+::: {.callout-tip}
+
+We strongly recommend using a password generation or manager program or the password manager built-in to many modern web browsers.
+
+:::
+
+![Databrary Set Password screen](img/db-set-password.JPG){#fig-set-password fig-align="center"}
+
+### Requesting authorization {-}
+
+Every Databrary user who seeks access to restricted data must request and be granted authorization for that access.
+*Authorized Investigators* must secure authorization from an *institution*.
+*Affiliate Investigators* must secure authorization from an *Authorized Investigator*.
+
+Please read the requirements for *Authorized Investigator* and *Affiliate*. Choose the radio button that accurately reflects your qualifications.
+
+![Databrary Request Authorization screen](img/db-request-authorization.JPG){#fig-request-authorization  fig-align="center"}
+
+#### Registering as an *Authorized Investigator* at an Institution: {-}
+
+1. Select the `Authorized Investigator` radio button and search for your institution. 
+    * If your institution is not found in the drop down box, please select 'Other' and provide more information on the next screen.
+2. This will auto-generate a notification to the Databrary team.
+3. Databrary's authorization team will be in touch (typically within 24-48 business hours) to help you through the process and initiate a DocuSign envelope for signature.
+
+![Authorized Investigator request](img/db-request-authorization-AI-other.JPG)
+
+![Other information request](img/db-submit-authorization-AI-other.JPG)
+
+#### Registering as an *Affiliate* of an Authorized Investigator: {-}
+
+You can only do this if your Supervisor or Research Sponsor ALREADY has a Databrary Account.
+
+1. Select the `Affiliate` radio button and search for your Supervisor or Research Sponsor's name. 
+2. Your Supervisor or Research Sponsor Investigator will receive a notification that you have applied for access, and can approve you. 
+
+![Affiliate request](img/db-request-authorization-affiliate.JPG)
+
+If you need to request Affiliate Authorization in a separate session from creating your account, you may go to your Supervisor or Research Sponsors page on Databrary and request Affiliate Access from them.
+
+<!-- ****ADD PICTURE HERE**** -->
+
+### Awaiting authorization {-}
+
+The process of securing authorization can take a few hours, or a few days or weeks.
+Institutions that have many active Databrary users are familiar with the system and *usually* process authorization requests quickly.
+
+The Databrary staff will work closely with you to expedite your authorization.
+
+Once authorized, you will receive an email confirmation.
+
+In the meantime, you can set up your Databrary profile, as described in the next section.
+
+

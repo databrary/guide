@@ -4,25 +4,33 @@ project:
   
 book:
   title: "Databrary Guide"
+  cover-image: img/databrary-nav-sm.jpg
+  subtitle: "How to use Databrary to share research data"
   author: "Rick Gilmore, Andrea Seisler, Melody Xu, and Yinghe Liu"
   date: last-modified
   chapters:
     - index.qmd
-    - 00-introduction.qmd
-    - 01-ethics.qmd
-    - 02-grants.qmd
-    - 20-requesting-access.qmd
-    - 30-onboarding.qmd
-    - 40-managing-people.qmd
-    - 50-create-new-volume.qmd
-    - 55-edit-existing-volume.qmd
-    - 60-reusing-data.qmd
-    - 65-data-sharing.qmd
-    - 70-best-practices.qmd
-    - 75-faq.qmd
-    - 80-access_agreement.qmd
-    - 90-participant-info.qmd
+    - introduction.qmd
+    - ethics.qmd
+    - grants.qmd
+    - requesting-access.qmd
+    - onboarding.qmd
+    - managing-people.qmd
+    - create-new-volume.qmd
+    - edit-existing-volume.qmd
+    - reusing-data.qmd
+    - data-sharing.qmd
+    - best-practices.qmd
+    - faq.qmd
+    - references.qmd
+  appendices:
+    - access_agreement.qmd
+    - participant-info.qmd
+
+bibliography: [packages.bib, references.bib]
 
 format:
   html:
     theme: cosmo
+  epub:
+    cover-image: img/databrary-nav-sm.jpg
