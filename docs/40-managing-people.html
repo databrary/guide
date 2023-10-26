@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Rick Gilmore, Andrea Seisler, Melody Xu, and Yinghe Liu">
-<meta name="dcterms.date" content="2023-10-26">
 
-<title>Databrary Guide</title>
+<title>Databrary Guide - 6&nbsp; Managing people</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./00-introduction.html" rel="next">
+<link href="./50-create-new-volume.html" rel="next">
+<link href="./30-onboarding.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -75,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./40-managing-people.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Managing people</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -102,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Preface</span></a>
   </div>
 </li>
@@ -138,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./40-managing-people.html" class="sidebar-item-text sidebar-link">
+  <a href="./40-managing-people.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Managing people</span></span></a>
   </div>
 </li>
@@ -200,8 +199,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
-  <li><a href="#about-the-authors" id="toc-about-the-authors" class="nav-link" data-scroll-target="#about-the-authors">About the Authors</a></li>
+  <li><a href="#collaborators" id="toc-collaborators" class="nav-link active" data-scroll-target="#collaborators">Collaborators</a></li>
+  <li><a href="#affiliates" id="toc-affiliates" class="nav-link" data-scroll-target="#affiliates">Affiliates</a>
+  <ul class="collapse">
+  <li><a href="#how-to-request-and-grant-affiliate-access" id="toc-how-to-request-and-grant-affiliate-access" class="nav-link" data-scroll-target="#how-to-request-and-grant-affiliate-access">How to request and grant Affiliate Access</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -210,26 +212,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Databrary Guide</h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Managing people</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Rick Gilmore, Andrea Seisler, Melody Xu, and Yinghe Liu </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 26, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -237,28 +227,92 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<div class="cell">
+<p>Authorized investigators can manage their collaborators and affiliates.</p>
+<section id="collaborators" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="collaborators">Collaborators</h2>
+<p>Collaborator: an <strong>Authorized Investigator</strong> at your Institution or another Institution who - have already been granted Authorized Investigator Status on Databrary by their Institution - are working with you on the data volume<br>
+- have PI status or you are eligible to conduct independent research at their Institution and the Institution accepts responsibility for its Authorized Investigators’ actions related to the use of Databrary<br>
+- have all current research ethics training that addresses human subjects policy and issues required by your institution; and - are at an institution that maintains an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects,</p>
+<p><code>You are not responsible for the use of Databrary by another individual that qualifies for Authorized Investigator approval by their home institution</code></p>
+</section>
+<section id="affiliates" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="affiliates">Affiliates</h2>
+<p>Affiliate: an individual who meets the following conditions</p>
+<ul>
+<li>conducts research under an Authorized Investigator’s sponsorship and supervision</li>
+<li>who has been granted access to Databrary by the Authorized Investigator</li>
+<li>is a student, research staff, or post-doctoral researcher</li>
+<li>is not eligible for Authorized Investigator status.</li>
+</ul>
+<p>The Supervisor or Research Sponsor must register as an Authorized Investigator BEFORE you may request affiliate access from them.</p>
+<p>An affiliate will not have access to non-public data on Databrary until AFTER the Authorized Investigator has submitted all paperwork to Databrary, and granted the affiliate appropriate access.</p>
+<section id="how-to-request-and-grant-affiliate-access" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="how-to-request-and-grant-affiliate-access">How to request and grant Affiliate Access</h3>
+<p>When you have authorization, you may add them as an “affiliate”. Affiliate access may be granted by following the directions below.</p>
+<section id="how-to-request-affiliate-access-students-post-docs-lab-staff" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="how-to-request-affiliate-access-students-post-docs-lab-staff">How to Request Affiliate Access (students, post-docs, lab staff)</h4>
+<ol type="1">
+<li><p>Create an account on Databrary by selecting the ‘register’ link in the upper right corner. Complete the first 4 tabs on the left side of the screen.<br>
+</p></li>
+<li><p>Go to the profile page of your supervising professor on Databrary.</p></li>
+<li><p>Click on the button ‘Apply for authorization from [Supervising professor name]’ near the bottom of the page.</p></li>
+</ol>
+<div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://databrary.org"><img src="img/databrary-nav-sm.jpg" class="img-fluid figure-img" width="750"></a></p>
+<p><img src="img/db-apply-affiliate.png" class="img-fluid figure-img" style="width:40.0%"></p>
 </figure>
 </div>
 </div>
 </div>
-<p>This book describes how to use the Databrary data library.</p>
 </section>
-<section id="about-the-authors" class="level1 unnumbered">
-<h1 class="unnumbered">About the Authors</h1>
-<p>Rick Gilmore is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.</p>
-<p>Andrea Seisler manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.</p>
-<p>Melody Xu was a User Support Specialist at Databrary until she began a PhD program at Johns Hopkins University in August 2023.</p>
-<p>Yinghe Liu works as a research assitance. He contributes to improving the Databrary Guideline Porject in FAll 2023.</p>
-<p>last Update date: Oct 19, 2023.</p>
+<section id="how-to-grant-affiliate-access-faculty" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="how-to-grant-affiliate-access-faculty">How to Grant Affiliate Access (faculty)</h4>
+<p>You will need to log in and grant affiliate access by completing the following:<br>
+1. Click on the edit button (the little pencil) next to your name</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/db-edit-profile.png" class="img-fluid figure-img" style="width:40.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<ol start="2" type="1">
+<li>Choose the affiliates tab</li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/db-affiliates-tab.png" class="img-fluid figure-img" style="width:30.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<ol start="3" type="1">
+<li>Select the appropriate radio buttons to ‘Allow access to others’ data shared on Databrary’ in addition to selecting the radio button to ‘Grant access to your group/lab data’.</li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/db-grant-affiliate-access.png" class="img-fluid figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<ol start="4" type="1">
+<li>Save Changes</li>
+</ol>
+<p>It is not required, but you may wish to have your students, staff and postdocs read and sign the Lab Staff Access Agreement (https://databrary.org/policies/staff-agreement.pdf). This does not get sent to Databrary, you would keep this for your own records.</p>
+<p><a href="file/staff-agreement.pdf">Lab Staff Access Agreement</a> for Download</p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -497,10 +551,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./30-onboarding.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Onboarding</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./00-introduction.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">About Databrary</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./50-create-new-volume.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Create a new volume</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

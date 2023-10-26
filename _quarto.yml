@@ -1,0 +1,28 @@
+project:
+  type: book
+  output-dir: "docs"
+  
+book:
+  title: "Databrary Guide"
+  author: "Rick Gilmore, Andrea Seisler, Melody Xu, and Yinghe Liu"
+  date: last-modified
+  chapters:
+    - index.qmd
+    - 00-introduction.qmd
+    - 01-ethics.qmd
+    - 02-grants.qmd
+    - 20-requesting-access.qmd
+    - 30-onboarding.qmd
+    - 40-managing-people.qmd
+    - 50-create-new-volume.qmd
+    - 55-edit-existing-volume.qmd
+    - 60-reusing-data.qmd
+    - 65-data-sharing.qmd
+    - 70-best-practices.qmd
+    - 75-faq.qmd
+    - 80-access_agreement.qmd
+    - 90-participant-info.qmd
+
+format:
+  html:
+    theme: cosmo
