@@ -60,6 +60,13 @@ We strongly recommend using a password generation or manager program or the pass
 
 ![Databrary Set Password screen](img/db-set-password.JPG){#fig-set-password fig-align="center"}
 
+::: {.callout-warning}
+
+Keep your account credentials secret and do not share them with anyone.
+Each Databrary user must have their own login and password.
+
+:::
+
 ### Requesting authorization {-}
 
 Every Databrary user who seeks access to restricted data must request and be granted authorization for that access.

@@ -1,6 +1,6 @@
 # Ethics
 
-As a restricted access data repository for sensitive and identifiable research data, especially video, Databrary has developed an interlocking web of principles and policies that put ethics at the center.
+As a restricted access data repository specialized for storing and sharing sensitive and identifiable research data, especially video, Databrary has developed an interlocking web of ethical principles and policies.
 
 ## Principles {-}
 
