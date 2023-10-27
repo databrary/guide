@@ -6,7 +6,7 @@ book:
   title: "Databrary Guide"
   cover-image: img/databrary-nav-sm.jpg
   subtitle: "How to use Databrary to share research data"
-  author: "Rick Gilmore, Andrea Seisler, Melody Xu, and Yinghe Liu"
+  author: ["Rick Gilmore", "Andrea Seisler", "Melody Xu", "Yinghe Liu"]
   date: last-modified
   chapters:
     - index.qmd
