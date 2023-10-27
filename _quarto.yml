@@ -11,21 +11,29 @@ book:
   chapters:
     - index.qmd
     - introduction.qmd
-    - ethics.qmd
-    - grants.qmd
-    - requesting-access.qmd
-    - onboarding.qmd
-    - managing-people.qmd
-    - create-new-volume.qmd
-    - edit-existing-volume.qmd
-    - reusing-data.qmd
-    - data-sharing.qmd
-    - best-practices.qmd
-    - faq.qmd
+    - part: "For Institutions"
+      chapters:
+        - background.qmd
+        - ethics.qmd
+    - part: "For Researchers"
+      chapters:
+        - requesting-access.qmd
+        - onboarding.qmd
+        - managing-people.qmd
+        - create-new-volume.qmd
+        - edit-existing-volume.qmd
+        - reusing-data.qmd
+        - data-sharing.qmd
+        - best-practices.qmd
+        - grants.qmd
+        - faq.qmd
     - references.qmd
   appendices:
     - access_agreement.qmd
     - participant-info.qmd
+    - privacy-policy.qmd
+    - terms.qmd
+  repo-url: https://github.com/databrary/guide
 
 bibliography: [packages.bib, references.bib]
 

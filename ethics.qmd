@@ -161,7 +161,7 @@ Data and metadata stored in Databrary are subject to the security policies and b
 
 - Describe the data being exchanged: The data are primarily video data of behavioral research in addition to stimuli that have been used for research studies.  
 
-### Databrary’s Contact Information:
+### Databrary’s Contact Information {-}
 
 <p>Databrary<br/>
 4 Washington Place<br/>

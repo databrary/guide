@@ -16,7 +16,7 @@ Look up a term in the glossary if something doesn't make sense, or contact us di
 Databrary was built in 2013-2014 at New York University, its home institution, and went live to the research community in 2014.
 The system has had steady growth, as the following figure from the [Databrary analytics site](https://databrary.github.io/analytics) indicates:
 
-![Growth in researchers and institutions since Databrary's inception. Source: <https://databrary.github.io/analytics>](https://databrary.github.io/analytics/include/img/fig-databrary-inst-invest-timeseries-1.png){fig-align="center"}
+![Growth in researchers and institutions since Databrary's inception. Source: <https://databrary.github.io/analytics>](https://databrary.github.io/analytics/include/img/fig-databrary-inst-invest-timeseries-1.png){#fig-analytics-invest-inst fig-align="center"}
 Karen Adolph and Rick Gilmore co-founded and co-direct Databrary.
 
 ## Support {-}
