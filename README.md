@@ -1,5 +1,6 @@
 # guide
 User guide to the Databrary system
+-reformat
 
 ## Helpful Notes
 
