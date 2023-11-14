@@ -1,4 +1,8 @@
 # References {.unnumbered}
+::: {.callout}
+This reference example [@Gilmore2017-wd]
+:::
 
 ::: {#refs}
 :::
+

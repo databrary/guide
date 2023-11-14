@@ -1,0 +1,27 @@
+# Onboarding for Affiliates
+
+## Update your profile 
+
+We want Databrary users to get to know each other.
+
+add picture of profile tab
+
+## Request Databrary Access 
+
+Now that you have completed the first 4 tabs of [registration](https://nyu.databrary.org/user/register?page=create), it is time for you to request access to Databrary from your supervising professor
+
+- Log in to your account
+- Go to the profile page of your supervising professor on Databrary (AFTER they have created an account)
+- Scroll all the way down to the bottom of their page
+- Click on the button 'Apply for authorization from [Supervising professor name]' near the bottom of the page.
+
+add picture of supervising professor with 'apply for authorization' button
+
+## Tour of Databrary Dashboard {-}
+
+## Edit View {-}
+
+## Button Dictionary {-}
+
+## Public View {-}
+

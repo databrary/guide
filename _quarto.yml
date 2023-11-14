@@ -15,11 +15,24 @@ book:
       chapters:
         - background.qmd
         - ethics.qmd
-    - part: "For Researchers"
+    - part: "For Authorized Investigators"
       chapters:
+        - determine-status.qmd
         - requesting-access.qmd
         - onboarding.qmd
         - managing-people.qmd
+        - create-new-volume.qmd
+        - edit-existing-volume.qmd
+        - reusing-data.qmd
+        - data-sharing.qmd
+        - best-practices.qmd
+        - grants.qmd
+        - faq.qmd
+    - part: "For Affiliates"
+      chapters: 
+        - determine-status.qmd
+        - Chapters-for-Affiliates/requesting-access-affiliates.qmd
+        - Chapters-for-Affiliates/onboarding-affiliates.qmd
         - create-new-volume.qmd
         - edit-existing-volume.qmd
         - reusing-data.qmd
@@ -36,9 +49,15 @@ book:
   repo-url: https://github.com/databrary/guide
 
 bibliography: [packages.bib, references.bib]
+bibliography-style: apa
 
 format:
   html:
     theme: cosmo
+    css: style.css
+    iframe: true
   epub:
     cover-image: img/databrary-nav-sm.jpg
+
+output: 
+  number_sections: true
