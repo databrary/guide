@@ -338,28 +338,28 @@
   {
     "objectID": "reusing-data.html#how-do-i-download-data-on-databrary-for-reuse",
     "href": "reusing-data.html#how-do-i-download-data-on-databrary-for-reuse",
-    "title": "9  Reusing data",
+    "title": "10  Reusing data",
     "section": "How do I download data on Databrary for reuse",
     "text": "How do I download data on Databrary for reuse\nRe-using shared data on Databrary - Download - entire volume (be careful, these can be quite large.) - Download as .zip - a single session - Download vs. Download Original"
   },
   {
     "objectID": "reusing-data.html#ethics-of-reusing-data",
     "href": "reusing-data.html#ethics-of-reusing-data",
-    "title": "9  Reusing data",
+    "title": "10  Reusing data",
     "section": "Ethics of Reusing Data",
     "text": "Ethics of Reusing Data\nAuthorized Investigators must secure Institutional approvals prior to conducting research with data shared on Databrary. In the U.S. context, conducting secondary analysis on shared video data may not qualify as human subjects research because there is no direct contact with research participants. Still, a research project involving video data reuse may require ethics board or IRB review and approval because the data are identifiable."
   },
   {
     "objectID": "reusing-data.html#how-to-cite-reused-data",
     "href": "reusing-data.html#how-to-cite-reused-data",
-    "title": "9  Reusing data",
+    "title": "10  Reusing data",
     "section": "How to cite reused data",
     "text": "How to cite reused data\nShared Data should have a citation on the volume profile page under the ‘How to cite’ heading it takes the format of:\nLastName, FirstInitial. (year volume was added). Title of Volume. Databrary. Retrieved Month DD, YYYY from [link to assigned doi].\nFind an example of a public volume here\nAdmin, D., Gilmore, R.O., Seisler, A.R. & Soska, K. (2018). Databrary & Datavyu Help Videos. Databrary. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686."
   },
   {
     "objectID": "reusing-data.html#how-to-cite-databrary",
     "href": "reusing-data.html#how-to-cite-databrary",
-    "title": "9  Reusing data",
+    "title": "10  Reusing data",
     "section": "How to cite Databrary",
     "text": "How to cite Databrary\nDatabrary. (2014). Databrary.org. https://nyu.databrary.org/\nDatavyu Team (2014). Datavyu: A Video Coding Tool. Databrary Project, New York University. URL http://datavyu.org."
   },
@@ -982,85 +982,85 @@
   {
     "objectID": "Chapters-for-Affiliates/onboarding-affiliates.html#update-your-profile",
     "href": "Chapters-for-Affiliates/onboarding-affiliates.html#update-your-profile",
-    "title": "17  Onboarding for Affiliates",
-    "section": "17.1 Update your profile",
-    "text": "17.1 Update your profile\nWe want Databrary users to get to know each other.\nadd picture of profile tab"
+    "title": "Onboarding for Affiliates",
+    "section": "Update your profile",
+    "text": "Update your profile\nWe want Databrary users to get to know each other.\nadd picture of profile tab"
   },
   {
     "objectID": "Chapters-for-Affiliates/onboarding-affiliates.html#request-databrary-access",
     "href": "Chapters-for-Affiliates/onboarding-affiliates.html#request-databrary-access",
-    "title": "17  Onboarding for Affiliates",
-    "section": "17.2 Request Databrary Access",
-    "text": "17.2 Request Databrary Access\nNow that you have completed the first 4 tabs of registration, it is time for you to request access to Databrary from your supervising professor\n\nLog in to your account\nGo to the profile page of your supervising professor on Databrary (AFTER they have created an account)\nScroll all the way down to the bottom of their page\nClick on the button ‘Apply for authorization from [Supervising professor name]’ near the bottom of the page.\n\nadd picture of supervising professor with ‘apply for authorization’ button"
+    "title": "Onboarding for Affiliates",
+    "section": "Request Databrary Access",
+    "text": "Request Databrary Access\nNow that you have completed the first 4 tabs of registration, it is time for you to request access to Databrary from your supervising professor\n\nLog in to your account\nGo to the profile page of your supervising professor on Databrary (AFTER they have created an account)\nScroll all the way down to the bottom of their page\nClick on the button ‘Apply for authorization from [Supervising professor name]’ near the bottom of the page.\n\nadd picture of supervising professor with ‘apply for authorization’ button"
   },
   {
     "objectID": "Chapters-for-Affiliates/onboarding-affiliates.html#tour-of-databrary-dashboard",
     "href": "Chapters-for-Affiliates/onboarding-affiliates.html#tour-of-databrary-dashboard",
-    "title": "17  Onboarding for Affiliates",
+    "title": "Onboarding for Affiliates",
     "section": "Tour of Databrary Dashboard",
     "text": "Tour of Databrary Dashboard"
   },
   {
     "objectID": "Chapters-for-Affiliates/onboarding-affiliates.html#edit-view",
     "href": "Chapters-for-Affiliates/onboarding-affiliates.html#edit-view",
-    "title": "17  Onboarding for Affiliates",
+    "title": "Onboarding for Affiliates",
     "section": "Edit View",
     "text": "Edit View"
   },
   {
     "objectID": "Chapters-for-Affiliates/onboarding-affiliates.html#button-dictionary",
     "href": "Chapters-for-Affiliates/onboarding-affiliates.html#button-dictionary",
-    "title": "17  Onboarding for Affiliates",
+    "title": "Onboarding for Affiliates",
     "section": "Button Dictionary",
     "text": "Button Dictionary"
   },
   {
     "objectID": "Chapters-for-Affiliates/onboarding-affiliates.html#public-view",
     "href": "Chapters-for-Affiliates/onboarding-affiliates.html#public-view",
-    "title": "17  Onboarding for Affiliates",
+    "title": "Onboarding for Affiliates",
     "section": "Public View",
     "text": "Public View"
   },
   {
     "objectID": "Chapters-for-Affiliates/requesting-access-affiliates.html#registering-for-databrary-access-as-affiliates",
     "href": "Chapters-for-Affiliates/requesting-access-affiliates.html#registering-for-databrary-access-as-affiliates",
-    "title": "16  Requesting access as affiliates",
-    "section": "16.1 Registering for Databrary Access As Affiliates",
-    "text": "16.1 Registering for Databrary Access As Affiliates\nTo start the authorization process on Databrary, please complete the Registration Form or click on the green ‘Register’ button or click on ‘register’ on the top right of the menu bar at databrary.org.\n\n\n\nFigure 16.1: Image from Databrary home page"
+    "title": "Requesting access as affiliates",
+    "section": "Registering for Databrary Access As Affiliates",
+    "text": "Registering for Databrary Access As Affiliates\nTo start the authorization process on Databrary, please complete the Registration Form or click on the green ‘Register’ button or click on ‘register’ on the top right of the menu bar at databrary.org.\n\n\n\nFigure 1: Image from Databrary home page"
   },
   {
     "objectID": "Chapters-for-Affiliates/requesting-access-affiliates.html#creating-an-account",
     "href": "Chapters-for-Affiliates/requesting-access-affiliates.html#creating-an-account",
-    "title": "16  Requesting access as affiliates",
-    "section": "16.2 Creating an account",
-    "text": "16.2 Creating an account\nFill out the Create Account form with your full name, valid institutional email address, and the name of your research institution.\n\n\n\nFigure 16.2: Creating a Databrary account\n\n\nRead the Databrary Access Agreement, Annex I, Annex II, and Annex III and check the box to agree to the access terms.\n\n\n\nFigure 16.3: Duplicate image of getting started\n\n\nGo to your email box, locate the auto-generated email from Databrary, and confirm your email. If you don’t receive the email within a few minutes, check your spam folder.\n\n\n\nFigure 16.4: Databrary screen indicating confirmation email has been sent\n\n\n\n\n\nFigure 16.5: Sample Databrary registration email"
+    "title": "Requesting access as affiliates",
+    "section": "Creating an account",
+    "text": "Creating an account\nFill out the Create Account form with your full name, valid institutional email address, and the name of your research institution.\n\n\n\nFigure 2: Creating a Databrary account\n\n\nRead the Databrary Access Agreement, Annex I, Annex II, and Annex III and check the box to agree to the access terms.\n\n\n\nFigure 3: Duplicate image of getting started\n\n\nGo to your email box, locate the auto-generated email from Databrary, and confirm your email. If you don’t receive the email within a few minutes, check your spam folder.\n\n\n\nFigure 4: Databrary screen indicating confirmation email has been sent\n\n\n\n\n\nFigure 5: Sample Databrary registration email"
   },
   {
     "objectID": "Chapters-for-Affiliates/requesting-access-affiliates.html#choosing-a-password",
     "href": "Chapters-for-Affiliates/requesting-access-affiliates.html#choosing-a-password",
-    "title": "16  Requesting access as affiliates",
-    "section": "16.3 Choosing a password",
-    "text": "16.3 Choosing a password\nNext, please choose a password. \n\n\n\n\n\n\nWarning\n\n\n\nWe strongly recommend using a password generation or manager program or the password manager built-in to many modern web browsers. Keep your account credentials secret and do not share them with anyone. Each Databrary user must have their own login and password."
+    "title": "Requesting access as affiliates",
+    "section": "Choosing a password",
+    "text": "Choosing a password\nNext, please choose a password. \n\n\n\n\n\n\nCaution\n\n\n\nWe strongly recommend using a password generation or manager program or the password manager built-in to many modern web browsers. Keep your account credentials secret and do not share them with anyone. Each Databrary user must have their own login and password."
   },
   {
     "objectID": "Chapters-for-Affiliates/requesting-access-affiliates.html#requesting-authorization",
     "href": "Chapters-for-Affiliates/requesting-access-affiliates.html#requesting-authorization",
-    "title": "16  Requesting access as affiliates",
-    "section": "16.4 Requesting authorization",
-    "text": "16.4 Requesting authorization\nEvery Databrary user who seeks access to restricted data must request and be granted authorization for that access. As a restricted access data library, Databrary need to make sure that users are empowered to follow the guidelines for accessing the data.\nRemember, Authorized Investigators must secure authorization from an institution; Affiliate must secure authorization from an Authorized Investigator!\nPlease read the requirements for Affiliates. Choose the radio button that accurately reflects your qualifications. If you are not certain with you status, review Determine Rsearchers Status.\n\n\n\nFigure 16.6: Databrary Request Authorization screen\n\n\n\n\n\n\n\n\nTip\n\n\n\nIt’s time for you to contact your supervisor (Authorized Investigators) for authorization. You will need authorization for further storing, sharing, or resuing data. You may also set up your Databrary profile while authorization is pending."
+    "title": "Requesting access as affiliates",
+    "section": "Requesting authorization",
+    "text": "Requesting authorization\nEvery Databrary user who seeks access to restricted data must request and be granted authorization for that access. As a restricted access data library, Databrary need to make sure that users are empowered to follow the guidelines for accessing the data.\nRemember, Authorized Investigators must secure authorization from an institution; Affiliate must secure authorization from an Authorized Investigator!\nPlease read the requirements for Affiliates. Choose the radio button that accurately reflects your qualifications. If you are not certain with you status, review Determine Rsearchers Status.\n\n\n\nFigure 6: Databrary Request Authorization screen\n\n\n\n\n\n\n\n\nTip\n\n\n\nIt’s time for you to contact your supervisor (Authorized Investigators) for authorization. You will need authorization for further storing, sharing, or resuing data. You may also set up your Databrary profile while authorization is pending."
   },
   {
     "objectID": "Chapters-for-Affiliates/requesting-access-affiliates.html#awaiting-authorization",
     "href": "Chapters-for-Affiliates/requesting-access-affiliates.html#awaiting-authorization",
-    "title": "16  Requesting access as affiliates",
-    "section": "16.5 Awaiting authorization",
-    "text": "16.5 Awaiting authorization\nThe process of securing authorization can take a few hours, or a few days or weeks. Institutions that have many active Databrary users are familiar with the system and usually process authorization requests quickly.\nThe Databrary staff will work closely with you to expedite your authorization.\nOnce authorized, you will receive an email confirmation."
+    "title": "Requesting access as affiliates",
+    "section": "Awaiting authorization",
+    "text": "Awaiting authorization\nThe process of securing authorization can take a few hours, or a few days or weeks. Institutions that have many active Databrary users are familiar with the system and usually process authorization requests quickly.\nThe Databrary staff will work closely with you to expedite your authorization.\nOnce authorized, you will receive an email confirmation."
   },
   {
     "objectID": "Chapters-for-Affiliates/requesting-access-affiliates.html#related-frequently-asked-questions",
     "href": "Chapters-for-Affiliates/requesting-access-affiliates.html#related-frequently-asked-questions",
-    "title": "16  Requesting access as affiliates",
-    "section": "16.6 Related Frequently Asked Questions",
-    "text": "16.6 Related Frequently Asked Questions\n\n\nQ: What if I do not have an Authorized Investigator as my supervisor?\n\n\nA: Review determine status. Make sure you are identified as an affiliate.\n\n\n\nQ: What if my supervisor or institution has not yet been granted with authorization?\n\nA: First make sure you have a account ready for registration.(Figure 16.6) Then, get ready to apply for authorization.\n\n\n\n\n\n\n\nCheck Frequently Asked Questions for more possibly related questions. You can always contact us at contact@databrary.org; Databrary staffs are willingly to answer your questions."
+    "title": "Requesting access as affiliates",
+    "section": "Related Frequently Asked Questions",
+    "text": "Related Frequently Asked Questions\n\n\n\nQ: What if I do not have an Authorized Investigator as my supervisor?\n\n\nA: Review determine status. Make sure you are identified as an affiliate.\n\n\n\n\nQ: What if my supervisor or institution has not yet been granted with authorization?\n\nA: First make sure you have a account ready for registration.(Figure 6) Then, get ready to apply for authorization.\n\n\n\n\n\n\n\nCheck Frequently Asked Questions for more possibly related questions. You can always contact us at contact@databrary.org; Databrary staffs are willingly to answer your questions."
   }
 ]

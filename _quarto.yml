@@ -11,10 +11,12 @@ book:
   chapters:
     - index.qmd
     - introduction.qmd
+    
     - part: "For Institutions"
       chapters:
         - background.qmd
         - ethics.qmd
+        
     - part: "For Authorized Investigators"
       chapters:
         - determine-status.qmd
@@ -28,6 +30,7 @@ book:
         - best-practices.qmd
         - grants.qmd
         - faq.qmd
+        
     - part: "For Affiliates"
       chapters: 
         - determine-status.qmd
@@ -41,6 +44,7 @@ book:
         - grants.qmd
         - faq.qmd
     - references.qmd
+      
   appendices:
     - access_agreement.qmd
     - participant-info.qmd
@@ -54,10 +58,9 @@ bibliography-style: apa
 format:
   html:
     theme: cosmo
-    css: style.css
-    iframe: true
+    css: style.css 
+    number_sections: false
   epub:
     cover-image: img/databrary-nav-sm.jpg
 
-output: 
-  number_sections: true
+number-depth: 1

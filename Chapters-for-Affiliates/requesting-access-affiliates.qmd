@@ -1,58 +1,61 @@
-# Requesting access as affiliates
+# Requesting access as affiliates {.unnumbered}
 
-Ensuring that data is used appropriately is a core principle of Databray. Users will be **required** to register an account and obtain authorization to gain further access.
+Ensuring that data is used appropriately is a core principle of Databray.
+Users will be **required** to register an account and obtain authorization to gain further access.
 
-## Registering for Databrary Access As Affiliates 
+## Registering for Databrary Access As Affiliates
 
 To start the authorization process on Databrary, please complete the [Registration Form](https://nyu.databrary.org/user/register?page=create) or click on the **green 'Register' button** or click on **'register' on the top right of the menu bar** at [databrary.org](https://databrary.org).
 
 ![Image from Databrary home page](img/db-main-page.JPG){#fig-getting-started}
 
-## Creating an account 
+## Creating an account
 
 Fill out the Create Account form with your **full name, valid institutional email address, and the name of your research institution**.
 
 ![Creating a Databrary account](img/db-create-account.JPG){#fig-create-account}
 
-Read the [Databrary Access Agreement](https://databrary.org/about/agreement/agreement.html), [Annex I](https://databrary.org/about/agreement/agreement-annex-I.html), [Annex II](https://databrary.org/about/agreement/agreement-annex-II.html), and [Annex III](https://databrary.org/about/agreement/agreement-annex-III.html) and check the box to agree to the access terms. 
+Read the [Databrary Access Agreement](https://databrary.org/about/agreement/agreement.html), [Annex I](https://databrary.org/about/agreement/agreement-annex-I.html), [Annex II](https://databrary.org/about/agreement/agreement-annex-II.html), and [Annex III](https://databrary.org/about/agreement/agreement-annex-III.html) and check the box to agree to the access terms.
 
 ![Duplicate image of getting started](img/db-get-started.JPG){#fig-get-started}
 
-Go to your email box, locate the auto-generated email from Databrary, and **confirm your email**. If you don't receive the email within a few minutes, check your spam folder.
+Go to your email box, locate the auto-generated email from Databrary, and **confirm your email**.
+If you don't receive the email within a few minutes, check your spam folder.
 
 ![Databrary screen indicating confirmation email has been sent](img/db-confirm-email.JPG){#fig-confirm-email}
 
 ![Sample Databrary registration email](img/db-registration-email.png){#fig-registration-email}
 
-## Choosing a password 
+## Choosing a password
 
-Next, please choose a password. 
+Next, please choose a password.
 ![Databrary Set Password screen](img/db-set-password.JPG){#fig-set-password}
 
-::: {.callout-warning}
+::: callout-caution
 We strongly recommend using a password generation or manager program or the password manager built-in to many modern web browsers.
-**Keep your account credentials secret and do not share them with anyone.**
-**Each Databrary user must have their own login and password.**
-
+**Keep your account credentials secret and do not share them with anyone.** **Each Databrary user must have their own login and password.**
 :::
 
-## Requesting authorization 
+## Requesting authorization
 
-Every Databrary user who seeks access to restricted data **must** request and be granted authorization for that access. As a restricted access data library, Databrary need to make sure that users are empowered to follow the guidelines for accessing the data. 
+Every Databrary user who seeks access to restricted data **must** request and be granted authorization for that access.
+As a restricted access data library, Databrary need to make sure that users are empowered to follow the guidelines for accessing the data.
 
-Remember, **Authorized Investigators** must secure authorization from an **institution**;
-**Affiliate** must secure authorization from an **Authorized Investigator**!
+Remember, **Authorized Investigators** must secure authorization from an **institution**; **Affiliate** must secure authorization from an **Authorized Investigator**!
 
-Please read the requirements for Affiliates. Choose the radio button that accurately reflects your qualifications. If you are not certain with you status, review [Determine Rsearchers Status](determine-status.qmd).
+Please read the requirements for Affiliates.
+Choose the radio button that accurately reflects your qualifications.
+If you are not certain with you status, review [Determine Rsearchers Status](determine-status.qmd).
 
 ![Databrary Request Authorization screen](img/db-request-authorization.JPG){#fig-request-authorization}
 
-::: {.callout-tip} 
-It's time for you to contact your supervisor (**Authorized Investigators**) for authorization. You will need authorization for further storing, sharing, or resuing data.
-You may also set up your Databrary profile while authorization is pending. 
+::: callout-tip
+It's time for you to contact your supervisor (**Authorized Investigators**) for authorization.
+You will need authorization for further storing, sharing, or resuing data.
+You may also set up your Databrary profile while authorization is pending.
 :::
 
-## Awaiting authorization 
+## Awaiting authorization
 
 The process of securing authorization can take a few hours, or a few days or weeks.
 Institutions that have many active Databrary users are familiar with the system and **usually** process authorization requests quickly.
@@ -62,18 +65,31 @@ The Databrary staff will work closely with you to expedite your authorization.
 Once authorized, you will receive an email confirmation.
 
 ## Related Frequently Asked Questions
-<div class = ""qa>
-  <div class = "question"> Q: What if I do not have an **Authorized Investigator** as my supervisor? </div>
-<div class = "answer"> A: Review [determine status](determine-status.qmd). Make sure you are identified as an affiliate. 
-</div> 
 
 <div class = ""qa>
- <div class = "question"> Q: What if my supervisor or institution has not yet been granted with authorization?
-<div class = "answer"> A: First make sure you have a account ready for registration.(@fig-request-authorization) Then, get ready to [apply for authorization](https://airtable.com/appcrDDgPR8DGVGsS/shrq6ZxQzXQvQorwf). 
+
+::: question
+Q: What if I do not have an **Authorized Investigator** as my supervisor?
+:::
+
+::: answer
+A: Review [determine status](determine-status.qmd).
+Make sure you are identified as an affiliate.
+:::
 
 
-</div> 
 
-:::{.callout}
-Check [Frequently Asked Questions](faq.qmd) for more possibly related questions. You can always contact us at **contact@databrary.org**; Databrary staffs are willingly to answer your questions.
+<div class = ""qa>
+
+<div class = "question">
+Q: What if my supervisor or institution has not yet been granted with authorization?
+
+::: answer
+A: First make sure you have a account ready for registration.(@fig-request-authorization) Then, get ready to [apply for authorization](https://airtable.com/appcrDDgPR8DGVGsS/shrq6ZxQzXQvQorwf).
+:::
+
+
+::: callout
+Check [Frequently Asked Questions](faq.qmd) for more possibly related questions.
+You can always contact us at **contact\@databrary.org**; Databrary staffs are willingly to answer your questions.
 :::
