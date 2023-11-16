@@ -1,0 +1,32 @@
+# Determine Researchers Status {.unnumbered}
+
+## Overview {.unnumbered}
+
+Databrary stores and shares data that are available to the public.
+But most of the library's holdings are restricted to researchers who have secured authorization from their home institution or are affiliated with a researcher who has authorization.
+
+This extra step ensures that sensitive and identifiable data are shared only with people who have formal authorization to access it, who have research ethics training, and who are affiliated with institutions that have agreed to monitor data use.
+
+## Determining status {.unnumbered}
+
+To determine what level of access you can request from Databrary, see the following.
+
+I am eligible to become an **Authorized Investigator** if:
+
+-   I can conduct independent research;\
+-   I can submit funding proposals as the lead investigator;\
+-   I have Principal Investigator (PI) status or a tenure-track faculty position at my Institution;
+-   My Institution maintains or uses an ethics board to review and approve research involving human subjects (or animals where relevant); AND
+-   I have current training that addresses research ethics with human subject (or animals where relevant)
+
+I am eligible to become an **Affiliate** if:
+
+-   I conduct research under the supervision of a Principal Investigator an Authorized Investigator's sponsorship; AND
+-   I am a student, research staff, or post-doctoral researcher
+
+::: callout-important
+If you are eligible for **Affiliate** status, your supervisor or research sponsor must register as an Authorized Investigator <u>BEFORE</u> you may request affiliate access from them.
+Communicate with your sponsor about your request.
+:::
+
+

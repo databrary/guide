@@ -34,4 +34,47 @@ img {
     display: none;
 }
 
+# Definitions
+.term {
+    font-weight: bold;
+}
+
+.term-label {
+    color: blue;
+}
+
+.term-description {
+    color: green;
+}
+
+.vocabulary {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+<div class="term">
+    <span class="term-label">Databrary</span>
+    <span class="term-description">Databrary is a restricted access data library that is specialized for storing, streaming, and sharing video and audio recordings collected as research data or documentation.</span>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('.term').hover(function() {
+            // Get the definition from the 'title' attribute
+            var definition = $(this).attr('title');
+            // Create a tooltip element and position it
+            $('<div class="tooltip"></div>')
+                .text(definition)
+                .appendTo('body')
+                .css({
+                    top: $(this).offset().top - 30,
+                    left: $(this).offset().left
+                })
+                .fadeIn('fast');
+        }, function() {
+            // Remove the tooltip when the mouse leaves the element
+            $('.tooltip').remove();
+        });
+    });
+</script>
 

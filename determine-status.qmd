@@ -1,4 +1,4 @@
-# Determine Researchers Status {#determine-status}
+# Determine Researchers Status {.unnumbered}
 
 ## Overview {-}
 

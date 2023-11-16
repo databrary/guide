@@ -1,0 +1,9 @@
+# Create a new volume {.unnumbered}
+Each project can create a volume for storing and sharing data. We encourage corresponding actions to be performed before the project is in collecting data process. In this case, you would utilize the upload as you go method of data curation. 
+
+## Step 1: Login/Go to Profile 
+Review [Onborading-affiliates](../Chapters-for-Affiliates/onboarding-affiliates.qmd) for how to find your profile.
+
+![Volumes you own or shared by others](../Chapters-for-Affiliates/img/db-dashboard-shared-volume.png){#dashboard-volumes}
+
+## Step 2: Begin Create Volume 

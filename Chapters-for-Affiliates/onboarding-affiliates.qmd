@@ -1,27 +1,66 @@
-# Onboarding for Affiliates {.unnumbered}
+# Onboarding {.unnumbered}
+We want Databrary users to get to know each other. Add more information to your account to help people get to know you. 
+Let's present Oboarding from the perspectvie of an affiloate. 
 
-## Update your profile 
+## Login and Update your profile 
 
-We want Databrary users to get to know each other.
+First, let's login to your accounts. 
 
-add picture of profile tab
+Then navigate to home page, and the name of your account will appear in the top right corner.
 
-## Request Databrary Access 
 
-Now that you have completed the first 4 tabs of [registration](https://nyu.databrary.org/user/register?page=create), it is time for you to request access to Databrary from your supervising professor
+![Find profile in home page](../Chapters-for-Affiliates/img/db-find-profile.jpg){#find-profile}
 
-- Log in to your account
-- Go to the profile page of your supervising professor on Databrary (AFTER they have created an account)
-- Scroll all the way down to the bottom of their page
-- Click on the button 'Apply for authorization from [Supervising professor name]' near the bottom of the page.
 
-add picture of supervising professor with 'apply for authorization' button
+Click `View Profile`.
 
-## Tour of Databrary Dashboard {-}
 
-## Edit View {-}
+![View Profile in home page](../Chapters-for-Affiliates/img/db-view-profile.jpg){#view-profile}
 
-## Button Dictionary {-}
 
-## Public View {-}
+The profile would look like this:
+
+
+![Profile in personal view](../Chapters-for-Affiliates/img/db-profile.png){#profile-interface}
+
+You can check out your **Volumes, Sponsors, and Affilliates status** if you click the `Dashboard`.
+
+## Tour of Databrary Dashboard 
+The dashboard contains two major parts: volumes and affiliations. 
+
+On the left side, you can view volumes that you own or shared access to. For affiliations, it is likely that your sponsors may share their projects access with you. You can check your accessibility by putting your mouse over the `lock` ion. 
+
+![Volumes you own or shared by others](../Chapters-for-Affiliates/img/db-dashboard-shared-volume.png){#dashboard-volumes}
+
+On your right side, you can see your sponsor(s). Affiliates may not share their access to other affiliates. 
+
+![Check your affiliations in profile](../Chapters-for-Affiliates/img/db-dashboard-sponsor){#dashboard-affiliations}
+
+## Edit View 
+To make changes in your account informations, click the pen-shaped `edit` button.
+
+![Make edits in your profile](../Chapters-for-Affiliates/img/db-dashboard-edit){#dashboard-edit-profile}
+
+Here you may change your **personal information, account security settings, notifications, sponsors**, and unlikely affiliates. 
+
+![Change your profile in the edit view](../Chapters-for-Affiliates/img/db-profile-personal-info){#edit-profile-personal-info}
+
+When you change your affiliation status, remember to apply for a new request in the `sponsors` page. 
+
+![Apply for new sponsor](../Chapters-for-Affiliates/img/db-profile-sponsor){#edit-profile-sponsor}
+
+
+## Public View 
+
+You can also view your account in the other user users interface by using the `switch to public view` button under the account name. 
+
+![Switch to public view](../Chapters-for-Affiliates/img/db-dashboard-switch-view){#switch-to-public-view}
+
+
+The public view of your profile would look like this:
+
+![Public view of your profile](../Chapters-for-Affiliates/img/db-dashboard-public-view){#profile-public-view}
+
+
+
 
