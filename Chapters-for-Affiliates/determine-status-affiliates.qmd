@@ -29,4 +29,10 @@ If you are eligible for **Affiliate** status, your supervisor or research sponso
 Communicate with your sponsor about your request.
 :::
 
+## Rights and Obligations {.unnumbered}
+
+Authorized Investigators and Affiliates are responsible for ensuring that their use of Databrary complies with the terms of their Institutional Agreement and with the Databrary Terms of Use. Additionally, they differ in the following ways:
+
+- Authorized Investigators may request access to restricted data and may share data with Affiliates and Authorized Investigators.
+- Affiliates may request access to restricted data but may not share data with other users.
 

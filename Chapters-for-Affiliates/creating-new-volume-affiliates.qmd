@@ -1,9 +1,61 @@
 # Create a new volume {.unnumbered}
 Each project can create a volume for storing and sharing data. We encourage corresponding actions to be performed before the project is in collecting data process. In this case, you would utilize the upload as you go method of data curation. 
 
+We have intentionally limited the permissions to manage the volume to ensure data security. Creating volumes is a privilege granted to the project's **Manager** status affiliates, and sharing the volume is **not** allowed for affiliates.
+
+:::{.callout-important}
+**Volumes cannot be deleted once created.** 
+:::
+
+If you have created a volume by mistake, you can hide the volume by restricting access to others or rename the volume so that it can be reused by another future project. 
+
+
+
+
 ## Step 1: Login/Go to Profile 
+Let's get started with creating a new volume.
+
 Review [Onborading-affiliates](../Chapters-for-Affiliates/onboarding-affiliates.qmd) for how to find your profile.
 
 ![Volumes you own or shared by others](../Chapters-for-Affiliates/img/db-dashboard-shared-volume.png){#dashboard-volumes}
 
-## Step 2: Begin Create Volume 
+## Step 2: Look for Create a new volume button
+
+If the button is not available, check your sponsor status by reviewing your profile.
+If you are not granted with **Manager** status, you will not be able to create a new volume.
+
+![Affiliates with Read-only Access](../Chapters-for-Affiliates/img/db-profile-sponsor.png){#profile-sponsor}
+
+Read-Only access will not allow you to create a new volume. Only affiliates granted with **Manager** status will be able to create a new volume. Meanwhile, affiliates at all circumstances may not share access to the volume with others even with the manager status.
+
+![Affiliates with the manager status.](../Chapters-for-Affiliates/img/db-profile-sponsor-manager.png){#profile-sponsor-manager}
+
+If you have been granted with access to create a new volume, you will see the button `Create a new volume` under **Your Sponsor Volumes**. 
+
+![Create a new volume](../Chapters-for-Affiliates/img/db-dashboard-create-volume.png){#dashboard-create-volume}
+
+## Step 3: Click Create a new volume button to create a new volume
+
+:::{.callout-important}
+Again, creating a new volume with careful consideration is important. Once created, the volume **cannot** be deleted.
+:::
+
+Click the button `Create a new volume` to create a new volume. In this page, you will be asked to provide the following information: **overview, manage access, design spreadsheet, enter data, add links, ** and **list fundings**.  
+
+## Related Frequently Asked Questions (FAQs) {.unnumbered}
+
+<div class = ""qa>
+
+::: question
+Q: I don't know how to get authorized as a manager. 
+:::
+
+::: answer
+A: Manager status is authorized by their sponsor during the  [requesting-access-affiliates](../Chapters-for-Affiliates/requesting-access-affiliates.qmd) where the sponsor will be asked to choose the status of an affiliate. 
+
+![Grant access by sponsors](../Chapters-for-Affiliates/img/db-grant-access.png){#grant-access}
+
+Make sure you have the right status. If you need to update your status, please contact your sponsor.
+:::
+
+<div class = ""qa>
