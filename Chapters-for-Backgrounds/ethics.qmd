@@ -1,4 +1,4 @@
-# Ethics
+# Ethics {.unnumbered}
 
 As a restricted access data repository specialized for storing and sharing sensitive and identifiable research data, especially video, Databrary has developed an interlocking web of ethical principles and policies.
 

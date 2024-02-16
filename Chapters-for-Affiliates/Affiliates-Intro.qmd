@@ -1,0 +1,32 @@
+---
+title: As Affiliates
+# change the YAML metadata above CAREFULLY
+---
+
+Affiliates normally refers to **Student or Staff** in the activities of data collection, data analysis, and data interpretation. 
+
+Affiliates are different from authorized investigators in that they are not responsible for the design, conduct, or reporting of the research. Please notice that the term "Affiliates" is a generally umbrella term used in the context of Databrary management and may also described as "Sponsored investigators". 
+
+Affiliates have the same responsibilities as authorized investigators in terms of data security and confidentiality. An Affiliate must gain the permission of an authorized investigator to perform any of the following actions:
+
+**Authorizable:**
+
+- Request access to restricted data
+
+- Access others volumes, if permitted
+
+- Create a volume
+
+- Upload data to their volumes
+
+- Remove data from their volumes
+
+
+**Unauthorizable:**
+
+- Delete a volume
+
+- Sharing Volumes with other users
+
+**Proceed to the next page to learn more as an Affiliate. **
+

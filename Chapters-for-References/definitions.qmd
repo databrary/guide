@@ -1,4 +1,4 @@
-
+# Definitions {.unnumbered}
 <p>This is some [special vocabulary]{.vocabulary} in your text.</p>
 
 [Term]{.term title="This is the definition of the term."}

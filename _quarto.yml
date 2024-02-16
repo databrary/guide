@@ -9,48 +9,29 @@ book:
   author: ["Rick Gilmore", "Andrea Seisler", "Melody Xu", "Yinghe Liu"]
   date: last-modified
   chapters:
-    - index.qmd
-    - introduction.qmd
-    
-    - part: "For Institutions"
-      chapters:
-        - background.qmd
-        - ethics.qmd
-        
-    - part: "For Authorized Investigators"
-      chapters:
-        - determine-status.qmd
-        - requesting-access.qmd
-        - onboarding.qmd
-        - managing-people.qmd
-        - create-new-volume.qmd
-        - edit-existing-volume.qmd
-        - reusing-data.qmd
-        - data-sharing.qmd
-        - best-practices.qmd
-        - grants.qmd
-        - faq.qmd
-        
-    - part: "For Affiliates"
+    - index.qmd # This is the file that contains the front matter, found in the root of the repository
+    - Chapters-for-Backgrounds/introduction.qmd 
+    - Chapters-for-Backgrounds/ethics.qmd
+    - Chapters-for-Backgrounds/determine-status.qmd
+
+    - part: Chapters-for-Affiliates/Affiliates-Intro.qmd 
       chapters: 
-        - Chapters-for-Affiliates/determine-status-affiliates.qmd
         - Chapters-for-Affiliates/requesting-access-affiliates.qmd
         - Chapters-for-Affiliates/onboarding-affiliates.qmd
         - Chapters-for-Affiliates/creating-new-volume-affiliates.qmd
-        - edit-existing-volume.qmd
-        - reusing-data.qmd
-        - data-sharing.qmd
-        - best-practices.qmd
-        - grants.qmd
-        - faq.qmd
-    - references.qmd
-    - Definitions.qmd
-      
+        - Chapters-for-Affiliates/edit-existing-volume-affiliates.qmd
+        - Chapters-for-Affiliates/reusing-data-affiliates.qmd
+        
+    - Chapters-for-References/faq.qmd 
+    - Chapters-for-References/references.qmd 
+    - Chapters-for-References/definitions.qmd
   appendices:
-    - access_agreement.qmd
-    - participant-info.qmd
-    - privacy-policy.qmd
-    - terms.qmd
+    - Chapters-for-Appendices/access_agreement.qmd
+    - Chapters-for-Appendices/participant_info.qmd
+    - Chapters-for-Appendices/privacy_policy.qmd
+    - Chapters-for-Appendices/terms.qmd
+    - Chapters-for-Appendices/grants.qmd
+
   repo-url: https://github.com/databrary/guide
 
 bibliography: [packages.bib, references.bib]
@@ -64,4 +45,4 @@ format:
   epub:
     cover-image: img/databrary-nav-sm.jpg
 
-number-depth: 1
+number-depth: 0
