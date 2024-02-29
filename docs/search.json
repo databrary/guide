@@ -2048,7 +2048,7 @@
     "href": "Chapters-for-Affiliates/edit-existing-volume-affiliates.html#overview",
     "title": "Edit a Volume",
     "section": "Overview",
-    "text": "Overview\n\nEdit Citation\nUpdate the citation of my project - setting sharing level - Manage Access - add cited authors vs. non cited researchers"
+    "text": "Overview\n\nEdit Citation\nCitations are automatically created based on current property of dataset. It would follow the naming rule of:\n\nLastName, FirstInitial. (year volume was added). Title of Volume. Databrary. Retrieved Month DD, YYYY from [link to assigned doi].\n\nFind an example of a public volume here\nAdmin, D., Gilmore, R.O., Seisler, A.R. & Soska, K. (2018). Databrary & Datavyu Help Videos. Databrary. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686.\nLastname, FirstInitial: names of authorized investigators only. Current version Databrary only supports adding authorizied investigators on the doi. We are making improvements on inventing an adapting version where names on doi can be selected by manual choices.\nyear volumes was added: The year the volume was created, not the last modified date.\nTitle of Volume: This would use the public name of the volume.\n\n\n\n\n\n\nImportant\n\n\n\nDo not worry that edits on volume would break the links. It is worthy noting that the non-deletable characteristics of volumes are designed to keep the sustainable accessibility of doi links. The only way to break the link is deleting the volume, which can only performed by Databrary Staffs.\n\n\nIf the automatically generated citation failed to reflect the authors of the study, you may consider to add notes in the description of the volume. For instance, a student with affiliates access should be considered as an author, but their name are not properly shown on the citation due to algorithm limitations. In the case, you can add alternative reference written by themselves in the volume description.\n\n\n\nAdd Alternative Reference in descriptions"
   },
   {
     "objectID": "Chapters-for-Affiliates/edit-existing-volume-affiliates.html#manage-access",
@@ -2062,7 +2062,7 @@
     "href": "Chapters-for-Affiliates/edit-existing-volume-affiliates.html#set-up-spreadsheet",
     "title": "Edit a Volume",
     "section": "Set up Spreadsheet",
-    "text": "Set up Spreadsheet"
+    "text": "Set up Spreadsheet\nYou are able to set up a meta-data part for you dataset in the form of spreadsheets. The spreadsheet illustrates preview on core concept of your study. You are able to select highlights based on the file you uploaded. Unfortunately, meta-data must follow certain format to be recognized by Databrary:\n\nYour file must be in .csv format.\nYour file must include each variable selected on the Design Spreadsheet tab, and ONLY those variables.\nHeaders must be in the first row and header names must match those listed on the Design Spreadsheet tab.\nData must match the Databrary options (e.g., Male/Female) and dates must be in YYYY-MM-DD format.\n\nWe understand that mapping dataset into a new format can be annoying."
   },
   {
     "objectID": "Chapters-for-Affiliates/edit-existing-volume-affiliates.html#add-data",
@@ -2105,5 +2105,12 @@
     "title": "Reusing data",
     "section": "How to cite Databrary",
     "text": "How to cite Databrary\nDatabrary. (2014). Databrary.org. https://nyu.databrary.org/\nDatavyu Team (2014). Datavyu: A Video Coding Tool. Databrary Project, New York University. URL http://datavyu.org."
+  },
+  {
+    "objectID": "Chapters-for-Affiliates/edit-existing-volume-affiliates.html#share-access-to-a-volume",
+    "href": "Chapters-for-Affiliates/edit-existing-volume-affiliates.html#share-access-to-a-volume",
+    "title": "Edit a Volume",
+    "section": "Share access to a volume",
+    "text": "Share access to a volume\nImpaortant: Affiliates cannot share access to others. If you found it necessary for another researcher to engage in editting the volume, refer to your supervisor(authroized investigator) for authorization.\n\nDirectly with other Authorized Databrary Users\n- with my collaborators/lab members that work on the data set\n  - Grant Affiliate Access to individuals are under my supervision\n  - Grant Collaborator Access - ONLY to an investigator already sponsored by an institution or another authorized investigator  \n\n\nAll Authorized Databrary Users"
   }
 ]

@@ -4,18 +4,42 @@
 
 ### Edit Citation
 
-Update the citation of my project
-    - setting sharing level
-    - Manage Access
-    - add cited authors vs. non cited researchers
+**Citations are automatically created based on current property of dataset.** It would follow the naming rule of: 
 
-## Manage Access {-}
+> LastName, FirstInitial. (year volume was added). Title of Volume. *Databrary*. Retrieved Month DD, YYYY from [link to assigned doi].
 
-### to the Volume {-}
+Find an example of a public volume [here](https://nyu.databrary.org/volume/686)
 
-### for my Affiliates {-}
+Admin, D., Gilmore, R.O., Seisler, A.R. & Soska, K. (2018). Databrary & Datavyu Help Videos. *Databrary*. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686. 
+
+`Lastname, FirstInitial`: **names of authorized investigators only**. Current version Databrary only supports adding authorizied investigators on the doi. We are making improvements on inventing an adapting version where names on doi can be selected by manual choices.
+
+`year volumes was added`: The year the volume was created, not the last modified date. 
+
+`Title of Volume`: This would use the public name of the volume. 
+
+:::{.callout-important}
+Do not worry that edits on volume would break the links. It is worthy noting that the non-deletable characteristics of volumes are designed to keep the sustainable accessibility of doi links. The only way to break the link is deleting the volume, which can only performed by Databrary Staffs. 
+:::
+
+If the automatically generated citation failed to reflect the authors of the study, you may consider to add notes in the description of the volume. For instance, a student with affiliates access should be considered as an author, but their name are not properly shown on the citation due to algorithm limitations. In the case, you can add alternative reference written by themselves in the volume description. 
+
+![Add Alternative Reference in descriptions](../img/db-add-alternative-reference)
+
 
 ## Set up Spreadsheet {-}
+
+You are able to set up a meta-data part for you dataset in the form of spreadsheets. The spreadsheet illustrates preview on core concept of your study. You are able to select highlights based on the file you uploaded. Unfortunately, meta-data must follow certain format to be recognized by Databrary:
+
+- Your file must be in **.csv** format.
+
+- Your file must include each variable selected on the Design Spreadsheet tab, and **ONLY those variables**.
+
+- Headers must be in the first row and header **names must match** those listed on the Design Spreadsheet tab.
+
+- Data must match the Databrary options (e.g., Male/Female) and **dates must be in YYYY-MM-DD format**.
+
+We understand that mapping dataset into a new format can be annoying. 
 
 ## Add Data {-}
 
@@ -64,7 +88,9 @@ To remove files, see instructions above **insert link to section above**
 
 Here is a video tutorial on how to [delete a Databrary folder](https://nyu.databrary.org/volume/686/slot/67043/-?asset=434284)
 
-## Share a volume {-}
+## Share access to a volume {-}
+
+Impaortant: Affiliates cannot share access to others. If you found it necessary for another researcher to engage in editting the volume, refer to your supervisor(authroized investigator) for authorization. 
 
 ### Directly with other Authorized Databrary Users {-}
 
