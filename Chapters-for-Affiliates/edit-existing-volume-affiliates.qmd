@@ -1,8 +1,15 @@
 # Edit a Volume {.unnumbered}
 
 ## Overview {-}
+You can make changes to your volume property such as, citations, metadata, hierarchical structure, or adding specific details of one participant. 
+
+:::{.callout-important}
+Do not worry that edits on volume would break the doi links. It is worthy noting that the non-deletable characteristics of volumes are designed to keep the sustainable accessibility of doi links. The only way to break the link is deleting the volume, which can only be performed by Databrary Staffs. 
+:::
 
 ### Edit Citation
+
+![Citations](../Chapters-for-Affiliates/img/db-edit-citations)
 
 **Citations are automatically created based on current property of dataset.** It would follow the naming rule of: 
 
@@ -10,24 +17,32 @@
 
 Find an example of a public volume [here](https://nyu.databrary.org/volume/686)
 
-Admin, D., Gilmore, R.O., Seisler, A.R. & Soska, K. (2018). Databrary & Datavyu Help Videos. *Databrary*. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686. 
+> Admin, D., Gilmore, R.O., Seisler, A.R. & Soska, K. (2018). Databrary & Datavyu Help Videos. *Databrary*. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686. 
 
-`Lastname, FirstInitial`: **names of authorized investigators only**. Current version Databrary only supports adding authorizied investigators on the doi. We are making improvements on inventing an adapting version where names on doi can be selected by manual choices.
+`Lastname, FirstInitial`: **names of authorized investigators only**. Current version Databrary only supports adding authorizied investigators on the doi. We are making improvements on adapting a new version where names on doi can be selected by manual choices.
 
 `year volumes was added`: The year the volume was created, not the last modified date. 
 
 `Title of Volume`: This would use the public name of the volume. 
 
-:::{.callout-important}
-Do not worry that edits on volume would break the links. It is worthy noting that the non-deletable characteristics of volumes are designed to keep the sustainable accessibility of doi links. The only way to break the link is deleting the volume, which can only performed by Databrary Staffs. 
-:::
+You can check the citation by clicking on the selected volume.
 
-If the automatically generated citation failed to reflect the authors of the study, you may consider to add notes in the description of the volume. For instance, a student with affiliates access should be considered as an author, but their name are not properly shown on the citation due to algorithm limitations. In the case, you can add alternative reference written by themselves in the volume description. 
-
-![Add Alternative Reference in descriptions](../img/db-add-alternative-reference)
+![Check the Citation](../Chapters-for-Affiliates/img/db-check-citation.png)
 
 
-## Set up Spreadsheet {-}
+If the automatically generated citation failed to reflect the authors of the study, you may consider to add notes in the description of the volume. For instance, a student with affiliates access should be considered as an author, but their name are not properly shown on the citation due to algorithm limitations. In the case, you can add alternative citation written by themselves in the volume description. 
+
+![Add Alternative Citation in Descriptions](../Chapters-for-Affiliates/img/db-add-alternative-reference.png)
+
+
+## Set up Highlight Spreadsheet {-}
+
+Databrary allow various formats in storing study-related dataset. However, we encourage studies to illustrate their highlights with uniformed structure: **.CSV** files. 
+
+You may find the `create highlight` here:
+
+![Create Highlight for study](../Chapters-for-Affiliates/img/db-create-highlights)
+
 
 You are able to set up a meta-data part for you dataset in the form of spreadsheets. The spreadsheet illustrates preview on core concept of your study. You are able to select highlights based on the file you uploaded. Unfortunately, meta-data must follow certain format to be recognized by Databrary:
 
@@ -39,7 +54,6 @@ You are able to set up a meta-data part for you dataset in the form of spreadshe
 
 - Data must match the Databrary options (e.g., Male/Female) and **dates must be in YYYY-MM-DD format**.
 
-We understand that mapping dataset into a new format can be annoying. 
 
 ## Add Data {-}
 
