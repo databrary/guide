@@ -96,20 +96,9 @@ Here is a video tutorial on how to [replace a Databrary file](https://nyu.databr
 
 ### Deleting a Sessions or Materials folder {-}
 
-To delete a sessions of materials folder from your volume, you need to first remove all files and metadata associated with it. 
+To delete a sessions of materials folder from your volume, you need to first remove all files and metadata associated with it. An existing folder shall not be deleted by any user. If you mistakenly created a folder, you can remove all files and metadata associated with it and then contact Databrary staff to delete the folder. **We recommend that users reuse folders rather than deleting them.**
 
 To remove files, see instructions above **insert link to section above**
 
 Here is a video tutorial on how to [delete a Databrary folder](https://nyu.databrary.org/volume/686/slot/67043/-?asset=434284)
 
-## Share access to a volume {-}
-
-Impaortant: Affiliates cannot share access to others. If you found it necessary for another researcher to engage in editting the volume, refer to your supervisor(authroized investigator) for authorization. 
-
-### Directly with other Authorized Databrary Users {-}
-
- 
-    - with my collaborators/lab members that work on the data set
-      - Grant Affiliate Access to individuals are under my supervision
-      - Grant Collaborator Access - ONLY to an investigator already sponsored by an institution or another authorized investigator  
-### All Authorized Databrary Users {-}
