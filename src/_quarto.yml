@@ -1,0 +1,72 @@
+project:
+  type: book
+  output-dir: "../docs"
+  
+book:
+  title: "Databrary Guide"
+  cover-image: include/img/databrary-nav-sm.jpg
+  subtitle: "How to use Databrary to share research data"
+  author: ["Rick Gilmore", "Andrea Seisler", "Melody Xu", "Yinghe Liu"]
+  date: last-modified
+  chapters:
+    - index.qmd # This is the file that contains the front matter, found in the root of the repository
+    - part: background/introduction.qmd
+      chapters:
+      - background/ethics.qmd
+      - background/determine-status.qmd
+    - part: "For Institutions"
+      chapters:
+        - for-institutions/background.qmd
+    - part: "For Investigators"
+      chapters: 
+        - for-investigators/determine-status.qmd
+        - for-investigators/requesting-access.qmd
+        - for-investigators/onboarding.qmd
+        - for-investigators/managing-people.qmd
+        - for-investigators/create-new-volume.qmd
+        - for-investigators/edit-existing-volume.qmd
+        - for-investigators/data-sharing.qmd
+        - for-investigators/reusing-data.qmd
+        - for-investigators/best-practices.qmd
+    - part: "For Affiliates"
+      chapters: 
+      - for-affiliates/affiliates-intro.qmd  
+      - for-affiliates/requesting-access-affiliates.qmd
+      - for-affiliates/onboarding-affiliates.qmd
+      - for-affiliates/creating-new-volume-affiliates.qmd
+      - for-affiliates/edit-existing-volume-affiliates.qmd
+      - for-affiliates/reusing-data-affiliates.qmd
+    - part: more-information/more-information.qmd
+      chapters:
+      - more-information/faq.qmd 
+      - more-information/definitions.qmd
+      - more-information/software.qmd
+    - more-information/references.qmd 
+  appendices:
+    - appendices/access_agreement.qmd
+    - appendices/participant_info.qmd
+    - appendices/privacy_policy.qmd
+    - appendices/terms.qmd
+    - appendices/grants.qmd
+
+  repo-url: https://github.com/databrary/guide
+  repo-actions: [edit, issue]
+  repo-subdir: src
+  
+format:
+  html:
+    theme: cosmo
+    number_sections: false
+    css: include/css/style.css
+    csl: include/bib/apa.csl
+    # bibliography: [include/bib/packages.bib, include/bib/references.bib]
+    citations-hover: true
+    footnotes-hover: true
+    toc: true
+    toc-depth: 4
+
+  epub:
+    cover-image: img/databrary-nav-sm.jpg
+
+bibliography: [include/bib/packages.bib, include/bib/references.bib]
+bibliography-style: apa

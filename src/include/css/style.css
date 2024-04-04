@@ -1,0 +1,80 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+img {
+  border: 1px solid black;
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  width: 100%; 
+  height: auto; 
+}
+
+# Q&A
+
+.question {
+    font-weight: bold;
+}
+.answer {
+    margin-bottom: 10px;
+}
+
+.numbered {
+    display: none;
+}
+
+# Definitions
+.term {
+    font-weight: bold;
+}
+
+.term-label {
+    color: blue;
+}
+
+.term-description {
+    color: green;
+}
+
+.vocabulary {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+<div class="term">
+    <span class="term-label">Databrary</span>
+    <span class="term-description">Databrary is a restricted access data library that is specialized for storing, streaming, and sharing video and audio recordings collected as research data or documentation.</span>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('.term').hover(function() {
+            // Get the definition from the 'title' attribute
+            var definition = $(this).attr('title');
+            // Create a tooltip element and position it
+            $('<div class="tooltip"></div>')
+                .text(definition)
+                .appendTo('body')
+                .css({
+                    top: $(this).offset().top - 30,
+                    left: $(this).offset().left
+                })
+                .fadeIn('fast');
+        }, function() {
+            // Remove the tooltip when the mouse leaves the element
+            $('.tooltip').remove();
+        });
+    });
+</script>
+

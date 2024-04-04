@@ -1,0 +1,7 @@
+---
+title: "More information"
+---
+
+This section provides more information about Databrary.
+
+Separate chapters answer [Frequently Asked Questions](faq.qmd), provide  [definitions](definitions.qmd) of some commonly used terms, and describe a recommended ["bill of rights" for participants](participant-bill-of-rights.qmd).
