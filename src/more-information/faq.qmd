@@ -17,7 +17,10 @@ No. To become an Authorized Investigator on Databrary you/your institution must 
 
 ## How much does Databrary cost? {-}
 
-There is no cost to use Databrary.
+For the time being, there is no cost to use Databrary.
+
+However, consistent with the practices of peer data repositories and data services (ICSPR, Data Dryad, FigShare) we are developing a fee-for-service and subscription model that we will implement in late 2024 or early 2025.
+We encourage researchers with large datasets who are writing funding proposals to contact us in advance so that suitable data curation and storage fees can be included in the grant budget.
 
 ## How is Databrary funded? {-}
 
@@ -47,43 +50,37 @@ If the dataset is shared, but the reviewer does not have authorization from an i
 
 The authorized investigator would need to meet all criteria required for authorization at both institutions. 
 
-## As an authorized investigator moving to another institution, do I need to be re-authorized by my new institution? How do I change my institutional affiliation on Databrary? {-}
+<!-- ## As an authorized investigator moving to another institution, do I need to be re-authorized by my new institution? How do I change my institutional affiliation on Databrary? {-} -->
 
-**Answer here**
+<!-- **Answer here** -->
 
-## What if a Databrary user, who was originally authorized as an affiliate, now needs be an authorized investigator on Databrary? {-}
+<!-- ## What if a Databrary user, who was originally authorized as an affiliate, now needs be an authorized investigator on Databrary? {-} -->
 
-**Answer here**
+<!-- **Answer here** -->
 
-## Level of access for sessions vs. level of access for each specific file if they set a sessions folder to a specific level of access, they don't need to do it again for each of the files they upload to that session {-}
+<!-- ## Level of access for sessions vs. level of access for each specific file if they set a sessions folder to a specific level of access, they don't need to do it again for each of the files they upload to that session {-} -->
 
-## Fix an audio file that is not playing in Databrary {-}
+## How do I fix an audio file that is not playing in Databrary? {-}
 
-1. download original session from Databrary and unzip the file
-2. open audacity
-3. file > open
-4. select the file from the appropriate folder in the downloads folder
-5. Now the file shows up in audacity
+1. Download original session from Databrary and unzip the file
+2. Open the free audio editing program [Audacity](https://www.audacityteam.org)
+3. Open the file.
+4. Select the downloaded file from the appropriate folder, usually the ownloads folder
 
-
-```{r, out.width = "70%", fig.align = "center", fig.cap="Open an Audio File in Audacity"}
-knitr::include_graphics("img/audacity-openfile.png")
-```
+![An audio file opened in Audacity](img/audacity-openfile.png)
 
 6. Go to File > export > export as MP3
-7. use the following default parameters 
+7. Use the following default parameters 
 
-```{r, out.width = "70%", fig.align = "center", fig.cap="File Export Window in Audacity"}
-knitr::include_graphics("img/audacity-export-window.png")
-```
+![File export window in audacity](img/audacity-export-window.png)
 
-- if your file is named incorrectly (e.g. spaces/brackets/filename truncated) please edit the filename here.
+- If your file is named incorrectly (e.g. spaces/brackets/filename truncated) please edit the filename here.
 
-7. a window pops up called 'edit metadata tags'. just select OK
+7. A window pops up called 'edit metadata tags'. just select OK
 
 8. This new file needs to be [replaced](#replace-file) in the Databrary session folder.
 
-## Fix a video file that is not playing in Databrary {-}
+## How do I fix a video file that is not streaming in the Databrary application? {-}
 
 If you ever find that there are videos that don't play in Databrary, the following instructions may be helpful to you.
 
@@ -118,11 +115,29 @@ Yes! Please follow these instructions:
 
 ## I just uploaded a video file onto Databrary and it says my uploading is complete. Why can't I see it on or download it from Databrary right away? {-}
 
+When you upload a video or audio file, Databrary converts it (transcodes it) into a common format that should be accessible well into the future.
+The original file format is stored in parallel.
+Transcoding videos takes time.
+Databrary will not show a thumbnail of your file until the transcoding finishes.
+If your file is especially large, then the wait time could be several hours.
+
+If your file takes longer than that, contact Databrary support.
+Sometimes, transcoding jobs fail, and we can fix the problem at our end.
+
 ## I downloaded files from Databrary, but the filenames are truncated. {-}
 
-When Databrary downloads files there is a `32 character filename limit`. Please ensure the file names do not exceed this. 
+When you download files from the Databrary application, the system appends information about the volume and session the files came from.
+This is to help you understand what you've downloaded.
+However, when Databrary downloads files there is a *32 character*  limit to the file name.
+So, if your file on Databrary has a long name, some of that name may be truncated in the downloaded file.
+Or, if the file name is too long (the first 32 characters of the filename are exactly the same as another file), it is impossible to distinguish between these files when they download and only __one__ file will be downloaded.
 
-If the file name is too long (the first 32 characters of the filename are exactly the same), it is impossible to distinguish between these files when they download and only __one__ file will be downloaded.
+There are two solutions:
+
+1. Try not to create excessively long file names for files stored on Databrary.
+2. Alternatively, you may want to download and use the *databraryr* R package.
+The package includes commands to download files from Databrary with the original (full length) Databrary file names intact.
+See [this section](https://databrary.github.io/databraryr/articles/accessing-data.html#downloading-multiple-files) of the *databraryr* guide for more information.
 
 ## I have a dataset that has been completely collected. Now we are ready to share with Databrary. What do I do? {-}
 
@@ -142,9 +157,11 @@ Discuss this project with the Databrary Team to determine the next steps.
 
 1. Format your data with the same file structure for all sessions/participants
 
+::: {.callout-note}
+
   ***insert picture examples***
   
-  
+:::
   
 2. Share data folder with the <a href = "mailto:andrea.seisler@databrary.org"> Databrary Support Specialist </a> on Box.
 3. Create list of files using Terminal (how to find terminal on [Windows](https://www.makeuseof.com/windows-11-open-windows-terminal/#:~:text=This%20is%20how%20you%20can,Terminal%20to%20open%20that%20app.) and [Mac](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac#:~:text=Open%20Terminal&text=Click%20the%20Launchpad%20icon%20in,%2C%20then%20double%2Dclick%20Terminal.))
@@ -175,6 +192,25 @@ In the Volume Description, list the name of the university/institution in full. 
 
 After all data are collected, a new volume with __ALL__ of the final data, including which data are from which site, can be created.
 
+## Is there a storage capacity limit for each project? {-}
+
+At the moment, no.
+
+When we implement our fee-for-service/subscription model later in 2024, we will likely impose project-, researcher-, and institution- level limits for new projects that do not pay or subscribe.
+
+## Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit {-}
+
+At the moment, no.
+
+However, we do not guarantee that large videos will transcode or stream well.
+
+If you need to download videos *en masse* or large videos, please consider using the *databraryr* package.
+It can be much faster than the web application.
+
+::: {.callout-note}
+
+We are still drafting responses to the following questions:
+
 ## I have a multisite study. How do I add my co-investigators in the right order to the Databrary volume? {-}
 
 ## I am an authorized investigator. What is the best practice for revoking access to affiliates who originally were in my lab but have left? {-}
@@ -183,6 +219,4 @@ After all data are collected, a new volume with __ALL__ of the final data, inclu
 
 ## Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit {-}
 
-## Is there a storage capacity limit for each project? {-}
-
-  
+:::

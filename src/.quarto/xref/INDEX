@@ -92,5 +92,14 @@
   "for-affiliates/affiliates-intro.qmd": {
     "Affiliates-Intro.html": "b162fd89",
     "affiliates-intro.html": "1abdb22a"
+  },
+  "background/who-why.qmd": {
+    "who-why.html": "5f5609e3"
+  },
+  "for-investigators/background.qmd": {
+    "background.html": "cb455fa6"
+  },
+  "for-affiliates/background.qmd": {
+    "background.html": "ccf1dd78"
   }
 }

@@ -1,0 +1,35 @@
+# Background {.unnumbered}
+
+Databrary is designed by and for researchers.
+This section aims to provide researchers guidance about how to use Databrary.
+
+A common first step is to determine your status as a researcher.
+See [the About Databrary section for details](../background/who-why.qmd#whats-my-status)
+Then, you can request authorization as described in the next chapter.
+
+<!-- ## Determining status {.unnumbered} -->
+
+<!-- To determine what level of access you can request from Databrary, see the following. -->
+
+<!-- I am eligible to become an **Authorized Investigator** if:   -->
+
+<!-- + I can conduct independent research;   -->
+<!-- + I can submit funding proposals as the lead investigator;   -->
+<!-- + I have Principal Investigator (PI) status or a tenure-track faculty position at my Institution; -->
+<!-- + My Institution maintains or uses an ethics board to review and approve research involving human subjects (or animals where relevant); AND -->
+<!-- + I have current training that addresses research ethics with human subject (or animals where relevant)     -->
+
+<!-- I am eligible to become an **Affiliate** if:  -->
+
+<!-- + I conduct research under the supervision of a Principal Investigator an Authorized Investigator's sponsorship; AND -->
+<!-- + I am a student, research staff, or post-doctoral researcher   -->
+
+<!-- If you are eligible for **Affiliate** status, your supervisor or research sponsor must register as an Authorized Investigator BEFORE you may request affiliate access from them. -->
+
+<!-- ## Rights and Obligations {.unnumbered} -->
+
+<!-- Authorized Investigators and Affiliates are responsible for ensuring that their use of Databrary complies with the terms of their Institutional Agreement and with the Databrary Terms of Use. Additionally, they differ in the following ways: -->
+
+<!-- + Authorized Investigators may request access to restricted data and may share data with Affiliates and Authorized Investigators. -->
+<!-- + Affiliates may request access to restricted data but may not share data with other users. -->
+

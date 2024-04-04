@@ -587,7 +587,7 @@
     "href": "index.html",
     "title": "Databrary Guide",
     "section": "",
-    "text": "Preface\nThis book describes the Databrary.org data library and how to use it effectively as a tool for sharing research data.\nDatabrary is used by a large and growing community of researchers across the globe, including some large scale research projects (Soska et al., 2021) run by Databrary’s co-founders, Karen Adolph and Rick Gilmore.\nDatabrary’s founders believe that the widespread use of video can improve the reproducibility of many different areas of research (Adolph, K.E., Gilmore, R.O., & Kennedy, J.L., 2017; Gilmore & Adolph, 2017).",
+    "text": "Preface\nThis book describes the Databrary.org data library and how to use it effectively as a tool for sharing research data.\nDatabrary is used by a large and growing community of researchers across the globe, including some large scale research projects (Soska et al., 2021) run by Databrary’s co-founders, Karen Adolph and Rick Gilmore, and their collaborators.\nDatabrary’s founders believe that the widespread use of video can improve the reproducibility of many different areas of research (Adolph, K.E., Gilmore, R.O., & Kennedy, J.L., 2017; Gilmore & Adolph, 2017).",
     "crumbs": [
       "Preface"
     ]
@@ -597,7 +597,7 @@
     "href": "index.html#about-the-authors",
     "title": "Databrary Guide",
     "section": "About the Authors",
-    "text": "About the Authors\nRick Gilmore is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.\nAndrea Seisler manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.\nMelody Xu was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023.\nYinghe Liu works as a research assistant. He contributes to improving the Databrary Guide Project, beginning in Fall 2023.\n\n\n\n\nAdolph, K.E., Gilmore, R.O., & Kennedy, J.L. (2017). Video as data and documentation will improve psychological science. https://www.apa.org/science/about/psa/2017/10/video-data. Retrieved from https://www.apa.org/science/about/psa/2017/10/video-data\n\n\nGilmore, R. O., & Adolph, K. E. (2017). Video can make behavioural science more reproducible. Nature Human Behaviour, 1(7). https://doi.org/10.1038/s41562-017-0128\n\n\nSoska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmore, R. O., & Adolph, K. E. (2021). (Hyper)active data curation: A video case study from behavioral science. Journal of Escience Librarianship, 10(3). https://doi.org/10.7191/jeslib.2021.1208",
+    "text": "About the Authors\nRick Gilmore is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.\nAndrea Seisler manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.\nMelody Xu was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023.\nYinghe Liu is an undergraduate student majoring in Psychology at Penn State. He works as a research assistant in two faculty labs, and he has contributed to improving the Databrary Guide since Fall 2023.\n\n\n\n\nAdolph, K.E., Gilmore, R.O., & Kennedy, J.L. (2017). Video as data and documentation will improve psychological science. https://www.apa.org/science/about/psa/2017/10/video-data. Retrieved from https://www.apa.org/science/about/psa/2017/10/video-data\n\n\nGilmore, R. O., & Adolph, K. E. (2017). Video can make behavioural science more reproducible. Nature Human Behaviour, 1(7). https://doi.org/10.1038/s41562-017-0128\n\n\nSoska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmore, R. O., & Adolph, K. E. (2021). (Hyper)active data curation: A video case study from behavioral science. Journal of Escience Librarianship, 10(3). https://doi.org/10.7191/jeslib.2021.1208",
     "crumbs": [
       "Preface"
     ]
@@ -607,7 +607,7 @@
     "href": "background/introduction.html",
     "title": "About Databrary",
     "section": "",
-    "text": "History\nDatabrary was built in 2013-2014 at New York University, its home institution, and went live to the research community in 2014. The system has had steady growth, as the following figure from the Databrary analytics site indicates:\nKaren Adolph and Rick Gilmore co-founded and co-direct Databrary.",
+    "text": "History\nKaren Adolph and Rick Gilmore co-founded and co-direct Databrary. Databrary was built in 2013-2014 at New York University, and it went live to the research community in 2014. The system has had steady growth, as the following figure from the Databrary analytics site indicates:",
     "crumbs": [
       "About Databrary"
     ]
@@ -627,7 +627,7 @@
     "href": "background/introduction.html#code-base",
     "title": "About Databrary",
     "section": "Code base",
-    "text": "Code base\nDatabrary’s code base is open source and is hosted on GitHub.",
+    "text": "Code base\nDatabrary’s code base is open source and is hosted on GitHub.\nSee the software page for more information about the specific technologies used.",
     "crumbs": [
       "About Databrary"
     ]
@@ -738,6 +738,302 @@
     "crumbs": [
       "About Databrary",
       "Ethics"
+    ]
+  },
+  {
+    "objectID": "background/who-why.html",
+    "href": "background/who-why.html",
+    "title": "Who and why?",
+    "section": "",
+    "text": "What’s my status\nHere are some things to consider about whether you qualify as an Authorized Investigator or as an Affiliate:\nI am eligible to become an Authorized Investigator if:\nI am eligible to become an Affiliate if:",
+    "crumbs": [
+      "About Databrary",
+      "Who and why?"
+    ]
+  },
+  {
+    "objectID": "background/who-why.html#whats-my-status",
+    "href": "background/who-why.html#whats-my-status",
+    "title": "Who and why?",
+    "section": "",
+    "text": "I can conduct independent research;\nI can submit funding proposals as the lead investigator;\nI have Principal Investigator (PI) status or a tenure-track faculty position at my Institution;\nMy Institution maintains or uses an ethics board to review and approve research involving human subjects (or animals where relevant);\nI have current training that addresses research ethics with human subject (e.g. CITI training);\nI would like to reuse or upload data to Databrary. I need to read and sign a Databrary Access agreement and its’ Annexes (I, II, III) before I may be authorized.\nI can sponsor lab staff/students that are working on my projects to see my data or others data on Databrary.\n\n\n\nI conduct research under the supervision of an Authorized Investigator’s sponsorship or someone who is eligible to become an Authorized Investigator;\nI am a student, research staff, or post-doctoral researcher.\nI have current training that addresses research ethics with human subjects (e.g.CITI training.\n\n\n\n\n\n\n\nImportant\n\n\n\nIf you are eligible for Affiliate status, your supervisor or research sponsor must register as an Authorized Investigator BEFORE you may request affiliate access from them. Communicate with your sponsor about your request.",
+    "crumbs": [
+      "About Databrary",
+      "Who and why?"
+    ]
+  },
+  {
+    "objectID": "background/who-why.html#why-should-i-use-databrary",
+    "href": "background/who-why.html#why-should-i-use-databrary",
+    "title": "Who and why?",
+    "section": "Why should I use Databrary?",
+    "text": "Why should I use Databrary?\nSharing information is what curious and inventive minds have been doing for millenia. It’s how we advance as a community. Data repositories and libraries like data are permanent homes for sharing research data. And sharing research data is a vital component of the research process like publishing papers and books, giving talks, and teaching classes.\nOn a more practical level, videos are expensive and time consuming to collect. It’s possible, maybe even likely depending on what your videos recorded that another researcher could answer their research questions with videos you’ve already collected.\nFinally, many granting agencies that fund research require that research data be shared. So, by sharing data on Databrary, you’ll not only accelerate discovery, but you’ll also meet an important obligation to research sponsors and often taxpapers who fund them.",
+    "crumbs": [
+      "About Databrary",
+      "Who and why?"
+    ]
+  },
+  {
+    "objectID": "background/introduction.html#history",
+    "href": "background/introduction.html#history",
+    "title": "About Databrary",
+    "section": "",
+    "text": "Figure 1: Growth in researchers and institutions since Databrary’s inception. Source: https://databrary.github.io/analytics",
+    "crumbs": [
+      "About Databrary"
+    ]
+  },
+  {
+    "objectID": "for-investigators/requesting-access.html",
+    "href": "for-investigators/requesting-access.html",
+    "title": "Requesting access",
+    "section": "",
+    "text": "Since access to restricted materials on Databrary requires formal authorization from an institution, the first steps is register, create an account, and request authorization.\nTo start the authorization process on Databrary, please complete the Registration Form or click on the green ‘Register’ button or click on register on the top right of the menu bar at databrary.org.\n\n\n\n\n\n\nFigure 1: Image from Databrary home page\n\n\n\n\nCreating an account\nFill out the Create Account form with your full name, valid institutional email address, and the name of your research institution.\n\n\n\n\n\n\nFigure 2: Creating a Databrary account\n\n\n\nRead the Databrary Access Agreement, Annex I, Annex II, and Annex III and check the box to agree to the access terms.\n\n\n\n\n\n\nFigure 3: Duplicate image of getting started\n\n\n\nGo to your email box, locate the auto-generated email from Databrary, and confirm your email. If you don’t receive the email within a few minutes, check your spam folder.\n\n\n\n\n\n\nFigure 4: Databrary screen indicating confirmation email has been sent\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nNeed to add figure here.\n\n\n\n\n\n\nFigure 5: Sample Databrary registration email\n\n\n\n\n\n\n\nChoosing a password\nNext, please choose a password.\n\n\n\n\n\n\nTip\n\n\n\nWe strongly recommend using a password generation or manager program or the password manager built-in to many modern web browsers.\n\n\n\n\n\n\n\n\nFigure 6: Databrary Set Password screen\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nKeep your account credentials secret and do not share them with anyone. Each Databrary user must have their own login and password. It is violation of the Databrary Access Agreement and common sense to share login credentials with another user.\n\n\n\n\nRequesting authorization\nEvery Databrary user who seeks access to restricted data must request and be granted authorization for that access. Authorized Investigators must secure authorization from an institution. Affiliate Investigators must secure authorization from an Authorized Investigator.\nPlease read the requirements for Authorized Investigator and Affiliate. Choose the radio button that accurately reflects your qualifications.\n\n\n\n\n\n\nFigure 7: Databrary Request Authorization screen\n\n\n\n\nRegistering as an Authorized Investigator at an Institution:\n\nSelect the Authorized Investigator radio button and search for your institution.\n\nIf your institution is not found in the drop down box, please select ‘Other’ and provide more information on the next screen.\n\nThis will auto-generate a notification to the Databrary team.\nDatabrary’s authorization team will be in touch (typically within 24-48 business hours) to help you through the process and initiate a DocuSign envelope for signature.\n\n\n\n\nAuthorized Investigator request\n\n\n\n\n\nOther information request\n\n\n\n\nRegistering as an Affiliate of an Authorized Investigator:\nYou can only do this if your Supervisor or Research Sponsor ALREADY has a Databrary Account.\n\nSelect the Affiliate radio button and search for your Supervisor or Research Sponsor’s name.\nYour Supervisor or Research Sponsor Investigator will receive a notification that you have applied for access, and can approve you.\n\n\n\n\nAffiliate request\n\n\nIf you need to request Affiliate Authorization in a separate session from creating your account, you may go to your Supervisor or Research Sponsors page on Databrary and request Affiliate Access from them.\n\n\n\n\nAwaiting authorization\nThe process of securing authorization can take a few hours, or a few days or weeks. Institutions that have many active Databrary users are familiar with the system and usually process authorization requests quickly.\nThe Databrary staff will work closely with you to expedite your authorization.\nOnce authorized, you will receive an email confirmation.\nIn the meantime, you can set up your Databrary profile, as described in the next section.",
+    "crumbs": [
+      "For Investigators",
+      "Requesting access"
+    ]
+  },
+  {
+    "objectID": "for-investigators/background.html",
+    "href": "for-investigators/background.html",
+    "title": "Background",
+    "section": "",
+    "text": "Databrary is designed by and for researchers. This section aims to provide researchers guidance about how to use Databrary.\nA common first step is to determine your status as a researcher. See the About Databrary section for details Then, you can request authorization as described in the next chapter.",
+    "crumbs": [
+      "For Investigators",
+      "Background"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html",
+    "href": "more-information/faq.html",
+    "title": "Frequently Asked Questions",
+    "section": "",
+    "text": "I qualify as an Authorized Organizational Representative (AOR). Can I sign as both Authorized Investigator and AOR?\nNo. If you qualify as an Authorized Organizational Representative you will need to have the staff member above you on an organizational chart sign for you.",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#can-individuals-not-associated-with-an-institution-be-authorized",
+    "href": "more-information/faq.html#can-individuals-not-associated-with-an-institution-be-authorized",
+    "title": "Frequently Asked Questions",
+    "section": "Can individuals not associated with an institution be authorized?",
+    "text": "Can individuals not associated with an institution be authorized?\nNo. To become an Authorized Investigator on Databrary you/your institution must meet All of the below conditions:\n\nHave PI status or you are eligible to conduct independent research at this Institution and the Institution accepts responsibility for its Authorized Investigators’ actions related to the use of Databrary\n\nHave all current research ethics training that addresses human subjects policy and issues required by your institution; and\n\nYour institution must maintain an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects,\n\nBe part of an institution that grants you the authority to choose and manage affiliates who meet Databrary’s qualifications and who agree to follow Databrary’s ethical principles, and\n\nThe person executing this Access Agreement on behalf of the Institution has the authority to do so\n\nData on Databrary is provided for non-commercial and non-personal use only and is subject to the terms of use outlined in the Databrary Access Agreement.",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#how-much-does-databrary-cost",
+    "href": "more-information/faq.html#how-much-does-databrary-cost",
+    "title": "Frequently Asked Questions",
+    "section": "How much does Databrary cost?",
+    "text": "How much does Databrary cost?\nFor the time being, there is no cost to use Databrary.\nHowever, consistent with the practices of peer data repositories and data services (ICSPR, Data Dryad, FigShare) we are developing a fee-for-service and subscription model that we will implement in late 2024 or early 2025. We encourage researchers with large datasets who are writing funding proposals to contact us in advance so that suitable data curation and storage fees can be included in the grant budget.",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#how-is-databrary-funded",
+    "href": "more-information/faq.html#how-is-databrary-funded",
+    "title": "Frequently Asked Questions",
+    "section": "How is Databrary funded?",
+    "text": "How is Databrary funded?\nDatabrary is supported through grants from federal agencies, and private foundations.",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#where-is-databrary-located",
+    "href": "more-information/faq.html#where-is-databrary-located",
+    "title": "Frequently Asked Questions",
+    "section": "Where is Databrary located?",
+    "text": "Where is Databrary located?\nDatabrary is located at New York University (NYU). All data is stored on servers that are maintained by NYU IT staff.",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#i-did-all-registration-and-authorization-steps-on-databrary.-i-need-to-download-a-data-set.-my-supervising-professor-has-registered-and-gave-me-access-but-i-still-cant-download-it.",
+    "href": "more-information/faq.html#i-did-all-registration-and-authorization-steps-on-databrary.-i-need-to-download-a-data-set.-my-supervising-professor-has-registered-and-gave-me-access-but-i-still-cant-download-it.",
+    "title": "Frequently Asked Questions",
+    "section": "I did all registration and authorization steps on Databrary. I need to download a data set. My supervising professor has registered and gave me access but I still can’t download it.",
+    "text": "I did all registration and authorization steps on Databrary. I need to download a data set. My supervising professor has registered and gave me access but I still can’t download it.\nYour supervising professor did register and requested access to Databrary. Access is not immediate. Your supervising professor and an authorized signatory on behalf of the university must review and approve the agreement. After Databrary receives the completed agreement, we may grant Databrary authorization to your supervising professor. The time it takes for this to be completed depends on the internal requirements of each institution.",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#does-databrary-offer-blind-review",
+    "href": "more-information/faq.html#does-databrary-offer-blind-review",
+    "title": "Frequently Asked Questions",
+    "section": "Does Databrary offer “blind review”?",
+    "text": "Does Databrary offer “blind review”?\nDatabrary is a restricted access data repository that promotes the storage and sharing of identifiable and sensitive data. As such, Databrary has unique policies to protect the privacy of research participants. These policies govern who can access identifiable data and under what circumstances. The policies are codified in a formal access agreement that binds NYU, Databrary’s parent institution, and similar institutions where Databrary’s users conduct research. For the forseeable future, these policies make it impossible to support full double-blinded anonymous review of data and materials.\nWhile some data and materials are shared with the public, Databrary restricts access to sensitive and identifiable information to people who have received authorization from an institution or to those whose access is supervised by an authorized investigator. Only authorized investigators can create and share datasets. Dataset creators, not Databrary, determine what level of sharing is appropriate for individual data files and for datasets as a whole.\nSo, the level of access a reviewer can have to a dataset depends on two things: Has the dataset been shared with the Databrary community? Does the reviewer have authorization from an institution to view restricted data or materials?\nIf both answers are yes, the reviewer may fully vet a shared dataset. Databrary does not report on access to specific datasets, so the reviewer can remain anonymous. Databrary does not mask the identities of dataset owners, so the blinding is only one-way.\nIf the dataset is shared, but the reviewer does not have authorization from an institution, the reviewer can confirm that a shared dataset exists, that the dataset has a persistent identifier, and that the dataset has a specific number of shared restricted access files. The reviewer may also examine any items that are shared with the public, stimuli, protocol, aggregated and de-identified datasets, etc.",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#what-if-an-authorized-investigator-is-leaving-their-institution-for-another-institution-but-should-still-retain-authorized-investigator-status",
+    "href": "more-information/faq.html#what-if-an-authorized-investigator-is-leaving-their-institution-for-another-institution-but-should-still-retain-authorized-investigator-status",
+    "title": "Frequently Asked Questions",
+    "section": "What if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status?",
+    "text": "What if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status?\nThe authorized investigator would need to meet all criteria required for authorization at both institutions.",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#how-do-i-fix-an-audio-file-that-is-not-playing-in-databrary",
+    "href": "more-information/faq.html#how-do-i-fix-an-audio-file-that-is-not-playing-in-databrary",
+    "title": "Frequently Asked Questions",
+    "section": "How do I fix an audio file that is not playing in Databrary?",
+    "text": "How do I fix an audio file that is not playing in Databrary?\n\nDownload original session from Databrary and unzip the file\nOpen the free audio editing program Audacity\nOpen the file.\nSelect the downloaded file from the appropriate folder, usually the ownloads folder\n\n\n\n\nAn audio file opened in Audacity\n\n\n\nGo to File &gt; export &gt; export as MP3\nUse the following default parameters\n\n\n\n\nFile export window in audacity\n\n\n\nIf your file is named incorrectly (e.g. spaces/brackets/filename truncated) please edit the filename here.\n\n\nA window pops up called ‘edit metadata tags’. just select OK\nThis new file needs to be replaced in the Databrary session folder.",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#how-do-i-fix-a-video-file-that-is-not-streaming-in-the-databrary-application",
+    "href": "more-information/faq.html#how-do-i-fix-a-video-file-that-is-not-streaming-in-the-databrary-application",
+    "title": "Frequently Asked Questions",
+    "section": "How do I fix a video file that is not streaming in the Databrary application?",
+    "text": "How do I fix a video file that is not streaming in the Databrary application?\nIf you ever find that there are videos that don’t play in Databrary, the following instructions may be helpful to you.\n\nuse Handbrake (https://handbrake.fr/) to convert/transcode these files to .mp4 (this will change and fix the file if there is any corrupted block)\nGo back to the session\nhighlight the video\nclick on the pencil in the upper left corner to edit\nclick on ‘replace’ in the upper right corner\n\nThe recommended settings in Handbrake that duplicate the .mp4 codec that Databrary uses during the transcoding process after a video file is uploaded are below. These settings may also be downloaded as a .json file and imported into Handbrake\n\n\n\n\n\n\n\n\n\n\nSummary\nDimensions\nFilters\nVideo\nAudio\n\n\n\n\nFormat = MP4\nCropping = None\nDeinterlace = Decomb\nVideo Encoder = H.264 (x264)\nCodec = AAC (CoreAudio)\n\n\nSelect “passthru” metadata\nResolution Limit = 1080p HD\n\nFramerate (FPS) = Same as source\nMixdown = 2ch Stereo audio (force to 2ch mixdown)\n\n\nAlign A/V Start\nAnamorphic = Automatic\n\nVariable Framerate\n\n\n\nH.264 (x264) VFR video\nSelect ‘Optimal Size’\n\nQuality = Constant Quality",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#replace-file",
+    "href": "more-information/faq.html#replace-file",
+    "title": "Frequently Asked Questions",
+    "section": "Oops, I uploaded the wrong file in my session. Can I replace it?",
+    "text": "Oops, I uploaded the wrong file in my session. Can I replace it?\nYes! Please follow these instructions:\n\nLogin to Databrary\nClick on ‘Your Profile’ in the center of the screen\nNavigate to the appropriate volume\nThen the appropriate session\nSingle Click on the file that needs to be replaced.\nClick on the Edit Button (the small pencil)\nEnsure the appropriate file is highlighted in gray.\nClick ‘Replace File’ at the top right of the screen\nNavigate in the files pane to the correct file then select Open",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#i-just-uploaded-a-video-file-onto-databrary-and-it-says-my-uploading-is-complete.-why-cant-i-see-it-on-or-download-it-from-databrary-right-away",
+    "href": "more-information/faq.html#i-just-uploaded-a-video-file-onto-databrary-and-it-says-my-uploading-is-complete.-why-cant-i-see-it-on-or-download-it-from-databrary-right-away",
+    "title": "Frequently Asked Questions",
+    "section": "I just uploaded a video file onto Databrary and it says my uploading is complete. Why can’t I see it on or download it from Databrary right away?",
+    "text": "I just uploaded a video file onto Databrary and it says my uploading is complete. Why can’t I see it on or download it from Databrary right away?\nWhen you upload a video or audio file, Databrary converts it (transcodes it) into a common format that should be accessible well into the future. The original file format is stored in parallel. Transcoding videos takes time. Databrary will not show a thumbnail of your file until the transcoding finishes. If your file is especially large, then the wait time could be several hours.\nIf your file takes longer than that, contact Databrary support. Sometimes, transcoding jobs fail, and we can fix the problem at our end.",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#i-downloaded-files-from-databrary-but-the-filenames-are-truncated.",
+    "href": "more-information/faq.html#i-downloaded-files-from-databrary-but-the-filenames-are-truncated.",
+    "title": "Frequently Asked Questions",
+    "section": "I downloaded files from Databrary, but the filenames are truncated.",
+    "text": "I downloaded files from Databrary, but the filenames are truncated.\nWhen Databrary downloads files there is a 32 character filename limit. Please ensure the file names do not exceed this.\nIf the file name is too long (the first 32 characters of the filename are exactly the same), it is impossible to distinguish between these files when they download and only one file will be downloaded.\nAlternatively, you may want to download and use the databraryr R package. The package includes commands to download files from Databrary with the original (full length) Databrary filenames intact. See this section of the databraryr guide for more information.",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#i-have-a-dataset-that-has-been-completely-collected.-now-we-are-ready-to-share-with-databrary.-what-do-i-do",
+    "href": "more-information/faq.html#i-have-a-dataset-that-has-been-completely-collected.-now-we-are-ready-to-share-with-databrary.-what-do-i-do",
+    "title": "Frequently Asked Questions",
+    "section": "I have a dataset that has been completely collected. Now we are ready to share with Databrary. What do I do?",
+    "text": "I have a dataset that has been completely collected. Now we are ready to share with Databrary. What do I do?\nSend an Email to Databrary so they may assist you. You will need to include answers to the following questions:\n\nWhat is the name and email address for PI for this project?\n\nDo you have permission to share these data with the Databrary community?\n\nWas a Data Sharing Release or something similar completed at the time of Data Collection?\n\nDo you have permission from your IRB or Research Ethics Board used at your institution to share these data with Databrary?\n\n\nHow many files are there for this dataset?\n\nWhat file types do you have (e.g. .mov, .mp4, .mp3, .pdf, .xls)? Databrary Supported File Formats\nWhat is the total size of dataset (X GB)?\n\nHow many different sessions/participants do you have?\n\nDo you have materials to share (e.g. data collection instructions, survey questions) in addition to the videos collected for the study?\n\nDiscuss this project with the Databrary Team to determine the next steps.\n\nFormat your data with the same file structure for all sessions/participants\n\n\n\n\n\n\n\nNote\n\n\n\ninsert picture examples\n\n\n\nShare data folder with the  Databrary Support Specialist  on Box.\nCreate list of files using Terminal (how to find terminal on Windows and Mac)\n\nfind [path to folder with files] &gt; out.txt\nE.g. find /Users/username/Box/Data_for_Databrary &gt; out.txt\n\nDownload ingest_template.xls by opening the link, then click on the filename and select download.\n\nDetails for what needs to be completed on these templates are found here\n\nMake sure the items in the required columns are completed for each file.\n\nthe table Session Metadata describes the fields in the sessions_template.csv\n\nthe table Participant Metadata describes the fields in the participants_template.csv\n\n\nThe participantID on the sessions_template and participants_template must match\n\nkey is typically the same as participantID\n\n\nIt may be easier to complete ingest_template.xlsx then save each tab as a .csv\n\nparticipants_template.csv\n\nsessions_template.csv",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#i-have-a-multi-site-study.-is-there-a-recommendation-on-volumefile-naming-schemes",
+    "href": "more-information/faq.html#i-have-a-multi-site-study.-is-there-a-recommendation-on-volumefile-naming-schemes",
+    "title": "Frequently Asked Questions",
+    "section": "I have a multi-site study. Is there a recommendation on volume/file naming schemes?",
+    "text": "I have a multi-site study. Is there a recommendation on volume/file naming schemes?\nTry naming the each Volume: ProjectName_SITEID\nThe Short Name is INTERNAL only to volume Investigators and Collaborators\nWhere each SITEID has a unique id to each site, typically with the same number of characters.\nEach file uploaded can have a standard naming scheme which includes the SITEID.\nIn the Volume Description, list the name of the university/institution in full. This allows for use of an API pull to ingest data when necessary.\nAfter all data are collected, a new volume with ALL of the final data, including which data are from which site, can be created.",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#i-have-a-multisite-study.-how-do-i-add-my-co-investigators-in-the-right-order-to-the-databrary-volume",
+    "href": "more-information/faq.html#i-have-a-multisite-study.-how-do-i-add-my-co-investigators-in-the-right-order-to-the-databrary-volume",
+    "title": "Frequently Asked Questions",
+    "section": "I have a multisite study. How do I add my co-investigators in the right order to the Databrary volume?",
+    "text": "I have a multisite study. How do I add my co-investigators in the right order to the Databrary volume?",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#i-am-an-authorized-investigator.-what-is-the-best-practice-for-revoking-access-to-affiliates-who-originally-were-in-my-lab-but-have-left",
+    "href": "more-information/faq.html#i-am-an-authorized-investigator.-what-is-the-best-practice-for-revoking-access-to-affiliates-who-originally-were-in-my-lab-but-have-left",
+    "title": "Frequently Asked Questions",
+    "section": "I am an authorized investigator. What is the best practice for revoking access to affiliates who originally were in my lab but have left?",
+    "text": "I am an authorized investigator. What is the best practice for revoking access to affiliates who originally were in my lab but have left?",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#regarding-permissions-for-users.-we-anticipate-that-we-will-have-a-range-of-users-including-faculty-professional-developers-graduate-students.-we-think-getting-access-will-be-pretty-straightforward-for-individuals-connected-to-a-university.-however-how-would-someone-e.g.-professional-developer-in-a-school-district-gain-access",
+    "href": "more-information/faq.html#regarding-permissions-for-users.-we-anticipate-that-we-will-have-a-range-of-users-including-faculty-professional-developers-graduate-students.-we-think-getting-access-will-be-pretty-straightforward-for-individuals-connected-to-a-university.-however-how-would-someone-e.g.-professional-developer-in-a-school-district-gain-access",
+    "title": "Frequently Asked Questions",
+    "section": "Regarding permissions for users. We anticipate that we will have a range of users including faculty, professional developers, graduate students. We think getting access will be pretty straightforward for individuals connected to a university. However, how would someone (e.g., professional developer in a school district) gain access?",
+    "text": "Regarding permissions for users. We anticipate that we will have a range of users including faculty, professional developers, graduate students. We think getting access will be pretty straightforward for individuals connected to a university. However, how would someone (e.g., professional developer in a school district) gain access?",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit",
+    "href": "more-information/faq.html#is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit",
+    "title": "Frequently Asked Questions",
+    "section": "Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit",
+    "text": "Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit\nAt the moment, no.\nHowever, we do not guarantee that large videos will transcode or stream well.\nIf you need to download videos en masse or large videos, please consider using the databraryr package. It can be much faster than the web application.\n\n\n\n\n\n\nNote\n\n\n\nWe are still drafting responses to the following questions:\n\nI have a multisite study. How do I add my co-investigators in the right order to the Databrary volume?\n\n\nI am an authorized investigator. What is the best practice for revoking access to affiliates who originally were in my lab but have left?\n\n\nRegarding permissions for users. We anticipate that we will have a range of users including faculty, professional developers, graduate students. We think getting access will be pretty straightforward for individuals connected to a university. However, how would someone (e.g., professional developer in a school district) gain access?\n\n\nIs there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#is-there-a-storage-capacity-limit-for-each-project",
+    "href": "more-information/faq.html#is-there-a-storage-capacity-limit-for-each-project",
+    "title": "Frequently Asked Questions",
+    "section": "Is there a storage capacity limit for each project?",
+    "text": "Is there a storage capacity limit for each project?\nAt the moment, no.\nWhen we implement our fee-for-service/subscription model later in 2024, we will likely impose project-, researcher-, and institution- level limits for new projects that do not pay or subscribe.",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "more-information/faq.html#is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit-1",
+    "href": "more-information/faq.html#is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit-1",
+    "title": "Frequently Asked Questions",
+    "section": "Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit",
+    "text": "Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit",
+    "crumbs": [
+      "More information",
+      "Frequently Asked Questions"
     ]
   }
 ]

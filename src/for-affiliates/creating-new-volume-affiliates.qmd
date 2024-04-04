@@ -1,4 +1,5 @@
-# Create a new volume {.unnumbered}
+# Creating a new volume {.unnumbered}
+
 Each project can create a volume for storing and sharing data. We encourage corresponding actions to be performed before the project is in collecting data process. In this case, you would utilize the upload as you go method of data curation. 
 
 We have intentionally limited the permissions to manage the volume to ensure data security. Creating volumes is a privilege granted to the project's **Manager** status affiliates, and sharing the volume is **not** allowed for affiliates.

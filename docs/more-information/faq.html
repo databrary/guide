@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -161,22 +127,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../background/ethics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ethics</span></a>
+  <a href="../background/who-why.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Who and why?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../background/determine-status.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Determine Researchers Status</span></a>
+  <a href="../background/ethics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ethics</span></a>
   </div>
 </li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-institutions/background.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">For Institutions</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
- <span class="menu-text">For Institutions</span></a>
+ <span class="menu-text">For Investigators</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -184,25 +156,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../for-institutions/background.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Databrary for institutions</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
- <span class="menu-text">For Investigators</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../for-investigators/determine-status.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">What is your status?</span></a>
+  <a href="../for-investigators/background.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Background</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -257,17 +212,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
  <span class="menu-text">For Affiliates</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../for-affiliates/affiliates-intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">As Affiliates</span></span></a>
+  <a href="../for-affiliates/background.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Background</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -285,7 +240,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../for-affiliates/creating-new-volume-affiliates.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Create a new volume</span></a>
+ <span class="menu-text">Creating a new volume</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -306,11 +261,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="sidebar-item-container"> 
             <a href="../more-information/more-information.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">More information</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../more-information/faq.html" class="sidebar-item-text sidebar-link active">
@@ -339,13 +294,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
  <span class="menu-text">Appendices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/access_agreement.html" class="sidebar-item-text sidebar-link">
@@ -396,21 +351,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#i-did-all-registration-and-authorization-steps-on-databrary.-i-need-to-download-a-data-set.-my-supervising-professor-has-registered-and-gave-me-access-but-i-still-cant-download-it." id="toc-i-did-all-registration-and-authorization-steps-on-databrary.-i-need-to-download-a-data-set.-my-supervising-professor-has-registered-and-gave-me-access-but-i-still-cant-download-it." class="nav-link" data-scroll-target="#i-did-all-registration-and-authorization-steps-on-databrary.-i-need-to-download-a-data-set.-my-supervising-professor-has-registered-and-gave-me-access-but-i-still-cant-download-it.">I did all registration and authorization steps on Databrary. I need to download a data set. My supervising professor has registered and gave me access but I still can’t download it.</a></li>
   <li><a href="#does-databrary-offer-blind-review" id="toc-does-databrary-offer-blind-review" class="nav-link" data-scroll-target="#does-databrary-offer-blind-review">Does Databrary offer “blind review”?</a></li>
   <li><a href="#what-if-an-authorized-investigator-is-leaving-their-institution-for-another-institution-but-should-still-retain-authorized-investigator-status" id="toc-what-if-an-authorized-investigator-is-leaving-their-institution-for-another-institution-but-should-still-retain-authorized-investigator-status" class="nav-link" data-scroll-target="#what-if-an-authorized-investigator-is-leaving-their-institution-for-another-institution-but-should-still-retain-authorized-investigator-status">What if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status?</a></li>
-  <li><a href="#as-an-authorized-investigator-moving-to-another-institution-do-i-need-to-be-re-authorized-by-my-new-institution-how-do-i-change-my-institutional-affiliation-on-databrary" id="toc-as-an-authorized-investigator-moving-to-another-institution-do-i-need-to-be-re-authorized-by-my-new-institution-how-do-i-change-my-institutional-affiliation-on-databrary" class="nav-link" data-scroll-target="#as-an-authorized-investigator-moving-to-another-institution-do-i-need-to-be-re-authorized-by-my-new-institution-how-do-i-change-my-institutional-affiliation-on-databrary">As an authorized investigator moving to another institution, do I need to be re-authorized by my new institution? How do I change my institutional affiliation on Databrary?</a></li>
-  <li><a href="#what-if-a-databrary-user-who-was-originally-authorized-as-an-affiliate-now-needs-be-an-authorized-investigator-on-databrary" id="toc-what-if-a-databrary-user-who-was-originally-authorized-as-an-affiliate-now-needs-be-an-authorized-investigator-on-databrary" class="nav-link" data-scroll-target="#what-if-a-databrary-user-who-was-originally-authorized-as-an-affiliate-now-needs-be-an-authorized-investigator-on-databrary">What if a Databrary user, who was originally authorized as an affiliate, now needs be an authorized investigator on Databrary?</a></li>
-  <li><a href="#level-of-access-for-sessions-vs.-level-of-access-for-each-specific-file-if-they-set-a-sessions-folder-to-a-specific-level-of-access-they-dont-need-to-do-it-again-for-each-of-the-files-they-upload-to-that-session" id="toc-level-of-access-for-sessions-vs.-level-of-access-for-each-specific-file-if-they-set-a-sessions-folder-to-a-specific-level-of-access-they-dont-need-to-do-it-again-for-each-of-the-files-they-upload-to-that-session" class="nav-link" data-scroll-target="#level-of-access-for-sessions-vs.-level-of-access-for-each-specific-file-if-they-set-a-sessions-folder-to-a-specific-level-of-access-they-dont-need-to-do-it-again-for-each-of-the-files-they-upload-to-that-session">Level of access for sessions vs.&nbsp;level of access for each specific file if they set a sessions folder to a specific level of access, they don’t need to do it again for each of the files they upload to that session</a></li>
-  <li><a href="#fix-an-audio-file-that-is-not-playing-in-databrary" id="toc-fix-an-audio-file-that-is-not-playing-in-databrary" class="nav-link" data-scroll-target="#fix-an-audio-file-that-is-not-playing-in-databrary">Fix an audio file that is not playing in Databrary</a></li>
-  <li><a href="#fix-a-video-file-that-is-not-playing-in-databrary" id="toc-fix-a-video-file-that-is-not-playing-in-databrary" class="nav-link" data-scroll-target="#fix-a-video-file-that-is-not-playing-in-databrary">Fix a video file that is not playing in Databrary</a></li>
+  <li><a href="#how-do-i-fix-an-audio-file-that-is-not-playing-in-databrary" id="toc-how-do-i-fix-an-audio-file-that-is-not-playing-in-databrary" class="nav-link" data-scroll-target="#how-do-i-fix-an-audio-file-that-is-not-playing-in-databrary">How do I fix an audio file that is not playing in Databrary?</a></li>
+  <li><a href="#how-do-i-fix-a-video-file-that-is-not-streaming-in-the-databrary-application" id="toc-how-do-i-fix-a-video-file-that-is-not-streaming-in-the-databrary-application" class="nav-link" data-scroll-target="#how-do-i-fix-a-video-file-that-is-not-streaming-in-the-databrary-application">How do I fix a video file that is not streaming in the Databrary application?</a></li>
   <li><a href="#replace-file" id="toc-replace-file" class="nav-link" data-scroll-target="#replace-file">Oops, I uploaded the wrong file in my session. Can I replace it?</a></li>
   <li><a href="#i-just-uploaded-a-video-file-onto-databrary-and-it-says-my-uploading-is-complete.-why-cant-i-see-it-on-or-download-it-from-databrary-right-away" id="toc-i-just-uploaded-a-video-file-onto-databrary-and-it-says-my-uploading-is-complete.-why-cant-i-see-it-on-or-download-it-from-databrary-right-away" class="nav-link" data-scroll-target="#i-just-uploaded-a-video-file-onto-databrary-and-it-says-my-uploading-is-complete.-why-cant-i-see-it-on-or-download-it-from-databrary-right-away">I just uploaded a video file onto Databrary and it says my uploading is complete. Why can’t I see it on or download it from Databrary right away?</a></li>
   <li><a href="#i-downloaded-files-from-databrary-but-the-filenames-are-truncated." id="toc-i-downloaded-files-from-databrary-but-the-filenames-are-truncated." class="nav-link" data-scroll-target="#i-downloaded-files-from-databrary-but-the-filenames-are-truncated.">I downloaded files from Databrary, but the filenames are truncated.</a></li>
   <li><a href="#i-have-a-dataset-that-has-been-completely-collected.-now-we-are-ready-to-share-with-databrary.-what-do-i-do" id="toc-i-have-a-dataset-that-has-been-completely-collected.-now-we-are-ready-to-share-with-databrary.-what-do-i-do" class="nav-link" data-scroll-target="#i-have-a-dataset-that-has-been-completely-collected.-now-we-are-ready-to-share-with-databrary.-what-do-i-do">I have a dataset that has been completely collected. Now we are ready to share with Databrary. What do I do?</a></li>
   <li><a href="#i-have-a-multi-site-study.-is-there-a-recommendation-on-volumefile-naming-schemes" id="toc-i-have-a-multi-site-study.-is-there-a-recommendation-on-volumefile-naming-schemes" class="nav-link" data-scroll-target="#i-have-a-multi-site-study.-is-there-a-recommendation-on-volumefile-naming-schemes">I have a multi-site study. Is there a recommendation on volume/file naming schemes?</a></li>
-  <li><a href="#i-have-a-multisite-study.-how-do-i-add-my-co-investigators-in-the-right-order-to-the-databrary-volume" id="toc-i-have-a-multisite-study.-how-do-i-add-my-co-investigators-in-the-right-order-to-the-databrary-volume" class="nav-link" data-scroll-target="#i-have-a-multisite-study.-how-do-i-add-my-co-investigators-in-the-right-order-to-the-databrary-volume">I have a multisite study. How do I add my co-investigators in the right order to the Databrary volume?</a></li>
-  <li><a href="#i-am-an-authorized-investigator.-what-is-the-best-practice-for-revoking-access-to-affiliates-who-originally-were-in-my-lab-but-have-left" id="toc-i-am-an-authorized-investigator.-what-is-the-best-practice-for-revoking-access-to-affiliates-who-originally-were-in-my-lab-but-have-left" class="nav-link" data-scroll-target="#i-am-an-authorized-investigator.-what-is-the-best-practice-for-revoking-access-to-affiliates-who-originally-were-in-my-lab-but-have-left">I am an authorized investigator. What is the best practice for revoking access to affiliates who originally were in my lab but have left?</a></li>
-  <li><a href="#regarding-permissions-for-users.-we-anticipate-that-we-will-have-a-range-of-users-including-faculty-professional-developers-graduate-students.-we-think-getting-access-will-be-pretty-straightforward-for-individuals-connected-to-a-university.-however-how-would-someone-e.g.-professional-developer-in-a-school-district-gain-access" id="toc-regarding-permissions-for-users.-we-anticipate-that-we-will-have-a-range-of-users-including-faculty-professional-developers-graduate-students.-we-think-getting-access-will-be-pretty-straightforward-for-individuals-connected-to-a-university.-however-how-would-someone-e.g.-professional-developer-in-a-school-district-gain-access" class="nav-link" data-scroll-target="#regarding-permissions-for-users.-we-anticipate-that-we-will-have-a-range-of-users-including-faculty-professional-developers-graduate-students.-we-think-getting-access-will-be-pretty-straightforward-for-individuals-connected-to-a-university.-however-how-would-someone-e.g.-professional-developer-in-a-school-district-gain-access">Regarding permissions for users. We anticipate that we will have a range of users including faculty, professional developers, graduate students. We think getting access will be pretty straightforward for individuals connected to a university. However, how would someone (e.g., professional developer in a school district) gain access?</a></li>
-  <li><a href="#is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit" id="toc-is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit" class="nav-link" data-scroll-target="#is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit">Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit</a></li>
   <li><a href="#is-there-a-storage-capacity-limit-for-each-project" id="toc-is-there-a-storage-capacity-limit-for-each-project" class="nav-link" data-scroll-target="#is-there-a-storage-capacity-limit-for-each-project">Is there a storage capacity limit for each project?</a></li>
+  <li><a href="#is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit" id="toc-is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit" class="nav-link" data-scroll-target="#is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit">Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/more-information/faq.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -459,7 +408,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="how-much-does-databrary-cost" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="how-much-does-databrary-cost">How much does Databrary cost?</h2>
-<p>There is no cost to use Databrary.</p>
+<p>For the time being, there is no cost to use Databrary.</p>
+<p>However, consistent with the practices of peer data repositories and data services (ICSPR, Data Dryad, FigShare) we are developing a fee-for-service and subscription model that we will implement in late 2024 or early 2025. We encourage researchers with large datasets who are writing funding proposals to contact us in advance so that suitable data curation and storage fees can be included in the grant budget.</p>
 </section>
 <section id="how-is-databrary-funded" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="how-is-databrary-funded">How is Databrary funded?</h2>
@@ -484,63 +434,46 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="what-if-an-authorized-investigator-is-leaving-their-institution-for-another-institution-but-should-still-retain-authorized-investigator-status" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="what-if-an-authorized-investigator-is-leaving-their-institution-for-another-institution-but-should-still-retain-authorized-investigator-status">What if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status?</h2>
 <p>The authorized investigator would need to meet all criteria required for authorization at both institutions.</p>
+<!-- ## As an authorized investigator moving to another institution, do I need to be re-authorized by my new institution? How do I change my institutional affiliation on Databrary? {-} -->
+<!-- **Answer here** -->
+<!-- ## What if a Databrary user, who was originally authorized as an affiliate, now needs be an authorized investigator on Databrary? {-} -->
+<!-- **Answer here** -->
+<!-- ## Level of access for sessions vs. level of access for each specific file if they set a sessions folder to a specific level of access, they don't need to do it again for each of the files they upload to that session {-} -->
 </section>
-<section id="as-an-authorized-investigator-moving-to-another-institution-do-i-need-to-be-re-authorized-by-my-new-institution-how-do-i-change-my-institutional-affiliation-on-databrary" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="as-an-authorized-investigator-moving-to-another-institution-do-i-need-to-be-re-authorized-by-my-new-institution-how-do-i-change-my-institutional-affiliation-on-databrary">As an authorized investigator moving to another institution, do I need to be re-authorized by my new institution? How do I change my institutional affiliation on Databrary?</h2>
-<p><strong>Answer here</strong></p>
-</section>
-<section id="what-if-a-databrary-user-who-was-originally-authorized-as-an-affiliate-now-needs-be-an-authorized-investigator-on-databrary" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="what-if-a-databrary-user-who-was-originally-authorized-as-an-affiliate-now-needs-be-an-authorized-investigator-on-databrary">What if a Databrary user, who was originally authorized as an affiliate, now needs be an authorized investigator on Databrary?</h2>
-<p><strong>Answer here</strong></p>
-</section>
-<section id="level-of-access-for-sessions-vs.-level-of-access-for-each-specific-file-if-they-set-a-sessions-folder-to-a-specific-level-of-access-they-dont-need-to-do-it-again-for-each-of-the-files-they-upload-to-that-session" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="level-of-access-for-sessions-vs.-level-of-access-for-each-specific-file-if-they-set-a-sessions-folder-to-a-specific-level-of-access-they-dont-need-to-do-it-again-for-each-of-the-files-they-upload-to-that-session">Level of access for sessions vs.&nbsp;level of access for each specific file if they set a sessions folder to a specific level of access, they don’t need to do it again for each of the files they upload to that session</h2>
-</section>
-<section id="fix-an-audio-file-that-is-not-playing-in-databrary" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="fix-an-audio-file-that-is-not-playing-in-databrary">Fix an audio file that is not playing in Databrary</h2>
+<section id="how-do-i-fix-an-audio-file-that-is-not-playing-in-databrary" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="how-do-i-fix-an-audio-file-that-is-not-playing-in-databrary">How do I fix an audio file that is not playing in Databrary?</h2>
 <ol type="1">
-<li>download original session from Databrary and unzip the file</li>
-<li>open audacity</li>
-<li>file &gt; open</li>
-<li>select the file from the appropriate folder in the downloads folder</li>
-<li>Now the file shows up in audacity</li>
+<li>Download original session from Databrary and unzip the file</li>
+<li>Open the free audio editing program <a href="https://www.audacityteam.org">Audacity</a></li>
+<li>Open the file.</li>
+<li>Select the downloaded file from the appropriate folder, usually the ownloads folder</li>
 </ol>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"img/audacity-openfile.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/audacity-openfile.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
-<figcaption>Open an Audio File in Audacity</figcaption>
+<p><img src="img/audacity-openfile.png" class="img-fluid figure-img"></p>
+<figcaption>An audio file opened in Audacity</figcaption>
 </figure>
-</div>
-</div>
 </div>
 <ol start="6" type="1">
 <li>Go to File &gt; export &gt; export as MP3</li>
-<li>use the following default parameters</li>
+<li>Use the following default parameters</li>
 </ol>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"img/audacity-export-window.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/audacity-export-window.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
-<figcaption>File Export Window in Audacity</figcaption>
+<p><img src="img/audacity-export-window.png" class="img-fluid figure-img"></p>
+<figcaption>File export window in audacity</figcaption>
 </figure>
 </div>
-</div>
-</div>
 <ul>
-<li>if your file is named incorrectly (e.g.&nbsp;spaces/brackets/filename truncated) please edit the filename here.</li>
+<li>If your file is named incorrectly (e.g.&nbsp;spaces/brackets/filename truncated) please edit the filename here.</li>
 </ul>
 <ol start="7" type="1">
-<li><p>a window pops up called ‘edit metadata tags’. just select OK</p></li>
+<li><p>A window pops up called ‘edit metadata tags’. just select OK</p></li>
 <li><p>This new file needs to be <a href="#replace-file">replaced</a> in the Databrary session folder.</p></li>
 </ol>
 </section>
-<section id="fix-a-video-file-that-is-not-playing-in-databrary" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="fix-a-video-file-that-is-not-playing-in-databrary">Fix a video file that is not playing in Databrary</h2>
+<section id="how-do-i-fix-a-video-file-that-is-not-streaming-in-the-databrary-application" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="how-do-i-fix-a-video-file-that-is-not-streaming-in-the-databrary-application">How do I fix a video file that is not streaming in the Databrary application?</h2>
 <p>If you ever find that there are videos that don’t play in Databrary, the following instructions may be helpful to you.</p>
 <ul>
 <li>use Handbrake (https://handbrake.fr/) to convert/transcode these files to .mp4 (this will change and fix the file if there is any corrupted block)</li>
@@ -616,11 +549,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="i-just-uploaded-a-video-file-onto-databrary-and-it-says-my-uploading-is-complete.-why-cant-i-see-it-on-or-download-it-from-databrary-right-away" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="i-just-uploaded-a-video-file-onto-databrary-and-it-says-my-uploading-is-complete.-why-cant-i-see-it-on-or-download-it-from-databrary-right-away">I just uploaded a video file onto Databrary and it says my uploading is complete. Why can’t I see it on or download it from Databrary right away?</h2>
+<p>When you upload a video or audio file, Databrary converts it (transcodes it) into a common format that should be accessible well into the future. The original file format is stored in parallel. Transcoding videos takes time. Databrary will not show a thumbnail of your file until the transcoding finishes. If your file is especially large, then the wait time could be several hours.</p>
+<p>If your file takes longer than that, contact Databrary support. Sometimes, transcoding jobs fail, and we can fix the problem at our end.</p>
 </section>
 <section id="i-downloaded-files-from-databrary-but-the-filenames-are-truncated." class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="i-downloaded-files-from-databrary-but-the-filenames-are-truncated.">I downloaded files from Databrary, but the filenames are truncated.</h2>
-<p>When Databrary downloads files there is a <code>32 character filename limit</code>. Please ensure the file names do not exceed this.</p>
-<p>If the file name is too long (the first 32 characters of the filename are exactly the same), it is impossible to distinguish between these files when they download and only <strong>one</strong> file will be downloaded.</p>
+<p>When you download files from the Databrary application, the system appends information about the volume and session the files came from. This is to help you understand what you’ve downloaded. However, when Databrary downloads files there is a <em>32 character</em> limit to the file name. So, if your file on Databrary has a long name, some of that name may be truncated in the downloaded file. Or, if the file name is too long (the first 32 characters of the filename are exactly the same as another file), it is impossible to distinguish between these files when they download and only <strong>one</strong> file will be downloaded.</p>
+<p>There are two solutions:</p>
+<ol type="1">
+<li>Try not to create excessively long file names for files stored on Databrary.</li>
+<li>Alternatively, you may want to download and use the <em>databraryr</em> R package. The package includes commands to download files from Databrary with the original (full length) Databrary file names intact. See <a href="https://databrary.github.io/databraryr/articles/accessing-data.html#downloading-multiple-files">this section</a> of the <em>databraryr</em> guide for more information.</li>
+</ol>
 </section>
 <section id="i-have-a-dataset-that-has-been-completely-collected.-now-we-are-ready-to-share-with-databrary.-what-do-i-do" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="i-have-a-dataset-that-has-been-completely-collected.-now-we-are-ready-to-share-with-databrary.-what-do-i-do">I have a dataset that has been completely collected. Now we are ready to share with Databrary. What do I do?</h2>
@@ -648,7 +587,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ol type="1">
 <li>Format your data with the same file structure for all sessions/participants</li>
 </ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p><strong><em>insert picture examples</em></strong></p>
+</div>
+</div>
 <ol start="2" type="1">
 <li>Share data folder with the <a href="mailto:andrea.seisler@databrary.org"> Databrary Support Specialist </a> on Box.</li>
 <li>Create list of files using Terminal (how to find terminal on <a href="https://www.makeuseof.com/windows-11-open-windows-terminal/#:~:text=This%20is%20how%20you%20can,Terminal%20to%20open%20that%20app.">Windows</a> and <a href="https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac#:~:text=Open%20Terminal&amp;text=Click%20the%20Launchpad%20icon%20in,%2C%20then%20double%2Dclick%20Terminal.">Mac</a>)
@@ -690,6 +641,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>In the Volume Description, list the name of the university/institution in full. This allows for use of an API pull to ingest data when necessary.</p>
 <p>After all data are collected, a new volume with <strong>ALL</strong> of the final data, including which data are from which site, can be created.</p>
 </section>
+<section id="is-there-a-storage-capacity-limit-for-each-project" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="is-there-a-storage-capacity-limit-for-each-project">Is there a storage capacity limit for each project?</h2>
+<p>At the moment, no.</p>
+<p>When we implement our fee-for-service/subscription model later in 2024, we will likely impose project-, researcher-, and institution- level limits for new projects that do not pay or subscribe.</p>
+</section>
+<section id="is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit">Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit</h2>
+<p>At the moment, no.</p>
+<p>However, we do not guarantee that large videos will transcode or stream well.</p>
+<p>If you need to download videos <em>en masse</em> or large videos, please consider using the <em>databraryr</em> package. It can be much faster than the web application.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We are still drafting responses to the following questions:</p>
 <section id="i-have-a-multisite-study.-how-do-i-add-my-co-investigators-in-the-right-order-to-the-databrary-volume" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="i-have-a-multisite-study.-how-do-i-add-my-co-investigators-in-the-right-order-to-the-databrary-volume">I have a multisite study. How do I add my co-investigators in the right order to the Databrary volume?</h2>
 </section>
@@ -699,11 +671,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="regarding-permissions-for-users.-we-anticipate-that-we-will-have-a-range-of-users-including-faculty-professional-developers-graduate-students.-we-think-getting-access-will-be-pretty-straightforward-for-individuals-connected-to-a-university.-however-how-would-someone-e.g.-professional-developer-in-a-school-district-gain-access" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="regarding-permissions-for-users.-we-anticipate-that-we-will-have-a-range-of-users-including-faculty-professional-developers-graduate-students.-we-think-getting-access-will-be-pretty-straightforward-for-individuals-connected-to-a-university.-however-how-would-someone-e.g.-professional-developer-in-a-school-district-gain-access">Regarding permissions for users. We anticipate that we will have a range of users including faculty, professional developers, graduate students. We think getting access will be pretty straightforward for individuals connected to a university. However, how would someone (e.g., professional developer in a school district) gain access?</h2>
 </section>
-<section id="is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit">Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit</h2>
+<section id="is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit-1" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="is-there-a-maximum-file-size-we-have-some-multigig-videos-and-want-to-check-ahead-of-time-if-there-is-a-limit-1">Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit</h2>
 </section>
-<section id="is-there-a-storage-capacity-limit-for-each-project" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="is-there-a-storage-capacity-limit-for-each-project">Is there a storage capacity limit for each project?</h2>
+</div>
+</div>
 
 
 </section>

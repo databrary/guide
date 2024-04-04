@@ -1,16 +1,26 @@
-# Databrary for institutions {.unnumbered}
+# For institutions {.unnumbered}
+
+Institutions play a central role in the Databrary ecosystem.
+This section describes some of those roles and responsibilities.
+It is designed to answer the questions an official with grants and contracts or research ethics compliance responsibilities might ask.
+
+Much of the material is adapted from the [Databrary Access Agreement and its three Annexes](../appendices/access_agreement.qmd).
+
+Note, there are several questions on the [FAQ](../more-information/faq.qmd) page that directly relate to institutional responsibilities, including:
+
+[I qualify as an Authorized Organizational Representative (AOR). Can I sign as both Authorized Investigator and AOR?](../more-information/faq.qmd#i-qualify-as-an-authorized-organizational-representative-aor.-can-i-sign-as-both-authorized-investigator-and-aor)
+
+[How much does Databrary cost?](../more-information/faq.qmd#how-much-does-databrary-cost)
+
+If you are a researcher, research staff or trainee, you may skip this part.
+Or, you may find it helpful to learn more about the differences between your institution's responsibilities and yours.
 
 ## What is Databrary? {-}
 
-Databrary is a restricted access data library specialized for storing,
-streaming, and sharing of video and audio recordings. Databrary's
-mission is to support the sharing of video and audio recordings and
-related data collected as part of research in the social, behavioral,
-educational, and neural sciences.
+Databrary is a restricted access data library specialized for storing, streaming, and sharing of video and audio recordings. 
+Databrary's mission is to support the sharing of video and audio recordings and related data collected as part of research in the social, behavioral, educational, and neural sciences.
 
-The responsibility for protecting research data and research
-participants is shared among Authorized Investigators and their
-Affiliates, Institutions, and Databrary.
+The responsibility for protecting research data and research participants is shared among Authorized Investigators and their Affiliates, Institutions, and Databrary.
 
 Databrary has a multi-pronged approach to fostering the sharing of video
 and related data while upholding ethical research principles. Access is

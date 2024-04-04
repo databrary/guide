@@ -99,10 +99,17 @@ The system supports user accounts with the following features and privileges:
 
 As of April 2024, Databrary has begun a rewrite led by [Montrose Software](https://montrosesoftware.com).
 
-While the core of the system is understood and will be replicated in the new version, some questions will be explored that relate to new features:
+While the core of Databrary 1.0 is understood and will be replicated in the new version, some questions will be explored that relate to new features:
 
 - Should video and audio transcoding be automatic or optional; if optional, how can transcoding be triggered?
 - What features of the existing session/slot spreadsheet interface for managing and visualizing demographic data can be implemented easily and at minimal cost using existing libraries?
 - Can two-factor authentication be added? If so, at what cost?
 - Can per-institution (across users and projects), per-user (across projects) or per-project storage quotas be implemented? Can warnings be generated when storage amounts are nearing quotas? How could Super Users manage user requests to increase quotas?
 - Can a more informative administrative console be developed with by-volume, usage, and storage metrics, including shared vs. unshared data? If so, at what cost?
+
+### Roadmap
+
+- "Virtual volumes" or cloned/copied datasets with links to original sources.
+- More file-, session-, volume-, researcher-, and institution- analytics.
+- Private volumes for peer review.
+

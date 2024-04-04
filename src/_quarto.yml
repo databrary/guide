@@ -12,14 +12,13 @@ book:
     - index.qmd # This is the file that contains the front matter, found in the root of the repository
     - part: background/introduction.qmd
       chapters:
+      - background/who-why.qmd
       - background/ethics.qmd
-      - background/determine-status.qmd
-    - part: "For Institutions"
-      chapters:
-        - for-institutions/background.qmd
+    - href: for-institutions/background.qmd
+      text: "For Institutions"
     - part: "For Investigators"
       chapters: 
-        - for-investigators/determine-status.qmd
+        - for-investigators/background.qmd
         - for-investigators/requesting-access.qmd
         - for-investigators/onboarding.qmd
         - for-investigators/managing-people.qmd
@@ -30,7 +29,7 @@ book:
         - for-investigators/best-practices.qmd
     - part: "For Affiliates"
       chapters: 
-      - for-affiliates/affiliates-intro.qmd  
+      - for-affiliates/background.qmd  
       - for-affiliates/requesting-access-affiliates.qmd
       - for-affiliates/onboarding-affiliates.qmd
       - for-affiliates/creating-new-volume-affiliates.qmd

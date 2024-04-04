@@ -1,7 +1,10 @@
-# Create a new volume {#newvol}
+# Creating a new volume {#newvol}
+
 ```{r, include = FALSE}
 knitr::opts_chunk$set(echo=FALSE, out.width="80%", fig.align = "center")
+
 ```
+
 ## What stage is my project  {-}
 
 ### New Project {-}
@@ -13,8 +16,6 @@ Complete Steps 1-5, 7, and 8 Now.
 After each data collection session, follow the directions for [Enter Data Individually](#individually) in Step 6.
 
 ### Ongoing {-}
-
-
 
 ### Completed {-}
 

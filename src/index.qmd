@@ -2,23 +2,17 @@
 
 This book describes the [Databrary.org](https://databrary.org) data library and how to use it effectively as a tool for sharing research data.
 
-Databrary is used by a large and growing community of researchers across the globe, including some large scale research projects [@Soska2021-mh] run by Databrary's co-founders, Karen Adolph and Rick Gilmore.
+Databrary is used by a large and growing community of researchers across the globe, including some large scale research projects [@Soska2021-mh] run by Databrary's co-founders, Karen Adolph and Rick Gilmore, and their collaborators.
 
 Databrary's founders believe that the widespread use of video can improve the reproducibility of many different areas of research [@Adolph_KE_Gilmore_RO_Kennedy_JL2017-va; @Gilmore2017-wd].
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
 
 ## About the Authors {-}
 
 [Rick Gilmore](https://rick-gilmore.com) is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.
 
-Andrea Seisler manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.
+*Andrea Seisler* manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.
 
-Melody Xu was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023.
+*Melody Xu* was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023.
 
-Yinghe Liu works as a research assistant. He contributes to improving the Databrary Guide Project, beginning in Fall 2023. 
+*Yinghe Liu* is an undergraduate student majoring in Psychology at Penn State.
+He works as a research assistant in two faculty labs, and he has contributed to improving the Databrary Guide since Fall 2023. 
