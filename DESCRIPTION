@@ -1,6 +1,0 @@
-Package: placeholder
-Type: Book
-Title: Databrary User Guide.
-Version: 0.0.1
-Imports: bookdown
-Remotes: databrary/guide
