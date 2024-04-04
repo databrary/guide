@@ -1,0 +1,96 @@
+{
+  "index.qmd": {
+    "index.html": "cc3d9411"
+  },
+  "background/introduction.qmd": {
+    "introduction.html": "31116b48"
+  },
+  "background/ethics.qmd": {
+    "ethics.html": "992ad4e7"
+  },
+  "background/determine-status.qmd": {
+    "determine-status.html": "d94c59f5"
+  },
+  "for-institutions/background.qmd": {
+    "background.html": "5e7d24bf"
+  },
+  "for-investigators/determine-status.qmd": {
+    "determine-status.html": "092009f0"
+  },
+  "for-investigators/requesting-access.qmd": {
+    "requesting-access.html": "8aebaa2f"
+  },
+  "for-investigators/onboarding.qmd": {
+    "onboarding.html": "5d887c96"
+  },
+  "for-investigators/managing-people.qmd": {
+    "managing-people.html": "0e61aed8"
+  },
+  "for-investigators/create-new-volume.qmd": {
+    "create-new-volume.html": "03fc60ca"
+  },
+  "for-investigators/edit-existing-volume.qmd": {
+    "edit-existing-volume.html": "76837198"
+  },
+  "for-investigators/data-sharing.qmd": {
+    "data-sharing.html": "e1d7f1d4"
+  },
+  "for-investigators/reusing-data.qmd": {
+    "reusing-data.html": "99879bef"
+  },
+  "for-investigators/best-practices.qmd": {
+    "best-practices.html": "9af8166c"
+  },
+  "for-affiliates/Affiliates-Intro.qmd": {
+    "Affiliates-Intro.html": "902d5bde"
+  },
+  "for-affiliates/requesting-access-affiliates.qmd": {
+    "requesting-access-affiliates.html": "c36a5116"
+  },
+  "for-affiliates/onboarding-affiliates.qmd": {
+    "onboarding-affiliates.html": "d6580904"
+  },
+  "for-affiliates/creating-new-volume-affiliates.qmd": {
+    "creating-new-volume-affiliates.html": "99b309f5"
+  },
+  "for-affiliates/edit-existing-volume-affiliates.qmd": {
+    "edit-existing-volume-affiliates.html": "0b5cb590"
+  },
+  "for-affiliates/reusing-data-affiliates.qmd": {
+    "reusing-data-affiliates.html": "802e321f"
+  },
+  "more-information/more-information.qmd": {
+    "more-information.html": "251c5ccc"
+  },
+  "more-information/faq.qmd": {
+    "faq.html": "a4cff317"
+  },
+  "more-information/definitions.qmd": {
+    "definitions.html": "9990f95e"
+  },
+  "more-information/references.qmd": {
+    "references.html": "e01ca8ff"
+  },
+  "appendices/access_agreement.qmd": {
+    "access_agreement.html": "7907ff31"
+  },
+  "appendices/participant_info.qmd": {
+    "participant_info.html": "ec891ea6"
+  },
+  "appendices/privacy_policy.qmd": {
+    "privacy_policy.html": "9184bce0"
+  },
+  "appendices/terms.qmd": {
+    "terms.html": "1409fe95"
+  },
+  "appendices/grants.qmd": {
+    "grants.html": "3ee592d1"
+  },
+  "more-information/software.qmd": {
+    "software.html": "6e72d509"
+  },
+  "for-affiliates/affiliates-intro.qmd": {
+    "Affiliates-Intro.html": "b162fd89",
+    "affiliates-intro.html": "1abdb22a"
+  }
+}

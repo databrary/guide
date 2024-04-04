@@ -1,0 +1,15 @@
+{
+  "hash": "5d6023299e1306630ed0085e3fa11cbd",
+  "result": {
+    "engine": "knitr",
+    "markdown": "## Preface {-}\n\nThis book describes the [Databrary.org](https://databrary.org) data library and how to use it effectively as a tool for sharing research data.\n\nDatabrary is used by a large and growing community of researchers across the globe, including some large scale research projects [@Soska2021-mh] run by Databrary's co-founders, Karen Adolph and Rick Gilmore.\n\nDatabrary's founders believe that the widespread use of video can improve the reproducibility of many different areas of research [@Adolph_KE_Gilmore_RO_Kennedy_JL2017-va; @Gilmore2017-wd].\n\n\n\n\n\n## About the Authors {-}\n\n[Rick Gilmore](https://rick-gilmore.com) is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.\n\nAndrea Seisler manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.\n\nMelody Xu was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023.\n\nYinghe Liu works as a research assistant. He contributes to improving the Databrary Guide Project, beginning in Fall 2023. \n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
