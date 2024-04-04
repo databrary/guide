@@ -49,7 +49,8 @@ https://nyu.databrary.org/volume/1/slot/9807?asset=9200
 
 This call accesses the Databrary “leaf” logo in volume 1, slot (session) 9807, with asset ID 9200. Similarly, https://nyu.databrary.org/party/12 returns information about all of the *Authorized Investigators* who are authorized through party 12, The Pennsylvania State University.
 
-Most, but not all of the Databrary API is documented. If it is necessary to change the API calls in the rewrite, then the API should be versioned, and the new system should support current API calls.
+Most, but not all of the Databrary API is [documented](https://github.com/databrary/route-doc). 
+If it is necessary to change the API calls in the rewrite, then the API should be versioned, and the new system should support current API calls.
 
 ### Backend Services
 
