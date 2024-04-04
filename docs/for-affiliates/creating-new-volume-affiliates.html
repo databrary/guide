@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Databrary Guide - Create a new volume</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../for-affiliates/edit-existing-volume-affiliates.html" rel="next">
+<link href="../for-affiliates/onboarding-affiliates.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../include/css/style.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../for-affiliates/affiliates-intro.html">For Affiliates</a></li><li class="breadcrumb-item"><a href="../for-affiliates/creating-new-volume-affiliates.html">Create a new volume</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Databrary Guide</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/databrary/guide/tree/main/src/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../background/introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About Databrary</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../background/ethics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ethics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../background/determine-status.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Determine Researchers Status</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">For Institutions</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-institutions/background.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Databrary for institutions</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">For Investigators</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-investigators/determine-status.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">What is your status?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-investigators/requesting-access.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Requesting access</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-investigators/onboarding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Onboarding</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-investigators/managing-people.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Managing people</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-investigators/create-new-volume.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Creating a new volume</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-investigators/edit-existing-volume.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Editing a Volume</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-investigators/data-sharing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Sharing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-investigators/reusing-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reusing data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-investigators/best-practices.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Best Practices</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text">For Affiliates</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-affiliates/affiliates-intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">As Affiliates</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-affiliates/requesting-access-affiliates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Requesting access</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-affiliates/onboarding-affiliates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Onboarding</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-affiliates/creating-new-volume-affiliates.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Create a new volume</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-affiliates/edit-existing-volume-affiliates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Edit a Volume</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../for-affiliates/reusing-data-affiliates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reusing data</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../more-information/more-information.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">More information</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../more-information/faq.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Frequently Asked Questions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../more-information/definitions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Definitions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../more-information/software.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Software</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../more-information/references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/access_agreement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Formal Access Agreement</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/participant_info.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Participant Bill of Rights</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/privacy_policy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Databrary Privacy Policy</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/terms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Terms and Conditions of Use</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/grants.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Grants</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#step1" id="toc-step1" class="nav-link active" data-scroll-target="#step1">Step 1: Login/Go to Profile</a></li>
+  <li><a href="#step2" id="toc-step2" class="nav-link" data-scroll-target="#step2">Step 2: Look for Create a new volume button</a></li>
+  <li><a href="#step3" id="toc-step3" class="nav-link" data-scroll-target="#step3">Step 3: Click Create a new volume button to create a new volume</a></li>
+  <li><a href="#step4" id="toc-step4" class="nav-link" data-scroll-target="#step4">Step 4: Enter Dataset Overview</a></li>
+  <li><a href="#step5" id="toc-step5" class="nav-link" data-scroll-target="#step5">Step 5: Manage Access</a></li>
+  <li><a href="#step6" id="toc-step6" class="nav-link" data-scroll-target="#step6">Step 6: Design Spreadsheet</a>
+  <ul>
+  <li><a href="#definitions-for-all-spreadsheet-options" id="toc-definitions-for-all-spreadsheet-options" class="nav-link" data-scroll-target="#definitions-for-all-spreadsheet-options">Definitions for all Spreadsheet Options</a></li>
+  </ul></li>
+  <li><a href="#step7" id="toc-step7" class="nav-link" data-scroll-target="#step7">Step 7: Enter Data</a>
+  <ul>
+  <li><a href="#participantmetadata" id="toc-participantmetadata" class="nav-link" data-scroll-target="#participantmetadata">Upload a participant metadata file.</a></li>
+  <li><a href="#individually" id="toc-individually" class="nav-link" data-scroll-target="#individually">Enter Data Individually (the upload as you go method)</a></li>
+  </ul></li>
+  <li><a href="#step8" id="toc-step8" class="nav-link" data-scroll-target="#step8">Step 8: Add Links</a></li>
+  <li><a href="#step9" id="toc-step9" class="nav-link" data-scroll-target="#step9">Step 9: List Funding</a></li>
+  <li><a href="#related-frequently-asked-questions-faqs" id="toc-related-frequently-asked-questions-faqs" class="nav-link" data-scroll-target="#related-frequently-asked-questions-faqs">Related Frequently Asked Questions (FAQs)</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/for-affiliates/creating-new-volume-affiliates.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../for-affiliates/affiliates-intro.html">For Affiliates</a></li><li class="breadcrumb-item"><a href="../for-affiliates/creating-new-volume-affiliates.html">Create a new volume</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Create a new volume</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Each project can create a volume for storing and sharing data. We encourage corresponding actions to be performed before the project is in collecting data process. In this case, you would utilize the upload as you go method of data curation.</p>
+<p>We have intentionally limited the permissions to manage the volume to ensure data security. Creating volumes is a privilege granted to the project’s <strong>Manager</strong> status affiliates, and sharing the volume is <strong>not</strong> allowed for affiliates.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Volumes cannot be deleted once created.</strong></p>
+</div>
+</div>
+<p>If you have created a volume by mistake, you can hide the volume by restricting access to others or rename the volume so that it can be reused by another future project.</p>
+<section id="step1" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="step1">Step 1: Login/Go to Profile</h2>
+<p>Let’s get started with creating a new volume.</p>
+<p>Review <a href="../for-affiliates/onboarding-affiliates.html">Onborading-affiliates</a> for how to find your profile.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/db-dashboard-shared-volume.png" class="img-fluid figure-img"></p>
+<figcaption>Volumes you own or shared by others</figcaption>
+</figure>
+</div>
+</section>
+<section id="step2" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="step2">Step 2: Look for Create a new volume button</h2>
+<p>If the button is not available, check your sponsor status by reviewing your profile. If you are not granted with <strong>Manager</strong> status, you will not be able to create a new volume.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/db-profile-sponsor.png" class="img-fluid figure-img"></p>
+<figcaption>Affiliates with Read-only Access</figcaption>
+</figure>
+</div>
+<p>Read-Only access will not allow you to create a new volume. Only affiliates granted with <strong>Manager</strong> status will be able to create a new volume. Meanwhile, affiliates at all circumstances may not share access to the volume with others even with the manager status.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/db-profile-sponsor-manager.png" class="img-fluid figure-img"></p>
+<figcaption>Affiliates with the manager status.</figcaption>
+</figure>
+</div>
+<p>If you have been granted with access to create a new volume, you will see the button <code>Create a new volume</code> under <strong>Your Sponsor Volumes</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/db-dashboard-create-volume.png" class="img-fluid figure-img"></p>
+<figcaption>Create a new volume</figcaption>
+</figure>
+</div>
+</section>
+<section id="step3" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="step3">Step 3: Click Create a new volume button to create a new volume</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Again, creating a new volume with careful consideration is important. Once created, the volume <strong>cannot</strong> be deleted.</p>
+</div>
+</div>
+<p>Click the button <code>Create a new volume</code> to create a new volume.</p>
+<p>Click on <code>Create Volume</code> to the right of <strong>Data Owner Volumes</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"../include/img/db-create-volume.JPG"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../include/img/db-create-volume.JPG" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>There are multiple tabs on the left side of the screen that need to be completed to set up a new volume. In this page, you will be asked to provide the following information: <strong>overview, manage access, design spreadsheet, enter data, add links, </strong> and <strong>list fundings</strong>. These tabs need to be completed in order.</p>
+</section>
+<section id="step4" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="step4">Step 4: Enter Dataset Overview</h2>
+<p>Volume <strong>Overview</strong> is created by choosing if the volume is related to a published resource and answering the related questions (Title, Description, Internal Short Name and additional citation information if necessary).</p>
+<p>Please describe the context of data collection and the types of data that will be uploaded (e.g.&nbsp;video, pictures, coding files, survey data, etc.). The recommended template is provided. Please be sure to fill in all of the brackets with the relevant information for your volume.</p>
+<p>This dataset focuses on [<strong>Provide provide a description of behavor, location of study, and age range</strong>]. Dataset includes [<strong>Enter description of videos, questionnaires, materials, etc.</strong>]</p>
+<p>Videos were [<strong>Provide provide a general description of what the videos were coded for. (Some examples may include: transcribed for mother speech and child vocalizations; coded for mother and child object interaction; child locomotion and emotion).</strong>] (see Materials folder).</p>
+<p>This volume contains [<strong>Enter list the types of files along with approximate numbers for each. Some examples are provided below</strong>]:</p>
+<ul>
+<li>XX videos (MP4/MOV files)</li>
+<li>XX Datavyu transcription files (OPF files)</li>
+<li>XX Datavyu coding files (OPF files)</li>
+<li>Questionnaire data (.xls file)</li>
+<li>Several video exemplars of child behaviors (.mp4 files)</li>
+<li>Transcription manual (.docx file)</li>
+<li>Coding manual (.docx file)</li>
+<li>Scripts for processing and exporting data from Datayu (Ruby)</li>
+<li>Materials folder containing stimuli, copies of questionnaires used in study, additional participant demographic information, and other materials utilized for the study.</li>
+<li>Exemplar study intake video of experimenter with participant</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"../include/img/db-example-data-description.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../include/img/db-example-data-description.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>If you need this data to be associated with a DOI, please answer <code>YES</code> to the question <strong>Does this volume correspond to a published paper or resource</strong></p>
+<p>When all items are entered, select <code>Save</code></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"../include/img/db-new-volume-overview.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../include/img/db-new-volume-overview.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>You may have the option to enter Keywords associated with the Volume. See <a href="#Volume">below</a> for description.</p>
+</section>
+<section id="step5" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="step5">Step 5: Manage Access</h2>
+<p>Next, go to <strong>Manage Access</strong> to choose volume sharing options and add collaborators (faculty, staff, students) that already have an account on Databrary that is Sponsored by an Institution or an Authorized Investigator.</p>
+<p>Click <code>Save</code> when done.</p>
+<p>Please be sure to pick the appropriate sharing setting, Private, Share Volume Overview Only or Share Entire Volume. The default sharing setting is Private.</p>
+<p>Private: keeps the volume private to you and your chosen affiliates and collaborators</p>
+<p>Share Volume Overview Only: This will only share the Title and description of the volume exactly as it is entered in the Overview Tab</p>
+<p>Shared:</p>
+<p>Please note: Only the Authorized Investigator who created this volume can ‘Share Entire Volume’</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"../include/img/db-new-volume-manage-access.JPG"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../include/img/db-new-volume-manage-access.JPG" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="step6" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="step6">Step 6: Design Spreadsheet</h2>
+<p>Now, go to <strong>Design Spreadsheet</strong> and choose all the categories and sub-categories you would like to include in your spreadsheet for participant/session metadata.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"../include/img/db-new-volume-design-spreadsheet.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../include/img/db-new-volume-design-spreadsheet.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="definitions-for-all-spreadsheet-options" class="level3">
+<h3 class="anchored" data-anchor-id="definitions-for-all-spreadsheet-options">Definitions for all Spreadsheet Options</h3>
+<p><strong>participant: An individual human subject whose data are used or represented</strong></p>
+<p><code>ID</code> A unique, anonymized, primary identifier, such as a participant ID.</p>
+<p><code>info</code> Other information or alternative identifier</p>
+<p><code>birthdate</code> Date of birth (used with session date to calculate age)</p>
+<p><code>description</code> A longer explanation or description <em>(‘description’ is NOT sortable through the Databrary volume filters)</em></p>
+<p><code>gender</code> “Male”, “Female”, or any other relevent gender</p>
+<p><code>race</code> As classified by NIH, or user-defined classification</p>
+<p><code>ethnicity</code> As classified by NIH (Hispanic/Non-Hispanic), or user-defined classification</p>
+<p><code>gestational age</code> Pregnancy age in weeks between last menstrual period and birth (or pre-natal observation)</p>
+<p><code>pregnancy term</code> “Full term”, “Preterm”, or other gestational term (assumed “Full term” by default)</p>
+<p><code>birth weight</code> Weight at birth (in grams, e.g., 3250)</p>
+<p><code>disability</code> Any developmental, physical, or mental disability or disabilities (assumed “Typical” by default)</p>
+<p><code>language</code> Primary language(s) spoken by and to participant (assumed “English” by default)</p>
+<p><code>country</code> Country where participant was born (assumed “US” by default)</p>
+<p><code>state</code> State/territory where particpiant was born</p>
+<p><code>setting</code> The physical context of the participant (please do not use for new data: see the context category instead)</p>
+<p><strong>pilot: Indicates that the methods used were not finalized or were non-standard</strong></p>
+<p><code>name</code> A label or identifier referring to the pilot method <em>(This is the only field in the “pilot” section that is sortable through the Databrary volume filters)</em></p>
+<p><code>description</code> A longer explanation or description of the pilot method</p>
+<p><strong>exclusion: Indicates that deta were not usable</strong></p>
+<p><code>name</code> A label or identifier referring to the exclusion criterion <em>(This is the only field in the “exclusion” section that is sortable through the Databrary volume filters)</em></p>
+<p><code>reason</code> The reason for excluding these data</p>
+<p><code>description</code> A longer explanation or description of the reason for excluding data</p>
+<p><strong>condition: An experimenter-determined manipulation (within or between sessions)</strong></p>
+<p><code>name</code> A label or identifier referring to the exclusion criterion <em>(This is the only field in the “label” section that is sortable through the Databrary volume filters)</em></p>
+<p><code>reason</code> The reason for excluding these data</p>
+<p><code>description</code> A longer explanation or description of the reason for excluding data</p>
+<p><strong>group: A grouping determined by an aspect of the data (participant ability, age, grade level, experience, longitudinal visit, measurements used/available)</strong></p>
+<p><code>name</code> A label or identifier referring to the exclusion criterion <em>(This is the only field in the “group” section that is sortable through the Databrary volume filters)</em></p>
+<p><code>reason</code> The reason for excluding these data</p>
+<p><code>description</code> A longer explanation or description of the reason for excluding data</p>
+<p><strong>task: A particular task, activity, or phase of the session or study</strong></p>
+<p><code>name</code> A label or identifier referring to the exclusion criterion <em>(This is the only field in the “task” section that is sortable through the Databrary volume filters)</em></p>
+<p><code>reason</code> The reason for excluding these data</p>
+<p><code>description</code> A longer explanation or description of the reason for excluding data</p>
+<p><strong>context: A particular setting or other aspect of where/when/how data were collected</strong></p>
+<p><code>name</code> A label or identifier referring to the exclusion criterion</p>
+<p><code>setting</code> The physical context</p>
+<p><code>language</code> Language used in this context (assumed “English” by default)</p>
+<p><code>country</code> Country of data collection (assumed “US” by default)</p>
+<p><code>state</code> State/territory of data collection</p>
+</section>
+</section>
+<section id="step7" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="step7">Step 7: Enter Data</h2>
+<p>Now it is time to <strong>Enter Data</strong>. There are two options:</p>
+<section id="participantmetadata" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="participantmetadata">Upload a participant metadata file.</h3>
+<p>See video instructions or follow the step by step instructions below.</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_url</span>(<span class="st">"https://nyu.databrary.org/slot/27587/0,183810/asset/122478/download?inline=true"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<iframe src="https://nyu.databrary.org/slot/27587/0,183810/asset/122478/download?inline=true" width="672" height="400px" data-external="1">
+</iframe>
+</div>
+<p>What is an appropriately formatted .csv file?</p>
+<ul>
+<li>ensure that the Header row is exactly the same as the <strong>Spreadsheet Preview</strong> in the <code>Design Spreadsheet</code> tab.</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"../include/img/db-design-spreadsheet.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../include/img/db-design-spreadsheet.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>so this .csv file would look like:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"../include/img/db-participant-metadata.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../include/img/db-participant-metadata.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Now it is time to upload the participant .csv file.</p>
+<p>Click the <code>participant</code> tab. Then <code>Choose File</code> to navigate to the appropriate file. Finally click <code>Upload</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"../include/img/db-enter-data-participant.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../include/img/db-enter-data-participant.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>You will see a window that summarizes the data uploaded and will point out any potential errors (e.g.&nbsp;wrong header names, missing data)</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"../include/img/db-data-upload-summary.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../include/img/db-data-upload-summary.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Please review these data</p>
+<p>Then click <code>Yes</code>.</p>
+<p>Now the uploaded data will show like this.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"../include/img/db-uploaded-metadata.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../include/img/db-uploaded-metadata.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>After the participant metadata is uploaded, the data regarding the testing session and any relevant filed get uploaded individually.</p>
+<p>See video instructions or follow the step by step instructions below.</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_url</span>(<span class="st">"https://nyu.databrary.org/slot/27588/0,170067/asset/122480/download?inline=true"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<iframe src="https://nyu.databrary.org/slot/27588/0,170067/asset/122480/download?inline=true" width="672" height="400px" data-external="1">
+</iframe>
+</div>
+<p>Click on the <code>folder</code> tab.</p>
+<p>Click on <code>add folder</code> and choose to add a <strong>session</strong> or <strong>materials</strong> folder.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"../include/img/db-add-folder.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../include/img/db-add-folder.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Session folders are for participant sessions and materials folders are for thing related to the study such as surveys used, sample consent forms, and stimuli.</p>
+<p>Session folders need to be added individually. Once the Participant ID is entered, the related metadata will be filled in. Then the rest of the session information will need to be added individually.</p>
+</section>
+<section id="individually" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="individually">Enter Data Individually (the upload as you go method)</h3>
+<ul>
+<li>Click inside the <strong>ID</strong> box to add a participant.</li>
+<li>Complete each metadata item selected to create the participant, then</li>
+<li>Add files related to that participant</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"../include/img/db-new-volume-enter-data.JPG"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../include/img/db-new-volume-enter-data.JPG" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="step8" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="step8">Step 8: Add Links</h2>
+<p>Please share more information in your Databrary Volume using <strong>Add Links</strong>. Here you will want to add links to any outside resources related to this dataset (e.g.&nbsp;published paper, github repository)</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"../include/img/db-new-volume-add-links.JPG"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../include/img/db-new-volume-add-links.JPG" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="step9" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="step9">Step 9: List Funding</h2>
+<p>Finally, please share your funding source for your volume in <strong>List Funding</strong>. If your funding source is not listed here, please email Databrary Staff at contact@databrary.org to have it added.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"../include/img/db-new-volume-list-funding.JPG"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../include/img/db-new-volume-list-funding.JPG" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="related-frequently-asked-questions-faqs" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="related-frequently-asked-questions-faqs">Related Frequently Asked Questions (FAQs)</h2>
+<div class="" qa="">
+
+<div class="question">
+<p>Q: I don’t know how to get authorized as a manager.</p>
+</div>
+<div class="answer">
+<p>A: Manager status is authorized by their sponsor during the <a href="../for-affiliates/requesting-access-affiliates.html">requesting-access-affiliates</a> where the sponsor will be asked to choose the status of an affiliate.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/db-grant-access.png" class="img-fluid figure-img"></p>
+<figcaption>Grant access by sponsors</figcaption>
+</figure>
+</div>
+<p>Make sure you have the right status. If you need to update your status, please contact your sponsor.</p>
+</div>
+<div class="" qa="">
+
+<p>What is the difference between a Tag and a Keyword?</p>
+<p>Tag - Anyone can tag a volume Keyword - Only Volume Owners/Authors/Investigators can enter keywords</p>
+<p>How do Tags and Keywords affect the search function?</p>
+<p>Tags can be searched for on the <a href="http://nyu.databrary.org/search">Databrary Search Page</a></p>
+<p>Keywords are for??? Maybe these are the same keywords that would have been used in the associated Journal article.</p>
+<p>Can I tag a Session?</p>
+<p>This appears to be possible, but the search function cannot present results by session. Therefore only Volume Tags are currently searchable.</p>
+
+
+</div></div></section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../for-affiliates/onboarding-affiliates.html" class="pagination-link  aria-label=" onboarding"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Onboarding</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../for-affiliates/edit-existing-volume-affiliates.html" class="pagination-link" aria-label="Edit a Volume">
+        <span class="nav-page-text">Edit a Volume</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/for-affiliates/creating-new-volume-affiliates.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
