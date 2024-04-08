@@ -7,6 +7,14 @@ A common first step is to determine your status as a researcher.
 See [the About Databrary section for details](../background/who-why.qmd#whats-my-status)
 Then, you can request authorization as described in the next chapter.
 
+I am eligible to become an **Authorized Investigator** if:  
+
++ I can conduct independent research;   
++ I can submit funding proposals as the lead investigator;   
++ I have Principal Investigator (PI) status or a tenure-track faculty position at my Institution; -->
++ My Institution maintains or uses an ethics board to review and approve research involving human subjects (or animals where relevant); AND -->
++ I have current training that addresses research ethics with human subject (or animals where relevant)     
+
 <!-- ## Determining status {.unnumbered} -->
 
 <!-- To determine what level of access you can request from Databrary, see the following. -->
