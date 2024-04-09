@@ -32,7 +32,7 @@ Since access to restricted materials on Databrary requires formal *authorization
 
 To start the authorization process on Databrary, please complete the [Registration Form](https://nyu.databrary.org/user/register?page=create) or click on the green 'Register' button or click on `register` on the top right of the menu bar at [databrary.org](https://databrary.org).
 
-![Image from Databrary home page](../include/img/db-main-page.JPG){#fig-databrary-home fig-align="center"}
+![Image from Databrary home page](../include/img/db-main-page-logged-in.JPG){#fig-databrary-home fig-align="center"}
 
 ### Creating an account {-}
 
@@ -48,12 +48,9 @@ Go to your email box, locate the auto-generated email from Databrary, and confir
 
 ![Databrary screen indicating confirmation email has been sent](img/db-confirm-email.JPG){#fig-confirmation-email fig-align="center"}
 
-::: {.callout-note}
-
-Need to add figure here.
+What the email looks like: 
 
 ![Sample Databrary registration email](img/db-registration-email.png){#fig-registration-email fig-align="center"}
-:::
 
 ### Choosing a password {-}
 
@@ -67,13 +64,9 @@ We strongly recommend using a password generation or manager program or the pass
 
 ![Databrary Set Password screen](img/db-set-password.JPG){#fig-set-password fig-align="center"}
 
-::: {.callout-warning}
-
 Keep your account credentials secret and do not share them with anyone.
 Each Databrary user must have their own login and password.
 It is violation of the Databrary Access Agreement and common sense to share login credentials with another user.
-
-:::
 
 ### Requesting authorization {-}
 
