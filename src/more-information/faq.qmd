@@ -6,7 +6,7 @@ No. If you qualify as an Authorized Organizational Representative you will need 
 
 ## Can individuals not associated with an institution be authorized? {-}
 
-No. To become an Authorized Investigator on Databrary you/your institution must meet __All__ of the below conditions:  
+No. To become an Authorized Investigator on Databrary you/your institution must meet __All__ of the following conditions:  
 
   - Have PI status or you are eligible to conduct independent research at this Institution and the Institution accepts responsibility for its Authorized Investigators’ actions related to the use of Databrary  
   - Have all current research ethics training that addresses human subjects policy and issues required by your institution; and  
