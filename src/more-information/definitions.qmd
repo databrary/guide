@@ -1,5 +1,61 @@
 # Definitions {.unnumbered}
-<p>This is some [special vocabulary]{.vocabulary} in your text.</p>
 
-[Term]{.term title="This is the definition of the term."}
+This page defines some special terms used by Databrary.
 
+## Access Agreement or Databrary Access Agreement
+
+[The formal, legal agreement between an Authorized Investigator and his or her Institution and New York University (NYU) on behalf of Databrary.]{.term}
+
+## Affiliate
+
+A person who conducts research under an Authorized Investigator's sponsorship and supervision and who has been granted access to Databrary by the Authorized Investigator. In most cases, Affiliates are students or research staff and are not eligible for Authorized Investigator status.
+
+## Authorized Investigator
+
+A person who has permission from an Institution to conduct independent research and who has received authorization from an Institution and from Databrary to access Databrary.
+
+## Authorized Organizational Representative (AOR)
+
+A person granted authority by an Institution to sign the Databrary Access Agreement on behalf of the Institution and thereby bind the Institution to the terms of the Databary Access Agreement.
+
+## Institution
+
+An academic, not-for-profit, research, government, or health entity whose employees or students conduct scientific research or educational activities.
+
+## Materials
+
+A type collection in a Databrary volume for items such as stimuli, surveys, aggregate (de-identified) datasets, research protocols, IRB approvals, and the like.
+Like Sessions, Materials have a unique integer identifier.
+
+## Participant Sharing (Release) Levels
+
+All files (assets) and sessions on Databrary have a sharing (release) level.
+The level indicates who may view the files or sessions.
+There are five sharing [release levels](https://databrary.org/support/irb/release-levels.html):
+
+- Unknown
+- Private
+- Authorized Users
+- Learning Audiences
+- Public
+
+## Session
+
+A collection of data or materials within a volume, analogous to a folder or directory in a computer file system.
+A session usually involves participants observed while they performed some task or tasks in a specific place at a defined time.
+Sessions have a unique integer identifer.
+
+## Volume
+
+A collection of data or materials that are associated with a research project, publication, or paper.
+A volume has a unique integer identifier.
+
+## Volume Sharing Levels
+
+Volumes have their own sharing level.
+Like the sharing levels associated with participant sessions, the level indicates who may view the volume and its contents.
+There are three volume sharing levels:
+
+- Private Volume (visible only to specific users given access by the Authorized Investigator who created the Volume)
+- Volume Overview Shared (makes only the Description of Dataset, Investigators, How to Cite, and File Release Levels summary visible, but not data)
+- Entire Volume Shared (makes visible all elements of the Volume, subject to restrictions based on the user level--Authorized Investigator or Affiliate).

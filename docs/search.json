@@ -994,5 +994,115 @@
     "title": "For institutions",
     "section": "What is Databrary?",
     "text": "What is Databrary?\nDatabrary is a restricted access data library specialized for storing, streaming, and sharing of video and audio recordings. Databrary’s mission is to support the sharing of video and audio recordings and related data collected as part of research in the social, behavioral, educational, and neural sciences.\nThe responsibility for protecting research data and research participants is shared among Authorized Investigators and their Affiliates, Institutions, and Databrary.\nDatabrary has a multi-pronged approach to fostering the sharing of video and related data while upholding ethical research principles. Access is restricted to Authorized Investigators whose access must be approved by their Institution. Institutions must provide ethics oversight of Authorized Investigators through a research ethics board or Institutional Review Board (IRB) with standards equivalent to that required to secure Federalwide Assurance (FWA) status from the U.S. Government (see: https://www.hhs.gov/ohrp/register-irbs-and-obtain-fwas/index.html). Authorized Investigators who share data with others must secure permission to share from research participants and record that permission level for each file stored on Databrary. In turn, Authorized Investigators who access Databrary and use data shared by other Authorized Investigators must follow ethical research principles, including respect for the sharing permissions granted by research participants. Taken together, these features aim to protect the rights of research participants while reducing barriers to sharing data."
+  },
+  {
+    "objectID": "more-information/definitions.html",
+    "href": "more-information/definitions.html",
+    "title": "Definitions",
+    "section": "",
+    "text": "Access Agreement or Databrary Access Agreement\nThe formal, legal agreement between an Authorized Investigator and his or her Institution and New York University (NYU) on behalf of Databrary.",
+    "crumbs": [
+      "More information",
+      "Definitions"
+    ]
+  },
+  {
+    "objectID": "more-information/definitions.html#affiliate",
+    "href": "more-information/definitions.html#affiliate",
+    "title": "Definitions",
+    "section": "Affiliate",
+    "text": "Affiliate\nA person who conducts research under an Authorized Investigator’s sponsorship and supervision and who has been granted access to Databrary by the Authorized Investigator. In most cases, Affiliates are students or research staff and are not eligible for Authorized Investigator status.",
+    "crumbs": [
+      "More information",
+      "Definitions"
+    ]
+  },
+  {
+    "objectID": "more-information/definitions.html#authorized-investigator",
+    "href": "more-information/definitions.html#authorized-investigator",
+    "title": "Definitions",
+    "section": "Authorized Investigator",
+    "text": "Authorized Investigator\nA person who has permission from an Institution to conduct independent research and who has received authorization from an Institution and from Databrary to access Databrary.",
+    "crumbs": [
+      "More information",
+      "Definitions"
+    ]
+  },
+  {
+    "objectID": "more-information/definitions.html#authorized-organizational-representative-aor",
+    "href": "more-information/definitions.html#authorized-organizational-representative-aor",
+    "title": "Definitions",
+    "section": "Authorized Organizational Representative (AOR)",
+    "text": "Authorized Organizational Representative (AOR)\nA person granted authority by an Institution to sign the Databrary Access Agreement on behalf of the Institution and thereby bind the Institution to the terms of the Databary Access Agreement.",
+    "crumbs": [
+      "More information",
+      "Definitions"
+    ]
+  },
+  {
+    "objectID": "more-information/definitions.html#institution",
+    "href": "more-information/definitions.html#institution",
+    "title": "Definitions",
+    "section": "Institution",
+    "text": "Institution\nAn academic, not-for-profit, research, government, or health entity whose employees or students conduct scientific research or educational activities.",
+    "crumbs": [
+      "More information",
+      "Definitions"
+    ]
+  },
+  {
+    "objectID": "more-information/definitions.html#materials",
+    "href": "more-information/definitions.html#materials",
+    "title": "Definitions",
+    "section": "Materials",
+    "text": "Materials\nA type collection in a Databrary volume for items such as stimuli, surveys, aggregate (de-identified) datasets, research protocols, IRB approvals, and the like. Like Sessions, Materials have a unique integer identifier.",
+    "crumbs": [
+      "More information",
+      "Definitions"
+    ]
+  },
+  {
+    "objectID": "more-information/definitions.html#participant-sharing-release-levels",
+    "href": "more-information/definitions.html#participant-sharing-release-levels",
+    "title": "Definitions",
+    "section": "Participant Sharing (Release) Levels",
+    "text": "Participant Sharing (Release) Levels\nAll files (assets) and sessions on Databrary have a sharing (release) level. The level indicates who may view the files or sessions. There are five sharing release levels:\n\nUnknown\nPrivate\nAuthorized Users\nLearning Audiences\nPublic",
+    "crumbs": [
+      "More information",
+      "Definitions"
+    ]
+  },
+  {
+    "objectID": "more-information/definitions.html#session",
+    "href": "more-information/definitions.html#session",
+    "title": "Definitions",
+    "section": "Session",
+    "text": "Session\nA collection of data or materials within a volume, analogous to a folder or directory in a computer file system. A session usually involves participants observed while they performed some task or tasks in a specific place at a defined time. Sessions have a unique integer identifer.",
+    "crumbs": [
+      "More information",
+      "Definitions"
+    ]
+  },
+  {
+    "objectID": "more-information/definitions.html#volume",
+    "href": "more-information/definitions.html#volume",
+    "title": "Definitions",
+    "section": "Volume",
+    "text": "Volume\nA collection of data or materials that are associated with a research project, publication, or paper. A volume has a unique integer identifier.",
+    "crumbs": [
+      "More information",
+      "Definitions"
+    ]
+  },
+  {
+    "objectID": "more-information/definitions.html#volume-sharing-levels",
+    "href": "more-information/definitions.html#volume-sharing-levels",
+    "title": "Definitions",
+    "section": "Volume Sharing Levels",
+    "text": "Volume Sharing Levels\nVolumes have their own sharing level. Like the sharing levels associated with participant sessions, the level indicates who may view the volume and its contents. There are three volume sharing levels:\n\nPrivate Volume (visible only to specific users given access by the Authorized Investigator who created the Volume)\nVolume Overview Shared (makes only the Description of Dataset, Investigators, How to Cite, and File Release Levels summary visible, but not data)\nEntire Volume Shared (makes visible all elements of the Volume, subject to restrictions based on the user level–Authorized Investigator or Affiliate).",
+    "crumbs": [
+      "More information",
+      "Definitions"
+    ]
   }
 ]
