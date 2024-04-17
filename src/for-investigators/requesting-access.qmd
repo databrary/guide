@@ -28,9 +28,9 @@
 
 <!-- ## Registering for Databrary Access  {-} -->
 
-Since access to restricted materials on Databrary requires formal *authorization* from an institution, the first steps is register, create an account, and request authorization.
+Since access to restricted materials on Databrary requires formal *authorization* from an institution, the first step for every user is to register, create an account, and request authorization.
 
-To start the authorization process on Databrary, please complete the [Registration Form](https://nyu.databrary.org/user/register?page=create) or click on the green 'Register' button or click on `register` on the top right of the menu bar at [databrary.org](https://databrary.org).
+To start the authorization process, please complete the [Registration Form](https://nyu.databrary.org/user/register?page=create) or click on the green 'Register' button or click on `register` on the top right of the menu bar at [databrary.org](https://databrary.org).
 
 ![Image from Databrary home page](../include/img/db-main-page-logged-in.JPG){#fig-databrary-home fig-align="center"}
 
@@ -42,7 +42,7 @@ Fill out the `Create Account` form with your full name, valid institutional emai
 
 Read the [Databrary Access Agreement](https://databrary.org/about/agreement/agreement.html), [Annex I](https://databrary.org/about/agreement/agreement-annex-I.html), [Annex II](https://databrary.org/about/agreement/agreement-annex-II.html), and [Annex III](https://databrary.org/about/agreement/agreement-annex-III.html) and check the box to agree to the access terms. 
 
-![Duplicate image of getting started](img/db-get-started.JPG){#fig-getting-started fig-align="center"}
+![Get Started](img/db-get-started.JPG){#fig-getting-started fig-align="center"}
 
 Go to your email box, locate the auto-generated email from Databrary, and confirm your email. If you don't receive the email within a few minutes, check your spam folder.
 
@@ -56,17 +56,17 @@ What the email looks like:
 
 Next, please choose a password. 
 
-::: {.callout-tip}
-
-We strongly recommend using a password generation or manager program or the password manager built-in to many modern web browsers.
-
-:::
-
 ![Databrary Set Password screen](img/db-set-password.JPG){#fig-set-password fig-align="center"}
 
 Keep your account credentials secret and do not share them with anyone.
 Each Databrary user must have their own login and password.
 It is violation of the Databrary Access Agreement and common sense to share login credentials with another user.
+
+::: {.callout-tip}
+
+We strongly recommend using a password generation or manager program or the password manager built-in to many modern web browsers.
+
+:::
 
 ### Requesting authorization {-}
 

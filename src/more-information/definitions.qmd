@@ -4,7 +4,7 @@ This page defines some special terms used by Databrary.
 
 ## Access Agreement or Databrary Access Agreement
 
-[The formal, legal agreement between an Authorized Investigator and his or her Institution and New York University (NYU) on behalf of Databrary.]{.term}
+The formal, legal agreement between an Authorized Investigator and his or her Institution and New York University (NYU) on behalf of Databrary.{.term}
 
 ## Affiliate
 
@@ -13,6 +13,10 @@ A person who conducts research under an Authorized Investigator's sponsorship an
 ## Authorized Investigator
 
 A person who has permission from an Institution to conduct independent research and who has received authorization from an Institution and from Databrary to access Databrary.
+
+## Authorization
+
+Formal permission from an institution to access Databrary via a signed [Access Agreement](.
 
 ## Authorized Organizational Representative (AOR)
 

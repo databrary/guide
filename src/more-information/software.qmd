@@ -83,7 +83,7 @@ The system supports user accounts with the following features and privileges:
 - Account creation
 - Requesting authorization from an institution or individual (party)
 - Editing user profile information (ORCID, web site, social media, additional email accounts, department)
-- Two tiers of access: *Authorized Investigators* and *Affiliates* (*Affiliates* replaced by new term: *Sponsored Researchers*)
+- Two tiers of access: [*Authorized Investigators*](definitions.qmd#authorized-investigator) and [*Affiliates*](definitions.qmd#affiliate) (*Affiliates* replaced by new term: *Sponsored Researchers*)
   - *Authorized Investigators* are specifically linked to an authorizing institution (party) when the Super User establishes that link. *Authorized Investigators* can:
     - Create, edit, share, and unshare volumes
     - Create, edit, and delete sessions (slots) in volumes they own or co-own
@@ -99,11 +99,98 @@ The system supports user accounts with the following features and privileges:
 
 As of April 2024, Databrary has begun a rewrite led by [Montrose Software](https://montrosesoftware.com).
 
+We are making use of two (currently private) repositories for the rewrite:
+
+- [frontend_2.0](https://github.com/databrary/frontend_2.0)
+- [backend_2.0](https://github.com/databrary/backend_2.0)
+
+Once licensing discussions have concluded, we may make the repositories public.
+
+### Requirements
+
+This section provides additional information about the requirements for specific workflows in the Databrary 2.0 application
+
+#### Schema
+
+The Databrary 1.0 schema can be found [here](https://github.com/databrary/databrary/tree/master/schema).
+
+Montrose ^[2024-04-17 meeting] recommends that we implement separate tables for `individuals` and `institutions`.
+These entities are combined into a single `party` table in the current schema.
+
+#### Registration workflow
+
+Registration consists of multiple steps.
+The following shows requested modifications to the Databrary 1.0 workflow.
+
+##### Create Account
+
+The reference page for the Databrary 1.0 registration process is here:
+
+![](../include/img/db-create-account.JPG)
+
+Fields are as follows:
+
+- *First and Middle Name* (required)
+- *Last Name* (required)
+- *Email* (required)
+  - Add instruction text that specifies an official institutional email must be used for this field (e.g., \@psu.edu).
+  - Implement email validation (against existing database of valid institutional email, flag \@gmail.com, etc.)
+  - Permit free-text email if validation fails
+- *Affiliation* (required)
+  - Type-ahead search of existing database of authorized Institutions.
+  - If no matching institution exists, the user can enter a new institution, but should be notified.
+  
+#### Get Started
+
+![Get Started panel](../include/img/db-get-started.JPG)
+
+- Require user to confirm that they have read and agree to the Databrary Access Agreement.
+
+#### Confirm email
+
+![Confirm Email panel](../include/img/db-confirm-email.JPG)
+
+#### Set Password
+
+![Databrary Set Password panel](../include/img/db-set-password.JPG){fig-align="center"}
+
+- Require strong password (increase number of required characters from 7 to 14 characters. ^[https://www.nyu.edu/life/information-technology/safe-computing/protect-your-privacy/secure-your-passwords.html]
+- Validate password to ensure that password is strong
+
+#### Request Authorization
+
+![Databrary Set Password panel](../include/img/db-request-authorization.JPG){fig-align="center"}
+
+- Add *new* drop-down menu for *new* `user_position` field that requires users to enter their position at their institution. The acceptable values for this field are as follows:
+  - Faculty/Independent Researcher
+  - Student
+  - Staff
+  - Other
+- If `user_position` is in {'Student', 'Staff', 'Other'}
+  - Show `research_sponsor` text field
+    - Add instruction text asking user to type the name of their research sponsor; the entered text should use look-ahead search to match to Authorized Investigators currently active on Databrary at the user's specified institution.
+    - If the search succeeds, the user can select the name of their research sponsor.
+      - Generate a request for authorization from the current user to the research sponsor; cc the current user.
+      - Provide the user feedback that this request has been sent.
+    - If the search fails, the user can enter the name of their research sponsor, but warning text appears: "This research sponsor cannot be found."
+      - Ask the user to enter their research sponsor's institutional email address.
+        - Validate that address as above.
+      - Confirm that the user wants Databrary to send a request to register email to the user's research sponsor.
+        - If yes, send the email to the research sponsor and cc the current user.
+- If `user_position` is "Faculty/Independent Researcher"
+  - Show *new* text field `user_institutional_profile` and ask user to enter the URL for their institutional profile page.
+  - If user's institution is *not* in Databrary's database of authorizing institutions...
+    - Ask user to enter information into two *new* (optional) text fields: `institution_authorizing_official_name` for the name of the institution's authorizing official and `institution_authorizing_official_email` for that person's email.
+  - If user's institution is in the Databrary database of authorizing institutions...
+    - Show text saying "`institution` has active users on Databrary. Our staff will work with you and your institution to expedite your authorization."
+      
+### Scoping issues
+
 While the core of Databrary 1.0 is understood and will be replicated in the new version, some questions will be explored that relate to new features:
 
 - Should video and audio transcoding be automatic or optional; if optional, how can transcoding be triggered?
 - What features of the existing session/slot spreadsheet interface for managing and visualizing demographic data can be implemented easily and at minimal cost using existing libraries?
-- Can two-factor authentication be added? If so, at what cost?
+- ~~Can two-factor authentication be added? If so, at what cost?~~^[2024-04-17 determined that 2FA via email and SMS should be implemented.]
 - Can per-institution (across users and projects), per-user (across projects) or per-project storage quotas be implemented? Can warnings be generated when storage amounts are nearing quotas? How could Super Users manage user requests to increase quotas?
 - Can a more informative administrative console be developed with by-volume, usage, and storage metrics, including shared vs. unshared data? If so, at what cost?
 

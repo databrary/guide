@@ -359,6 +359,16 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#databrary-2.0" id="toc-databrary-2.0" class="nav-link" data-scroll-target="#databrary-2.0">Databrary 2.0</a>
   <ul>
+  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a>
+  <ul class="collapse">
+  <li><a href="#schema" id="toc-schema" class="nav-link" data-scroll-target="#schema">Schema</a></li>
+  <li><a href="#registration-workflow" id="toc-registration-workflow" class="nav-link" data-scroll-target="#registration-workflow">Registration workflow</a></li>
+  <li><a href="#get-started" id="toc-get-started" class="nav-link" data-scroll-target="#get-started">Get Started</a></li>
+  <li><a href="#confirm-email" id="toc-confirm-email" class="nav-link" data-scroll-target="#confirm-email">Confirm email</a></li>
+  <li><a href="#set-password" id="toc-set-password" class="nav-link" data-scroll-target="#set-password">Set Password</a></li>
+  <li><a href="#request-authorization" id="toc-request-authorization" class="nav-link" data-scroll-target="#request-authorization">Request Authorization</a></li>
+  </ul></li>
+  <li><a href="#scoping-issues" id="toc-scoping-issues" class="nav-link" data-scroll-target="#scoping-issues">Scoping issues</a></li>
   <li><a href="#roadmap" id="toc-roadmap" class="nav-link" data-scroll-target="#roadmap">Roadmap</a></li>
   </ul></li>
   </ul>
@@ -452,7 +462,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Account creation</li>
 <li>Requesting authorization from an institution or individual (party)</li>
 <li>Editing user profile information (ORCID, web site, social media, additional email accounts, department)</li>
-<li>Two tiers of access: <em>Authorized Investigators</em> and <em>Affiliates</em> (<em>Affiliates</em> replaced by new term: <em>Sponsored Researchers</em>)
+<li>Two tiers of access: <a href="../more-information/definitions.html#authorized-investigator"><em>Authorized Investigators</em></a> and <a href="../more-information/definitions.html#affiliate"><em>Affiliates</em></a> (<em>Affiliates</em> replaced by new term: <em>Sponsored Researchers</em>)
 <ul>
 <li><em>Authorized Investigators</em> are specifically linked to an authorizing institution (party) when the Super User establishes that link. <em>Authorized Investigators</em> can:
 <ul>
@@ -476,14 +486,144 @@ ul.task-list li input[type="checkbox"] {
 <section id="databrary-2.0" class="level2">
 <h2 class="anchored" data-anchor-id="databrary-2.0">Databrary 2.0</h2>
 <p>As of April 2024, Databrary has begun a rewrite led by <a href="https://montrosesoftware.com">Montrose Software</a>.</p>
+<p>We are making use of two (currently private) repositories for the rewrite:</p>
+<ul>
+<li><a href="https://github.com/databrary/frontend_2.0">frontend_2.0</a></li>
+<li><a href="https://github.com/databrary/backend_2.0">backend_2.0</a></li>
+</ul>
+<p>Once licensing discussions have concluded, we may make the repositories public.</p>
+<section id="requirements" class="level3">
+<h3 class="anchored" data-anchor-id="requirements">Requirements</h3>
+<p>This section provides additional information about the requirements for specific workflows in the Databrary 2.0 application</p>
+<section id="schema" class="level4">
+<h4 class="anchored" data-anchor-id="schema">Schema</h4>
+<p>The Databrary 1.0 schema can be found <a href="https://github.com/databrary/databrary/tree/master/schema">here</a>.</p>
+<p>Montrose <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> recommends that we implement separate tables for <code>individuals</code> and <code>institutions</code>. These entities are combined into a single <code>party</code> table in the current schema.</p>
+</section>
+<section id="registration-workflow" class="level4">
+<h4 class="anchored" data-anchor-id="registration-workflow">Registration workflow</h4>
+<p>Registration consists of multiple steps. The following shows requested modifications to the Databrary 1.0 workflow.</p>
+<section id="create-account" class="level5">
+<h5 class="anchored" data-anchor-id="create-account">Create Account</h5>
+<p>The reference page for the Databrary 1.0 registration process is here:</p>
+<p><img src="../include/img/db-create-account.JPG" class="img-fluid"></p>
+<p>Fields are as follows:</p>
+<ul>
+<li><em>First and Middle Name</em> (required)</li>
+<li><em>Last Name</em> (required)</li>
+<li><em>Email</em> (required)
+<ul>
+<li>Add instruction text that specifies an official institutional email must be used for this field (e.g., @psu.edu).</li>
+<li>Implement email validation (against existing database of valid institutional email, flag @gmail.com, etc.)</li>
+<li>Permit free-text email if validation fails</li>
+</ul></li>
+<li><em>Affiliation</em> (required)
+<ul>
+<li>Type-ahead search of existing database of authorized Institutions.</li>
+<li>If no matching institution exists, the user can enter a new institution, but should be notified.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="get-started" class="level4">
+<h4 class="anchored" data-anchor-id="get-started">Get Started</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/db-get-started.JPG" class="img-fluid figure-img"></p>
+<figcaption>Get Started panel</figcaption>
+</figure>
+</div>
+<ul>
+<li>Require user to confirm that they have read and agree to the Databrary Access Agreement.</li>
+</ul>
+</section>
+<section id="confirm-email" class="level4">
+<h4 class="anchored" data-anchor-id="confirm-email">Confirm email</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/db-confirm-email.JPG" class="img-fluid figure-img"></p>
+<figcaption>Confirm Email panel</figcaption>
+</figure>
+</div>
+</section>
+<section id="set-password" class="level4">
+<h4 class="anchored" data-anchor-id="set-password">Set Password</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/db-set-password.JPG" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<figcaption>Databrary Set Password panel</figcaption>
+</figure>
+</div>
+<ul>
+<li>Require strong password (increase number of required characters from 7 to 14 characters. <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+<li>Validate password to ensure that password is strong</li>
+</ul>
+</section>
+<section id="request-authorization" class="level4">
+<h4 class="anchored" data-anchor-id="request-authorization">Request Authorization</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/db-request-authorization.JPG" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<figcaption>Databrary Set Password panel</figcaption>
+</figure>
+</div>
+<ul>
+<li>Add <em>new</em> drop-down menu for <em>new</em> <code>user_position</code> field that requires users to enter their position at their institution. The acceptable values for this field are as follows:
+<ul>
+<li>Faculty/Independent Researcher</li>
+<li>Student</li>
+<li>Staff</li>
+<li>Other</li>
+</ul></li>
+<li>If <code>user_position</code> is in {‘Student’, ‘Staff’, ‘Other’}
+<ul>
+<li>Show <code>research_sponsor</code> text field
+<ul>
+<li>Add instruction text asking user to type the name of their research sponsor; the entered text should use look-ahead search to match to Authorized Investigators currently active on Databrary at the user’s specified institution.</li>
+<li>If the search succeeds, the user can select the name of their research sponsor.
+<ul>
+<li>Generate a request for authorization from the current user to the research sponsor; cc the current user.</li>
+<li>Provide the user feedback that this request has been sent.</li>
+</ul></li>
+<li>If the search fails, the user can enter the name of their research sponsor, but warning text appears: “This research sponsor cannot be found.”
+<ul>
+<li>Ask the user to enter their research sponsor’s institutional email address.
+<ul>
+<li>Validate that address as above.</li>
+</ul></li>
+<li>Confirm that the user wants Databrary to send a request to register email to the user’s research sponsor.
+<ul>
+<li>If yes, send the email to the research sponsor and cc the current user.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>If <code>user_position</code> is “Faculty/Independent Researcher”
+<ul>
+<li>Show <em>new</em> text field <code>user_institutional_profile</code> and ask user to enter the URL for their institutional profile page.</li>
+<li>If user’s institution is <em>not</em> in Databrary’s database of authorizing institutions…
+<ul>
+<li>Ask user to enter information into two <em>new</em> (optional) text fields: <code>institution_authorizing_official_name</code> for the name of the institution’s authorizing official and <code>institution_authorizing_official_email</code> for that person’s email.</li>
+</ul></li>
+<li>If user’s institution is in the Databrary database of authorizing institutions…
+<ul>
+<li>Show text saying “<code>institution</code> has active users on Databrary. Our staff will work with you and your institution to expedite your authorization.”</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="scoping-issues" class="level3">
+<h3 class="anchored" data-anchor-id="scoping-issues">Scoping issues</h3>
 <p>While the core of Databrary 1.0 is understood and will be replicated in the new version, some questions will be explored that relate to new features:</p>
 <ul>
 <li>Should video and audio transcoding be automatic or optional; if optional, how can transcoding be triggered?</li>
 <li>What features of the existing session/slot spreadsheet interface for managing and visualizing demographic data can be implemented easily and at minimal cost using existing libraries?</li>
-<li>Can two-factor authentication be added? If so, at what cost?</li>
+<li><del>Can two-factor authentication be added? If so, at what cost?</del><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></li>
 <li>Can per-institution (across users and projects), per-user (across projects) or per-project storage quotas be implemented? Can warnings be generated when storage amounts are nearing quotas? How could Super Users manage user requests to increase quotas?</li>
 <li>Can a more informative administrative console be developed with by-volume, usage, and storage metrics, including shared vs.&nbsp;unshared data? If so, at what cost?</li>
 </ul>
+</section>
 <section id="roadmap" class="level3">
 <h3 class="anchored" data-anchor-id="roadmap">Roadmap</h3>
 <ul>
@@ -494,6 +634,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 </section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>2024-04-17 meeting<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>https://www.nyu.edu/life/information-technology/safe-computing/protect-your-privacy/secure-your-passwords.html<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>2024-04-17 determined that 2FA via email and SMS should be implemented.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
 </section>
 
 </main> <!-- /main -->
