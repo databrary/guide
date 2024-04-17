@@ -1,7 +1,8 @@
 # Requesting access {.unnumbered}     
 
-Ensuring that data is used appropriately is a core principle of Databray.
-Users will be **required** to register an account and obtain authorization to gain further access.
+Ensuring that data is used appropriately is a core principle of Databrary.
+Users are be **required** to register an account and obtain authorization to gain  access to most materials.
+Of course, *all* users, authorized or unauthorized, are bound by the [Terms and Conditions of Use](../appendices/terms.qmd).
 
 ## Registering for Databrary Access As Affiliates
 

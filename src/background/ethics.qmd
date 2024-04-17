@@ -27,6 +27,7 @@ Researchers should confirm institution/agency/directorate/program-specific appli
 Please contact us at contact@databrary.org for further assistance.
 
 ### Secondary Reuse {- #reuse}
+
 This project will conduct secondary analyses of participant data obtained from Databrary, an online platform for the storage, sharing, and re-use of video and other research data. Participants' consent for study participation and release of data were obtained by the original researcher under the oversight of their institutional review board. Because there is no direct contact with participants as a part of this project, the level of additional risk to participants is low.
 
 ### Primary data collection {- #primary}
@@ -75,7 +76,18 @@ Example videos of requesting permission to share participant data on Databrary: 
 
 ## Sharing release levels {- #release-levels}
 
-**Insert picture of sharing release levels here: https://databrary.org/support/irb/release-levels.html**
+![Data sharing release levels](../include/img/db-release-levels.png){#fig-release-levels}
+
+Databrary has five distinct data sharing or "release" ^[The template language Databrary recommends researchers use to document a participant's permission to share video or audio derives from video or photo 'release' documents that are in common use.] levels:
+
+- *Unknown*
+- *Private*
+- *Authorized Users*
+- *Learning Audiences*
+- *Public*
+
+Identified across the site by distinctive icons, the levels communicate what level of data sharing permission was obtained from participants (if any) and what level of access is granted to the data to specific individuals.
+All files uploaded to Databrary default to *Private*.
 
 ## Sharing data collected without a Databrary-specific release {-}
 
@@ -87,10 +99,17 @@ If you already use a video/audio or photo release form and want to find out whet
 
 If your release permits you to show recordings in educational or scientific settings, you may apply for formal permission from your IRB to share these recordings with Databrary. 
 
-Please note: Databrary intends to store Data indefinitely
-Some IRBs encourage researchers to include promises to destroy Data, especially recordings, after some fixed time period in order to limit risk to participants. Data destruction is antithetical to data sharing, and Databrary's Template Release language seeks explicit permission to share data indefinitely. NIH and NSF do not require data destruction clauses. Researchers who wish to store Data on Databrary should remove data destruction clauses from their informed consent documents for new Data and seek IRB guidance about whether archival Data can be shared.
+::: {.callout-note}
 
-### Determine what [sharing permission level](https://databrary.org/support/irb/release-levels.html) applies {-}
+Databrary intends to store data indefinitely.
+Some IRBs encourage researchers to include promises to destroy data, especially recordings, after some fixed time period in order to limit risk to participants.
+Data destruction is antithetical to data sharing, and Databrary's Template Release language seeks explicit permission to share data indefinitely. 
+NIH and NSF do not require data destruction. 
+Researchers who wish to store Data on Databrary should remove data destruction clauses from their informed consent documents for new data and seek IRB guidance about whether archival data can be shared.
+
+:::
+
+### Determine what [sharing release level](https://databrary.org/support/irb/release-levels.html) applies {-}
 
 Authorized Users Release: Your current release mean that recordings can be shared __only__ for research use by other Databrary Investigators
 Learning Audiences: Clips from those recordings be shown in educational and scientific contexts

@@ -1,7 +1,9 @@
 # Create a new volume {#newvol}
+
 ```{r, include = FALSE}
 knitr::opts_chunk$set(echo=FALSE, out.width="80%", fig.align = "center")
 ```
+
 ## What stage is my project  {-}
 
 ### New Project {-}

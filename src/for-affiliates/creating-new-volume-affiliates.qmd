@@ -11,14 +11,15 @@ We have intentionally limited the permissions to manage the volume to ensure dat
 If you have created a volume by mistake, you can hide the volume by restricting access to others or rename the volume so that it can be reused by another future project. 
 
 
-## Step 1: Login/Go to Profile {- #step1}
+## Step 1: Login/Go to Profile {- #affiliates-step1}
+
 Let's get started with creating a new volume.
 
 Review [Onborading-affiliates](onboarding-affiliates.qmd) for how to find your profile.
 
 ![Volumes you own or shared by others](img/db-dashboard-shared-volume.png){#dashboard-volumes}
 
-## Step 2: Look for Create a new volume button {- #step2}
+## Step 2: Look for Create a new volume button {- #affiliates-step2}
 
 If the button is not available, check your sponsor status by reviewing your profile.
 If you are not granted with **Manager** status, you will not be able to create a new volume.
@@ -33,7 +34,7 @@ If you have been granted with access to create a new volume, you will see the bu
 
 ![Create a new volume](img/db-dashboard-create-volume.png){#dashboard-create-volume}
 
-## Step 3: Click Create a new volume button to create a new volume {- #step3}
+## Step 3: Click Create a new volume button to create a new volume {- #affiliates-step3}
 
 :::{.callout-important}
 Again, creating a new volume with careful consideration is important. Once created, the volume **cannot** be deleted.
@@ -50,7 +51,7 @@ knitr::include_graphics("../include/img/db-create-volume.JPG")
 
 There are multiple tabs on the left side of the screen that need to be completed to set up a new volume. In this page, you will be asked to provide the following information: **overview, manage access, design spreadsheet, enter data, add links, ** and **list fundings**.  These tabs need to be completed in order.
 
-## Step 4: Enter Dataset Overview {- #step4}
+## Step 4: Enter Dataset Overview {- #affiliates-step4}
 
 Volume **Overview** is created by choosing if the volume is related to a published resource and answering the related questions (Title, Description, Internal Short Name and additional citation information if necessary). 
 
@@ -87,7 +88,7 @@ knitr::include_graphics("../include/img/db-new-volume-overview.png")
 
 You may have the option to enter Keywords associated with the Volume. See [below](#Volume) for description.
 
-## Step 5: Manage Access {- #step5}
+## Step 5: Manage Access {- #affiliates-step5}
 
 Next, go to **Manage Access** to choose volume sharing options and add collaborators (faculty, staff, students) that already have an account on Databrary that is Sponsored by an Institution or an Authorized Investigator.
 
@@ -107,7 +108,7 @@ Please note: Only the Authorized Investigator who created this volume can 'Share
 knitr::include_graphics("../include/img/db-new-volume-manage-access.JPG")
 ```
 
-## Step 6: Design Spreadsheet {- #step6}
+## Step 6: Design Spreadsheet {- #affiliates-step6}
 
 Now, go to **Design Spreadsheet** and choose all the categories and sub-categories you would like to include in your spreadsheet for participant/session metadata.
 
@@ -199,7 +200,7 @@ knitr::include_graphics("../include/img/db-new-volume-design-spreadsheet.png")
 
 `state` State/territory of data collection
 
-## Step 7: Enter Data {- #step7}
+## Step 7: Enter Data {- #affiliates-step7}
 
 Now it is time to **Enter Data**. There are two options:
 
@@ -280,7 +281,7 @@ Session folders need to be added individually. Once the Participant ID is entere
 knitr::include_graphics("../include/img/db-new-volume-enter-data.JPG")
 ```
 
-## Step 8: Add Links {- #step8}
+## Step 8: Add Links {- #affiliates-step8}
 
 Please share more information in your Databrary Volume using **Add Links**. Here you will want to add links to any outside resources related to this dataset (e.g. published paper, github repository)
 
@@ -288,7 +289,7 @@ Please share more information in your Databrary Volume using **Add Links**. Here
 knitr::include_graphics("../include/img/db-new-volume-add-links.JPG")
 ```
 
-## Step 9: List Funding {- #step9}
+## Step 9: List Funding {- #affiliates-step9}
 
 Finally, please share your funding source for your volume in **List Funding**. If your funding source is not listed here, please email Databrary Staff at contact@databrary.org to have it added.
 

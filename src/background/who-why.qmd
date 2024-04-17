@@ -1,11 +1,11 @@
 # Who and why? {.unnumbered}
 
-This chapter describes who can access Databrary and why they might want to.
+This section describes who can access Databrary and why they might want to.
 
-As mentioned in the last chapter, many of Databrary's holdings are restricted to researchers who have secured authorization from their home institution or are affiliated with a researcher who has authorization.
+As mentioned in the last chapter, many of Databrary's holdings are restricted to researchers who have secured authorization from their home institution or are affiliated with (or sponsored by) a researcher who has authorization.
 
 This extra step ensures that sensitive and identifiable data are shared only with people who have formal authorization to access it, who have research ethics training, and who are affiliated with institutions that have agreed to monitor data use.
-Databrary calls these people *Authorized Investigators* and *Affiliates*.
+Databrary calls these people [*Authorized Investigators*](../more-information/definitions.qmd#authorized-investigator) and [*Affiliates*](../more-information/definitions.qmd#affiliate).
 *Authorized Investigators* may request access to restricted data and may share data with *Affiliates* and other *Authorized Investigators*, and sometimes with the general public.
 *Affiliates* may request access to restricted data through an *Authorized Investigators* but may not share data with other users.
 
@@ -20,11 +20,11 @@ Here are some things to consider about whether you qualify as an *Authorized Inv
 
 I am eligible to become an *Authorized Investigator* if:
 
--   I can conduct independent research;
+-   I can conduct independent research at my institution;
 
 -   I can submit funding proposals as the lead investigator;
 
--   I have Principal Investigator (PI) status or a tenure-track faculty position at my Institution;
+-   I have Principal Investigator (PI) status or a tenure-track faculty position at my institution;
 
 -   My Institution maintains or uses an ethics board to review and approve research involving human subjects (or animals where relevant); 
 

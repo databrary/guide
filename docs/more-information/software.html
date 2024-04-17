@@ -421,12 +421,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="application" class="level3">
 <h3 class="anchored" data-anchor-id="application">Application</h3>
-<p>Datasets are organized into separate volumes with system-wide unique (integer) identifiers. Groups of data files related to a specific person or people (or non-human animal), a date, time, and location are grouped into sessions (slots) within a volume. Individual files (assets) of varying types are organized within a session (slot). Sessions (slots) and files (assets) are assigned system-wide unique (integer) identifiers.</p>
-<p>Individual users and institutions (called parties) are assigned system-wide unique identifiers and have some overlapping data elements (e.g., prename, sortname). Access privileges are granted hierarchically in a parent/child organization. For example, Databrary is the parent of New York University (NYU); NYU is the parent of Karen Adolph and multiple other <em>Authorized Investigators</em>; Karen Adolph is the parent of multiple Affiliate investigators who have broad access to volumes Dr.&nbsp;Adolph has created. Further details about how <em>Authorized Investigators</em> assign access permission to <em>Affiliates</em> can be found in the Principal System Roles section below.</p>
+<p>Datasets are organized into separate <a href="../more-information/references.html#volume"><em>volumes</em></a> with system-wide unique (integer) identifiers. Groups of data files related to a specific person or people (or non-human animal), a date, time, and location are grouped into <a href="../more-information/references.html#session"><em>sessions</em></a> (<a href="../more-information/references.html#slot"><em>slots</em></a>) within a volume. Individual files (<a href="../more-information/definitions.html#asset"><em>assets</em></a>) of varying types are organized within a session (slot). Sessions (slots) and files (assets) are assigned system-wide unique (integer) identifiers.</p>
+<p>Individual users and institutions (called <em>parties</em>) are assigned system-wide unique identifiers and have some overlapping data elements (e.g., prename, sortname). Access privileges are granted hierarchically in a parent/child organization. For example, Databrary is the parent of New York University (NYU); NYU is the parent of Karen Adolph and multiple other <em>Authorized Investigators</em>; Karen Adolph is the parent of multiple Affiliate investigators who have broad access to volumes Dr.&nbsp;Adolph has created. Further details about how <em>Authorized Investigators</em> assign access permission to <em>Affiliates</em> can be found in the <a href="../more-information/software.html#system-roles">System Roles</a> section below.</p>
 </section>
 <section id="sharing-release-levels" class="level3">
 <h3 class="anchored" data-anchor-id="sharing-release-levels">Sharing Release Levels</h3>
-<p>Restricted data and metadata are controlled by a specific set of sharing release levels (https://databrary.org/support/irb/release-levels.html). These levels apply at the session/slot and file/asset level. Newly uploaded files default to Private. The terminology associated with these levels, the icons used to identify the levels, and the level of user access permitted by the levels are deeply embedded in the Databrary policy framework.</p>
+<p>Restricted data and metadata are controlled by a specific set of <a href="https://databrary.org/support/irb/release-levels.html">sharing release levels</a>. These levels apply at the session/slot and file/asset level. Newly uploaded files default to <em>Private</em>. The <a href="../more-information/definitions.html">terminology</a> associated with these levels, the icons used to identify the levels, and the level of user access permitted by the levels are deeply embedded in the Databrary policy framework.</p>
 </section>
 <section id="api" class="level3">
 <h3 class="anchored" data-anchor-id="api">API</h3>
@@ -462,22 +462,22 @@ ul.task-list li input[type="checkbox"] {
 <li>Account creation</li>
 <li>Requesting authorization from an institution or individual (party)</li>
 <li>Editing user profile information (ORCID, web site, social media, additional email accounts, department)</li>
-<li>Two tiers of access: <a href="../more-information/definitions.html#authorized-investigator"><em>Authorized Investigators</em></a> and <a href="../more-information/definitions.html#affiliate"><em>Affiliates</em></a> (<em>Affiliates</em> replaced by new term: <em>Sponsored Researchers</em>)
+<li>Two tiers of access: <a href="../more-information/definitions.html#authorized-investigator"><em>Authorized Investigators</em></a> and <a href="../more-information/definitions.html#affiliate"><em>Affiliates</em></a>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.
 <ul>
 <li><em>Authorized Investigators</em> are specifically linked to an authorizing institution (party) when the Super User establishes that link. <em>Authorized Investigators</em> can:
 <ul>
 <li>Create, edit, share, and unshare volumes</li>
 <li>Create, edit, and delete sessions (slots) in volumes they own or co-own</li>
 <li>Upload, download, modify, and delete files (assets) in sessions in volumes they own or co-own</li>
-<li>Modify which other users (<em>Authorized Investigators</em> or <em>Sponsored Researchers</em>) have access to a volume, session (slot), or file (asset); this includes removing access.</li>
-<li>With regard to x* (formerly <em>Affiliates</em>), <em>Authorized Investigators</em> determine:
+<li>Modify which other users (<em>Authorized Investigators</em> or <em>Affiliates</em>) have access to a volume, session (slot), or file (asset); this includes removing access.</li>
+<li>With regard to <em>Affiliate</em>, <em>Authorized Investigator</em>s determine:
 <ul>
-<li>The <em>Sponsored Researcher</em>’s level of access to all of Databrary (no access or full access to shared data)</li>
-<li>The <em>Sponsored Researcher</em>’s level of access to the <em>Authorized Investigator</em>’s data (no access; read-only access; read/write access; manager access)</li>
+<li>The <em>Affiliate</em>’s level of access to all of Databrary (no access or full access to shared data)</li>
+<li>The <em>Affiliate</em>’s level of access to the <em>Authorized Investigator</em>’s data (no access; read-only access; read/write access; manager access)</li>
 </ul></li>
 <li>Modify the level (sharing release level) assigned to a session (slot) or file (asset)</li>
 </ul></li>
-<li><em>Sponsored Researchers</em> (formerly <em>Affiliates</em>) privileges to access restricted data on Databrary are specifically linked to one or more <em>Authorized Investigators</em>. The <em>Authorized Investigator</em> controls that link. Links should expire on a regular (timed) basis. When linked to an <em>Authorized Investigator</em>, <em>Sponsored Researchers</em> have the level of access granted by that <em>Authorized Investigator</em> to i) Databrary as a whole (default is none) and ii) to specific volumes owned by the <em>Authorized Investigator</em>.</li>
+<li><em>Affiliates</em> privileges to access restricted data on Databrary are specifically linked to one or more <em>Authorized Investigator</em>s. The <em>Authorized Investigator</em> controls that link. Links should expire on a regular (timed) basis. When linked to an <em>Authorized Investigator</em>, <em>Affiliate</em>s have the level of access granted by that <em>Authorized Investigator</em> to i) Databrary as a whole (default is none) and ii) to specific volumes owned by the <em>Authorized Investigator</em>.</li>
 </ul></li>
 </ul>
 </section>
@@ -498,7 +498,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="schema" class="level4">
 <h4 class="anchored" data-anchor-id="schema">Schema</h4>
 <p>The Databrary 1.0 schema can be found <a href="https://github.com/databrary/databrary/tree/master/schema">here</a>.</p>
-<p>Montrose <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> recommends that we implement separate tables for <code>individuals</code> and <code>institutions</code>. These entities are combined into a single <code>party</code> table in the current schema.</p>
+<p>Montrose <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> recommends that we implement separate tables for <code>individuals</code> and <code>institutions</code>. These entities are combined into a single <code>party</code> table in the current schema.</p>
 </section>
 <section id="registration-workflow" class="level4">
 <h4 class="anchored" data-anchor-id="registration-workflow">Registration workflow</h4>
@@ -555,7 +555,7 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <ul>
-<li>Require strong password (increase number of required characters from 7 to 14 characters. <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+<li>Require strong password (increase number of required characters from 7 to 14 characters. <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></li>
 <li>Validate password to ensure that password is strong</li>
 </ul>
 </section>
@@ -619,7 +619,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Should video and audio transcoding be automatic or optional; if optional, how can transcoding be triggered?</li>
 <li>What features of the existing session/slot spreadsheet interface for managing and visualizing demographic data can be implemented easily and at minimal cost using existing libraries?</li>
-<li><del>Can two-factor authentication be added? If so, at what cost?</del><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></li>
+<li><del>Can two-factor authentication be added? If so, at what cost?</del><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></li>
 <li>Can per-institution (across users and projects), per-user (across projects) or per-project storage quotas be implemented? Can warnings be generated when storage amounts are nearing quotas? How could Super Users manage user requests to increase quotas?</li>
 <li>Can a more informative administrative console be developed with by-volume, usage, and storage metrics, including shared vs.&nbsp;unshared data? If so, at what cost?</li>
 </ul>
@@ -638,9 +638,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn1"><p>2024-04-17 meeting<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>https://www.nyu.edu/life/information-technology/safe-computing/protect-your-privacy/secure-your-passwords.html<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>2024-04-17 determined that 2FA via email and SMS should be implemented.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p><em>Affiliates</em> will be replaced by new term: <em>Sponsored Researchers</em> in Databrary 2.0<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>2024-04-17 meeting<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>https://www.nyu.edu/life/information-technology/safe-computing/protect-your-privacy/secure-your-passwords.html<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>2024-04-17 determined that 2FA via email and SMS should be implemented.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 

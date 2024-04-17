@@ -9,7 +9,7 @@ Do not worry that edits on volume would break the doi links. It is worthy noting
 
 ### Edit Citation
 
-![Citations](../Chapters-for-Affiliates/img/db-edit-citations)
+![Citations](img/db-edit-citations)
 
 **Citations are automatically created based on current property of dataset.** It would follow the naming rule of: 
 
@@ -27,12 +27,12 @@ Find an example of a public volume [here](https://nyu.databrary.org/volume/686)
 
 You can check the citation by clicking on the selected volume.
 
-![Check the Citation](../Chapters-for-Affiliates/img/db-check-citation.png)
+![Check the Citation](img/db-check-citation.png)
 
 
 If the automatically generated citation failed to reflect the authors of the study, you may consider to add notes in the description of the volume. For instance, a student with affiliates access should be considered as an author, but their name are not properly shown on the citation due to algorithm limitations. In the case, you can add alternative citation written by themselves in the volume description. 
 
-![Add Alternative Citation in Descriptions](../Chapters-for-Affiliates/img/db-add-alternative-reference.png)
+![Add Alternative Citation in Descriptions](img/db-add-alternative-reference.png)
 
 
 ## Set up Highlight Spreadsheet {-}
@@ -41,7 +41,7 @@ Databrary allow various formats in storing study-related dataset. However, we en
 
 You may find the `create highlight` here:
 
-![Create Highlight for study](../Chapters-for-Affiliates/img/db-create-highlights)
+![Create Highlight for study](img/db-create-highlights.png)
 
 
 You are able to set up a meta-data part for you dataset in the form of spreadsheets. The spreadsheet illustrates preview on core concept of your study. You are able to select highlights based on the file you uploaded. Unfortunately, meta-data must follow certain format to be recognized by Databrary:

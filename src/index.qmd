@@ -1,6 +1,6 @@
 ## Preface {-}
 
-This book describes the [Databrary.org](https://databrary.org) data library and how to use it effectively as a tool for sharing research data.
+This document describes the [Databrary.org](https://databrary.org) data library and how to use it effectively as a tool for sharing research data.
 
 Databrary is used by a large and growing community of researchers across the globe, including some large scale research projects [@Soska2021-mh] run by Databrary's co-founders, Karen Adolph and Rick Gilmore, and their collaborators.
 
@@ -16,3 +16,4 @@ Databrary's founders believe that the widespread use of video can improve the re
 
 *Yinghe Liu* is an undergraduate student majoring in Psychology at Penn State.
 He works as a research assistant in two faculty labs, and he has contributed to improving the Databrary Guide since Fall 2023. 
+

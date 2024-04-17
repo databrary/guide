@@ -1,6 +1,6 @@
 # For institutions {.unnumbered}
 
-Institutions play a central role in the Databrary ecosystem.
+Research and educational  [*Institutions*](../more-information/definitions.qmd#institution) play a central role in the Databrary ecosystem.
 This section describes some of those roles and responsibilities.
 It is designed to answer the questions an official with grants and contracts or research ethics compliance responsibilities might ask.
 
@@ -20,7 +20,7 @@ Or, you may find it helpful to learn more about the differences between your ins
 Databrary is a restricted access data library specialized for storing, streaming, and sharing of video and audio recordings. 
 Databrary's mission is to support the sharing of video and audio recordings and related data collected as part of research in the social, behavioral, educational, and neural sciences.
 
-The responsibility for protecting research data and research participants is shared among Authorized Investigators and their Affiliates, Institutions, and Databrary.
+The responsibility for protecting research data and research participants is shared among [*Authorized Investigators*](../more-information/definitions.qmd#authorized-investigator) and their [*Affiliates*](../more-information/definitions.qmd#affiliate), Institutions, and Databrary.
 
 Databrary has a multi-pronged approach to fostering the sharing of video
 and related data while upholding ethical research principles. Access is
@@ -163,9 +163,8 @@ Databrary's servers are currently located in the United States, and
 data stored on Databrary may be accessed, downloaded, and re-used by
 Authorized Investigators and their Affiliates located outside of the
 EEA. There are more than 500 Institutions across the globe that have
-signed the Databrary Access Agreement. Databrary maintains a list of
-Authorized Investigators who have access to shared research data at
-<https://nyu.databrary.org/search?volume=false&f.party_authorization=4&f.party_is_institution=false>.
+signed the Databrary Access Agreement. 
+Databrary maintains a list of Authorized Investigators who have access to shared research data at [this link](https://nyu.databrary.org/search?volume=false&f.party_authorization=4&f.party_is_institution=false).
 
 In seeking permission to collect data from research participants
 governed by GDPR or similar provisions, Authorized Investigators should

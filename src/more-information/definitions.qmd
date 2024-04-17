@@ -22,6 +22,12 @@ Formal permission from an institution to access Databrary via a signed [Access A
 
 A person granted authority by an Institution to sign the Databrary Access Agreement on behalf of the Institution and thereby bind the Institution to the terms of the Databary Access Agreement.
 
+## Asset
+
+A single file on Databrary.
+
+`https://nyu.databrary.org/volume/1/slot/9807/-?asset=9200` is the route to the Databrary leaf logo stored in [volume](definitions.qmd#volume) 1, [slot](definitions.qmd#slot) 9807, with asset identifier 9200.
+
 ## Institution
 
 An academic, not-for-profit, research, government, or health entity whose employees or students conduct scientific research or educational activities.
@@ -48,6 +54,13 @@ There are five sharing [release levels](https://databrary.org/support/irb/releas
 A collection of data or materials within a volume, analogous to a folder or directory in a computer file system.
 A session usually involves participants observed while they performed some task or tasks in a specific place at a defined time.
 Sessions have a unique integer identifer.
+
+## Slot
+
+The term in the API for a route to a [session](definitions.qmd#session).
+
+`https://nyu.databrary.org/volume/1/slot/9807/-` is the route to a group of materials for volume 1.
+This group of materials has a slot identifier of 9807.
 
 ## Volume
 

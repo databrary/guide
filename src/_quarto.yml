@@ -58,7 +58,6 @@ format:
     number_sections: false
     css: include/css/style.css
     csl: include/bib/apa.csl
-    # bibliography: [include/bib/packages.bib, include/bib/references.bib]
     citations-hover: true
     footnotes-hover: true
     toc: true
