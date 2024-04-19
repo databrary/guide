@@ -20,7 +20,7 @@ Please make use of this feature to find what you are looking for.
 You may also find the [definitions page](more-information/definitions.qmd) useful to understand specific terms.
 Databrary-specific terms are highlighted in *italics* on first mention on a page, and most of the time these first-mentions link to a corresponding definition.
 
-### About the Authors {-}
+### About the authors {-}
 
 [Rick Gilmore](https://rick-gilmore.com) is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.
 
