@@ -1,4 +1,4 @@
-# Editing a Volume {.unnumbered}
+# Editing a volume {.unnumbered}
 
 ## Overview {-}
 

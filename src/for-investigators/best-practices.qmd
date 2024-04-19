@@ -1,4 +1,4 @@
-# Best Practices {.unnumbered}
+# Best practices {.unnumbered}
 
 ## How do I prepare my dataset to be shared in conjuction with the publication of my article? {-}
 
