@@ -5,7 +5,7 @@ project:
 book:
   title: "Databrary Guide"
   cover-image: include/img/databrary-nav-sm.jpg
-  subtitle: "How to use Databrary to share research data"
+  subtitle: "Share data & materials: Discover more, faster."
   author: ["Rick Gilmore", "Andrea Seisler", "Melody Xu", "Yinghe Liu"]
   date: last-modified
   chapters:
@@ -43,9 +43,14 @@ book:
     - more-information/references.qmd 
   appendices:
     - appendices/access_agreement.qmd
-    - appendices/participant_info.qmd
+    - appendices/sharing-release-participants.qmd
+    - appendices/sharing-release-staff.qmd
+    - appendices/sharing-release-script.qmd
+    - appendices/post-visit-release-email.qmd
+    - appendices/irb-application-template.qmd
     - appendices/privacy_policy.qmd
     - appendices/terms.qmd
+    - appendices/participant_info.qmd
     - appendices/grants.qmd
 
   repo-url: https://github.com/databrary/guide

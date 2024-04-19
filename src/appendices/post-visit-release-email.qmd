@@ -1,0 +1,23 @@
+---
+title: Post-visit release email
+---
+
+Sometimes researchers cannot obtain release from participants for sharing at the time of the visit. When it is possible to recontact families to re-consent them to ask for their Databrary release, we have created language that can be used to communicate to parents to ask for their release to share video data with Databrary.
+
+## Sample email to use for sending the Databrary Release Form to participants after their visit
+
+Dear Parent,
+
+Previously, you visited [LAB NAME] lab to participate in a study on [RESEARCH AREA]. The data that researchers like me collect from babies and families are incredibly valuable for helping to understand how children learn and develop. There are many different ways that children are learning and developing all the time. They are learning to move, to talk, to interact with people, to understand the world around them, and so much more. Video recordings collected at labs like mine are so rich that one researcher can never study every aspect of a child's development. There's huge potential for other child development researchers to use the same videos to learn about many different aspects of how children grow and develop!
+
+The information that you provided when you participated is incredibly useful to me and I am truly grateful.
+
+I’ve recently joined a new initiative, called Databrary, that aims to make video recordings and data like the data you provided when you participated in my study, accessible to other researchers so that we all can understand more about child development in a more efficient and collaborative way.
+
+I now have a new request. I’d like to ask if you are comfortable allowing us to share the data we collected from your session with other researchers just like me. The data would be shared in a secure, online library and would not be available to the public. Only approved researchers that are at a university and have been vouched for by their university officials would be able to access the videos and information shared in the library. The data shared on Databrary will never be used for commercial purposes. Your personal contact information will never be uploaded to Databrary and researchers will never have access to it.
+
+If you agree, I’ve attached a permission form that you can sign and email back to me. There are two levels of permissions, the first is to ask if you give permission to share your data through Databrary with other researchers just like me. The second level asks whether you would allow other professors/researchers like me to show short bits of the videos to students or researchers for educational and scientific purposes.
+
+It is completely alright if you would not like to share the video from your session. Sharing does not affect your future participation in visits to the lab or the importance of your contribution to science and the field.
+
+Kind Regards, [PI NAME/LAB]

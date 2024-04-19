@@ -101,5 +101,20 @@
   },
   "for-affiliates/background.qmd": {
     "background.html": "ccf1dd78"
+  },
+  "appendices/sharing-release-participants.qmd": {
+    "sharing-release-participants.html": "0816892f"
+  },
+  "appendices/sharing-release-staff.qmd": {
+    "sharing-release-staff.html": "a0984f48"
+  },
+  "appendices/sharing-release-script.qmd": {
+    "sharing-release-script.html": "b0867ca1"
+  },
+  "appendices/post-visit-release-email.qmd": {
+    "post-visit-release-email.html": "9f92f582"
+  },
+  "appendices/irb-application-template.qmd": {
+    "irb-application-template.html": "04355a65"
   }
 }

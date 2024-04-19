@@ -2,9 +2,6 @@
 
 This page defines some special terms used by Databrary.
 
-## Access Agreement or Databrary Access Agreement
-
-The formal, legal agreement between an Authorized Investigator and his or her Institution and New York University (NYU) on behalf of Databrary.{.term}
 
 ## Affiliate
 
@@ -27,6 +24,10 @@ A person granted authority by an Institution to sign the Databrary Access Agreem
 A single file on Databrary.
 
 `https://nyu.databrary.org/volume/1/slot/9807/-?asset=9200` is the route to the Databrary leaf logo stored in [volume](definitions.qmd#volume) 1, [slot](definitions.qmd#slot) 9807, with asset identifier 9200.
+
+## Databrary Access Agreement (Access Agreement) {#def-daa}
+
+The formal, legal agreement between an Authorized Investigator and his or her Institution and New York University (NYU) on behalf of Databrary.
 
 ## Institution
 

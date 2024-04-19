@@ -1,12 +1,26 @@
 ## Preface {-}
 
-This document describes the [Databrary.org](https://databrary.org) data library and how to use it effectively as a tool for sharing research data.
+This document describes the [Databrary.org](https://databrary.org) data library and how to use it effectively as a tool for safely and securely sharing identifiable research data including video and audio.
 
 Databrary is used by a large and growing community of researchers across the globe, including some large scale research projects [@Soska2021-mh] run by Databrary's co-founders, Karen Adolph and Rick Gilmore, and their collaborators.
 
 Databrary's founders believe that the widespread use of video can improve the reproducibility of many different areas of research [@Adolph_KE_Gilmore_RO_Kennedy_JL2017-va; @Gilmore2017-wd].
 
-## About the Authors {-}
+### About the guide
+
+This guide is built using [Quarto](https://quarto.org) and hosted using GitHub pages.
+Please feel free to report an issue or edit the page and make a pull request.
+
+Quarto implements a search feature that works site-wide:
+
+![Search bar from the Guide](include/img/guide-search-bar.png)
+
+Please make use of this feature to find what you are looking for.
+
+You may also find the [definitions page](more-information/definitions.qmd) useful to understand specific terms.
+Databrary-specific terms are highlighted in *italics* on first mention on a page, and most of the time these first-mentions link to a corresponding definition.
+
+### About the Authors {-}
 
 [Rick Gilmore](https://rick-gilmore.com) is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.
 

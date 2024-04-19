@@ -16,23 +16,25 @@ For *Authorized Investigators* and *Affiliates*, there are additional responsibi
 
 ## What's my status {.unnumbered}
 
-Here are some things to consider about whether you qualify as an *Authorized Investigator* or as an *Affiliate*:
+One of the first things a new Databrary user must determine is what status they can have, *Authorized Investigator* or *Affiliate*.
+Authorized Investigators have more privileges and responsibilities because of their more permanent and official status with an institution that grants a person authorization through the Databrary Access Agreement. 
+Here are some factors to consider about whether you qualify as an *Authorized Investigator* or as an *Affiliate*:
 
 I am eligible to become an *Authorized Investigator* if:
 
--   I can conduct independent research at my institution;
+- I conduct independent, unsupervised, research at my institution;
 
--   I can submit funding proposals as the lead investigator;
+- I submit funding proposals as lead investigator;
 
--   I have Principal Investigator (PI) status or a tenure-track faculty position at my institution;
+- I have Principal Investigator (PI) status or a tenure-track faculty position at my institution;
 
--   My Institution maintains or uses an ethics board to review and approve research involving human subjects (or animals where relevant); 
+- My institution maintains or uses an ethics board to review and approve research involving human subjects (or animals where relevant); 
 
--   I have current training that addresses research ethics with human subject (e.g. [CITI](https://about.citiprogram.org/) training);
+- I have current training that addresses research ethics with human subject (e.g. [CITI](https://about.citiprogram.org/) training);
 
--   I would like to reuse or upload data to Databrary. I need to read and sign a Databrary Access agreement and its' Annexes (I, II, III) before I may be authorized.
+- I would like to reuse or upload data to Databrary. I need to read and sign a Databrary Access agreement and its' Annexes (I, II, III) before I may be authorized.
 
--   I can sponsor lab staff/students that are working on my projects to see my data or others data on Databrary.
+- I sponsor and supervise lab staff and students who work on my projects and have authority to supervise their access to data I share or or others have shared on Databrary.
 
 I am eligible to become an *Affiliate* if:
 
@@ -43,7 +45,7 @@ I am eligible to become an *Affiliate* if:
 ::: {.callout-important}
 
 If you are eligible for *Affiliate* status, your supervisor or research sponsor must [register](https://databrary.org/register) as an *Authorized Investigator* <u>BEFORE</u> you may request affiliate access from them.
-Communicate with your sponsor about your request.
+Communicate with your sponsor or supervisor about your request.
 
 :::
 

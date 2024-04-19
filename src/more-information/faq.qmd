@@ -1,10 +1,8 @@
 # Frequently Asked Questions {.unnumbered}
 
-## I qualify as an Authorized Organizational Representative (AOR). Can I sign as both Authorized Investigator and AOR?  {-}
+{{< include _faq-aor-and-ai.qmd >}}
 
-No. If you qualify as an Authorized Organizational Representative you will need to have the staff member above you on an organizational chart sign for you. 
-
-## Can individuals not associated with an institution be authorized? {-}
+## Can individuals not associated with an institution be authorized? {#faq-authorize-non-employees}
 
 No. To become an Authorized Investigator on Databrary you/your institution must meet __All__ of the following conditions:  
 

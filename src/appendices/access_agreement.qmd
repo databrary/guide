@@ -119,27 +119,19 @@ Signature of AOR:
 
 Databrary reserves the right to:
 
--   Redistribute the data in Databrary in accordance with the permission
-    of Authorized Investigators and the sharing permissions granted by
-    research participants (and others) whose behaviors are recorded.
+-   Redistribute the data in Databrary in accordance with the permission of Authorized Investigators and the sharing permissions granted by research participants (and others) whose behaviors are recorded.
 
 -   Describe, catalog, validate and document data.
 
--   Store, translate, copy or re-format data in any way to ensure its
-    future preservation and accessibility.
+-   Store, translate, copy or re-format data in any way to ensure its future preservation and accessibility.
 
 -   Incorporate metadata or documentation.
 
--   Promote the availability of shared data (via the Databrary
-    newsletter, website, email or social media).
+-   Promote the availability of shared data (via the Databrary newsletter, website, email or social media).
 
--   Limit the amount or kind of data stored without charge or the level
-    of service provided to Authorized Investigators.
+-   Limit the amount or kind of data stored without charge or the level of service provided to Authorized Investigators.
 
--   Give priority for storage and processing resources to data shared
-    with all other Authorized Investigators over data shared
-    privately---only with individuals the Authorized Investigator has
-    chosen.
+-   Give priority for storage and processing resources to data shared with all other Authorized Investigators over data shared privately---only with individuals the Authorized Investigator has chosen.
 
 -   Revoke sharing of data that pose a risk of violating
     confidentiality, harm or embarrass individuals, or create other
@@ -1030,17 +1022,8 @@ of the Databary Access Agreement.
 health entity whose employees or students conduct scientific research or
 educational activities.
 
-**Volume**:
-
 **Session**: A type of folder in Databrary 
 
-**Materials**: A type of folder in Datatbrary for items such as stimuli, blank survey materials,
+**Materials**: A type of folder in Datatbrary for items such as stimuli, blank survey materials.
 
-**Volume Sharing Levels**:
-
-**Participant Sharing Levels**:
-
-# Privacy Policy
-
-# Terms and Conditions of Use
-
+<!-- **Participant Sharing Levels**: -->
