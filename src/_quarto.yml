@@ -24,7 +24,7 @@ book:
         - for-investigators/managing-people.qmd
         - for-investigators/create-new-volume.qmd
         - for-investigators/edit-existing-volume.qmd
-        - for-investigators/data-sharing.qmd
+        # - for-investigators/data-sharing.qmd
         - for-investigators/reusing-data.qmd
         - for-investigators/best-practices.qmd
     - part: "For Affiliates"
