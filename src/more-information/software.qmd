@@ -101,11 +101,45 @@ The system supports user accounts with the following features and privileges:
 - Private
 - Volume Overview
 - Entire Volume Shared
-  
+
+An *Authorized Investigator* has a private page that combines personal profile information and a dashboard with information about volumes, sponsors, and affiliates.
+
+![Rick Gilmore's *private* profile and dashboard.](../include/img/db-gilmore-private-profile-dashboard.png)
+The Dashboard consists of two columns.
+The left column provides information about *Volumes* the *Authorized Investigator* has created or has access to.
+
+The following figure illustrates that the Volume has "Entire Volume Shared" status (unlocked lock icon; "Share Entire Volume" tooltip).
+
+![](../include/img/db-gilmore-dashboard-shared-vol.png)
+Also, on this *Volume*, the user has "Investigator" status, meaning that the data can be fully edited and shared with others, as indicated by the tooltip and the crown icon):
+
+![](../include/img/db-gilmore-dashboard-shared-read-write-share.png)
+
+Some volumes are *Private* (locked lock icon), accessible only to the researcher and specific *Affiliates* (network icon).
+
+![](../include/img/db-gilmore-dashboard-private-vol-affiliates-access.png)
+
+![](../include/img/db-gilmore-dashboard-private-vol-show-group-affiliates.png)
+
+This user also has volumes with *Volume Overview Shared* as indicated by the keyhole icon:
+
+![](../include/img/db-gilmore-dashboard-volume-overview.png)
+
+Some other *Authorized Investigators* have also given this user read-write (pencil icon) status to their volumes that have *Volume Overview Shared* status:
+
+![](../include/img/db-gilmore-dashboard-volume-overview-read-only.png)
+
+And still other *Authorized Investigators* have given this user read-only (eyeglasses icon) privileges:
+
+![](../include/img/db-gilmore-dashboard-volume-read-only.png)
+
+In this case, it looks like the volume has been fully shared (unlocked lock icon), so the user has full read access to the volume already.
+Prior to the volume being fully shared, the user had read-only access to the private data.
+
 ### User Access Privileges
 
 ![](../include/img/db-authorized-investigator-manage-affiliates.png)
-The *Authorized Investigator* determines what access an *Affiliate* has to 1. Other researcher's (shared) data on Databrary and 2. the Authorized Investigator's (shared and private) data.
+The *Authorized Investigator* determines what access an *Affiliate* has1. Other researcher's (shared) data on Databrary and 2. the Authorized Investigator's (shared and private) data.
 
 *Affiliate* access expires after a user-defined date.
 
@@ -114,7 +148,7 @@ The *Authorized Investigator* determines what access an *Affiliate* has to 1. Ot
 - *No access* (default)
 - *Affiliate*
 
-#### *Affiliate access to an *Authorized Investigator's* data
+#### *Affiliate access to an *Authorized Investigator*'s data
 
 A user may be given privileges to a Volume by an *Authorized Investigator*.
 
