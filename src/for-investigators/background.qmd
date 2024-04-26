@@ -4,8 +4,8 @@ Databrary is designed by and for researchers.
 This section aims to provide researchers guidance about how to use Databrary.
 
 A common first step is to determine your status as a researcher.
-See [the About Databrary section for details](../background/who-why.qmd#whats-my-status)
-Then, you can request authorization as described in the next chapter.
+See [the About Databrary](../background/who-why.qmd#whats-my-status) section for details.
+Once you have determined your researcher status, you can request authorization as described in the next chapter.
 
 I am eligible to become an **Authorized Investigator** if:  
 

@@ -41,6 +41,12 @@ These levels apply at the session/slot and file/asset level.
 Newly uploaded files default to *Private*. 
 The [terminology](definitions.qmd) associated with these levels, the icons used to identify the levels, and the level of user access permitted by the levels are deeply embedded in the Databrary policy framework.
 
+- ![](https://nyu.databrary.org/web/icons/release/unknown.svg){.icon} : *Unknown*
+- ![](https://nyu.databrary.org/web/icons/release/private.svg){.icon} : *Private*
+- ![](https://nyu.databrary.org/web/icons/release/shared.svg){.icon} : *Shared* 
+- ![](https://nyu.databrary.org/web/icons/release/excerpts.svg){.icon} : *Learning Audiences*
+- ![](https://nyu.databrary.org/web/icons/release/public.svg){.icon} : *Public* 
+
 ### API
 
 All Databrary frontend calls use the API. The volume/slot/asset identifier scheme described previously supports API calls of the following form:
@@ -98,9 +104,9 @@ The system supports user accounts with the following features and privileges:
 ### Volume Sharing Levels
 
 - See [more-information/definitions](definitions.qmd#volume-sharing-levels).
-- Private
-- Volume Overview
-- Entire Volume Shared
+- ![](https://nyu.databrary.org/web/icons/volume-access-shared.svg){.icon}: *Private* (to research collaborators): 
+- ![](https://nyu.databrary.org/web/icons/partial.svg){.icon}: *Volume Overview* 
+- ![](https://nyu.databrary.org/web/icons/public.svg){.icon}: *Entire Volume Shared* (with the public)
 
 An *Authorized Investigator* has a private page that combines personal profile information and a dashboard with information about volumes, sponsors, and affiliates.
 
@@ -170,17 +176,34 @@ We are making use of two (currently private) repositories for the rewrite:
 - [frontend_2.0](https://github.com/databrary/frontend_2.0)
 - [backend_2.0](https://github.com/databrary/backend_2.0)
 
-Once licensing discussions have concluded, we may make the repositories public.
+Once internal licensing discussions have concluded, we may make the repositories public.
 
-### Ideation
+### Technology stack
 
-The following are proposals, but not requirements for Databrary 2.0.
+### Frontend
+
+- TypeScript
+- ReactJS
+- SCSS
+- Webpack and npm
+
+### Backend
+
+- Python
+- Django
+- PostgreSQL
+- FFmpeg/Elastic Transcoder
+- Docker
+
+### Brainstorming
+
+The following are proposals for discussion, but not requirements for Databrary 2.0.
 
 ### User Access Privileges
 
 ~~*Affiliate*~~ *Supervised Researcher* access expires after a user-defined date that is no longer than one year from the date of the last update.
 
-#### *Affiliate access to an *Authorized Investigator's* data
+#### *Affiliate access to an *Authorized Investigator*'s data
 
 A user may be given privileges to a Volume by an *Authorized Investigator*.
 

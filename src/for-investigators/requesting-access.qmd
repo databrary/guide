@@ -28,7 +28,7 @@
 
 <!-- ## Registering for Databrary Access  {-} -->
 
-Since access to restricted materials on Databrary requires formal *authorization* from an institution, the first step for every user is to register, create an account, and request authorization.
+Since access to restricted materials on Databrary requires formal [*authorization*](../more-information/definitions.qmd#authorization) from an [*institution*](../more-information/definitions.qmd#institution), the first step for every user is to register, create an account, and request authorization from your institution (if you are an independent researcher or faculty member) or from the person who supervises your research (if you are a student or staff member).
 
 To start the authorization process, please complete the [Registration Form](https://nyu.databrary.org/user/register?page=create) or click on the green 'Register' button or click on `register` on the top right of the menu bar at [databrary.org](https://databrary.org).
 

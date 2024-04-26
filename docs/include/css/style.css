@@ -21,6 +21,14 @@ img {
   height: auto; 
 }
 
+.icon {
+  border: none;
+  background-color: none;
+  box-shadow: none;
+  width: 3%; 
+  height: auto; 
+}
+
 # Q&A
 
 .question {
