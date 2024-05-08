@@ -204,7 +204,7 @@ knitr::include_graphics("../include/img/db-new-volume-design-spreadsheet.png")
 
 Now it is time to **Enter Data**. There are two options:
 
-### Upload a participant metadata file. {- #participantmetadata}
+### Upload a participant metadata file. {- #upload-participantmetadata}
 
 See video instructions or follow the step by step instructions below.
 
@@ -271,7 +271,7 @@ Session folders are for participant sessions and materials folders are for thing
 
 Session folders need to be added individually. Once the Participant ID is entered, the related metadata will be filled in. Then the rest of the session information will need to be added individually.
 
-### Enter Data Individually (the upload as you go method) {- #individually}
+### Enter Data Individually (the upload as you go method) {- #enter-individually}
 
 - Click inside the **ID** box to add a participant. 
 - Complete each metadata item selected to create the participant, then

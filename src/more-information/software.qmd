@@ -215,12 +215,33 @@ A user may be given privileges to a Volume by an *Authorized Investigator*.
 - *Manager*
   - Read, write, create **Private** volumes~~, and change volume access (change sharing)~~
 
+::: {.callout-note}
+
+Per 2024-05-08 meeting with Montrose, we are likely to implement separate categories for Affiliate privileges "Read", "Write", and "Create" and enable various combinations of these, such as "Create" only or "Create" plus "Read" but not write.
+
+:::
+
+
 #### Volumes
 
 - (New) Set default visibility/access to *Private* (not *Volume Overview*)
 - (New) Only *Authorized Investigators* with *Investigator* privileges can delete a *Private* *Volume*.
 - (New) Shared (*Volume Overview* or *Entire Volume Shared*) *Volumes* may **hide** data but not delete the volume. Hidden volumes will have the following message: "This volume was hidden on <date> by <user>."
-  - Can one *Authorized Investigator* hide a volume, or must all *Authorized Investigators* with share privileges agree?
+  - Can one *Authorized Investigator* hide a volume, or must all *Authorized Investigators* with share (*Investigator*) privileges agree?
+  
+::: {.callout-warning}
+
+Some Databrary volumes, e.g., <https://nyu.databrary.org/volume/686> have two users with Affiliate privileges, but are listed as *Investigators*, granting them read/write/share (Crown) privileges on the volume.
+This arises because the volume citation is built from the list of Investigators.
+
+![Investigators from Volume 686](../include/img/db-volume-686-investigators.png)
+
+In Databrary 2.0, there will be a (new) separate field for bibliographic (citation-source) contributors and individuals derived from the Databrary 1.0 set of Investigators and their appearance order.
+Volume sharing privileges will be restricted to Authorized Investigators.
+There is likely to be a single owner to simplify various roles, but we will have to permit the existing set of multiple owners.
+
+:::
+
   
 ### Requirements
 
@@ -277,7 +298,7 @@ Fields are as follows:
 
 #### Request Authorization
 
-![Databrary Set Password panel](../include/img/db-request-authorization.JPG){fig-align="center"}
+![Databrary Request Authorization panel](../include/img/db-request-authorization.JPG){fig-align="center"}
 
 - Add *new* drop-down menu for *new* `user_position` field that requires users to enter their position at their institution. The acceptable values for this field are as follows:
   - Faculty/Independent Researcher
@@ -317,6 +338,6 @@ While the core of Databrary 1.0 is understood and will be replicated in the new 
 ### Roadmap
 
 - "Virtual volumes" or cloned/copied datasets with links to original sources.
+- Version control.
 - More file-, session-, volume-, researcher-, and institution- analytics.
 - Private volumes for peer review.
-

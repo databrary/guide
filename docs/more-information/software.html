@@ -634,6 +634,19 @@ ul.task-list li input[type="checkbox"] {
 <li>Read, write, create <strong>Private</strong> volumes<del>, and change volume access (change sharing)</del></li>
 </ul></li>
 </ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Per 2024-05-08 meeting with Montrose, we are likely to implement separate categories for Affiliate privileges “Read”, “Write”, and “Create” and enable various combinations of these, such as “Create” only or “Create” plus “Read” but not write.</p>
+</div>
+</div>
 </section>
 <section id="volumes" class="level4">
 <h4 class="anchored" data-anchor-id="volumes">Volumes</h4>
@@ -642,9 +655,29 @@ ul.task-list li input[type="checkbox"] {
 <li>(New) Only <em>Authorized Investigators</em> with <em>Investigator</em> privileges can delete a <em>Private</em> <em>Volume</em>.</li>
 <li>(New) Shared (<em>Volume Overview</em> or <em>Entire Volume Shared</em>) <em>Volumes</em> may <strong>hide</strong> data but not delete the volume. Hidden volumes will have the following message: “This volume was hidden on <date> by <user>.”
 <ul>
-<li>Can one <em>Authorized Investigator</em> hide a volume, or must all <em>Authorized Investigators</em> with share privileges agree?</li>
+<li>Can one <em>Authorized Investigator</em> hide a volume, or must all <em>Authorized Investigators</em> with share (<em>Investigator</em>) privileges agree?</li>
 </ul></user></date></li>
 </ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Some Databrary volumes, e.g., <a href="https://nyu.databrary.org/volume/686" class="uri">https://nyu.databrary.org/volume/686</a> have two users with Affiliate privileges, but are listed as <em>Investigators</em>, granting them read/write/share (Crown) privileges on the volume. This arises because the volume citation is built from the list of Investigators.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/db-volume-686-investigators.png" class="img-fluid figure-img"></p>
+<figcaption>Investigators from Volume 686</figcaption>
+</figure>
+</div>
+<p>In Databrary 2.0, there will be a (new) separate field for bibliographic (citation-source) contributors and individuals derived from the Databrary 1.0 set of Investigators and their appearance order. Volume sharing privileges will be restricted to Authorized Investigators. There is likely to be a single owner to simplify various roles, but we will have to permit the existing set of multiple owners.</p>
+</div>
+</div>
 </section>
 </section>
 <section id="requirements" class="level3">
@@ -721,7 +754,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../include/img/db-request-authorization.JPG" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-<figcaption>Databrary Set Password panel</figcaption>
+<figcaption>Databrary Request Authorization panel</figcaption>
 </figure>
 </div>
 <ul>
@@ -789,6 +822,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="roadmap">Roadmap</h3>
 <ul>
 <li>“Virtual volumes” or cloned/copied datasets with links to original sources.</li>
+<li>Version control.</li>
 <li>More file-, session-, volume-, researcher-, and institution- analytics.</li>
 <li>Private volumes for peer review.</li>
 </ul>
