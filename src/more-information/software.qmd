@@ -2,7 +2,7 @@
 
 This page describes some useful information about Databrary's software.
 
-## Databrary 1.0
+## Technology Stack
 
 The Databrary application runs on a virtual machine running CentOS managed by NYU IT.
 Automatic transcoding of all uploaded video and audio files is handled by NYU's High Performance Computing (HPC) cluster.
@@ -23,7 +23,7 @@ Data is stored in Isilon arrays that are managed by the NYU Libraries.
 - PostgreSQL 9.5
 - FFmpeg 4.2.4
 
-### Application
+## Application
 
 Datasets are organized into separate [*volumes*](references.qmd#volume) with system-wide unique (integer) identifiers. 
 Groups of data files related to a specific person or people (or non-human animal), a date, time, and location are grouped into [*sessions*](references.qmd#session) ([*slots*](references.qmd#slot)) within a volume. 
@@ -34,7 +34,7 @@ Access privileges are granted hierarchically in a parent/child organization.
 For example, Databrary is the parent of New York University (NYU); NYU is the parent of Karen Adolph and multiple other *Authorized Investigators*; Karen Adolph is the parent of multiple Affiliate investigators who have broad access to volumes Dr. Adolph has created. 
 Further details about how *Authorized Investigators* assign access permission to *Affiliates* can be found in the [System Roles](software.qmd#system-roles) section below.
 
-### Sharing Release Levels
+## Sharing Release Levels
 
 Restricted data and metadata are controlled by a specific set of [sharing release levels](https://databrary.org/support/irb/release-levels.html).
 These levels apply at the session/slot and file/asset level. 
@@ -47,7 +47,7 @@ The [terminology](definitions.qmd) associated with these levels, the icons used 
 - ![](https://nyu.databrary.org/web/icons/release/excerpts.svg){.icon} : *Learning Audiences*
 - ![](https://nyu.databrary.org/web/icons/release/public.svg){.icon} : *Public* 
 
-### API
+## API
 
 All Databrary frontend calls use the API. The volume/slot/asset identifier scheme described previously supports API calls of the following form:
 
@@ -58,7 +58,7 @@ This call accesses the Databrary “leaf” logo in volume 1, slot (session) 980
 Most, but not all of the Databrary API is [documented](https://github.com/databrary/route-doc). 
 If it is necessary to change the API calls in the rewrite, then the API should be versioned, and the new system should support current API calls.
 
-### Backend Services
+## Backend Services
 
 All audio and video files uploaded automatically generate transcoding jobs that are handled by the NYU HPC.
 
@@ -67,9 +67,9 @@ This must continue. Databrary piggybacks on the DOI account controlled by NYU Li
 
 The system generates and updates standard bibliographic citations for a volume based on volume data and metadata.
 
-### System roles
+## System roles
 
-#### Super user
+### Super user
 
 The system supports a small number of *Super User* accounts. 
 Only an existing *Super User* can grant *Super User* privileges to another account holder. 
@@ -82,7 +82,7 @@ Only an existing *Super User* can grant *Super User* privileges to another accou
 - Monitoring and managing the health of the system as a whole, including restarting stalled video transcoding jobs via an admin dashboard
 - Generating email related to the process for requesting authorization from an institution for specific users
 
-#### User
+### User
 
 The system supports user accounts with the following features and privileges:
 
@@ -101,7 +101,7 @@ The system supports user accounts with the following features and privileges:
     - Modify the level (sharing release level) assigned to a session (slot) or file (asset)
   - *Affiliates* privileges to access restricted data on Databrary are specifically linked to one or more *Authorized Investigator*s. The *Authorized Investigator* controls that link. Links should expire on a regular (timed) basis. When linked to an *Authorized Investigator*, *Affiliate*s have the level of access granted by that *Authorized Investigator* to i) Databrary as a whole (default is none) and ii) to specific volumes owned by the *Authorized Investigator*.
   
-### Volume Sharing Levels
+## Volume Sharing Levels
 
 - See [more-information/definitions](definitions.qmd#volume-sharing-levels).
 - ![](https://nyu.databrary.org/web/icons/volume-access-shared.svg){.icon}: *Private* (to research collaborators): 
@@ -143,19 +143,19 @@ And still other *Authorized Investigators* have given this user read-only (eyegl
 In this case, it looks like the volume has been fully shared (unlocked lock icon), so the user has full read access to the volume already.
 Prior to the volume being fully shared, the user had read-only access to the private data.
 
-### User Access Privileges
+## User Access Privileges to Volumes
 
 ![](../include/img/db-authorized-investigator-manage-affiliates.png)
 The *Authorized Investigator* determines what access an *Affiliate* has1. Other researcher's (shared) data on Databrary and 2. the Authorized Investigator's (shared and private) data.
 
 *Affiliate* access expires after a user-defined date.
 
-#### *Affiliate* access to other's data
+### *Affiliate* access to other's data
 
 - *No access* (default)
 - *Affiliate*
 
-#### *Affiliate access to an *Authorized Investigator*'s data
+### *Affiliate access to an *Authorized Investigator*'s data
 
 A user may be given privileges to a Volume by an *Authorized Investigator*.
 
@@ -167,188 +167,4 @@ A user may be given privileges to a Volume by an *Authorized Investigator*.
 - *Manager*
   - Read, write, create volumes, and change volume access (change sharing)
   - Extend privileges to Affiliates.
-
-## Databrary 2.0
-
-As of April 2024, Databrary has begun a rewrite led by [Montrose Software](https://montrosesoftware.com).
-
-We are making use of two (currently private) repositories for the rewrite:
-
-- [frontend_2.0](https://github.com/databrary/frontend_2.0)
-- [backend_2.0](https://github.com/databrary/backend_2.0)
-
-Once internal licensing discussions have concluded, we may make the repositories public.
-
-### Technology stack
-
-### Frontend
-
-- TypeScript
-- ReactJS
-- SCSS
-- Webpack and npm
-
-### Backend
-
-- Python
-- Django
-- PostgreSQL
-- FFmpeg/Elastic Transcoder
-- Docker
-
-### Brainstorming
-
-The following are proposals for discussion, but not yet requirements for Databrary 2.0.
-
-### User Access Privileges
-
-~~*Affiliate*~~ *Supervised Researcher* access expires after a user-defined date that is no longer than one year from the date of the last update.
-
-
-#### Volumes
-
-- ([New]{.add-feature}) Set default visibility/access to *Private* (not *Volume Overview*)
-- ([New]{.add-feature}) Only *Authorized Investigators* with *Investigator* privileges can delete a *Private* *Volume*.
-- ([New]{.add-feature}) Shared (*Volume Overview* or *Entire Volume Shared*) *Volumes* may **hide** data but not delete the volume. Hidden volumes will have the following message: "This volume was hidden on <date> by <user>."
-  - Can one *Authorized Investigator* hide a volume, or must all *Authorized Investigators* with share (*Investigator*) privileges agree?
   
-::: {.callout-warning}
-
-Some Databrary volumes, e.g., <https://nyu.databrary.org/volume/686> have two users with Affiliate privileges, but are listed as *Investigators*, granting them read/write/share (Crown) privileges on the volume.
-This arises because the volume citation is built from the list of Investigators.
-
-![Investigators from Volume 686](../include/img/db-volume-686-investigators.png)
-
-In Databrary 2.0, there will be a (new) separate field for bibliographic (citation-source) contributors and individuals derived from the Databrary 1.0 set of Investigators and their appearance order.
-Volume sharing privileges will be restricted to Authorized Investigators.
-There is likely to be a single owner to simplify various roles, but we will have to permit the existing set of multiple owners.
-
-:::
-
-  
-### Requirements
-
-This section provides additional information about the requirements for specific aspects of the Databrary 2.0 application.
-
-#### Schema
-
-The Databrary 1.0 schema can be found [here](https://github.com/databrary/databrary/tree/master/schema).
-
-Montrose ^[2024-04-17 meeting] recommends that we implement separate tables for `individuals` and `institutions`.
-These entities are combined into a single `party` table in the current schema.
-
-#### User Access Privileges
-
-##### *Affiliate access to an *Authorized Investigator*'s data
-
-A user may be given privileges to a *Volume* by an *Authorized Investigator*.
-
-- ([remove]{.remove-feature}) ~~*No access* (default)~~
-  - This is redundant for the UI. Remove it there. Retain for backend. 
-- ([remove]{.remove-feature}) ~~*View and access only public data*~~ (Level visible only to Super User; eliminate.)
-- ([remove]{.remove-feature}) ~~*View and access only shared data*~~ (Level visible only to Super User; eliminate.)
-- *Read-only access*
-- *Read/write access*
-- *Manager*
-  - Read, write, create **Private** volumes (([New]{.add-feature}) with supervising *Authorized Investigator as the owner*)
-  - ([remove]{.remove-feature}) ~~Manager ability to change volume access (change sharing)~~
-  - ([remove]{.remove-feature}) ~~Manager ability to extend access to *Affiliates*~~
-
-::: {.callout-note}
-
-Per 2024-05-08 meeting with Montrose, we are likely to implement separate categories for Affiliate privileges "Read", "Write", and "Create" and enable various combinations of these, such as "Create" only or "Create" plus "Read" but not write.
-
-:::
-
-##### Separate bibliographic contribution from access
-
-- ([New]{.add-feature}) Create bibliographic contributor field. Allow sorting of authors.
-- ([New]{.add-feature}) New volumes have a **single** owner who must be an Authorized Investigator.
-
-#### Registration workflow
-
-Registration consists of multiple steps.
-The following shows requested modifications to the Databrary 1.0 workflow.
-
-##### Create Account
-
-The reference page for the Databrary 1.0 registration process is here:
-
-![](../include/img/db-create-account.JPG)
-
-Fields are as follows:
-
-- *First and Middle Name* (required)
-- *Last Name* (required)
-- *Email* (required)
-  - Add instruction text that specifies an official institutional email must be used for this field (e.g., \@psu.edu).
-  - Implement email validation (against existing database of valid institutional email, flag \@gmail.com, etc.)
-  - Permit free-text email if validation fails
-- *Affiliation* (required)
-  - Type-ahead search of existing database of authorized Institutions.
-  - If no matching institution exists, the user can enter a new institution, but should be notified.
-  - Change label to *Institutional Affiliation*.
-  
-#### Get Started
-
-![Get Started panel](../include/img/db-get-started.JPG)
-
-- Require user to confirm that they have read and agree to the Databrary Access Agreement.
-- Link to the Terms and Conditions of Use.
-
-#### Confirm email
-
-![Confirm Email panel](../include/img/db-confirm-email.JPG)
-
-#### Set Password
-
-![Databrary Set Password panel](../include/img/db-set-password.JPG){fig-align="center"}
-
-- Require strong password (increase number of required characters from 7 to 14 characters. ^[https://www.nyu.edu/life/information-technology/safe-computing/protect-your-privacy/secure-your-passwords.html]
-- Validate password to ensure that password is strong
-
-#### Request Authorization
-
-![Databrary Request Authorization panel](../include/img/db-request-authorization.JPG){fig-align="center"}
-
-- Add *new* drop-down menu for *new* `user_position` field that requires users to enter their position at their institution. The acceptable values for this field are as follows:
-  - Faculty/Independent Researcher
-  - Student
-  - Staff
-  - Other
-- If `user_position` is in {'Student', 'Staff', 'Other'}
-  - Show `research_sponsor` text field
-    - Add instruction text asking user to type the name of the person who is their research sponsor or supervisor; the entered text should use look-ahead search to match to Authorized Investigators currently active on Databrary at the user's specified institution.
-    - If the search succeeds, the user can select the name of their research sponsor.
-      - Generate a request for authorization from the current user to the research sponsor; cc the current user.
-      - Provide the user feedback that this request has been sent.
-    - If the search fails, the user can enter the name of their research sponsor, but warning text appears: "This research sponsor cannot be found."
-      - Ask the user to enter their research sponsor's institutional email address.
-        - Validate that address as above.
-      - Confirm that the user wants Databrary to send a request to register email to the user's research sponsor.
-        - If yes, send the email to the research sponsor and cc the current user.
-        - **TO-DO**: Draft this email.
-- If `user_position` is "Faculty/Independent Researcher"
-  - Show *new* text field `user_institutional_profile` and ask user to enter the URL for their institutional profile page.
-    - Add explanatory text: "Databrary requires that we confirm a new user is eligible for Authorized Investigator status. Please provide a URL to your personal profile page at your institution to assist us in verifying your status."
-  - If user's institution is *not* in Databrary's database of authorizing institutions...
-    - Ask user to enter information into two *new* (optional) text fields: `institution_authorizing_official_full_name` for the full name of the institution's authorizing official and `institution_authorizing_official_email` for that person's email.
-  - If user's institution is in the Databrary database of authorizing institutions...
-    - Show text saying "`institution` has active users on Databrary. Here is a link to other users from `institution` on Databrary: <link-to-institution-page-with-active-users>. Our staff will work with you and your institution to expedite your authorization."
-      
-### Scoping issues
-
-While the core of Databrary 1.0 is understood and will be replicated in the new version, some questions will be explored that relate to new features:
-
-- Should video and audio transcoding be automatic or optional; if optional, how can transcoding be triggered?
-- What features of the existing session/slot spreadsheet interface for managing and visualizing demographic data can be implemented easily and at minimal cost using existing libraries?
-- ~~Can two-factor authentication be added? If so, at what cost?~~^[2024-04-17 determined that 2FA via email and SMS should be implemented.]
-- Can per-institution (across users and projects), per-user (across projects) or per-project storage quotas be implemented? Can warnings be generated when storage amounts are nearing quotas? How could Super Users manage user requests to increase quotas?
-- Can a more informative administrative console be developed with by-volume, usage, and storage metrics, including shared vs. unshared data? If so, at what cost?
-
-### Roadmap
-
-- "Virtual volumes" or cloned/copied datasets with links to original sources.
-- Version control.
-- More file-, session-, volume-, researcher-, and institution- analytics.
-- Private volumes for peer review.

@@ -1,0 +1,223 @@
+
+# Databrary 2.0 {.unnumbered}
+
+As of April 2024, Databrary has begun a rewrite led by [Montrose Software](https://montrosesoftware.com).
+
+We are making use of two (currently private) repositories for the rewrite:
+
+- [frontend_2.0](https://github.com/databrary/frontend_2.0)
+- [backend_2.0](https://github.com/databrary/backend_2.0)
+
+Once internal licensing discussions have concluded, we may make the repositories public.
+
+## Technology stack
+
+### Frontend
+
+- TypeScript
+- ReactJS
+- SCSS
+- Webpack and npm
+
+### Backend
+
+- Python
+- Django
+- PostgreSQL
+- FFmpeg/Elastic Transcoder
+- Docker
+
+## Requirements
+
+This section provides additional information about the requirements for specific aspects of the Databrary 2.0 application.
+
+### Schema
+
+The Databrary 1.0 schema can be found [here](https://github.com/databrary/databrary/tree/master/schema).
+
+Montrose ^[2024-04-17 meeting] recommends that we implement separate tables for `individuals` and `institutions`.
+These entities are combined into a single `party` table in the current schema.
+
+### User Access Privileges
+
+#### *Affiliate access to an *Authorized Investigator*'s data
+
+A user may be given privileges to a *Volume* by an *Authorized Investigator*.
+
+- ([remove]{.remove-feature}) *No access* (default)
+  - This is redundant for the UI. Remove it there. Retain for backend. 
+- ([remove]{.remove-feature}) *View and access only public data* (Level visible only to Super User; eliminate.)
+- ([remove]{.remove-feature}) *View and access only shared data* (Level visible only to Super User; eliminate.)
+- *Read-only access*
+- *Read/write access*
+- *Manager*
+  - Read, write, create **Private** volumes (([new]{.add-feature}) with supervising *Authorized Investigator as the owner*)
+  - ([remove]{.remove-feature}) Manager ability to change volume access (change sharing)
+  - ([remove]{.remove-feature}) Manager ability to extend access to *Affiliates*
+
+::: {.callout-note}
+
+Per 2024-05-08 meeting with Montrose, we are likely to implement separate categories for Affiliate privileges "Read", "Write", and "Create" and enable various combinations of these, such as "Create" only or "Create" plus "Read" but not write.
+
+:::
+
+### Registration workflow
+
+Registration consists of multiple steps.
+The following shows requested modifications to the Databrary 1.0 workflow.
+
+#### Create Account
+
+The reference page for the Databrary 1.0 registration process is here:
+
+![](../include/img/db-create-account.JPG)
+
+Fields are as follows:
+
+- *First and Middle Name* (required)
+- *Last Name* (required)
+- *Email* (required)
+  - Add instruction text that specifies an official institutional email must be used for this field (e.g., \@psu.edu).
+  - Implement email validation (against existing database of valid institutional email, flag \@gmail.com, etc.)
+  - Permit free-text email if validation fails
+- *Affiliation* (required)
+  - Type-ahead search of existing database of authorized Institutions.
+  - If no matching institution exists, the user can enter a new institution, but should be notified.
+  - Change label to *Institutional Affiliation*.
+  
+#### Get Started
+
+![Get Started panel](../include/img/db-get-started.JPG)
+
+- Require user to confirm that they have read and agree to the Databrary Access Agreement.
+- Link to the Terms and Conditions of Use.
+
+#### Confirm email
+
+![Confirm Email panel](../include/img/db-confirm-email.JPG)
+
+#### Set Password
+
+![Databrary Set Password panel](../include/img/db-set-password.JPG){fig-align="center"}
+
+- Require strong password (increase number of required characters from 7 to 14 characters. ^[https://www.nyu.edu/life/information-technology/safe-computing/protect-your-privacy/secure-your-passwords.html]
+- Validate password to ensure that password is strong
+
+#### Request Authorization
+
+![Databrary Request Authorization panel](../include/img/db-request-authorization.JPG){fig-align="center"}
+
+- Add *new* drop-down menu for *new* `user_position` field that requires users to enter their position at their institution. The acceptable values for this field are as follows:
+  - Faculty/Independent Researcher
+  - Student
+  - Staff
+  - Other
+- If `user_position` is in {'Student', 'Staff', 'Other'}
+  - Show `research_sponsor` text field
+    - Add instruction text asking user to type the name of the person who is their research sponsor or supervisor; the entered text should use look-ahead search to match to Authorized Investigators currently active on Databrary at the user's specified institution.
+    - If the search succeeds, the user can select the name of their research sponsor.
+      - Generate a request for authorization from the current user to the research sponsor; cc the current user.
+      - Provide the user feedback that this request has been sent.
+    - If the search fails, the user can enter the name of their research sponsor, but warning text appears: "This research sponsor cannot be found."
+      - Ask the user to enter their research sponsor's institutional email address.
+        - Validate that address as above.
+      - Confirm that the user wants Databrary to send a request to register email to the user's research sponsor.
+        - If yes, send the email to the research sponsor and cc the current user.
+        - **TO-DO**: Draft this email.
+- If `user_position` is "Faculty/Independent Researcher"
+  - Show *new* text field `user_institutional_profile` and ask user to enter the URL for their institutional profile page.
+    - Add explanatory text: "Databrary requires that we confirm a new user is eligible for Authorized Investigator status. Please provide a URL to your personal profile page at your institution to assist us in verifying your status."
+  - If user's institution is *not* in Databrary's database of authorizing institutions...
+    - Ask user to enter information into two *new* (optional) text fields: `institution_authorizing_official_full_name` for the full name of the institution's authorizing official and `institution_authorizing_official_email` for that person's email.
+  - If user's institution is in the Databrary database of authorizing institutions...
+    - Show text saying "`institution` has active users on Databrary. Here is a link to other users from `institution` on Databrary: <link-to-institution-page-with-active-users>. Our staff will work with you and your institution to expedite your authorization."
+    
+### Volume interface
+
+- ([new]{.add-feature}): Create bibliographic contributor field. Allow sorting of authors.
+- ([new]{.add-feature}): New volumes have a **single** owner who must be an Authorized Investigator.
+
+![](img/manage-volume-overview.png)
+
+- ([remove]{.remove-feature}): "Does this valume correspond to a published paper..." and related look up published paper or resource; complete reference info. Will enter linked resources in Add Links tab below.
+- ([remove]{.remove-feature}): "Add keywords" interface (push to >2.0)
+- ([future]{.future-feature}): Pull keywords from related/linked articles
+
+![](img/volume-manage-access.png)
+
+- ([change]{.change-feature}): Default Volume access to Private
+- ([change]{.change-feature}): Separate (single) volume owner from Collaborators. Allow transfer of ownership here.
+- ([remove]{.remove-feature}): "Extend access to ... affiliates" checkbox and related functionality.
+- ([remove]{.remove-feature}): "Investigator (read/write/share)" option for collaborators.
+- ([change]{.change-feature}): Make "Read only" default access level for all added Collaborators.
+- ([discuss]{.discuss-feature}): Add expiration date for access to volume for all collaborators.
+
+![](img/manage-volume-design-ss.png)
+
+- ([discuss]{.discuss-feature}): How to simplify
+
+![](img/manage-volume-enter-data.png)
+
+- ([discuss]{.discuss-feature}): How to simplify
+
+![](img/manage-volume-add-links.png)
+
+- ([change]{.change-feature}): "Enter title or paper/dataset citation"
+- ([future]{.future-feature}): Way to search Databrary for related datasets.
+
+![](img/manage-volume-list-funding.png)
+
+- ([change]{.change-feature}): Lookup existing funder, but permit user-entered value(s)
+
+![](img/montrose-vol-1777.png)
+
+- ([change]{.change-feature}): Merge FILE RELEASE LEVELS data with "added on", "sessions", "participants" panel
+- ([change]{.change-feature}): "HOW TO CITE" field has user editable authors, Databrary specific info is added by the system
+- ([new]{.add-feature}): OWNER sub-panel
+- ([change]{.change-feature}): Fix column size so that long names and affiliations aren't cut-off
+
+![](img/montrose-volume-1777-lower.png)
+
+- ([remove]{.remove-feature}): "Create highlight" button and associated workflow. Re-implement in >2.0
+- ([remove]{.remove-feature}): "Show saved display mode" dropdown and associated workflow. May re-implement some portion in >2.0.
+- ([remove]{.remove-feature}): "Show summary" functionality. May re-implement some portion in >2.0.
+- ([remove]{.remove-feature}): **Save current display mode** functionality.
+- ([new]{.add-feature}): Separate interface for Materials
+- ([discuss]{.discuss-feature}): Simpler tablular interface for spreadsheet display?
+
+![](img/montrose-volume-1777-bottom.png)
+
+- ([remove]{.remove-feature}): Comments. Consider re-implementing in >2.0
+
+### Sessions interface
+
+![](img/montrose-volume-1777-slot-73286.png)
+
+- ([remove]{.remove-feature}): Keywords and Tags.
+- ([remove]{.remove-feature}): Bars that summarize spreadsheet metadata values.
+- ([remove]{.remove-feature}): Timeline.
+- ([remove]{.remove-feature}): File names sort by timestamp uploaded.
+- ([new]{.add-feature}): Better interface layout for previewing videos.
+- ([remove]{.remove-feature}): Video editing within viewer to create highlights.
+- ([new]{.add-feature}): Better interface layout for previewing videos.
+- ([change]{.change-feature}): Make "set as highlight" feature more visible
+- ([discuss]{.discuss-feature}): Simpler tablular interface viewing files, release level, highlight status, etc.
+
+## Scoping
+
+While the core of Databrary 1.0 is understood and will be replicated in Databrary 2.0, some questions will be explored that relate to new features:
+
+- ([discuss]{.discuss-feature}): Should video and audio transcoding be automatic or optional; if optional, how can transcoding be triggered?
+- ([discuss]{.discuss-feature}): (What features of the existing session/slot spreadsheet interface for managing and visualizing demographic data can be implemented easily and at minimal cost using existing libraries?
+- ~~Can two-factor authentication be added? If so, at what cost?~~^[2024-04-17 determined that 2FA via email and SMS should be implemented.]
+- ([discuss]{.discuss-feature}): Can per-institution (across users and projects), per-user (across projects) or per-project storage quotas be implemented? Can warnings be generated when storage amounts are nearing quotas? How could Super Users manage user requests to increase quotas?
+- ([discuss]{.discuss-feature}): Can a more informative administrative console be developed with by-volume, usage, and storage metrics, including shared vs. unshared data? If so, at what cost?
+- ([discuss]{.discuss-feature}): Volume access expires after a user-defined date that is no longer than one year from the date of the last update.
+
+### Roadmap (>2.0)
+
+- "Virtual volumes" or cloned/copied datasets with links to original sources.
+- Version control.
+- Workspaces.
+- More file-, session-, volume-, researcher-, and institution- analytics.
+- Private volumes for peer review.

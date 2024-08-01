@@ -40,6 +40,7 @@ book:
       - more-information/faq.qmd 
       - more-information/definitions.qmd
       - more-information/software.qmd
+      - more-information/db-2.0.qmd
     - more-information/references.qmd 
   appendices:
     - appendices/access_agreement.qmd

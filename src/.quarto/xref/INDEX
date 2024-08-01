@@ -116,5 +116,8 @@
   },
   "appendices/irb-application-template.qmd": {
     "irb-application-template.html": "04355a65"
+  },
+  "more-information/db-2.0.qmd": {
+    "db-2.0.html": "6c9ef172"
   }
 }

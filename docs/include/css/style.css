@@ -39,6 +39,21 @@ img {
   font-weight: bold;
 }
 
+.change-feature {
+  color: orange;
+  font-weight: bold;
+}
+
+.discuss-feature {
+  color: aquamarine;
+  font-weight: bold;
+}
+
+.future-feature {
+  color: silver;
+  font-weight: bold;
+}
+
 # Q&A
 
 .question {

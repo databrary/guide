@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../more-information/references.html" rel="next">
+<link href="../more-information/db-2.0.html" rel="next">
 <link href="../more-information/definitions.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -278,6 +278,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Software</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../more-information/db-2.0.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Databrary 2.0</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -386,29 +392,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#affiliate-access-to-others-data" id="toc-affiliate-access-to-others-data" class="nav-link" data-scroll-target="#affiliate-access-to-others-data"><em>Affiliate</em> access to other’s data</a></li>
   <li><a href="#affiliate-access-to-an-authorized-investigators-data" id="toc-affiliate-access-to-an-authorized-investigators-data" class="nav-link" data-scroll-target="#affiliate-access-to-an-authorized-investigators-data"><em>Affiliate access to an </em>Authorized Investigator*’s data</a></li>
   </ul></li>
-  </ul></li>
-  <li><a href="#databrary-2.0" id="toc-databrary-2.0" class="nav-link" data-scroll-target="#databrary-2.0">Databrary 2.0</a>
-  <ul>
-  <li><a href="#technology-stack" id="toc-technology-stack" class="nav-link" data-scroll-target="#technology-stack">Technology stack</a></li>
-  <li><a href="#frontend-1" id="toc-frontend-1" class="nav-link" data-scroll-target="#frontend-1">Frontend</a></li>
-  <li><a href="#backend-1" id="toc-backend-1" class="nav-link" data-scroll-target="#backend-1">Backend</a></li>
-  <li><a href="#brainstorming" id="toc-brainstorming" class="nav-link" data-scroll-target="#brainstorming">Brainstorming</a></li>
-  <li><a href="#user-access-privileges-1" id="toc-user-access-privileges-1" class="nav-link" data-scroll-target="#user-access-privileges-1">User Access Privileges</a>
-  <ul class="collapse">
-  <li><a href="#affiliate-access-to-an-authorized-investigators-data-1" id="toc-affiliate-access-to-an-authorized-investigators-data-1" class="nav-link" data-scroll-target="#affiliate-access-to-an-authorized-investigators-data-1"><em>Affiliate access to an </em>Authorized Investigator*’s data</a></li>
-  <li><a href="#volumes" id="toc-volumes" class="nav-link" data-scroll-target="#volumes">Volumes</a></li>
-  </ul></li>
-  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a>
-  <ul class="collapse">
-  <li><a href="#schema" id="toc-schema" class="nav-link" data-scroll-target="#schema">Schema</a></li>
-  <li><a href="#registration-workflow" id="toc-registration-workflow" class="nav-link" data-scroll-target="#registration-workflow">Registration workflow</a></li>
-  <li><a href="#get-started" id="toc-get-started" class="nav-link" data-scroll-target="#get-started">Get Started</a></li>
-  <li><a href="#confirm-email" id="toc-confirm-email" class="nav-link" data-scroll-target="#confirm-email">Confirm email</a></li>
-  <li><a href="#set-password" id="toc-set-password" class="nav-link" data-scroll-target="#set-password">Set Password</a></li>
-  <li><a href="#request-authorization" id="toc-request-authorization" class="nav-link" data-scroll-target="#request-authorization">Request Authorization</a></li>
-  </ul></li>
-  <li><a href="#scoping-issues" id="toc-scoping-issues" class="nav-link" data-scroll-target="#scoping-issues">Scoping issues</a></li>
-  <li><a href="#roadmap" id="toc-roadmap" class="nav-link" data-scroll-target="#roadmap">Roadmap</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/more-information/software.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -584,269 +567,15 @@ ul.task-list li input[type="checkbox"] {
 <li>Extend privileges to Affiliates.</li>
 </ul></li>
 </ul>
-</section>
-</section>
-</section>
-<section id="databrary-2.0" class="level2">
-<h2 class="anchored" data-anchor-id="databrary-2.0">Databrary 2.0</h2>
-<p>As of April 2024, Databrary has begun a rewrite led by <a href="https://montrosesoftware.com">Montrose Software</a>.</p>
-<p>We are making use of two (currently private) repositories for the rewrite:</p>
-<ul>
-<li><a href="https://github.com/databrary/frontend_2.0">frontend_2.0</a></li>
-<li><a href="https://github.com/databrary/backend_2.0">backend_2.0</a></li>
-</ul>
-<p>Once internal licensing discussions have concluded, we may make the repositories public.</p>
-<section id="technology-stack" class="level3">
-<h3 class="anchored" data-anchor-id="technology-stack">Technology stack</h3>
-</section>
-<section id="frontend-1" class="level3">
-<h3 class="anchored" data-anchor-id="frontend-1">Frontend</h3>
-<ul>
-<li>TypeScript</li>
-<li>ReactJS</li>
-<li>SCSS</li>
-<li>Webpack and npm</li>
-</ul>
-</section>
-<section id="backend-1" class="level3">
-<h3 class="anchored" data-anchor-id="backend-1">Backend</h3>
-<ul>
-<li>Python</li>
-<li>Django</li>
-<li>PostgreSQL</li>
-<li>FFmpeg/Elastic Transcoder</li>
-<li>Docker</li>
-</ul>
-</section>
-<section id="brainstorming" class="level3">
-<h3 class="anchored" data-anchor-id="brainstorming">Brainstorming</h3>
-<p>The following are proposals for discussion, but not yet requirements for Databrary 2.0.</p>
-</section>
-<section id="user-access-privileges-1" class="level3">
-<h3 class="anchored" data-anchor-id="user-access-privileges-1">User Access Privileges</h3>
-<p><del><em>Affiliate</em></del> <em>Supervised Researcher</em> access expires after a user-defined date that is no longer than one year from the date of the last update.</p>
-<section id="affiliate-access-to-an-authorized-investigators-data-1" class="level4">
-<h4 class="anchored" data-anchor-id="affiliate-access-to-an-authorized-investigators-data-1"><em>Affiliate access to an </em>Authorized Investigator*’s data</h4>
-<p>A user may be given privileges to a <em>Volume</em> by an <em>Authorized Investigator</em>.</p>
-<ul>
-<li><del><em>No access</em> (default)</del>
-<ul>
-<li>This is redundant for the UI. Eliminate it from UI.</li>
-</ul></li>
-<li><del><em>View and access only public data</em></del> (Level visible only to Super User; eliminate.)</li>
-<li><del><em>View and access only shared data</em></del> (Level visible only to Super User; eliminate.)</li>
-<li><em>Read-only access</em></li>
-<li><em>Read/write access</em></li>
-<li><em>Manager</em>
-<ul>
-<li>Read, write, create <strong>Private</strong> volumes (with supervising <em>Authorized Investigator as the owner</em>)</li>
-<li>(<span class="remove-feature">remove</span>) Manager ability to change volume access (change sharing)</li>
-<li>(<span class="remove-feature">remove</span>) Manager ability to extend access to <em>Affiliates</em></li>
-</ul></li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Per 2024-05-08 meeting with Montrose, we are likely to implement separate categories for Affiliate privileges “Read”, “Write”, and “Create” and enable various combinations of these, such as “Create” only or “Create” plus “Read” but not write.</p>
-</div>
-</div>
-</section>
-<section id="volumes" class="level4">
-<h4 class="anchored" data-anchor-id="volumes">Volumes</h4>
-<ul>
-<li>(<span class="add-feature">New</span>) Set default visibility/access to <em>Private</em> (not <em>Volume Overview</em>)</li>
-<li>(<span class="add-feature">New</span>) Only <em>Authorized Investigators</em> with <em>Investigator</em> privileges can delete a <em>Private</em> <em>Volume</em>.</li>
-<li>(<span class="add-feature">New</span>) Shared (<em>Volume Overview</em> or <em>Entire Volume Shared</em>) <em>Volumes</em> may <strong>hide</strong> data but not delete the volume. Hidden volumes will have the following message: “This volume was hidden on <date> by <user>.”
-<ul>
-<li>Can one <em>Authorized Investigator</em> hide a volume, or must all <em>Authorized Investigators</em> with share (<em>Investigator</em>) privileges agree?</li>
-</ul></user></date></li>
-</ul>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Some Databrary volumes, e.g., <a href="https://nyu.databrary.org/volume/686" class="uri">https://nyu.databrary.org/volume/686</a> have two users with Affiliate privileges, but are listed as <em>Investigators</em>, granting them read/write/share (Crown) privileges on the volume. This arises because the volume citation is built from the list of Investigators.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../include/img/db-volume-686-investigators.png" class="img-fluid figure-img"></p>
-<figcaption>Investigators from Volume 686</figcaption>
-</figure>
-</div>
-<p>In Databrary 2.0, there will be a (new) separate field for bibliographic (citation-source) contributors and individuals derived from the Databrary 1.0 set of Investigators and their appearance order. Volume sharing privileges will be restricted to Authorized Investigators. There is likely to be a single owner to simplify various roles, but we will have to permit the existing set of multiple owners.</p>
-</div>
-</div>
-</section>
-</section>
-<section id="requirements" class="level3">
-<h3 class="anchored" data-anchor-id="requirements">Requirements</h3>
-<p>This section provides additional information about the requirements for specific aspects of the Databrary 2.0 application.</p>
-<section id="schema" class="level4">
-<h4 class="anchored" data-anchor-id="schema">Schema</h4>
-<p>The Databrary 1.0 schema can be found <a href="https://github.com/databrary/databrary/tree/master/schema">here</a>.</p>
-<p>Montrose <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> recommends that we implement separate tables for <code>individuals</code> and <code>institutions</code>. These entities are combined into a single <code>party</code> table in the current schema.</p>
-</section>
-<section id="registration-workflow" class="level4">
-<h4 class="anchored" data-anchor-id="registration-workflow">Registration workflow</h4>
-<p>Registration consists of multiple steps. The following shows requested modifications to the Databrary 1.0 workflow.</p>
-<section id="create-account" class="level5">
-<h5 class="anchored" data-anchor-id="create-account">Create Account</h5>
-<p>The reference page for the Databrary 1.0 registration process is here:</p>
-<p><img src="../include/img/db-create-account.JPG" class="img-fluid"></p>
-<p>Fields are as follows:</p>
-<ul>
-<li><em>First and Middle Name</em> (required)</li>
-<li><em>Last Name</em> (required)</li>
-<li><em>Email</em> (required)
-<ul>
-<li>Add instruction text that specifies an official institutional email must be used for this field (e.g., @psu.edu).</li>
-<li>Implement email validation (against existing database of valid institutional email, flag @gmail.com, etc.)</li>
-<li>Permit free-text email if validation fails</li>
-</ul></li>
-<li><em>Affiliation</em> (required)
-<ul>
-<li>Type-ahead search of existing database of authorized Institutions.</li>
-<li>If no matching institution exists, the user can enter a new institution, but should be notified.</li>
-<li>Change label to <em>Institutional Affiliation</em>.</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="get-started" class="level4">
-<h4 class="anchored" data-anchor-id="get-started">Get Started</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../include/img/db-get-started.JPG" class="img-fluid figure-img"></p>
-<figcaption>Get Started panel</figcaption>
-</figure>
-</div>
-<ul>
-<li>Require user to confirm that they have read and agree to the Databrary Access Agreement.</li>
-<li>Link to the Terms and Conditions of Use.</li>
-</ul>
-</section>
-<section id="confirm-email" class="level4">
-<h4 class="anchored" data-anchor-id="confirm-email">Confirm email</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../include/img/db-confirm-email.JPG" class="img-fluid figure-img"></p>
-<figcaption>Confirm Email panel</figcaption>
-</figure>
-</div>
-</section>
-<section id="set-password" class="level4">
-<h4 class="anchored" data-anchor-id="set-password">Set Password</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../include/img/db-set-password.JPG" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-<figcaption>Databrary Set Password panel</figcaption>
-</figure>
-</div>
-<ul>
-<li>Require strong password (increase number of required characters from 7 to 14 characters. <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></li>
-<li>Validate password to ensure that password is strong</li>
-</ul>
-</section>
-<section id="request-authorization" class="level4">
-<h4 class="anchored" data-anchor-id="request-authorization">Request Authorization</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../include/img/db-request-authorization.JPG" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-<figcaption>Databrary Request Authorization panel</figcaption>
-</figure>
-</div>
-<ul>
-<li>Add <em>new</em> drop-down menu for <em>new</em> <code>user_position</code> field that requires users to enter their position at their institution. The acceptable values for this field are as follows:
-<ul>
-<li>Faculty/Independent Researcher</li>
-<li>Student</li>
-<li>Staff</li>
-<li>Other</li>
-</ul></li>
-<li>If <code>user_position</code> is in {‘Student’, ‘Staff’, ‘Other’}
-<ul>
-<li>Show <code>research_sponsor</code> text field
-<ul>
-<li>Add instruction text asking user to type the name of the person who is their research sponsor or supervisor; the entered text should use look-ahead search to match to Authorized Investigators currently active on Databrary at the user’s specified institution.</li>
-<li>If the search succeeds, the user can select the name of their research sponsor.
-<ul>
-<li>Generate a request for authorization from the current user to the research sponsor; cc the current user.</li>
-<li>Provide the user feedback that this request has been sent.</li>
-</ul></li>
-<li>If the search fails, the user can enter the name of their research sponsor, but warning text appears: “This research sponsor cannot be found.”
-<ul>
-<li>Ask the user to enter their research sponsor’s institutional email address.
-<ul>
-<li>Validate that address as above.</li>
-</ul></li>
-<li>Confirm that the user wants Databrary to send a request to register email to the user’s research sponsor.
-<ul>
-<li>If yes, send the email to the research sponsor and cc the current user.</li>
-<li><strong>TO-DO</strong>: Draft this email.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li>If <code>user_position</code> is “Faculty/Independent Researcher”
-<ul>
-<li>Show <em>new</em> text field <code>user_institutional_profile</code> and ask user to enter the URL for their institutional profile page.
-<ul>
-<li>Add explanatory text: “Databrary requires that we confirm a new user is eligible for Authorized Investigator status. Please provide a URL to your personal profile page at your institution to assist us in verifying your status.”</li>
-</ul></li>
-<li>If user’s institution is <em>not</em> in Databrary’s database of authorizing institutions…
-<ul>
-<li>Ask user to enter information into two <em>new</em> (optional) text fields: <code>institution_authorizing_official_full_name</code> for the full name of the institution’s authorizing official and <code>institution_authorizing_official_email</code> for that person’s email.</li>
-</ul></li>
-<li>If user’s institution is in the Databrary database of authorizing institutions…
-<ul>
-<li>Show text saying “<code>institution</code> has active users on Databrary. Here is a link to other users from <code>institution</code> on Databrary: <link-to-institution-page-with-active-users>. Our staff will work with you and your institution to expedite your authorization.”</link-to-institution-page-with-active-users></li>
-</ul></li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="scoping-issues" class="level3">
-<h3 class="anchored" data-anchor-id="scoping-issues">Scoping issues</h3>
-<p>While the core of Databrary 1.0 is understood and will be replicated in the new version, some questions will be explored that relate to new features:</p>
-<ul>
-<li>Should video and audio transcoding be automatic or optional; if optional, how can transcoding be triggered?</li>
-<li>What features of the existing session/slot spreadsheet interface for managing and visualizing demographic data can be implemented easily and at minimal cost using existing libraries?</li>
-<li><del>Can two-factor authentication be added? If so, at what cost?</del><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></li>
-<li>Can per-institution (across users and projects), per-user (across projects) or per-project storage quotas be implemented? Can warnings be generated when storage amounts are nearing quotas? How could Super Users manage user requests to increase quotas?</li>
-<li>Can a more informative administrative console be developed with by-volume, usage, and storage metrics, including shared vs.&nbsp;unshared data? If so, at what cost?</li>
-</ul>
-</section>
-<section id="roadmap" class="level3">
-<h3 class="anchored" data-anchor-id="roadmap">Roadmap</h3>
-<ul>
-<li>“Virtual volumes” or cloned/copied datasets with links to original sources.</li>
-<li>Version control.</li>
-<li>More file-, session-, volume-, researcher-, and institution- analytics.</li>
-<li>Private volumes for peer review.</li>
-</ul>
 
 
+</section>
 </section>
 </section>
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn1"><p><em>Affiliates</em> will be replaced by new term: <em>Sponsored Researchers</em> in Databrary 2.0<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>2024-04-17 meeting<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>https://www.nyu.edu/life/information-technology/safe-computing/protect-your-privacy/secure-your-passwords.html<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>2024-04-17 determined that 2FA via email and SMS should be implemented.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
@@ -1245,8 +974,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../more-information/references.html" class="pagination-link" aria-label="References">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../more-information/db-2.0.html" class="pagination-link" aria-label="Databrary 2.0">
+        <span class="nav-page-text">Databrary 2.0</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
