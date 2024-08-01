@@ -29,6 +29,16 @@ img {
   height: auto; 
 }
 
+.remove-feature {
+  color: red;
+  font-weight: bold;
+}
+
+.add-feature {
+  color: green;
+  font-weight: bold;
+}
+
 # Q&A
 
 .question {

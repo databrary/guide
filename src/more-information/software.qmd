@@ -160,12 +160,13 @@ The *Authorized Investigator* determines what access an *Affiliate* has1. Other 
 A user may be given privileges to a Volume by an *Authorized Investigator*.
 
 - *No access* (default)
-<!-- - *View and access only public data* (Level visible only to Super User; probably should deprecate or eliminate.) -->
-<!-- - *View and access only shared data*: (Level visible only to Super User; probably should deprecate or eliminate.) -->
+- *View and access only public data* (Level visible only to Super User; probably should deprecate or eliminate.)
+- *View and access only shared data*: (Level visible only to Super User; probably should deprecate or eliminate.)
 - *Read-only access*
 - *Read/write access*
 - *Manager*
   - Read, write, create volumes, and change volume access (change sharing)
+  - Extend privileges to Affiliates.
 
 ## Databrary 2.0
 
@@ -197,36 +198,18 @@ Once internal licensing discussions have concluded, we may make the repositories
 
 ### Brainstorming
 
-The following are proposals for discussion, but not requirements for Databrary 2.0.
+The following are proposals for discussion, but not yet requirements for Databrary 2.0.
 
 ### User Access Privileges
 
 ~~*Affiliate*~~ *Supervised Researcher* access expires after a user-defined date that is no longer than one year from the date of the last update.
 
-#### *Affiliate access to an *Authorized Investigator*'s data
-
-A user may be given privileges to a Volume by an *Authorized Investigator*.
-
-- *No access* (default)
-<!-- - *View and access only public data* (Level visible only to Super User; probably should deprecate or eliminate.) -->
-<!-- - *View and access only shared data*: (Level visible only to Super User; probably should deprecate or eliminate.) -->
-- *Read-only access*
-- *Read/write access*
-- *Manager*
-  - Read, write, create **Private** volumes~~, and change volume access (change sharing)~~
-
-::: {.callout-note}
-
-Per 2024-05-08 meeting with Montrose, we are likely to implement separate categories for Affiliate privileges "Read", "Write", and "Create" and enable various combinations of these, such as "Create" only or "Create" plus "Read" but not write.
-
-:::
-
 
 #### Volumes
 
-- (New) Set default visibility/access to *Private* (not *Volume Overview*)
-- (New) Only *Authorized Investigators* with *Investigator* privileges can delete a *Private* *Volume*.
-- (New) Shared (*Volume Overview* or *Entire Volume Shared*) *Volumes* may **hide** data but not delete the volume. Hidden volumes will have the following message: "This volume was hidden on <date> by <user>."
+- ([New]{.add-feature}) Set default visibility/access to *Private* (not *Volume Overview*)
+- ([New]{.add-feature}) Only *Authorized Investigators* with *Investigator* privileges can delete a *Private* *Volume*.
+- ([New]{.add-feature}) Shared (*Volume Overview* or *Entire Volume Shared*) *Volumes* may **hide** data but not delete the volume. Hidden volumes will have the following message: "This volume was hidden on <date> by <user>."
   - Can one *Authorized Investigator* hide a volume, or must all *Authorized Investigators* with share (*Investigator*) privileges agree?
   
 ::: {.callout-warning}
@@ -245,7 +228,7 @@ There is likely to be a single owner to simplify various roles, but we will have
   
 ### Requirements
 
-This section provides additional information about the requirements for specific workflows in the Databrary 2.0 application
+This section provides additional information about the requirements for specific aspects of the Databrary 2.0 application.
 
 #### Schema
 
@@ -253,6 +236,34 @@ The Databrary 1.0 schema can be found [here](https://github.com/databrary/databr
 
 Montrose ^[2024-04-17 meeting] recommends that we implement separate tables for `individuals` and `institutions`.
 These entities are combined into a single `party` table in the current schema.
+
+#### User Access Privileges
+
+##### *Affiliate access to an *Authorized Investigator*'s data
+
+A user may be given privileges to a *Volume* by an *Authorized Investigator*.
+
+- ([remove]{.remove-feature}) ~~*No access* (default)~~
+  - This is redundant for the UI. Remove it there. Retain for backend. 
+- ([remove]{.remove-feature}) ~~*View and access only public data*~~ (Level visible only to Super User; eliminate.)
+- ([remove]{.remove-feature}) ~~*View and access only shared data*~~ (Level visible only to Super User; eliminate.)
+- *Read-only access*
+- *Read/write access*
+- *Manager*
+  - Read, write, create **Private** volumes (([New]{.add-feature}) with supervising *Authorized Investigator as the owner*)
+  - ([remove]{.remove-feature}) ~~Manager ability to change volume access (change sharing)~~
+  - ([remove]{.remove-feature}) ~~Manager ability to extend access to *Affiliates*~~
+
+::: {.callout-note}
+
+Per 2024-05-08 meeting with Montrose, we are likely to implement separate categories for Affiliate privileges "Read", "Write", and "Create" and enable various combinations of these, such as "Create" only or "Create" plus "Read" but not write.
+
+:::
+
+##### Separate bibliographic contribution from access
+
+- ([New]{.add-feature}) Create bibliographic contributor field. Allow sorting of authors.
+- ([New]{.add-feature}) New volumes have a **single** owner who must be an Authorized Investigator.
 
 #### Registration workflow
 

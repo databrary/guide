@@ -573,12 +573,15 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="affiliate-access-to-an-authorized-investigators-data"><em>Affiliate access to an </em>Authorized Investigator*’s data</h4>
 <p>A user may be given privileges to a Volume by an <em>Authorized Investigator</em>.</p>
 <ul>
-<li><em>No access</em> (default) <!-- - *View and access only public data* (Level visible only to Super User; probably should deprecate or eliminate.) --> <!-- - *View and access only shared data*: (Level visible only to Super User; probably should deprecate or eliminate.) --></li>
+<li><em>No access</em> (default)</li>
+<li><em>View and access only public data</em> (Level visible only to Super User; probably should deprecate or eliminate.)</li>
+<li><em>View and access only shared data</em>: (Level visible only to Super User; probably should deprecate or eliminate.)</li>
 <li><em>Read-only access</em></li>
 <li><em>Read/write access</em></li>
 <li><em>Manager</em>
 <ul>
 <li>Read, write, create volumes, and change volume access (change sharing)</li>
+<li>Extend privileges to Affiliates.</li>
 </ul></li>
 </ul>
 </section>
@@ -617,21 +620,28 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="brainstorming" class="level3">
 <h3 class="anchored" data-anchor-id="brainstorming">Brainstorming</h3>
-<p>The following are proposals for discussion, but not requirements for Databrary 2.0.</p>
+<p>The following are proposals for discussion, but not yet requirements for Databrary 2.0.</p>
 </section>
 <section id="user-access-privileges-1" class="level3">
 <h3 class="anchored" data-anchor-id="user-access-privileges-1">User Access Privileges</h3>
 <p><del><em>Affiliate</em></del> <em>Supervised Researcher</em> access expires after a user-defined date that is no longer than one year from the date of the last update.</p>
 <section id="affiliate-access-to-an-authorized-investigators-data-1" class="level4">
 <h4 class="anchored" data-anchor-id="affiliate-access-to-an-authorized-investigators-data-1"><em>Affiliate access to an </em>Authorized Investigator*’s data</h4>
-<p>A user may be given privileges to a Volume by an <em>Authorized Investigator</em>.</p>
+<p>A user may be given privileges to a <em>Volume</em> by an <em>Authorized Investigator</em>.</p>
 <ul>
-<li><em>No access</em> (default) <!-- - *View and access only public data* (Level visible only to Super User; probably should deprecate or eliminate.) --> <!-- - *View and access only shared data*: (Level visible only to Super User; probably should deprecate or eliminate.) --></li>
+<li><del><em>No access</em> (default)</del>
+<ul>
+<li>This is redundant for the UI. Eliminate it from UI.</li>
+</ul></li>
+<li><del><em>View and access only public data</em></del> (Level visible only to Super User; eliminate.)</li>
+<li><del><em>View and access only shared data</em></del> (Level visible only to Super User; eliminate.)</li>
 <li><em>Read-only access</em></li>
 <li><em>Read/write access</em></li>
 <li><em>Manager</em>
 <ul>
-<li>Read, write, create <strong>Private</strong> volumes<del>, and change volume access (change sharing)</del></li>
+<li>Read, write, create <strong>Private</strong> volumes (with supervising <em>Authorized Investigator as the owner</em>)</li>
+<li>(<span class="remove-feature">remove</span>) Manager ability to change volume access (change sharing)</li>
+<li>(<span class="remove-feature">remove</span>) Manager ability to extend access to <em>Affiliates</em></li>
 </ul></li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -651,9 +661,9 @@ Note
 <section id="volumes" class="level4">
 <h4 class="anchored" data-anchor-id="volumes">Volumes</h4>
 <ul>
-<li>(New) Set default visibility/access to <em>Private</em> (not <em>Volume Overview</em>)</li>
-<li>(New) Only <em>Authorized Investigators</em> with <em>Investigator</em> privileges can delete a <em>Private</em> <em>Volume</em>.</li>
-<li>(New) Shared (<em>Volume Overview</em> or <em>Entire Volume Shared</em>) <em>Volumes</em> may <strong>hide</strong> data but not delete the volume. Hidden volumes will have the following message: “This volume was hidden on <date> by <user>.”
+<li>(<span class="add-feature">New</span>) Set default visibility/access to <em>Private</em> (not <em>Volume Overview</em>)</li>
+<li>(<span class="add-feature">New</span>) Only <em>Authorized Investigators</em> with <em>Investigator</em> privileges can delete a <em>Private</em> <em>Volume</em>.</li>
+<li>(<span class="add-feature">New</span>) Shared (<em>Volume Overview</em> or <em>Entire Volume Shared</em>) <em>Volumes</em> may <strong>hide</strong> data but not delete the volume. Hidden volumes will have the following message: “This volume was hidden on <date> by <user>.”
 <ul>
 <li>Can one <em>Authorized Investigator</em> hide a volume, or must all <em>Authorized Investigators</em> with share (<em>Investigator</em>) privileges agree?</li>
 </ul></user></date></li>
@@ -682,7 +692,7 @@ Warning
 </section>
 <section id="requirements" class="level3">
 <h3 class="anchored" data-anchor-id="requirements">Requirements</h3>
-<p>This section provides additional information about the requirements for specific workflows in the Databrary 2.0 application</p>
+<p>This section provides additional information about the requirements for specific aspects of the Databrary 2.0 application.</p>
 <section id="schema" class="level4">
 <h4 class="anchored" data-anchor-id="schema">Schema</h4>
 <p>The Databrary 1.0 schema can be found <a href="https://github.com/databrary/databrary/tree/master/schema">here</a>.</p>
