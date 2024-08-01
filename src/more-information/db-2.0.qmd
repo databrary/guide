@@ -195,13 +195,16 @@ Fields are as follows:
 
 - ([remove]{.remove-feature}): Keywords and Tags.
 - ([remove]{.remove-feature}): Bars that summarize spreadsheet metadata values.
-- ([remove]{.remove-feature}): Timeline.
 - ([remove]{.remove-feature}): File names sort by timestamp uploaded.
 - ([new]{.add-feature}): Better interface layout for previewing videos.
 - ([remove]{.remove-feature}): Video editing within viewer to create highlights.
 - ([new]{.add-feature}): Better interface layout for previewing videos.
 - ([change]{.change-feature}): Make "set as highlight" feature more visible
 - ([discuss]{.discuss-feature}): Simpler tablular interface viewing files, release level, highlight status, etc.
+
+![Timeline from <https://nyu.databrary.org/volume/339/slot/16961/->](img/volume-339-slot-16961.png){#fig-vol-339-slot-1681}
+
+- ([remove]{.remove-feature}): Timeline.
 
 ## Scoping
 
