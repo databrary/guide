@@ -220,24 +220,26 @@ Fields are as follows:
 
 ## Scoping
 
+### Databrary 2.0 rewrite
+
 While the core of Databrary 1.0 is understood and will be replicated in Databrary 2.0, some questions will be explored that relate to new features:
 
-### File uploads/downloads
+#### File uploads/downloads
 
 - ([discuss]{.discuss-feature}): Should video and audio transcoding be automatic or optional; if optional, how can transcoding be triggered?
   - Should transcoding be "premium" service?
 
-### Spreadsheet
+#### Spreadsheet
 
 - ([discuss]{.discuss-feature}): (What features of the existing session/slot spreadsheet interface for managing and visualizing demographic data can be implemented easily and at minimal cost using existing libraries?
 
 See also [below](db-2.0.qmd#support-for-open-data-schemas) section on support for schemas.
 
-### Security
+#### Security
 
 - ~~Can two-factor authentication be added? If so, at what cost?~~^[2024-04-17 determined that 2FA via email and SMS should be implemented.]
 
-### Admin/Superuser
+#### Admin/Superuser
 
 - ([discuss]{.discuss-feature}): Can per-institution (across users and projects), per-user (across projects) or per-project storage quotas be implemented? Can warnings be generated when storage amounts are nearing quotas? How could Super Users manage user requests to increase quotas?
 - ([discuss]{.discuss-feature}): Can a more informative administrative console be developed with by-volume, usage, and storage metrics, including shared vs. unshared data? If so, at what cost?
@@ -245,11 +247,13 @@ See also [below](db-2.0.qmd#support-for-open-data-schemas) section on support fo
 See also section [below](db-2.0.qmd#administrative-upgrades) about other administrative upgrades.
 This will probably get pushed to later.
 
-### Access to volumes
+#### Access to volumes
 
 - ([discuss]{.discuss-feature}): Volume access expires after a user-defined date that is no longer than one year from the date of the last update.
 
 ### Roadmap (>2.0)
+
+These ideas are on the longer-term roadmap.
 
 #### Support for open data schemas
 
