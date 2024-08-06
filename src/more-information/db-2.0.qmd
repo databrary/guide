@@ -261,8 +261,8 @@ This will probably get pushed to later.
   - [*Event*](https://schema.org/Intangible)
       - For a data collection session or change in status on the site.
   - [*Place*](https://schema.org/Place)
-  - [*Intangible*](https://schema.org/Intangible)
-  - The set of [Data Types](https://schema.org/DataType)
+      - Testing locations, geographical information, locations of institutions
+  - [Data Types](https://schema.org/DataType)
 
 ::: {.callout-note}
 These examples are not exhaustive.
