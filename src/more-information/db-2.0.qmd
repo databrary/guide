@@ -159,6 +159,10 @@ Fields are as follows:
 ![](img/manage-volume-enter-data.png)
 
 - ([discuss]{.discuss-feature}): How to simplify
+  - 2024-08-06: *Required* variables:
+    - File name
+    - Sharing release level
+    - File type (from extension)
 
 ![](img/manage-volume-add-links.png)
 
@@ -196,15 +200,23 @@ Fields are as follows:
 - ([remove]{.remove-feature}): Keywords and Tags.
 - ([remove]{.remove-feature}): Bars that summarize spreadsheet metadata values.
 - ([remove]{.remove-feature}): File names sort by timestamp uploaded.
-- ([new]{.add-feature}): Better interface layout for previewing videos.
 - ([remove]{.remove-feature}): Video editing within viewer to create highlights.
-- ([new]{.add-feature}): Better interface layout for previewing videos.
-- ([change]{.change-feature}): Make "set as highlight" feature more visible
-- ([discuss]{.discuss-feature}): Simpler tablular interface viewing files, release level, highlight status, etc.
+- ([discuss]{.discuss-feature}): Better interface layout for previewing videos.
+    - 2024-08-06
+        - ([change]{.change-feature}): Create pop-up window for previewing video/audio
+        - ([discuss]{.discuss-feature}): Could pop-up viewer allow other file-type "previews", e.g. PDF, docx, txt? Or push to later timepoint.
+- ([change]{.change-feature}): Make "set as highlight" feature more visible. This applies to a file.
+- ([change]{.change-feature}): Simpler tablular interface viewing files, release level, highlight status, etc.
+  - Columns include: File name, sharing release level, file type, size, last modified (optional)
+  - ([discuss]{.discuss-feature}): Move button to downloading single file to table
+
 
 ![Timeline from <https://nyu.databrary.org/volume/339/slot/16961/->](img/volume-339-slot-16961.png){#fig-vol-339-slot-1681}
-
 - ([remove]{.remove-feature}): Timeline.
+
+![](img/session-download-all-files-as-zip.png)
+
+- ([discuss]{.discuss-feature}): "Download all files as zip". With large sessions and/or large files, the zip files are also large and require application resources to create. Are there any third party libraries we could use that would off-load this process? *Note:* This problem is larger with the "Download all folders as zip" function on the volumes page.
 
 ## Scoping
 
