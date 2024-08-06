@@ -231,8 +231,79 @@ While the core of Databrary 1.0 is understood and will be replicated in Databrar
 
 ### Roadmap (>2.0)
 
-- "Virtual volumes" or cloned/copied datasets with links to original sources.
-- Version control.
-- Workspaces.
-- More file-, session-, volume-, researcher-, and institution- analytics.
-- Private volumes for peer review.
+#### Support for open data schemas
+
+- Databrary should eventually support standard schemas wherever practical, specifically in the [JSON-LD](https://json-ld.org) format. These should use [Schema.org](https://schema.org) properties.
+- Examples of properties that seem relevant to Databrary include:
+  - [*Person*](https://schema.org/Person)
+  - [*Creative Work*](https://schema.org/CreativeWork)
+    - [VideoObject](https://schema.org/VideoObject)
+  - [*Event*](https://schema.org/Intangible)
+      - For a data collection session or change in status on the site.
+  - [*Place*](https://schema.org/Place)
+  - [*Intangible*](https://schema.org/Intangible)
+  - The set of [Data Types](https://schema.org/DataType)
+
+::: {.callout-note}
+These examples are not exhaustive.
+:::
+
+Databrary should also support [NIH Common Data Elements (CDEs)](https://cde.nlm.nih.gov/home), especially for "spreadsheet" data elements.
+
+- Examples of CDE properties of a [*Person*](https://schema.org/Person)
+  - *Gender*: <https://cde.nlm.nih.gov/formView?tinyId=vx35JcbgJI>
+  - *Sex at Birth*: <https://cde.nlm.nih.gov/deView?tinyId=rGEh0ckdmr>
+  - *Race*: <https://cde.nlm.nih.gov/deView?tinyId=Fakc6Jy2x>
+  - *Race/Ethnicity Self-Identification*: <https://cde.nlm.nih.gov/deView?tinyId=LakF0YkywC>
+  - *Ethnicity*: <https://cde.nlm.nih.gov/deView?tinyId=PtRlg7yLP_>
+  - *Disabilities*: <https://cde.nlm.nih.gov/deView?tinyId=0md12WGtZXE>
+  - *Birth date*: <https://cde.nlm.nih.gov/deView?tinyId=X1mJv5j3jx>.
+  
+::: {.callout-note}
+There are a set of CDEs that NIH endorses. These should be the highest priority.
+:::
+
+#### Improved search and filtering
+
+Ideas from HNDS-I 2024 proposal:
+
+1. Broader set of demographic characteristics.
+2. Index other text documents in materials folders.
+
+##### Index annotation files, return segments
+
+> "Building on this foundation, we will upgrade Databrary to support searching within annotation files linked to videos that tag specific behaviors, utterances, or contexts, starting with the most popular annotation file formats stored on Databrary (Datavyu and CHAT)"
+
+--- HNDS-I proposal.
+
+#### "Virtual volumes" or custom collections
+
+>To capitalize on enhanced search and filtering and ease data reuse, users must be able to create their own custom collections of video files, video segments, annotations, and other data derived from multiple, primary datasets. The custom collections or “virtual datasets” will link to but not copy parent datasets and their associated metadata.
+
+--- HNDS-I proposal.
+
+#### Workspaces
+
+>...We will implement private, flexible, temporary workspaces for datasets that act like folders in cloud storage. Unlike other forms of cloud storage that provide only a temporary home for research data, Databrary’s workspaces will provide a permanent and flexible home that is just a button press away from being made accessible to the broader research community.
+
+-- HNDS-I proposal.
+
+#### Expanding scriptable access
+
+>...We will build on the free, open-source, R package, *databraryr*, that PI Gilmore developed with NSF support and openly released to the research community. Databraryr wraps Databrary API calls into commands that are useful to researchers who want to download shared data from Databrary. We will add data uploading capabilities to the R package to support Aim 3, develop and publish a parallel Python package, *databrarypy*.
+
+-- HNDS-I proposal.
+
+#### Administrative upgrades
+
+- Quotas on per-user, per-institution storage footprints.
+- Infrastructure for managing subscriptions, curation assistance, data deposit fees.
+- Links to institutional admin panel functions; data footprint, etc.
+
+#### Version control
+
+[Zenodo](https://zenodo.org) and [OSF](https://osf.io) implement this.
+
+#### Private volumes for peer review
+
+[OSF](https://osf.io) implements this.

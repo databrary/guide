@@ -398,7 +398,17 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#scoping" id="toc-scoping" class="nav-link" data-scroll-target="#scoping">Scoping</a>
   <ul>
-  <li><a href="#roadmap-2.0" id="toc-roadmap-2.0" class="nav-link" data-scroll-target="#roadmap-2.0">Roadmap (&gt;2.0)</a></li>
+  <li><a href="#roadmap-2.0" id="toc-roadmap-2.0" class="nav-link" data-scroll-target="#roadmap-2.0">Roadmap (&gt;2.0)</a>
+  <ul class="collapse">
+  <li><a href="#support-for-open-data-schemas" id="toc-support-for-open-data-schemas" class="nav-link" data-scroll-target="#support-for-open-data-schemas">Support for open data schemas</a></li>
+  <li><a href="#improved-search-and-filtering" id="toc-improved-search-and-filtering" class="nav-link" data-scroll-target="#improved-search-and-filtering">Improved search and filtering</a></li>
+  <li><a href="#virtual-volumes-or-custom-collections" id="toc-virtual-volumes-or-custom-collections" class="nav-link" data-scroll-target="#virtual-volumes-or-custom-collections">“Virtual volumes” or custom collections</a></li>
+  <li><a href="#workspaces" id="toc-workspaces" class="nav-link" data-scroll-target="#workspaces">Workspaces</a></li>
+  <li><a href="#expanding-scriptable-access" id="toc-expanding-scriptable-access" class="nav-link" data-scroll-target="#expanding-scriptable-access">Expanding scriptable access</a></li>
+  <li><a href="#administrative-upgrades" id="toc-administrative-upgrades" class="nav-link" data-scroll-target="#administrative-upgrades">Administrative upgrades</a></li>
+  <li><a href="#version-control" id="toc-version-control" class="nav-link" data-scroll-target="#version-control">Version control</a></li>
+  <li><a href="#private-volumes-for-peer-review" id="toc-private-volumes-for-peer-review" class="nav-link" data-scroll-target="#private-volumes-for-peer-review">Private volumes for peer review</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/more-information/db-2.0.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -726,15 +736,120 @@ Note
 </ul>
 <section id="roadmap-2.0" class="level3">
 <h3 class="anchored" data-anchor-id="roadmap-2.0">Roadmap (&gt;2.0)</h3>
+<section id="support-for-open-data-schemas" class="level4">
+<h4 class="anchored" data-anchor-id="support-for-open-data-schemas">Support for open data schemas</h4>
 <ul>
-<li>“Virtual volumes” or cloned/copied datasets with links to original sources.</li>
-<li>Version control.</li>
-<li>Workspaces.</li>
-<li>More file-, session-, volume-, researcher-, and institution- analytics.</li>
-<li>Private volumes for peer review.</li>
+<li>Databrary should eventually support standard schemas wherever practical, specifically in the <a href="https://json-ld.org">JSON-LD</a> format. These should use <a href="https://schema.org">Schema.org</a> properties.</li>
+<li>Examples of properties that seem relevant to Databrary include:
+<ul>
+<li><a href="https://schema.org/Person"><em>Person</em></a></li>
+<li><a href="https://schema.org/CreativeWork"><em>Creative Work</em></a>
+<ul>
+<li><a href="https://schema.org/VideoObject">VideoObject</a></li>
+</ul></li>
+<li><a href="https://schema.org/Intangible"><em>Event</em></a>
+<ul>
+<li>For a data collection session or change in status on the site.</li>
+</ul></li>
+<li><a href="https://schema.org/Place"><em>Place</em></a></li>
+<li><a href="https://schema.org/Intangible"><em>Intangible</em></a></li>
+<li>The set of <a href="https://schema.org/DataType">Data Types</a></li>
+</ul></li>
 </ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>These examples are not exhaustive.</p>
+</div>
+</div>
+<p>Databrary should also support <a href="https://cde.nlm.nih.gov/home">NIH Common Data Elements (CDEs)</a>, especially for “spreadsheet” data elements.</p>
+<ul>
+<li>Examples of CDE properties of a <a href="https://schema.org/Person"><em>Person</em></a>
+<ul>
+<li><em>Gender</em>: <a href="https://cde.nlm.nih.gov/formView?tinyId=vx35JcbgJI" class="uri">https://cde.nlm.nih.gov/formView?tinyId=vx35JcbgJI</a></li>
+<li><em>Sex at Birth</em>: <a href="https://cde.nlm.nih.gov/deView?tinyId=rGEh0ckdmr" class="uri">https://cde.nlm.nih.gov/deView?tinyId=rGEh0ckdmr</a></li>
+<li><em>Race</em>: <a href="https://cde.nlm.nih.gov/deView?tinyId=Fakc6Jy2x" class="uri">https://cde.nlm.nih.gov/deView?tinyId=Fakc6Jy2x</a></li>
+<li><em>Race/Ethnicity Self-Identification</em>: <a href="https://cde.nlm.nih.gov/deView?tinyId=LakF0YkywC" class="uri">https://cde.nlm.nih.gov/deView?tinyId=LakF0YkywC</a></li>
+<li><em>Ethnicity</em>: <a href="https://cde.nlm.nih.gov/deView?tinyId=PtRlg7yLP_" class="uri">https://cde.nlm.nih.gov/deView?tinyId=PtRlg7yLP_</a></li>
+<li><em>Disabilities</em>: <a href="https://cde.nlm.nih.gov/deView?tinyId=0md12WGtZXE" class="uri">https://cde.nlm.nih.gov/deView?tinyId=0md12WGtZXE</a></li>
+<li><em>Birth date</em>: <a href="https://cde.nlm.nih.gov/deView?tinyId=X1mJv5j3jx" class="uri">https://cde.nlm.nih.gov/deView?tinyId=X1mJv5j3jx</a>.</li>
+</ul></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>There are a set of CDEs that NIH endorses. These should be the highest priority.</p>
+</div>
+</div>
+</section>
+<section id="improved-search-and-filtering" class="level4">
+<h4 class="anchored" data-anchor-id="improved-search-and-filtering">Improved search and filtering</h4>
+<p>Ideas from HNDS-I 2024 proposal:</p>
+<ol type="1">
+<li>Broader set of demographic characteristics.</li>
+<li>Index other text documents in materials folders.</li>
+</ol>
+<section id="index-annotation-files-return-segments" class="level5">
+<h5 class="anchored" data-anchor-id="index-annotation-files-return-segments">Index annotation files, return segments</h5>
+<blockquote class="blockquote">
+<p>“Building on this foundation, we will upgrade Databrary to support searching within annotation files linked to videos that tag specific behaviors, utterances, or contexts, starting with the most popular annotation file formats stored on Databrary (Datavyu and CHAT)”</p>
+</blockquote>
+<p>— HNDS-I proposal.</p>
+</section>
+</section>
+<section id="virtual-volumes-or-custom-collections" class="level4">
+<h4 class="anchored" data-anchor-id="virtual-volumes-or-custom-collections">“Virtual volumes” or custom collections</h4>
+<blockquote class="blockquote">
+<p>To capitalize on enhanced search and filtering and ease data reuse, users must be able to create their own custom collections of video files, video segments, annotations, and other data derived from multiple, primary datasets. The custom collections or “virtual datasets” will link to but not copy parent datasets and their associated metadata.</p>
+</blockquote>
+<p>— HNDS-I proposal.</p>
+</section>
+<section id="workspaces" class="level4">
+<h4 class="anchored" data-anchor-id="workspaces">Workspaces</h4>
+<blockquote class="blockquote">
+<p>…We will implement private, flexible, temporary workspaces for datasets that act like folders in cloud storage. Unlike other forms of cloud storage that provide only a temporary home for research data, Databrary’s workspaces will provide a permanent and flexible home that is just a button press away from being made accessible to the broader research community.</p>
+</blockquote>
+<p>– HNDS-I proposal.</p>
+</section>
+<section id="expanding-scriptable-access" class="level4">
+<h4 class="anchored" data-anchor-id="expanding-scriptable-access">Expanding scriptable access</h4>
+<blockquote class="blockquote">
+<p>…We will build on the free, open-source, R package, <em>databraryr</em>, that PI Gilmore developed with NSF support and openly released to the research community. Databraryr wraps Databrary API calls into commands that are useful to researchers who want to download shared data from Databrary. We will add data uploading capabilities to the R package to support Aim 3, develop and publish a parallel Python package, <em>databrarypy</em>.</p>
+</blockquote>
+<p>– HNDS-I proposal.</p>
+</section>
+<section id="administrative-upgrades" class="level4">
+<h4 class="anchored" data-anchor-id="administrative-upgrades">Administrative upgrades</h4>
+<ul>
+<li>Quotas on per-user, per-institution storage footprints.</li>
+<li>Infrastructure for managing subscriptions, curation assistance, data deposit fees.</li>
+<li>Links to institutional admin panel functions; data footprint, etc.</li>
+</ul>
+</section>
+<section id="version-control" class="level4">
+<h4 class="anchored" data-anchor-id="version-control">Version control</h4>
+<p><a href="https://zenodo.org">Zenodo</a> and <a href="https://osf.io">OSF</a> implement this.</p>
+</section>
+<section id="private-volumes-for-peer-review" class="level4">
+<h4 class="anchored" data-anchor-id="private-volumes-for-peer-review">Private volumes for peer review</h4>
+<p><a href="https://osf.io">OSF</a> implements this.</p>
 
 
+</section>
 </section>
 </section>
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
