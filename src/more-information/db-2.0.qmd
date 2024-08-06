@@ -282,9 +282,11 @@ Databrary should also support [NIH Common Data Elements (CDEs)](https://cde.nlm.
   - *Ethnicity*: <https://cde.nlm.nih.gov/deView?tinyId=PtRlg7yLP_>
   - *Disabilities*: <https://cde.nlm.nih.gov/deView?tinyId=0md12WGtZXE>
   - *Birth date*: <https://cde.nlm.nih.gov/deView?tinyId=X1mJv5j3jx>.
+  - *List of languages*: <https://cde.nlm.nih.gov/deView?tinyId=7JDyF9o3ie>
+    - *Language secondary text*: <https://cde.nlm.nih.gov/deView?tinyId=mJsWHcxje9W>
   
 ::: {.callout-note}
-There are a set of CDEs that NIH endorses. These should be the highest priority.
+There are a set of CDEs that NIH endorses. These should probably be the highest priority.
 :::
 
 #### Improved search and filtering
