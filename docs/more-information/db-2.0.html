@@ -398,6 +398,11 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#scoping" id="toc-scoping" class="nav-link" data-scroll-target="#scoping">Scoping</a>
   <ul>
+  <li><a href="#file-uploadsdownloads" id="toc-file-uploadsdownloads" class="nav-link" data-scroll-target="#file-uploadsdownloads">File uploads/downloads</a></li>
+  <li><a href="#spreadsheet" id="toc-spreadsheet" class="nav-link" data-scroll-target="#spreadsheet">Spreadsheet</a></li>
+  <li><a href="#security" id="toc-security" class="nav-link" data-scroll-target="#security">Security</a></li>
+  <li><a href="#adminsuperuser" id="toc-adminsuperuser" class="nav-link" data-scroll-target="#adminsuperuser">Admin/Superuser</a></li>
+  <li><a href="#access-to-volumes" id="toc-access-to-volumes" class="nav-link" data-scroll-target="#access-to-volumes">Access to volumes</a></li>
   <li><a href="#roadmap-2.0" id="toc-roadmap-2.0" class="nav-link" data-scroll-target="#roadmap-2.0">Roadmap (&gt;2.0)</a>
   <ul class="collapse">
   <li><a href="#support-for-open-data-schemas" id="toc-support-for-open-data-schemas" class="nav-link" data-scroll-target="#support-for-open-data-schemas">Support for open data schemas</a></li>
@@ -726,14 +731,42 @@ Note
 <section id="scoping" class="level2">
 <h2 class="anchored" data-anchor-id="scoping">Scoping</h2>
 <p>While the core of Databrary 1.0 is understood and will be replicated in Databrary 2.0, some questions will be explored that relate to new features:</p>
+<section id="file-uploadsdownloads" class="level3">
+<h3 class="anchored" data-anchor-id="file-uploadsdownloads">File uploads/downloads</h3>
 <ul>
-<li>(<span class="discuss-feature">discuss</span>): Should video and audio transcoding be automatic or optional; if optional, how can transcoding be triggered?</li>
+<li>(<span class="discuss-feature">discuss</span>): Should video and audio transcoding be automatic or optional; if optional, how can transcoding be triggered?
+<ul>
+<li>Should transcoding be “premium” service?</li>
+</ul></li>
+</ul>
+</section>
+<section id="spreadsheet" class="level3">
+<h3 class="anchored" data-anchor-id="spreadsheet">Spreadsheet</h3>
+<ul>
 <li>(<span class="discuss-feature">discuss</span>): (What features of the existing session/slot spreadsheet interface for managing and visualizing demographic data can be implemented easily and at minimal cost using existing libraries?</li>
+</ul>
+<p>See also <a href="../more-information/db-2.0.html#support-for-open-data-schemas">below</a> section on support for schemas.</p>
+</section>
+<section id="security" class="level3">
+<h3 class="anchored" data-anchor-id="security">Security</h3>
+<ul>
 <li><del>Can two-factor authentication be added? If so, at what cost?</del><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></li>
+</ul>
+</section>
+<section id="adminsuperuser" class="level3">
+<h3 class="anchored" data-anchor-id="adminsuperuser">Admin/Superuser</h3>
+<ul>
 <li>(<span class="discuss-feature">discuss</span>): Can per-institution (across users and projects), per-user (across projects) or per-project storage quotas be implemented? Can warnings be generated when storage amounts are nearing quotas? How could Super Users manage user requests to increase quotas?</li>
 <li>(<span class="discuss-feature">discuss</span>): Can a more informative administrative console be developed with by-volume, usage, and storage metrics, including shared vs.&nbsp;unshared data? If so, at what cost?</li>
+</ul>
+<p>See also section <a href="../more-information/db-2.0.html#administrative-upgrades">below</a> about other administrative upgrades. This will probably get pushed to later.</p>
+</section>
+<section id="access-to-volumes" class="level3">
+<h3 class="anchored" data-anchor-id="access-to-volumes">Access to volumes</h3>
+<ul>
 <li>(<span class="discuss-feature">discuss</span>): Volume access expires after a user-defined date that is no longer than one year from the date of the last update.</li>
 </ul>
+</section>
 <section id="roadmap-2.0" class="level3">
 <h3 class="anchored" data-anchor-id="roadmap-2.0">Roadmap (&gt;2.0)</h3>
 <section id="support-for-open-data-schemas" class="level4">

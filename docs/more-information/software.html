@@ -373,25 +373,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#databrary-1.0" id="toc-databrary-1.0" class="nav-link active" data-scroll-target="#databrary-1.0">Databrary 1.0</a>
+  <li><a href="#technology-stack" id="toc-technology-stack" class="nav-link active" data-scroll-target="#technology-stack">Technology Stack</a>
   <ul>
   <li><a href="#frontend" id="toc-frontend" class="nav-link" data-scroll-target="#frontend">Frontend</a></li>
   <li><a href="#backend" id="toc-backend" class="nav-link" data-scroll-target="#backend">Backend</a></li>
+  </ul></li>
   <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application">Application</a></li>
   <li><a href="#sharing-release-levels" id="toc-sharing-release-levels" class="nav-link" data-scroll-target="#sharing-release-levels">Sharing Release Levels</a></li>
   <li><a href="#api" id="toc-api" class="nav-link" data-scroll-target="#api">API</a></li>
   <li><a href="#backend-services" id="toc-backend-services" class="nav-link" data-scroll-target="#backend-services">Backend Services</a></li>
   <li><a href="#system-roles" id="toc-system-roles" class="nav-link" data-scroll-target="#system-roles">System roles</a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#super-user" id="toc-super-user" class="nav-link" data-scroll-target="#super-user">Super user</a></li>
   <li><a href="#user" id="toc-user" class="nav-link" data-scroll-target="#user">User</a></li>
   </ul></li>
   <li><a href="#volume-sharing-levels" id="toc-volume-sharing-levels" class="nav-link" data-scroll-target="#volume-sharing-levels">Volume Sharing Levels</a></li>
-  <li><a href="#user-access-privileges" id="toc-user-access-privileges" class="nav-link" data-scroll-target="#user-access-privileges">User Access Privileges</a>
-  <ul class="collapse">
+  <li><a href="#user-access-privileges-to-volumes" id="toc-user-access-privileges-to-volumes" class="nav-link" data-scroll-target="#user-access-privileges-to-volumes">User Access Privileges to Volumes</a>
+  <ul>
   <li><a href="#affiliate-access-to-others-data" id="toc-affiliate-access-to-others-data" class="nav-link" data-scroll-target="#affiliate-access-to-others-data"><em>Affiliate</em> access to other’s data</a></li>
   <li><a href="#affiliate-access-to-an-authorized-investigators-data" id="toc-affiliate-access-to-an-authorized-investigators-data" class="nav-link" data-scroll-target="#affiliate-access-to-an-authorized-investigators-data"><em>Affiliate access to an </em>Authorized Investigator*’s data</a></li>
-  </ul></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/more-information/software.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -419,8 +419,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>This page describes some useful information about Databrary’s software.</p>
-<section id="databrary-1.0" class="level2">
-<h2 class="anchored" data-anchor-id="databrary-1.0">Databrary 1.0</h2>
+<section id="technology-stack" class="level2">
+<h2 class="anchored" data-anchor-id="technology-stack">Technology Stack</h2>
 <p>The Databrary application runs on a virtual machine running CentOS managed by NYU IT. Automatic transcoding of all uploaded video and audio files is handled by NYU’s High Performance Computing (HPC) cluster. Data is stored in Isilon arrays that are managed by the NYU Libraries.</p>
 <section id="frontend" class="level3">
 <h3 class="anchored" data-anchor-id="frontend">Frontend</h3>
@@ -441,13 +441,14 @@ ul.task-list li input[type="checkbox"] {
 <li>FFmpeg 4.2.4</li>
 </ul>
 </section>
-<section id="application" class="level3">
-<h3 class="anchored" data-anchor-id="application">Application</h3>
+</section>
+<section id="application" class="level2">
+<h2 class="anchored" data-anchor-id="application">Application</h2>
 <p>Datasets are organized into separate <a href="../more-information/references.html#volume"><em>volumes</em></a> with system-wide unique (integer) identifiers. Groups of data files related to a specific person or people (or non-human animal), a date, time, and location are grouped into <a href="../more-information/references.html#session"><em>sessions</em></a> (<a href="../more-information/references.html#slot"><em>slots</em></a>) within a volume. Individual files (<a href="../more-information/definitions.html#asset"><em>assets</em></a>) of varying types are organized within a session (slot). Sessions (slots) and files (assets) are assigned system-wide unique (integer) identifiers.</p>
 <p>Individual users and institutions (called <em>parties</em>) are assigned system-wide unique identifiers and have some overlapping data elements (e.g., prename, sortname). Access privileges are granted hierarchically in a parent/child organization. For example, Databrary is the parent of New York University (NYU); NYU is the parent of Karen Adolph and multiple other <em>Authorized Investigators</em>; Karen Adolph is the parent of multiple Affiliate investigators who have broad access to volumes Dr.&nbsp;Adolph has created. Further details about how <em>Authorized Investigators</em> assign access permission to <em>Affiliates</em> can be found in the <a href="../more-information/software.html#system-roles">System Roles</a> section below.</p>
 </section>
-<section id="sharing-release-levels" class="level3">
-<h3 class="anchored" data-anchor-id="sharing-release-levels">Sharing Release Levels</h3>
+<section id="sharing-release-levels" class="level2">
+<h2 class="anchored" data-anchor-id="sharing-release-levels">Sharing Release Levels</h2>
 <p>Restricted data and metadata are controlled by a specific set of <a href="https://databrary.org/support/irb/release-levels.html">sharing release levels</a>. These levels apply at the session/slot and file/asset level. Newly uploaded files default to <em>Private</em>. The <a href="../more-information/definitions.html">terminology</a> associated with these levels, the icons used to identify the levels, and the level of user access permitted by the levels are deeply embedded in the Databrary policy framework.</p>
 <ul>
 <li><img src="https://nyu.databrary.org/web/icons/release/unknown.svg" class="icon img-fluid"> : <em>Unknown</em></li>
@@ -457,23 +458,23 @@ ul.task-list li input[type="checkbox"] {
 <li><img src="https://nyu.databrary.org/web/icons/release/public.svg" class="icon img-fluid"> : <em>Public</em></li>
 </ul>
 </section>
-<section id="api" class="level3">
-<h3 class="anchored" data-anchor-id="api">API</h3>
+<section id="api" class="level2">
+<h2 class="anchored" data-anchor-id="api">API</h2>
 <p>All Databrary frontend calls use the API. The volume/slot/asset identifier scheme described previously supports API calls of the following form:</p>
 <p>https://nyu.databrary.org/volume/1/slot/9807?asset=9200</p>
 <p>This call accesses the Databrary “leaf” logo in volume 1, slot (session) 9807, with asset ID 9200. Similarly, https://nyu.databrary.org/party/12 returns information about all of the <em>Authorized Investigators</em> who are authorized through party 12, The Pennsylvania State University.</p>
 <p>Most, but not all of the Databrary API is <a href="https://github.com/databrary/route-doc">documented</a>. If it is necessary to change the API calls in the rewrite, then the API should be versioned, and the new system should support current API calls.</p>
 </section>
-<section id="backend-services" class="level3">
-<h3 class="anchored" data-anchor-id="backend-services">Backend Services</h3>
+<section id="backend-services" class="level2">
+<h2 class="anchored" data-anchor-id="backend-services">Backend Services</h2>
 <p>All audio and video files uploaded automatically generate transcoding jobs that are handled by the NYU HPC.</p>
 <p>The system mints a Digital Object Identifier (DOI) when a volume is shared. This must continue. Databrary piggybacks on the DOI account controlled by NYU Libraries.</p>
 <p>The system generates and updates standard bibliographic citations for a volume based on volume data and metadata.</p>
 </section>
-<section id="system-roles" class="level3">
-<h3 class="anchored" data-anchor-id="system-roles">System roles</h3>
-<section id="super-user" class="level4">
-<h4 class="anchored" data-anchor-id="super-user">Super user</h4>
+<section id="system-roles" class="level2">
+<h2 class="anchored" data-anchor-id="system-roles">System roles</h2>
+<section id="super-user" class="level3">
+<h3 class="anchored" data-anchor-id="super-user">Super user</h3>
 <p>The system supports a small number of <em>Super User</em> accounts. Only an existing <em>Super User</em> can grant <em>Super User</em> privileges to another account holder. <em>Super User</em> have the following privileges:</p>
 <ul>
 <li>Editing user (party) account information</li>
@@ -484,8 +485,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Generating email related to the process for requesting authorization from an institution for specific users</li>
 </ul>
 </section>
-<section id="user" class="level4">
-<h4 class="anchored" data-anchor-id="user">User</h4>
+<section id="user" class="level3">
+<h3 class="anchored" data-anchor-id="user">User</h3>
 <p>The system supports user accounts with the following features and privileges:</p>
 <ul>
 <li>Account creation</li>
@@ -511,8 +512,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 </section>
-<section id="volume-sharing-levels" class="level3">
-<h3 class="anchored" data-anchor-id="volume-sharing-levels">Volume Sharing Levels</h3>
+<section id="volume-sharing-levels" class="level2">
+<h2 class="anchored" data-anchor-id="volume-sharing-levels">Volume Sharing Levels</h2>
 <ul>
 <li>See <a href="../more-information/definitions.html#volume-sharing-levels">more-information/definitions</a>.</li>
 <li><img src="https://nyu.databrary.org/web/icons/volume-access-shared.svg" class="icon img-fluid">: <em>Private</em> (to research collaborators):</li>
@@ -541,19 +542,19 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="../include/img/db-gilmore-dashboard-volume-read-only.png" class="img-fluid"></p>
 <p>In this case, it looks like the volume has been fully shared (unlocked lock icon), so the user has full read access to the volume already. Prior to the volume being fully shared, the user had read-only access to the private data.</p>
 </section>
-<section id="user-access-privileges" class="level3">
-<h3 class="anchored" data-anchor-id="user-access-privileges">User Access Privileges</h3>
+<section id="user-access-privileges-to-volumes" class="level2">
+<h2 class="anchored" data-anchor-id="user-access-privileges-to-volumes">User Access Privileges to Volumes</h2>
 <p><img src="../include/img/db-authorized-investigator-manage-affiliates.png" class="img-fluid"> The <em>Authorized Investigator</em> determines what access an <em>Affiliate</em> has1. Other researcher’s (shared) data on Databrary and 2. the Authorized Investigator’s (shared and private) data.</p>
 <p><em>Affiliate</em> access expires after a user-defined date.</p>
-<section id="affiliate-access-to-others-data" class="level4">
-<h4 class="anchored" data-anchor-id="affiliate-access-to-others-data"><em>Affiliate</em> access to other’s data</h4>
+<section id="affiliate-access-to-others-data" class="level3">
+<h3 class="anchored" data-anchor-id="affiliate-access-to-others-data"><em>Affiliate</em> access to other’s data</h3>
 <ul>
 <li><em>No access</em> (default)</li>
 <li><em>Affiliate</em></li>
 </ul>
 </section>
-<section id="affiliate-access-to-an-authorized-investigators-data" class="level4">
-<h4 class="anchored" data-anchor-id="affiliate-access-to-an-authorized-investigators-data"><em>Affiliate access to an </em>Authorized Investigator*’s data</h4>
+<section id="affiliate-access-to-an-authorized-investigators-data" class="level3">
+<h3 class="anchored" data-anchor-id="affiliate-access-to-an-authorized-investigators-data"><em>Affiliate access to an </em>Authorized Investigator*’s data</h3>
 <p>A user may be given privileges to a Volume by an <em>Authorized Investigator</em>.</p>
 <ul>
 <li><em>No access</em> (default)</li>
@@ -569,7 +570,6 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 
 
-</section>
 </section>
 </section>
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
