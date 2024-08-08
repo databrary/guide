@@ -397,6 +397,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#sessions-interface" id="toc-sessions-interface" class="nav-link" data-scroll-target="#sessions-interface">Sessions interface</a></li>
   <li><a href="#super-useradmin-panel" id="toc-super-useradmin-panel" class="nav-link" data-scroll-target="#super-useradmin-panel">Super User/Admin panel</a></li>
   <li><a href="#user-profile" id="toc-user-profile" class="nav-link" data-scroll-target="#user-profile">User profile</a></li>
+  <li><a href="#api" id="toc-api" class="nav-link" data-scroll-target="#api">API</a></li>
   </ul></li>
   <li><a href="#scoping" id="toc-scoping" class="nav-link" data-scroll-target="#scoping">Scoping</a>
   <ul>
@@ -741,6 +742,14 @@ Note
 <li>(<span class="discuss-feature">discuss</span>): Toggle volume view between short-name and long name.</li>
 </ul>
 </section>
+<section id="api" class="level3">
+<h3 class="anchored" data-anchor-id="api">API</h3>
+<ul>
+<li>(<span class="discuss-feature">discuss</span>): Are we creating a new version of the API?</li>
+<li>(<span class="discuss-feature">discuss</span>): What are best practices for supporting external scripting access (via e.g., <em>databraryr</em> or <em>databrarypy</em>) while maintaining system security?</li>
+<li>(<span class="discuss-feature">discuss</span>): We have users who want Databrary to support <a href="https://aws.amazon.com/what-is/cross-origin-resource-sharing/">Cross-Origin Resource Sharing (CORS)</a>. How do we do this? Should it be on an application by application basis?</li>
+</ul>
+</section>
 </section>
 <section id="scoping" class="level2">
 <h2 class="anchored" data-anchor-id="scoping">Scoping</h2>
@@ -789,6 +798,8 @@ Note
 <p>These ideas are on the longer-term roadmap.</p>
 <section id="support-for-open-data-schemas" class="level4">
 <h4 class="anchored" data-anchor-id="support-for-open-data-schemas">Support for open data schemas</h4>
+<section id="json-ld" class="level5">
+<h5 class="anchored" data-anchor-id="json-ld">JSON-LD</h5>
 <ul>
 <li>Databrary should eventually support standard schemas wherever practical, specifically in the <a href="https://json-ld.org">JSON-LD</a> format. These should use <a href="https://schema.org">Schema.org</a> properties.</li>
 <li>Examples of properties that seem relevant to Databrary include:
@@ -822,8 +833,14 @@ Note
 <p>These examples are not exhaustive.</p>
 </div>
 </div>
-<p>Databrary should also support <a href="https://cde.nlm.nih.gov/home">NIH Common Data Elements (CDEs)</a>, especially for “spreadsheet” data elements.</p>
 <ul>
+<li>By support, I mean that the application should add relevant schema information to the JSON data provided by the API.</li>
+</ul>
+</section>
+<section id="nih-cde" class="level5">
+<h5 class="anchored" data-anchor-id="nih-cde">NIH CDE</h5>
+<ul>
+<li>Databrary should also support <a href="https://cde.nlm.nih.gov/home">NIH Common Data Elements (CDEs)</a>, especially for “spreadsheet” data elements.</li>
 <li>Examples of CDE properties of a <a href="https://schema.org/Person"><em>Person</em></a>
 <ul>
 <li><em>Gender</em>: <a href="https://cde.nlm.nih.gov/formView?tinyId=vx35JcbgJI" class="uri">https://cde.nlm.nih.gov/formView?tinyId=vx35JcbgJI</a></li>
@@ -852,13 +869,32 @@ Note
 <p>There are a set of CDEs that NIH endorses. These should probably be the highest priority.</p>
 </div>
 </div>
+<ul>
+<li>(<span class="discuss-feature">discuss</span>): Should specific data elements be represented in the database schema explicitly? Would doing so make it easier to search and filter data by these characteristics?</li>
+<li>(<span class="discuss-feature">discuss</span>): Should the database schema support linking data about the same individuals? This would require supporting something like the NIMH GUID, and possibly some additional data sharing consent language that permits data linkage.</li>
+<li>(<span class="discuss-feature">discuss</span>): Should <em>species</em> and other terms commonly used in non-human animal research be incorporated and supported.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>It does not appear that there are NIH-Endorsed elements that contain the term “species”.</p>
+</div>
+</div>
+</section>
 </section>
 <section id="improved-search-and-filtering" class="level4">
 <h4 class="anchored" data-anchor-id="improved-search-and-filtering">Improved search and filtering</h4>
 <p>Ideas from HNDS-I 2024 proposal:</p>
 <ol type="1">
 <li>Broader set of demographic characteristics.</li>
-<li>Index other text documents in materials folders.</li>
+<li>Index other text documents (protocols, coding manuals) in materials folders.</li>
 </ol>
 <section id="index-annotation-files-return-segments" class="level5">
 <h5 class="anchored" data-anchor-id="index-annotation-files-return-segments">Index annotation files, return segments</h5>

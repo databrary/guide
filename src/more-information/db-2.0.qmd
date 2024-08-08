@@ -224,6 +224,12 @@ Fields are as follows:
 
 - ([discuss]{.discuss-feature}): Toggle volume view between short-name and long name.
 
+### API
+
+- ([discuss]{.discuss-feature}): Are we creating a new version of the API?
+- ([discuss]{.discuss-feature}): What are best practices for supporting external scripting access (via e.g., *databraryr* or *databrarypy*) while maintaining system security?
+- ([discuss]{.discuss-feature}): We have users who want Databrary to support [Cross-Origin Resource Sharing (CORS)](https://aws.amazon.com/what-is/cross-origin-resource-sharing/). How do we do this? Should it be on an application by application basis?
+
 ## Scoping
 
 ### Databrary 2.0 rewrite
@@ -263,6 +269,8 @@ These ideas are on the longer-term roadmap.
 
 #### Support for open data schemas
 
+##### JSON-LD
+
 - Databrary should eventually support standard schemas wherever practical, specifically in the [JSON-LD](https://json-ld.org) format. These should use [Schema.org](https://schema.org) properties.
 - Examples of properties that seem relevant to Databrary include:
   - [*Person*](https://schema.org/Person)
@@ -278,8 +286,11 @@ These ideas are on the longer-term roadmap.
 These examples are not exhaustive.
 :::
 
-Databrary should also support [NIH Common Data Elements (CDEs)](https://cde.nlm.nih.gov/home), especially for "spreadsheet" data elements.
+- By support, I mean that the application should add relevant schema information to the JSON data provided by the API.
 
+##### NIH CDE
+
+- Databrary should also support [NIH Common Data Elements (CDEs)](https://cde.nlm.nih.gov/home), especially for "spreadsheet" data elements.
 - Examples of CDE properties of a [*Person*](https://schema.org/Person)
   - *Gender*: <https://cde.nlm.nih.gov/formView?tinyId=vx35JcbgJI>
   - *Sex at Birth*: <https://cde.nlm.nih.gov/deView?tinyId=rGEh0ckdmr>
@@ -295,12 +306,20 @@ Databrary should also support [NIH Common Data Elements (CDEs)](https://cde.nlm.
 There are a set of CDEs that NIH endorses. These should probably be the highest priority.
 :::
 
+- ([discuss]{.discuss-feature}): Should specific data elements be represented in the database schema explicitly? Would doing so make it easier to search and filter data by these characteristics?
+- ([discuss]{.discuss-feature}): Should the database schema support linking data about the same individuals? This would require supporting something like the NIMH GUID, and possibly some additional data sharing consent language that permits data linkage.
+- ([discuss]{.discuss-feature}): Should *species* and other terms commonly used in non-human animal research be incorporated and supported. 
+
+::: {.callout-note}
+It does not appear that there are NIH-Endorsed elements that contain the term "species".
+:::
+
 #### Improved search and filtering
 
 Ideas from HNDS-I 2024 proposal:
 
 1. Broader set of demographic characteristics.
-2. Index other text documents in materials folders.
+2. Index other text documents (protocols, coding manuals) in materials folders.
 
 ##### Index annotation files, return segments
 
