@@ -218,6 +218,12 @@ Fields are as follows:
 
 - ([discuss]{.discuss-feature}): "Download all files as zip". With large sessions and/or large files, the zip files are also large and require application resources to create. Are there any third party libraries we could use that would off-load this process? *Note:* This problem is larger with the "Download all folders as zip" function on the volumes page.
 
+### Super User/Admin panel
+
+### User profile
+
+- ([discuss]{.discuss-feature}): Toggle volume view between short-name and long name.
+
 ## Scoping
 
 ### Databrary 2.0 rewrite
