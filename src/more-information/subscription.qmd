@@ -1,0 +1,79 @@
+# Financial model
+
+## Background
+
+In 2025, Databrary will implement institutional subscriptions, data deposit fees,
+and a more consistent scheme for charging for curation services.
+
+## Benchmarks
+
+Databrary's model is based on our understanding of what comparable services have implemented.
+
+### arXiv
+
+[arXiv](https://arxiv.org) is a pre-print service based at Cornell University.
+
+Information about institutional membership and the benefits of joining are
+described [here](https://info.arxiv.org/about/membership.html).
+
+The basic scheme charges institutions based on their relative ranking of use.
+The top 100 pay 5,000/year; the next 400 pay 2,500/year; and the remainder pay 1,000/year.
+
+[Here](https://info.arxiv.org/about/ourmembers.html) is a list of the entities that provide support.
+
+arXiv also has additional information about their sustainability plan [here](https://info.arxiv.org/about/funding.html).
+
+### Dryad
+
+[Dryad](https://datadryad.org/) is an independent not-for-profit data archive.
+
+Dryad has implemented a membership model that is described [here](https://datadryad.org/stash/about#our-members).
+
+Members pay annual fees according to one of three levels depending on the size or intensity of use: 13,000 for large, 7,500 for medium, and 3,000 for small institutions.
+
+Dryad has also implemented a membership scheme for societies and publishers.
+
+#### Data deposit charges
+
+There are graduated data deposit fees based on the number of datasets.
+
+#### Other issues
+
+Dryad has guidelines for archiving human subjects [data](https://datadryad.org/docs/HumanSubjectsData.pdf). These include _not_ accepting video, audio, transcripts, and so forth.
+
+Dryad only accepts files with [CC0 licensing](https://creativecommons.org/publicdomain/zero/1.0/).
+
+Dryad has a relationship with [Zenodo](https://zenodo.org) for data that cannot be released under a CC0 license.
+
+### FigShare
+
+### ICPSR
+
+### Qualitative Data Repository (QDR)
+
+### Open Science Framework (OSF)
+
+#### Data storage/deposit fees
+
+OSF has a 50 GB/project free storage cap.
+Above 50 GB, projects are charged on a tiered basis ranging from $500 (up to 100 GB) to $4,000 for up to 1 TB.
+
+>The fees are for data storage on Google Cloud Platform, keeping 3 types of hashes (MD5, SHA-1, and SHA-256) for every file, coldline backups kept indefinitely, a portion of OSF maintenance to ensure performant access, a contribution to COS’s Preservation Fund which ensures read access to hosted data for 50+ years, and data hosting for sharing, accessing , discovery, and downloading. When you purchase a storage tier and pay the fee, your project cap will be set at that limit and you can use that storage amount on OSF without a recurring fee. Once that storage limit is met, you won’t be able to upload additional content without increasing your limit by paying for an additional storage tier.
+
+<https://www.cos.io/osf-usage>
+
+### Dataverse
+
+## Benefits
+
+Here are some possible benefits of institutional membership:
+
+- "Well-baby" annual data checkup/audit
+- Institutional dashboard with real-time data related to repository activity and contributions
+- Annual report of Databrary overall data holdings
+- Individualized institution report of their PIs and their data, including Authorized PIs and their affiliates for auditing, including funding sources
+- Transparency to federal funders related to projects in compliance with repository
+- 0.5 TB storage included (total? new deposits/year?)
+
+- Logo on website
+- Role in governance (as with ICPSR, Dryad, arXiv)?

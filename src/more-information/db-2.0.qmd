@@ -238,10 +238,12 @@ Fields are as follows:
 
 While the core of Databrary 1.0 is understood and will be replicated in Databrary 2.0, some questions will be explored that relate to new features:
 
-#### File uploads/downloads
+#### File uploads/downloads/transcoding
 
 - ([discuss]{.discuss-feature}): Should video and audio transcoding be automatic or optional; if optional, how can transcoding be triggered?
   - Should transcoding be "premium" service?
+- ([discuss]{.discuss-feature}): More generally, how can up separate uploading from transcoding?
+  - ([discuss]{.discuss-feature}): Can we generate and return a thumbnail of an uploaded video as soon as it is succesfully uploaded? Right now, the application returns a placeholder image and the user cannot 
 
 #### Spreadsheet
 
@@ -268,6 +270,7 @@ This will probably get pushed to later.
 ### Roadmap (>2.0)
 
 These ideas are on the longer-term roadmap.
+Some of them may be supported by proposals under review (e.g., HNDS-I or NYU TAC).
 
 #### Support for open data schemas
 
@@ -347,7 +350,20 @@ Ideas from HNDS-I 2024 proposal:
 
 -- HNDS-I proposal.
 
-#### Administrative upgrades
+::: {.callout-important}
+How do we permit scriptable access while protecting Databrary from unwanted "bot" access?
+
+Some users find that the web interface times out when they try to download large numbers or large files.
+:::
+
+#### More flexible downloading
+
+When users select sessions with large numbers or large files, the application creates a zip file.
+Generating that file consumes central app resources (compute and memory) and can cause long pauses in a user's experience with the app.
+
+A better solution would be to create the archive offline and notify the user when it is ready to download.
+
+#### Administrative panel upgrades
 
 - Quotas on per-user, per-institution storage footprints.
 - Infrastructure for managing subscriptions, curation assistance, data deposit fees.
@@ -360,3 +376,7 @@ Ideas from HNDS-I 2024 proposal:
 #### Private volumes for peer review
 
 [OSF](https://osf.io) implements this.
+
+#### Support for institutional subscriptions
+
+These features are described in a proposal submitted to NYU TAC in August 2024.
