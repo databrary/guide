@@ -279,7 +279,7 @@
     "href": "for-investigators/managing-people.html",
     "title": "Managing people",
     "section": "",
-    "text": "Collaborators\nCollaborator: an Authorized Investigator at your Institution or another Institution who - have already been granted Authorized Investigator Status on Databrary by their Institution - are working with you on the data volume\n- have PI status or you are eligible to conduct independent research at their Institution and the Institution accepts responsibility for its Authorized Investigators’ actions related to the use of Databrary\n- have all current research ethics training that addresses human subjects policy and issues required by your institution; and - are at an institution that maintains an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects,\nYou are not responsible for the use of Databrary by another individual that qualifies for Authorized Investigator approval by their home institution",
+    "text": "Collaborators\nCollaborator: an Authorized Investigator at your Institution or another Institution who - have already been granted Authorized Investigator Status on Databrary by their Institution - are working with you on the data volume\n- have PI status or you are eligible to conduct independent research at their Institution and the Institution accepts responsibility for its Authorized Investigators’ actions related to the use of Databrary\n- have all current research ethics training that addresses human subjects policy and issues required by your institution; and - are at an institution that maintains an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects,",
     "crumbs": [
       "For Investigators",
       "Managing people"
@@ -1453,6 +1453,17 @@
     "crumbs": [
       "More information",
       "Databrary 2.0"
+    ]
+  },
+  {
+    "objectID": "for-investigators/managing-people.html#collaborators",
+    "href": "for-investigators/managing-people.html#collaborators",
+    "title": "Managing people",
+    "section": "",
+    "text": "Important\n\n\n\nYou are not responsible for the use of Databrary by another individual who qualifies for Authorized Investigator approval at their home institution.",
+    "crumbs": [
+      "For Investigators",
+      "Managing people"
     ]
   }
 ]
