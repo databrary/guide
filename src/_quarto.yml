@@ -5,13 +5,19 @@ project:
 book:
   title: "Databrary Guide"
   cover-image: include/img/databrary-nav-sm.jpg
-  subtitle: "Share data & materials: Discover more, faster."
-  author: ["Rick Gilmore", "Andrea Seisler", "Melody Xu", "Yinghe Liu"]
+  # subtitle: "Share data & materials: Discover more, faster."
+  # author: ["Rick Gilmore", "Andrea Seisler", "Melody Xu", "Yinghe Liu"]
   date: last-modified
   chapters:
     - index.qmd # This is the file that contains the front matter, found in the root of the repository
-    - part: background/introduction.qmd
+    - part: getting-started/start.qmd
       chapters:
+        - getting-started/institutions.qmd
+        - getting-started/researchers.qmd
+        - getting-started/students.qmd
+    - part: background/about.qmd
+      chapters:
+      - background/origins-support.qmd
       - background/who-why.qmd
       - background/ethics.qmd
     - href: for-institutions/background.qmd

@@ -119,5 +119,35 @@
   },
   "more-information/db-2.0.qmd": {
     "db-2.0.html": "6c9ef172"
+  },
+  "getting-started/start.qmd": {
+    "start.html": "88ea9ce8"
+  },
+  "getting-started/institutions.qmd": {
+    "institutions.html": "b2923bd3"
+  },
+  "getting-started/researchers.qmd": {
+    "researchers.html": "ed17ed9d"
+  },
+  "getting-started/students.qmd": {
+    "students.html": "5dc9ff5f"
+  },
+  "institutions.qmd": {
+    "institutions.html": "12126606"
+  },
+  "researchers.qmd": {
+    "researchers.html": "e30d51a4"
+  },
+  "students.qmd": {
+    "students.html": "90ceb242"
+  },
+  "start.qmd": {
+    "start.html": "3631ed76"
+  },
+  "background/about.qmd": {
+    "about.html": "79e1a499"
+  },
+  "background/origins-support.qmd": {
+    "origins-support.html": "560302df"
   }
 }

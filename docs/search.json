@@ -576,9 +576,9 @@
     "href": "index.html",
     "title": "Databrary Guide",
     "section": "",
-    "text": "Preface\nThis document describes the Databrary.org data library and how to use it effectively as a tool for safely and securely sharing identifiable research data including video and audio.\nDatabrary is used by a large and growing community of researchers across the globe, including some large scale research projects (Soska et al., 2021) run by Databrary’s co-founders, Karen Adolph and Rick Gilmore, and their collaborators.\nDatabrary’s founders believe that the widespread use of video can improve the reproducibility of many different areas of research (Adolph, K.E., Gilmore, R.O., & Kennedy, J.L., 2017; Gilmore & Adolph, 2017).",
+    "text": "Welcome\nThis document describes the Databrary.org data library and how to use it effectively as a tool for safely and securely sharing identifiable research data including video and audio.\nDatabrary is used by a large and growing community of researchers across the globe, including some large scale research projects (Soska et al., 2021) run by Databrary’s co-founders, Karen Adolph and Rick Gilmore, and their collaborators.\nDatabrary’s founders believe that the widespread use and sharing of video can improve reproducibility and rigor of many different areas of research (Adolph, K.E., Gilmore, R.O., & Kennedy, J.L., 2017; Gilmore & Adolph, 2017).\nThis guide was written by Rick Gilmore, Andrea Seisler, Melody Xu, and Yinghe Liu.",
     "crumbs": [
-      "Preface"
+      "Welcome"
     ]
   },
   {
@@ -1464,6 +1464,219 @@
     "crumbs": [
       "For Investigators",
       "Managing people"
+    ]
+  },
+  {
+    "objectID": "getting-started/start.html",
+    "href": "getting-started/start.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "This section describes how to get started using Databrary.\nIf you represent an institution, see this section for information about how researchers gain access to Databrary via a formal process of institutional authorization.\nIf you are a researcher, see this section about how to start the authorization process with your institution.\nIf you are a research staff member, postdoc, graduate or undergraduate student, see this section for information about how to gain access to restricted data via your research supervisor.\nAny person may browse and view Databrary’s public materials consistent with the Terms & Conditions of Use.",
+    "crumbs": [
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "getting-started/students.html",
+    "href": "getting-started/students.html",
+    "title": "3  Students",
+    "section": "",
+    "text": "Eligibility\nDatabrary policies, your home institution, and the Authorized Investigator who supervises your research determine whether you are eligible to be granted access to Databrary as an Affiliate. Here are some factors that contribute to that determination:",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Students</span>"
+    ]
+  },
+  {
+    "objectID": "getting-started/students.html#eligibility",
+    "href": "getting-started/students.html#eligibility",
+    "title": "3  Students",
+    "section": "",
+    "text": "I conduct research under the supervision of an Authorized Investigator’s sponsorship or someone who is eligible to become an Authorized Investigator;\nI am a student, research staff, or post-doctoral researcher.\nI have current training that addresses research ethics with human subjects (e.g.CITI training.",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Students</span>"
+    ]
+  },
+  {
+    "objectID": "getting-started/students.html#seeking-authorization",
+    "href": "getting-started/students.html#seeking-authorization",
+    "title": "3  Students",
+    "section": "Seeking Authorization",
+    "text": "Seeking Authorization\nIf these factors apply to you, must register for Databrary, request authorization from your research supervisor, and secure that authorization. If your research supervisor is already a Databrary Authorized Investigator, that person will receive a request to add you to their list of sponsored Affiliate researchers. If your research supervisor is not a Databrary Authorized Investigator, they too will need to register for Databrary, request authorization from their institution, and secure authorization The authorization process involves approval from an institutional official by means of formal signatures on the Databrary Access Agreement and its Annexes.",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Students</span>"
+    ]
+  },
+  {
+    "objectID": "getting-started/researchers.html",
+    "href": "getting-started/researchers.html",
+    "title": "2  Researchers",
+    "section": "",
+    "text": "Eligibility\nDatabrary policies and your home institution determine whether you are eligible to be granted access to Databrary as an Authorized Investigator. Here are some factors that contribute to that determination:",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Researchers</span>"
+    ]
+  },
+  {
+    "objectID": "getting-started/researchers.html#eligibility",
+    "href": "getting-started/researchers.html#eligibility",
+    "title": "2  Researchers",
+    "section": "",
+    "text": "I conduct independent, unsupervised, research at my institution;\nI submit funding proposals as lead investigator;\nI have Principal Investigator (PI) status or hold a tenure-track faculty position at my institution;\nMy institution maintains or uses an ethics board to review and approve research involving human subjects (or non-human animals where relevant);\nI have current training that addresses research ethics with human subject (e.g. CITI training);\nI would like to reuse or upload data to Databrary.\nI sponsor and supervise lab staff and students who work on my projects or on collaborative projects, and I have authority to supervise their access to data that I share or or others have shared on Databrary.",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Researchers</span>"
+    ]
+  },
+  {
+    "objectID": "getting-started/researchers.html#seeking-authorization",
+    "href": "getting-started/researchers.html#seeking-authorization",
+    "title": "2  Researchers",
+    "section": "Seeking Authorization",
+    "text": "Seeking Authorization\nIf these factors apply to you, you must register on Databrary, request authorization from your institution, and secure authorization.\nRegistration involves creating an account, setting a password, and confirming your account. Requesting authorization involves securing approval from an official at your institution by means of formal signatures on the Databrary Access Agreement (DAA) and its Annexes.\nIf you know who at your institution reviews, approves, and signs data access agreements or other contracts, that is probably the person who will need to sign the DAA. You also may need to sign it. If you don’t know the person at your institution, Databrary staff will help identify the right person. Databrary will work with you and your institution to secure signatures on the DAA.",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Researchers</span>"
+    ]
+  },
+  {
+    "objectID": "getting-started/institutions.html",
+    "href": "getting-started/institutions.html",
+    "title": "1  Institutions",
+    "section": "",
+    "text": "1.1 Eligibility\nAccess to restricted data on Databrary is limited to researchers who are formally authorized by their institutions via the Databrary Access Agreement (DAA) and its Annexes. Only academic, research, government, or health entities are eligible to authorize researchers under the DAA. Institutions must also maintain or uses an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects (or non-human animals where relevant);\nOnce authorized by their institution, Databrary considers the researchers Authorized Investigators. Institutions decide whether to authorize a specific researcher; the following criteria typically apply:\nAuthorized Investigators often supervise the research activities of research staff, postdocs, graduate students, and undergraduate students who are not eligible for access to Databrary as Authorized Investigators. Consistent with institutional policies, these individuals may be granted access to Databrary as an Affiliate of a supervising Authorized Investigator.",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Institutions</span>"
+    ]
+  },
+  {
+    "objectID": "getting-started/institutions.html#eligibility",
+    "href": "getting-started/institutions.html#eligibility",
+    "title": "1  Institutions",
+    "section": "",
+    "text": "Researchers conduct independent, unsupervised, research at the institution;\nResearchers submit funding proposals as lead investigator;\nResearchers have Principal Investigator (PI) status or hold a tenure-track faculty position at the institution;\nResearchers have current training that addresses research ethics with human subject (e.g. CITI training);\nResearchers wish to download and reuse or upload data to Databrary.",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Institutions</span>"
+    ]
+  },
+  {
+    "objectID": "getting-started/institutions.html#seeking-authorization",
+    "href": "getting-started/institutions.html#seeking-authorization",
+    "title": "1  Institutions",
+    "section": "1.2 Seeking Authorization",
+    "text": "1.2 Seeking Authorization\nIn most cases, a researcher initiates a request for authorization when they create an account on Databrary.\nA Databrary staff member will contact the institution to determine who should review and sign the Databrary Access Agreement (DAA) and its Annexes. Some institutions require the researcher to sign or initial the documents, alongside signatures from an institutional official (e.g, Authorized Institutional Representative (AOR)).",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Institutions</span>"
+    ]
+  },
+  {
+    "objectID": "background/about.html",
+    "href": "background/about.html",
+    "title": "About Databrary",
+    "section": "",
+    "text": "Databrary is a restricted access data library that is specialized for storing, streaming, and sharing video and audio recordings collected as research data or documentation. Databrary supports sharing of many types of research data and documentation beyond video and audio. Based at New York University, Databrary’s mission is to support data sharing among researchers in the behavioral, social, educational, developmental, neural, and computer sciences.\nDatabrary is also a resource for and a community of scientists who use video or audio in their research or teaching.\nWe encourage you to read Databrary’s Access Agreement and its three annexes. These documents, especially Annex III–Databrary Access Guide, provide extensive information about how Databrary is structured and how it should be used. You may also get guidance about working with a research ethics board or IRB or see how to incorporate data sharing using Databrary in a Data Management Plan for a grant proposal. Look up a term in the glossary if something doesn’t make sense, or contact us directly for one-on-one support.\nThe guide has separate sections specifically for institutions, researchers, and trainees or staff.",
+    "crumbs": [
+      "About Databrary"
+    ]
+  },
+  {
+    "objectID": "background/about.html#history",
+    "href": "background/about.html#history",
+    "title": "About Databrary",
+    "section": "",
+    "text": "Figure 1: Growth in researchers and institutions since Databrary’s inception. Source: https://databrary.github.io/analytics",
+    "crumbs": [
+      "About Databrary"
+    ]
+  },
+  {
+    "objectID": "background/about.html#support",
+    "href": "background/about.html#support",
+    "title": "About Databrary",
+    "section": "Support",
+    "text": "Support\nDatabrary is grateful to have received financial and in-kind support from the Eunice Kennedy Shriver National Institute of Child Health and Human Development, the National Science Foundation, the Defense Advanced Research Projects Agency, the Society for Research in Child Development, the Alfred P. Sloan Foundation, the James S. McDonnell Foundation, The LEGO Foundation, the John S. Templeton Foundation, New York University, and the Pennsylvania State University.",
+    "crumbs": [
+      "About Databrary"
+    ]
+  },
+  {
+    "objectID": "background/about.html#code-base",
+    "href": "background/about.html#code-base",
+    "title": "About Databrary",
+    "section": "Code base",
+    "text": "Code base\nDatabrary’s original code base was open source and was hosted on GitHub. We have recently transferred the code base to a private repository owned by Databrary’s parent institution, NYU.\nSee the software page for more information about the specific technologies used.",
+    "crumbs": [
+      "About Databrary"
+    ]
+  },
+  {
+    "objectID": "background/origins-support.html",
+    "href": "background/origins-support.html",
+    "title": "4  Origins",
+    "section": "",
+    "text": "History\nKaren Adolph and Rick Gilmore co-founded and co-direct Databrary. Databrary was built in 2013-2014 at New York University, and it went live to the research community in 2014. The system has had steady growth, as the following figure from the Databrary analytics site indicates:",
+    "crumbs": [
+      "About Databrary",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Origins</span>"
+    ]
+  },
+  {
+    "objectID": "background/origins-support.html#history",
+    "href": "background/origins-support.html#history",
+    "title": "4  Origins",
+    "section": "",
+    "text": "Figure 4.1: Growth in researchers and institutions since Databrary’s inception. Source: https://databrary.github.io/analytics",
+    "crumbs": [
+      "About Databrary",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Origins</span>"
+    ]
+  },
+  {
+    "objectID": "background/origins-support.html#support",
+    "href": "background/origins-support.html#support",
+    "title": "4  Origins",
+    "section": "Support",
+    "text": "Support\nDatabrary is grateful to have received financial and in-kind support from the Eunice Kennedy Shriver National Institute of Child Health and Human Development, the National Science Foundation, the Defense Advanced Research Projects Agency, the Society for Research in Child Development, the Alfred P. Sloan Foundation, the James S. McDonnell Foundation, The LEGO Foundation, the John S. Templeton Foundation, New York University, and the Pennsylvania State University.",
+    "crumbs": [
+      "About Databrary",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Origins</span>"
+    ]
+  },
+  {
+    "objectID": "background/origins-support.html#code-base",
+    "href": "background/origins-support.html#code-base",
+    "title": "4  Origins",
+    "section": "Code base",
+    "text": "Code base\nDatabrary’s original code base was open source and was hosted on GitHub. In late 2024 we transferred the code base to a private repository owned by Databrary’s parent institution, NYU.\nSee the software page for more information about the specific technologies used.",
+    "crumbs": [
+      "About Databrary",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Origins</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Databrary Guide",
+    "section": "",
+    "text": "References\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdolph, K.E., Gilmore, R.O., & Kennedy, J.L. (2017). Video as data and documentation will improve psychological science. https://www.apa.org/science/about/psa/2017/10/video-data. Retrieved from https://www.apa.org/science/about/psa/2017/10/video-data\n\n\nGilmore, R. O., & Adolph, K. E. (2017). Video can make behavioural science more reproducible. Nature Human Behaviour, 1(7). https://doi.org/10.1038/s41562-017-0128\n\n\nSoska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmore, R. O., & Adolph, K. E. (2021). (Hyper)active data curation: A video case study from behavioral science. Journal of Escience Librarianship, 10(3). https://doi.org/10.7191/jeslib.2021.1208",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Databrary Guide",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdolph, K.E., Gilmore, R.O., & Kennedy, J.L. (2017). Video as data and documentation will improve psychological science. https://www.apa.org/science/about/psa/2017/10/video-data. Retrieved from https://www.apa.org/science/about/psa/2017/10/video-data\n\n\nGilmore, R. O., & Adolph, K. E. (2017). Video can make behavioural science more reproducible. Nature Human Behaviour, 1(7). https://doi.org/10.1038/s41562-017-0128\n\n\nSoska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmore, R. O., & Adolph, K. E. (2021). (Hyper)active data curation: A video case study from behavioral science. Journal of Escience Librarianship, 10(3). https://doi.org/10.7191/jeslib.2021.1208",
+    "crumbs": [
+      "Welcome"
     ]
   }
 ]

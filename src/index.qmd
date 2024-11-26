@@ -1,33 +1,35 @@
-## Preface {-}
+## Welcome {-}
 
 This document describes the [Databrary.org](https://databrary.org) data library and how to use it effectively as a tool for safely and securely sharing identifiable research data including video and audio.
 
 Databrary is used by a large and growing community of researchers across the globe, including some large scale research projects [@Soska2021-mh] run by Databrary's co-founders, Karen Adolph and Rick Gilmore, and their collaborators.
 
-Databrary's founders believe that the widespread use of video can improve the reproducibility of many different areas of research [@Adolph_KE_Gilmore_RO_Kennedy_JL2017-va; @Gilmore2017-wd].
+Databrary's founders believe that the widespread use and sharing of video can improve reproducibility and rigor of many different areas of research [@Adolph_KE_Gilmore_RO_Kennedy_JL2017-va; @Gilmore2017-wd].
 
-### About the guide
+This guide was written by [Rick Gilmore](https://rick-gilmore.com), Andrea Seisler, Melody Xu, and Yinghe Liu.
 
-This guide is built using [Quarto](https://quarto.org) and hosted using GitHub pages.
-Please feel free to report an issue or edit the page and make a pull request.
+### References
 
-Quarto implements a search feature that works site-wide:
+<!-- ## About the guide -->
 
-![Search bar from the Guide](include/img/guide-search-bar.png)
+<!-- This guide is built using [Quarto](https://quarto.org) and hosted using GitHub pages. -->
+<!-- Please feel free to report an issue or edit the page and make a pull request. -->
 
-Please make use of this feature to find what you are looking for.
+<!-- Quarto implements a search feature that works site-wide: -->
 
-You may also find the [definitions page](more-information/definitions.qmd) useful to understand specific terms.
-Databrary-specific terms are highlighted in *italics* on first mention on a page, and most of the time these first-mentions link to a corresponding definition.
+<!-- ![Search bar from the Guide](include/img/guide-search-bar.png){fig-guide-search-bar} -->
 
-### About the authors {-}
+<!-- Please make use of this feature to find what you are looking for. -->
 
-[Rick Gilmore](https://rick-gilmore.com) is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.
+<!-- You may also find the [definitions page](more-information/definitions.qmd) useful to understand specific terms. -->
+<!-- Databrary-specific terms are highlighted in *italics* on first mention on a page, and most of the time these first-mentions link to a corresponding definition. -->
 
-*Andrea Seisler* manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.
+<!-- ## About the authors {-} -->
 
-*Melody Xu* was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023.
+<!-- [Rick Gilmore](https://rick-gilmore.com) is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary. -->
 
-*Yinghe Liu* is an undergraduate student majoring in Psychology at Penn State.
-He works as a research assistant in two faculty labs, and he has contributed to improving the Databrary Guide since Fall 2023. 
+<!-- *Andrea Seisler* manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary. -->
 
+<!-- *Melody Xu* was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023. -->
+
+<!-- *Yinghe Liu* was an undergraduate student in Psychology at Penn State. -->

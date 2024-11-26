@@ -1,4 +1,4 @@
-# Who and why? {.unnumbered}
+# Who and why? {#sec-who-why}
 
 This section describes who can access Databrary and why they might want to.
 

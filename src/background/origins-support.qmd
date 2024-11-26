@@ -1,0 +1,20 @@
+# Origins {#sec-databrary-origins}
+
+## History {-}
+
+[Karen Adolph](https://as.nyu.edu/faculty/karen-adolph.html) and [Rick Gilmore](https://psych.la.psu.edu/people/rog1_/) co-founded and co-direct Databrary.
+Databrary was built in 2013-2014 at New York University, and it went live to the research community in 2014.
+The system has had steady growth, as the following figure from the [Databrary analytics site](https://databrary.github.io/analytics) indicates:
+
+![Growth in researchers and institutions since Databrary's inception. Source: <https://databrary.github.io/analytics>](https://databrary.github.io/analytics/weekly_files/figure-html/fig-databrary-inst-invest-timeseries-1.png){#fig-analytics-invest-inst fig-align="center"}
+
+## Support {-}
+
+Databrary is grateful to have received financial and in-kind support from the Eunice Kennedy Shriver National Institute of Child Health and Human Development, the National Science Foundation, the Defense Advanced Research Projects Agency, the Society for Research in Child Development, the Alfred P. Sloan Foundation, the James S. McDonnell Foundation, The LEGO Foundation, the John S. Templeton Foundation, New York University, and the Pennsylvania State University.
+
+## Code base {-}
+
+Databrary's original code base was open source and was hosted on [GitHub](https://github.com/databrary).
+In late 2024 we transferred the code base to a private repository owned by Databrary's parent institution, NYU. 
+
+See the [software page](../more-information/software.qmd) for more information about the specific technologies used.

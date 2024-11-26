@@ -1,0 +1,14 @@
+# About Databrary {#sec-about-databrary}
+
+Databrary is a *restricted access* data library that is specialized for storing, streaming, and sharing video and audio recordings collected as research data or documentation. 
+Databrary supports sharing of [many types](https://nyu.databrary.org/asset/formats) of research data and documentation beyond video and audio. 
+Based at [New York University](https://www.nyu.edu), Databrary's mission is to support data sharing among researchers in the behavioral, social, educational, developmental, neural, and computer sciences.
+
+Databrary is also a *resource for* and a *community of* scientists who use video or audio in their research or teaching.
+
+We encourage you to read [Databrary's Access Agreement](../appendices/access_agreement.qmd) and its three annexes. 
+These documents, especially [Annex III--Databrary Access Guide](../appendices/access_agreement.qmd#daa_annex_III), provide extensive information about how Databrary is structured and how it should be used. 
+You may also get guidance about working with a research ethics board or IRB or see how to incorporate data sharing using Databrary in a Data Management Plan for a grant proposal. 
+Look up a term in the glossary if something doesn't make sense, or contact us directly for one-on-one support.
+
+The guide has separate sections specifically for [institutions](../for-institutions/background.html), [researchers](../for-investigators/background.qmd), and [trainees or staff](../for-affiliates/background.qmd).
