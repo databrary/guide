@@ -133,10 +133,20 @@ knitr::include_graphics("img/db-new-volume-design-spreadsheet.png")
 `gender` "Male", "Female", or any other relevent gender
 
 `race` As classified by NIH, or user-defined classification
-  - American Indian or Alaska Native, Asian, Black or African American, Native Hawaiian or Other Pacific Islander, White, Unknown or not reported, Refused
+
+  - American Indian or Alaska Native
+  - Asian, Black or African American
+  - Native Hawaiian or Other Pacific Islander
+  - White
+  - Unknown or not reported
+  - Refused
 
 `ethnicity` As classified by NIH (Hispanic/Non-Hispanic), or user-defined classification
-  - Hispanic or Latino, Not Hispanic or Latino, Unknown or not reported, Refused
+
+  - Hispanic or Latino
+  - Not Hispanic or Latino
+  - Unknown or not reported
+  - Refused
 
 `gestational age` Pregnancy age in weeks between last menstrual period and birth (or pre-natal observation)
 
