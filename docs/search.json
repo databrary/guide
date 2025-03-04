@@ -585,10 +585,10 @@
     "objectID": "index.html#about-the-authors",
     "href": "index.html#about-the-authors",
     "title": "Databrary Guide",
-    "section": "About the Authors",
-    "text": "About the Authors\nRick Gilmore is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.\nAndrea Seisler manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.\nMelody Xu was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023.\nYinghe Liu is an undergraduate student majoring in Psychology at Penn State. He works as a research assistant in two faculty labs, and he has contributed to improving the Databrary Guide since Fall 2023.\n\n\n\n\nAdolph, K.E., Gilmore, R.O., & Kennedy, J.L. (2017). Video as data and documentation will improve psychological science. https://www.apa.org/science/about/psa/2017/10/video-data. Retrieved from https://www.apa.org/science/about/psa/2017/10/video-data\n\n\nGilmore, R. O., & Adolph, K. E. (2017). Video can make behavioural science more reproducible. Nature Human Behaviour, 1(7). https://doi.org/10.1038/s41562-017-0128\n\n\nSoska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmore, R. O., & Adolph, K. E. (2021). (Hyper)active data curation: A video case study from behavioral science. Journal of Escience Librarianship, 10(3). https://doi.org/10.7191/jeslib.2021.1208",
+    "section": "About the authors",
+    "text": "About the authors\nRick Gilmore is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.\nAndrea Seisler manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.\nMelody Xu was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023.\nYinghe Liu was an undergraduate student in Psychology at Penn State.\n\nReferences\n\n\n\n\n\n\n\n\n\n\n\n\nAdolph, K.E., Gilmore, R.O., & Kennedy, J.L. (2017). Video as data and documentation will improve psychological science. https://www.apa.org/science/about/psa/2017/10/video-data. Retrieved from https://www.apa.org/science/about/psa/2017/10/video-data\n\n\nGilmore, R. O., & Adolph, K. E. (2017). Video can make behavioural science more reproducible. Nature Human Behaviour, 1(7). https://doi.org/10.1038/s41562-017-0128\n\n\nSoska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmore, R. O., & Adolph, K. E. (2021). (Hyper)active data curation: A video case study from behavioral science. Journal of Escience Librarianship, 10(3). https://doi.org/10.7191/jeslib.2021.1208",
     "crumbs": [
-      "Preface"
+      "Welcome"
     ]
   },
   {
@@ -1677,6 +1677,76 @@
     "text": "References\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdolph, K.E., Gilmore, R.O., & Kennedy, J.L. (2017). Video as data and documentation will improve psychological science. https://www.apa.org/science/about/psa/2017/10/video-data. Retrieved from https://www.apa.org/science/about/psa/2017/10/video-data\n\n\nGilmore, R. O., & Adolph, K. E. (2017). Video can make behavioural science more reproducible. Nature Human Behaviour, 1(7). https://doi.org/10.1038/s41562-017-0128\n\n\nSoska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmore, R. O., & Adolph, K. E. (2021). (Hyper)active data curation: A video case study from behavioral science. Journal of Escience Librarianship, 10(3). https://doi.org/10.7191/jeslib.2021.1208",
     "crumbs": [
       "Welcome"
+    ]
+  },
+  {
+    "objectID": "quick-start-2.0.html",
+    "href": "quick-start-2.0.html",
+    "title": "Databrary 2.0",
+    "section": "",
+    "text": "About\nThis page describes the most important changes in Databrary 2.0, launched in early March 2025.",
+    "crumbs": [
+      "Databrary 2.0"
+    ]
+  },
+  {
+    "objectID": "quick-start-2.0.html#logging-in",
+    "href": "quick-start-2.0.html#logging-in",
+    "title": "Databrary 2.0",
+    "section": "Logging in",
+    "text": "Logging in\nLike Databrary 1.0, you may log in via the orange Login button or the login button on the application menu bar.\nDatabrary 2.0 supports two-factor authentication (2FA). When you log in with your password, the system will send an email to the account associated with Databrary with a one-time password (OTP). Enter this password in the 2FA window.\n\n\n\n\n\n\nNote\n\n\n\nIn the very near future Databrary 2.0 will support 2FA via text message.\n\n\n\n\n\n\n\n\nFigure 1: Two-factor authentication window in Databrary 2.0.\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nCheck your spam/junk filter if you do not see the email shortly after you log in.",
+    "crumbs": [
+      "Databrary 2.0"
+    ]
+  },
+  {
+    "objectID": "quick-start-2.0.html#logging-out",
+    "href": "quick-start-2.0.html#logging-out",
+    "title": "Databrary 2.0",
+    "section": "Logging out",
+    "text": "Logging out\nDatabrary 2.0 has a large Logout button to the right of the logged-in user’s name.\n\n\n\n\n\n\nFigure 2: Logout button in application menu bar.",
+    "crumbs": [
+      "Databrary 2.0"
+    ]
+  },
+  {
+    "objectID": "quick-start-2.0.html#previewing-files",
+    "href": "quick-start-2.0.html#previewing-files",
+    "title": "Databrary 2.0",
+    "section": "Previewing files",
+    "text": "Previewing files\nYou may preview and play video and audio files Databrary 2.0.\nDatabrary 2.0 adds the ability to preview new file types, including PDF, and csv.\n\n\n\n\n\n\nUnder construction\n\n\n\nThis section is a work-in-progress.",
+    "crumbs": [
+      "Databrary 2.0"
+    ]
+  },
+  {
+    "objectID": "quick-start-2.0.html#volume-ownership",
+    "href": "quick-start-2.0.html#volume-ownership",
+    "title": "Databrary 2.0",
+    "section": "Volume ownership",
+    "text": "Volume ownership\nDatabrary 2.0 requires that volumes have a single owner. Only the owner can change the sharing status of a volume. Volume owners must be Authorized Investigators at an institution with an active Databrary Access Agreement. Volume owners may transfer ownership to another Authorized Investigator.\n\n\n\n\n\n\nNote\n\n\n\nTo simplify the migration to Databrary 2.0, we selected a single volume owner where there were multiple owners (Investigators). If the volume owner wishes to transfer ownership, that person may do so.\n\n\nTo transfer ownership to another Authorized Investigator:\n\nVisit the volume in question.\nPress the edit (pencil) icon in the volume banner.\n\n\n\n\n\n\n\nFigure 3: Volume-level controls.\n\n\n\n\nOpen the Manage Access panel at left by clicking on the tab.\n\n\n\n\n\n\n\nFigure 4: Manage volume access.\n\n\n\n\nUnder the Owner section, press on the Transfer Ownership button.\n\n\n\n\n\n\n\nFigure 5: Transfer volume ownership.\n\n\n\n\nSearch for the new volume owner by typing in the search box.\n\n\n\n\n\n\n\nFigure 6: Search for new volume owner\n\n\n\n\nSelect the new owner from the list and press the Submit button at lower right.\n\n\n\n\n\n\n\nFigure 7\n\n\n\nThe individual you select will receive a notification that you have requested to transfer ownership to them. They may accept or reject the request.",
+    "crumbs": [
+      "Databrary 2.0"
+    ]
+  },
+  {
+    "objectID": "quick-start-2.0.html#managing-people",
+    "href": "quick-start-2.0.html#managing-people",
+    "title": "Databrary 2.0",
+    "section": "Managing people",
+    "text": "Managing people\nDatabrary 2.0 separates the management of co-authors who should get scholarly credit from people who have access to a volume.\n\nManaging co-authors\n\n\n\n\n\n\nUnder construction\n\n\n\nThis section is a work-in-progress.\n\n\n\n\nManaging collaborators\n\n\n\n\n\n\nUnder construction\n\n\n\nThis section is a work-in-progress.",
+    "crumbs": [
+      "Databrary 2.0"
+    ]
+  },
+  {
+    "objectID": "quick-start-2.0.html#roadmap",
+    "href": "quick-start-2.0.html#roadmap",
+    "title": "Databrary 2.0",
+    "section": "Roadmap",
+    "text": "Roadmap\n\n\n\n\n\n\nWarning\n\n\n\nDatabrary 2.0 does not permit file uploads and search is disabled. We made this very painful choice in order to give users access to data that had been offline for a long time. These features are under development and will be added soon.\nWe expect to be releasing new minor versions of Databrary with patches and bug fixes on a regular basis over the next several months.\nAnd Databrary has received new funding from NSF to support even more feature enhancements over the next two years.\n\n\n\n2.1 (expected end of March)\n\nFile uploads\nSearch\nUser interface (UI) and user experience (UX) enhancements",
+    "crumbs": [
+      "Databrary 2.0"
     ]
   }
 ]

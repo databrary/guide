@@ -1,0 +1,119 @@
+# Databrary 2.0 {.unnumbered}
+
+## About {-}
+
+This page describes the most important changes in Databrary 2.0, launched in early March 2025.
+
+## Logging in {-}
+
+Like Databrary 1.0, you may log in via the orange Login button or the login button on the application menu bar.
+
+Databrary 2.0 supports two-factor authentication (2FA).
+When you log in with your password, the system will send an email to the account associated with Databrary with a one-time password (OTP).
+Enter this password in the 2FA window.
+
+::: {.callout-note}
+In the very near future Databrary 2.0 will support 2FA via text message.
+:::
+
+![Two-factor authentication window in Databrary 2.0.](include/img/2FA-window.png){width=50% #fig-2FA-window}
+
+::: {.callout-important}
+Check your spam/junk filter if you do not see the email shortly after you log in.
+:::
+
+## Logging out {-}
+
+Databrary 2.0 has a large Logout button to the right of the logged-in user's name.
+
+![Logout button in application menu bar.](include/img/logout-button.png){width=50% #fig-logout-button}
+
+## Previewing files {-}
+
+You may preview and play video and audio files Databrary 2.0.
+
+Databrary 2.0 adds the ability to preview new file types, including PDF, and csv.
+
+::: {.callout-warning}
+## Under construction
+
+This section is a work-in-progress.
+:::
+
+## Volume ownership {-}
+
+Databrary 2.0 requires that volumes have a *single* owner.
+Only the owner can change the sharing status of a volume.
+Volume owners must be Authorized Investigators at an institution with an active Databrary Access Agreement.
+Volume owners may transfer ownership to another Authorized Investigator.
+
+::: {.callout-note}
+To simplify the migration to Databrary 2.0, we selected a single volume owner where there were multiple owners (Investigators).
+If the volume owner wishes to transfer ownership, that person may do so.
+:::
+
+To transfer ownership to another Authorized Investigator:
+
+1. Visit the volume in question.
+
+2. Press the edit (pencil) icon in the volume banner.
+
+![Volume-level controls.](include/img/edit-volume.png){width=50% #fig-edit-volume}
+
+3. Open the Manage Access panel at left by clicking on the tab.
+
+![Manage volume access.](include/img/manage-access-tab.png){width=50% #fig-manage-access}
+
+4. Under the Owner section, press on the Transfer Ownership button.
+
+![Transfer volume ownership.](include/img/transfer-ownership.png){#fig-transfer-ownership}
+
+5. Search for the new volume owner by typing in the search box.
+
+![Search for new volume owner](include/img/transfer-ownership-search.png){#fig-transfer-ownership-search}
+
+6. Select the new owner from the list and press the Submit button at lower right.
+
+![](include/img/select-new-owner.png){#fig-select-new-owner}
+
+The individual you select will receive a notification that you have requested to transfer ownership to them.
+They may accept or reject the request.
+
+## Managing people {-}
+
+Databrary 2.0 separates the management of co-authors who should get scholarly credit from people who have access to a volume.
+
+### Managing co-authors {-}
+
+::: {.callout-warning}
+## Under construction
+
+This section is a work-in-progress.
+:::
+
+### Managing collaborators 
+
+::: {.callout-warning}
+## Under construction
+
+This section is a work-in-progress.
+:::
+
+## Roadmap {-}
+
+::: {.callout-warning}
+Databrary 2.0 does *not* permit file uploads and search is disabled.
+We made this very painful choice in order to give users access to data that had been offline for a long time.
+These features are under development and will be added soon.
+
+We expect to be releasing new minor versions of Databrary with patches and bug fixes on a regular basis over the next several months.
+
+And Databrary has received new [funding from NSF](https://databrary.github.io/nsf-2444730) to support even more feature enhancements over the next two years.
+:::
+
+### 2.1 (expected end of March)
+
+- File uploads
+- Search
+- User interface (UI) and user experience (UX) enhancements
+

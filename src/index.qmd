@@ -8,6 +8,16 @@ Databrary's founders believe that the widespread use and sharing of video can im
 
 This guide was written by [Rick Gilmore](https://rick-gilmore.com), Andrea Seisler, Melody Xu, and Yinghe Liu.
 
+## About the authors {-}
+
+[Rick Gilmore](https://rick-gilmore.com) is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.
+
+*Andrea Seisler* manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.
+
+*Melody Xu* was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023.
+
+*Yinghe Liu* was an undergraduate student in Psychology at Penn State.
+
 ### References
 
 <!-- ## About the guide -->
@@ -24,12 +34,4 @@ This guide was written by [Rick Gilmore](https://rick-gilmore.com), Andrea Seisl
 <!-- You may also find the [definitions page](more-information/definitions.qmd) useful to understand specific terms. -->
 <!-- Databrary-specific terms are highlighted in *italics* on first mention on a page, and most of the time these first-mentions link to a corresponding definition. -->
 
-<!-- ## About the authors {-} -->
 
-<!-- [Rick Gilmore](https://rick-gilmore.com) is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary. -->
-
-<!-- *Andrea Seisler* manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary. -->
-
-<!-- *Melody Xu* was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023. -->
-
-<!-- *Yinghe Liu* was an undergraduate student in Psychology at Penn State. -->

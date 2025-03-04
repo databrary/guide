@@ -10,6 +10,7 @@ book:
   date: last-modified
   chapters:
     - index.qmd # This is the file that contains the front matter, found in the root of the repository
+    - quick-start-2.0.qmd
     - part: getting-started/start.qmd
       chapters:
         - getting-started/institutions.qmd
