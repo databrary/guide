@@ -2,7 +2,7 @@
 
 ## About {-}
 
-This page describes the most important changes in Databrary 2.0, launched in early March 2025.
+This page describes the most important changes in Databrary 2.0, launched on March 7, 2025.
 
 ## Logging in {-}
 
