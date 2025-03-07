@@ -24,6 +24,8 @@ Check your spam/junk filter if you do not see the email shortly after you log in
 The email will come from "help@databrary.org" with "Databrary OTP" as the subject.
 :::
 
+![Email from help@databrary.org with 2FA one-time password (OTP)](include/img/2fa-otp-email.png){#fig-2fa-otp-email.png width="70%"}
+
 ## Logging out {-}
 
 Databrary 2.0 has a large Logout button to the right of the logged-in user's name.
