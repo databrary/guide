@@ -133,8 +133,8 @@ Databrary 2.0 adds the ability to preview new file types, including csv and (com
 
 You may download files in Databrary 2.0 under the following conditions:
 
-1. The [entire volume is shared](more-information/definitions.qmd#entire-volume-shared) AND the files have a [Public sharing release level](more-information/definitions.qmd#public) (![](../include/img/public.svg){.icon}).\
-2. The [entire volume is shared](more-information/definitions.qmd#entire-volume-shared) AND the files are shared with a [Learning Audiences](more-information/definitions.qmd#learning-audiences) (![](../include/img/excerpts.svg){.icon}) or [Authorized User](more-information/definitions.qmd#authorized-users) (![](../include/img/shared.svg){.icon}) sharing release level, AND you have privileges to access shared data on Databrary.\
+1. The [entire volume is shared](more-information/definitions.qmd#entire-volume-shared) AND the files have a [Public sharing release level](more-information/definitions.qmd#public) (![](include/img/public.svg){.icon}).\
+2. The [entire volume is shared](more-information/definitions.qmd#entire-volume-shared) AND the files are shared with a [Learning Audiences](more-information/definitions.qmd#learning-audiences) (![](include/img/excerpts.svg){.icon}) or [Authorized User](more-information/definitions.qmd#authorized-users) (![](include/img/shared.svg){.icon}) sharing release level, AND you have privileges to access shared data on Databrary.\
 2. The volume is [Private](more-information/definitions.qmd#private-volume) (shared only with specific collaborators), the files are shared with *any* permission level, AND you have read privileges on the volume.
 
 ::: {.callout-warning}
@@ -211,7 +211,7 @@ When you change the author order, the the window will show you how the author or
 
 5. Scroll back up to the top of the Overview panel and hit Save to save the change.
 
-![Save changed author order](include/img/save-changed-author-order.png){#fig-save-changed-author-order}
+![Save changed author order](include/img/save-changed-author-order.png){#fig-save-changed-author-order width="70%"}
 
 A separate workflow governs modifying the people who should be on the list of authors.
 To edit a volume's list of authors, follow these steps:
