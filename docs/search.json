@@ -1033,7 +1033,7 @@
     "href": "more-information/definitions.html",
     "title": "Definitions",
     "section": "",
-    "text": "Affiliate\nA person who conducts research under an Authorized Investigator’s sponsorship and supervision and who has been granted access to Databrary by the Authorized Investigator. In most cases, Affiliates are students or research staff and are not eligible for Authorized Investigator status.",
+    "text": "Affiliate\nThis page defines some special terms used by Databrary.\nA person who conducts research under an Authorized Investigator’s sponsorship and supervision and who has been granted access to Databrary by the Authorized Investigator. In most cases, Affiliates are students or research staff and are not eligible for Authorized Investigator status.",
     "crumbs": [
       "More information",
       "Definitions"
@@ -1099,7 +1099,7 @@
     "href": "more-information/definitions.html#participant-sharing-release-levels",
     "title": "Definitions",
     "section": "Participant Sharing (Release) Levels",
-    "text": "Participant Sharing (Release) Levels\nAll files (assets) and sessions on Databrary have a sharing (release) level. The level indicates who may view the files or sessions. There are five sharing release levels:\n\nUnknown\n\nConsent missing or not obtained. This content is not shared and is restricted to collaborators.\nicon: \n\nPrivate\n\nThis content is not shared and is restricted to collaborators.\nicon: \n\nAuthorized Users\n\nThis content is restricted to authorized Databrary users and may not be redistributed in any form.\nicon: \n\nLearning Audiences\n\nThis content is restricted to authorized Databrary users, who may use clips or images from it in presentations for informational or educational purposes. Such presentations may be videotaped or recorded and those videos or recordings may then be made available to the public via the internet (e.g., YouTube).\nicon: \n\nPublic\n\nThis content is available openly to anyone.\nicon:",
+    "text": "Participant Sharing (Release) Levels\nAll files (assets) and sessions on Databrary have a sharing (release) level. The level indicates who may view the files or sessions. There are five sharing release levels:\n\nUnknown \nConsent missing or not obtained. This content is not shared and is restricted to collaborators.\n\n\nPrivate \nThis content is not shared and is restricted to collaborators.\n\n\nAuthorized Users \nThis content is restricted to authorized Databrary users and may not be redistributed in any form.\n\n\nLearning Audiences \nThis content is restricted to authorized Databrary users, who may use clips or images from it in presentations for informational or educational purposes. Such presentations may be videotaped or recorded and those videos or recordings may then be made available to the public via the internet (e.g., YouTube).\n\n\nPublic \nThis content is available openly to anyone.",
     "crumbs": [
       "More information",
       "Definitions"
@@ -1132,7 +1132,7 @@
     "href": "more-information/definitions.html#volume-sharing-levels",
     "title": "Definitions",
     "section": "Volume Sharing Levels",
-    "text": "Volume Sharing Levels\nVolumes have their own sharing level. Like the sharing levels associated with participant sessions, the level indicates who may view the volume and its contents. There are three volume sharing levels:\n\nPrivate Volume (visible only to specific users given access by the Authorized Investigator who created the Volume)\n\nIcon: \n\nVolume Overview Shared (makes only the Description of Dataset, Investigators, How to Cite, and File Release Levels summary visible, but not data)\n\nIcon: \n\nEntire Volume Shared (makes visible all elements of the Volume, subject to restrictions based on the user level–Authorized Investigator or Affiliate)\n\nIcon:",
+    "text": "Volume Sharing Levels\nVolumes have their own sharing level. Like the sharing levels associated with participant sessions, the level indicates who may view the volume and its contents. There are three volume sharing levels:\n\nPrivate Volume\nVisible only to specific users given access by the Authorized Investigator who created the Volume)\n\n\nVolume Overview Shared\nMakes only the Description of Dataset, Investigators, How to Cite, and File Release Levels summary visible, but not data.\n\n\nEntire Volume Shared\nMakes visible all elements of the Volume, subject to restrictions based on the user level–Authorized Investigator or Affiliate).",
     "crumbs": [
       "More information",
       "Definitions"
@@ -1714,7 +1714,7 @@
     "href": "quick-start-2.0.html#previewing-files",
     "title": "Databrary 2.0",
     "section": "Previewing files",
-    "text": "Previewing files\nYou may preview and play video and audio files Databrary 2.0.\nDatabrary 2.0 adds the ability to preview new file types, including PDF, and csv.\n\n\n\n\n\n\nUnder construction\n\n\n\nThis section is a work-in-progress.",
+    "text": "Previewing files\nYou may preview and play video and audio files in Databrary 2.0.\nDatabrary 2.0 adds the ability to preview new file types, including csv and (coming soon!) PDF.",
     "crumbs": [
       "Databrary 2.0"
     ]
@@ -1774,7 +1774,7 @@
     "href": "quick-start-2.0.html#uploading-files",
     "title": "Databrary 2.0",
     "section": "Uploading files",
-    "text": "Uploading files\n\n\n\n\n\n\nFile uploads temporarily disabled\n\n\n\nThe initial release of Databrary 2.0 does not permit file uploads and search is disabled. We made this very painful choice in order to give users access to data that had been offline for a long time. These features are under development and will be added very soon.\n\n\n\n\n\n\n\n\nText entry permitted, but in beta\n\n\n\nUsers may create volumes and create spreadsheets for volumes.\nText entry into spreadsheets (no file uploads) works, but is still undergoing testing.",
+    "text": "Uploading files\n\n\n\n\n\n\nFile uploads temporarily disabled\n\n\n\nThe initial release of Databrary 2.0 does not permit file uploads and search is disabled. We made this very painful choice in order to give users access to data that had been offline for a long time. These features are under development and will be added very soon.\n\n\n\n\n\n\n\n\nText entry permitted, but undergoing beta-testing\n\n\n\nUsers may create volumes and create spreadsheets for volumes.\nText entry into spreadsheets (no file uploads) works, but is still undergoing testing.",
     "crumbs": [
       "Databrary 2.0"
     ]
@@ -1784,7 +1784,17 @@
     "href": "quick-start-2.0.html#downloading-files",
     "title": "Databrary 2.0",
     "section": "Downloading files",
-    "text": "Downloading files\nYou may download files in Databrary 2.0.\n\n\n\n\n\n\nUnder construction\n\n\n\nThis section is a work-in-progress.",
+    "text": "Downloading files\nYou may download files in Databrary 2.0 under the following conditions:\n\nThe entire volume is shared AND the files have a Public sharing release level ().\n\nThe entire volume is shared AND the files are shared with a Learning Audiences () or Authorized User () sharing release level, AND you have privileges to access shared data on Databrary.\n\nThe volume is Private (shared only with specific collaborators), the files are shared with any permission level, AND you have read privileges on the volume.\n\n\n\n\n\n\n\nSession and Volume Zip-archive generation disabled for users not logged in\n\n\n\nIf you are an authorized user on Databrary but are not logged in, you may not create or download a zip archive. Members of the public who are not authorized users are also prohibited from creating and downloading zip archives.\n\n\n\nSingle files\nAs an example, let’s download a file from Volume 1 which is visible to the public.\n\nWe navigate to https://databrary.org/volume/1.\nWe scroll to the Materials section and select the folder labeled “Top-level Materials.”\nClick on the “View Details” icon (box with arrow pointing upper right).\n\n\n\n\n\n\n\nFigure 13: Volume 1 Materials\n\n\n\n\nWhen the folder window opens, click on the download icon (down arrow) and select Download from the menu.\n\n\n\n\n\n\n\nFigure 14: Download counting video from Volume 1 materials folder.\n\n\n\nThe short “counting_demo_video.mp4” file will download to the default download location for your browser. Depending on your configuration, the file may also automatically load for playback.\n\n\nZip archives\nLogged-in users may generate a zip archive of a session or a volume.\nNavigate to the main page for volume 1 (https://databrary.org/volume/1) and the volume materials section at the bottom (see Figure 13).\nTo download the entire materials session, select “Top-level materials” and click on the “Download Options” icon (down arrow; magenta box in Figure 15).\nTo download the entire volume, click on the “Download all as ZIP” button (cyan box in Figure 15).\n\n\n\n\n\n\nFigure 15: Download zip archives of Volume 1 materials or entire volume.\n\n\n\nA notification window will appear in the bottom of your browser.\n\n\n\n\n\n\nFigure 16: Zip archive notification window.\n\n\n\nYou will receive an email from “help@databrary.org” when your archive is ready to download.\n\n\n\n\n\n\nFigure 17: Email notification about zip archive",
+    "crumbs": [
+      "Databrary 2.0"
+    ]
+  },
+  {
+    "objectID": "quick-start-2.0.html#managing-access-on-volumes",
+    "href": "quick-start-2.0.html#managing-access-on-volumes",
+    "title": "Databrary 2.0",
+    "section": "Managing access on volumes",
+    "text": "Managing access on volumes\nDatabrary 2.0 separates the management of co-authors who should get scholarly credit from people who have access to a volume.\n\nManaging co-authors\n\n\n\n\n\n\nOnly the volume owner can edit\n\n\n\nIn Databrary 2.0, only the volume owner can edit co-authors.\n\n\n\nVisit a volume that you own.\n\nClick on the edit (pencil) icon.\n\n\n\n\n\n\n\nFigure 18: Edit button for Volume 1 (owned by Rick Gilmore)\n\n\n\n\nTo edit the order of authors, visit the Overview panel.\n\n\n\n\n\n\n\nFigure 19: Edit overview for a volume\n\n\n\n\nScroll down to the Reorder Citation section. Click on the author you wish to reposition to change the author order.\n\n\n\n\n\n\n\nFigure 20: Citation Preview for Volume 1\n\n\n\nWhen you change the author order, the the window will show you how the author order(s) have changed.\n\n\n\n\n\n\nFigure 21: Reordered citation author order\n\n\n\n\nScroll back up to the top of the Overview panel and hit Save to save the change.\n\n\n\n\n\n\n\nFigure 22: Save changed author order\n\n\n\n\n\nManaging collaborators\n\n\n\n\n\n\nUnder construction\n\n\n\nThis section is a work-in-progress.",
     "crumbs": [
       "Databrary 2.0"
     ]

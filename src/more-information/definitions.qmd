@@ -44,21 +44,25 @@ All files (assets) and sessions on Databrary have a sharing (release) level.
 The level indicates who may view the files or sessions.
 There are five sharing [release levels](https://databrary.org/support/irb/release-levels.html):
 
-- *Unknown*
-  - Consent missing or not obtained. This content is not shared and is restricted to collaborators.
-  - icon: ![](https://nyu.databrary.org/web/icons/release/unknown.svg){.icon}
-- *Private*
-  - This content is not shared and is restricted to collaborators.
-  - icon: ![](https://nyu.databrary.org/web/icons/release/private.svg){.icon}
-- *Authorized Users*
-  - This content is restricted to authorized Databrary users and may not be redistributed in any form.
-  - icon: ![](https://nyu.databrary.org/web/icons/release/shared.svg){.icon}
-- *Learning Audiences*
-  - This content is restricted to authorized Databrary users, who may use clips or images from it in presentations for informational or educational purposes. Such presentations may be videotaped or recorded and those videos or recordings may then be made available to the public via the internet (e.g., YouTube).
-  - icon: ![](https://nyu.databrary.org/web/icons/release/excerpts.svg){.icon}
-- *Public*
-  - This content is available openly to anyone.
-  - icon: ![](https://nyu.databrary.org/web/icons/release/public.svg){.icon}
+### *Unknown* ![](../include/img/unknown.svg){.icon}
+
+Consent missing or not obtained. This content is not shared and is restricted to collaborators.
+  
+### *Private* ![](../include/img/private.svg){.icon}
+
+This content is not shared and is restricted to collaborators.
+  
+### *Authorized Users* ![](../include/img/shared.svg){.icon}
+
+This content is restricted to authorized Databrary users and may not be redistributed in any form.
+  
+### *Learning Audiences* ![](../include/img/excerpts.svg){.icon}
+
+This content is restricted to authorized Databrary users, who may use clips or images from it in presentations for informational or educational purposes. Such presentations may be videotaped or recorded and those videos or recordings may then be made available to the public via the internet (e.g., YouTube).
+  
+### *Public* ![](../include/img/public.svg){.icon}
+
+This content is available openly to anyone.
 
 ## Session
 
@@ -84,9 +88,14 @@ Volumes have their own sharing level.
 Like the sharing levels associated with participant sessions, the level indicates who may view the volume and its contents.
 There are three volume sharing levels:
 
-- Private Volume (visible only to specific users given access by the Authorized Investigator who created the Volume)
-  - Icon: ![](https://nyu.databrary.org/web/icons/volume-access-shared.svg){.icon}
-- Volume Overview Shared (makes only the Description of Dataset, Investigators, How to Cite, and File Release Levels summary visible, but not data)
-  - Icon: ![](https://nyu.databrary.org/web/icons/partial.svg){.icon}
-- Entire Volume Shared (makes visible all elements of the Volume, subject to restrictions based on the user level--Authorized Investigator or Affiliate)
-  - Icon: ![](https://nyu.databrary.org/web/icons/public.svg){.icon}
+### Private Volume
+
+Visible only to specific users given access by the Authorized Investigator who created the Volume)
+
+### Volume Overview Shared 
+
+Makes only the Description of Dataset, Investigators, How to Cite, and File Release Levels summary visible, but not data.
+
+### Entire Volume Shared
+
+Makes visible all elements of the Volume, subject to restrictions based on the user level--Authorized Investigator or Affiliate).
