@@ -46,7 +46,7 @@ You will see a view like this:
 
 ![A portion of Rick Gilmore's private profile page.](include/img/gilmore-private-profile.png){#fig-gilmore-private-profile}
 
-You will see a list of all volumes you have access to on the left, your sponsors (institutions or individual researchers) in the upper right, and your affiliates in the lower right.
+You will see a list of all volumes you have access to on the left, your sponsors (institutions or individual researchers) in the upper right, and your Affiliates in the lower right.
 
 To search for a specific volume, click on the arrow/stacked-bar icon to the right of the "Name" in the volume table. This will bring up a search window that you can use to find or filter volumes.
 
@@ -181,14 +181,14 @@ You will receive an email from "help@databrary.org" when your archive is ready t
 
 ![Email notification about zip archive](include/img/zip-archive-download-email.png){#fig-zip-archive-download-email}
 
-## Managing access on volumes {-}
+## Managing access to volumes {-}
 
-Databrary 2.0 separates the management of co-authors who should get scholarly credit from people who have access to a volume.
+Unlike Databrary 1.0, Databrary 2.0 separates the management of *co-authors*--people who should get scholarly credit for a volume--from people who have access to a volume.
 
 ### Managing co-authors {-}
 
 ::: {.callout-important}
-## Only the volume owner can edit
+## Editing co-authors is restricted to a volume's owner
 In Databrary 2.0, only [the volume owner](quick-start-2.0.qmd#volume-ownership) can edit co-authors.
 :::
 
@@ -213,25 +213,67 @@ When you change the author order, the the window will show you how the author or
 
 ![Save changed author order](include/img/save-changed-author-order.png){#fig-save-changed-author-order}
 
+A separate workflow governs modifying the people who should be on the list of authors.
+To edit a volume's list of authors, follow these steps:
+
+1. Visit the Manage Access tab.
+
+![Manage volume access](include/img/manage-volume-access.png){#fig-manage-volume-access width="40%"}
+
+2. Scroll down to the Coauthors section
+
+![Coauthors of Volume 1.](include/img/edit-volume-coauthors.png){#fig-edit-volume-coauthors}
+
+4. To add a coauthor, press the Add coauthor button (cyan highlight in @fig-edit-volume-coauthors. To delete a coauthor, press on the trash can icon (magenta highlight in @fig-edit-volume-coauthors).
+
 ### Managing collaborators 
 
-::: {.callout-warning}
-## Under construction
+::: {.callout-important}
+## Owners manage collaborators
 
-This section is a work-in-progress.
+In Databrary 2.0, read or read/write access to a volume is under the control of the volume owner.
+
+Collaborators can include [Authorized Investigators](more-information/definitions.qmd#authorized-investigator) and [Affiliates](more-information/definitions.qmd#affiliate).
 :::
 
+#### Adding Authorized Investigators
+
+To add a colleague who is an Authorized Investigator to a Databrary volume, follow these steps:
+
+1. Navigate to the Manage Access panel (see @fig-manage-volume-access) for a volume you own. \
+2. Scroll to the Collaborators panel.
+
+![Collaborators section in a volume's Manage Access panel](include/img/editing-collaborators-manage-access.png){#fig-editing-collaborators-manage-access}
+
+3. Search for a collaborator's name by pressing on the sort arrow below the Full Name column. A search/filter window will appear.
+
+![Search for a collaborator by name.](include/img/collaborators-search-by-name.png){#fig-collaborators-search-by-name}
+
+4. If the person is already a collaborator on the volume, their name and information will appear in the list. Edit their information by pressing on the pencil icon (magenta highlight) or delete the collaborator by pressing on the trash can icon (cyan highlight).
+
+![Editing an existing collaborator](include/img/collaborator-exists.png){#fig-collaborator-exists}
+
+5. If a person is *not* yet a collaborator on the volume, their name will not appear on the list. Press the Add collaborator button to add them.
+
+![Adding a new collaborator](include/img/collaborator-does-not-exist.png){#fig-collaborator-does-not-exist}
+
+6. When the Add new collaborator window appears, search for the person you wish to add by typing part of their name in the Select user field. If more than one user matches the search, select the correct user and press the SUBMIT button at lower right.
+
+![Searching for and adding a new collaborator](include/img/add-new-collaborator.png){#fig-add-new-collaborator}
+
+After you select the user, the Add New collaborator panel will show more complete information about the person. Select the person's Access Level to the volume (Read only, Investigator [read/write]; magenta box), the date their access expires (1 year or less from today's date; cyan box), and whether their access to your volume should be visible to other collaborators (green box).
+
+![Adding a new collaborator and selecting parameters related to their access.](include/img/new-collaborator-more-info.png){#new-collaborator-more-info}
+
+7. Press the SUBMIT button (orange box) to save the changes.
 
 ## Roadmap {-}
 
 ::: {.callout-warning}
-Databrary 2.0 does *not* permit file uploads and search is disabled.
-We made this very painful choice in order to give users access to data that had been offline for a long time.
-These features are under development and will be added soon.
-
+## Stay tuned!
 We expect to be releasing new minor versions of Databrary with patches and bug fixes on a regular basis over the next several months.
 
-And Databrary has received new [funding from NSF](https://databrary.github.io/nsf-2444730) to support even more feature enhancements over the next two years.
+Databrary has received new [funding from NSF](https://databrary.github.io/nsf-2444730) to support even more feature enhancements over the next two years.
 :::
 
 ### 2.1 (expected end of March)

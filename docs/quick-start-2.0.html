@@ -426,10 +426,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#single-files" id="toc-single-files" class="nav-link" data-scroll-target="#single-files">Single files</a></li>
   <li><a href="#zip-archives" id="toc-zip-archives" class="nav-link" data-scroll-target="#zip-archives">Zip archives</a></li>
   </ul></li>
-  <li><a href="#managing-access-on-volumes" id="toc-managing-access-on-volumes" class="nav-link" data-scroll-target="#managing-access-on-volumes">Managing access on volumes</a>
+  <li><a href="#managing-access-to-volumes" id="toc-managing-access-to-volumes" class="nav-link" data-scroll-target="#managing-access-to-volumes">Managing access to volumes</a>
   <ul>
   <li><a href="#managing-co-authors" id="toc-managing-co-authors" class="nav-link" data-scroll-target="#managing-co-authors">Managing co-authors</a></li>
-  <li><a href="#managing-collaborators" id="toc-managing-collaborators" class="nav-link" data-scroll-target="#managing-collaborators">Managing collaborators</a></li>
+  <li><a href="#managing-collaborators" id="toc-managing-collaborators" class="nav-link" data-scroll-target="#managing-collaborators">Managing collaborators</a>
+  <ul class="collapse">
+  <li><a href="#adding-authorized-investigators" id="toc-adding-authorized-investigators" class="nav-link" data-scroll-target="#adding-authorized-investigators">Adding Authorized Investigators</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#roadmap" id="toc-roadmap" class="nav-link" data-scroll-target="#roadmap">Roadmap</a>
   <ul>
@@ -557,7 +560,7 @@ Figure&nbsp;4: A portion of Rick Gilmore’s private profile page.
 </figcaption>
 </figure>
 </div>
-<p>You will see a list of all volumes you have access to on the left, your sponsors (institutions or individual researchers) in the upper right, and your affiliates in the lower right.</p>
+<p>You will see a list of all volumes you have access to on the left, your sponsors (institutions or individual researchers) in the upper right, and your Affiliates in the lower right.</p>
 <p>To search for a specific volume, click on the arrow/stacked-bar icon to the right of the “Name” in the volume table. This will bring up a search window that you can use to find or filter volumes.</p>
 <div id="fig-user-profile-select-volume" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -810,9 +813,9 @@ Figure&nbsp;17: Email notification about zip archive
 </div>
 </section>
 </section>
-<section id="managing-access-on-volumes" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="managing-access-on-volumes">Managing access on volumes</h2>
-<p>Databrary 2.0 separates the management of co-authors who should get scholarly credit from people who have access to a volume.</p>
+<section id="managing-access-to-volumes" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="managing-access-to-volumes">Managing access to volumes</h2>
+<p>Unlike Databrary 1.0, Databrary 2.0 separates the management of <em>co-authors</em>–people who should get scholarly credit for a volume–from people who have access to a volume.</p>
 <section id="managing-co-authors" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="managing-co-authors">Managing co-authors</h3>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -821,7 +824,7 @@ Figure&nbsp;17: Email notification about zip archive
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Only the volume owner can edit
+Editing co-authors is restricted to a volume’s owner
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -893,22 +896,134 @@ Figure&nbsp;22: Save changed author order
 </figcaption>
 </figure>
 </div>
+<p>A separate workflow governs modifying the people who should be on the list of authors. To edit a volume’s list of authors, follow these steps:</p>
+<ol type="1">
+<li>Visit the Manage Access tab.</li>
+</ol>
+<div id="fig-manage-volume-access" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-manage-volume-access-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="include/img/manage-volume-access.png" class="img-fluid figure-img" style="width:40.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-manage-volume-access-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;23: Manage volume access
+</figcaption>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>Scroll down to the Coauthors section</li>
+</ol>
+<div id="fig-edit-volume-coauthors" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-edit-volume-coauthors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="include/img/edit-volume-coauthors.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-edit-volume-coauthors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;24: Coauthors of Volume 1.
+</figcaption>
+</figure>
+</div>
+<ol start="4" type="1">
+<li>To add a coauthor, press the Add coauthor button (cyan highlight in <a href="#fig-edit-volume-coauthors" class="quarto-xref">Figure&nbsp;<span>24</span></a>. To delete a coauthor, press on the trash can icon (magenta highlight in <a href="#fig-edit-volume-coauthors" class="quarto-xref">Figure&nbsp;<span>24</span></a>).</li>
+</ol>
 </section>
 <section id="managing-collaborators" class="level3">
 <h3 class="anchored" data-anchor-id="managing-collaborators">Managing collaborators</h3>
-<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Under construction
+Owners manage collaborators
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This section is a work-in-progress.</p>
+<p>In Databrary 2.0, read or read/write access to a volume is under the control of the volume owner.</p>
+<p>Collaborators can include <a href="./more-information/definitions.html#authorized-investigator">Authorized Investigators</a> and <a href="./more-information/definitions.html#affiliate">Affiliates</a>.</p>
 </div>
 </div>
+<section id="adding-authorized-investigators" class="level4">
+<h4 class="anchored" data-anchor-id="adding-authorized-investigators">Adding Authorized Investigators</h4>
+<p>To add a colleague who is an Authorized Investigator to a Databrary volume, follow these steps:</p>
+<ol type="1">
+<li>Navigate to the Manage Access panel (see <a href="#fig-manage-volume-access" class="quarto-xref">Figure&nbsp;<span>23</span></a>) for a volume you own.<br>
+</li>
+<li>Scroll to the Collaborators panel.</li>
+</ol>
+<div id="fig-editing-collaborators-manage-access" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-editing-collaborators-manage-access-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="include/img/editing-collaborators-manage-access.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-editing-collaborators-manage-access-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;25: Collaborators section in a volume’s Manage Access panel
+</figcaption>
+</figure>
+</div>
+<ol start="3" type="1">
+<li>Search for a collaborator’s name by pressing on the sort arrow below the Full Name column. A search/filter window will appear.</li>
+</ol>
+<div id="fig-collaborators-search-by-name" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-collaborators-search-by-name-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="include/img/collaborators-search-by-name.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-collaborators-search-by-name-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;26: Search for a collaborator by name.
+</figcaption>
+</figure>
+</div>
+<ol start="4" type="1">
+<li>If the person is already a collaborator on the volume, their name and information will appear in the list. Edit their information by pressing on the pencil icon (magenta highlight) or delete the collaborator by pressing on the trash can icon (cyan highlight).</li>
+</ol>
+<div id="fig-collaborator-exists" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-collaborator-exists-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="include/img/collaborator-exists.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-collaborator-exists-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;27: Editing an existing collaborator
+</figcaption>
+</figure>
+</div>
+<ol start="5" type="1">
+<li>If a person is <em>not</em> yet a collaborator on the volume, their name will not appear on the list. Press the Add collaborator button to add them.</li>
+</ol>
+<div id="fig-collaborator-does-not-exist" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-collaborator-does-not-exist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="include/img/collaborator-does-not-exist.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-collaborator-does-not-exist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;28: Adding a new collaborator
+</figcaption>
+</figure>
+</div>
+<ol start="6" type="1">
+<li>When the Add new collaborator window appears, search for the person you wish to add by typing part of their name in the Select user field. If more than one user matches the search, select the correct user and press the SUBMIT button at lower right.</li>
+</ol>
+<div id="fig-add-new-collaborator" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-add-new-collaborator-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="include/img/add-new-collaborator.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-add-new-collaborator-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;29: Searching for and adding a new collaborator
+</figcaption>
+</figure>
+</div>
+<p>After you select the user, the Add New collaborator panel will show more complete information about the person. Select the person’s Access Level to the volume (Read only, Investigator [read/write]; magenta box), the date their access expires (1 year or less from today’s date; cyan box), and whether their access to your volume should be visible to other collaborators (green box).</p>
+<div id="new-collaborator-more-info" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="include/img/new-collaborator-more-info.png" class="img-fluid figure-img"></p>
+<figcaption>Adding a new collaborator and selecting parameters related to their access.</figcaption>
+</figure>
+</div>
+<ol start="7" type="1">
+<li>Press the SUBMIT button (orange box) to save the changes.</li>
+</ol>
+</section>
 </section>
 </section>
 <section id="roadmap" class="level2 unnumbered">
@@ -919,13 +1034,12 @@ Under construction
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Warning
+Stay tuned!
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Databrary 2.0 does <em>not</em> permit file uploads and search is disabled. We made this very painful choice in order to give users access to data that had been offline for a long time. These features are under development and will be added soon.</p>
 <p>We expect to be releasing new minor versions of Databrary with patches and bug fixes on a regular basis over the next several months.</p>
-<p>And Databrary has received new <a href="https://databrary.github.io/nsf-2444730">funding from NSF</a> to support even more feature enhancements over the next two years.</p>
+<p>Databrary has received new <a href="https://databrary.github.io/nsf-2444730">funding from NSF</a> to support even more feature enhancements over the next two years.</p>
 </div>
 </div>
 <section id="expected-end-of-march" class="level3">

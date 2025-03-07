@@ -2,7 +2,6 @@
 
 This page defines some special terms used by Databrary.
 
-
 ## Affiliate
 
 A person who conducts research under an Authorized Investigator's sponsorship and supervision and who has been granted access to Databrary by the Authorized Investigator. In most cases, Affiliates are students or research staff and are not eligible for Authorized Investigator status.
