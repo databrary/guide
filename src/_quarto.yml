@@ -44,7 +44,8 @@ book:
       - for-affiliates/reusing-data-affiliates.qmd
     - part: more-information/more-information.qmd
       chapters:
-      - more-information/faq.qmd 
+      - more-information/faq.qmd
+      - more-information/popular-volumes.qmd
       - more-information/definitions.qmd
       - more-information/software.qmd
       - more-information/db-2.0.qmd
