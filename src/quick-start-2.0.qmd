@@ -183,11 +183,89 @@ You will receive an email from "help@databrary.org" when your archive is ready t
 
 ![Email notification about zip archive](include/img/zip-archive-download-email.png){#fig-zip-archive-download-email}
 
-## Managing access to volumes {-}
+## Managing access to data {-}
+
+### Managing affiliates {-}
+
+As an Authorized Investigator, you must log in to Databrary and visit your profile page to manage your Affiliates.
+
+::: {.callout-important}
+## Authorized Investigators vs. Affiliates
+
+Remember that [Authorized Investigators](more-information/definitions.qmd#authorized-investigators) differ from [Affiliate](more-information/definitions.qmd#affiliate) researchers.
+
+Authorized Investigators are *authorized* by an institution to create volumes on Databrary, download shared data, and give access to data to their staff, students, or postdocs.
+If a researcher meets the qualifications for getting authorized through their institution, they should secure that authorization.
+
+Affiliates have access to Databrary *only* through the sponsorship of an Authorized Investigator.
+
+**Note**: Databrary 1.0 permitted some Affiliates to be granted access without a direct sponsorship by a specific Authorized Investigator. 
+Individuals who previously had read/write access to some of your volumes may no longer have that access in Databrary 2.0. 
+To grant these individuals access, you must specifically (re)authorize them as your Affiliate.
+:::
+
+![Screenshot of a user's (private) profile page and dashboard.](include/img/profile-affiliate-panel.png){#fig-profile-affiliate-panel}
+
+As shown in @fig-profile-affiliate-panel, the Affiliate panel is in the lower right (magenta highlighting).
+Press the edit (pencil icon; green highlighting) button to edit your affiliates.
+
+#### Authorizing a new affiliate {-}
+
+After you press the edit button in the previous screen, you will be directed to the following:
+
+![Affiliates panel](include/img/navigate-to-affiliates.png){#fig-navigate-to-affiliates}
+
+Click on Affiliates under the "Current affiliates and requests" section (magenta highlight).
+This will open the following:
+
+![Editing affiliates.](include/img/edit-affiliates-search-new.png){#fig-edit-affiliates-search-new}
+
+As shown in @fig-edit-affiliates-search-new, to find out if a person is already your affiliate, look in the table or search for their name in the search box (magenta highlighting).
+If the person is not found in the search, press the "Authorize new affiliate" button (green highlighting.)
+
+A new window will pop-up where you must search for the affiliate's name.
+
+![Finding a new affiliate to authorize.](include/img/find-affiliate.png){#fig-find-affiliate}
+
+Make sure to select the person you want to add.
+When you do so, the window will open with detailed information about the person.
+
+![Editing details about an Affiliate's access.](include/img/edit-affiliate-details.png)
+
+You have three choices to make:
+
+1. Should the person have access to *other researcher's data* shared on Databrary?
+
+::: {.callout-warning}
+## Affiliate access to Databrary
+
+With the possible exception of highly trusted, senior graduate students or postdocs, we advise Authorized Investigators *not* to grant access to all of Databrary to their Affiliates.
+
+This is the default.
+:::
+
+2. Should the person have Read-only, or Read-write access to your lab's data?
+
+::: {.callout-warning}
+## Manager access
+
+As of the 2.0 release, Manager's have *Read-only* access to an Authorized Investigator's volumes.
+
+If you want a person to have Read/write access, select Read-write access.
+:::
+
+Read-only is the default.
+
+3. When should the authorization expire?
+
+The default is one year from today's date. 
+You may choose an earlier date, but not a later one.
+
+Press the Submit button to authorize the person.
+
+### Managing co-authors on a volume {-}
 
 Unlike Databrary 1.0, Databrary 2.0 separates the management of *co-authors*--people who should get scholarly credit for a volume--from people who have access to a volume.
-
-### Managing co-authors {-}
 
 ::: {.callout-important}
 ## Editing co-authors is restricted to a volume's owner
@@ -228,7 +306,7 @@ To edit a volume's list of authors, follow these steps:
 
 4. To add a coauthor, press the Add coauthor button (cyan highlight in @fig-edit-volume-coauthors. To delete a coauthor, press on the trash can icon (magenta highlight in @fig-edit-volume-coauthors).
 
-### Managing collaborators 
+### Managing collaborators on a volume
 
 ::: {.callout-important}
 ## Owners manage collaborators
