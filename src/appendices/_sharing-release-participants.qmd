@@ -1,11 +1,11 @@
 ---
 title: "Data Sharing Release: Participants"
-subtitle: "Version date: March 5, 2025"
+subtitle: "Version date: April 29, 2020"
 number-sections: false
 ---
 
 ::: {.callout-warning}
-This template has replaced [one](OLD-sharing-release-participants.qmd) with version date April 29, 2020.
+This template has been superceded with a new version effective March 4, 2025.
 :::
 
 ::: {.callout-note}
@@ -15,7 +15,7 @@ This language is advisory and not mandatory.
 
 ## Databrary Release for [Study Name] 
 
-Version date:  March 5, 2025
+Version date: April 29, 2020
 
 ###  What we are asking
 
@@ -114,22 +114,17 @@ All people in the session must decide whether to provide permission for the foll
 
 #### Permission to share with authorized researchers
 
-I give permission to share data from this session with authorized researchers in a secure library called Databrary. 
-Authorized researchers may use the material for non-commercial research and educational purposes.
+I give permission to share the material from this session with authorized researchers in a secure data library called Databrary. Authorized researchers may use the materials for research purposes. 
 
 OR
 
 #### Permission to show excerpts and images
 
-I give permission to share data from this session with authorized researchers in a secure library called Databrary. 
-Authorized researchers may use the data for non-commercial research and educational purposes.
-In addition, I give permission for authorized researchers to show selected excerpts or images from shared recordings in public settings for informational or educational purposes. 
-I understand that at times these presentations may be videotaped or recorded by people who sponsor presentations, and that the recordings may be made available to the public via the internet (e.g., YouTube). 
-In giving my permission, I trust that authorized researchers will use their professional judgment and uphold ethical principles in determining which excerpts or images to present and to which audiences. 
-No one directly associated with this research project or Databrary will make my data directly available to the public.
+I give permission to share data from this session with authorized researchers in a secure library called Databrary. Authorized researchers may use the data for non-commercial research and educational purposes.
 
-We will give you a copy of this form and the signature page for your records. 
-If you have any questions about the data-sharing library, please email contact@databrary.org. For questions about your rights as a research participant, you may contact [APPROPRIATE CONTACT FOR LOCAL INSTITUTION].
+In addition, I give permission for authorized researchers to show selected excerpts or images from shared recordings in public settings for informational or educational purposes. I understand that at times these presentations may be videotaped or recorded by people who sponsor presentations, and that the recordings may be made available to the public via the internet (e.g., YouTube). In giving my permission, I trust that authorized researchers will use their professional judgment and uphold ethical principles in determining which excerpts or images to present and to which audiences. No one directly associated with this research project or Databrary will make your data directly available to the public.
+
+We will give you a copy of this form and the signature page for your records. If you have any questions about the data-sharing library, please email contact@databrary.org. For questions about your rights as a research participant, you may contact [APPROPRIATE CONTACT FOR LOCAL INSTITUTION].
 
 #### Adults 	
 

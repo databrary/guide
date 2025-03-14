@@ -1,11 +1,11 @@
 ---
 title: "Data Sharing Release: Participants"
-subtitle: "Version date: March 5, 2025"
+subtitle: "Version date: April 29, 2020"
 number-sections: false
 ---
 
 ::: {.callout-warning}
-This template has replaced [one](OLD-sharing-release-participants.qmd) with version date April 29, 2020.
+This template has been superceded with a new version effective March 4, 2025.
 :::
 
 ::: {.callout-note}
@@ -15,7 +15,7 @@ This language is advisory and not mandatory.
 
 ## Databrary Release for [Study Name] 
 
-Version date:  March 5, 2025
+Version date: April 29, 2020
 
 ###  What we are asking
 
