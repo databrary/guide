@@ -249,9 +249,11 @@ This is the default.
 ::: {.callout-warning}
 ## Manager access
 
-As of the 2.0 release, Manager's have *Read-only* access to an Authorized Investigator's volumes.
+As of the 2.0 release, Managers have *Read-only* access to an Authorized Investigator's volumes.
 
 If you want a person to have Read/write access, select Read-write access.
+
+We are evaluating the Manager role and may make minor changes in a forthcoming release.
 :::
 
 Read-only is the default.
@@ -263,9 +265,21 @@ You may choose an earlier date, but not a later one.
 
 Press the Submit button to authorize the person.
 
+#### Editing an existing affiliate {-}
+
+The process for editing an existing Affiliate's privileges is nearly identical.
+
+1. From your profile page (@fig-profile-affiliate-panel), press the edit (pencil icon; green highlight) in the the Affiliate panel.
+
+![Editing existing Affiliates](include/img/edit-affiliates-find-delete.png){#fig-edit-affiliates-find-delete}
+
+2. Find the Affiliate you wish to edit using the search window (@fig-edit-affiliates-find-delete, magenta highlight) or by scrolling through the table of currently authorized Affiliates. 
+
+3. Edit the Affiliate by clicking on the pencil icon (green highlight) or delete the Affiliate by clicking on the trash can icon (cyan highlight).
+
 ### Managing co-authors on a volume {-}
 
-Unlike Databrary 1.0, Databrary 2.0 separates the management of *co-authors*--people who should get scholarly credit for a volume--from people who have access to a volume.
+Unlike Databrary 1.0, Databrary 2.0 separates the management of *co-authors*--people who should get scholarly credit for a volume--from people who have access to a Private volume's data and metadata.
 
 ::: {.callout-important}
 ## Editing co-authors is restricted to a volume's owner
@@ -351,14 +365,17 @@ After you select the user, the Add New collaborator panel will show more complet
 
 ::: {.callout-warning}
 ## Stay tuned!
-We expect to be releasing new minor versions of Databrary with patches and bug fixes on a regular basis over the next several months.
+We expect to be releasing new versions of the Databrary application on a regular basis over the next several months.
 
 Databrary has received new [funding from NSF](https://databrary.github.io/nsf-2444730) to support even more feature enhancements over the next two years.
 :::
 
-### 2.1 (expected end of March)
+### 2.01 (expected end of March)
 
 - File uploads
-- Search
 - User interface (UI) and user experience (UX) enhancements
+
+### 2.02 (expected early April)
+
+- Search
 

@@ -437,6 +437,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#managing-affiliates" id="toc-managing-affiliates" class="nav-link" data-scroll-target="#managing-affiliates">Managing affiliates</a>
   <ul class="collapse">
   <li><a href="#authorizing-a-new-affiliate" id="toc-authorizing-a-new-affiliate" class="nav-link" data-scroll-target="#authorizing-a-new-affiliate">Authorizing a new affiliate</a></li>
+  <li><a href="#editing-an-existing-affiliate" id="toc-editing-an-existing-affiliate" class="nav-link" data-scroll-target="#editing-an-existing-affiliate">Editing an existing affiliate</a></li>
   </ul></li>
   <li><a href="#managing-co-authors-on-a-volume" id="toc-managing-co-authors-on-a-volume" class="nav-link" data-scroll-target="#managing-co-authors-on-a-volume">Managing co-authors on a volume</a></li>
   <li><a href="#managing-collaborators-on-a-volume" id="toc-managing-collaborators-on-a-volume" class="nav-link" data-scroll-target="#managing-collaborators-on-a-volume">Managing collaborators on a volume</a>
@@ -446,7 +447,8 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#roadmap" id="toc-roadmap" class="nav-link" data-scroll-target="#roadmap">Roadmap</a>
   <ul>
-  <li><a href="#expected-end-of-march" id="toc-expected-end-of-march" class="nav-link" data-scroll-target="#expected-end-of-march">2.1 (expected end of March)</a></li>
+  <li><a href="#expected-end-of-march" id="toc-expected-end-of-march" class="nav-link" data-scroll-target="#expected-end-of-march">2.01 (expected end of March)</a></li>
+  <li><a href="#expected-early-april" id="toc-expected-early-april" class="nav-link" data-scroll-target="#expected-early-april">2.02 (expected early April)</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/quick-start-2.0.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -939,8 +941,9 @@ Manager access
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>As of the 2.0 release, Manager’s have <em>Read-only</em> access to an Authorized Investigator’s volumes.</p>
+<p>As of the 2.0 release, Managers have <em>Read-only</em> access to an Authorized Investigator’s volumes.</p>
 <p>If you want a person to have Read/write access, select Read-write access.</p>
+<p>We are evaluating the Manager role and may make minor changes in a forthcoming release.</p>
 </div>
 </div>
 <p>Read-only is the default.</p>
@@ -950,10 +953,31 @@ Manager access
 <p>The default is one year from today’s date. You may choose an earlier date, but not a later one.</p>
 <p>Press the Submit button to authorize the person.</p>
 </section>
+<section id="editing-an-existing-affiliate" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="editing-an-existing-affiliate">Editing an existing affiliate</h4>
+<p>The process for editing an existing Affiliate’s privileges is nearly identical.</p>
+<ol type="1">
+<li>From your profile page (<a href="#fig-profile-affiliate-panel" class="quarto-xref">Figure&nbsp;<span>19</span></a>), press the edit (pencil icon; green highlight) in the the Affiliate panel.</li>
+</ol>
+<div id="fig-edit-affiliates-find-delete" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-edit-affiliates-find-delete-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="include/img/edit-affiliates-find-delete.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-edit-affiliates-find-delete-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;23: Editing existing Affiliates
+</figcaption>
+</figure>
+</div>
+<ol start="2" type="1">
+<li><p>Find the Affiliate you wish to edit using the search window (<a href="#fig-edit-affiliates-find-delete" class="quarto-xref">Figure&nbsp;<span>23</span></a>, magenta highlight) or by scrolling through the table of currently authorized Affiliates.</p></li>
+<li><p>Edit the Affiliate by clicking on the pencil icon (green highlight) or delete the Affiliate by clicking on the trash can icon (cyan highlight).</p></li>
+</ol>
+</section>
 </section>
 <section id="managing-co-authors-on-a-volume" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="managing-co-authors-on-a-volume">Managing co-authors on a volume</h3>
-<p>Unlike Databrary 1.0, Databrary 2.0 separates the management of <em>co-authors</em>–people who should get scholarly credit for a volume–from people who have access to a volume.</p>
+<p>Unlike Databrary 1.0, Databrary 2.0 separates the management of <em>co-authors</em>–people who should get scholarly credit for a volume–from people who have access to a Private volume’s data and metadata.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -978,7 +1002,7 @@ Editing co-authors is restricted to a volume’s owner
 <img src="include/img/volume-1-header-edit.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-volume-1-header-edit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;23: Edit button for Volume 1 (owned by Rick Gilmore)
+Figure&nbsp;24: Edit button for Volume 1 (owned by Rick Gilmore)
 </figcaption>
 </figure>
 </div>
@@ -991,7 +1015,7 @@ Figure&nbsp;23: Edit button for Volume 1 (owned by Rick Gilmore)
 <img src="include/img/volume-1-edit-overview.png" class="img-fluid figure-img" style="width:40.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-volume-1-edit-overview-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;24: Edit overview for a volume
+Figure&nbsp;25: Edit overview for a volume
 </figcaption>
 </figure>
 </div>
@@ -1004,7 +1028,7 @@ Figure&nbsp;24: Edit overview for a volume
 <img src="include/img/volume-1-citation-previews.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-volume-1-citation-previews-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;25: Citation Preview for Volume 1
+Figure&nbsp;26: Citation Preview for Volume 1
 </figcaption>
 </figure>
 </div>
@@ -1015,7 +1039,7 @@ Figure&nbsp;25: Citation Preview for Volume 1
 <img src="include/img/volume-1-citation-reorder-citation.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-volume-1-citation-reorder-citation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;26: Reordered citation author order
+Figure&nbsp;27: Reordered citation author order
 </figcaption>
 </figure>
 </div>
@@ -1028,7 +1052,7 @@ Figure&nbsp;26: Reordered citation author order
 <img src="include/img/save-changed-author-order.png" class="img-fluid figure-img" style="width:70.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-save-changed-author-order-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;27: Save changed author order
+Figure&nbsp;28: Save changed author order
 </figcaption>
 </figure>
 </div>
@@ -1042,7 +1066,7 @@ Figure&nbsp;27: Save changed author order
 <img src="include/img/manage-volume-access.png" class="img-fluid figure-img" style="width:40.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-manage-volume-access-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;28: Manage volume access
+Figure&nbsp;29: Manage volume access
 </figcaption>
 </figure>
 </div>
@@ -1055,12 +1079,12 @@ Figure&nbsp;28: Manage volume access
 <img src="include/img/edit-volume-coauthors.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-edit-volume-coauthors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;29: Coauthors of Volume 1.
+Figure&nbsp;30: Coauthors of Volume 1.
 </figcaption>
 </figure>
 </div>
 <ol start="4" type="1">
-<li>To add a coauthor, press the Add coauthor button (cyan highlight in <a href="#fig-edit-volume-coauthors" class="quarto-xref">Figure&nbsp;<span>29</span></a>. To delete a coauthor, press on the trash can icon (magenta highlight in <a href="#fig-edit-volume-coauthors" class="quarto-xref">Figure&nbsp;<span>29</span></a>).</li>
+<li>To add a coauthor, press the Add coauthor button (cyan highlight in <a href="#fig-edit-volume-coauthors" class="quarto-xref">Figure&nbsp;<span>30</span></a>. To delete a coauthor, press on the trash can icon (magenta highlight in <a href="#fig-edit-volume-coauthors" class="quarto-xref">Figure&nbsp;<span>30</span></a>).</li>
 </ol>
 </section>
 <section id="managing-collaborators-on-a-volume" class="level3">
@@ -1083,7 +1107,7 @@ Owners manage collaborators
 <h4 class="anchored" data-anchor-id="adding-authorized-investigators">Adding Authorized Investigators</h4>
 <p>To add a colleague who is an Authorized Investigator to a Databrary volume, follow these steps:</p>
 <ol type="1">
-<li>Navigate to the Manage Access panel (see <a href="#fig-manage-volume-access" class="quarto-xref">Figure&nbsp;<span>28</span></a>) for a volume you own.<br>
+<li>Navigate to the Manage Access panel (see <a href="#fig-manage-volume-access" class="quarto-xref">Figure&nbsp;<span>29</span></a>) for a volume you own.<br>
 </li>
 <li>Scroll to the Collaborators panel.</li>
 </ol>
@@ -1093,7 +1117,7 @@ Owners manage collaborators
 <img src="include/img/editing-collaborators-manage-access.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-editing-collaborators-manage-access-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;30: Collaborators section in a volume’s Manage Access panel
+Figure&nbsp;31: Collaborators section in a volume’s Manage Access panel
 </figcaption>
 </figure>
 </div>
@@ -1106,7 +1130,7 @@ Figure&nbsp;30: Collaborators section in a volume’s Manage Access panel
 <img src="include/img/collaborators-search-by-name.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-collaborators-search-by-name-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;31: Search for a collaborator by name.
+Figure&nbsp;32: Search for a collaborator by name.
 </figcaption>
 </figure>
 </div>
@@ -1119,7 +1143,7 @@ Figure&nbsp;31: Search for a collaborator by name.
 <img src="include/img/collaborator-exists.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-collaborator-exists-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;32: Editing an existing collaborator
+Figure&nbsp;33: Editing an existing collaborator
 </figcaption>
 </figure>
 </div>
@@ -1132,7 +1156,7 @@ Figure&nbsp;32: Editing an existing collaborator
 <img src="include/img/collaborator-does-not-exist.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-collaborator-does-not-exist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;33: Adding a new collaborator
+Figure&nbsp;34: Adding a new collaborator
 </figcaption>
 </figure>
 </div>
@@ -1145,7 +1169,7 @@ Figure&nbsp;33: Adding a new collaborator
 <img src="include/img/add-new-collaborator.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-add-new-collaborator-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;34: Searching for and adding a new collaborator
+Figure&nbsp;35: Searching for and adding a new collaborator
 </figcaption>
 </figure>
 </div>
@@ -1174,16 +1198,21 @@ Stay tuned!
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>We expect to be releasing new minor versions of Databrary with patches and bug fixes on a regular basis over the next several months.</p>
+<p>We expect to be releasing new versions of the Databrary application on a regular basis over the next several months.</p>
 <p>Databrary has received new <a href="https://databrary.github.io/nsf-2444730">funding from NSF</a> to support even more feature enhancements over the next two years.</p>
 </div>
 </div>
 <section id="expected-end-of-march" class="level3">
-<h3 class="anchored" data-anchor-id="expected-end-of-march">2.1 (expected end of March)</h3>
+<h3 class="anchored" data-anchor-id="expected-end-of-march">2.01 (expected end of March)</h3>
 <ul>
 <li>File uploads</li>
-<li>Search</li>
 <li>User interface (UI) and user experience (UX) enhancements</li>
+</ul>
+</section>
+<section id="expected-early-april" class="level3">
+<h3 class="anchored" data-anchor-id="expected-early-april">2.02 (expected early April)</h3>
+<ul>
+<li>Search</li>
 </ul>
 
 
