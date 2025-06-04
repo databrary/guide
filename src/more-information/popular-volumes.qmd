@@ -6,7 +6,15 @@ This page lists some Databrary volumes that are especially popular and widely ac
 
 ## Volumes
 
+### [The Complex Emotion Expression Database (CEED)](https://databrary.org/volume/874)
+
 ### [Child Affective Face Expression (CAFE)](https://databrary.org/volume/30)
+
+### [Eye-Gaze FoCuS Database](https://databrary.org/volume/884)
+
+### [Falls Experiences by Older Adult Residents in Long-Term Care Homes](https://databrary.org/volume/739)
+
+### [ManyBabies 1: Walkthrough videos](https://databrary.org/volume/896)
 
 ### [MetroBaby](https://databrary.org/volume/8)
 
@@ -14,6 +22,6 @@ This page lists some Databrary volumes that are especially popular and widely ac
 
 ### [Science of Everyday Play](https://databrary.org/volume/1612)
 
-### [SEEDLingS](https://nyu.databrary.org/party/61)
+### [SEEDLingS](https://databrary.org/party/61)
 
 
