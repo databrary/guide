@@ -1,4 +1,4 @@
-# About Databrary {#sec-about-databrary}
+# About Databrary {.unnumbered #sec-about-databrary}
 
 Databrary is a *restricted access* data library that is specialized for storing, streaming, and sharing video and audio recordings collected as research data or documentation. 
 Databrary supports sharing of [many types](https://nyu.databrary.org/asset/formats) of research data and documentation beyond video and audio. 

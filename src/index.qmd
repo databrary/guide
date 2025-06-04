@@ -12,25 +12,11 @@ Databrary's founders believe that the widespread use and sharing of video can im
 
 *Andrea Seisler* manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.
 
-*Kasey Soska* is Science Director for the [Play & Learning Across a Year](https://play-project.org) project. 
+*Kasey Soska* is Science Director for the [Play & Learning Across a Year](https://play-project.org) project.
+
 *Melody Xu* was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023.
 
 *Yinghe Liu* was an undergraduate student in Psychology at Penn State.
 
-<!-- ### References -->
-
-<!-- <!-- ## About the guide --> -->
-
-<!-- <!-- This guide is built using [Quarto](https://quarto.org) and hosted using GitHub pages. --> -->
-<!-- <!-- Please feel free to report an issue or edit the page and make a pull request. --> -->
-
-<!-- <!-- Quarto implements a search feature that works site-wide: --> -->
-
-<!-- <!-- ![Search bar from the Guide](include/img/guide-search-bar.png){fig-guide-search-bar} --> -->
-
-<!-- <!-- Please make use of this feature to find what you are looking for. --> -->
-
-<!-- <!-- You may also find the [definitions page](more-information/definitions.qmd) useful to understand specific terms. --> -->
-<!-- <!-- Databrary-specific terms are highlighted in *italics* on first mention on a page, and most of the time these first-mentions link to a corresponding definition. --> -->
-
+## References {-}
 

@@ -1,8 +1,4 @@
-# Researchers {#sec-getting-started-researchers}
-
-::: {.callout-warning}
-This page is under construction.
-:::
+# Researchers {.unnumbered #sec-getting-started-researchers}
 
 ## Eligibility {-}
 
@@ -10,17 +6,11 @@ Databrary policies and your home *institution* determine whether you are eligibl
 Here are some factors that contribute to that determination:
 
 - I conduct independent, unsupervised, research at my institution;
-
 - I submit funding proposals as lead investigator;
-
 - I have Principal Investigator (PI) status or hold a tenure-track faculty position at my institution;
-
 - My institution maintains or uses an ethics board to review and approve research involving human subjects (or non-human animals where relevant); 
-
 - I have current training that addresses research ethics with human subject (e.g. [CITI](https://about.citiprogram.org/) training);
-
 - I would like to reuse or upload data to Databrary.
-
 - I sponsor and supervise lab staff and students who work on my projects or on collaborative projects, and I  have authority to supervise their access to data that I share or or others have shared on Databrary.
 
 ## Seeking Authorization {-}

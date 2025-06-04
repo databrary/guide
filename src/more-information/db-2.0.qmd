@@ -1,4 +1,3 @@
-
 # Databrary 2.0 {.unnumbered}
 
 As of April 2024, Databrary has begun a rewrite led by [Montrose Software](https://montrosesoftware.com).

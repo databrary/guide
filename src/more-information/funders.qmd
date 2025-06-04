@@ -1,0 +1,21 @@
+# Funders {.unnumbered}
+
+## National Institutes of Health
+
+"Play & Learning Across a Year." Eunice Kennedy Shriver National Institute for Child Health and Human Development, R01-HD909834, $6,341,419, (8/15/2018-5/31/2023), Karen Adolph, Rick Gilmore, and Catherine Tamis-Lemonda, Co-PIs. [NIH RePORTER](https://reporter.nih.gov/search/6FuB6XpOPkSgJdtdlTg9hQ/project-details/10186784)
+
+“Databrary: An open video-based data-sharing system for developmental science.” Eunice Kennedy Shriver National Institute for Child Health and Human Development, U01-HD-076595-01, $3,655,339, (04/05/13-03/31/18). Karen Adolph, PI. [NIH RePORTER](https://reporter.nih.gov/search/6FuB6XpOPkSgJdtdlTg9hQ/project-details/8531595)
+
+## National Science Foundation
+
+“Collaborative Research: HNDS-I: Enhancing Infrastructure For Discovery About Human Behavior”, National Science Foundation, SBE 2444730, $714,998, (3/1/2025-2/28/2027), Karen Adolph and Rick Gilmore, Co-PIs. [site](https://databrary.github.io/nsf-2444730)
+
+“EAGER: Expanding public access to restricted research data”, National Science Foundation, OAS 2032713, $199,977, (9/1/2020-8/31/22), Rick Gilmore, PI.
+
+“Databrary: An open video-based data-sharing system for developmental science.” National Science Foundation, NSF SBE 1238599, $2,443,000, (9/15/12-08/31/14). Karen Adolph and Rick Gilmore, Co-PIs, David Millman, Co-I.
+
+## Foundations
+
+"Video as data and documentation in behavioral science." James S. McDonnell Foundation. $350,000, (12/1/2018-12/31/2019), Karen Adolph and Rick Gilmore, Co-PIs.
+
+"Next-generation infrastructure for video-centered research on human behavior." Alfred P. Sloan Foundation. $550,000, (7/1/2017-12/31/2018), Karen Adolph and Rick Gilmore, Co-PIs.

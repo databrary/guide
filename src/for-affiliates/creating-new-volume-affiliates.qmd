@@ -4,7 +4,7 @@ Each project can create a volume for storing and sharing data. We encourage corr
 
 We have intentionally limited the permissions to manage the volume to ensure data security. Creating volumes is a privilege granted to the project's **Manager** status affiliates, and sharing the volume is **not** allowed for affiliates.
 
-:::{.callout-important}
+::: {.callout-important}
 **Volumes cannot be deleted once created.** 
 :::
 
@@ -36,7 +36,7 @@ If you have been granted with access to create a new volume, you will see the bu
 
 ## Step 3: Click Create a new volume button to create a new volume {- #affiliates-step3}
 
-:::{.callout-important}
+::: {.callout-important}
 Again, creating a new volume with careful consideration is important. Once created, the volume **cannot** be deleted.
 :::
 
@@ -212,7 +212,6 @@ See video instructions or follow the step by step instructions below.
 knitr::include_url("https://nyu.databrary.org/slot/27587/0,183810/asset/122478/download?inline=true")
 ```
 
-
 What is an appropriately formatted .csv file?
 
 - ensure that the Header row is exactly the same as the **Spreadsheet Preview** in the `Design Spreadsheet` tab.
@@ -300,7 +299,7 @@ knitr::include_graphics("../include/img/db-new-volume-list-funding.JPG")
 
 ## Related Frequently Asked Questions (FAQs) {.unnumbered}
 
-<div class = ""qa>
+<div class = "qa">
 
 ::: question
 Q: I don't know how to get authorized as a manager. 
@@ -314,19 +313,19 @@ A: Manager status is authorized by their sponsor during the  [requesting-access-
 Make sure you have the right status. If you need to update your status, please contact your sponsor.
 :::
 
-<div class = ""qa>
+<!-- <div class = ""qa> -->
 
-What is the difference between a Tag and a Keyword?
+<!-- What is the difference between a Tag and a Keyword? -->
 
-Tag - Anyone can tag a volume
-Keyword - Only Volume Owners/Authors/Investigators can enter keywords
+<!-- Tag - Anyone can tag a volume -->
+<!-- Keyword - Only Volume Owners/Authors/Investigators can enter keywords -->
 
-How do Tags and Keywords affect the search function?
+<!-- How do Tags and Keywords affect the search function? -->
 
-Tags can be searched for on the [Databrary Search Page](http://nyu.databrary.org/search)
+<!-- Tags can be searched for on the [Databrary Search Page](http://nyu.databrary.org/search) -->
 
-Keywords are for??? Maybe these are the same keywords that would have been used in the associated Journal article.
+<!-- Keywords are for??? Maybe these are the same keywords that would have been used in the associated Journal article. -->
 
-Can I tag a Session?
+<!-- Can I tag a Session? -->
 
-This appears to be possible, but the search function cannot present results by session. Therefore only Volume Tags are currently searchable.
+<!-- This appears to be possible, but the search function cannot present results by session. Therefore only Volume Tags are currently searchable. -->

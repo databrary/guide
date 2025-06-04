@@ -357,7 +357,7 @@ To add a colleague who is an Authorized Investigator to a Databrary volume, foll
 
 After you select the user, the Add New collaborator panel will show more complete information about the person. Select the person's Access Level to the volume (Read only, Investigator [read/write]; magenta box), the date their access expires (1 year or less from today's date; cyan box), and whether their access to your volume should be visible to other collaborators (green box).
 
-![Adding a new collaborator and selecting parameters related to their access.](include/img/new-collaborator-more-info.png){#new-collaborator-more-info}
+![Adding a new collaborator and selecting parameters related to their access.](include/img/new-collaborator-more-info.png){#fig-new-collaborator-more-info}
 
 7. Press the SUBMIT button (orange box) to save the changes.
 
@@ -369,13 +369,3 @@ We expect to be releasing new versions of the Databrary application on a regular
 
 Databrary has received new [funding from NSF](https://databrary.github.io/nsf-2444730) to support even more feature enhancements over the next two years.
 :::
-
-### 2.01 (expected end of March)
-
-- File uploads
-- User interface (UI) and user experience (UX) enhancements
-
-### 2.02 (expected early April)
-
-- Search
-

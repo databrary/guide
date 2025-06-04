@@ -1,4 +1,4 @@
-# Who and why? {#sec-who-why}
+# Who and why? {.unnumbered #sec-who-why}
 
 This section describes who can access Databrary and why they might want to.
 
@@ -44,7 +44,7 @@ I am eligible to become an *Affiliate* if:
 
 ::: {.callout-important}
 
-If you are eligible for *Affiliate* status, your supervisor or research sponsor must [register](https://databrary.org/register) as an *Authorized Investigator* <u>BEFORE</u> you may request affiliate access from them.
+If you are eligible for *Affiliate* status, your supervisor or research sponsor must [register](https://databrary.org/user/register) as an *Authorized Investigator* <u>BEFORE</u> you may request affiliate access from them.
 Communicate with your sponsor or supervisor about your request.
 
 :::

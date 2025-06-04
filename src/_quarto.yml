@@ -21,7 +21,10 @@ book:
       - background/origins-support.qmd
       - background/who-why.qmd
       - background/ethics.qmd
-    - href: for-institutions/background.qmd
+    - part: "For Institutions"
+      chapters:
+        - for-institutions/background.qmd
+        - for-institutions/specifics.qmd
       text: "For Institutions"
     - part: "For Investigators"
       chapters: 

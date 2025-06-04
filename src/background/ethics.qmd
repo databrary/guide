@@ -1,4 +1,4 @@
-# Ethical Data Sharing {#sec-ethical-data-sharing}
+# Ethical Data Sharing {.unnumbered #sec-ethical-data-sharing}
 
 Many of the most interesting unsolved scientific questions concern people or the behavior of non-human animals.
 And many questions about human or animal behavior are informed and enriched through video and audio recordings that are difficult, if not impossible, to de-identify effectively without diminishing their value for future research.
