@@ -6,7 +6,17 @@ This page describes the most important changes in Databrary 2.0, launched on Mar
 
 ## Logging in {-}
 
-Like Databrary 1.0, you may log in via the orange Login button or the login button on the application menu bar.
+Like Databrary 1.0, you may log in via the orange Login button
+
+![Orange Login Button](include/img/login-center.png){width=50% #fig-login-center}
+
+or the login button on the application menu bar.  
+
+![Menu Bar BEFORE Login](include/img/login-menu-bar.png){width=50% #fig-menu-bar-before-login}
+
+After you log in, the menu bar will appear like this:
+
+![Menu Bar AFTER Login](include/img/logged-in-menu-bar.png){width=70% #fig-menu-bar-after-login}
 
 Databrary 2.0 supports two-factor authentication (2FA).
 When you log in with your password, the system will send an email to the account associated with Databrary with a one-time password (OTP).
