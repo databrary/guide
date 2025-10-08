@@ -118,22 +118,25 @@ To transfer ownership to another Authorized Investigator:
 The individual you select will receive a notification that you have requested to transfer ownership to them.
 They may accept or reject the request.
 
-
 ## Uploading files
 
-::: {.callout-warning}
-## File uploads temporarily disabled
-The initial release of Databrary 2.0 does *not* permit file uploads and search is disabled.
-We made this very painful choice in order to give users access to data that had been offline for a long time.
-These features are under development and will be added *very* soon.
-:::
+Early releases of Databrary 2.0 prohibited uploading files, but the system now supports file uploads through the web interface.
 
 ::: {.callout-warning}
-## Text entry permitted, but undergoing beta-testing
-Users may create volumes and create spreadsheets for volumes.
+## Under construction
 
-Text entry into spreadsheets (no file uploads) works, but is still undergoing testing.
+This section is still under construction.
+
+We will be adding how-tos shortly.
+
 :::
+
+<!-- ::: {.callout-warning} -->
+<!-- ## Text entry permitted, but undergoing beta-testing -->
+<!-- Users may create volumes and create spreadsheets for volumes. -->
+
+<!-- Text entry into spreadsheets (no file uploads) works, but is still undergoing testing. -->
+<!-- ::: -->
 
 ## Previewing files {-}
 
@@ -370,6 +373,14 @@ After you select the user, the Add New collaborator panel will show more complet
 ![Adding a new collaborator and selecting parameters related to their access.](include/img/new-collaborator-more-info.png){#fig-new-collaborator-more-info}
 
 7. Press the SUBMIT button (orange box) to save the changes.
+
+## API Access
+
+As of October 2025, Databrary is piloting a program to give a small number of selected researchers access to a set of API commands that permit scripted access to the system.
+This can permit automated file uploads and downloads.
+
+Please email Databrary support if you wish to discuss participating in the API access pilot program.
+See [this page](more-information/api-access.qmd) for details about the application process.
 
 ## Roadmap {-}
 

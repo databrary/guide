@@ -1,0 +1,102 @@
+## API Access {.unnumbered}
+
+## About
+
+This page provides information about the process for applying for permission to use the secure Databrary API.
+
+## Application process
+
+For performance and security reasons, Databrary is restricting the number of authorized users who are permitted to use the secure API.
+Researchers who have a specific research need to use the secure API, should contact the Databrary team by email.
+
+After the initial consultation, Databrary staff will ask researchers to provide the following information:
+
+**1. Rationale for requesting API access vs. web app**
+
+**2. Information about the files to be uploaded (or downloaded) and the number of volumes to be created.**
+
+- a. How many files and what type(s) of files
+- b. Total storage footprint
+- c. How many volumes
+
+**3. Plans to share the data with the research community.**
+
+- a. For data being uploaded, when will the data be shared with the research community?
+- b. For data being downloaded, are the data currently shared with the research community? If not, what is the timeline for sharing the data?
+
+**4. Available funding for the data deposit (relevant to data uploads only).**
+
+::: {.callout-note}
+## Data deposit fees
+We are not yet requiring data deposit fees, but plan to do so in the near future. 
+These would be in the neighborhood of $3,500/TB, a cost roughly equivalent to the 10-year storage cost on a cloud provider.
+
+Priority will be given to applications that have funding to pay data deposit fees.
+:::
+
+**5. Which Databrary user account(s) require access.**
+
+::: {.callout-note}
+## Considerations
+This should be a minimal number. If a non-Authorized Investigator user will be the main person doing the work, then that person must be an Affiliate of an Authorized Investigator and will need read/write privileges on any volumes created.
+:::
+
+### Review & Approval
+
+The Databrary team will review the application.
+If necessary, we will seek additional information from the applicant team.
+
+If the application is approved, a Databrary system administrator will enable secure API access privileges to the account or accounts.
+Databrary will send an email notifying the applicant team once that had been done.
+That email will contain a link to a secure user agent parameter that must be specified in order to access the secure API.
+
+::: {.callout-warning}
+## Keeping secrets save
+
+Do **not** share the user agent, client id, or client secret with anyone.
+
+Doing so could put your data and others' data at-risk and violates the Databrary Access Agreement terms.
+:::
+
+::: {.callout-important}
+## Limitations
+Databrary reserves the right to revoke secure API access at any time for any reason.
+
+Databrary will make its best efforts to communicate with research teams about the timing and rationale of any revocation of API access so as to minimize disruptions to research.
+:::
+
+## Usage
+
+Once Databrary has enabled the generation of secure API tokens for approved Databrary users, those users may proceed as indicated in this section.
+
+**1. Create a secure token**
+
+Users should log in to the application and visit their profile page at <https://databrary.org/profile>.
+Then, click on the edit (pencil) icon. See @fig-api-gilmore-profile below.
+
+![Rick Gilmore's private profile page visible at databrary.org/profile. The Magenta box shows the edit button a user should click on to open the edit profile page.](../include/img/api-gilmore-databrary-profile.png){#fig-api-gilmore-profile}
+
+From the edit profile page, select the API Access tab.
+
+![The edit profile panel. The magenta highlighting indicates the new API Access tab that users should select.](../include/img/api-edit-profile-panel.png){#fig-api-edit-profile-panel width="40%"}
+
+Then, press the `Add application` button at right.
+
+![The API Access application panel. Users should press on the highlighted button at right to create a new application.](../include/img/api-api-access-panel.png){#fig-api-api-access-panel}
+
+Create an application by entering the name and time period.
+The default is 180 days.
+When the application details window appears, capture these credentials in a separate file.
+
+![Application details information for the created token. Make sure to capture the client id and client secret by saving them to a separate text file.](../include/img/api-application-details.png){#fig-application-details}
+
+**2. Acquire user agent**
+
+Databrary staff will send you a link to a site where you can retrieve the secure user agent value
+You will need to store this securely and use it in your application.
+
+**2. Create and test your application**
+
+Additional information about the secure API specification is [here](https://github.com/NYU-Databrary/backend_2.0/blob/development/api-guide.md).
+
+Sample [test scripts](https://github.com/NYU-Databrary/backend_2.0/blob/development/scripts/test_oauth2_api.py) are also available for your use.

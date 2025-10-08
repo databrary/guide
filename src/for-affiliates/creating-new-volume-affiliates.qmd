@@ -42,12 +42,9 @@ Again, creating a new volume with careful consideration is important. Once creat
 
 Click the button `Create a new volume` to create a new volume. 
 
-
 Click on `Create Volume` to the right of **Data Owner Volumes**
 
-```{r}
-knitr::include_graphics("../include/img/db-create-volume.JPG")
-```
+![](../include/img/db-create-volume.JPG)
 
 There are multiple tabs on the left side of the screen that need to be completed to set up a new volume. In this page, you will be asked to provide the following information: **overview, manage access, design spreadsheet, enter data, add links, ** and **list fundings**.  These tabs need to be completed in order.
 
@@ -296,10 +293,7 @@ Finally, please share your funding source for your volume in **List Funding**. I
 knitr::include_graphics("../include/img/db-new-volume-list-funding.JPG")
 ```
 
-
 ## Related Frequently Asked Questions (FAQs) {.unnumbered}
-
-<div class = "qa">
 
 ::: question
 Q: I don't know how to get authorized as a manager. 
@@ -312,20 +306,3 @@ A: Manager status is authorized by their sponsor during the  [requesting-access-
 
 Make sure you have the right status. If you need to update your status, please contact your sponsor.
 :::
-
-<!-- <div class = ""qa> -->
-
-<!-- What is the difference between a Tag and a Keyword? -->
-
-<!-- Tag - Anyone can tag a volume -->
-<!-- Keyword - Only Volume Owners/Authors/Investigators can enter keywords -->
-
-<!-- How do Tags and Keywords affect the search function? -->
-
-<!-- Tags can be searched for on the [Databrary Search Page](http://nyu.databrary.org/search) -->
-
-<!-- Keywords are for??? Maybe these are the same keywords that would have been used in the associated Journal article. -->
-
-<!-- Can I tag a Session? -->
-
-<!-- This appears to be possible, but the search function cannot present results by session. Therefore only Volume Tags are currently searchable. -->

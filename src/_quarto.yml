@@ -52,6 +52,7 @@ book:
       - more-information/definitions.qmd
       - more-information/software.qmd
       - more-information/db-2.0.qmd
+      - more-information/api-access.qmd
     - more-information/references.qmd 
   appendices:
     - appendices/access_agreement.qmd
@@ -80,8 +81,8 @@ format:
     toc: true
     toc-depth: 4
 
-  epub:
-    cover-image: img/databrary-nav-sm.jpg
+  # epub:
+  #   cover-image: img/databrary-nav-sm.jpg
 
 bibliography: [include/bib/packages.bib, include/bib/references.bib]
 bibliography-style: apa
