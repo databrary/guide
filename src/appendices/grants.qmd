@@ -38,7 +38,7 @@ Data in Databrary will be preserved indefinitely in a secure data storage facili
 Files uploaded to Databrary are assigned a unique identifier and have metadata associating them to files that are uploaded to replace them. Though only the latest version of a file is exposed to Databrary site users. Files, once uploaded, are never deleted.
 
 ## Data Security {-}
-Data and metadata stored in Databrary are subject to the security policies and best practices implemented by NYU. For more information about these policies and services, please visit NYU ITS Computer & Network Security at https://www.nyu.edu/life/information-technology/cybersecurity.html.
+Data and metadata stored in Databrary are subject to the security policies and best practices implemented by NYU. For more information about these policies and services, please visit NYU ITS Computer & Network Security at <https://www.nyu.edu/life/information-technology/cybersecurity.html>.
 
 ## Internal Data Use Agreement Information {-}
 

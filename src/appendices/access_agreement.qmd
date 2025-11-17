@@ -388,7 +388,7 @@ Authorized Investigators through a research ethics board or
 Institutional Review Board (IRB) with standards equivalent to that
 required to secure Federalwide Assurance (FWA) status from the U.S.
 Government (see:
-https://www.hhs.gov/ohrp/register-irbs-and-obtain-fwas/index.html).
+<https://www.hhs.gov/ohrp/register-irbs-and-obtain-fwas/index.html>).
 Authorized Investigators who share data with others must secure
 permission to share from research participants and record that
 permission level for each file stored on Databrary. In turn, Authorized

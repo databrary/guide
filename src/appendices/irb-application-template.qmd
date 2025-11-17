@@ -47,4 +47,4 @@ Federal regulations do not require that data be destroyed after a particular tim
 ## Data Security
 
 Data and metadata stored in Databrary are subject to the security policies and best practices implemented by NYU. 
-For more information about these policies and services, please visit NYU ITS Computer & Network Security at https://www.nyu.edu/life/information-technology/cybersecurity.html.
+For more information about these policies and services, please visit NYU ITS Computer & Network Security at <https://www.nyu.edu/life/information-technology/cybersecurity.html>.

@@ -88,7 +88,7 @@ If you ever find that there are videos that don't play in Databrary, the followi
 - click on the pencil in the upper left corner to edit
 - click on 'replace' in the upper right corner
 
-The recommended settings in Handbrake that duplicate the .mp4 codec that Databrary uses during the transcoding process after a video file is uploaded are below. These settings may also be downloaded as a [.json](file/databrary.json) file and imported into Handbrake
+The recommended settings in Handbrake that duplicate the .mp4 codec that Databrary uses during the transcoding process after a video file is uploaded are below. These settings may also be downloaded as a [.json](../file/databrary.json) file and imported into Handbrake
 
 | Summary|Dimensions|Filters|Video|Audio|
 |---|---|---|---|---|
@@ -143,10 +143,10 @@ See [this section](https://databrary.github.io/databraryr/articles/accessing-dat
 
 * What is the name and email address for PI for this project?  
 * Do you have permission to share these data with the Databrary community?  
-    + Was a [Data Sharing Release](https://databrary.org/support/irb/release-template.html) or something similar completed at the time of Data Collection?  
+    + Was a [Data Sharing Release](https://databrary.org/support/irb/release-template) or something similar completed at the time of Data Collection?  
     + Do you have permission from your IRB or Research Ethics Board used at your institution to share these data with Databrary?   
 * How many files are there for this dataset?  
-* What file types do you have (e.g. .mov, .mp4, .mp3, .pdf, .xls)? [Databrary Supported File Formats](https://nyu.databrary.org/asset/formats)
+* What file types do you have (e.g. .mov, .mp4, .mp3, .pdf, .xls)? 
 * What is the total size of dataset (X GB)?  
 * How many different sessions/participants do you have?  
 * Do you have materials to share (e.g. data collection instructions, survey questions) in addition to the videos collected for the study?  

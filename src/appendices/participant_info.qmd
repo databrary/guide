@@ -10,7 +10,7 @@ As a person who shares information with Databrary, you have the right to:
 - Ask questions about Databrary at any time before, during or after you participate in a study or agree to share information
 - Refuse to share data without penalty
 - Ask to have your data removed from sharing on Databrary, without any penalty
-- Receive a copy of your [Databrary release](file/DB-participant-release-template_2022-03-22.docx) form for you to keep
+- Receive a copy of your [Databrary release](../file/DB-participant-release-template_2022-03-22.docx) form for you to keep
 - Be assured that your identity will be kept in confidence by Databrary and its authorized researchers.
 
 If you have any questions or concerns you can contact Databrary staff by email at contact@databrary.org. 
