@@ -88,7 +88,7 @@ If you ever find that there are videos that don't play in Databrary, the followi
 - click on the pencil in the upper left corner to edit
 - click on 'replace' in the upper right corner
 
-The recommended settings in Handbrake that duplicate the .mp4 codec that Databrary uses during the transcoding process after a video file is uploaded are below. These settings may also be downloaded as a [.json](file/databrary.json) file and imported into Handbrake
+The recommended settings in Handbrake that duplicate the .mp4 codec that Databrary uses during the transcoding process after a video file is uploaded are below. These settings may also be downloaded as a [.json](../file/databrary.json) file and imported into Handbrake
 
 | Summary|Dimensions|Filters|Video|Audio|
 |---|---|---|---|---|
