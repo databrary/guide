@@ -128,5 +128,6 @@ start typing the name of the user beginning with their first name.
 
 ## Transfer User Authorization from one Institution to another Institution?
 
-## Transfer Authorized Investigator Volumesfrom one Institution to another Institution?
+## Transfer Authorized Investigator Volumes from one Institution to another Institution?
 
+## An Authorized Investigator moved Institutions, Now What?
