@@ -167,5 +167,8 @@
   },
   "admin/grant-auth.qmd": {
     "grant-auth.html": "3a0974a2"
+  },
+  "admin/security.qmd": {
+    "security.html": "2e1e4bcd"
   }
 }
