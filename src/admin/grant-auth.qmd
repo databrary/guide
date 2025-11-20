@@ -1,5 +1,5 @@
 ---
-title: "Authorization process - For Databrary Admin"
+title: "Grant Authorization"
 ---
 
 ## Who can have Databrary Admin Access?

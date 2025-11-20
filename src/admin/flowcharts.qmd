@@ -1,0 +1,16 @@
+---
+title: "flowcharts"
+---
+# Authorizations Flow
+
+## User Perspective
+
+```{mermaid}
+flowchart LR
+  A[Register] --> B(Confirm account in email) --> C(Complete Authorization Request)
+  B --> C{Make changes}
+  C --> D[Render site]
+  D --> E[Preview site]
+```
+
+## Admin Perspective
