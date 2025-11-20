@@ -65,6 +65,8 @@ book:
     - appendices/terms.qmd
     - appendices/participant_info.qmd
     - appendices/grants.qmd
+    - admin/flowcharts.qmd
+    - admin/grant-auth.qmd
 
   repo-url: https://github.com/databrary/guide
   repo-actions: [edit, issue]

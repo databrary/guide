@@ -2367,5 +2367,181 @@
       "Appendices",
       "<span class='chapter-number'>J</span>  <span class='chapter-title'>Grants</span>"
     ]
+  },
+  {
+    "objectID": "admin/flowcharts.html",
+    "href": "admin/flowcharts.html",
+    "title": "Appendix K — flowcharts",
+    "section": "",
+    "text": "L Authorizations Flow",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>K</span>  <span class='chapter-title'>flowcharts</span>"
+    ]
+  },
+  {
+    "objectID": "admin/flowcharts.html#user-perspective",
+    "href": "admin/flowcharts.html#user-perspective",
+    "title": "Appendix K — flowcharts",
+    "section": "L.1 User Perspective",
+    "text": "L.1 User Perspective\n\n\n\n\n\nflowchart LR\n  A[Register] --&gt; B(Confirm account in email) --&gt; C(Complete Authorization Request)\n  B --&gt; C{Make changes}\n  C --&gt; D[Render site]\n  D --&gt; E[Preview site]",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>K</span>  <span class='chapter-title'>flowcharts</span>"
+    ]
+  },
+  {
+    "objectID": "admin/flowcharts.html#admin-perspective",
+    "href": "admin/flowcharts.html#admin-perspective",
+    "title": "Appendix K — flowcharts",
+    "section": "L.2 Admin Perspective",
+    "text": "L.2 Admin Perspective",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>K</span>  <span class='chapter-title'>flowcharts</span>"
+    ]
+  },
+  {
+    "objectID": "admin/grant-auth.html",
+    "href": "admin/grant-auth.html",
+    "title": "Appendix L — Grant Authorization",
+    "section": "",
+    "text": "L.1 Who can have Databrary Admin Access?\nOnly employees of Databrary that manage the Databary system, have NYU credentials, and have been approved by NYU IT can access this part of the system.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>L</span>  <span class='chapter-title'>Grant Authorization</span>"
+    ]
+  },
+  {
+    "objectID": "admin/grant-auth.html#check-eligibility-vetting-for-institutions",
+    "href": "admin/grant-auth.html#check-eligibility-vetting-for-institutions",
+    "title": "Appendix L — Grant Authorization",
+    "section": "L.2 Check Eligibility (vetting) for Institutions",
+    "text": "L.2 Check Eligibility (vetting) for Institutions\n\nLocate institutional website\n\nIs it viewable? YES (if no, institution is ineligible)\nLog this in the Institution page on Airtable\n\nLocate the research ethics (IRB, HRPP, HREC, REB) website\n\nIs it viewable? YES if NO, ask user for link to website or email address of chair -Log this in the Institution page on Airtable",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>L</span>  <span class='chapter-title'>Grant Authorization</span>"
+    ]
+  },
+  {
+    "objectID": "admin/grant-auth.html#check-eligibility-vetting-for-potential-authorized-investigators",
+    "href": "admin/grant-auth.html#check-eligibility-vetting-for-potential-authorized-investigators",
+    "title": "Appendix L — Grant Authorization",
+    "section": "L.3 Check Eligibility (vetting) for potential Authorized Investigators",
+    "text": "L.3 Check Eligibility (vetting) for potential Authorized Investigators\n\nLocate user profile page on institutional website\n\nIs it viewable? YES (if no, is ineligible)\n\nLog in Airtable\n\nInstitutional email address\nPosition at Institution\nDepartment/College at Institution\nInstitutional profile page",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>L</span>  <span class='chapter-title'>Grant Authorization</span>"
+    ]
+  },
+  {
+    "objectID": "admin/grant-auth.html#check-eligibility-vetting-for-potential-institutional-administrators",
+    "href": "admin/grant-auth.html#check-eligibility-vetting-for-potential-institutional-administrators",
+    "title": "Appendix L — Grant Authorization",
+    "section": "L.4 Check Eligibility (vetting) for potential Institutional Administrators",
+    "text": "L.4 Check Eligibility (vetting) for potential Institutional Administrators\nThis policy is not yet in place",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>L</span>  <span class='chapter-title'>Grant Authorization</span>"
+    ]
+  },
+  {
+    "objectID": "admin/grant-auth.html#create-a-new-institution-on-databrary",
+    "href": "admin/grant-auth.html#create-a-new-institution-on-databrary",
+    "title": "Appendix L — Grant Authorization",
+    "section": "L.5 Create a New Institution on Databrary",
+    "text": "L.5 Create a New Institution on Databrary\n\n\nLog onto Databrary as Admin\nClick Institutions &gt; Add New Institution\nGo to https://nyu.databrary.org/admin/institutions/add\n\nType in Institution Name\nType home page address https://…..\nEnter Date that institution is first authorized/signed Agreement\nClick ADD button below the map\n\n\n\nL.5.1 To update institution location\n\nGo back to edit institution profile\nClick ESTIMATE FROM NAME button above map.\nClick SAVE MAP LOCATION\n\n\n\nL.5.2 To add institution avatar\n!!Currently nonfunctional!!\n\nGo back to https://databrary.nyu.edu/admin/institutions\nSearch for the name of the new institution\nClick on the institutional profile\nLook up Institution Icon. Save to the computer.\nResize image to:_____\nUpload to the ‘Choose Avatar’ button",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>L</span>  <span class='chapter-title'>Grant Authorization</span>"
+    ]
+  },
+  {
+    "objectID": "admin/grant-auth.html#authorize-the-pi-for-a-new-institution",
+    "href": "admin/grant-auth.html#authorize-the-pi-for-a-new-institution",
+    "title": "Appendix L — Grant Authorization",
+    "section": "L.6 Authorize the PI for a New Institution",
+    "text": "L.6 Authorize the PI for a New Institution\n\nGo back to https://databrary.nyu.edu/admin/institutions\nIn the institutions search bar, search for the new institution\nClick on the New Institution\nClick on the edit button (the little pencil next to the institution name)\nClick on the Sponsored People tab\nClick on the Add New Sponsored Person button\n\nIn the pop-up box titled Add New Sponsored Person start typing the name of the user beginning with their first name.\nEnsure their Role is correct\n\nAt this point access is ONLY granted for Authorized Investigator (Institution Admin does not exist)\n\nExpiration date automatically defaults to 1 year\nClick Authorize in the lower right corner of this box",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>L</span>  <span class='chapter-title'>Grant Authorization</span>"
+    ]
+  },
+  {
+    "objectID": "admin/grant-auth.html#authorize-the-pi-for-existing-institution",
+    "href": "admin/grant-auth.html#authorize-the-pi-for-existing-institution",
+    "title": "Appendix L — Grant Authorization",
+    "section": "L.7 Authorize the PI for Existing Institution",
+    "text": "L.7 Authorize the PI for Existing Institution\n\nL.7.1 Yes, Institution Request Placed\n\nGo to: https://nyu.databrary.org/admin/requests/\nClick on the tab for Institution Requests\nIn the requests search bar, search for the requestor name\nClick on the Green Checkmark to Accept this request\n\n\n\nL.7.2 No, Institution Request not Placed\n\nGo to https://databrary.nyu.edu/admin/institutions\nIn the Institutions search bar, search for the name of the institution\nClick on the Institution\nClick on the edit button (the little pencil next to the institution name)\nClick on the Sponsored People tab\nClick on the Add New Sponsored Person button\nIn the pop-up box titled Add New Sponsored Person\n\nstart typing the name of the user beginning with their first name.\nEnsure their Role is correct\n\nAt this point access is ONLY granted for Authorized Investigator (Institution Admin does not exist)\n\nExpiration date automatically defaults to 1 year\nClick Authorize in the lower right corner of this box",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>L</span>  <span class='chapter-title'>Grant Authorization</span>"
+    ]
+  },
+  {
+    "objectID": "admin/grant-auth.html#suspend-user-account",
+    "href": "admin/grant-auth.html#suspend-user-account",
+    "title": "Appendix L — Grant Authorization",
+    "section": "L.8 Suspend User Account",
+    "text": "L.8 Suspend User Account\n\nGo to: Admin Dashboard at the top of the screen\nChoose Users\nIn the User search box, type the name of the researcher\nClick on the three dots at the right side of the row\nClick on Suspend Account",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>L</span>  <span class='chapter-title'>Grant Authorization</span>"
+    ]
+  },
+  {
+    "objectID": "admin/grant-auth.html#reactivate-user-account",
+    "href": "admin/grant-auth.html#reactivate-user-account",
+    "title": "Appendix L — Grant Authorization",
+    "section": "L.9 Reactivate User Account",
+    "text": "L.9 Reactivate User Account\n\nGo to: Admin Dashboard at the top of the screen\nChoose Users\nIn the User search box, type the name of the researcher\nClick on the three dots at the right side of the row\nClick on Reactivate Account",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>L</span>  <span class='chapter-title'>Grant Authorization</span>"
+    ]
+  },
+  {
+    "objectID": "admin/grant-auth.html#forgotten-usernamepassword",
+    "href": "admin/grant-auth.html#forgotten-usernamepassword",
+    "title": "Appendix L — Grant Authorization",
+    "section": "L.10 Forgotten Username/Password",
+    "text": "L.10 Forgotten Username/Password\n\nLook up the email of the researcher on Databrary.\nLog into Admin Panel\nGo to: Admin Dashboard at the top of the screen\nChoose Users\nSearch researcher in the search box\nInstruct researcher to:\n\nchange password at: https://databrary.edu/user/password OR\nUse the GUI by going to login and selecting Forgot your password?",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>L</span>  <span class='chapter-title'>Grant Authorization</span>"
+    ]
+  },
+  {
+    "objectID": "admin/grant-auth.html#transfer-user-authorization-from-one-institution-to-another-institution",
+    "href": "admin/grant-auth.html#transfer-user-authorization-from-one-institution-to-another-institution",
+    "title": "Appendix L — Grant Authorization",
+    "section": "L.11 Transfer User Authorization from one Institution to another Institution?",
+    "text": "L.11 Transfer User Authorization from one Institution to another Institution?",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>L</span>  <span class='chapter-title'>Grant Authorization</span>"
+    ]
+  },
+  {
+    "objectID": "admin/grant-auth.html#transfer-authorized-investigator-volumes-from-one-institution-to-another-institution",
+    "href": "admin/grant-auth.html#transfer-authorized-investigator-volumes-from-one-institution-to-another-institution",
+    "title": "Appendix L — Grant Authorization",
+    "section": "L.12 Transfer Authorized Investigator Volumes from one Institution to another Institution?",
+    "text": "L.12 Transfer Authorized Investigator Volumes from one Institution to another Institution?",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>L</span>  <span class='chapter-title'>Grant Authorization</span>"
+    ]
+  },
+  {
+    "objectID": "admin/grant-auth.html#an-authorized-investigator-moved-institutions-now-what",
+    "href": "admin/grant-auth.html#an-authorized-investigator-moved-institutions-now-what",
+    "title": "Appendix L — Grant Authorization",
+    "section": "L.13 An Authorized Investigator moved Institutions, Now What?",
+    "text": "L.13 An Authorized Investigator moved Institutions, Now What?",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>L</span>  <span class='chapter-title'>Grant Authorization</span>"
+    ]
   }
 ]
