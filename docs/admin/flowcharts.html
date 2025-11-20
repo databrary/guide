@@ -514,11 +514,13 @@ ul.task-list li input[type="checkbox"] {
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart LR
+<pre class="mermaid mermaid-js">flowchart
   A[Register] --&gt; B(Confirm account in email) --&gt; C(Complete Authorization Request)
-  B --&gt; C{Make changes}
-  C --&gt; D[Render site]
-  D --&gt; E[Preview site]
+  C --&gt; D[Request Existing Institution]
+  C --&gt; E[Request New Institution]
+  C --&gt; G[Request Authorized Investigator]
+  A --&gt; F[No Request]
+  B --&gt; F[No Request]
 </pre>
 </div>
 <p></p></figure><p></p>

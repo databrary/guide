@@ -1702,7 +1702,7 @@
     "href": "admin/flowcharts.html#user-perspective",
     "title": "1  flowcharts",
     "section": "2.1 User Perspective",
-    "text": "2.1 User Perspective\n\n\n\n\n\nflowchart LR\n  A[Register] --&gt; B(Confirm account in email) --&gt; C(Complete Authorization Request)\n  B --&gt; C{Make changes}\n  C --&gt; D[Render site]\n  D --&gt; E[Preview site]",
+    "text": "2.1 User Perspective\n\n\n\n\n\nflowchart\n  A[Register] --&gt; B(Confirm account in email) --&gt; C(Complete Authorization Request)\n  C --&gt; D[Request Existing Institution]\n  C --&gt; E[Request New Institution]\n  C --&gt; G[Request Authorized Investigator]\n  A --&gt; F[No Request]\n  B --&gt; F[No Request]",
     "crumbs": [
       "Admin",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>flowcharts</span>"
