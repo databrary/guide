@@ -18,8 +18,9 @@ flowchart
 ## Admin Perspective {-}
 
 ```{mermaid}
-flowchart LR
-  A[Request Type] --> B[Existing Institution]
+flowchart
+  A[Request Type] --> B[Existing Institution] --> G{View Person Profile Page - Eligible? } --> H(Yes, email next steps)
+  G --> I(No, Send 'To Process Request' Email)
   A --> C[No Request] --> F(Send 'To Initiate Authorization' Email)
   A --> D[New Institution]
   A --> E[Authorized Investigator]
