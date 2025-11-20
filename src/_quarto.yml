@@ -54,11 +54,6 @@ book:
       - more-information/db-2.0.qmd
       - more-information/api-access.qmd
     - more-information/references.qmd 
-    - part: "Admin"
-      chapters: 
-      - admin/flowcharts.qmd
-      - admin/grant-auth.qmd
-      - admin/security.qmd
   appendices:
     - appendices/access_agreement.qmd
     - appendices/sharing-release-participants.qmd
@@ -70,7 +65,11 @@ book:
     - appendices/terms.qmd
     - appendices/participant_info.qmd
     - appendices/grants.qmd
-
+    - part: "Admin"
+      chapters: 
+      - admin/flowcharts.qmd
+      - admin/grant-auth.qmd
+      - admin/security.qmd
   repo-url: https://github.com/databrary/guide
   repo-actions: [edit, issue]
   repo-subdir: src
