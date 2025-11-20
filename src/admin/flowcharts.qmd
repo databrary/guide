@@ -1,18 +1,26 @@
 ---
-title: "flowcharts"
+title: "Flowcharts"
 ---
-# Authorizations Flow
+# Authorizations Flow {.unnumbered}
 
-## User Perspective
+## User Perspective {-}
 
 ```{mermaid}
 flowchart
-  A[Register] --> B(Confirm account in email) --> C(Complete Authorization Request)
-  C --> D[Request Existing Institution]
-  C --> E[Request New Institution]
+  A[Register] --> B[Confirm account in email] --> C[Request Authorization]
+  C --> D[Existing Institution]
+  C --> E[New Institution]
   C --> G[Request Authorized Investigator]
   A --> F[No Request]
   B --> F[No Request]
 ```
 
-## Admin Perspective
+## Admin Perspective {-}
+
+```{mermaid}
+flowchart LR
+  A[Request Type] --> B[Existing Institution]
+  A --> C[No Request] --> F(Send 'To Initiate Authorization' Email)
+  A --> D[New Institution]
+  A --> E[Authorized Investigator]
+```

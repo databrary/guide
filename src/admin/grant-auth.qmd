@@ -1,8 +1,6 @@
----
-title: "Grant Authorization"
----
+# Grant Authorization {.unnumbered}
 
-## Who can have Databrary Admin Access?
+## Who can have Databrary Admin Access? {-}
 
 Only employees of Databrary that manage the Databary system, have NYU credentials, and have been approved by NYU IT can access this part of the system.
 
@@ -15,7 +13,7 @@ Only employees of Databrary that manage the Databary system, have NYU credential
 <!-- - Use the 2FA password that was sent to the email address associated with the specific admin login account -->
 <!-- - The default page will be the admin dashboard -->
 
-## Check Eligibility (vetting) for Institutions
+## Check Eligibility (vetting) for Institutions {-}
 
 - Locate institutional website
     - Is it viewable? YES (if no, institution is ineligible)
@@ -33,10 +31,10 @@ Only employees of Databrary that manage the Databary system, have NYU credential
   - Department/College at Institution
   - Institutional profile page
 
-## Check Eligibility (vetting) for potential Institutional Administrators
+## Check Eligibility (vetting) for potential Institutional Administrators {-}
 This policy is not yet in place
 
-## Create a New Institution on Databrary
+## Create a New Institution on Databrary {-}
 
 <!-- It seems like creating the institution in the superuser admin panel implies that the institution is sponsored by Databrary. However unless a date is entered, the institution is NOT authorized by Databrary. -->
 
@@ -48,12 +46,12 @@ This policy is not yet in place
   - Enter Date that institution is first authorized/signed Agreement
   - Click ADD button below the map
 
-### To update institution location
+### To update institution location {-}
   - Go back to edit institution profile
   - Click ESTIMATE FROM NAME button above map.
   - Click SAVE MAP LOCATION
 
-### To add institution avatar
+### To add institution avatar {-}
 
 !!Currently nonfunctional!!
 
@@ -64,7 +62,7 @@ This policy is not yet in place
 - Resize image to:_____
 - Upload to the ‘Choose Avatar’ button
 
-## Authorize the PI for a New Institution
+## Authorize the PI for a New Institution {-}
 - Go back to https://databrary.nyu.edu/admin/institutions
 - In the institutions search bar, search for the new institution
 - Click on the New Institution
@@ -78,15 +76,15 @@ start typing the name of the user beginning with their first name.
   - Expiration date automatically defaults to 1 year
   - Click `Authorize` in the lower right corner of this box
 
-## Authorize the PI for Existing Institution
+## Authorize the PI for Existing Institution {-}
 
-### Yes, Institution Request Placed
+### Yes, Institution Request Placed {-}
 - Go to: https://nyu.databrary.org/admin/requests/
 - Click on the tab for `Institution Requests`
 - In the requests search bar, search for the requestor name
 - Click on the Green Checkmark to `Accept` this request
 
-### No, Institution Request not Placed
+### No, Institution Request Not Placed {-}
 - Go to https://databrary.nyu.edu/admin/institutions
 - In the Institutions search bar, search for the name of the institution
 - Click on the Institution
@@ -100,21 +98,21 @@ start typing the name of the user beginning with their first name.
   - Expiration date automatically defaults to 1 year
   - Click `Authorize` in the lower right corner of this box
 
-## Suspend User Account
+## Suspend User Account {-}
 - Go to: `Admin Dashboard` at the top of the screen
 - Choose `Users`
 - In the User search box, type the name of the researcher 
 - Click on the three dots at the right side of the row
 - Click on `Suspend Account`
 
-## Reactivate User Account
+## Reactivate User Account {-}
 - Go to: `Admin Dashboard` at the top of the screen
 - Choose `Users`
 - In the User search box, type the name of the researcher 
 - Click on the three dots at the right side of the row
 - Click on `Reactivate Account`
 
-## Forgotten Username/Password
+## Forgotten Username/Password {-}
 - Look up the email of the researcher on Databrary.
 
 - Log into Admin Panel
@@ -126,8 +124,8 @@ start typing the name of the user beginning with their first name.
   OR
   - Use the GUI by going to `login` and selecting `Forgot your password?`
 
-## Transfer User Authorization from one Institution to another Institution?
+## Transfer User Authorization from one Institution to another Institution? {-}
 
-## Transfer Authorized Investigator Volumes from one Institution to another Institution?
+## Transfer Authorized Investigator Volumes from one Institution to another Institution? {-}
 
-## An Authorized Investigator moved Institutions, Now What?
+## An Authorized Investigator moved Institutions, Now What? {-}
