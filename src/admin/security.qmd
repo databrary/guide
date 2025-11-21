@@ -2,7 +2,18 @@
 title: "Security docs"
 ---
 
+# Security-related information {.unnumbered}
+
+::: {.callout-warning}
+## Under construction
+
+This page is a work-in-progress.
+
+:::
+
 ## About
+
+This page documents information related to Databrary's security policies, procedures, and practices.
 
 ## HECVAT
 

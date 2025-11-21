@@ -64,11 +64,11 @@ book:
       - more-information/db-2.0.qmd
       - more-information/api-access.qmd
     - more-information/references.qmd 
-    - part: "Admin"
-      chapters: 
-      - admin/flowcharts.qmd
-      - admin/grant-auth.qmd
-      - admin/security.qmd
+    # - part: "Admin"
+    #   chapters: 
+    #   - admin/flowcharts.qmd
+    #   - admin/grant-auth.qmd
+    #   - admin/security.qmd
   appendices:
     - appendices/access_agreement.qmd
     - appendices/sharing-release-participants.qmd
