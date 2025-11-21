@@ -1,6 +1,16 @@
 project:
   type: book
   output-dir: "../docs"
+  render:
+    - "*.qmd"
+    - admin/*.qmd
+    - appendices/*.qmd
+    - background/*.qmd
+    - for-affiliates/*.qmd
+    - for-institutions/*.qmd
+    - for-investigators/*.qmd
+    - getting-started/*.qmd
+    - more-information/*.qmd
   
 book:
   title: "Databrary Guide"
