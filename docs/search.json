@@ -54,7 +54,7 @@
     "href": "quick-start-2.0.html#logging-out",
     "title": "Databrary 2.0",
     "section": "Logging out",
-    "text": "Logging out\nDatabrary 2.0 has a large Logout button to the right of the logged-in user’s name.\n\n\n\n\n\n\nFigure 6: Logout button in application menu bar.\n\n\n\n\n\n\n\n\n\nLogging out\n\n\n\nIt is a good practice to log out when you are finished working with Databrary.",
+    "text": "Logging out\nDatabrary 2.0 has a small Logout button to the right of the logged-in user’s name.\n\n\n\n\n\n\nFigure 6: Logout button in application menu bar.\n\n\n\n\n\n\n\n\n\nLogging out\n\n\n\nIt is a good practice to log out when you are finished working with Databrary.",
     "crumbs": [
       "Databrary 2.0"
     ]

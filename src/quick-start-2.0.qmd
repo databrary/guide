@@ -38,7 +38,7 @@ The email will come from "help@databrary.org" with "Databrary OTP" as the subjec
 
 ## Logging out {-}
 
-Databrary 2.0 has a large Logout button to the right of the logged-in user's name.
+Databrary 2.0 has a small Logout button to the right of the logged-in user's name.
 
 ![Logout button in application menu bar.](include/img/logout-button.png){width=50% #fig-logout-button}
 
