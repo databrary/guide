@@ -1,0 +1,27 @@
+---
+title: "Flowcharts"
+---
+# Authorizations Flow {.unnumbered}
+
+## User Perspective {-}
+
+```{mermaid}
+flowchart
+  A[Register] --> B[Confirm account in email] --> C[Request Authorization]
+  C --> D[Existing Institution]
+  C --> E[New Institution]
+  C --> G[Request Authorized Investigator]
+  A --> F[No Request]
+  B --> F[No Request]
+```
+
+## Admin Perspective {-}
+
+```{mermaid}
+flowchart
+  A[Request Type] --> B[Existing Institution] --> G{View Person Profile Page - Eligible? } --> H(Yes, email next steps)
+  G --> I(No, Send 'To Process Request' Email)
+  A --> C[No Request] --> F(Send 'To Initiate Authorization' Email)
+  A --> D[New Institution]
+  A --> E[Authorized Investigator]
+```

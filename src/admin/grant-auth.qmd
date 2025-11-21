@@ -1,0 +1,131 @@
+# Grant Authorization {.unnumbered}
+
+## Who can have Databrary Admin Access? {-}
+
+Only employees of Databrary that manage the Databary system, have NYU credentials, and have been approved by NYU IT can access this part of the system.
+
+<!-- ## How to log in to Access the Admin Dashboard -->
+
+<!-- - make sure you are logged out of the databrary.org website -->
+<!-- - log onto the site as super user by going to https://nyu.databrary.org/admin/login -->
+<!-- - Select login -->
+<!-- - Log in and choose the superuser button -->
+<!-- - Use the 2FA password that was sent to the email address associated with the specific admin login account -->
+<!-- - The default page will be the admin dashboard -->
+
+## Check Eligibility (vetting) for Institutions {-}
+
+- Locate institutional website
+    - Is it viewable? YES (if no, institution is ineligible)
+    - Log this in the Institution page on Airtable 
+- Locate the research ethics (IRB, HRPP, HREC, REB) website
+    - Is it viewable? YES if NO, ask user for link to website or email address of chair
+    -Log this in the Institution page on Airtable 
+    
+## Check Eligibility (vetting) for potential Authorized Investigators
+- Locate user profile page on institutional website
+    - Is it viewable? YES (if no, is ineligible)
+- Log in Airtable
+  - Institutional email address
+  - Position at Institution
+  - Department/College at Institution
+  - Institutional profile page
+
+## Check Eligibility (vetting) for potential Institutional Administrators {-}
+This policy is not yet in place
+
+## Create a New Institution on Databrary {-}
+
+<!-- It seems like creating the institution in the superuser admin panel implies that the institution is sponsored by Databrary. However unless a date is entered, the institution is NOT authorized by Databrary. -->
+
+- Log onto Databrary as Admin
+- Click Institutions > Add New Institution
+- Go to https://nyu.databrary.org/admin/institutions/add
+  - Type in Institution Name
+  - Type home page address https://…..
+  - Enter Date that institution is first authorized/signed Agreement
+  - Click ADD button below the map
+
+### To update institution location {-}
+  - Go back to edit institution profile
+  - Click ESTIMATE FROM NAME button above map.
+  - Click SAVE MAP LOCATION
+
+### To add institution avatar {-}
+
+!!Currently nonfunctional!!
+
+- Go back to https://databrary.nyu.edu/admin/institutions
+- Search for the name of the new institution
+- Click on the institutional profile
+- Look up Institution Icon. Save to the computer.
+- Resize image to:_____
+- Upload to the ‘Choose Avatar’ button
+
+## Authorize the PI for a New Institution {-}
+- Go back to https://databrary.nyu.edu/admin/institutions
+- In the institutions search bar, search for the new institution
+- Click on the New Institution
+- Click on the edit button (the little pencil next to the institution name)
+- Click on the Sponsored People tab
+- Click on the `Add New Sponsored Person` button
+  - In the pop-up box titled `Add New Sponsored Person` 
+start typing the name of the user beginning with their first name.
+  - Ensure their `Role` is correct
+    - At this point access is ONLY granted for `Authorized Investigator` (`Institution Admin` does not exist)
+  - Expiration date automatically defaults to 1 year
+  - Click `Authorize` in the lower right corner of this box
+
+## Authorize the PI for Existing Institution {-}
+
+### Yes, Institution Request Placed {-}
+- Go to: https://nyu.databrary.org/admin/requests/
+- Click on the tab for `Institution Requests`
+- In the requests search bar, search for the requestor name
+- Click on the Green Checkmark to `Accept` this request
+
+### No, Institution Request Not Placed {-}
+- Go to https://databrary.nyu.edu/admin/institutions
+- In the Institutions search bar, search for the name of the institution
+- Click on the Institution
+- Click on the edit button (the little pencil next to the institution name)
+- Click on the `Sponsored People` tab
+- Click on the `Add New Sponsored Person` button
+- In the pop-up box titled `Add New Sponsored Person` 
+  - start typing the name of the user beginning with their first name.
+  - Ensure their `Role` is correct
+    - At this point access is ONLY granted for `Authorized Investigator` (`Institution Admin` does not exist)
+  - Expiration date automatically defaults to 1 year
+  - Click `Authorize` in the lower right corner of this box
+
+## Suspend User Account {-}
+- Go to: `Admin Dashboard` at the top of the screen
+- Choose `Users`
+- In the User search box, type the name of the researcher 
+- Click on the three dots at the right side of the row
+- Click on `Suspend Account`
+
+## Reactivate User Account {-}
+- Go to: `Admin Dashboard` at the top of the screen
+- Choose `Users`
+- In the User search box, type the name of the researcher 
+- Click on the three dots at the right side of the row
+- Click on `Reactivate Account`
+
+## Forgotten Username/Password {-}
+- Look up the email of the researcher on Databrary.
+
+- Log into Admin Panel
+- Go to: `Admin Dashboard` at the top of the screen
+- Choose `Users`
+- Search researcher in the search box
+- Instruct researcher to: 
+  - change password at: https://databrary.edu/user/password
+  OR
+  - Use the GUI by going to `login` and selecting `Forgot your password?`
+
+## Transfer User Authorization from one Institution to another Institution? {-}
+
+## Transfer Authorized Investigator Volumes from one Institution to another Institution? {-}
+
+## An Authorized Investigator moved Institutions, Now What? {-}
