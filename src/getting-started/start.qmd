@@ -1,4 +1,4 @@
-# Getting Started {.unnumbered #sec-getting-started}
+# Getting Authorized {.unnumbered #sec-getting-started}
 
 This section describes how to get started using Databrary.
 

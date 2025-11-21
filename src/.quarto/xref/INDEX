@@ -170,5 +170,32 @@
   },
   "admin/security.qmd": {
     "security.html": "2e1e4bcd"
+  },
+  "about/about.qmd": {
+    "about.html": "38317753"
+  },
+  "about/history.qmd": {
+    "history.html": "74692b9c"
+  },
+  "about/why.qmd": {
+    "why.html": "b0465dd0"
+  },
+  "ethics/ethics.qmd": {
+    "ethics.html": "c4c9103b"
+  },
+  "ethics/data-collection.qmd": {
+    "data-collection.html": "567f42f0"
+  },
+  "ethics/data-reuse.qmd": {
+    "data-reuse.html": "f650a279"
+  },
+  "ethics/data-sharing.qmd": {
+    "data-sharing.html": "7c842154"
+  },
+  "ethics/guidelines.qmd": {
+    "guidelines.html": "c74348b0"
+  },
+  "getting-started/roles.qmd": {
+    "roles.html": "3213b718"
   }
 }

@@ -1,0 +1,3 @@
+# Data ethics {.unnumbered}
+
+This section talks about ethical collection and sharing of data.

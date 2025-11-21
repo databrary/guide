@@ -3,9 +3,11 @@ project:
   output-dir: "../docs"
   render:
     - "*.qmd"
+    - about/*.qmd
     - admin/*.qmd
     - appendices/*.qmd
     - background/*.qmd
+    - ethics/*.qmd
     - for-affiliates/*.qmd
     - for-institutions/*.qmd
     - for-investigators/*.qmd
@@ -16,54 +18,66 @@ book:
   title: "Databrary Guide"
   cover-image: include/img/databrary-nav-sm.jpg
   subtitle: "Share data & materials: Discover more, faster."
-  author: ["Rick Gilmore", "Andrea Seisler", "Kasey Soska", "Melody Xu", "Yinghe Liu"]
+  author: ["Rick Gilmore", "Andrea Seisler", "Kasey Soska", "Melody Xu", "Yinghe Liu", "Steph Win", "Anika Mahadevan"]
   date: last-modified
   chapters:
     - index.qmd # This is the file that contains the front matter, found in the root of the repository
-    - quick-start-2.0.qmd
-    - part: getting-started/start.qmd
+    - part: about/about.qmd
       chapters:
-        - getting-started/institutions.qmd
-        - getting-started/researchers.qmd
-        - getting-started/students.qmd
-    - part: background/about.qmd
-      chapters:
-      - background/origins-support.qmd
-      - background/who-why.qmd
-      - background/ethics.qmd
-    - part: "For Institutions"
+        - about/history.qmd
+        - about/why.qmd
+    - part: ethics/ethics.qmd
+      chapters: 
+        - ethics/data-collection.qmd
+        - ethics/data-reuse.qmd
+        - ethics/data-sharing.qmd
+        - ethics/guidelines.qmd
+    # - quick-start-2.0.qmd
+    - part: "Authorizing Institutions"
       chapters:
         - for-institutions/background.qmd
         - for-institutions/specifics.qmd
-      text: "For Institutions"
-    - part: "For Investigators"
-      chapters: 
-        - for-investigators/background.qmd
-        - for-investigators/requesting-access.qmd
-        - for-investigators/onboarding.qmd
-        - for-investigators/managing-people.qmd
-        - for-investigators/create-new-volume.qmd
-        - for-investigators/edit-existing-volume.qmd
-        # - for-investigators/data-sharing.qmd
-        - for-investigators/reusing-data.qmd
-        - for-investigators/best-practices.qmd
-    - part: "For Affiliates"
-      chapters: 
-      - for-affiliates/background.qmd  
-      - for-affiliates/requesting-access-affiliates.qmd
-      - for-affiliates/onboarding-affiliates.qmd
-      - for-affiliates/creating-new-volume-affiliates.qmd
-      - for-affiliates/edit-existing-volume-affiliates.qmd
-      - for-affiliates/reusing-data-affiliates.qmd
-    - part: more-information/more-information.qmd
+    - part: getting-started/start.qmd
       chapters:
-      - more-information/faq.qmd
-      - more-information/popular-volumes.qmd
-      - more-information/definitions.qmd
-      - more-information/software.qmd
-      - more-information/db-2.0.qmd
-      - more-information/api-access.qmd
-    - more-information/references.qmd 
+        # - getting-started/institutions.qmd
+        - getting-started/roles.qmd
+        - getting-started/researchers.qmd
+        - getting-started/students.qmd
+    # - part: background/about.qmd
+    #   chapters:
+    #   - background/origins-support.qmd
+    #   - background/who-why.qmd
+    #   - background/ethics.qmd
+
+    #   text: "For Institutions"
+    # - part: "For Investigators"
+    #   chapters: 
+    #     - for-investigators/background.qmd
+    #     - for-investigators/requesting-access.qmd
+    #     - for-investigators/onboarding.qmd
+    #     - for-investigators/managing-people.qmd
+    #     - for-investigators/create-new-volume.qmd
+    #     - for-investigators/edit-existing-volume.qmd
+    #     # - for-investigators/data-sharing.qmd
+    #     - for-investigators/reusing-data.qmd
+    #     - for-investigators/best-practices.qmd
+    # - part: "For Affiliates"
+    #   chapters: 
+    #   - for-affiliates/background.qmd  
+    #   - for-affiliates/requesting-access-affiliates.qmd
+    #   - for-affiliates/onboarding-affiliates.qmd
+    #   - for-affiliates/creating-new-volume-affiliates.qmd
+    #   - for-affiliates/edit-existing-volume-affiliates.qmd
+    #   - for-affiliates/reusing-data-affiliates.qmd
+    # - part: more-information/more-information.qmd
+    #   chapters:
+    #   - more-information/faq.qmd
+    #   - more-information/popular-volumes.qmd
+    #   - more-information/definitions.qmd
+    #   - more-information/software.qmd
+    #   - more-information/db-2.0.qmd
+    #   - more-information/api-access.qmd
+    # - more-information/references.qmd 
     # - part: "Admin"
     #   chapters: 
     #   - admin/flowcharts.qmd
