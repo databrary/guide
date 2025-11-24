@@ -4,25 +4,41 @@ title: "Flowcharts"
 
 # Authorizations Flow {.unnumbered}
 
+## How Can I Access Databrary?
+```{mermaid}
+graph
+  A[I am a] --> B[Student] --> H[Request authorization from your Supervising Professor]
+  A --> C[Lab Staff] --> H[Request authorization from your Supervising Professor]
+  A --> D[PostDoc] --> H[Request authorization from your Supervising Professor]
+  A --> F[Faculty] --> I[Request authorization from your Institution]
+  A --> G[Institution]
+ 
+  click H "http://www.github.com" "This is a link"
+```
+
 ## User Perspective {-}
 
 ```{mermaid}
 flowchart
-  A[Register] --> B[Confirm account in email] --> C[Request Authorization]
-  C --> D[Existing Institution]
-  C --> E[New Institution]
-  C --> G[Request Authorized Investigator]
-  A --> F[No Request]
+  A[Register - Click here] --> B[Confirm account in email] --> C[Request Authorization From]
+  C --> D[Existing Institution] --> H(Receive Databrary Email 'Next steps')
+  C --> E[New Institution] --> H(Receive Databrary Email 'Next steps')
+  C --> G[Authorized Investigator] --> I{Authorized Investigator reviews/grants Affiliate Access}
+  A --> F[No Request] --> J(Receive Databrary Email 'How to request access')
   B --> F[No Request]
+  
+  click A "https://nyu.databrary.org/user/register" "This is a link"
 ```
 
 ## Admin Perspective {-}
 
 ```{mermaid}
 flowchart
-  A[Request Type] --> B[Existing Institution] --> G{View Person Profile Page - Eligible? } --> H(Yes, email next steps)
-  G --> I(No, Send 'To Process Request' Email)
-  A --> C[No Request] --> F(Send 'To Initiate Authorization' Email)
-  A --> D[New Institution]
-  A --> E[Authorized Investigator]
+  A[Request Type] --> B[Existing Institution] --> G{View Person Institutional Profile - Eligible? } 
+  G --> H(Yes, Send Email 'Next steps')
+  G --> J(No, Send Email 'To Process Request')
+  A --> C[New Institution] --> I{View Institution Profile - Eligible?} --> L{Yes, View Person Instituional Profile Page - Eligble?}
+  I --> K(No, Send Email 'Ineligible for access')
+  A --> D[Authorized Investigator]
+  A --> E[No Request] --> F(Send Email 'To Initiate Authorization')
 ```
