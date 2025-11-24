@@ -7,10 +7,10 @@ title: "Flowcharts"
 ## How Can I Access Databrary?
 ```{mermaid}
 graph
-  A[I am a] --> B[Student] --> H[<u>Request authorization from your Supervising Professor</u>]
+  A[I am a] --> B[Student] --> H[<u>Please request authorization from your Supervising Professor</u>]
   A --> C[Lab Staff] --> H
   A --> D[PostDoc] --> H
-  A --> F[Faculty] --> I[Request authorization from your Institution]
+  A --> F[Faculty] --> I[<u>Please request authorization from your Institution<u/>]
   A --> G[Institution]
  
   click H href "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-authorized-investigator-at-an-institution" _blank
@@ -21,14 +21,14 @@ graph
 
 ```{mermaid}
 flowchart
-  A[Register - Click here] --> B[Confirm account in email] -- Yes --> C[Request Authorization From]
-  C --> D[Existing Institution] --> H(Receive Databrary Email 'Information Required to Process...')
+  A[<u>Register</u>] --> B[Confirm account in email] -- Yes --> C[Request Authorization From]
+  C --> D[Institution already on Databrary] --> H(Receive Databrary Email 'Information Required to Process...')
   C --> E[New Institution] --> H(Receive Databrary Email 'Next steps')
   C --> G[Authorized Investigator] --> I{Authorized Investigator reviews/grants Affiliate Access}
   A --> F[No Request] --> J(Receive Databrary Email 'How to request access')
   B -- No --> F[No Request]
   
-  click A "https://nyu.databrary.org/user/register" "This is a link"
+  click A "https://nyu.databrary.org/user/register" "Link to Databrary Registration Page"
 ```
 
 ## Admin Perspective {-}

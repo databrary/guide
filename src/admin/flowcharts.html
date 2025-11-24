@@ -75,10 +75,10 @@ ul.task-list li input[type="checkbox"] {
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">graph
-  A[I am a] --&gt; B[Student] --&gt; H[&lt;u&gt;Request authorization from your Supervising Professor&lt;/u&gt;]
+  A[I am a] --&gt; B[Student] --&gt; H[&lt;u&gt;Please request authorization from your Supervising Professor&lt;/u&gt;]
   A --&gt; C[Lab Staff] --&gt; H
   A --&gt; D[PostDoc] --&gt; H
-  A --&gt; F[Faculty] --&gt; I[Request authorization from your Institution]
+  A --&gt; F[Faculty] --&gt; I[&lt;u&gt;Please request authorization from your Institution&lt;u/&gt;]
   A --&gt; G[Institution]
  
   click H href "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-authorized-investigator-at-an-institution" _blank
@@ -98,14 +98,14 @@ ul.task-list li input[type="checkbox"] {
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart
-  A[Register - Click here] --&gt; B[Confirm account in email] -- Yes --&gt; C[Request Authorization From]
-  C --&gt; D[Existing Institution] --&gt; H(Receive Databrary Email 'Information Required to Process...')
+  A[&lt;u&gt;Register&lt;/u&gt;] --&gt; B[Confirm account in email] -- Yes --&gt; C[Request Authorization From]
+  C --&gt; D[Institution already on Databrary] --&gt; H(Receive Databrary Email 'Information Required to Process...')
   C --&gt; E[New Institution] --&gt; H(Receive Databrary Email 'Next steps')
   C --&gt; G[Authorized Investigator] --&gt; I{Authorized Investigator reviews/grants Affiliate Access}
   A --&gt; F[No Request] --&gt; J(Receive Databrary Email 'How to request access')
   B -- No --&gt; F[No Request]
   
-  click A "https://nyu.databrary.org/user/register" "This is a link"
+  click A "https://nyu.databrary.org/user/register" "Link to Databrary Registration Page"
 </pre>
 </div>
 <p></p></figure><p></p>
