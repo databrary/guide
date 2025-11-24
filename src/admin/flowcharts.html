@@ -81,7 +81,8 @@ ul.task-list li input[type="checkbox"] {
   A --&gt; F[Faculty] --&gt; I[Request authorization from your Institution]
   A --&gt; G[Institution]
  
-  click H "http://www.github.com" "This is a link"
+  click H "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-authorized-investigator-at-an-institution" "link to requesting-access-affiliates.qmd"
+  click I "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-affiliate-of-an-authorized-investigator" "Link to requesting-access.qmd"
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -97,12 +98,12 @@ ul.task-list li input[type="checkbox"] {
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart
-  A[Register - Click here] --&gt; B[Confirm account in email] --&gt; C[Request Authorization From]
-  C --&gt; D[Existing Institution] --&gt; H(Receive Databrary Email 'Next steps')
+  A[Register - Click here] --&gt; B[Confirm account in email] -- Yes --&gt; C[Request Authorization From]
+  C --&gt; D[Existing Institution] --&gt; H(Receive Databrary Email 'Information Required to Process...')
   C --&gt; E[New Institution] --&gt; H(Receive Databrary Email 'Next steps')
   C --&gt; G[Authorized Investigator] --&gt; I{Authorized Investigator reviews/grants Affiliate Access}
   A --&gt; F[No Request] --&gt; J(Receive Databrary Email 'How to request access')
-  B --&gt; F[No Request]
+  B -- No --&gt; F[No Request]
   
   click A "https://nyu.databrary.org/user/register" "This is a link"
 </pre>
@@ -120,12 +121,12 @@ ul.task-list li input[type="checkbox"] {
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart
-  A[Request Type] --&gt; B[Existing Institution] --&gt; G{View Person Institutional Profile - Eligible? } 
-  G --&gt; H(Yes, Send Email 'Next steps')
-  G --&gt; J(No, Send Email 'To Process Request')
-  A --&gt; C[New Institution] --&gt; I{View Institution Profile - Eligible?} --&gt; L{Yes, View Person Instituional Profile Page - Eligble?}
-  I --&gt; K(No, Send Email 'Ineligible for access')
-  A --&gt; D[Authorized Investigator]
+  A[Request Type]--&gt; B[New Institution] --&gt; I{View Institution Profile - Eligible?} -- Yes --&gt; G
+  A --&gt; C[Existing Institution] --&gt; G{View Person Institutional Profile - Eligible? } 
+  G -- Yes --&gt; H(Send Email 'Next steps')
+  G -- No --&gt; J(Send Email 'To Process Request')
+  I -- No --&gt; K(Send Email 'Ineligible for access')
+  A --&gt; D[Authorized Investigator] --&gt; L[No Email Action Required]
   A --&gt; E[No Request] --&gt; F(Send Email 'To Initiate Authorization')
 </pre>
 </div>

@@ -13,19 +13,20 @@ graph
   A --> F[Faculty] --> I[Request authorization from your Institution]
   A --> G[Institution]
  
-  click H "http://www.github.com" "This is a link"
+  click H "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-authorized-investigator-at-an-institution" "link to requesting-access-affiliates.qmd"
+  click I "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-affiliate-of-an-authorized-investigator" "Link to requesting-access.qmd"
 ```
 
 ## User Perspective {-}
 
 ```{mermaid}
 flowchart
-  A[Register - Click here] --> B[Confirm account in email] --> C[Request Authorization From]
-  C --> D[Existing Institution] --> H(Receive Databrary Email 'Next steps')
+  A[Register - Click here] --> B[Confirm account in email] -- Yes --> C[Request Authorization From]
+  C --> D[Existing Institution] --> H(Receive Databrary Email 'Information Required to Process...')
   C --> E[New Institution] --> H(Receive Databrary Email 'Next steps')
   C --> G[Authorized Investigator] --> I{Authorized Investigator reviews/grants Affiliate Access}
   A --> F[No Request] --> J(Receive Databrary Email 'How to request access')
-  B --> F[No Request]
+  B -- No --> F[No Request]
   
   click A "https://nyu.databrary.org/user/register" "This is a link"
 ```
@@ -34,11 +35,11 @@ flowchart
 
 ```{mermaid}
 flowchart
-  A[Request Type] --> B[Existing Institution] --> G{View Person Institutional Profile - Eligible? } 
-  G --> H(Yes, Send Email 'Next steps')
-  G --> J(No, Send Email 'To Process Request')
-  A --> C[New Institution] --> I{View Institution Profile - Eligible?} --> L{Yes, View Person Instituional Profile Page - Eligble?}
-  I --> K(No, Send Email 'Ineligible for access')
-  A --> D[Authorized Investigator]
+  A[Request Type]--> B[New Institution] --> I{View Institution Profile - Eligible?} -- Yes --> G
+  A --> C[Existing Institution] --> G{View Person Institutional Profile - Eligible? } 
+  G -- Yes --> H(Send Email 'Next steps')
+  G -- No --> J(Send Email 'To Process Request')
+  I -- No --> K(Send Email 'Ineligible for access')
+  A --> D[Authorized Investigator] --> L[No Email Action Required]
   A --> E[No Request] --> F(Send Email 'To Initiate Authorization')
 ```
