@@ -6,32 +6,33 @@ title: "Flowcharts"
 
 ## How Can I Access Databrary?
 ```{mermaid}
-graph
-  A[I am a] --> B[Student] --> H[<u>Please request authorization from your Supervising Professor</u>]
-  A --> C[Lab Staff] --> H
-  A --> D[PostDoc] --> H
-  A --> F[Faculty] --> I[<u>Please request authorization from your Institution<u/>]
-  A --> G[Institution]
- 
-  click H href "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-authorized-investigator-at-an-institution" _blank
-  click I href "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-affiliate-of-an-authorized-investigator" "Link to requesting-access.qmd"
-```
-
-## User Perspective {-}
-
-```{mermaid}
 flowchart
-  A[<u>Register</u>] --> B[Confirm account in email] -- Yes --> C[Request Authorization From]
-  C --> D[Institution already on Databrary] --> H(Receive Databrary Email 'Information Required to Process...')
-  C --> E[New Institution] --> H(Receive Databrary Email 'Next steps')
-  C --> G[Authorized Investigator] --> I{Authorized Investigator reviews/grants Affiliate Access}
-  A --> F[No Request] --> J(Receive Databrary Email 'How to request access')
-  B -- No --> F[No Request]
+  A[I am a] --> B[Student] --> J[**Register**] --> L[Confirm account in email] -- Yes --> Z[**Request authorization from your Supervising Professor**] --> T{Authorized Investigator reviews/grants Affiliate Access}
+  A --> C[Lab Staff] --> J 
+  A --> D[PostDoc] --> J 
+ L -- No --> Q[No Request] --> P(Receive Databrary Email 'How to request access')
   
-  click A "https://nyu.databrary.org/user/register" "Link to Databrary Registration Page"
+ 
+  A --> F[Faculty] --> K*[**Register**] --> M[Confirm account in email] -- Yes --> H[**Request authorization from your Institution**]   
+    H --> N[Institution already on Databrary] --> R(Receive Databrary Email 'Information Required to Process...') 
+    H --> O[New Institution] --> S(Receive Databrary Email 'Next steps')
+    H --> Y[No Request] --> X(Receive Databrary Email 'How to request access') 
+    M -- No --> P
+
+A --> G[Institution]
+
+
+  click J "https://nyu.databrary.org/user/register" "Link to Databrary Registration Page"
+ 
+ click Z "https://nyu.databrary.org/user/register" "Link to Databrary Registration Page"
+  
+  click H href "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-authorized-investigator-at-an-institution" _blank
+  click Z href "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-affiliate-of-an-authorized-investigator" "Link to requesting-access.qmd"
+
+
 ```
 
-## Admin Perspective {-}
+## For Admin {-}
 
 ```{mermaid}
 flowchart

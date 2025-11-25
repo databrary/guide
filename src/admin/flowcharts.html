@@ -74,38 +74,30 @@ ul.task-list li input[type="checkbox"] {
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">graph
-  A[I am a] --&gt; B[Student] --&gt; H[&lt;u&gt;Please request authorization from your Supervising Professor&lt;/u&gt;]
-  A --&gt; C[Lab Staff] --&gt; H
-  A --&gt; D[PostDoc] --&gt; H
-  A --&gt; F[Faculty] --&gt; I[&lt;u&gt;Please request authorization from your Institution&lt;u/&gt;]
-  A --&gt; G[Institution]
- 
-  click H href "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-authorized-investigator-at-an-institution" _blank
-  click I href "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-affiliate-of-an-authorized-investigator" "Link to requesting-access.qmd"
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</section>
-<section id="user-perspective" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="user-perspective">User Perspective</h2>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
 <pre class="mermaid mermaid-js">flowchart
-  A[&lt;u&gt;Register&lt;/u&gt;] --&gt; B[Confirm account in email] -- Yes --&gt; C[Request Authorization From]
-  C --&gt; D[Institution already on Databrary] --&gt; H(Receive Databrary Email 'Information Required to Process...')
-  C --&gt; E[New Institution] --&gt; H(Receive Databrary Email 'Next steps')
-  C --&gt; G[Authorized Investigator] --&gt; I{Authorized Investigator reviews/grants Affiliate Access}
-  A --&gt; F[No Request] --&gt; J(Receive Databrary Email 'How to request access')
-  B -- No --&gt; F[No Request]
+  A[I am a] --&gt; B[Student] --&gt; J[**Register**] --&gt; L[Confirm account in email] -- Yes --&gt; Z[**Request authorization from your Supervising Professor**] --&gt; T{Authorized Investigator reviews/grants Affiliate Access}
+  A --&gt; C[Lab Staff] --&gt; J 
+  A --&gt; D[PostDoc] --&gt; J 
+ L -- No --&gt; Q[No Request] --&gt; P(Receive Databrary Email 'How to request access')
   
-  click A "https://nyu.databrary.org/user/register" "Link to Databrary Registration Page"
+ 
+  A --&gt; F[Faculty] --&gt; K*[**Register**] --&gt; M[Confirm account in email] -- Yes --&gt; H[**Request authorization from your Institution**]   
+    H --&gt; N[Institution already on Databrary] --&gt; R(Receive Databrary Email 'Information Required to Process...') 
+    H --&gt; O[New Institution] --&gt; S(Receive Databrary Email 'Next steps')
+    H --&gt; Y[No Request] --&gt; X(Receive Databrary Email 'How to request access') 
+    M -- No --&gt; P
+
+A --&gt; G[Institution]
+
+
+  click J "https://nyu.databrary.org/user/register" "Link to Databrary Registration Page"
+ 
+ click Z "https://nyu.databrary.org/user/register" "Link to Databrary Registration Page"
+  
+  click H href "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-authorized-investigator-at-an-institution" _blank
+  click Z href "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-affiliate-of-an-authorized-investigator" "Link to requesting-access.qmd"
+
+
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -113,8 +105,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="admin-perspective" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="admin-perspective">Admin Perspective</h2>
+<section id="for-admin" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="for-admin">For Admin</h2>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
