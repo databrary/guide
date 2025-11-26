@@ -7,17 +7,24 @@ title: "Flowcharts"
 ## How Can I Access Databrary?
 ```{mermaid}
 flowchart
-  A[I am a] --> B[Student] --> J[**Register**] --> L[Confirm account in email] -- Yes --> Z[**Request authorization from your Supervising Professor**] --> T{Authorized Investigator reviews/grants Affiliate Access}
+  A[I am a] --> B[Student] --> J[**Register**] --> V[Create Account
+  Read Get Started Tab] --> L[Confirm Email] -- Yes --> W[Set Password] 
+  W --> Z["`**Request Authorization**
+            1. Select Radio Button _Affiliate_ 
+            2. Type Supervising Professor name`"] -- Yes --> T{Authorized Investigator reviews/grants Affiliate Access}
   A --> C[Lab Staff] --> J 
   A --> D[PostDoc] --> J 
- L -- No --> Q[No Request] --> P(Receive Databrary Email 'How to request access')
-  
+ L -- No --> X(Receive Databrary Email 'How to request access')
+ Z -- No --> Q[No Request] --> X(Receive Databrary Email 'How to request access') 
  
-  A --> F[Faculty] --> K*[**Register**] --> M[Confirm account in email] -- Yes --> H[**Request authorization from your Institution**]   
-    H --> N[Institution already on Databrary] --> R(Receive Databrary Email 'Information Required to Process...') 
-    H --> O[New Institution] --> S(Receive Databrary Email 'Next steps')
-    H --> Y[No Request] --> X(Receive Databrary Email 'How to request access') 
-    M -- No --> P
+  A --> F[Faculty] --> K[**Register**] --> AA[Create Account
+  Read Get Started Tab] --> M[Confirm Email] -- Yes --> WW[Set Password] --> H["`**Request Authorization**
+      1. Pick radio button _Authorized Investigator_ 
+      2. Type Institution Name`"]   
+    H -- Yes --> N[Existing Institution] --> R(Receive Databrary Email 'Information Required to Process...') 
+    H -- Yes --> O[New Institution] --> S(Receive Databrary Email 'Next steps')
+    H -- No --> Q[No Request] 
+    M -- No --> X(Receive Databrary Email 'How to request access') 
 
 A --> G[Institution]
 
@@ -31,7 +38,7 @@ A --> G[Institution]
 
 
 ```
-
+ 
 ## For Admin {-}
 
 ```{mermaid}

@@ -75,17 +75,24 @@ ul.task-list li input[type="checkbox"] {
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart
-  A[I am a] --&gt; B[Student] --&gt; J[**Register**] --&gt; L[Confirm account in email] -- Yes --&gt; Z[**Request authorization from your Supervising Professor**] --&gt; T{Authorized Investigator reviews/grants Affiliate Access}
+  A[I am a] --&gt; B[Student] --&gt; J[**Register**] --&gt; V[Create Account
+  Read Get Started Tab] --&gt; L[Confirm Email] -- Yes --&gt; W[Set Password] 
+  W --&gt; Z["`**Request Authorization**
+            1. Select Radio Button _Affiliate_ 
+            2. Type Supervising Professor name`"] -- Yes --&gt; T{Authorized Investigator reviews/grants Affiliate Access}
   A --&gt; C[Lab Staff] --&gt; J 
   A --&gt; D[PostDoc] --&gt; J 
- L -- No --&gt; Q[No Request] --&gt; P(Receive Databrary Email 'How to request access')
-  
+ L -- No --&gt; X(Receive Databrary Email 'How to request access')
+ Z -- No --&gt; Q[No Request] --&gt; X(Receive Databrary Email 'How to request access') 
  
-  A --&gt; F[Faculty] --&gt; K*[**Register**] --&gt; M[Confirm account in email] -- Yes --&gt; H[**Request authorization from your Institution**]   
-    H --&gt; N[Institution already on Databrary] --&gt; R(Receive Databrary Email 'Information Required to Process...') 
-    H --&gt; O[New Institution] --&gt; S(Receive Databrary Email 'Next steps')
-    H --&gt; Y[No Request] --&gt; X(Receive Databrary Email 'How to request access') 
-    M -- No --&gt; P
+  A --&gt; F[Faculty] --&gt; K[**Register**] --&gt; AA[Create Account
+  Read Get Started Tab] --&gt; M[Confirm Email] -- Yes --&gt; WW[Set Password] --&gt; H["`**Request Authorization**
+      1. Pick radio button _Authorized Investigator_ 
+      2. Type Institution Name`"]   
+    H -- Yes --&gt; N[Existing Institution] --&gt; R(Receive Databrary Email 'Information Required to Process...') 
+    H -- Yes --&gt; O[New Institution] --&gt; S(Receive Databrary Email 'Next steps')
+    H -- No --&gt; Q[No Request] 
+    M -- No --&gt; X(Receive Databrary Email 'How to request access') 
 
 A --&gt; G[Institution]
 
