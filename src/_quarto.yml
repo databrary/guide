@@ -11,7 +11,7 @@ project:
     - for-affiliates/*.qmd
     - for-institutions/*.qmd
     - for-investigators/*.qmd
-    - getting-started/*.qmd
+    - getting-authorized/*.qmd
     - more-information/*.qmd
   
 book:
@@ -37,12 +37,12 @@ book:
       chapters:
         - for-institutions/background.qmd
         - for-institutions/specifics.qmd
-    - part: getting-started/start.qmd
+    - part: getting-authorized/start.qmd
       chapters:
-        # - getting-started/institutions.qmd
-        - getting-started/roles.qmd
-        - getting-started/researchers.qmd
-        - getting-started/students.qmd
+        # - getting-authorized/institutions.qmd
+        - getting-authorized/roles.qmd
+        - getting-authorized/researchers.qmd
+        - getting-authorized/students.qmd
     # - part: background/about.qmd
     #   chapters:
     #   - background/origins-support.qmd
