@@ -1,6 +1,4 @@
----
-title: "Flowcharts"
----
+# Flowcharts {.unnumbered}
 
 # Authorizations Flow {.unnumbered}
 

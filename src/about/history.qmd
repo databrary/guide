@@ -1,6 +1,6 @@
 # History {.unnumbered}
 
-Karen Adolph and Rick Gilmore co-founded and co-direct Databrary. Databrary was built in 2013-2014 at New York University, and it went live to the research community in 2014. 
+[Karen Adolph](https://as.nyu.edu/faculty/karen-adolph.html) and [Rick Gilmore](https://psych.la.psu.edu/people/rog1_/) co-founded and co-direct Databrary. Databrary was built in 2013-2014 at New York University, and it went live to the research community in 2014. 
 
 ## Databrary Advisory Board Meetings
 
@@ -9,6 +9,7 @@ Karen Adolph and Rick Gilmore co-founded and co-direct Databrary. Databrary was 
 ## Funding
 
 Databrary is grateful to have received financial and in-kind support from:
+
 - The Eunice Kennedy Shriver National Institute of Child Health and Human Development
 - The National Science Foundation
 - The Defense Advanced Research Projects Agency

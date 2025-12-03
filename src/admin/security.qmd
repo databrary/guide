@@ -1,6 +1,4 @@
----
-title: "Security docs"
----
+#Security Docs {.unnumbered}
 
 # Security-related information {.unnumbered}
 

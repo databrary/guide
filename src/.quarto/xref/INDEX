@@ -197,5 +197,17 @@
   },
   "getting-started/roles.qmd": {
     "roles.html": "3213b718"
+  },
+  "getting-authorized/start.qmd": {
+    "start.html": "2c88c048"
+  },
+  "getting-authorized/roles.qmd": {
+    "roles.html": "204144ba"
+  },
+  "getting-authorized/researchers.qmd": {
+    "researchers.html": "71232304"
+  },
+  "getting-authorized/students.qmd": {
+    "students.html": "ed66bbe5"
   }
 }
