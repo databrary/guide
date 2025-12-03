@@ -1,10 +1,7 @@
 # About {.unnumbered}
 
-Databrary is a restricted access and open sharing data repository for behavioral researchers. Databrary specializes in storing, streaming, and sharing video and audio recordings and supports the many other types of research data and documentation like, images and metadata. 
+Based at New York University, Databrary is the world's only large-scale data repository specializing in storing and sharing research videos in behavioral sciences and the broader research community. It supports the storing, streaming, and sharing of video and audio recordings along with a wide range of accompany research materials such as, transcriptions, images and metadata. The platform is dedicated to advancing transparency, reproducibility, and collaboration across the research community. 
 
-Based at New York University, Databrary's mission is to support data sharing among researchers in the behavioral, social, educational, developmental, neural and computer sciences.
-
-Databrary aims to promote transparency, reproducability, and collaboration. 
+Databrary's mission is to support data sharing and reuse among researchers in the behavioral, social, educational, developmental, neural and computer sciences. The platform serves as a community of scientists and a resource for those who use video or audio in their research or teaching.
 
 We encourage you to read Databrary's Access Agreement and its three annexes. These documents, especially Annex 111-Databrary Access Guide, provide extensive information about how Databrary is structured and how it should be used. You may also get guidance about working with a research ethics board or IRB to see how to incorporate data sharing using Databrary in a Data Management Plan for a grant proposal. 
-

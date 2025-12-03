@@ -1,3 +1,11 @@
 # Why Databrary? {.unnumbered}
 
-Because it's awesome. In other words, why not?
+Data repositories and libraries provide permanent homes for research findings and raw data. Sharing research data is a vital component of the research process, just like publishing papers and books, giving talks, and teaching classes. Open science and sharing information is how we advance as a community.
+
+Furthermore, many granting agencies that fund research require that research data be shared. As an NIH-approved repository, Databrary provides NIH grantees with a compliant and streamlined way to fulfill their data-sharing obligations.
+
+Finally, videos are expensive and time consuming to collect. By sharing and reusing videos, researchers across fields can use video data and glean insights that the original researcher may not have been focusing on, accelerating discovery.
+
+Databrary is structured upon a restricted access and open sharing framework. Open sharing on Databrary allows researchers to reuse data without contacting the owner. However, access to Databrary is restricted by the completion of a formal agreement between a researcher's university and Databrary. The formal agreement states that the researcher is affiliated with their university and that the university will be responsible for the researcher's relationship with Databrary. 
+
+This framework aims to advance the widespread sharing of research data while respecting the privacy of research participants.
