@@ -1,0 +1,27 @@
+# Researchers {.unnumbered #sec-getting-started-researchers}
+
+## Eligibility {-}
+
+Databrary policies and your home *institution* determine whether you are eligible to be granted access to Databrary as an *Authorized Investigator*.
+Here are some factors that contribute to that determination:
+
+- I conduct independent, unsupervised, research at my institution;
+- I submit funding proposals as lead investigator;
+- I have Principal Investigator (PI) status or hold a tenure-track faculty position at my institution;
+- My institution maintains or uses an ethics board to review and approve research involving human subjects (or non-human animals where relevant); 
+- I have current training that addresses research ethics with human subject (e.g. [CITI](https://about.citiprogram.org/) training);
+- I would like to reuse or upload data to Databrary.
+- I sponsor and supervise lab staff and students who work on my projects or on collaborative projects, and I  have authority to supervise their access to data that I share or or others have shared on Databrary.
+
+## Seeking Authorization {-}
+
+If these factors apply to you, you must [register](https://nyu.databrary.org/user/register) on Databrary, request authorization from your institution, and secure authorization.
+
+Registration involves creating an account, setting a password, and confirming your account.
+Requesting authorization involves securing approval from an official at your institution by means of formal signatures on the [Databrary Access Agreement (DAA)](../appendices/access_agreement.qmd) and its Annexes.
+
+If you know who at your institution reviews, approves, and signs data access agreements or other contracts, that is probably the person who will need to sign the DAA.
+You also may need to sign it.
+If you don't know the person at your institution, Databrary staff will help identify the right person.
+Databrary will work with you and your institution to secure signatures on the DAA.
+

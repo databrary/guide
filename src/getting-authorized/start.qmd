@@ -1,0 +1,11 @@
+# Getting Authorized {.unnumbered #sec-getting-started}
+
+This section describes how to get started using Databrary.
+
+If you represent an *institution*, see [this section](institutions.qmd) for information about how researchers gain access to Databrary via a formal process of institutional authorization.
+
+If you are a *researcher*, see [this section](researchers.qmd) about how to start the authorization process with your institution.
+
+If you are a *research staff member*, *postdoc*, *graduate* or *undergraduate student*, see [this section](students.qmd) for information about how to gain access to restricted data via your research supervisor. 
+
+Any person may browse and view Databrary's public materials consistent with the [Terms & Conditions of Use](../appendices/terms.qmd).

@@ -1,0 +1,28 @@
+# Institutions {.unnumbered #sec-getting-started-institutions}
+
+## Eligibility {-}
+
+Access to restricted data on Databrary is limited to researchers who are formally authorized by their institutions via the [Databrary Access Agreement (DAA)](../appendices/access_agreement.qmd) and its Annexes.
+Only academic, research, government, or health entities are eligible to authorize researchers under the DAA.
+Institutions must also maintain or uses an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects (or non-human animals where relevant).
+
+An official signature by an Authorized Organizational Representative (AOR) on the DAA constitutes formal institional approval.
+
+Once authorized by their institution, Databrary considers the researchers *Authorized Investigators*.
+While institutions decide whether to authorize a specific researcher, the following criteria typically apply:
+
+- Eligible researchers conduct independent, unsupervised, research at the institution;
+- Eligible researchers submit funding proposals as lead investigator;
+- Eligible researchers have Principal Investigator (PI) status or hold a tenure-track faculty position at the institution;
+- Eligible researchers have current training that addresses research ethics with human subject (e.g. [CITI](https://about.citiprogram.org/) training);
+- Eligible researchers wish to download and/or reuse or upload data to Databrary.
+
+Authorized Investigators often supervise the research activities of research staff, postdocs, graduate students, and undergraduate students who are *not* eligible for access to Databrary as Authorized Investigators.
+Consistent with institutional policies, these individuals may be granted access to Databrary as an *Affiliate* of a supervising Authorized Investigator.
+
+## Seeking Authorization {-}
+
+In most cases, a researcher initiates a request for authorization when they [register](https://databrary.org/user/register) for access and create an account on Databrary.
+
+A Databrary staff member will contact the institution to determine who should review and sign the [Databrary Access Agreement (DAA)](../appendices/access_agreement.qmd) and its Annexes.
+Some institutions require the researcher to sign or initial the documents, alongside signatures from the AOR.

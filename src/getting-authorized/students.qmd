@@ -1,0 +1,17 @@
+# Students {.unnumbered #sec-getting-started-students}
+
+## Eligibility {-}
+
+Databrary policies, your home *institution*, and the *Authorized Investigator* who supervises your research determine whether you are eligible to be granted access to Databrary as an *Affiliate*.
+Here are some factors that contribute to that determination:
+
+- I conduct research under the supervision of an *Authorized Investigator*'s sponsorship or someone who is eligible to become an *Authorized Investigator*; 
+- I am a student, research staff, or post-doctoral researcher.
+- I have current training that addresses research ethics with human subjects (e.g.[CITI](https://about.citiprogram.org/) training).
+
+## Seeking Authorization {-}
+
+If these factors apply to you, must [register](https://databrary.org/user/register) for Databrary, request authorization from your research supervisor, and secure that person's authorization.
+If your research supervisor is already a Databrary Authorized Investigator, that person will receive a request to add you to their list of sponsored *Affiliate* researchers.
+If your research supervisor is *not* a Databrary Authorized Investigator, they too will need to register for Databrary, request authorization from their institution, and secure authorization
+The authorization process involves approval from an institutional official by means of formal signatures on the [Databrary Access Agreement](../appendices/access_agreement.qmd) and its Annexes.

@@ -1,0 +1,10 @@
+# Roles {.unnumbered}
+
+This page describes the different roles a person might have in the Databrary system.
+
+## Authorized Investigators
+
+## Sponsored Researchers
+
+
+
