@@ -44,7 +44,7 @@
     "href": "about/history.html",
     "title": "History",
     "section": "",
-    "text": "Databrary Advisory Board Meetings\nKaren Adolph and Rick Gilmore co-founded and co-direct Databrary. Databrary was built in 2013-2014 at New York University, and it went live to the research community in 2014.\nhttps://databrary.org/volume/1",
+    "text": "Funding\nKaren Adolph and Rick Gilmore co-founded and co-direct Databrary. Databrary was built in 2013-2014 at New York University, and it went live to the research community in 2014.\nDatabrary is grateful to have received financial and in-kind support from:",
     "crumbs": [
       "About",
       "History"
@@ -54,8 +54,19 @@
     "objectID": "about/history.html#funding",
     "href": "about/history.html#funding",
     "title": "History",
-    "section": "Funding",
-    "text": "Funding\nDatabrary is grateful to have received financial and in-kind support from:\n\nThe Eunice Kennedy Shriver National Institute of Child Health and Human Development\nThe National Science Foundation\nThe Defense Advanced Research Projects Agency\nThe Society for Research in Child Development\nThe Alfred P. Sloan Foundation\nThe James S.McDonnell Foundation\nThe LEGO Foundation\nThe John S. Templeton Foundation\nNew York University\nPennsylvania State University",
+    "section": "",
+    "text": "The Eunice Kennedy Shriver National Institute of Child Health and Human Development\nThe National Science Foundation\nThe Defense Advanced Research Projects Agency\nThe Society for Research in Child Development\nThe Alfred P. Sloan Foundation\nThe James S.McDonnell Foundation\nThe LEGO Foundation\nThe John S. Templeton Foundation\nNew York University\nPennsylvania State University",
+    "crumbs": [
+      "About",
+      "History"
+    ]
+  },
+  {
+    "objectID": "about/history.html#databrary-advisory-board-meetings",
+    "href": "about/history.html#databrary-advisory-board-meetings",
+    "title": "History",
+    "section": "Databrary Advisory Board Meetings",
+    "text": "Databrary Advisory Board Meetings\nhttps://databrary.org/volume/1",
     "crumbs": [
       "About",
       "History"
@@ -302,201 +313,66 @@
     ]
   },
   {
-    "objectID": "admin/flowcharts.html",
-    "href": "admin/flowcharts.html",
-    "title": "Flowcharts",
+    "objectID": "how-to-use-volumes/start.html",
+    "href": "how-to-use-volumes/start.html",
+    "title": "How To Use Volumes",
     "section": "",
-    "text": "Authorizations Flow",
+    "text": "This is a description of what volumes are and the intention and purpose of volumes.",
     "crumbs": [
-      "Admin",
-      "Flowcharts"
+      "How To Use Volumes"
     ]
   },
   {
-    "objectID": "admin/flowcharts.html#how-can-i-access-databrary",
-    "href": "admin/flowcharts.html#how-can-i-access-databrary",
-    "title": "Flowcharts",
-    "section": "How Can I Access Databrary?",
-    "text": "How Can I Access Databrary?\n\n\n\n\n\nflowchart\n  A[I am a] --&gt; B[Student] --&gt; J[**Register**] --&gt; V[Create Account\n  Read Get Started Tab] --&gt; L[Confirm Email] -- Yes --&gt; W[Set Password] \n  W --&gt; Z[\"`**Request Authorization**\n            1. Select Radio Button _Affiliate_ \n            2. Type Supervising Professor name`\"] -- Yes --&gt; T{Authorized Investigator reviews/grants Affiliate Access}\n  A --&gt; C[Lab Staff] --&gt; J \n  A --&gt; D[PostDoc] --&gt; J \n L -- No --&gt; X(Receive Databrary Email 'How to request access')\n Z -- No --&gt; Q[No Request] --&gt; X(Receive Databrary Email 'How to request access') \n \n  A --&gt; F[Faculty] --&gt; K[**Register**] --&gt; AA[Create Account\n  Read Get Started Tab] --&gt; M[Confirm Email] -- Yes --&gt; WW[Set Password] --&gt; H[\"`**Request Authorization**\n      1. Pick radio button _Authorized Investigator_ \n      2. Type Institution Name`\"]   \n    H -- Yes --&gt; N[Existing Institution] --&gt; R(Receive Databrary Email 'Information Required to Process...') \n    H -- Yes --&gt; O[New Institution] --&gt; S(Receive Databrary Email 'Next steps')\n    H -- No --&gt; Q[No Request] \n    M -- No --&gt; X(Receive Databrary Email 'How to request access') \n\nA --&gt; G[Institution]\n\n\n  click J \"https://nyu.databrary.org/user/register\" \"Link to Databrary Registration Page\"\n \n click Z \"https://nyu.databrary.org/user/register\" \"Link to Databrary Registration Page\"\n  \n  click H href \"https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-authorized-investigator-at-an-institution\" _blank\n  click Z href \"https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-affiliate-of-an-authorized-investigator\" \"Link to requesting-access.qmd\"",
-    "crumbs": [
-      "Admin",
-      "Flowcharts"
-    ]
-  },
-  {
-    "objectID": "admin/flowcharts.html#for-admin",
-    "href": "admin/flowcharts.html#for-admin",
-    "title": "Flowcharts",
-    "section": "For Admin",
-    "text": "For Admin\n\n\n\n\n\nflowchart\n  A[Request Type]--&gt; B[New Institution] --&gt; I{View Institution Profile - Eligible?} -- Yes --&gt; G\n  A --&gt; C[Existing Institution] --&gt; G{View Person Institutional Profile - Eligible? } \n  G -- Yes --&gt; H(Send Email 'Next steps')\n  G -- No --&gt; J(Send Email 'To Process Request')\n  I -- No --&gt; K(Send Email 'Ineligible for access')\n  A --&gt; D[Authorized Investigator] --&gt; L[No Email Action Required]\n  A --&gt; E[No Request] --&gt; F(Send Email 'To Initiate Authorization')",
-    "crumbs": [
-      "Admin",
-      "Flowcharts"
-    ]
-  },
-  {
-    "objectID": "admin/grant-auth.html",
-    "href": "admin/grant-auth.html",
-    "title": "Grant Authorization",
+    "objectID": "how-to-use-volumes/create-a-volume.html",
+    "href": "how-to-use-volumes/create-a-volume.html",
+    "title": "Create a Volume",
     "section": "",
-    "text": "Who can have Databrary Admin Access?\nOnly employees of Databrary that manage the Databary system, have NYU credentials, and have been approved by NYU IT can access this part of the system.",
+    "text": "Steps to create a volume with screenshots.",
     "crumbs": [
-      "Admin",
-      "Grant Authorization"
+      "How To Use Volumes",
+      "Create a Volume"
     ]
   },
   {
-    "objectID": "admin/grant-auth.html#check-eligibility-vetting-for-institutions",
-    "href": "admin/grant-auth.html#check-eligibility-vetting-for-institutions",
-    "title": "Grant Authorization",
-    "section": "Check Eligibility (vetting) for Institutions",
-    "text": "Check Eligibility (vetting) for Institutions\n\nLocate institutional website\n\nIs it viewable? YES (if no, institution is ineligible)\nLog this in the Institution page on Airtable\n\nLocate the research ethics (IRB, HRPP, HREC, REB) website\n\nIs it viewable? YES if NO, ask user for link to website or email address of chair -Log this in the Institution page on Airtable",
-    "crumbs": [
-      "Admin",
-      "Grant Authorization"
-    ]
-  },
-  {
-    "objectID": "admin/grant-auth.html#check-eligibility-vetting-for-potential-authorized-investigators",
-    "href": "admin/grant-auth.html#check-eligibility-vetting-for-potential-authorized-investigators",
-    "title": "Grant Authorization",
-    "section": "Check Eligibility (vetting) for potential Authorized Investigators",
-    "text": "Check Eligibility (vetting) for potential Authorized Investigators\n\nLocate user profile page on institutional website\n\nIs it viewable? YES (if no, is ineligible)\n\nLog in Airtable\n\nInstitutional email address\nPosition at Institution\nDepartment/College at Institution\nInstitutional profile page",
-    "crumbs": [
-      "Admin",
-      "Grant Authorization"
-    ]
-  },
-  {
-    "objectID": "admin/grant-auth.html#check-eligibility-vetting-for-potential-institutional-administrators",
-    "href": "admin/grant-auth.html#check-eligibility-vetting-for-potential-institutional-administrators",
-    "title": "Grant Authorization",
-    "section": "Check Eligibility (vetting) for potential Institutional Administrators",
-    "text": "Check Eligibility (vetting) for potential Institutional Administrators\nThis policy is not yet in place",
-    "crumbs": [
-      "Admin",
-      "Grant Authorization"
-    ]
-  },
-  {
-    "objectID": "admin/grant-auth.html#create-a-new-institution-on-databrary",
-    "href": "admin/grant-auth.html#create-a-new-institution-on-databrary",
-    "title": "Grant Authorization",
-    "section": "Create a New Institution on Databrary",
-    "text": "Create a New Institution on Databrary\n\n\nLog onto Databrary as Admin\nClick Institutions &gt; Add New Institution\nGo to https://nyu.databrary.org/admin/institutions/add\n\nType in Institution Name\nType home page address https://…..\nEnter Date that institution is first authorized/signed Agreement\nClick ADD button below the map\n\n\n\nTo update institution location\n\nGo back to edit institution profile\nClick ESTIMATE FROM NAME button above map.\nClick SAVE MAP LOCATION\n\n\n\nTo add institution avatar\n!!Currently nonfunctional!!\n\nGo back to https://databrary.nyu.edu/admin/institutions\nSearch for the name of the new institution\nClick on the institutional profile\nLook up Institution Icon. Save to the computer.\nResize image to:_____\nUpload to the ‘Choose Avatar’ button",
-    "crumbs": [
-      "Admin",
-      "Grant Authorization"
-    ]
-  },
-  {
-    "objectID": "admin/grant-auth.html#authorize-the-pi-for-a-new-institution",
-    "href": "admin/grant-auth.html#authorize-the-pi-for-a-new-institution",
-    "title": "Grant Authorization",
-    "section": "Authorize the PI for a New Institution",
-    "text": "Authorize the PI for a New Institution\n\nGo back to https://databrary.nyu.edu/admin/institutions\nIn the institutions search bar, search for the new institution\nClick on the New Institution\nClick on the edit button (the little pencil next to the institution name)\nClick on the Sponsored People tab\nClick on the Add New Sponsored Person button\n\nIn the pop-up box titled Add New Sponsored Person start typing the name of the user beginning with their first name.\nEnsure their Role is correct\n\nAt this point access is ONLY granted for Authorized Investigator (Institution Admin does not exist)\n\nExpiration date automatically defaults to 1 year\nClick Authorize in the lower right corner of this box",
-    "crumbs": [
-      "Admin",
-      "Grant Authorization"
-    ]
-  },
-  {
-    "objectID": "admin/grant-auth.html#authorize-the-pi-for-existing-institution",
-    "href": "admin/grant-auth.html#authorize-the-pi-for-existing-institution",
-    "title": "Grant Authorization",
-    "section": "Authorize the PI for Existing Institution",
-    "text": "Authorize the PI for Existing Institution\n\nYes, Institution Request Placed\n\nGo to: https://nyu.databrary.org/admin/requests/\nClick on the tab for Institution Requests\nIn the requests search bar, search for the requestor name\nClick on the Green Checkmark to Accept this request\n\n\n\nNo, Institution Request Not Placed\n\nGo to https://databrary.nyu.edu/admin/institutions\nIn the Institutions search bar, search for the name of the institution\nClick on the Institution\nClick on the edit button (the little pencil next to the institution name)\nClick on the Sponsored People tab\nClick on the Add New Sponsored Person button\nIn the pop-up box titled Add New Sponsored Person\n\nstart typing the name of the user beginning with their first name.\nEnsure their Role is correct\n\nAt this point access is ONLY granted for Authorized Investigator (Institution Admin does not exist)\n\nExpiration date automatically defaults to 1 year\nClick Authorize in the lower right corner of this box",
-    "crumbs": [
-      "Admin",
-      "Grant Authorization"
-    ]
-  },
-  {
-    "objectID": "admin/grant-auth.html#suspend-user-account",
-    "href": "admin/grant-auth.html#suspend-user-account",
-    "title": "Grant Authorization",
-    "section": "Suspend User Account",
-    "text": "Suspend User Account\n\nGo to: Admin Dashboard at the top of the screen\nChoose Users\nIn the User search box, type the name of the researcher\nClick on the three dots at the right side of the row\nClick on Suspend Account",
-    "crumbs": [
-      "Admin",
-      "Grant Authorization"
-    ]
-  },
-  {
-    "objectID": "admin/grant-auth.html#reactivate-user-account",
-    "href": "admin/grant-auth.html#reactivate-user-account",
-    "title": "Grant Authorization",
-    "section": "Reactivate User Account",
-    "text": "Reactivate User Account\n\nGo to: Admin Dashboard at the top of the screen\nChoose Users\nIn the User search box, type the name of the researcher\nClick on the three dots at the right side of the row\nClick on Reactivate Account",
-    "crumbs": [
-      "Admin",
-      "Grant Authorization"
-    ]
-  },
-  {
-    "objectID": "admin/grant-auth.html#forgotten-usernamepassword",
-    "href": "admin/grant-auth.html#forgotten-usernamepassword",
-    "title": "Grant Authorization",
-    "section": "Forgotten Username/Password",
-    "text": "Forgotten Username/Password\n\nLook up the email of the researcher on Databrary.\nLog into Admin Panel\nGo to: Admin Dashboard at the top of the screen\nChoose Users\nSearch researcher in the search box\nInstruct researcher to:\n\nchange password at: https://databrary.edu/user/password OR\nUse the GUI by going to login and selecting Forgot your password?",
-    "crumbs": [
-      "Admin",
-      "Grant Authorization"
-    ]
-  },
-  {
-    "objectID": "admin/grant-auth.html#transfer-user-authorization-from-one-institution-to-another-institution",
-    "href": "admin/grant-auth.html#transfer-user-authorization-from-one-institution-to-another-institution",
-    "title": "Grant Authorization",
-    "section": "Transfer User Authorization from one Institution to another Institution?",
-    "text": "Transfer User Authorization from one Institution to another Institution?",
-    "crumbs": [
-      "Admin",
-      "Grant Authorization"
-    ]
-  },
-  {
-    "objectID": "admin/grant-auth.html#transfer-authorized-investigator-volumes-from-one-institution-to-another-institution",
-    "href": "admin/grant-auth.html#transfer-authorized-investigator-volumes-from-one-institution-to-another-institution",
-    "title": "Grant Authorization",
-    "section": "Transfer Authorized Investigator Volumes from one Institution to another Institution?",
-    "text": "Transfer Authorized Investigator Volumes from one Institution to another Institution?",
-    "crumbs": [
-      "Admin",
-      "Grant Authorization"
-    ]
-  },
-  {
-    "objectID": "admin/grant-auth.html#an-authorized-investigator-moved-institutions-now-what",
-    "href": "admin/grant-auth.html#an-authorized-investigator-moved-institutions-now-what",
-    "title": "Grant Authorization",
-    "section": "An Authorized Investigator moved Institutions, Now What?",
-    "text": "An Authorized Investigator moved Institutions, Now What?",
-    "crumbs": [
-      "Admin",
-      "Grant Authorization"
-    ]
-  },
-  {
-    "objectID": "admin/security.html",
-    "href": "admin/security.html",
-    "title": "Security-related information",
+    "objectID": "how-to-use-volumes/edit-a-volume.html",
+    "href": "how-to-use-volumes/edit-a-volume.html",
+    "title": "Edit a Volume",
     "section": "",
-    "text": "About\n#Security Docs {.unnumbered}\nThis page documents information related to Databrary’s security policies, procedures, and practices.",
+    "text": "Steps to edit a volume.",
     "crumbs": [
-      "Admin",
-      "Security-related information"
+      "How To Use Volumes",
+      "Edit a Volume"
     ]
   },
   {
-    "objectID": "admin/security.html#hecvat",
-    "href": "admin/security.html#hecvat",
-    "title": "Security-related information",
-    "section": "HECVAT",
-    "text": "HECVAT\nThe Higher Education Computing Vendor Assessment Tool (HECVAT) is …",
+    "objectID": "how-to-use-files/start.html",
+    "href": "how-to-use-files/start.html",
+    "title": "How To Use Files",
+    "section": "",
+    "text": "Description of files and its intent and purpose.",
     "crumbs": [
-      "Admin",
-      "Security-related information"
+      "How To Use Files"
+    ]
+  },
+  {
+    "objectID": "how-to-use-datasets/start.html",
+    "href": "how-to-use-datasets/start.html",
+    "title": "How To Use Datasets",
+    "section": "",
+    "text": "Description and intention/purpose of datasets.",
+    "crumbs": [
+      "How To Use Datasets"
+    ]
+  },
+  {
+    "objectID": "how-to-use-datasets/curate-data.html",
+    "href": "how-to-use-datasets/curate-data.html",
+    "title": "Curate Data",
+    "section": "",
+    "text": "How to curate data.",
+    "crumbs": [
+      "How To Use Datasets",
+      "Curate Data"
     ]
   },
   {

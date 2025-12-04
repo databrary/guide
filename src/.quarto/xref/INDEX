@@ -209,5 +209,50 @@
   },
   "getting-authorized/students.qmd": {
     "students.html": "ed66bbe5"
+  },
+  "how-to-use-volumes/start.qmd": {
+    "start.html": "b9fe3c51"
+  },
+  "how-to-use-volumes/how-to-create-volumes.qmd": {
+    "how-to-create-volumes.html": "1a779c73"
+  },
+  "how-to-use-files/start.qmd": {
+    "start.html": "2e08cf47"
+  },
+  "how-to-use-files/how-to-create-files.qmd": {
+    "how-to-create-files.html": "1947d009"
+  },
+  "how-to-use-volumes/create-volumes.qmd": {
+    "create-volumes.html": "c3190833"
+  },
+  "how-to-use-files/create-files.qmd": {
+    "create-files.html": "4c95fc07"
+  },
+  "how-to-use-volumes/create-a-volume.qmd": {
+    "create-a-volume.html": "64135a66"
+  },
+  "how-to-use-files/create-a-file.qmd": {
+    "create-a-file.html": "a6ff3f5c"
+  },
+  "how-to-use-volumes/edit-a-volume.qmd": {
+    "edit-a-volume.html": "7917a79c"
+  },
+  "how-to-use-datasets/start.qmd": {
+    "start.html": "0facec97"
+  },
+  "how-to-use-datasets/curate-data.qmd": {
+    "curate-data.html": "e5c6d15b"
+  },
+  "frequently-asked-questions/faq.qmd": {
+    "faq.html": "ae083dbe"
+  },
+  "glossary/glossary.qmd": {
+    "glossary.html": "990905c8"
+  },
+  "glossary.qmd": {
+    "glossary.html": "7c2d6052"
+  },
+  "faq.qmd": {
+    "faq.html": "10af61e2"
   }
 }
