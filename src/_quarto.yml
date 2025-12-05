@@ -12,7 +12,10 @@ project:
     - for-institutions/*.qmd
     - for-investigators/*.qmd
     - getting-authorized/*.qmd
-    - how-to-use-volumes/*.qmd
+    - managing-my-profile/*.qmd
+    - sample-workflow/*.qmd
+    - contributing-data/*.qmd
+    - accessing-data/*.qmd
     - more-information/*.qmd
   
 book:
@@ -43,21 +46,36 @@ book:
         - getting-authorized/roles.qmd
         - getting-authorized/researchers.qmd
         - getting-authorized/students.qmd
+    - part: managing-my-profile/start.qmd
+      chapters: 
+        - managing-my-profile/managing-my-sponsors.qmd
+    - part: sample-workflow/start.qmd
+      chapters: 
+        - sample-workflow/new-project.qmd
+        - sample-workflow/ongoing-project.qmd
+        - sample-workflow/completed-project.qmd
+    - part: contributing-data/start.qmd
+      chapters:
+       - contributing-data/create-a-volume.qmd
+       - contributing-data/edit-a-volume.qmd
+    - part: accessing-data/start.qmd
+      chapters: 
+        - accessing-data/downloading-files.qmd
     #- part: "Admin"
     #  chapters:
     #   - admin/flowcharts.qmd 
     #   - admin/grant-auth.qmd 
     #   - admin/security.qmd 
-    - part: how-to-use-volumes/start.qmd
-      chapters:
-       - how-to-use-volumes/create-a-volume.qmd
-       - how-to-use-volumes/edit-a-volume.qmd
-    - part: how-to-use-files/start.qmd
-      chapters:
-       - how-to-use-files/create-a-file.qmd
-    - part: how-to-use-datasets/start.qmd
-      chapters: 
-        - how-to-use-datasets/curate-data.qmd
+    # - part: how-to-use-volumes/start.qmd
+    #  chapters:
+    #   - how-to-use-volumes/create-a-volume.qmd
+    #   - how-to-use-volumes/edit-a-volume.qmd
+    # - part: how-to-use-files/start.qmd
+    #  chapters:
+    #   - how-to-use-files/create-a-file.qmd
+    # - part: how-to-use-datasets/start.qmd
+    #  chapters: 
+    #    - how-to-use-datasets/curate-data.qmd
     - faq.qmd
     - glossary.qmd
        

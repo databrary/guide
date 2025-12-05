@@ -1,3 +1,0 @@
-# How To Use Volumes {unnumbered}
-
-This is a description of what volumes are and the intention and purpose of volumes.

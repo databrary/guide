@@ -1,0 +1,3 @@
+# Managing My Profile {.unnumbered}
+
+Section describing how to manage notifications, adding sponsors, etc.

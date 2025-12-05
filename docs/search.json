@@ -313,66 +313,120 @@
     ]
   },
   {
-    "objectID": "how-to-use-volumes/start.html",
-    "href": "how-to-use-volumes/start.html",
-    "title": "How To Use Volumes",
+    "objectID": "managing-my-profile/start.html",
+    "href": "managing-my-profile/start.html",
+    "title": "Managing My Profile",
     "section": "",
-    "text": "This is a description of what volumes are and the intention and purpose of volumes.",
+    "text": "Section describing how to manage notifications, adding sponsors, etc.",
     "crumbs": [
-      "How To Use Volumes"
+      "Managing My Profile"
     ]
   },
   {
-    "objectID": "how-to-use-volumes/create-a-volume.html",
-    "href": "how-to-use-volumes/create-a-volume.html",
+    "objectID": "managing-my-profile/managing-my-sponsors.html",
+    "href": "managing-my-profile/managing-my-sponsors.html",
+    "title": "Managing My Sponsors",
+    "section": "",
+    "text": "Section describing steps to add and remove sponsors.",
+    "crumbs": [
+      "Managing My Profile",
+      "Managing My Sponsors"
+    ]
+  },
+  {
+    "objectID": "sample-workflow/start.html",
+    "href": "sample-workflow/start.html",
+    "title": "Sample Workflow",
+    "section": "",
+    "text": "Steps delineating workflow to set up a project.",
+    "crumbs": [
+      "Sample Workflow"
+    ]
+  },
+  {
+    "objectID": "sample-workflow/new-project.html",
+    "href": "sample-workflow/new-project.html",
+    "title": "New Project",
+    "section": "",
+    "text": "Excellent! Before collecting data is the best time to start planning for curation of your project. In this case, you would utilize the upload as you go method of data curation.",
+    "crumbs": [
+      "Sample Workflow",
+      "New Project"
+    ]
+  },
+  {
+    "objectID": "sample-workflow/ongoing-project.html",
+    "href": "sample-workflow/ongoing-project.html",
+    "title": "Ongoing Project",
+    "section": "",
+    "text": "Example text.",
+    "crumbs": [
+      "Sample Workflow",
+      "Ongoing Project"
+    ]
+  },
+  {
+    "objectID": "sample-workflow/completed-project.html",
+    "href": "sample-workflow/completed-project.html",
+    "title": "Completed Project",
+    "section": "",
+    "text": "The following items need to be considered to prepare for upload:\n\nDo you have (at least some of) participants’ permission to share their data with other authorized Databrary investigators? If not, who is allowed access to the videos?\nDo you have IRB permission to share the data on Databrary?\nAll video tapes need to be digitized\nHow are the data organized? Will these need to be re-organized to utilize the Databrary Spreadsheet structure?",
+    "crumbs": [
+      "Sample Workflow",
+      "Completed Project"
+    ]
+  },
+  {
+    "objectID": "contributing-data/start.html",
+    "href": "contributing-data/start.html",
+    "title": "Contributing Data",
+    "section": "",
+    "text": "Example text.",
+    "crumbs": [
+      "Contributing Data"
+    ]
+  },
+  {
+    "objectID": "contributing-data/create-a-volume.html",
+    "href": "contributing-data/create-a-volume.html",
     "title": "Create a Volume",
     "section": "",
-    "text": "Steps to create a volume with screenshots.",
+    "text": "Steps to create a volume.",
     "crumbs": [
-      "How To Use Volumes",
+      "Contributing Data",
       "Create a Volume"
     ]
   },
   {
-    "objectID": "how-to-use-volumes/edit-a-volume.html",
-    "href": "how-to-use-volumes/edit-a-volume.html",
+    "objectID": "contributing-data/edit-a-volume.html",
+    "href": "contributing-data/edit-a-volume.html",
     "title": "Edit a Volume",
     "section": "",
     "text": "Steps to edit a volume.",
     "crumbs": [
-      "How To Use Volumes",
+      "Contributing Data",
       "Edit a Volume"
     ]
   },
   {
-    "objectID": "how-to-use-files/start.html",
-    "href": "how-to-use-files/start.html",
-    "title": "How To Use Files",
+    "objectID": "accessing-data/start.html",
+    "href": "accessing-data/start.html",
+    "title": "Accessing Data",
     "section": "",
-    "text": "Description of files and its intent and purpose.",
+    "text": "Background behind accessing/retrieving/pulling/using data.",
     "crumbs": [
-      "How To Use Files"
+      "Accessing Data"
     ]
   },
   {
-    "objectID": "how-to-use-datasets/start.html",
-    "href": "how-to-use-datasets/start.html",
-    "title": "How To Use Datasets",
+    "objectID": "accessing-data/downloading-files.html",
+    "href": "accessing-data/downloading-files.html",
+    "title": "Downloading Files",
     "section": "",
-    "text": "Description and intention/purpose of datasets.",
+    "text": "Steps to download files.",
     "crumbs": [
-      "How To Use Datasets"
-    ]
-  },
-  {
-    "objectID": "how-to-use-datasets/curate-data.html",
-    "href": "how-to-use-datasets/curate-data.html",
-    "title": "Curate Data",
-    "section": "",
-    "text": "How to curate data.",
-    "crumbs": [
-      "How To Use Datasets",
-      "Curate Data"
+      "Accessing Data",
+      "Downloading Files"
     ]
   },
   {

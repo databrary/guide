@@ -1,0 +1,3 @@
+# Managing My Sponsors {.unnumbered}
+
+Section describing steps to add and remove sponsors.

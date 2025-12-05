@@ -1,3 +1,0 @@
-# Create a Volume {.unnumbered}
-
-Steps to create a volume with screenshots.
