@@ -41,11 +41,17 @@ A --> G[Institution]
 
 ```{mermaid}
 flowchart
-  A[Request Type]--> B[New Institution] --> I{View Institution Profile - Eligible?} -- Yes --> G
-  A --> C[Existing Institution] --> G{View Person Institutional Profile - Eligible? } 
-  G -- Yes --> H(Send Email 'Next steps')
-  G -- No --> J(Send Email 'To Process Request')
-  I -- No --> K(Send Email 'Ineligible for access')
-  A --> D[Authorized Investigator] --> L[No Email Action Required]
-  A --> E[No Request] --> F(Send Email 'To Initiate Authorization')
+  
+  
+A[Request Type] --> B[Existing Institution] --> M[Request includes email + faculty profile] -- Yes --> G{View Person Institutional Profile - Eligible? } -- No --> J[\Send Email 'To Process Request'/]
+ 
+ A--> C[New Institution] --> I{View Institution Profile - Eligible?} -- Yes --> G
+
+ G -- Yes --> H[\Send Email 'Admin Request Approval to email instituiton'/]
+ 
+ M -- No --> J[\Send Email 'To Process Request'/]
+ I -- No --> K[\Send Email 'Ineligible for access'/]
+ B -- No --> F[\Send Email 'To Initiate Authorization'/]
+ A --> D[Authorized Investigator] --> L[No Email Action Required]
+ A --> E[No Request] --> F[\Send Email 'To Initiate Authorization'/]
 ```
