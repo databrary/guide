@@ -48,18 +48,19 @@ A[Request Type] --> B[Existing Institution]
   M -- Yes --> G{View User Institutional Profile - Eligible? } -- No --> J[\Send Email 'To Process Request'/]
  
 
-  G -- Yes --> H[\Send Email 'Admin Request Approval to email instituiton'/] --> Q[\Log in Airtable Person/]
+  G -- Yes --> TT[\Send email confirm correct AOR/] --> Q[\Log in Airtable Person/]
   M -- No --> J[\Send Email 'To Process Request'/]
  
 A --> C[New Institution] 
-  C --> I{View Institution Profile - Eligible?} -- Yes --> R{Was instiutitonal AOR provided?} -- Yes --> T[\Send email confirm correct AOR/] --> Q[\Log in Airtable Person/]
-  R -- No --> S[\Send email find AOR/] --> Q[\Log in Airtable Person/]
+  C --> I{View Institution Profile - Eligible?} -- Yes --> R{Was instiutitonal AOR provided?} -- Yes --> T[\Send email confirm correct AOR/] --> QQ[\Log in Airtable Person/]
+  
+  R -- No --> S[\Send email find AOR/] --> QQQ[\Log in Airtable Person/] --> V(Receive AOR information) --> U[\Send Email and AdobeSign to AOR and User/] 
   I -- No --> K[\Send Email 'Institution Ineligible for access'/]
   
  
-A --> D[Authorized Investigator] --> L[No Email Action Required] ---> P(Log Authorization Activities Spreadsheet)
+A --> D[Authorized Investigator] --> L[No Email Action Required] --> P(Log Authorization Activities Spreadsheet)
  
-A --> E[No Request] --> F[\Send Email 'To Initiate Authorization'/] ---> P(Log Authorization Activities Spreadsheet)
+A --> E[No Request] --> F[\Send Email 'To Initiate Authorization'/] --> P(Log Authorization Activities Spreadsheet)
 
 ```
 
