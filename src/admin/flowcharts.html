@@ -106,20 +106,27 @@ A --&gt; G[Institution]
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart
-  
-  
-A[Request Type] --&gt; B[Existing Institution] --&gt; M[Request includes email + faculty profile] -- Yes --&gt; G{View Person Institutional Profile - Eligible?} -- No --&gt; J[\Send Email 'To Process Request'/]
- 
- A--&gt; C[New Institution] --&gt; I{View Institution Profile - Eligible?} -- Yes --&gt; G
+<pre class="mermaid mermaid-js">flowchart TD
 
- G -- Yes --&gt; H[\Send Email 'Admin Request Approval to email instituiton'/]
+A[Request Type] --&gt; B[Existing Institution] 
+
+  B --&gt; M[Request: User Institutional Profile link provided?]
+  M -- Yes --&gt; G{View User Institutional Profile - Eligible? } -- No --&gt; J[\Send Email 'To Process Request'/]
  
- M -- No --&gt; J[\Send Email 'To Process Request'/]
- I -- No --&gt; K[\Send Email 'Ineligible for access'/]
- B -- No --&gt; F[\Send Email 'To Initiate Authorization'/]
- A --&gt; D[Authorized Investigator] --&gt; L[No Email Action Required]
- A --&gt; E[No Request] --&gt; F[\Send Email 'To Initiate Authorization'/]
+
+  G -- Yes --&gt; H[\Send Email 'Admin Request Approval to email instituiton'/] --&gt; Q[\Log in Airtable Person/]
+  M -- No --&gt; J[\Send Email 'To Process Request'/]
+ 
+A --&gt; C[New Institution] 
+  C --&gt; I{View Institution Profile - Eligible?} -- Yes --&gt; R{Was instiutitonal AOR provided?} -- Yes --&gt; T[\Send email confirm correct AOR/] --&gt; Q[\Log in Airtable Person/]
+  R -- No --&gt; S[\Send email find AOR/] --&gt; Q[\Log in Airtable Person/]
+  I -- No --&gt; K[\Send Email 'Institution Ineligible for access'/]
+  
+ 
+A --&gt; D[Authorized Investigator] --&gt; L[No Email Action Required] ---&gt; P(Log Authorization Activities Spreadsheet)
+ 
+A --&gt; E[No Request] --&gt; F[\Send Email 'To Initiate Authorization'/] ---&gt; P(Log Authorization Activities Spreadsheet)
+
 </pre>
 </div>
 <p></p></figure><p></p>

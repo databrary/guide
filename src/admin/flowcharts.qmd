@@ -40,18 +40,30 @@ A --> G[Institution]
 ## For Admin {-}
 
 ```{mermaid}
-flowchart
-  
-  
-A[Request Type] --> B[Existing Institution] --> M[Request includes email + faculty profile] -- Yes --> G{View Person Institutional Profile - Eligible? } -- No --> J[\Send Email 'To Process Request'/]
- 
- A--> C[New Institution] --> I{View Institution Profile - Eligible?} -- Yes --> G
+flowchart TD
 
- G -- Yes --> H[\Send Email 'Admin Request Approval to email instituiton'/]
+A[Request Type] --> B[Existing Institution] 
+
+  B --> M[Request: User Institutional Profile link provided?]
+  M -- Yes --> G{View User Institutional Profile - Eligible? } -- No --> J[\Send Email 'To Process Request'/]
  
- M -- No --> J[\Send Email 'To Process Request'/]
- I -- No --> K[\Send Email 'Ineligible for access'/]
- B -- No --> F[\Send Email 'To Initiate Authorization'/]
- A --> D[Authorized Investigator] --> L[No Email Action Required]
- A --> E[No Request] --> F[\Send Email 'To Initiate Authorization'/]
+
+  G -- Yes --> H[\Send Email 'Admin Request Approval to email instituiton'/] --> Q[\Log in Airtable Person/]
+  M -- No --> J[\Send Email 'To Process Request'/]
+ 
+A --> C[New Institution] 
+  C --> I{View Institution Profile - Eligible?} -- Yes --> R{Was instiutitonal AOR provided?} -- Yes --> T[\Send email confirm correct AOR/] --> Q[\Log in Airtable Person/]
+  R -- No --> S[\Send email find AOR/] --> Q[\Log in Airtable Person/]
+  I -- No --> K[\Send Email 'Institution Ineligible for access'/]
+  
+ 
+A --> D[Authorized Investigator] --> L[No Email Action Required] ---> P(Log Authorization Activities Spreadsheet)
+ 
+A --> E[No Request] --> F[\Send Email 'To Initiate Authorization'/] ---> P(Log Authorization Activities Spreadsheet)
+
 ```
+
+  
+
+
+
