@@ -1,3 +1,7 @@
+---
+bibliography: "include/bib/references.bib"
+---
+
 ## Welcome {-}
 
 This document describes the [Databrary.org](https://databrary.org) data library and how to use it effectively as a tool for safely and securely sharing identifiable research data including video and audio.
@@ -17,6 +21,8 @@ Databrary's founders believe that the widespread use and sharing of video can im
 *Melody Xu* was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023.
 
 *Yinghe Liu* was an undergraduate student in Psychology at Penn State.
+
+*Anika Mahadevan* is an undergraduate student in Psychology and Biology at Penn State and will graduate in May 2027.
 
 ## References {-}
 
