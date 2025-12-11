@@ -120,7 +120,10 @@ A[Request Type] --&gt; B[Existing Institution]
 A --&gt; C[New Institution] 
   C --&gt; I{View Institution Profile - Eligible?} -- Yes --&gt; R{Was instiutitonal AOR provided?} -- Yes --&gt; T[\Send email confirm correct AOR/] --&gt; QQ[\Log in Airtable Person/]
   
-  R -- No --&gt; S[\Send email find AOR/] --&gt; QQQ[\Log in Airtable Person/] --&gt; V(Receive AOR information) --&gt; U[\Send Email and AdobeSign to AOR and User/] 
+  R -- No --&gt; S[\Send email find AOR/] --&gt; QQQ[\Log in Airtable Person/] --&gt; V(Receive AOR information and permission to contact) --&gt; U[\Send Email and AdobeSign to AOR and User/] --&gt; W(AOR contact with Databrary) --&gt; U
+  W --&gt; X[Legal Review Requested]
+  X --&gt; Y[\Send Email Amendment Pushback - Request Standard Agreement/] -- reject --&gt; Z[\Send email to Mark Explaning issue/]
+  Y -- accept as is --&gt; A1(thank them)
   I -- No --&gt; K[\Send Email 'Institution Ineligible for access'/]
   
  
