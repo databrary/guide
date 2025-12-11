@@ -293,5 +293,65 @@
   },
   "accessing-data/downloading-files.qmd": {
     "downloading-files.html": "431e6fe5"
+  },
+  "project-example/start.qmd": {
+    "start.html": "17c997c2"
+  },
+  "project-example/new-project.qmd": {
+    "new-project.html": "70536f05"
+  },
+  "project-example/ongoing-project.qmd": {
+    "ongoing-project.html": "f4d4bb6f"
+  },
+  "project-example/completed-project.qmd": {
+    "completed-project.html": "b236619e"
+  },
+  "project-guidelines/start.qmd": {
+    "start.html": "0101bd8c"
+  },
+  "project-guidelines/new-project.qmd": {
+    "new-project.html": "f9d88366"
+  },
+  "project-guidelines/ongoing-project.qmd": {
+    "ongoing-project.html": "3e83338e"
+  },
+  "project-guidelines/completed-project.qmd": {
+    "completed-project.html": "a17a3250"
+  },
+  "authorizing-institutions/authorizing-institutions.qmd": {
+    "authorizing-institutions.html": "0d57e603"
+  },
+  "authorizing-institutions/specifics.qmd": {
+    "specifics.html": "57cf8da7"
+  },
+  "authorizing-institutions/granting-authorization.qmd": {
+    "granting-authorization.html": "add58e7f"
+  },
+  "authorizing-institutions/partnering-with-databrary.qmd": {
+    "partnering-with-databrary.html": "9292d079"
+  },
+  "using-data/start.qmd": {
+    "start.html": "283ffbd4"
+  },
+  "using-data/downloading-files.qmd": {
+    "downloading-files.html": "5aa9b283"
+  },
+  "utilizing-data/start.qmd": {
+    "start.html": "6844ce45"
+  },
+  "utilizing-data/accessing-files.qmd": {
+    "accessing-files.html": "0a07d701"
+  },
+  "utilizing-data/downloading-files.qmd": {
+    "downloading-files.html": "5cf4d065"
+  },
+  "utilizing-data/using-data.qmd": {
+    "using-data.html": "467a832f"
+  },
+  "utilizing-data/downloading-data.qmd": {
+    "downloading-data.html": "f82c5867"
+  },
+  "utilizing-data/reusing-data.qmd": {
+    "reusing-data.html": "a719d0e3"
   }
 }

@@ -94,124 +94,134 @@
     ]
   },
   {
-    "objectID": "for-institutions/background.html",
-    "href": "for-institutions/background.html",
-    "title": "Background",
+    "objectID": "authorizing-institutions/authorizing-institutions.html",
+    "href": "authorizing-institutions/authorizing-institutions.html",
+    "title": "Authorizing Instituions",
     "section": "",
     "text": "What is Databrary?\nResearch and educational Institutions play a central role in the Databrary ecosystem. This section describes some of those roles and responsibilities. It is designed to answer the questions an official with grants and contracts or research ethics compliance responsibilities might ask.\nMuch of the material is adapted from the Databrary Access Agreement and its three Annexes.\nIf you are a researcher, research staff or trainee, you may skip this part. Or, you may find it helpful to learn more about the differences between your institution’s responsibilities and yours.\nDatabrary is a restricted access data library specialized for storing, streaming, and sharing of video and audio recordings. Databrary’s mission is to support the sharing of video and audio recordings and related data collected as part of research in the social, behavioral, educational, and neural sciences.\nThe responsibility for protecting research data and research participants is shared among Authorized Investigators and their Affiliates, Institutions, and Databrary.\nDatabrary has a multi-pronged approach to fostering the sharing of video and related data while upholding ethical research principles. Access is restricted to Authorized Investigators whose access must be approved by their Institution. Institutions must provide ethics oversight of Authorized Investigators through a research ethics board or Institutional Review Board (IRB) with standards equivalent to that required to secure Federalwide Assurance (FWA) status from the U.S. Government. Authorized Investigators who share data with others must secure permission to share from research participants and record that permission level for each file stored on Databrary. In turn, Authorized Investigators who access Databrary and use data shared by other Authorized Investigators must follow ethical research principles, including respect for the sharing permissions granted by research participants. Taken together, these features aim to protect the rights of research participants while reducing barriers to sharing data.",
     "crumbs": [
-      "Authorizing Institutions",
-      "Background"
+      "Authorizing Instituions"
     ]
   },
   {
-    "objectID": "for-institutions/specifics.html",
-    "href": "for-institutions/specifics.html",
+    "objectID": "authorizing-institutions/specifics.html",
+    "href": "authorizing-institutions/specifics.html",
     "title": "Specifics",
     "section": "",
     "text": "The Databrary Access Agreement permits data use and data contribution\nDatabrary restricts access to Authorized Investigators whose Institutions sign a formal Databrary Access Agreement.\nThe Databrary Access Agreement combines provisions for data use and data contribution. Unlike data use agreements that allow specific individuals access to a particular dataset for a discrete research purpose, the Databrary Access Agreement allows any Authorized Investigator to access all shared datasets on Databrary and use the datasets for many different Institutionally-approved purposes. In addition, the Databrary Access Agreement permits Authorized Investigators to upload data and to share it with other Authorized Investigators in accord with the sharing permissions granted by participants and any required Institutional approvals. Databrary believes that combining data use and data contribution in a single agreement reduces barriers to data sharing, meets emerging funder mandates to share research data, and accelerates progress in research.",
     "crumbs": [
-      "Authorizing Institutions",
+      "Authorizing Instituions",
       "Specifics"
     ]
   },
   {
-    "objectID": "for-institutions/specifics.html#videos-use-cases-extend-beyond-research",
-    "href": "for-institutions/specifics.html#videos-use-cases-extend-beyond-research",
+    "objectID": "authorizing-institutions/specifics.html#videos-use-cases-extend-beyond-research",
+    "href": "authorizing-institutions/specifics.html#videos-use-cases-extend-beyond-research",
     "title": "Specifics",
     "section": "Video’s use cases extend beyond research",
     "text": "Video’s use cases extend beyond research\nIn addition to its many uses in research, video may be used for a variety of pre-research and non-research uses, such as the documentation of methodological details, the demonstration of computer-based tasks, or the showing of video clips for teaching or scientific presentations. Databrary encourages the storage and sharing of video for all of these purposes, in a manner consistent with subject permissions and institutional approvals.",
     "crumbs": [
-      "Authorizing Institutions",
+      "Authorizing Instituions",
       "Specifics"
     ]
   },
   {
-    "objectID": "for-institutions/specifics.html#institutions-determine-when-research-ethics-board-or-irb-approval-is-necessary",
-    "href": "for-institutions/specifics.html#institutions-determine-when-research-ethics-board-or-irb-approval-is-necessary",
+    "objectID": "authorizing-institutions/specifics.html#institutions-determine-when-research-ethics-board-or-irb-approval-is-necessary",
+    "href": "authorizing-institutions/specifics.html#institutions-determine-when-research-ethics-board-or-irb-approval-is-necessary",
     "title": "Specifics",
     "section": "Institutions determine when research ethics board or IRB approval is necessary",
     "text": "Institutions determine when research ethics board or IRB approval is necessary\nDatabrary does not require prior research ethics board or IRB approval for an Authorized Investigator to be granted access to the system or to use Databrary’s shared resources for non-research, educational, or pre-research uses. However, in signing the Databrary Access Agreement, all Authorized Investigators promise to secure research ethics approval whenever their use of Databrary requires it under the Institution’s policies. Institutions decide which use cases require research ethics board or IRB review and approval.",
     "crumbs": [
-      "Authorizing Institutions",
+      "Authorizing Instituions",
       "Specifics"
     ]
   },
   {
-    "objectID": "for-institutions/specifics.html#what-data-are-shared",
-    "href": "for-institutions/specifics.html#what-data-are-shared",
+    "objectID": "authorizing-institutions/specifics.html#what-data-are-shared",
+    "href": "authorizing-institutions/specifics.html#what-data-are-shared",
     "title": "Specifics",
     "section": "What data are shared",
     "text": "What data are shared\nDatabrary contains images, video, and audio recordings that may be identifiable, data and metadata that are not typically sensitive, and de-identified data. Exact birth dates may be stored for use in calculating exact ages, but exact birth dates are only exposed to Authorized Investigators or Affiliates given specific access to data. Names, addresses, email addresses, financial information, government ID numbers, detailed geographic location information, and other personally identifiable data elements are not stored and shared on Databrary.",
     "crumbs": [
-      "Authorizing Institutions",
+      "Authorizing Instituions",
       "Specifics"
     ]
   },
   {
-    "objectID": "for-institutions/specifics.html#securing-permission-to-share",
-    "href": "for-institutions/specifics.html#securing-permission-to-share",
+    "objectID": "authorizing-institutions/specifics.html#securing-permission-to-share",
+    "href": "authorizing-institutions/specifics.html#securing-permission-to-share",
     "title": "Specifics",
     "section": "Securing permission to share",
     "text": "Securing permission to share\nIn order to contribute and share identifiable data with Databrary, Authorized Investigators must secure permission to store the recordings on Databrary from research participants and any other people (e.g., research staff) who are recorded.\nDatabrary has developed a Sharing Release Template that informs people depicted in recordings of the potential risks associated with sharing video and other data on Databrary. The Sharing Release Template is one of the resources that Databrary has made available to researchers. The Sharing Release Template may be adapted for use at any Institution and added to any research ethics or IRB protocol. However, an Institution may require other release language in order to provide equivalent protections.\nWhether de-identified or pseudonymized data may be shared with Databrary without seeking explicit permission from research participants depends on the Authorized Investigator’s Institution. Some ethics boards or IRBs may allow de-identified or pseudonymized data to be shared without the explicit permission of the research participant.",
     "crumbs": [
-      "Authorizing Institutions",
+      "Authorizing Instituions",
       "Specifics"
     ]
   },
   {
-    "objectID": "for-institutions/specifics.html#uploading-data-and-assigning-sharing-permission-levels",
-    "href": "for-institutions/specifics.html#uploading-data-and-assigning-sharing-permission-levels",
+    "objectID": "authorizing-institutions/specifics.html#uploading-data-and-assigning-sharing-permission-levels",
+    "href": "authorizing-institutions/specifics.html#uploading-data-and-assigning-sharing-permission-levels",
     "title": "Specifics",
     "section": "Uploading data and assigning sharing permission levels",
     "text": "Uploading data and assigning sharing permission levels\nAuthorized Investigators who upload data to Databrary must assign to each file uploaded the level of data sharing granted by research participants—from none to public access. The sharing level assigned to each file by default is Private, meaning that no person other than the Authorized Investigator who uploaded the file and any Affiliates granted access by the Authorized Investigator, may view the file.\nNot only are data files assigned a Private sharing level by default, but all newly created datasets are initially made Private, accessible only to an Authorized Investigator, any Affiliates the Authorized Investigator selects, and any other individual Authorized Investigators granted specific access to the dataset. An Authorized Investigator may elect to create an overview of a dataset when it is created and make the overview publicly available. The overview can serve as the public face of the dataset while the dataset is being collected and analyzed. This can be useful in documenting progress on a research grant to sponsors. The dataset overview does not expose data unless the Authorized Investigator chooses to do so.",
     "crumbs": [
-      "Authorizing Institutions",
+      "Authorizing Instituions",
       "Specifics"
     ]
   },
   {
-    "objectID": "for-institutions/specifics.html#sharing-data",
-    "href": "for-institutions/specifics.html#sharing-data",
+    "objectID": "authorizing-institutions/specifics.html#sharing-data",
+    "href": "authorizing-institutions/specifics.html#sharing-data",
     "title": "Specifics",
     "section": "Sharing data",
     "text": "Sharing data\nAt a time when the Authorized Investigator chooses—e.g., when a paper goes to press or a grant period ends—the Authorized Investigator may choose to share the dataset with other Authorized Investigators on Databrary. This makes the data contained in the dataset available to other Authorized Investigators and possibly the public, but only in accordance with the sharing levels selected by Authorized Investigators and always subject to the permission granted by participants. That is, individual data files marked Private remain accessible only to people the Authorized Investigator specifically selects. Similarly, access to datasets labeled Private remains solely under the control of the Authorized Investigator.",
     "crumbs": [
-      "Authorizing Institutions",
+      "Authorizing Instituions",
       "Specifics"
     ]
   },
   {
-    "objectID": "for-institutions/specifics.html#databrary-and-gdpr",
-    "href": "for-institutions/specifics.html#databrary-and-gdpr",
+    "objectID": "authorizing-institutions/specifics.html#databrary-and-gdpr",
+    "href": "authorizing-institutions/specifics.html#databrary-and-gdpr",
     "title": "Specifics",
     "section": "Databrary and GDPR",
     "text": "Databrary and GDPR\nAuthorized Investigators may collect personal data from research participants who have rights under the General Data Protection Regulation (GDPR). GDPR governs the collection of personal data in the European Economic Area (EEA).\nDatabrary’s servers are currently located in the United States, and data stored on Databrary may be accessed, downloaded, and re-used by Authorized Investigators and their Affiliates located outside of the EEA. There are more than 500 Institutions across the globe that have signed the Databrary Access Agreement. Databrary maintains a list of Authorized Investigators who have access to shared research data at this link.\nIn seeking permission to collect data from research participants governed by GDPR or similar provisions, Authorized Investigators should communicate to research participants information about who may have access to shared data on Databrary and where the data are stored. Institutions and Authorized Investigators assume responsibility for ensuring that research participants give sharing data permission that satisfies the provisions of GDPR and for abiding by other provisions of GDPR.\nDatabrary does not typically store information that links a person’s identity to specific files unless there is a separate agreement between the Authorized Investigator, the Institution, and Databrary to store this type of data. Therefore, if a research participant requests a copy of data stored on Databrary or the modification or deletion of personal data that is stored on Databrary, the Authorized Investigator or Institution is responsible for responding to the request, not Databrary. Also, Databrary cannot guarantee that data previously shared with other Authorized Investigators via Databrary can be retrieved from all Authorized Investigators who accessed a participant’s personal data prior to its modification or removal. Thus, Authorized Investigators should communicate to research participants that there are limits to a participant’s right to modify or delete personal data that have already been shared on Databrary. The Databrary Release Template contains language for this purpose.\nWhen accessing data shared by other Authorized Investigators, Institutions and their Authorized Investigators assume responsibility for ensuring that the sharing permission research participants have given in other contexts outside of the EEA meet relevant GDPR provisions.",
     "crumbs": [
-      "Authorizing Institutions",
+      "Authorizing Instituions",
       "Specifics"
     ]
   },
   {
-    "objectID": "for-institutions/specifics.html#when-authorized-investigators-leave-an-institution",
-    "href": "for-institutions/specifics.html#when-authorized-investigators-leave-an-institution",
+    "objectID": "authorizing-institutions/specifics.html#when-authorized-investigators-leave-an-institution",
+    "href": "authorizing-institutions/specifics.html#when-authorized-investigators-leave-an-institution",
     "title": "Specifics",
     "section": "When Authorized Investigators leave an Institution",
     "text": "When Authorized Investigators leave an Institution\nAuthorized Investigators are expected to inform Databrary when they leave an Institution. Institutions may also inform Databrary.\nAccess to non-public data shared with other Authorized Investigators will be suspended when an Authorized Investigator leaves an Institution. The suspension extends to an Authorized Investigators’ Affiliates. Authorized Investigators will continue to have password-protected access to data they uploaded to Databrary once they leave an Institution. When a new Institution grants authorization, Authorized Investigators will regain access to non-public data shared by other Authorized Investigators.\nIf an Authorized Investigator retires, is incapacitated due to illness, or dies, the Institution should inform Databrary so that the Authorized Investigator’s account may be suspended. An Institution may choose to designate a data steward for the Authorized Investigator’s data and authorize that person to manage access to the data. If the Institution does not identify and authorize a data steward, Databrary staff will serve that role. However, the Databrary staff serving as data steward will not change the data sharing status of any specific dataset without explicit written guidance from the Institution.",
     "crumbs": [
-      "Authorizing Institutions",
+      "Authorizing Instituions",
       "Specifics"
     ]
   },
   {
-    "objectID": "for-institutions/specifics.html#selecting-affiliates",
-    "href": "for-institutions/specifics.html#selecting-affiliates",
+    "objectID": "authorizing-institutions/specifics.html#selecting-affiliates",
+    "href": "authorizing-institutions/specifics.html#selecting-affiliates",
     "title": "Specifics",
     "section": "Selecting Affiliates",
     "text": "Selecting Affiliates\nIf permitted by their Institution, an Authorized Investigator may grant a person outside their Institution Affiliate status. Institutions may establish policies governing the selection and management of Affiliates by their Authorized Investigators.\nIf a person is eligible to be an Authorized Investigator at their home Institution, that person must apply for access to Databrary through their home Institution. Except in unusual circumstances, researchers eligible to be Authorized Investigators at their home Institution should not be granted access to Databrary as the Affiliate of another Authorized Investigator either from the same Institution or a different one. Databrary welcomes questions about these policies. Please email contact@databrary.org.",
     "crumbs": [
-      "Authorizing Institutions",
+      "Authorizing Instituions",
       "Specifics"
+    ]
+  },
+  {
+    "objectID": "authorizing-institutions/granting-authorization.html",
+    "href": "authorizing-institutions/granting-authorization.html",
+    "title": "Granting Authorization",
+    "section": "",
+    "text": "Steps to grant authorization to requesting investigators.",
+    "crumbs": [
+      "Authorizing Instituions",
+      "Granting Authorization"
     ]
   },
   {
@@ -334,45 +344,45 @@
     ]
   },
   {
-    "objectID": "sample-workflow/start.html",
-    "href": "sample-workflow/start.html",
-    "title": "Sample Workflow",
+    "objectID": "project-guidelines/start.html",
+    "href": "project-guidelines/start.html",
+    "title": "Project Guidelines",
     "section": "",
     "text": "Steps delineating workflow to set up a project.",
     "crumbs": [
-      "Sample Workflow"
+      "Project Guidelines"
     ]
   },
   {
-    "objectID": "sample-workflow/new-project.html",
-    "href": "sample-workflow/new-project.html",
+    "objectID": "project-guidelines/new-project.html",
+    "href": "project-guidelines/new-project.html",
     "title": "New Project",
     "section": "",
     "text": "Excellent! Before collecting data is the best time to start planning for curation of your project. In this case, you would utilize the upload as you go method of data curation.",
     "crumbs": [
-      "Sample Workflow",
+      "Project Guidelines",
       "New Project"
     ]
   },
   {
-    "objectID": "sample-workflow/ongoing-project.html",
-    "href": "sample-workflow/ongoing-project.html",
+    "objectID": "project-guidelines/ongoing-project.html",
+    "href": "project-guidelines/ongoing-project.html",
     "title": "Ongoing Project",
     "section": "",
     "text": "Example text.",
     "crumbs": [
-      "Sample Workflow",
+      "Project Guidelines",
       "Ongoing Project"
     ]
   },
   {
-    "objectID": "sample-workflow/completed-project.html",
-    "href": "sample-workflow/completed-project.html",
+    "objectID": "project-guidelines/completed-project.html",
+    "href": "project-guidelines/completed-project.html",
     "title": "Completed Project",
     "section": "",
     "text": "The following items need to be considered to prepare for upload:\n\nDo you have (at least some of) participants’ permission to share their data with other authorized Databrary investigators? If not, who is allowed access to the videos?\nDo you have IRB permission to share the data on Databrary?\nAll video tapes need to be digitized\nHow are the data organized? Will these need to be re-organized to utilize the Databrary Spreadsheet structure?",
     "crumbs": [
-      "Sample Workflow",
+      "Project Guidelines",
       "Completed Project"
     ]
   },
@@ -409,24 +419,57 @@
     ]
   },
   {
-    "objectID": "accessing-data/start.html",
-    "href": "accessing-data/start.html",
-    "title": "Accessing Data",
+    "objectID": "utilizing-data/start.html",
+    "href": "utilizing-data/start.html",
+    "title": "Utilizing Data",
     "section": "",
     "text": "Background behind accessing/retrieving/pulling/using data.",
     "crumbs": [
-      "Accessing Data"
+      "Utilizing Data"
     ]
   },
   {
-    "objectID": "accessing-data/downloading-files.html",
-    "href": "accessing-data/downloading-files.html",
-    "title": "Downloading Files",
+    "objectID": "utilizing-data/downloading-data.html",
+    "href": "utilizing-data/downloading-data.html",
+    "title": "Downloading Data",
     "section": "",
     "text": "Steps to download files.",
     "crumbs": [
-      "Accessing Data",
-      "Downloading Files"
+      "Utilizing Data",
+      "Downloading Data"
+    ]
+  },
+  {
+    "objectID": "utilizing-data/reusing-data.html",
+    "href": "utilizing-data/reusing-data.html",
+    "title": "Reusing Data",
+    "section": "",
+    "text": "Ethics of Reusing Data\nAuthorized Investigators must secure Institutional approvals prior to conducting research with data shared on Databrary. In the U.S. context, conducting secondary analysis on shared video data may not qualify as human subjects research because there is no direct contact with research participants. Still, a research project involving video data reuse may require ethics board or IRB review and approval because the data are identifiable.",
+    "crumbs": [
+      "Utilizing Data",
+      "Reusing Data"
+    ]
+  },
+  {
+    "objectID": "utilizing-data/reusing-data.html#how-to-cite-reused-data",
+    "href": "utilizing-data/reusing-data.html#how-to-cite-reused-data",
+    "title": "Reusing Data",
+    "section": "How to Cite Reused Data",
+    "text": "How to Cite Reused Data\nShared data should have a citation on the volume profile page under the ‘How to cite’ heading. Citations take the format of:\nLastName, FirstInitial. (year volume was added). Title of Volume. Databrary. Retrieved Month DD, YYYY from [link to assigned doi].\nAdmin, D., Gilmore, R.O., Seisler, A.R. & Soska, K. (2018). Databrary & Datavyu Help Videos. Databrary. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686.\ninsert screenshot here",
+    "crumbs": [
+      "Utilizing Data",
+      "Reusing Data"
+    ]
+  },
+  {
+    "objectID": "utilizing-data/reusing-data.html#how-to-cite-databrary",
+    "href": "utilizing-data/reusing-data.html#how-to-cite-databrary",
+    "title": "Reusing Data",
+    "section": "How to Cite Databrary",
+    "text": "How to Cite Databrary\nDatabrary. (2014). Databrary.org. https://nyu.databrary.org/\nDatavyu Team (2014). Datavyu: A Video Coding Tool. Databrary Project, New York University. URL http://datavyu.org.",
+    "crumbs": [
+      "Utilizing Data",
+      "Reusing Data"
     ]
   },
   {

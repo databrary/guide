@@ -1,4 +1,4 @@
-# Background {.unnumbered}
+# Authorizing Instituions {.unnumbered}
 
 Research and educational  [*Institutions*](../more-information/definitions.qmd#institution) play a central role in the Databrary ecosystem.
 This section describes some of those roles and responsibilities.

@@ -1,3 +1,3 @@
-# Accessing Data {.unnumbered}
+# Utilizing Data {.unnumbered}
 
 Background behind accessing/retrieving/pulling/using data.

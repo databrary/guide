@@ -1,0 +1,18 @@
+# Reusing Data {.unnumbered}
+
+## Ethics of Reusing Data
+Authorized Investigators must secure Institutional approvals prior to conducting research with data shared on Databrary. In the U.S. context, conducting secondary analysis on shared video data may not qualify as human subjects research because there is no direct contact with research participants. Still, a research project involving video data reuse may require ethics board or IRB review and approval because the data are identifiable.
+
+## How to Cite Reused Data
+Shared data should have a citation on the volume profile page under the ‘How to cite’ heading. Citations take the format of:
+
+LastName, FirstInitial. (year volume was added). Title of Volume. Databrary. Retrieved Month DD, YYYY from [link to assigned doi].
+
+Admin, D., Gilmore, R.O., Seisler, A.R. & Soska, K. (2018). Databrary & Datavyu Help Videos. Databrary. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686.
+
+*insert screenshot here*
+
+## How to Cite Databrary
+Databrary. (2014). Databrary.org. https://nyu.databrary.org/
+
+Datavyu Team (2014). Datavyu: A Video Coding Tool. Databrary Project, New York University. URL http://datavyu.org.

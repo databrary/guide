@@ -9,13 +9,13 @@ project:
     - background/*.qmd
     - ethics/*.qmd
     - for-affiliates/*.qmd
-    - for-institutions/*.qmd
+    - authorizing-institutions/*.qmd
     - for-investigators/*.qmd
     - getting-authorized/*.qmd
     - managing-my-profile/*.qmd
-    - sample-workflow/*.qmd
+    - project-guidelines/*.qmd
     - contributing-data/*.qmd
-    - accessing-data/*.qmd
+    - utilizing-data/*.qmd
     - more-information/*.qmd
   
 book:
@@ -24,6 +24,12 @@ book:
   subtitle: "Share data & materials: Discover more, faster."
   author: ["Rick Gilmore", "Andrea Seisler", "Kasey Soska", "Melody Xu", "Yinghe Liu", "Steph Win", "Anika Mahadevan"]
   date: last-modified
+  sidebar:
+    search: true
+    style: floating
+    collapse-level: 1
+    border: true
+    
   chapters:
     - index.qmd # This is the file that contains the front matter, found in the root of the repository
     - part: about/about.qmd
@@ -36,10 +42,11 @@ book:
         - ethics/data-reuse.qmd
         - ethics/data-sharing.qmd
         - ethics/guidelines.qmd
-    - part: "Authorizing Institutions"
+    - part: authorizing-institutions/authorizing-institutions.qmd
       chapters:
-        - for-institutions/background.qmd
-        - for-institutions/specifics.qmd
+        - authorizing-institutions/specifics.qmd
+        - authorizing-institutions/partnering-with-databrary.qmd
+        - authorizing-institutions/granting-authorization.qmd
     - part: getting-authorized/start.qmd
       chapters:
         # - getting-authorized/institutions.qmd
@@ -49,18 +56,20 @@ book:
     - part: managing-my-profile/start.qmd
       chapters: 
         - managing-my-profile/managing-my-sponsors.qmd
-    - part: sample-workflow/start.qmd
+    - part: project-guidelines/start.qmd
       chapters: 
-        - sample-workflow/new-project.qmd
-        - sample-workflow/ongoing-project.qmd
-        - sample-workflow/completed-project.qmd
+        - project-guidelines/new-project.qmd
+        - project-guidelines/ongoing-project.qmd
+        - project-guidelines/completed-project.qmd
     - part: contributing-data/start.qmd
       chapters:
        - contributing-data/create-a-volume.qmd
        - contributing-data/edit-a-volume.qmd
-    - part: accessing-data/start.qmd
+    - part: utilizing-data/start.qmd
       chapters: 
-        - accessing-data/downloading-files.qmd
+    #    - utilizing-data/using-data.qmd
+        - utilizing-data/downloading-data.qmd
+        - utilizing-data/reusing-data.qmd
     #- part: "Admin"
     #  chapters:
     #   - admin/flowcharts.qmd 
