@@ -60,7 +60,7 @@ You will see a view like this:
 
 You will see a list of all volumes you have access to on the left, your sponsors (institutions or individual researchers) in the upper right, and your Affiliates in the lower right.
 
-To search for a specific volume, click on the arrow/stacked-bar icon to the right of the "Name" in the volume table. This will bring up a search window that you can use to find or filter volumes.
+To search for a specific volume, click on the stacked-bar icon to the right of the "Name" in the volume table. This will bring up a search window that you can use to find or filter volumes.
 
 ![Search by volume name window.](include/img/user-profile-select-volume.png){#fig-user-profile-select-volume width="50%"}
 
