@@ -87,7 +87,7 @@ Volume owners may only transfer ownership to another Authorized Investigator.
 
 ::: {.callout-note}
 ## Only one volume owner permitted
-To simplify the migration to Databrary 2.0, we selected a single volume owner where there were multiple owners (Investigators).
+To simplify the migration to Databrary 2.0, we selected a single volume owner model as previously there could be multiple owners (Investigators).
 If the volume owner wishes to transfer ownership, that person may do so.
 :::
 
