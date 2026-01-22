@@ -308,7 +308,7 @@ In Databrary 2.0, only [the volume owner](quick-start-2.0.qmd#volume-ownership) 
 
 ![Edit overview for a volume](include/img/volume-1-edit-overview.png){#fig-volume-1-edit-overview width="40%"}
 
-4. Scroll down to the Reorder Citation section. Click on the author you wish to reposition to change the author order.
+4. Scroll down to the Reorder Citation section. Click on the author you wish to reposition. 
 
 ![Citation Preview for Volume 1](include/img/volume-1-citation-previews.png){#fig-volume-1-citation-previews}
 
