@@ -243,7 +243,7 @@ A new window will pop-up where you must search for the affiliate's name.
 Make sure to select the person you want to add.
 When you do so, the window will open with detailed information about the person.
 
-![Editing details about an Affiliate's access.](include/img/edit-affiliate-details.png)
+![Editing details about an Affiliate's access.](include/img/edit-affiliate-details.png){#fig-editing-affiliate}
 
 You have three choices to make:
 
