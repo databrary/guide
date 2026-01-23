@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>flowcharts</title>
+<title>admin-flowchart</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,19 +23,19 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="flowcharts_files/libs/clipboard/clipboard.min.js"></script>
-<script src="flowcharts_files/libs/quarto-html/quarto.js"></script>
-<script src="flowcharts_files/libs/quarto-html/popper.min.js"></script>
-<script src="flowcharts_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="flowcharts_files/libs/quarto-html/anchor.min.js"></script>
-<link href="flowcharts_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="flowcharts_files/libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="flowcharts_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="flowcharts_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="flowcharts_files/libs/bootstrap/bootstrap-973236bd072d72a04ee9cd82dcc9cb29.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="flowcharts_files/libs/quarto-diagram/mermaid.min.js"></script>
-<script src="flowcharts_files/libs/quarto-diagram/mermaid-init.js"></script>
-<link href="flowcharts_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
+<script src="admin-flowchart_files/libs/clipboard/clipboard.min.js"></script>
+<script src="admin-flowchart_files/libs/quarto-html/quarto.js"></script>
+<script src="admin-flowchart_files/libs/quarto-html/popper.min.js"></script>
+<script src="admin-flowchart_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="admin-flowchart_files/libs/quarto-html/anchor.min.js"></script>
+<link href="admin-flowchart_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="admin-flowchart_files/libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="admin-flowchart_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="admin-flowchart_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="admin-flowchart_files/libs/bootstrap/bootstrap-973236bd072d72a04ee9cd82dcc9cb29.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="admin-flowchart_files/libs/quarto-diagram/mermaid.min.js"></script>
+<script src="admin-flowchart_files/libs/quarto-diagram/mermaid-init.js"></script>
+<link href="admin-flowchart_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -49,48 +49,43 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="flowcharts" class="level1 unnumbered">
-<h1 class="unnumbered">Flowcharts</h1>
-</section>
-<section id="databrary-user-authorizations-flow" class="level1 unnumbered">
-<h1 class="unnumbered">Databrary User Authorizations Flow</h1>
-<section id="how-can-i-access-databrary" class="level2">
-<h2 class="anchored" data-anchor-id="how-can-i-access-databrary">How Can I Access Databrary?</h2>
+<section id="flowchart" class="level1 unnumbered">
+<h1 class="unnumbered">Flowchart</h1>
+<section id="admin" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="admin">Admin</h2>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart
-  A[I am a] --&gt; B[Student] --&gt; J[**Register**] --&gt; V[Create Account
-  Read Get Started Tab] --&gt; L[Confirm Email] -- Yes --&gt; W[Set Password] 
-  W --&gt; Z["`**Request Authorization**
-            1. Select Radio Button _Affiliate_ 
-            2. Type Supervising Professor name`"] -- Yes --&gt; T{Authorized Investigator reviews/grants Affiliate Access}
-  A --&gt; C[Lab Staff] --&gt; J 
-  A --&gt; D[PostDoc] --&gt; J 
- L -- No --&gt; X(Receive Databrary Email 'How to request access')
- Z -- No --&gt; Q[No Request] --&gt; X(Receive Databrary Email 'How to request access') 
+<pre class="mermaid mermaid-js">flowchart TD
+
+A[Request Type] --&gt; B[Existing Institution] 
+
+  B --&gt; M[Request: User Institutional Profile link provided?]
+  M -- Yes --&gt; G{View User Institutional Profile - Eligible? } -- No --&gt; J[\Send Email 'To Process Request'/]
  
-  A --&gt; F[Faculty] --&gt; K[**Register**] --&gt; AA[Create Account
-  Read Get Started Tab] --&gt; M[Confirm Email] -- Yes --&gt; WW[Set Password] --&gt; H["`**Request Authorization**
-      1. Pick radio button _Authorized Investigator_ 
-      2. Type Institution Name`"]   
-    H -- Yes --&gt; N[Existing Institution] --&gt; R(Receive Databrary Email 'Information Required to Process...') 
-    H -- Yes --&gt; O[New Institution] --&gt; S(Receive Databrary Email 'Next steps')
-    H -- No --&gt; Q[No Request] 
-    M -- No --&gt; X(Receive Databrary Email 'How to request access') 
 
-A --&gt; G[Institution]
-
-
-  click J "https://nyu.databrary.org/user/register" "Link to Databrary Registration Page"
+  G -- Yes --&gt; TT[\Send email confirm correct AOR/] --&gt; Q[\Log in Airtable Person/]
+  M -- No --&gt; J[\Send Email 'To Process Request'/]
  
- click Z "https://nyu.databrary.org/user/register" "Link to Databrary Registration Page"
+A --&gt; C[New Institution] 
+  C --&gt; I{View Institution Profile - Eligible?} -- Yes --&gt; R{Was instiutitonal AOR provided?} -- Yes --&gt; T[\Send email confirm correct AOR/] --&gt; QQ[\Log in Airtable Person/]
   
-  click H href "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-authorized-investigator-at-an-institution" _blank
-  click Z href "https://databrary.github.io/guide/for-investigators/requesting-access.html#registering-as-an-affiliate-of-an-authorized-investigator" "Link to requesting-access.qmd"
-
+  R -- No --&gt; S[\Send email find AOR/] --&gt; QQQ[\Log in Airtable Person/] --&gt; V(Receive AOR information and permission to contact) --&gt; U[\Send Email and AdobeSign to AOR and User/] --&gt; W(AOR contact with Databrary) --&gt; U
+  W --&gt; X[Legal Review Requested]
+    X --&gt; Y[\Send Email Amendment Pushback - Request Standard Agreement/] -- reject --&gt; Z[\Send email to Mark Explaning issue/]
+    Y -- accept as is --&gt; A1(EMAIL AOR + Investigator every 3 weeks or so until signed agreement is returned)
+  
+  X --  
+    
+  
+  I -- No --&gt; K[\Send Email 'Institution Ineligible for access'/]
+  
+ 
+A --&gt; D[Authorized Investigator] --&gt; L[No Email Action Required] --&gt; P(Log Authorization Activities Spreadsheet)
+ 
+A --&gt; E[No Request] --&gt; F[\Send Email 'To Initiate Authorization'/] --&gt; P(Log Authorization Activities Spreadsheet)
 
 </pre>
 </div>
