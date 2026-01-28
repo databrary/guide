@@ -1,4 +1,4 @@
-# Researchers {.unnumbered #sec-getting-started-researchers}
+# Authorized Researchers {.unnumbered}
 
 ## Eligibility {-}
 

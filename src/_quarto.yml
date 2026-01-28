@@ -12,7 +12,7 @@ project:
     - authorizing-institutions/*.qmd
     - for-investigators/*.qmd
     - getting-authorized/*.qmd
-    - managing-my-profile/*.qmd
+    - managing-my-account/*.qmd
     - project-guidelines/*.qmd
     - contributing-data/*.qmd
     - utilizing-data/*.qmd
@@ -22,7 +22,7 @@ book:
   title: "Databrary Guide"
   cover-image: include/img/databrary-nav-sm.jpg
   subtitle: "Share data & materials: Discover more, faster."
-  author: ["Rick Gilmore", "Andrea Seisler", "Kasey Soska", "Melody Xu", "Yinghe Liu", "Steph Win", "Anika Mahadevan"]
+  author: ["Rick Gilmore", "Andrea Seisler", "Kasey Soska", "Melody Xu", "Yinghe Liu", "Stephanie Win", "Anika Mahadevan"]
   date: last-modified
   sidebar:
     search: true
@@ -51,11 +51,18 @@ book:
       chapters:
         # - getting-authorized/institutions.qmd
         - getting-authorized/roles.qmd
-        - getting-authorized/researchers.qmd
-        - getting-authorized/students.qmd
-    - part: managing-my-profile/start.qmd
+        - getting-authorized/authorized-researchers.qmd
+        - getting-authorized/sponsored-researchers.qmd
+    - part: managing-my-account/start.qmd
       chapters: 
-        - managing-my-profile/managing-my-sponsors.qmd
+        - managing-my-account/managing-notifications.qmd
+        - managing-my-account/how-to-delete-your-account.qmd
+        - managing-my-account/2FA-guidelines.qmd
+    - part: managing-my-sponsors/start.qmd
+      chapters: 
+        - managing-my-sponsors/approving-sponsorship.qmd
+        - managing-my-sponsors/removing-sponsors.qmd
+        - managing-my-sponsors/renewing-sponsorship.qmd
     - part: project-guidelines/start.qmd
       chapters: 
         - project-guidelines/new-project.qmd

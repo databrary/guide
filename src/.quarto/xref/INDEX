@@ -353,5 +353,35 @@
   },
   "utilizing-data/reusing-data.qmd": {
     "reusing-data.html": "a719d0e3"
+  },
+  "getting-authorized/authorized-researchers.qmd": {
+    "authorized-researchers.html": "73ef2701"
+  },
+  "getting-authorized/sponsored-researchers.qmd": {
+    "sponsored-researchers.html": "86b1a0d0"
+  },
+  "managing-my-account/start.qmd": {
+    "start.html": "6a4b68d2"
+  },
+  "managing-my-account/managing-notifications.qmd": {
+    "managing-notifications.html": "f5f0d86c"
+  },
+  "managing-my-account/how-to-delete-your-account.qmd": {
+    "how-to-delete-your-account.html": "224ab863"
+  },
+  "managing-my-account/2FA-guidelines.qmd": {
+    "2FA-guidelines.html": "702a93ee"
+  },
+  "managing-my-sponsors/start.qmd": {
+    "start.html": "ee969d1c"
+  },
+  "managing-my-sponsors/approving-sponsorship.qmd": {
+    "approving-sponsorship.html": "6fe9106e"
+  },
+  "managing-my-sponsors/removing-sponsors.qmd": {
+    "removing-sponsors.html": "bc0d1d5b"
+  },
+  "managing-my-sponsors/renewing-sponsorship.qmd": {
+    "renewing-sponsorship.html": "deb75cef"
   }
 }

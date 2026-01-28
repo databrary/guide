@@ -77,7 +77,7 @@
     "href": "about/why.html",
     "title": "Why Databrary?",
     "section": "",
-    "text": "Our Framework\nData repositories and libraries provide permanent homes for research findings and raw data. Sharing research data is a vital component of the research process, just like publishing papers and books, giving talks, and teaching classes. Open science and sharing information is how we advance as a community.\nFurthermore, many granting agencies that fund research require that research data be shared. As an NIH-approved repository, Databrary provides NIH grantees with a compliant and streamlined way to fulfill their data-sharing obligations.\nFinally, videos are expensive and time consuming to collect. By sharing and reusing videos, researchers across fields can use video data and glean insights that the original researcher may not have been focusing on, accelerating discovery.\nDatabrary is structured upon a restricted access and open sharing framework. Open sharing on Databrary allows researchers to reuse data without contacting the owner. However, access to Databrary is restricted by the completion of a formal agreement between a researcher’s university and Databrary. The formal agreement states that the researcher is affiliated with their university and that the university will be responsible for the researcher’s relationship with Databrary.\nThis framework aims to advance the widespread sharing of research data while respecting the privacy of research participants.\nWe encourage you to read Databrary’s Access Agreement and its three annexes. These documents, especially Annex 111-Databrary Access Guide, provide extensive information about how Databrary is structured and how it should be used. You may also get guidance about working with a research ethics board or IRB to see how to incorporate data sharing using Databrary in a Data Management Plan for a grant proposal.",
+    "text": "Our Framework\nData repositories and libraries provide permanent homes for research findings and raw data. Sharing research data is a vital component of the research process, just like publishing papers and books, giving talks, and teaching classes. Open science and sharing information is how we advance as a community.\nFurthermore, many granting agencies that fund research require that research data be shared. As an NIH-approved repository, Databrary provides NIH grantees with a compliant and streamlined way to fulfill their data-sharing obligations.\nFinally, videos are expensive and time consuming to collect. By sharing and reusing videos, researchers across fields can use video data and glean insights that the original researcher may not have been focusing on, accelerating discovery.\nDatabrary is structured upon a restricted access and open sharing framework. Open sharing on Databrary allows researchers to reuse data without contacting the owner. However, access to Databrary is restricted by the completion of a formal agreement between a researcher’s university and Databrary. The formal agreement states that the researcher is affiliated with their university and that the university will be responsible for the researcher’s relationship with Databrary.\nThis framework aims to advance the widespread sharing of research data while respecting the privacy of research participants.\nWe encourage you to read Databrary’s Access Agreement and its three annexes. These documents, especially Annex III-Databrary Access Guide, provide extensive information about how Databrary is structured and how it should be used. You may also get guidance about working with a research ethics board or IRB to see how to incorporate data sharing using Databrary in a Data Management Plan for a grant proposal.",
     "crumbs": [
       "About",
       "Why Databrary?"
@@ -257,41 +257,41 @@
     ]
   },
   {
-    "objectID": "getting-authorized/researchers.html",
-    "href": "getting-authorized/researchers.html",
-    "title": "Researchers",
+    "objectID": "getting-authorized/authorized-researchers.html",
+    "href": "getting-authorized/authorized-researchers.html",
+    "title": "Authorized Researchers",
     "section": "",
     "text": "Eligibility\nDatabrary policies and your home institution determine whether you are eligible to be granted access to Databrary as an Authorized Investigator. Here are some factors that contribute to that determination:",
     "crumbs": [
       "Getting Authorized",
-      "Researchers"
+      "Authorized Researchers"
     ]
   },
   {
-    "objectID": "getting-authorized/researchers.html#eligibility",
-    "href": "getting-authorized/researchers.html#eligibility",
-    "title": "Researchers",
+    "objectID": "getting-authorized/authorized-researchers.html#eligibility",
+    "href": "getting-authorized/authorized-researchers.html#eligibility",
+    "title": "Authorized Researchers",
     "section": "",
     "text": "I conduct independent, unsupervised, research at my institution;\nI submit funding proposals as lead investigator;\nI have Principal Investigator (PI) status or hold a tenure-track faculty position at my institution;\nMy institution maintains or uses an ethics board to review and approve research involving human subjects (or non-human animals where relevant);\nI have current training that addresses research ethics with human subject (e.g. CITI training);\nI would like to reuse or upload data to Databrary.\nI sponsor and supervise lab staff and students who work on my projects or on collaborative projects, and I have authority to supervise their access to data that I share or or others have shared on Databrary.",
     "crumbs": [
       "Getting Authorized",
-      "Researchers"
+      "Authorized Researchers"
     ]
   },
   {
-    "objectID": "getting-authorized/researchers.html#seeking-authorization",
-    "href": "getting-authorized/researchers.html#seeking-authorization",
-    "title": "Researchers",
+    "objectID": "getting-authorized/authorized-researchers.html#seeking-authorization",
+    "href": "getting-authorized/authorized-researchers.html#seeking-authorization",
+    "title": "Authorized Researchers",
     "section": "Seeking Authorization",
     "text": "Seeking Authorization\nIf these factors apply to you, you must register on Databrary, request authorization from your institution, and secure authorization.\nRegistration involves creating an account, setting a password, and confirming your account. Requesting authorization involves securing approval from an official at your institution by means of formal signatures on the Databrary Access Agreement (DAA) and its Annexes.\nIf you know who at your institution reviews, approves, and signs data access agreements or other contracts, that is probably the person who will need to sign the DAA. You also may need to sign it. If you don’t know the person at your institution, Databrary staff will help identify the right person. Databrary will work with you and your institution to secure signatures on the DAA.",
     "crumbs": [
       "Getting Authorized",
-      "Researchers"
+      "Authorized Researchers"
     ]
   },
   {
-    "objectID": "getting-authorized/students.html",
-    "href": "getting-authorized/students.html",
+    "objectID": "getting-authorized/sponsored-researchers.html",
+    "href": "getting-authorized/sponsored-researchers.html",
     "title": "Students",
     "section": "",
     "text": "Eligibility\nDatabrary policies, your home institution, and the Authorized Investigator who supervises your research determine whether you are eligible to be granted access to Databrary as an Affiliate. Here are some factors that contribute to that determination:",
@@ -301,8 +301,8 @@
     ]
   },
   {
-    "objectID": "getting-authorized/students.html#eligibility",
-    "href": "getting-authorized/students.html#eligibility",
+    "objectID": "getting-authorized/sponsored-researchers.html#eligibility",
+    "href": "getting-authorized/sponsored-researchers.html#eligibility",
     "title": "Students",
     "section": "",
     "text": "I conduct research under the supervision of an Authorized Investigator’s sponsorship or someone who is eligible to become an Authorized Investigator;\nI am a student, research staff, or post-doctoral researcher.\nI have current training that addresses research ethics with human subjects (e.g.CITI training).",
@@ -312,8 +312,8 @@
     ]
   },
   {
-    "objectID": "getting-authorized/students.html#seeking-authorization",
-    "href": "getting-authorized/students.html#seeking-authorization",
+    "objectID": "getting-authorized/sponsored-researchers.html#seeking-authorization",
+    "href": "getting-authorized/sponsored-researchers.html#seeking-authorization",
     "title": "Students",
     "section": "Seeking Authorization",
     "text": "Seeking Authorization\nIf these factors apply to you, must register for Databrary, request authorization from your research supervisor, and secure that person’s authorization. If your research supervisor is already a Databrary Authorized Investigator, that person will receive a request to add you to their list of sponsored Affiliate researchers. If your research supervisor is not a Databrary Authorized Investigator, they too will need to register for Databrary, request authorization from their institution, and secure authorization The authorization process involves approval from an institutional official by means of formal signatures on the Databrary Access Agreement and its Annexes.",
@@ -323,8 +323,8 @@
     ]
   },
   {
-    "objectID": "managing-my-profile/start.html",
-    "href": "managing-my-profile/start.html",
+    "objectID": "managing-my-account/start.html",
+    "href": "managing-my-account/start.html",
     "title": "Managing My Profile",
     "section": "",
     "text": "Section describing how to manage notifications, adding sponsors, etc.",
@@ -333,8 +333,8 @@
     ]
   },
   {
-    "objectID": "managing-my-profile/managing-my-sponsors.html",
-    "href": "managing-my-profile/managing-my-sponsors.html",
+    "objectID": "managing-my-account/how-to-delete-your-account.html",
+    "href": "managing-my-account/how-to-delete-your-account.html",
     "title": "Managing My Sponsors",
     "section": "",
     "text": "Section describing steps to add and remove sponsors.",
@@ -401,7 +401,7 @@
     "href": "contributing-data/create-a-volume.html",
     "title": "Create a Volume",
     "section": "",
-    "text": "Steps to create a volume.",
+    "text": "Definition of volume.\nSteps to create a volume.",
     "crumbs": [
       "Contributing Data",
       "Create a Volume"
