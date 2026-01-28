@@ -53,7 +53,9 @@ This policy is not yet in place
 
 ### To add institution avatar {-}
 
-!!Currently nonfunctional!!
+::: {.callout-warning}
+Currently nonfunctional.
+:::
 
 - Go back to https://databrary.nyu.edu/admin/institutions
 - Search for the name of the new institution

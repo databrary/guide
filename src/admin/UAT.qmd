@@ -1,0 +1,20 @@
+# User Acceptance Testing (UAT)
+
+## About
+
+This document describes the procedure for conducting User Acceptance Testing (UAT) on the staging and production Databrary servers.
+
+## Staging
+
+Databrary maintains a staging server at stg-databrary.its.nyu.edu.
+
+Access to the application on staging is restricted to Databrary staff and developers.
+
+Moreover, staging is only accessible behind the NYU VPN at vpnsec.vpn.it.nyu.edu using the authorized VPN application.
+
+## Production
+
+The production server is available at nyu.databrary.org.
+
+Super Admin access to the application admin panel also requires access through the NYU VPN.
+

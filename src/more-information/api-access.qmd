@@ -41,6 +41,8 @@ Priority will be given to applications that have funding to pay data deposit fee
 This should be a minimal number. If a non-Authorized Investigator user will be the main person doing the work, then that person must be an Affiliate of an Authorized Investigator and will need read/write privileges on any volumes created.
 :::
 
+Alternatively, an applicant may use [this](https://forms.gle/CTF9U3FxZqg9ncqm9) Google Form.
+
 ### Review & Approval
 
 The Databrary team will review the application.
@@ -92,7 +94,7 @@ When the application details window appears, capture these credentials in a sepa
 
 **2. Acquire user agent**
 
-Databrary staff will send you a link to a site where you can retrieve the secure user agent value
+Databrary staff will send you a link to a site where you can retrieve the secure user agent value.
 You will need to store this securely and use it in your application.
 
 **2. Create and test your application**

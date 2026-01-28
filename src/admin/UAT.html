@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>grant-auth</title>
+<title>uat</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,17 +23,18 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="grant-auth_files/libs/clipboard/clipboard.min.js"></script>
-<script src="grant-auth_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="grant-auth_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="grant-auth_files/libs/quarto-html/popper.min.js"></script>
-<script src="grant-auth_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="grant-auth_files/libs/quarto-html/anchor.min.js"></script>
-<link href="grant-auth_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="grant-auth_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="grant-auth_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="grant-auth_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="grant-auth_files/libs/bootstrap/bootstrap-81267100e462c21b3d6c0d5bf76a3417.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="UAT_files/libs/clipboard/clipboard.min.js"></script>
+<script src="UAT_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="UAT_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="UAT_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="UAT_files/libs/quarto-html/popper.min.js"></script>
+<script src="UAT_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="UAT_files/libs/quarto-html/anchor.min.js"></script>
+<link href="UAT_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="UAT_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="UAT_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="UAT_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="UAT_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -47,184 +48,22 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="grant-authorization" class="level1 unnumbered">
-<h1 class="unnumbered">Grant Authorization</h1>
-<section id="who-can-have-databrary-admin-access" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="who-can-have-databrary-admin-access">Who can have Databrary Admin Access?</h2>
-<p>Only employees of Databrary that manage the Databary system, have NYU credentials, and have been approved by NYU IT can access this part of the system.</p>
-<!-- ## How to log in to Access the Admin Dashboard -->
-<!-- - make sure you are logged out of the databrary.org website -->
-<!-- - log onto the site as super user by going to https://nyu.databrary.org/admin/login -->
-<!-- - Select login -->
-<!-- - Log in and choose the superuser button -->
-<!-- - Use the 2FA password that was sent to the email address associated with the specific admin login account -->
-<!-- - The default page will be the admin dashboard -->
+<section id="user-acceptance-testing-uat" class="level1">
+<h1>User Acceptance Testing (UAT)</h1>
+<section id="about" class="level2">
+<h2 class="anchored" data-anchor-id="about">About</h2>
+<p>This document describes the procedure for conducting User Acceptance Testing (UAT) on the staging and production Databrary servers.</p>
 </section>
-<section id="check-eligibility-vetting-for-institutions" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="check-eligibility-vetting-for-institutions">Check Eligibility (vetting) for Institutions</h2>
-<ul>
-<li>Locate institutional website
-<ul>
-<li>Is it viewable? YES (if no, institution is ineligible)</li>
-<li>Log this in the Institution page on Airtable</li>
-</ul></li>
-<li>Locate the research ethics (IRB, HRPP, HREC, REB) website
-<ul>
-<li>Is it viewable? YES if NO, ask user for link to website or email address of chair -Log this in the Institution page on Airtable</li>
-</ul></li>
-</ul>
+<section id="staging" class="level2">
+<h2 class="anchored" data-anchor-id="staging">Staging</h2>
+<p>Databrary maintains a staging server at stg-databrary.its.nyu.edu.</p>
+<p>Access to the application on staging is restricted to Databrary staff and developers.</p>
+<p>Moreover, staging is only accessible behind the NYU VPN at vpnsec.vpn.it.nyu.edu using the authorized VPN application.</p>
 </section>
-<section id="check-eligibility-vetting-for-potential-authorized-investigators" class="level2">
-<h2 class="anchored" data-anchor-id="check-eligibility-vetting-for-potential-authorized-investigators">Check Eligibility (vetting) for potential Authorized Investigators</h2>
-<ul>
-<li>Locate user profile page on institutional website
-<ul>
-<li>Is it viewable? YES (if no, is ineligible)</li>
-</ul></li>
-<li>Log in Airtable
-<ul>
-<li>Institutional email address</li>
-<li>Position at Institution</li>
-<li>Department/College at Institution</li>
-<li>Institutional profile page</li>
-</ul></li>
-</ul>
-</section>
-<section id="check-eligibility-vetting-for-potential-institutional-administrators" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="check-eligibility-vetting-for-potential-institutional-administrators">Check Eligibility (vetting) for potential Institutional Administrators</h2>
-<p>This policy is not yet in place</p>
-</section>
-<section id="create-a-new-institution-on-databrary" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="create-a-new-institution-on-databrary">Create a New Institution on Databrary</h2>
-<!-- It seems like creating the institution in the superuser admin panel implies that the institution is sponsored by Databrary. However unless a date is entered, the institution is NOT authorized by Databrary. -->
-<ul>
-<li>Log onto Databrary as Admin</li>
-<li>Click Institutions &gt; Add New Institution</li>
-<li>Go to https://nyu.databrary.org/admin/institutions/add
-<ul>
-<li>Type in Institution Name</li>
-<li>Type home page address https://…..</li>
-<li>Enter Date that institution is first authorized/signed Agreement</li>
-<li>Click ADD button below the map</li>
-</ul></li>
-</ul>
-<section id="to-update-institution-location" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="to-update-institution-location">To update institution location</h3>
-<ul>
-<li>Go back to edit institution profile</li>
-<li>Click ESTIMATE FROM NAME button above map.</li>
-<li>Click SAVE MAP LOCATION</li>
-</ul>
-</section>
-<section id="to-add-institution-avatar" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="to-add-institution-avatar">To add institution avatar</h3>
-<p>!!Currently nonfunctional!!</p>
-<ul>
-<li>Go back to https://databrary.nyu.edu/admin/institutions</li>
-<li>Search for the name of the new institution</li>
-<li>Click on the institutional profile</li>
-<li>Look up Institution Icon. Save to the computer.</li>
-<li>Resize image to:_____</li>
-<li>Upload to the ‘Choose Avatar’ button</li>
-</ul>
-</section>
-</section>
-<section id="authorize-the-pi-for-a-new-institution" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="authorize-the-pi-for-a-new-institution">Authorize the PI for a New Institution</h2>
-<ul>
-<li>Go back to https://databrary.nyu.edu/admin/institutions</li>
-<li>In the institutions search bar, search for the new institution</li>
-<li>Click on the New Institution</li>
-<li>Click on the edit button (the little pencil next to the institution name)</li>
-<li>Click on the Sponsored People tab</li>
-<li>Click on the <code>Add New Sponsored Person</code> button
-<ul>
-<li>In the pop-up box titled <code>Add New Sponsored Person</code> start typing the name of the user beginning with their first name.</li>
-<li>Ensure their <code>Role</code> is correct
-<ul>
-<li>At this point access is ONLY granted for <code>Authorized Investigator</code> (<code>Institution Admin</code> does not exist)</li>
-</ul></li>
-<li>Expiration date automatically defaults to 1 year</li>
-<li>Click <code>Authorize</code> in the lower right corner of this box</li>
-</ul></li>
-</ul>
-</section>
-<section id="authorize-the-pi-for-existing-institution" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="authorize-the-pi-for-existing-institution">Authorize the PI for Existing Institution</h2>
-<section id="yes-institution-request-placed" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="yes-institution-request-placed">Yes, Institution Request Placed</h3>
-<ul>
-<li>Go to: https://nyu.databrary.org/admin/requests/</li>
-<li>Click on the tab for <code>Institution Requests</code></li>
-<li>In the requests search bar, search for the requestor name</li>
-<li>Click on the Green Checkmark to <code>Accept</code> this request</li>
-</ul>
-</section>
-<section id="no-institution-request-not-placed" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="no-institution-request-not-placed">No, Institution Request Not Placed</h3>
-<ul>
-<li>Go to https://databrary.nyu.edu/admin/institutions</li>
-<li>In the Institutions search bar, search for the name of the institution</li>
-<li>Click on the Institution</li>
-<li>Click on the edit button (the little pencil next to the institution name)</li>
-<li>Click on the <code>Sponsored People</code> tab</li>
-<li>Click on the <code>Add New Sponsored Person</code> button</li>
-<li>In the pop-up box titled <code>Add New Sponsored Person</code>
-<ul>
-<li>start typing the name of the user beginning with their first name.</li>
-<li>Ensure their <code>Role</code> is correct
-<ul>
-<li>At this point access is ONLY granted for <code>Authorized Investigator</code> (<code>Institution Admin</code> does not exist)</li>
-</ul></li>
-<li>Expiration date automatically defaults to 1 year</li>
-<li>Click <code>Authorize</code> in the lower right corner of this box</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="suspend-user-account" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="suspend-user-account">Suspend User Account</h2>
-<ul>
-<li>Go to: <code>Admin Dashboard</code> at the top of the screen</li>
-<li>Choose <code>Users</code></li>
-<li>In the User search box, type the name of the researcher</li>
-<li>Click on the three dots at the right side of the row</li>
-<li>Click on <code>Suspend Account</code></li>
-</ul>
-</section>
-<section id="reactivate-user-account" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="reactivate-user-account">Reactivate User Account</h2>
-<ul>
-<li>Go to: <code>Admin Dashboard</code> at the top of the screen</li>
-<li>Choose <code>Users</code></li>
-<li>In the User search box, type the name of the researcher</li>
-<li>Click on the three dots at the right side of the row</li>
-<li>Click on <code>Reactivate Account</code></li>
-</ul>
-</section>
-<section id="forgotten-usernamepassword" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="forgotten-usernamepassword">Forgotten Username/Password</h2>
-<ul>
-<li><p>Look up the email of the researcher on Databrary.</p></li>
-<li><p>Log into Admin Panel</p></li>
-<li><p>Go to: <code>Admin Dashboard</code> at the top of the screen</p></li>
-<li><p>Choose <code>Users</code></p></li>
-<li><p>Search researcher in the search box</p></li>
-<li><p>Instruct researcher to:</p>
-<ul>
-<li>change password at: https://databrary.edu/user/password OR</li>
-<li>Use the GUI by going to <code>login</code> and selecting <code>Forgot your password?</code></li>
-</ul></li>
-</ul>
-</section>
-<section id="transfer-user-authorization-from-one-institution-to-another-institution" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="transfer-user-authorization-from-one-institution-to-another-institution">Transfer User Authorization from one Institution to another Institution?</h2>
-</section>
-<section id="transfer-authorized-investigator-volumes-from-one-institution-to-another-institution" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="transfer-authorized-investigator-volumes-from-one-institution-to-another-institution">Transfer Authorized Investigator Volumes from one Institution to another Institution?</h2>
-</section>
-<section id="an-authorized-investigator-moved-institutions-now-what" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="an-authorized-investigator-moved-institutions-now-what">An Authorized Investigator moved Institutions, Now What?</h2>
+<section id="production" class="level2">
+<h2 class="anchored" data-anchor-id="production">Production</h2>
+<p>The production server is available at nyu.databrary.org.</p>
+<p>Super Admin access to the application admin panel also requires access through the NYU VPN.</p>
 </section>
 </section>
 
@@ -281,13 +120,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
