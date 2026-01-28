@@ -1,1 +1,79 @@
 # Frequently Asked Questions {.unnumbered}
+
+## Authorization FAQs
+### Can individuals not associated with an institution be authorized? {#faq-authorize-non-employees}
+
+No. To become an Authorized Investigator on Databrary you/your institution must meet __all__ of the following conditions:  
+
+- Have PI status or you are eligible to conduct independent research at this Institution and the Institution accepts responsibility for its Authorized Investigators’ actions related to the use of Databrary  
+- Have all current research ethics training that addresses human subjects policy and issues required by your institution; and  
+- Your institution must maintain an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects,  
+- Be part of an institution that grants you the authority to choose and manage affiliates who meet Databrary's qualifications and who agree to follow Databrary's ethical principles, and  
+- The person executing this Access Agreement on behalf of the Institution has the authority to do so  
+- Data on Databrary is provided for non-commercial and non-personal use only and is subject to the terms of use outlined in the Databrary Access Agreement.
+
+### I did all registration and authorization steps on Databrary. I need to download a data set. My supervising professor has registered and gave me access but I still can't download it. {-}
+
+Your supervising professor did register and requested access to Databrary. Access is not immediate. Your supervising professor and an authorized signatory on behalf of the university must review and approve the agreement. After Databrary receives the completed agreement, we may grant Databrary authorization to your supervising professor. The time it takes for this to be completed depends on the internal requirements of each institution.
+
+##Databrary FAQs
+
+### How much does Databrary cost? {-}
+
+For the time being, there is no cost to use Databrary.
+
+However, consistent with the practices of peer data repositories and data services (ICSPR, Data Dryad, FigShare) we are developing a fee-for-service and subscription model that we will implement in late 2026.
+We encourage researchers with large datasets who are writing funding proposals to contact us in advance so that suitable data curation and storage fees can be included in the grant budget.
+
+### How is Databrary funded? {-}
+
+Databrary is supported through grants from federal agencies, and private foundations.
+
+### Where is Databrary located? {-}
+
+Databrary is located at New York University (NYU). All data is stored on servers that are maintained by NYU IT staff.
+  
+##Data Practices FAQs
+
+### Does Databrary offer "blind review"? {-}
+
+Databrary is a restricted access data repository that promotes the storage and sharing of identifiable and sensitive data. As such, Databrary has unique policies to protect the privacy of research participants. These policies govern who can access identifiable data and under what circumstances. The policies are codified in a formal access agreement that binds NYU, Databrary's parent institution, and similar institutions where Databrary's users conduct research. For the forseeable future, these policies make it impossible to support full double-blinded anonymous review of data and materials.
+
+While some data and materials are shared with the public, Databrary restricts access to sensitive and identifiable information to people who have received authorization from an institution or to those whose access is supervised by an authorized investigator. Only authorized investigators can create and share datasets. Dataset creators, not Databrary, determine what level of sharing is appropriate for individual data files and for datasets as a whole.
+
+So, the level of access a reviewer can have to a dataset depends on two things: Has the dataset been shared with the Databrary community? Does the reviewer have authorization from an institution to view restricted data or materials? 
+
+If both answers are yes, the reviewer may fully vet a shared dataset. Databrary does not report on access to specific datasets, so the reviewer can remain anonymous. Databrary does not mask the identities of dataset owners, so the blinding is only one-way.
+
+If the dataset is shared, but the reviewer does not have authorization from an institution, the reviewer can confirm that a shared dataset exists, that the dataset has a persistent identifier, and that the dataset has a specific number of shared restricted access files. The reviewer may also examine any items that are shared with the public, stimuli, protocol, aggregated and de-identified datasets, etc.
+
+### I have a dataset that has been completely collected. Now we are ready to share with Databrary. What do I do? {-}
+
+<a href = "mailto: contact@databrary.org">Send an Email to Databrary</a> so they may assist you. You will need to include answers to the following questions:  
+
+* What is the name and email address for PI for this project?  
+* Do you have permission to share these data with the Databrary community?  
+    + Was a [Data Sharing Release](https://databrary.org/support/irb/release-template) or something similar completed at the time of Data Collection?  
+    + Do you have permission from your IRB or Research Ethics Board used at your institution to share these data with Databrary?   
+* How many files are there for this dataset?  
+* What file types do you have (e.g. .mov, .mp4, .mp3, .pdf, .xls)? 
+* What is the total size of dataset (X GB)?  
+* How many different sessions/participants do you have?  
+* Do you have materials to share (e.g. data collection instructions, survey questions) in addition to the videos collected for the study?  
+ 
+Discuss this project with the Databrary Team to determine the next steps.
+
+### Is there a storage capacity limit for each project? {-}
+
+At the moment, no.
+
+When we implement our fee-for-service/subscription model later in 2024, we will likely impose project-, researcher-, and institution- level limits for new projects that do not pay or subscribe.
+
+### Is there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit {-}
+
+At the moment, no.
+
+However, we do not guarantee that large videos will transcode or stream well.
+
+If you need to download videos *en masse* or large videos, please consider using the *databraryr* package.
+It can be much faster than the web application.
