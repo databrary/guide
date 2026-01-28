@@ -2,7 +2,7 @@
 
 ## About
 
-This page provides information about the process for applying for permission to use the secure Databrary API.
+This page provides information about the process for applying for permission to use the secure Databrary application programming interface (API).
 
 ## Application process
 
@@ -40,6 +40,8 @@ Priority will be given to applications that have funding to pay data deposit fee
 ## Considerations
 This should be a minimal number. If a non-Authorized Investigator user will be the main person doing the work, then that person must be an Affiliate of an Authorized Investigator and will need read/write privileges on any volumes created.
 :::
+
+Alternatively, an applicant may use [this](https://forms.gle/CTF9U3FxZqg9ncqm9) Google Form.
 
 ### Review & Approval
 
