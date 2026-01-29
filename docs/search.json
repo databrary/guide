@@ -14,7 +14,7 @@
     "href": "index.html#about-the-authors",
     "title": "Databrary Guide",
     "section": "About the authors",
-    "text": "About the authors\nRick Gilmore is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.\nAndrea Seisler manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.\nKasey Soska is Science Director for the Play & Learning Across a Year project.\nMelody Xu was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023.\nYinghe Liu was an undergraduate student in Psychology at Penn State.\nAnika Mahadevan is an undergraduate student in Psychology and Biology at Penn State and will graduate in May 2027.",
+    "text": "About the authors\nRick Gilmore is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.\nAndrea Seisler manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.\nKasey Soska is Science Director for the Play & Learning Across a Year project.\nStephanie Win is a Project Coordinator and UX Specialist on the Databrary team.\nAnika Mahadevan is an undergraduate student in Psychology and Biology at Penn State and will graduate in May 2027.\nMelody Xu was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023.\nYinghe Liu was an undergraduate student in Psychology at Penn State.",
     "crumbs": [
       "Welcome"
     ]
@@ -325,22 +325,22 @@
   {
     "objectID": "managing-my-account/start.html",
     "href": "managing-my-account/start.html",
-    "title": "Managing My Profile",
+    "title": "Managing My Account",
     "section": "",
     "text": "Section describing how to manage notifications, adding sponsors, etc.",
     "crumbs": [
-      "Managing My Profile"
+      "Managing My Account"
     ]
   },
   {
     "objectID": "managing-my-account/how-to-delete-your-account.html",
     "href": "managing-my-account/how-to-delete-your-account.html",
-    "title": "Managing My Sponsors",
+    "title": "How to Delete Your Account",
     "section": "",
-    "text": "Section describing steps to add and remove sponsors.",
+    "text": "Steps on how to delete acc.",
     "crumbs": [
-      "Managing My Profile",
-      "Managing My Sponsors"
+      "Managing My Account",
+      "How to Delete Your Account"
     ]
   },
   {
@@ -358,7 +358,18 @@
     "href": "project-guidelines/new-project.html",
     "title": "New Project",
     "section": "",
-    "text": "Excellent! Before collecting data is the best time to start planning for curation of your project. In this case, you would utilize the upload as you go method of data curation.",
+    "text": "Step 1: Navigate to Profile\nBefore collecting data is the best time to start planning for curation of your project. In this case, you would upload and curate data on Databrary as data collection is ongoing.\nSign in to your Databrary account on Databrary.\nClick on Your Name to navigate to your profile.\nknitr::include_graphics(\"img/db-main-page-logged-in.png\")",
+    "crumbs": [
+      "Project Guidelines",
+      "New Project"
+    ]
+  },
+  {
+    "objectID": "project-guidelines/new-project.html#step2",
+    "href": "project-guidelines/new-project.html#step2",
+    "title": "New Project",
+    "section": "Step 2: Create a Volume",
+    "text": "Step 2: Create a Volume\nClick on Create Volume to the right of Data Owner Volumes\n\n#knitr::include_graphics(\"img/db-create-volume.JPG\")",
     "crumbs": [
       "Project Guidelines",
       "New Project"
@@ -384,6 +395,72 @@
     "crumbs": [
       "Project Guidelines",
       "Completed Project"
+    ]
+  },
+  {
+    "objectID": "project-guidelines/best-practices.html",
+    "href": "project-guidelines/best-practices.html",
+    "title": "Best Practices",
+    "section": "",
+    "text": "Description of Dataset\nThe description should contain information regarding:\nIt is not helpful to just copy and paste the article abstract in the dataset overview. The abstract can be added as supplemental information but it should not be the only thing in the description.\nIf the volume is not shared publicly on Databrary but it is available on a case-by-case basis, make sure to note this in your description.",
+    "crumbs": [
+      "Project Guidelines",
+      "Best Practices"
+    ]
+  },
+  {
+    "objectID": "project-guidelines/best-practices.html#description-of-dataset",
+    "href": "project-guidelines/best-practices.html#description-of-dataset",
+    "title": "Best Practices",
+    "section": "",
+    "text": "The context of data collection\nThe types of data uploaded (e.g. video, pictures, programming code)\nThe year(s) data was collected\n\n\n\nHelpful Format: This qualitative study interviewed 22 adult residents of two Boston-area communities, to find out about their difficulties paying water utility bills, the coping strategies they rely on to manage unaffordable water bills, and associated health effects. The data was collected during August to October of 2018. The dataset includes:\n\n22 interview transcripts (RTF files)\nParticipant attribute table\n\nCode book\n\nUnhelpful Format: Researchers can study complex developmental phenomena with all the inherent noise and complexity or simplify behaviors to hone in on the essential aspects of a phenomenon.\n\n\n\nex. Requests for sharing will be assessed on a case-by-case basis. Please contact person@university.edu for all inquiries and requests regarding this dataset.",
+    "crumbs": [
+      "Project Guidelines",
+      "Best Practices"
+    ]
+  },
+  {
+    "objectID": "project-guidelines/best-practices.html#external-links",
+    "href": "project-guidelines/best-practices.html#external-links",
+    "title": "Best Practices",
+    "section": "External Links",
+    "text": "External Links\nVolumes should have external links to the following:\n\nThe journal article (if it’s been published)\nThe parent volume\nOther Databrary volumes that use the parent volume data (ex. the many LEGO projects)\nProject website (ex. PLAY project volume should link to PLAY website)",
+    "crumbs": [
+      "Project Guidelines",
+      "Best Practices"
+    ]
+  },
+  {
+    "objectID": "project-guidelines/best-practices.html#organizing-the-data",
+    "href": "project-guidelines/best-practices.html#organizing-the-data",
+    "title": "Best Practices",
+    "section": "Organizing the Data",
+    "text": "Organizing the Data\nWhen organizing your data, you will need separate folders for each data type:\n\nEach participant’s video data\n\nDo share age, gender, race, ethnicity, language, group, tasks, and context (lab/home, state, country)\nDo not share birth date or test date publicly\n\nExemplar folder of videos that are public\n\nIf public permissoin is not explicitly given, blurred out faces of participants.\n\nCoding spreadsheet with .csv files from all participants\n\nThe same level of permission granted from each participant should reflect on the associated spreadsheet.\n\nCoding manual\n\nSharing permission is public\n\nCoding scripts\n\nSharing permission is public\n\nAnalysis scripts\n\nSharing permission is public\n\nProcessed data\n\nSharing permission is public\n\nDocument about how to use the data and how to use the files",
+    "crumbs": [
+      "Project Guidelines",
+      "Best Practices"
+    ]
+  },
+  {
+    "objectID": "project-guidelines/best-practices.html#sharing-coding-spreadsheets",
+    "href": "project-guidelines/best-practices.html#sharing-coding-spreadsheets",
+    "title": "Best Practices",
+    "section": "Sharing Coding Spreadsheets",
+    "text": "Sharing Coding Spreadsheets\n\nDelete unnecessary or extraneous columns\nDelete unnecessary or extraneous codes\nSPSS and Datavyu files should not have birth date and test date\n\nAlternative: You can create an age column for the kid that is openly shared",
+    "crumbs": [
+      "Project Guidelines",
+      "Best Practices"
+    ]
+  },
+  {
+    "objectID": "project-guidelines/best-practices.html#using-the-materials-folder",
+    "href": "project-guidelines/best-practices.html#using-the-materials-folder",
+    "title": "Best Practices",
+    "section": "Using the Materials Folder",
+    "text": "Using the Materials Folder",
+    "crumbs": [
+      "Project Guidelines",
+      "Best Practices"
     ]
   },
   {
@@ -487,9 +564,59 @@
     "href": "faq.html#authorization-faqs",
     "title": "Frequently Asked Questions",
     "section": "",
-    "text": "Can individuals not associated with an institution be authorized?\nNo. To become an Authorized Investigator on Databrary you/your institution must meet all of the following conditions:\n\nHave PI status or you are eligible to conduct independent research at this Institution and the Institution accepts responsibility for its Authorized Investigators’ actions related to the use of Databrary\n\nHave all current research ethics training that addresses human subjects policy and issues required by your institution; and\n\nYour institution must maintain an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects,\n\nBe part of an institution that grants you the authority to choose and manage affiliates who meet Databrary’s qualifications and who agree to follow Databrary’s ethical principles, and\n\nThe person executing this Access Agreement on behalf of the Institution has the authority to do so\n\nData on Databrary is provided for non-commercial and non-personal use only and is subject to the terms of use outlined in the Databrary Access Agreement.\n\n\n\nI did all registration and authorization steps on Databrary. I need to download a data set. My supervising professor has registered and gave me access but I still can’t download it.\nYour supervising professor did register and requested access to Databrary. Access is not immediate. Your supervising professor and an authorized signatory on behalf of the university must review and approve the agreement. After Databrary receives the completed agreement, we may grant Databrary authorization to your supervising professor. The time it takes for this to be completed depends on the internal requirements of each institution.\n##Databrary FAQs\n\n\nHow much does Databrary cost?\nFor the time being, there is no cost to use Databrary.\nHowever, consistent with the practices of peer data repositories and data services (ICSPR, Data Dryad, FigShare) we are developing a fee-for-service and subscription model that we will implement in late 2026. We encourage researchers with large datasets who are writing funding proposals to contact us in advance so that suitable data curation and storage fees can be included in the grant budget.\n\n\nHow is Databrary funded?\nDatabrary is supported through grants from federal agencies, and private foundations.\n\n\nWhere is Databrary located?\nDatabrary is located at New York University (NYU). All data is stored on servers that are maintained by NYU IT staff.\n##Data Practices FAQs\n\n\nDoes Databrary offer “blind review”?\nDatabrary is a restricted access data repository that promotes the storage and sharing of identifiable and sensitive data. As such, Databrary has unique policies to protect the privacy of research participants. These policies govern who can access identifiable data and under what circumstances. The policies are codified in a formal access agreement that binds NYU, Databrary’s parent institution, and similar institutions where Databrary’s users conduct research. For the forseeable future, these policies make it impossible to support full double-blinded anonymous review of data and materials.\nWhile some data and materials are shared with the public, Databrary restricts access to sensitive and identifiable information to people who have received authorization from an institution or to those whose access is supervised by an authorized investigator. Only authorized investigators can create and share datasets. Dataset creators, not Databrary, determine what level of sharing is appropriate for individual data files and for datasets as a whole.\nSo, the level of access a reviewer can have to a dataset depends on two things: Has the dataset been shared with the Databrary community? Does the reviewer have authorization from an institution to view restricted data or materials?\nIf both answers are yes, the reviewer may fully vet a shared dataset. Databrary does not report on access to specific datasets, so the reviewer can remain anonymous. Databrary does not mask the identities of dataset owners, so the blinding is only one-way.\nIf the dataset is shared, but the reviewer does not have authorization from an institution, the reviewer can confirm that a shared dataset exists, that the dataset has a persistent identifier, and that the dataset has a specific number of shared restricted access files. The reviewer may also examine any items that are shared with the public, stimuli, protocol, aggregated and de-identified datasets, etc.\n\n\nI have a dataset that has been completely collected. Now we are ready to share with Databrary. What do I do?\nSend an Email to Databrary so they may assist you. You will need to include answers to the following questions:\n\nWhat is the name and email address for PI for this project?\n\nDo you have permission to share these data with the Databrary community?\n\nWas a Data Sharing Release or something similar completed at the time of Data Collection?\n\nDo you have permission from your IRB or Research Ethics Board used at your institution to share these data with Databrary?\n\n\nHow many files are there for this dataset?\n\nWhat file types do you have (e.g. .mov, .mp4, .mp3, .pdf, .xls)?\nWhat is the total size of dataset (X GB)?\n\nHow many different sessions/participants do you have?\n\nDo you have materials to share (e.g. data collection instructions, survey questions) in addition to the videos collected for the study?\n\nDiscuss this project with the Databrary Team to determine the next steps.\n\n\nIs there a storage capacity limit for each project?\nAt the moment, no.\nWhen we implement our fee-for-service/subscription model later in 2024, we will likely impose project-, researcher-, and institution- level limits for new projects that do not pay or subscribe.\n\n\nIs there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit\nAt the moment, no.\nHowever, we do not guarantee that large videos will transcode or stream well.\nIf you need to download videos en masse or large videos, please consider using the databraryr package. It can be much faster than the web application.",
+    "text": "Can individuals not associated with an institution be authorized?\nNo. To become an Authorized Investigator on Databrary you and your institution must meet all of the following conditions.\nResearcher Eligibility Conditions: + Have PI status or eligibility to conduct independent research at your institution + Have all current research ethics training that addresses human subjects policy and issues required by your institution\nInstitution Eligibility Conditions: + Your institution accepts responsibility for its Authorized Researcher’s actions relating to the use of Databrary\n+ Your institution must maintain an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects + Your institution grants you the authority to choose and manage affiliates who meet Databrary’s qualifications and agree to follow Databrary’s ethical principles\nData on Databrary is provided for non-commercial and non-personal use only and is subject to the terms of use outlined in the Databrary Access Agreement.\n\n\nI did all registration and authorization steps on Databrary. I need to download a data set. My supervising professor has registered and gave me access but I still can’t download it.\nAccess is not immediate. Your supervising professor and an authorized signatory on behalf of the university must review and approve the agreement. After Databrary receives the completed agreement, we may grant Databrary authorization to your supervising professor. The time it takes for this to be completed depends on the internal requirements of each institution.",
     "crumbs": [
       "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "faq.html#databrary-faqs",
+    "href": "faq.html#databrary-faqs",
+    "title": "Frequently Asked Questions",
+    "section": "Databrary FAQs",
+    "text": "Databrary FAQs\n\nHow much does Databrary cost?\nFor the time being, there is no cost to use Databrary.\nHowever, consistent with the practices of peer data repositories and data services (ICSPR, Data Dryad, FigShare) we are developing a fee-for-service and subscription model that we will implement in 2026.\nWe encourage researchers with large datasets who are writing funding proposals to contact us in advance so that suitable data curation and storage fees can be included in the grant budget.\n\n\nHow is Databrary funded?\nDatabrary is supported through grants from federal agencies and private foundations.\n\n\nWhere is Databrary located?\nDatabrary is located at New York University (NYU). All data is stored on servers that are maintained by NYU IT staff.",
+    "crumbs": [
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "faq.html#data-practices-faqs",
+    "href": "faq.html#data-practices-faqs",
+    "title": "Frequently Asked Questions",
+    "section": "Data Practices FAQs",
+    "text": "Data Practices FAQs\n\nDoes Databrary offer “blind review”?\nDatabrary is a restricted access data repository that promotes the storage and sharing of identifiable and sensitive data. As such, Databrary has unique policies to protect the privacy of research participants. These policies govern who can access identifiable data and under what circumstances. The policies are codified in a formal access agreement that binds NYU, Databrary’s parent institution, and similar institutions where Databrary’s users conduct research. For the forseeable future, these policies make it impossible to support full double-blinded anonymous review of data and materials.\nWhile some data and materials are shared with the public, Databrary restricts access to sensitive and identifiable information to people who have received authorization from an institution or to those whose access is supervised by an authorized investigator. Only authorized investigators can create and share datasets. Dataset creators, not Databrary, determine what level of sharing is appropriate for individual data files and for datasets as a whole.\nSo, the level of access a reviewer can have to a dataset depends on two things: Has the dataset been shared with the Databrary community? Does the reviewer have authorization from an institution to view restricted data or materials?\nIf both answers are yes, the reviewer may fully vet a shared dataset. Databrary does not report on access to specific datasets, so the reviewer can remain anonymous. Databrary does not mask the identities of dataset owners, so the blinding is only one-way.\nIf the dataset is shared, but the reviewer does not have authorization from an institution, the reviewer can confirm that a shared dataset exists, that the dataset has a persistent identifier, and that the dataset has a specific number of shared restricted access files. The reviewer may also examine any items that are shared with the public, stimuli, protocol, aggregated and de-identified datasets, etc.\n\n\nI have a dataset that has been completely collected. Now we are ready to share with Databrary. What do I do?\nSend an email to Databrary so they may assist you and determine next steps. You will need to include answers to the following questions:\n\nWhat is the name and email address for PI for this project?\n\nDo you have permission to share these data with the Databrary community?\n\nWas a Data Sharing Release form or something similar completed at the time of data collection?\n\nDo you have permission from your IRB or Research Ethics Board used at your institution to share this data with Databrary?\n\n\nHow many files are there for this dataset?\n\nWhat file types do you have (e.g. .mov, .mp4, .mp3, .pdf, .xls)?\nWhat is the total size of dataset (X GB)?\n\nHow many different sessions/participants do you have?\n\nDo you have study documentation materials to share (e.g. data collection instructions, survey questions) in addition to the videos collected for the study?\n\n\n\nIs there a storage capacity limit for each project?\nAt the moment, no. When we implement our fee-for-service/subscription model later in 2026, we will likely impose project, researcher, and institution level storage limits for new projects that do not pay or subscribe.\n\n\nIs there a maximum file size? We have some multigig videos and want to check ahead of time if there is a limit\nAt the moment, no. However, we can not guarantee that large videos will transcode or stream well.\nIf you need to download videos in bulk or large videos, please consider using the databraryr package. It can be much faster than the web application.",
+    "crumbs": [
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "faq.html#security-practice-faqs",
+    "href": "faq.html#security-practice-faqs",
+    "title": "Frequently Asked Questions",
+    "section": "Security Practice FAQs",
+    "text": "Security Practice FAQs",
+    "crumbs": [
+      "Frequently Asked Questions"
+    ]
+  },
+  {
+    "objectID": "api.html",
+    "href": "api.html",
+    "title": "Databrary API",
+    "section": "",
+    "text": "About\nThis page provides information about the process for applying for permission to use the secure Databrary API.",
+    "crumbs": [
+      "Databrary API"
+    ]
+  },
+  {
+    "objectID": "api.html#application-process",
+    "href": "api.html#application-process",
+    "title": "Databrary API",
+    "section": "Application Process",
+    "text": "Application Process\nFor performance and security reasons, Databrary is restricting the number of authorized users who are permitted to use the secure API. Researchers who have a specific research need to use the secure API, should contact the Databrary team by email.\nAfter the initial consultation, Databrary staff will ask researchers to provide the following information:\n1. Rationale for requesting API access vs. web app\n2. Information about the files to be uploaded (or downloaded) and the number of volumes to be created.\n\n\nHow many files and what type(s) of files\n\n\nTotal storage footprint\n\n\nHow many volumes\n\n\n3. Plans to share the data with the research community.\n\n\nFor data being uploaded, when will the data be shared with the research community?\n\n\nFor data being downloaded, are the data currently shared with the research community? If not, what is the timeline for sharing the data?\n\n\n4. Available funding for the data deposit (relevant to data uploads only).\n\n\n\n\n\n\nNoteData deposit fees\n\n\n\nWe are not yet requiring data deposit fees, but plan to do so in the near future. These would be in the neighborhood of $4,500/TB, a cost roughly equivalent to the 10-year storage cost on a cloud provider.\nPriority will be given to applications that have funding to pay data deposit fees.\n\n\n5. Which Databrary user account(s) require access.\n\n\n\n\n\n\nNoteConsiderations\n\n\n\nThis should be a minimal number. If a non-Authorized Investigator user will be the main person doing the work, then that person must be an Affiliate of an Authorized Investigator and will need read/write privileges on any volumes created.\n\n\nAlternatively, an applicant may use this Google Form.",
+    "crumbs": [
+      "Databrary API"
     ]
   },
   {

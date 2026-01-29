@@ -1,0 +1,45 @@
+# Databrary API {.unnumbered}
+
+## About
+
+This page provides information about the process for applying for permission to use the secure Databrary API.
+
+## Application Process
+
+For performance and security reasons, Databrary is restricting the number of authorized users who are permitted to use the secure API.
+Researchers who have a specific research need to use the secure API, should contact the Databrary team by email.
+
+After the initial consultation, Databrary staff will ask researchers to provide the following information:
+
+**1. Rationale for requesting API access vs. web app**
+
+**2. Information about the files to be uploaded (or downloaded) and the number of volumes to be created.**
+
+- a. How many files and what type(s) of files
+- b. Total storage footprint
+- c. How many volumes
+
+**3. Plans to share the data with the research community.**
+
+- a. For data being uploaded, when will the data be shared with the research community?
+- b. For data being downloaded, are the data currently shared with the research community? If not, what is the timeline for sharing the data?
+
+**4. Available funding for the data deposit (relevant to data uploads only).**
+
+::: {.callout-note}
+## Data deposit fees
+We are not yet requiring data deposit fees, but plan to do so in the near future. 
+These would be in the neighborhood of $4,500/TB, a cost roughly equivalent to the 10-year storage cost on a cloud provider.
+
+Priority will be given to applications that have funding to pay data deposit fees.
+:::
+
+**5. Which Databrary user account(s) require access.**
+
+::: {.callout-note}
+## Considerations
+This should be a minimal number. If a non-Authorized Investigator user will be the main person doing the work, then that person must be an Affiliate of an Authorized Investigator and will need read/write privileges on any volumes created.
+:::
+
+Alternatively, an applicant may use [this](https://forms.gle/CTF9U3FxZqg9ncqm9) Google Form.
+

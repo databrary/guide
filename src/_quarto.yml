@@ -13,6 +13,7 @@ project:
     - for-investigators/*.qmd
     - getting-authorized/*.qmd
     - managing-my-account/*.qmd
+    - managing-my-sponsors/*.qmd
     - project-guidelines/*.qmd
     - contributing-data/*.qmd
     - utilizing-data/*.qmd
@@ -61,13 +62,14 @@ book:
     - part: managing-my-sponsors/start.qmd
       chapters: 
         - managing-my-sponsors/approving-sponsorship.qmd
-        - managing-my-sponsors/removing-sponsors.qmd
         - managing-my-sponsors/renewing-sponsorship.qmd
+        - managing-my-sponsors/removing-sponsors.qmd
     - part: project-guidelines/start.qmd
       chapters: 
         - project-guidelines/new-project.qmd
         - project-guidelines/ongoing-project.qmd
         - project-guidelines/completed-project.qmd
+        - project-guidelines/best-practices.qmd
     - part: contributing-data/start.qmd
       chapters:
        - contributing-data/create-a-volume.qmd
@@ -94,6 +96,8 @@ book:
     #    - how-to-use-datasets/curate-data.qmd
     - faq.qmd
     - glossary.qmd
+    - api.qmd
+    - software.qmd
        
     # - quick-start-2.0.qmd
     # - part: background/about.qmd

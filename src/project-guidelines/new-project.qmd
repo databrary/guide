@@ -1,4 +1,21 @@
 # New Project {.unnumbered}
 
-Excellent! Before collecting data is the best time to start planning for curation of your project. In this case, you would utilize the upload as you go method of data curation.
+Before collecting data is the best time to start planning for curation of your project. In this case, you would upload and curate data on Databrary as data collection is ongoing. 
 
+## Step 1: Navigate to Profile {- #step1}
+
+Sign in to your Databrary account on [Databrary ](https://nyu.databrary.org/).
+
+Click on `Your Name` to navigate to your profile.
+
+```{r}
+knitr::include_graphics("img/db-main-page-logged-in.png")
+```
+
+## Step 2: Create a Volume {- #step2}
+
+Click on `Create Volume` to the right of **Data Owner Volumes**
+
+```{r}
+#knitr::include_graphics("img/db-create-volume.JPG")
+```

@@ -383,5 +383,14 @@
   },
   "managing-my-sponsors/renewing-sponsorship.qmd": {
     "renewing-sponsorship.html": "deb75cef"
+  },
+  "project-guidelines/best-practices.qmd": {
+    "best-practices.html": "7799a763"
+  },
+  "software.qmd": {
+    "software.html": "f56c571a"
+  },
+  "api.qmd": {
+    "api.html": "fe2c1b92"
   }
 }

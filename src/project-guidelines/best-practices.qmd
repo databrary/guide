@@ -1,0 +1,59 @@
+# Best Practices {.unnumbered}
+
+## Description of Dataset {-}
+
+The description should contain information regarding:
+
+  + The **context** of data collection 
+  + The **types of data** uploaded (e.g. video, pictures, programming code) 
+  + The **year(s)** data was collected 
+
+It is **not helpful** to just copy and paste the article abstract in the dataset overview. The abstract can be added as supplemental information but it should not be the only thing in the description.
+
+  + **Helpful Format:** This qualitative study interviewed 22 adult residents of two Boston-area communities, to find out about their difficulties paying water utility bills, the coping strategies they rely on to manage unaffordable water bills, and associated health effects. The data was collected during August to October of 2018. The dataset includes:
+    + 22 interview transcripts (RTF files)
+    + Participant attribute table  
+    + Code book
+   
+  + **Unhelpful Format:** Researchers can study complex developmental phenomena with all the inherent noise and complexity or simplify behaviors to hone in on the essential aspects of a phenomenon.
+
+If the volume is not shared publicly on Databrary but it is available on a case-by-case basis, make sure to note this in your description.
+
+  + ex. Requests for sharing will be assessed on a case-by-case basis. Please contact `person@university.edu` for all inquiries and requests regarding this dataset.
+  
+## External Links {-}
+
+Volumes should have external links to the following:
+
++ The journal article (if it's been published)
++ The parent volume
++ Other Databrary volumes that use the parent volume data (ex. the many LEGO projects)
++ Project website (ex. PLAY project volume should link to PLAY website)
+
+## Organizing the Data {-}
+When organizing your data, you will need separate folders for each data type:
+
++ Each participant's video data
+  + **Do share** age, gender, race, ethnicity, language, group, tasks, and context (lab/home, state, country)
+  + Do **not** share birth date or test date publicly
++ Exemplar folder of videos that are public
+  + If public permissoin is not explicitly given, blurred out faces of participants.
++ Coding spreadsheet with .csv files from **all** participants
+  + The same level of permission granted from each participant should reflect on the associated spreadsheet.
++ Coding manual
+  + Sharing permission is public
++ Coding scripts
+  + Sharing permission is public
++ Analysis scripts
+  + Sharing permission is public
++ Processed data
+  + Sharing permission is public
++ Document about how to use the data and how to use the files
+
+## Sharing Coding Spreadsheets {-}
++ Delete unnecessary or extraneous columns
++ Delete unnecessary or extraneous codes
++ SPSS and Datavyu files should **not** have birth date and test date
+  + Alternative: You can create an age column for the kid that is openly shared
+  
+## Using the Materials Folder {-}
