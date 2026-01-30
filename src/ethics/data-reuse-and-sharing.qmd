@@ -1,0 +1,134 @@
+# Data Reuse and Sharing {.unnumbered}
+
+The information below is intended to help prepare IRB or ethics board materials for researchers who plan to store and share video data in Databrary.
+
+It may be adapted to suit the specific purposes of the researcher and requirements of the institution. Researchers should confirm institution, agency, directorate/, and program-specific application requirements before submission.
+
+Please contact us at [contact@databrary.org](contact@databrary.org) for further assistance.
+
+## Primary Data Collection {- #primary}
+
+Data will be handled by the team of researchers approved on the IRB protocols of all Principal Investigators and Co-Investigators. 
+Data are linked to participants by subject ID. However, video data are potentially identifiable because participants' faces are visible and their names may be heard. With participant consent, study data will be stored on Databrary, a secure web-based video library housed at NYU, allowing permission-based access to coders from all labs comprising the project team. 
+
+At the end of each lab visit, caregivers will be asked whether they are comfortable: 
+
+1) Storing their videos, children's birthdates, and other metadata on Databrary.
+2) Sharing their data with authorized researchers outside of this protocol who are members of the academic research and clinical communities and are authorized to access Databrary. 
+
+If caregivers agree to video sharing, the videos will be made available to authorized researchers as outlined below. If caregivers do not agree, their videos will be accessible only by researchers on the project protocol and not shared with the larger community. 
+
+Parents will also be told that they can share portions of data or ask for particular sessions not to be shared while sharing other sessions.
+
+The policies for sharing videos and other potentially identifiable data on Databrary have been carefully developed and monitored with the advice of the legal counsel, grants and contracts office, and IRBs of both New York University and The Pennsylvania State University. 
+
+Currently, more than 780 institutions in the U.S. and around the world have formally approved the Databrary Access Agreement to enable video sharing and reuse. 
+
+## Secondary Reuse {- #reuse}
+
+This project will conduct secondary analyses of participant data obtained from Databrary, an online platform for the storage, sharing, and re-use of video and other research data. 
+
+Participants' consent for study participation and release of data to Databrary were obtained by the original researcher under the oversight of their institutional review board. 
+
+Because there is no direct contact with participants as a part of this project, the level of additional risk to participants is low.
+
+## Policies for Databrary Access {- #access}
+
+Sensitive or identifiable data shared with Databrary will only be viewable to and downloadable by authorized users who have been granted secure access by Databrary's administrators. Select data may be made available to the public, but only as determined by the researcher and on the basis of participant permission. 
+
+Only researchers with Principal Investigator status from institutions with Institutional Review Boards or similar review entities, and researchers affiliated with Principal Investigators and under their supervision, are authorized for access.
+
+Authorized users are required to sign a user access agreement that specifies that they will: (1) be responsible for maintaining the confidentiality of the data; (2) abide by ethical principles for treatment of human subjects as mandated by their local Institutional Review Boards; (3) agree not use the data for commercial purposes; and (4) treat data in Databrary with the same high standards of care that they would treat data collected in their own laboratories.
+
+## Policies for Databrary Data Sharing {- #sharing}
+
+Only videos and other identifiable data that have been permissioned for sharing by all the depicted individuals in each recording are made available to the community of authorized Databrary users. 
+
+In consultation with ethics board officials at New York University and the Pennsylvania State University, Databrary has developed template Sharing Release forms that contributors can add to their IRB protocol. 
+These forms allow researchers to ask participants for permission to share their data.
+
+Federal policies do not require re-consenting of minor participants when they reach the age of majority, if re-consenting is impractical or otherwise increases risks to participants (e.g., by requiring researchers to maintain links between identifiable information and collected data for extended time periods).
+
+## Policies and Provisions for Reuse and Redistribution {- #redistribution}
+
+Access to videos and metadata will be available for educational and research purposes, subject to participant consent. Such access will be provided using the Databrary web-based application. Materials generated under the project will be disseminated in accordance with the policies of [GRANT-GIVING ORGANIZATION] and participating institutions. 
+
+Publication of data shall occur during the project, if appropriate, or at the end of the project, consistent with normal scientific practices.
+
+## Archival and Preservation of Research Data {- #archiving}
+
+Data in Databrary will be preserved indefinitely in a secure data storage facility at New York University (NYU); the facility is managed by the university's Information Technology Services department. Central IT staff handle storage, network, and backup systems. NYU does routine tape backups that are stored off site and performs regular file fixity checks to monitor the integrity of stored assets. 
+
+Federal regulations do not require that data be destroyed after a particular time period if they are stored indefinitely in a recognized repository.
+
+## Data Security {- #datasecurity}
+
+Data and metadata stored in Databrary are subject to the security policies and best practices implemented by NYU. For more information about these policies and services, please visit [NYU ITS Computer & Network Security](https://www.nyu.edu/life/information-technology/cybersecurity.html).
+
+## Permission Templates and Scripts {- #templates}
+
+### Sharing Release Template Forms {-} 
+
+Data sharing release templates for [Participants](file/DB-participant-release-template_2022-03-22.docx)
+and [Lab Staff](file/staff-release.pdf).  
+
+### Sample Script for Requesting Permission to Share {-}
+
+Now that you have finished this session, there's one more thing we want to ask you. The data that researchers collect from babies and families are incredibly valuable for helping scientists to understand how children develop.
+
+So we wanted to ask if you are comfortable with allowing us to share the data we collected from this session with other researchers just like the professor who runs this lab and/or project. The data would be shared in a secure, online library, it's not available to the public. Only researchers that are authorized by their University would be able to access the information in the library.
+
+This permission form also asks whether you would allow other professors and/or researchers like Dr. [PI’s Name] to show short bits of the videos to students or researchers for educational and scientific purposes. 
+These data will not be used or shown for commercial purposes.
+
+### Example Videos {-}
+
+These are [example videos](https://databrary.org/support/irb/examples.html) of researchers requesting participant permission to share data on Databrary.
+
+## Sharing Data Collected Without a Databrary-Specific Release {-}
+
+If you already use a video/audio or photo release form and want to find out whether you can share with Databrary, follow the following steps.
+
+### Seek Formal Permission From Your IRB {-}
+
+If your release permits you to show recordings in educational or scientific settings, you may apply for formal permission from your IRB to share these recordings with Databrary. 
+
+::: {.callout-note}
+
+Databrary intends to store data indefinitely.
+Some IRBs encourage researchers to include promises to destroy data, especially recordings, after some fixed time period in order to limit risk to participants.
+Data destruction is antithetical to data sharing, and Databrary's Template Release language seeks explicit permission to share data indefinitely. 
+NIH and NSF do not require data destruction. 
+Researchers who wish to store Data on Databrary should remove data destruction clauses from their informed consent documents for new data and seek IRB guidance about whether archival data can be shared.
+
+:::
+
+### Determine Sharing Release Level
+
+You must ensure that your permission release level matches the correct Databrary sharing release levels.
+
+```{r}
+knitr::include_graphics("img/sharing-release-levels.png")
+```
+
+
+### Share Data with Databrary {-}
+
+You may [create a new volume](new-project.qmd) yourself or contact Databrary for help in doing so.
+
+## Internal Data Use Agreement Information {-}
+
+This Agreement is different from a traditional DUA because there is no obligation for authorized researchers to use or contribute to data. 
+Once our researchers are planning to share data from their lab or re-purpose shared data, they would seek proper IRB approval for those activities.  
+
++ The Data on Databrary Contains PII  
+
++ HIPAA data is not stored on Databrary  
+
++ The Consent Form used to collect the data permits its disclosure or has been authorized by the relevant IRB(s)  
+
++ All data on Databrary were collected and shared under the supervision of an IRB  
+
++ The purpose of Databrary data exchange is to share research data between researchers to foster data reuse  
+
++ The data being exchanged are primarily video data of behavioral research in addition to stimuli that have been used for research studies  

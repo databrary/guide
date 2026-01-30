@@ -392,5 +392,11 @@
   },
   "api.qmd": {
     "api.html": "fe2c1b92"
+  },
+  "ethics/data-reuse-and-sharing.qmd": {
+    "data-reuse-and-sharing.html": "9b07a759"
+  },
+  "ethics/grant-funding.qmd": {
+    "grant-funding.html": "1da58fef"
   }
 }

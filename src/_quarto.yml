@@ -40,9 +40,9 @@ book:
     - part: ethics/ethics.qmd
       chapters: 
         - ethics/data-collection.qmd
-        - ethics/data-reuse.qmd
-        - ethics/data-sharing.qmd
+        - ethics/data-reuse-and-sharing.qmd
         - ethics/guidelines.qmd
+        - ethics/grant-funding.qmd
     - part: authorizing-institutions/authorizing-institutions.qmd
       chapters:
         - authorizing-institutions/specifics.qmd
