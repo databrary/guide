@@ -398,5 +398,41 @@
   },
   "ethics/grant-funding.qmd": {
     "grant-funding.html": "1da58fef"
+  },
+  "managing-my-sponsored-researchers/start.qmd": {
+    "start.html": "ce298d38"
+  },
+  "managing-my-sponsored-researchers/approving-sponsorship.qmd": {
+    "approving-sponsorship.html": "75b82313"
+  },
+  "managing-my-sponsored-researchers/renewing-sponsorship.qmd": {
+    "renewing-sponsorship.html": "57201399"
+  },
+  "managing-my-sponsored-researchers/removing-sponsors.qmd": {
+    "removing-sponsors.html": "ed58e3b1"
+  },
+  "using-data/using-data.qmd": {
+    "using-data.html": "a49d08a4"
+  },
+  "using-data/downloading-data.qmd": {
+    "downloading-data.html": "d54cf01a"
+  },
+  "using-data/reusing-data.qmd": {
+    "reusing-data.html": "94a6f22e"
+  },
+  "using-data/finding-data.qmd": {
+    "finding-data.html": "03a4edb7"
+  },
+  "lectures-and-talks/start.qmd": {
+    "start.html": "e27feabf"
+  },
+  "technology-and-security/start.qmd": {
+    "start.html": "050df1c7"
+  },
+  "technology-and-security/software.qmd": {
+    "software.html": "2d1e7a3f"
+  },
+  "technology-and-security/security-faqs.qmd": {
+    "security-faqs.html": "1859d888"
   }
 }

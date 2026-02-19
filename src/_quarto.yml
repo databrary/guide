@@ -13,11 +13,13 @@ project:
     - for-investigators/*.qmd
     - getting-authorized/*.qmd
     - managing-my-account/*.qmd
-    - managing-my-sponsors/*.qmd
+    - managing-my-sponsored-researchers/*.qmd
     - project-guidelines/*.qmd
     - contributing-data/*.qmd
-    - utilizing-data/*.qmd
+    - using-data/*.qmd
+    - lectures-and-talks/*.qmd
     - more-information/*.qmd
+    - api.qmd
   
 book:
   title: "Databrary Guide"
@@ -59,11 +61,11 @@ book:
         - managing-my-account/managing-notifications.qmd
         - managing-my-account/how-to-delete-your-account.qmd
         - managing-my-account/2FA-guidelines.qmd
-    - part: managing-my-sponsors/start.qmd
+    - part: managing-my-sponsored-researchers/start.qmd
       chapters: 
-        - managing-my-sponsors/approving-sponsorship.qmd
-        - managing-my-sponsors/renewing-sponsorship.qmd
-        - managing-my-sponsors/removing-sponsors.qmd
+        - managing-my-sponsored-researchers/approving-sponsorship.qmd
+        - managing-my-sponsored-researchers/renewing-sponsorship.qmd
+        - managing-my-sponsored-researchers/removing-sponsors.qmd
     - part: project-guidelines/start.qmd
       chapters: 
         - project-guidelines/new-project.qmd
@@ -74,11 +76,17 @@ book:
       chapters:
        - contributing-data/create-a-volume.qmd
        - contributing-data/edit-a-volume.qmd
-    - part: utilizing-data/start.qmd
+    - part: using-data/start.qmd
       chapters: 
-    #    - utilizing-data/using-data.qmd
-        - utilizing-data/downloading-data.qmd
-        - utilizing-data/reusing-data.qmd
+        - using-data/using-data.qmd
+        - using-data/downloading-data.qmd
+        - using-data/reusing-data.qmd
+        - using-data/finding-data.qmd
+    - part: lectures-and-talks/start.qmd
+    - part: technology-and-security/start.qmd
+      chapters: 
+        - technology-and-security/software.qmd
+        - technology-and-security/security-faqs.qmd
     #- part: "Admin"
     #  chapters:
     #   - admin/flowcharts.qmd 
@@ -97,7 +105,7 @@ book:
     - faq.qmd
     - glossary.qmd
     - api.qmd
-    - software.qmd
+
        
     # - quick-start-2.0.qmd
     # - part: background/about.qmd

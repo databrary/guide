@@ -726,56 +726,56 @@
     ]
   },
   {
-    "objectID": "utilizing-data/start.html",
-    "href": "utilizing-data/start.html",
-    "title": "Utilizing Data",
+    "objectID": "using-data/start.html",
+    "href": "using-data/start.html",
+    "title": "Using Data",
     "section": "",
     "text": "Background behind accessing/retrieving/pulling/using data.",
     "crumbs": [
-      "Utilizing Data"
+      "Using Data"
     ]
   },
   {
-    "objectID": "utilizing-data/downloading-data.html",
-    "href": "utilizing-data/downloading-data.html",
+    "objectID": "using-data/downloading-data.html",
+    "href": "using-data/downloading-data.html",
     "title": "Downloading Data",
     "section": "",
     "text": "Steps to download files.",
     "crumbs": [
-      "Utilizing Data",
+      "Using Data",
       "Downloading Data"
     ]
   },
   {
-    "objectID": "utilizing-data/reusing-data.html",
-    "href": "utilizing-data/reusing-data.html",
+    "objectID": "using-data/reusing-data.html",
+    "href": "using-data/reusing-data.html",
     "title": "Reusing Data",
     "section": "",
     "text": "Ethics of Reusing Data\nAuthorized Investigators must secure Institutional approvals prior to conducting research with data shared on Databrary. In the U.S. context, conducting secondary analysis on shared video data may not qualify as human subjects research because there is no direct contact with research participants. Still, a research project involving video data reuse may require ethics board or IRB review and approval because the data are identifiable.",
     "crumbs": [
-      "Utilizing Data",
+      "Using Data",
       "Reusing Data"
     ]
   },
   {
-    "objectID": "utilizing-data/reusing-data.html#how-to-cite-reused-data",
-    "href": "utilizing-data/reusing-data.html#how-to-cite-reused-data",
+    "objectID": "using-data/reusing-data.html#how-to-cite-reused-data",
+    "href": "using-data/reusing-data.html#how-to-cite-reused-data",
     "title": "Reusing Data",
     "section": "How to Cite Reused Data",
     "text": "How to Cite Reused Data\nShared data should have a citation on the volume profile page under the ‘How to cite’ heading. Citations take the format of:\nLastName, FirstInitial. (year volume was added). Title of Volume. Databrary. Retrieved Month DD, YYYY from [link to assigned doi].\nAdmin, D., Gilmore, R.O., Seisler, A.R. & Soska, K. (2018). Databrary & Datavyu Help Videos. Databrary. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686.\ninsert screenshot here",
     "crumbs": [
-      "Utilizing Data",
+      "Using Data",
       "Reusing Data"
     ]
   },
   {
-    "objectID": "utilizing-data/reusing-data.html#how-to-cite-databrary",
-    "href": "utilizing-data/reusing-data.html#how-to-cite-databrary",
+    "objectID": "using-data/reusing-data.html#how-to-cite-databrary",
+    "href": "using-data/reusing-data.html#how-to-cite-databrary",
     "title": "Reusing Data",
     "section": "How to Cite Databrary",
     "text": "How to Cite Databrary\nDatabrary. (2014). Databrary.org. https://nyu.databrary.org/\nDatavyu Team (2014). Datavyu: A Video Coding Tool. Databrary Project, New York University. URL http://datavyu.org.",
     "crumbs": [
-      "Utilizing Data",
+      "Using Data",
       "Reusing Data"
     ]
   },
