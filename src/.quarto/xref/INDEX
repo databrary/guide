@@ -434,5 +434,11 @@
   },
   "technology-and-security/security-faqs.qmd": {
     "security-faqs.html": "1859d888"
+  },
+  "ethics/data-collection-and-permissions.qmd": {
+    "data-collection-and-permissions.html": "2cfc7323"
+  },
+  "ethics/data-reuse-and-policies.qmd": {
+    "data-reuse-and-policies.html": "82c794a6"
   }
 }

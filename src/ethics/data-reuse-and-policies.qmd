@@ -1,4 +1,4 @@
-# Data Reuse and Sharing {.unnumbered}
+# Data Reuse and Policies {.unnumbered}
 
 The information below is intended to help prepare IRB or ethics board materials for researchers who plan to store and share video data in Databrary.
 
@@ -65,56 +65,6 @@ Federal regulations do not require that data be destroyed after a particular tim
 
 Data and metadata stored in Databrary are subject to the security policies and best practices implemented by NYU. For more information about these policies and services, please visit [NYU ITS Computer & Network Security](https://www.nyu.edu/life/information-technology/cybersecurity.html).
 
-## Permission Templates and Scripts {- #templates}
-
-### Sharing Release Template Forms {-} 
-
-Data sharing release templates for [Participants](file/DB-participant-release-template_2022-03-22.docx)
-and [Lab Staff](file/staff-release.pdf).  
-
-### Sample Script for Requesting Permission to Share {-}
-
-Now that you have finished this session, there's one more thing we want to ask you. The data that researchers collect from babies and families are incredibly valuable for helping scientists to understand how children develop.
-
-So we wanted to ask if you are comfortable with allowing us to share the data we collected from this session with other researchers just like the professor who runs this lab and/or project. The data would be shared in a secure, online library, it's not available to the public. Only researchers that are authorized by their University would be able to access the information in the library.
-
-This permission form also asks whether you would allow other professors and/or researchers like Dr. [PI’s Name] to show short bits of the videos to students or researchers for educational and scientific purposes. 
-These data will not be used or shown for commercial purposes.
-
-### Example Videos {-}
-
-These are [example videos](https://databrary.org/support/irb/examples.html) of researchers requesting participant permission to share data on Databrary.
-
-## Sharing Data Collected Without a Databrary-Specific Release {-}
-
-If you already use a video/audio or photo release form and want to find out whether you can share with Databrary, follow the following steps.
-
-### Seek Formal Permission From Your IRB {-}
-
-If your release permits you to show recordings in educational or scientific settings, you may apply for formal permission from your IRB to share these recordings with Databrary. 
-
-::: {.callout-note}
-
-Databrary intends to store data indefinitely.
-Some IRBs encourage researchers to include promises to destroy data, especially recordings, after some fixed time period in order to limit risk to participants.
-Data destruction is antithetical to data sharing, and Databrary's Template Release language seeks explicit permission to share data indefinitely. 
-NIH and NSF do not require data destruction. 
-Researchers who wish to store Data on Databrary should remove data destruction clauses from their informed consent documents for new data and seek IRB guidance about whether archival data can be shared.
-
-:::
-
-### Determine Sharing Release Level
-
-You must ensure that your permission release level matches the correct Databrary sharing release levels.
-
-```{r}
-knitr::include_graphics("img/sharing-release-levels.png")
-```
-
-
-### Share Data with Databrary {-}
-
-You may [create a new volume](new-project.qmd) yourself or contact Databrary for help in doing so.
 
 ## Internal Data Use Agreement Information {-}
 
