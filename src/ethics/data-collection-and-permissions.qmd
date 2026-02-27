@@ -52,4 +52,4 @@ knitr::include_graphics("img/sharing-release-levels.png")
 
 ### Share Data with Databrary {-}
 
-You may [create a new volume](new-project.qmd) yourself or contact Databrary for help in doing so.
+You may [create a new volume](../project-guidelines/new-project.qmd) yourself or contact Databrary for help in doing so.
