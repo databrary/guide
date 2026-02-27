@@ -1,5 +1,7 @@
 # Getting Authorized {.unnumbered #sec-getting-started}
 
+All users must be authorized in order to access non-public materials on Databrary.
+
 If you represent an **institution**, see [this section](../authorizing institutions.qmd) for information about how researchers gain access to Databrary via a formal process of institutional authorization.
 
 If you are a **researcher**, see [this section](authorized-researchers.qmd) about how to start the authorization process with your institution.
