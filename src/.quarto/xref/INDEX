@@ -440,5 +440,26 @@
   },
   "ethics/data-reuse-and-policies.qmd": {
     "data-reuse-and-policies.html": "82c794a6"
+  },
+  "academic-institutions/academic-institutions.qmd": {
+    "academic-institutions.html": "70cc0891"
+  },
+  "academic-institutions/specifics.qmd": {
+    "specifics.html": "45f81239"
+  },
+  "academic-institutions/partnering-with-databrary.qmd": {
+    "partnering-with-databrary.html": "c74f45ac"
+  },
+  "academic-institutions/granting-authorization.qmd": {
+    "granting-authorization.html": "cdf7392a"
+  },
+  "for-institutions/for-institutions.qmd": {
+    "for-institutions.html": "315f7597"
+  },
+  "for-institutions/partnering-with-databrary.qmd": {
+    "partnering-with-databrary.html": "82aa83c3"
+  },
+  "for-institutions/granting-authorization.qmd": {
+    "granting-authorization.html": "1402a17d"
   }
 }

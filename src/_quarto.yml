@@ -45,11 +45,11 @@ book:
         - ethics/data-reuse-and-policies.qmd
         - ethics/guidelines.qmd
         - ethics/grant-funding.qmd
-    - part: authorizing-institutions/authorizing-institutions.qmd
+    - part: for-institutions/for-institutions.qmd
       chapters:
-        - authorizing-institutions/specifics.qmd
-        - authorizing-institutions/partnering-with-databrary.qmd
-        - authorizing-institutions/granting-authorization.qmd
+        - for-institutions/specifics.qmd
+        - for-institutions/partnering-with-databrary.qmd
+        - for-institutions/granting-authorization.qmd
     - part: getting-authorized/start.qmd
       chapters:
         # - getting-authorized/institutions.qmd

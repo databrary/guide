@@ -45,7 +45,7 @@ Researchers who wish to store Data on Databrary should remove data destruction c
 
 You must ensure that your permission release level matches the correct Databrary sharing release levels.
 
-```{r}
+```{r echo=FALSE}
 knitr::include_graphics("img/sharing-release-levels.png")
 ```
 

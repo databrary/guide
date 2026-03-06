@@ -4,7 +4,7 @@
 
 In most cases, a researcher initiates a request for authorization when they [register](https://databrary.org/user/register) for access and create an account on Databrary.
 
-A Databrary staff member will contact the institution to determine who should review and sign the Databrary Access Agreement (DAA) and its Annexes. Some institutions require the researcher to sign or initial the documents, alongside signatures from the AOR.
+A Databrary staff member will contact the institution to determine who should review and sign the Databrary Access Agreement (DAA) and its Annexes. Some institutions require the researcher to sign or initial the documents, alongside signatures from the Authorized Organizational Representative (AOR).
 
 ## Researcher Eligibility {-}
 
@@ -22,7 +22,7 @@ Once authorized by their institution, Databrary considers the researchers Author
 
 Authorized Investigators often supervise the research activities of research staff, postdocs, graduate students, and undergraduate students who are **not** eligible for access to Databrary as Authorized Investigators. Consistent with institutional policies, these individuals may be granted access to Databrary as a Sponsored Researcher of a supervising Authorized Investigator.
 
-## When Authorized Investigators leave an Institution  {-}
+## When Authorized Investigators Leave an Institution  {-}
 
 Authorized Investigators are expected to inform Databrary when they
 leave an Institution. Institutions may also inform Databrary.

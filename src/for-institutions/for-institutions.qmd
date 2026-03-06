@@ -1,13 +1,13 @@
-# Authorizing Institutions {.unnumbered}
+# For Institutions {.unnumbered}
 
-Research and educational  [*Institutions*](../more-information/definitions.qmd#institution) play a central role in the Databrary ecosystem.
+An Institution is defined as an academic, not-for-profit, research, government, or health entity whose employees or students conduct scientific research or educational activities. Research and educational  [Institutions](../more-information/definitions.qmd#institution) play a central role in the Databrary ecosystem.
+
 This section describes some of those roles and responsibilities.
 It is designed to answer the questions an official with grants and contracts or research ethics compliance responsibilities might ask.
 
 Much of the material is adapted from the [Databrary Access Agreement and its three Annexes](../appendices/access_agreement.qmd).
 
 If you are a researcher, research staff or trainee, you may skip this part.
-Or, you may find it helpful to learn more about the differences between your institution's responsibilities and yours.
 
 ::: {.callout-note}
 
@@ -24,11 +24,15 @@ There are several questions on the [FAQ](../more-information/faq.qmd) page that 
 Databrary is a restricted access data library specialized for storing, streaming, and sharing of video and audio recordings. 
 Databrary's mission is to support the sharing of video and audio recordings and related data collected as part of research in the social, behavioral, educational, and neural sciences.
 
-The responsibility for protecting research data and research participants is shared among [*Authorized Investigators*](../more-information/definitions.qmd#authorized-investigator) and their [*Affiliates*](../more-information/definitions.qmd#affiliate), Institutions, and Databrary.
+The responsibility for protecting research data and research participants is shared among [Authorized Investigators](../more-information/definitions.qmd#authorized-investigator) and their [Sponsored Researchers](../more-information/definitions.qmd#affiliate), Institutions, and Databrary.
 
-Databrary has a multi-pronged approach to fostering the sharing of video and related data while upholding ethical research principles. Access is restricted to Authorized Investigators whose access must be approved by their Institution. 
+Databrary has a multi-pronged approach to fostering the sharing of video and related data while upholding ethical research principles. Access is restricted to Authorized Investigators whose access must be approved by their Institution.
+
 Institutions must provide ethics oversight of Authorized Investigators through a research ethics board or Institutional Review Board (IRB) with standards equivalent to that required to secure [Federalwide Assurance (FWA) status](https://www.hhs.gov/ohrp/register-irbs-and-obtain-fwas/index.html) from the U.S. Government.
+
 Authorized Investigators who share data with others must secure permission to share from research participants and record that
 permission level for each file stored on Databrary. 
+
 In turn, Authorized Investigators who access Databrary and use data shared by other Authorized Investigators must follow ethical research principles, including respect for the sharing permissions granted by research participants. 
+
 Taken together, these features aim to protect the rights of research participants while reducing barriers to sharing data.
