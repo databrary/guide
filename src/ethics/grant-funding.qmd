@@ -14,6 +14,8 @@ Please contact us at [contact@databrary.org](contact@databrary.org) for further 
 
 Researchers should confirm their institution, agency, directorate, or program-specific resource sharing plan or data management plan requirements.
 
+Here are some resources to [NIH's](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan) and [NSF's](https://www.nsf.gov/funding/data-management-plan) data management plans.
+
 ## Data Formats {-}
 
 Databrary transcodes all deposited video data into standard and HTML5-compatible formats, currently H.264+AAC as MP4. 

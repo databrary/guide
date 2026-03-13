@@ -11,17 +11,19 @@ Linked are sample data release forms for:
 
 ## Sample Script
 
-Now that you have finished this session, there’s one more thing we want to ask you. The data that researchers collect from babies and families are incredibly valuable for helping scientists to understand how children develop.
-
-So we wanted to ask if you are comfortable with allowing us to share the data we collected from this session with other researchers just like the professor who runs this lab/project. The data would be shared in a secure, online library, it’s not available to the public– only researchers that are authorized by their University would be able to access the information in the library.
-
-This permission form also asks whether you would allow other professors/ researchers like Dr. [PI’s Name] to show short bits of the videos to students or researchers for educational and scientific purposes. These data will not be used or shown for commercial purposes.
+> Now that you have finished this session, there’s one more thing we want to ask you. The data that researchers collect from babies and families are incredibly valuable for helping scientists to understand how children develop.
+>
+> So we wanted to ask if you are comfortable with allowing us to share the data we collected from this session with other researchers just like the professor who runs this lab/project. The data would be shared in a secure, online library, it’s not available to the public– only researchers that are authorized by their University would be able to access the information in the library.
+> 
+> This permission form also asks whether you would allow other professors/ researchers like Dr. [PI’s Name] to show short bits of the videos to students or researchers for educational and scientific purposes. These data will not be used or shown for commercial purposes. 
 
 ## Example Video
 
-Linked are example videos of researchers requesting participant's permission to share their data on Databrary:
+Below are example videos of researchers requesting participant's permission to share their data on Databrary:
 
-- [Example Video](https://databrary.org/support/irb/examples)
+{{< video https://databrary.org/assets/example-video-1-Dyoh4lqO.mp4 >}}
+
+{{< video https://databrary.org/assets/example-video-2-CEtx3cQd.mp4 >}}
 
 ## Sharing Data Collected Without a Databrary-Specific Release {-}
 

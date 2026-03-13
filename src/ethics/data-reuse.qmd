@@ -1,10 +1,16 @@
-# Data Reuse and Policies {.unnumbered}
+# Data Reuse {.unnumbered}
 
 The information below is intended to help prepare IRB or ethics board materials for researchers who plan to store and share video data in Databrary.
 
 It may be adapted to suit the specific purposes of the researcher and requirements of the institution. Researchers should confirm institution, agency, directorate/, and program-specific application requirements before submission.
 
 Please contact us at [contact@databrary.org](contact@databrary.org) for further assistance.
+
+::: {.callout-note}
+
+Researchers are encouraged to upload their blank consent/permission form along with their research protocol onto their Databrary volume. When IRBs are considering secondary reuses, they typically review what participants originally gave permission for.
+
+:::
 
 ## Primary Data Collection {- #primary}
 

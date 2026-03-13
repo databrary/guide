@@ -121,3 +121,9 @@ Institutions and their Authorized Investigators assume responsibility
 for ensuring that the sharing permission research participants have
 given in other contexts outside of the EEA meet relevant GDPR
 provisions.
+
+::: {.callout-note}
+
+Please contact us at [contact@databrary.org](contact@databrarary.org) if you are interested in sharing your data and you are worried about meeting GDPR requirements
+
+:::

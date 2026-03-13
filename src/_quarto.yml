@@ -42,13 +42,12 @@ book:
     - part: ethics/ethics.qmd
       chapters: 
         - ethics/data-collection-and-permissions.qmd
-        - ethics/data-reuse-and-policies.qmd
-        - ethics/guidelines.qmd
+        - ethics/data-reuse.qmd
         - ethics/grant-funding.qmd
     - part: for-institutions/for-institutions.qmd
       chapters:
         - for-institutions/specifics.qmd
-        - for-institutions/partnering-with-databrary.qmd
+        - for-institutions/join-the-databrary-community.qmd
         - for-institutions/granting-authorization.qmd
     - part: getting-authorized/start.qmd
       chapters:
