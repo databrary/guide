@@ -1,0 +1,129 @@
+---
+title: "_access"
+format: html
+---
+
+## About
+
+This page summarizes work related to visualizing the Databrary policy framework.
+
+## Approval Hierarchy
+
+```{mermaid}
+%%| label: fig-access-tree
+%%| fig-cap: "Access hierarchy"
+flowchart TD
+  A(["NYU"]) ---|"Authorizes"| B(Karen Adolph)
+  A ---|"Authorizes"| C(Cathie Tamis-Lemonda)
+  B ---|"Sponsors Manager"| D[Kasey Soska]
+  B ---|"Sponsors Researcher"| I[Somebody Reallygood]
+  E{Databrary} ---|"Concludes Agreement With"| F(["University of Oregon"])
+  E ---|"Concludes Agreement With"| A
+  F ---|"Authorizes"| G(Caitlin Fausey)
+  G ---|"Sponsors"| H[Grad Student]
+```
+
+## Volume Privileges Hierarchy
+
+```{mermaid}
+%%| label: fig-volume-privileges-tree
+%%| fig-cap: "Volume privileges"
+flowchart TD
+  A[Volume] ---|"Owner | *Manager*"| B[Create]
+  A ---|"Owner | Manager"| I[Edit Metadata]
+  A ---|"Owner | Manager"| C[Manage Access]
+  A -.-|"*Databrary*"| H["*Delete*"]
+  A -.-|"*Owner*"| J["*Archive*"]
+  C ---|"Owner"| E[Share with Databrary Community]
+  C ---|"Owner"| F["Add/Edit/Remove Collaborators & Sponsored Researchers"]
+  C ---|"Manager"| G["**Recommend** Add/Edit/Remove Collaborators & Sponsored Researchers"]
+  I ---|"Owner"| K["Change Citation"]
+  I ---|"Manager"| L["**Recommend** Change Citations"]
+```
+
+### Owner
+
+```{mermaid}
+%%| label: fig-volume-privileges-tree
+%%| fig-cap: "Volume privileges for Owner"
+flowchart TD
+  A[Volume] --- B[Create/Delete]
+  A --- I[Edit Metadata]
+  A --- C[Manage Access]
+  C --- E[Share with Databrary Community]
+  C --- F[Add/Remove Collaborators]
+  C --- G[Approve Recommended Collaborators]
+```
+
+### (Sponsored) Manager
+
+```{mermaid}
+%%| label: fig-volume-privileges-tree
+%%| fig-cap: "Volume privileges for Manager"
+flowchart TD
+  A[Volume] --- B[Create for Owner]
+  A --- I[Edit Metadata]
+  A --- C[Manage Access]
+  C --- F[Recommend Add/Remove Collaborators]
+```
+
+### Sponsored Researcher
+
+```{mermaid}
+%%| label: fig-volume-privileges-tree
+%%| fig-cap: "Volume privileges for Sponsored Researcher."
+flowchart TD
+  A[Volume] --- B[Edit Metadata]
+```
+
+## File Privileges Hierarchy
+
+```{mermaid}
+%%| label: fig-volume-privileges-tree
+%%| fig-cap: "File privileges"
+flowchart TD
+  A[Files] ---|"Owner | Manager | Collaborator | Sp Res"| B[Create]
+  A ---|"Owner | Manager | Collaborator | Sp Res"| C[Delete]
+  A ---|"Owner | Manager | Collaborator | Sp Res"| D[Edit content]
+  A ---|"???"| E[Edit permission]
+  A ---|"Owner | Manager | Collaborator | Sp Res"| F[Read]
+```
+
+### Owner
+
+```{mermaid}
+%%| label: fig-volume-privileges-tree
+%%| fig-cap: "File privileges"
+flowchart TD
+  A[Files] --- B[Create]
+  A --- C[Delete]
+  A --- D[Edit content]
+  A --- E[Edit permission]
+  A --- F[Read]
+```
+
+### (Sponsored) Manager
+
+```{mermaid}
+%%| label: fig-volume-privileges-tree
+%%| fig-cap: "File privileges for (Sponsored) Manager."
+flowchart TD
+  A[Files] --- B[Create]
+  A --- C[Delete]
+  A --- D[Edit content]
+  A --- E[Edit permission]
+  A --- F[Read]
+```
+
+### Sponsored Researcher
+
+```{mermaid}
+%%| label: fig-volume-privileges-tree
+%%| fig-cap: "File privileges for a Sponsored Researcher."
+flowchart TD
+  A[Files] --- B[Create]
+  A --- C[Delete ???]
+  A --- D[Edit content]
+  A --- E[Edit permission ???]
+  A --- F[Read]
+```

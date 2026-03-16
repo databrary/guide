@@ -1,0 +1,44 @@
+---
+title: "_permission"
+format: html
+---
+
+## Permissions
+
+```{mermaid}
+%%| label: fig-permissions
+%%| fig-cap: "Questions about data reuse and data deletion."
+
+flowchart TD
+  subgraph S1["Notice about reuse of data"]
+  A["Do you want to be notified when your data are reused?"] --- B["No"]
+  A --- C["Yes"]
+  C --- D["I want to be notified *before* my data are reused."]
+  C --- F["I want to be notified when data are presented or published."]
+  D --- G["I want notice only, but I do not want to approve specific reuse of my data."]
+  D --- H["I want to approve each proposed use of my data on a case by case basis."]
+  end
+  subgraph S2["Right to data deletion"]
+  M["What are your preferences about long-term storage of your data?"] --- N["I *waive* my right to request that my data be removed."]
+  N --- O["I acknowledge where data will be stored, by whom, and for how long."]
+  M --- P["I want to retain the right for my data to be removed."]
+  P --- Q["I agree to keep contact information accurate and up-to-date."]
+  end
+  C --- Q
+  
+  style S1 fill:#fff, stroke:#333, stroke-width:4px, color:#222
+  style S2 fill:#fff, stroke:#333, stroke-width:4px, color:#222
+  style A color:#222
+  style B color:#222
+  style C color:#222
+  style D color:#222
+  style F color:#222
+  style G color:#222
+  style H color:#222
+  style M color:#222
+  style N color:#222
+  style O color:#222
+  style P color:#222
+  style Q color:#222
+```
+
