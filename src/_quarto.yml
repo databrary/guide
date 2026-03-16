@@ -41,15 +41,14 @@ book:
         - about/why.qmd
     - part: ethics/ethics.qmd
       chapters: 
-        - ethics/data-collection.qmd
-        - ethics/data-reuse-and-sharing.qmd
-        - ethics/guidelines.qmd
+        - ethics/data-collection-and-permissions.qmd
+        - ethics/data-reuse.qmd
         - ethics/grant-funding.qmd
-    - part: authorizing-institutions/authorizing-institutions.qmd
+    - part: for-institutions/for-institutions.qmd
       chapters:
-        - authorizing-institutions/specifics.qmd
-        - authorizing-institutions/partnering-with-databrary.qmd
-        - authorizing-institutions/granting-authorization.qmd
+        - for-institutions/specifics.qmd
+        - for-institutions/join-the-databrary-community.qmd
+        - for-institutions/granting-authorization.qmd
     - part: getting-authorized/start.qmd
       chapters:
         # - getting-authorized/institutions.qmd

@@ -1,0 +1,20 @@
+# Join the Databrary Community {.unnumbered}
+
+As of February 2026, Databrary is currently partnering with 869 institutions globally. 
+
+If you would like to check if your institution is already partnered with Databrary, you can search through the [full list of institutions](https://databrary.org/search?tab=2) on Databrary.
+
+## How to Join the Databrary Community {-}
+
+Steps for institutions to partner with Databrary.
+
+### How to Register as an Authorized Organizational Representative {-}
+
+An Authorized Organizational Representative (AOR) is a person granted authority by their Institution to sign the Databrary Access Agreement on behalf of the Institution and thereby bind the Institution to the terms of the Databary Access Agreement.
+
+Steps to register as an AOR.
+
+### How to Register as an Institutional Admin {-}
+
+Steps to register as institutional admin.
+

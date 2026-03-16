@@ -1,1 +1,10 @@
 # Approving Sponsorship {.unnumbered}
+
+## Sponsored Researcher Eligibility {-}
+
+
+## External Sponsored Researcher Eligibility {-}
+
+If permitted by their Institution, an Authorized Investigator may grant a person outside their Institution Affiliate status. Institutions may establish policies governing the selection and management of Affiliates by their Authorized Investigators.
+
+If a person is eligible to be an Authorized Investigator at their home Institution, that person must apply for access to Databrary through their home Institution. Except in unusual circumstances, researchers eligible to be Authorized Investigators at their home Institution should not be granted access to Databrary as the Sponsored Researcher of another Authorized Investigator either from the same Institution or a different one. Databrary welcomes questions about these policies. Please email [contact@databrary.org](contact@databrary.org).

@@ -1,3 +1,0 @@
-# Granting Authorization {.unnumbered}
-
-Steps to grant authorization to requesting investigators.
