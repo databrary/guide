@@ -1,20 +1,45 @@
-# Join the Databrary Community {.unnumbered}
+# The Databrary Community {.unnumbered}
 
 As of February 2026, Databrary is currently partnering with 869 institutions globally. 
 
-If you would like to check if your institution is already partnered with Databrary, you can search through the [full list of institutions](https://databrary.org/search?tab=2) on Databrary.
+If you would like to check if your institution is already in the Databrary community, you can search through the [full list of institutions](https://databrary.org/search?tab=2) on Databrary.
 
 ## How to Join the Databrary Community {-}
 
-Steps for institutions to partner with Databrary.
+If your institution is not yet a part of the Databrary community and you would like to create an account through them, you must first go through the authorization process with your institution and Databrary. 
 
-### How to Register as an Authorized Organizational Representative {-}
+Please follow the next steps:
+
+1. Send your Access Agreement to your institution for their approval.
+
+- The agreement should be submitted to the office that handles research administration or research agreements. By signing the agreement, your institution agrees that they will take responsibility for your use of Databrary, verifies that you are an independent researcher, and confirms there is an IRB that oversees your research activities.
+- The individual who can sign the Access Agreement is typically an Authorized Organizational Representative (AOR). 
+
+
+2. Send the following contact information of the AOR to [authorize@databrary.org](authorize@databrary.org):
+
+- Full name
+- Email address
+- Website link
+
+### How to Find Your Authorized Organizational Representative {-}
 
 An Authorized Organizational Representative (AOR) is a person granted authority by their Institution to sign the Databrary Access Agreement on behalf of the Institution and thereby bind the Institution to the terms of the Databary Access Agreement.
 
-Steps to register as an AOR.
+Here are examples of institutional offices that an AOR typically resides in:
 
-### How to Register as an Institutional Admin {-}
+- Office of Sponsored Research
+- Office of Research Administration
+- Office of Grants and Contracts
+- Vice President for Research
+- Provost
+- Vice Rector of Research
+- Vice Provost of Research
+- Vice Chancellor
+- Dean
+- Director of Institute
 
-Steps to register as institutional admin.
+<!-- ### How to Register as an Institutional Admin {-} -->
+
+<!-- Steps to register as institutional admin. -->
 
