@@ -1,4 +1,4 @@
-# Data Collection and Permissions {.unnumbered}
+# Obtaining Permissions {.unnumbered}
 
 The first step in data collection is ensuring you obtain participant's permission to share their data on Databrary. It is best practice to have a data release form as well as a standardized script when requesting participant's permission to share their data on Databrary. 
 

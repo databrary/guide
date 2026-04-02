@@ -88,7 +88,7 @@
     "href": "ethics/ethics.html",
     "title": "Data Ethics",
     "section": "",
-    "text": "Principles\nMany of the most interesting unsolved scientific questions concern people or the behavior of non-human animals. And many questions about human or animal behavior are informed and enriched through video and audio recordings that are difficult, if not impossible, to de-identify effectively without diminishing their value for future research. As a restricted access data repository specialized for storing and sharing sensitive and identifiable research data, especially video, Databrary has developed an interlocking web of ethical principles and policies. These principles and polices aim to advance the widespread sharing of unaltered research recordings while respecting the privacy of research participants.\nDatabrary strives to uphold the highest research ethics while maximizing open and secure access to research data. We achieve this through multiple means:",
+    "text": "Principles\nMany of the most interesting unsolved scientific questions concern people or the behavior of non-human animals. And many questions about human or animal behavior are informed and enriched through video and audio recordings that are difficult, if not impossible, to de-identify effectively without diminishing their value for future research.\nAs a restricted access data repository specialized for storing and sharing sensitive and identifiable research data, especially video, Databrary has developed an interlocking web of ethical principles and policies. These principles and polices aim to advance the widespread sharing of unaltered research recordings while respecting the privacy of research participants.\nDatabrary strives to uphold the highest research ethics while maximizing open and secure access to research data. We achieve this through multiple means:",
     "crumbs": [
       "Data Ethics"
     ]
@@ -106,56 +106,56 @@
   {
     "objectID": "ethics/data-collection-and-permissions.html",
     "href": "ethics/data-collection-and-permissions.html",
-    "title": "Data Collection and Permissions",
+    "title": "Obtaining Permissions",
     "section": "",
     "text": "Sample Data Release Forms\nThe first step in data collection is ensuring you obtain participant’s permission to share their data on Databrary. It is best practice to have a data release form as well as a standardized script when requesting participant’s permission to share their data on Databrary.\nLinked are sample data release forms for:",
     "crumbs": [
       "Data Ethics",
-      "Data Collection and Permissions"
+      "Obtaining Permissions"
     ]
   },
   {
     "objectID": "ethics/data-collection-and-permissions.html#sample-data-release-forms",
     "href": "ethics/data-collection-and-permissions.html#sample-data-release-forms",
-    "title": "Data Collection and Permissions",
+    "title": "Obtaining Permissions",
     "section": "",
     "text": "Participants\nLab Staff",
     "crumbs": [
       "Data Ethics",
-      "Data Collection and Permissions"
+      "Obtaining Permissions"
     ]
   },
   {
     "objectID": "ethics/data-collection-and-permissions.html#sample-script",
     "href": "ethics/data-collection-and-permissions.html#sample-script",
-    "title": "Data Collection and Permissions",
+    "title": "Obtaining Permissions",
     "section": "Sample Script",
     "text": "Sample Script\n\nNow that you have finished this session, there’s one more thing we want to ask you. The data that researchers collect from babies and families are incredibly valuable for helping scientists to understand how children develop.\nSo we wanted to ask if you are comfortable with allowing us to share the data we collected from this session with other researchers just like the professor who runs this lab/project. The data would be shared in a secure, online library, it’s not available to the public– only researchers that are authorized by their University would be able to access the information in the library.\nThis permission form also asks whether you would allow other professors/ researchers like Dr. [PI’s Name] to show short bits of the videos to students or researchers for educational and scientific purposes. These data will not be used or shown for commercial purposes.",
     "crumbs": [
       "Data Ethics",
-      "Data Collection and Permissions"
+      "Obtaining Permissions"
     ]
   },
   {
     "objectID": "ethics/data-collection-and-permissions.html#example-video",
     "href": "ethics/data-collection-and-permissions.html#example-video",
-    "title": "Data Collection and Permissions",
+    "title": "Obtaining Permissions",
     "section": "Example Video",
     "text": "Example Video\nBelow are example videos of researchers requesting participant’s permission to share their data on Databrary:",
     "crumbs": [
       "Data Ethics",
-      "Data Collection and Permissions"
+      "Obtaining Permissions"
     ]
   },
   {
     "objectID": "ethics/data-collection-and-permissions.html#sharing-data-collected-without-a-databrary-specific-release",
     "href": "ethics/data-collection-and-permissions.html#sharing-data-collected-without-a-databrary-specific-release",
-    "title": "Data Collection and Permissions",
+    "title": "Obtaining Permissions",
     "section": "Sharing Data Collected Without a Databrary-Specific Release",
     "text": "Sharing Data Collected Without a Databrary-Specific Release\nIf you already use a video/audio or photo release form and want to find out whether you can share with Databrary, follow the following steps.\n\nSeek Formal Permission From Your IRB\nIf your release permits you to show recordings in educational or scientific settings, you may apply for formal permission from your IRB to share these recordings with Databrary.\n\n\n\n\n\n\nNote\n\n\n\nDatabrary intends to store data indefinitely. Some IRBs encourage researchers to include promises to destroy data, especially recordings, after some fixed time period in order to limit risk to participants. Data destruction is antithetical to data sharing, and Databrary’s Template Release language seeks explicit permission to share data indefinitely. NIH and NSF do not require data destruction. Researchers who wish to store Data on Databrary should remove data destruction clauses from their informed consent documents for new data and seek IRB guidance about whether archival data can be shared.\n\n\n\n\nDetermine Sharing Release Level\nYou must ensure that your permission release level matches the correct Databrary sharing release levels.\n\n\n\n\n\n\n\n\n\n\n\nShare Data with Databrary\nYou may create a new volume yourself or contact Databrary for help in doing so.",
     "crumbs": [
       "Data Ethics",
-      "Data Collection and Permissions"
+      "Obtaining Permissions"
     ]
   },
   {
@@ -470,7 +470,7 @@
     "href": "for-institutions/join-the-databrary-community.html#how-to-join-the-databrary-community",
     "title": "The Databrary Community",
     "section": "",
-    "text": "Send your Access Agreement to your institution for their approval.\n\n\nThe agreement should be submitted to the office that handles research administration or research agreements. By signing the agreement, your institution agrees that they will take responsibility for your use of Databrary, verifies that you are an independent researcher, and confirms there is an IRB that oversees your research activities.\nThe individual who can sign the Access Agreement is typically an Authorized Organizational Representative (AOR).\n\n\nSend the following contact information of the AOR to authorize@databrary.org:\n\n\nFull name\nEmail address\nWebsite link\n\n\nHow to Find Your Authorized Organizational Representative\nAn Authorized Organizational Representative (AOR) is a person granted authority by their Institution to sign the Databrary Access Agreement on behalf of the Institution and thereby bind the Institution to the terms of the Databary Access Agreement.\nHere are examples of institutional offices that an AOR typically resides in:\n\nOffice of Sponsored Research\nOffice of Research Administration\nOffice of Grants and Contracts\nVice President for Research\nProvost\nVice Rector of Research\nVice Provost of Research\nVice Chancellor\nDean\nDirector of Institute",
+    "text": "Identify your Authorized Organizational Representative (AOR).\nCreate and register an account on Databrary.\nSend the following contact information of the AOR to authorize@databrary.org:\n\n\nFull name\nEmail address\nWebsite link\n\n\nSend your Access Agreement to your institution for their approval.\n\n\nThe agreement should be submitted to the office that handles research administration or research agreements. By signing the agreement, your institution agrees that they will take responsibility for your use of Databrary, verifies that you are an independent researcher, and confirms there is an IRB that oversees your research activities.\nThe individual who can sign the Access Agreement is typically an Authorized Organizational Representative (AOR).\n\n\nHow to Find Your Authorized Organizational Representative\nAn Authorized Organizational Representative (AOR) is a person granted authority by their Institution to sign the Databrary Access Agreement on behalf of the Institution and thereby bind the Institution to the terms of the Databary Access Agreement.\nHere are examples of institutional offices that an AOR typically resides in:\n\nOffice of Sponsored Research\nOffice of Research Administration\nOffice of Grants and Contracts\nVice President for Research\nProvost\nVice Rector of Research\nVice Provost of Research\nVice Chancellor\nDean\nDirector of Institute",
     "crumbs": [
       "For Institutions",
       "The Databrary Community"
@@ -492,18 +492,29 @@
     "href": "for-institutions/granting-authorization.html#researcher-eligibility",
     "title": "Granting Authorization",
     "section": "Researcher Eligibility",
-    "text": "Researcher Eligibility\nAccess to restricted data on Databrary is limited to researchers who are formally authorized by their institutions via the Databrary Access Agreement (DAA) and its Annexes. Only academic, research, government, or health entities are eligible to authorize researchers under the DAA. Institutions must also maintain or uses an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects (or non-human animals where relevant).\nAn official signature by an Authorized Organizational Representative (AOR) on the DAA constitutes formal institutional approval.\nOnce authorized by their institution, Databrary considers the researchers Authorized Investigators. While institutions decide whether to authorize a specific researcher, the following criteria typically apply:\n\nEligible researchers conduct independent, unsupervised, research at the institution;\nEligible researchers submit funding proposals as lead investigator;\nEligible researchers have Principal Investigator (PI) status or hold a tenure-track faculty position at the institution;\nEligible researchers have current training that addresses research ethics with human subject (e.g. CITI training);\nEligible researchers wish to download and/or reuse or upload data to Databrary.\n\nAuthorized Investigators often supervise the research activities of research staff, postdocs, graduate students, and undergraduate students who are not eligible for access to Databrary as Authorized Investigators. Consistent with institutional policies, these individuals may be granted access to Databrary as a Sponsored Researcher of a supervising Authorized Investigator.",
+    "text": "Researcher Eligibility\nAccess to restricted data on Databrary is limited to researchers who are formally authorized by their institutions via the Databrary Access Agreement (DAA) and its Annexes. Only academic, research, government, or health entities are eligible to authorize researchers under the DAA. Institutions must also maintain or use an ethics or Institutional Review Board with U.S. equivalent standards that reviews and approves research involving human subjects (or non-human animals where relevant).\nAn official signature by an Authorized Organizational Representative (AOR) on the DAA constitutes formal institutional approval.\nOnce authorized by their institution, Databrary considers the researchers Authorized Investigators. While institutions decide whether to authorize a specific researcher, the following criteria typically apply:\n\nEligible researchers conduct independent, unsupervised, research at the institution;\nEligible researchers submit funding proposals as lead investigator;\nEligible researchers have Principal Investigator (PI) status or hold a tenure-track faculty position at the institution;\nEligible researchers have current training that addresses research ethics with human subject (e.g. CITI training);\nEligible researchers wish to download and/or reuse or upload data to Databrary.\n\nAuthorized Investigators often supervise the research activities of research staff, postdocs, graduate students, and undergraduate students who are not eligible for access to Databrary as Authorized Investigators. Consistent with institutional policies, these individuals may be granted access to Databrary as a Sponsored Researcher of a supervising Authorized Investigator.",
     "crumbs": [
       "For Institutions",
       "Granting Authorization"
     ]
   },
   {
-    "objectID": "for-institutions/granting-authorization.html#when-authorized-investigators-leave-an-institution",
-    "href": "for-institutions/granting-authorization.html#when-authorized-investigators-leave-an-institution",
+    "objectID": "for-institutions/granting-authorization.html#when-an-authorized-investigator-transfers-to-a-new-institution",
+    "href": "for-institutions/granting-authorization.html#when-an-authorized-investigator-transfers-to-a-new-institution",
     "title": "Granting Authorization",
-    "section": "When Authorized Investigators Leave an Institution",
-    "text": "When Authorized Investigators Leave an Institution\nAuthorized Investigators are expected to inform Databrary when they leave an Institution. Institutions may also inform Databrary.\nAccess to non-public data shared with other Authorized Investigators will be suspended when an Authorized Investigator leaves an Institution. The suspension extends to an Authorized Investigators’ Affiliates. Authorized Investigators will continue to have password-protected access to data they uploaded to Databrary once they leave an Institution. When a new Institution grants authorization, Authorized Investigators will regain access to non-public data shared by other Authorized Investigators.\nIf an Authorized Investigator retires, is incapacitated due to illness, or dies, the Institution should inform Databrary so that the Authorized Investigator’s account may be suspended. An Institution may choose to designate a data steward for the Authorized Investigator’s data and authorize that person to manage access to the data. If the Institution does not identify and authorize a data steward, Databrary staff will serve that role. However, the Databrary staff serving as data steward will not change the data sharing status of any specific dataset without explicit written guidance from the Institution.",
+    "section": "When an Authorized Investigator Transfers to a New Institution",
+    "text": "When an Authorized Investigator Transfers to a New Institution\nIt is the Authorized Investigator’s and/or Institution’s responsibility to inform Databrary when the Authorized Investigator leaves the Institution. It is the Authorized Investigator’s and/or Institution’s responsibility to have a plan for data transfer and to share this plan with Databrary.\nAccess to non-public data shared with other Authorized Investigators will be suspended when an Authorized Investigator leaves an Institution. The suspension extends to an Authorized Investigators’ Sponsored Researchers Authorized Investigators will continue to have password-protected access to data that they uploaded to Databrary once they leave an Institution. When the new Institution grants authorization, Authorized Investigators will regain access to non-public data shared by other Authorized Investigators.\n\n\n\n\n\n\nNote\n\n\n\nIf you are an Authorized Investigator who is sponsoring researchers on Databrary, please make sure your sponsored researchers will be authorized by another Authorized Investigator before you leave your institution.",
+    "crumbs": [
+      "For Institutions",
+      "Granting Authorization"
+    ]
+  },
+  {
+    "objectID": "for-institutions/granting-authorization.html#when-an-authorized-investigator-retires-or-passes-away",
+    "href": "for-institutions/granting-authorization.html#when-an-authorized-investigator-retires-or-passes-away",
+    "title": "Granting Authorization",
+    "section": "When an Authorized Investigator Retires or Passes Away",
+    "text": "When an Authorized Investigator Retires or Passes Away\nIf an Authorized Investigator retires, is incapacitated due to illness, or passes away, it is the Institution’s responsibility to inform Databrary so that the Authorized Investigator’s account may be suspended.\nAn Institution may choose to designate a data steward for the Authorized Investigator’s data and authorize that person to manage the access to the data. If the Institution does not identify and authorize a data steward, Databrary staff will serve that role. The Databrary staff serving as data steward will not change the data sharing status of any specific dataset without explicit written guidance from the Institution.",
     "crumbs": [
       "For Institutions",
       "Granting Authorization"
@@ -514,7 +525,7 @@
     "href": "getting-authorized/start.html",
     "title": "Getting Authorized",
     "section": "",
-    "text": "All users must be authorized in order to access non-public materials on Databrary.\nIf you represent an institution, see this section for information about how researchers gain access to Databrary via a formal process of institutional authorization.\nIf you are a researcher, see this section about how to start the authorization process with your institution.\nIf you are a research staff member, postdoc, graduate or undergraduate student, see this section for information about how to gain access to restricted data via your research supervisor.\nAny person may browse and view Databrary’s public materials consistent with the Terms & Conditions of Use.",
+    "text": "Why Do I Need to Get Authorized?\nAll Databrary users must be authorized by either their institution or an active Databrary authorized researcher in order to access non-public data on Databrary.\nDatabrary strives to uphold the highest research ethics while maximizing open and secure access to research data. We achieve this through multiple means, one of them being requiring that researchers fulfill all institutional requirements, including ethics board or Institutional Review Board (IRB) review if needed, in order to use Databrary materials.\nIf you represent an institution, see this section for information about how researchers gain access to Databrary via a formal process of institutional authorization.\nIf you are a researcher, see this section about how to start the authorization process with your institution.\nIf you are a research staff member, postdoc, graduate or undergraduate student, see this section for information about how to gain access to restricted data via your research supervisor.\nAny person may browse and view Databrary’s public materials consistent with the Terms & Conditions of Use.",
     "crumbs": [
       "Getting Authorized"
     ]
@@ -522,89 +533,100 @@
   {
     "objectID": "getting-authorized/roles.html",
     "href": "getting-authorized/roles.html",
-    "title": "Roles",
+    "title": "Authorized Roles",
     "section": "",
-    "text": "Authorized Investigators\nThis page describes the different roles a person might have in the Databrary system.",
+    "text": "Authorized Investigator\nThere are two types of roles a person may be authorized with on Databrary, Authorized Investigator or Sponsored Researcher.",
     "crumbs": [
       "Getting Authorized",
-      "Roles"
+      "Authorized Roles"
     ]
   },
   {
-    "objectID": "getting-authorized/roles.html#sponsored-researchers",
-    "href": "getting-authorized/roles.html#sponsored-researchers",
-    "title": "Roles",
-    "section": "Sponsored Researchers",
-    "text": "Sponsored Researchers",
+    "objectID": "getting-authorized/roles.html#authorized-investigator",
+    "href": "getting-authorized/roles.html#authorized-investigator",
+    "title": "Authorized Roles",
+    "section": "",
+    "text": "What is an Authorized Investigator?\nAn Authorized Investigator is typically a person who has PI status or equivalent at their institution. On Databrary, Authorized Investigators have the ability to authorize research staff, post-docs, or students as Sponsored Researchers. They have the ability to create volumes, manage collaborators on their volumes, and share their volume publicly on Databrary.\n\n\nEligibility\nDatabrary policies and your home institution determine whether you are eligible to be granted access to Databrary as an Authorized Investigator. To be eligible as a Databrary Authorized Investigator, you must meet these factors:\n\nI conduct independent, unsupervised, research at my institution;\nI submit funding proposals as lead investigator;\nI have Principal Investigator (PI) status or hold a tenure-track faculty position at my institution;\nMy institution maintains or uses an ethics board to review and approve research involving human subjects (or non-human animals where relevant);\nI have current training that addresses research ethics with human subject (e.g. CITI training);\nI would like to reuse or upload data to Databrary.\nI sponsor and supervise lab staff and students who work on my projects or on collaborative projects, and I have authority to supervise their access to data that I share or or others have shared on Databrary.\n\n\n\nSeeking Authorization\nIf these factors apply to you, you can find more information here.",
     "crumbs": [
       "Getting Authorized",
-      "Roles"
+      "Authorized Roles"
+    ]
+  },
+  {
+    "objectID": "getting-authorized/roles.html#sponsored-researcher",
+    "href": "getting-authorized/roles.html#sponsored-researcher",
+    "title": "Authorized Roles",
+    "section": "Sponsored Researcher",
+    "text": "Sponsored Researcher\n\nWhat is a Sponsored Researcher?\nA Sponsored Researcher is typically a student or research staff who conducts research under a PI’s supervision. On Databrary, Sponsored Researchers have the ability to edit their Authorized Investigator’s volumes, as well as any volumes they are added as a collaborator on.\n\n\n\n\n\n\nNote\n\n\n\nIn some cases, a Sponsored Researcher may be able to create volumes if their Authorized Investigator upgrades their account privileges.\n\n\n\n\nEligibility\nDatabrary policies, your home institution, and the Authorized Investigator who supervises your research determines whether you are eligible to be granted access to Databrary as a Sponsored Researcher.To be eligible as a Databrary Sponsored Researcher, you must meet these factors:\n\nI conduct research under the supervision of an Authorized Investigator’s sponsorship or someone who is eligible to become an Authorized Investigator;\nI am a student, research staff, or post-doctoral researcher.\nI have current training that addresses research ethics with human subjects (e.g.CITI training).\n\n\n\nSeeking Authorization\nIf these factors apply to you, you can find more information here.",
+    "crumbs": [
+      "Getting Authorized",
+      "Authorized Roles"
     ]
   },
   {
     "objectID": "getting-authorized/authorized-researchers.html",
     "href": "getting-authorized/authorized-researchers.html",
-    "title": "Authorized Researchers",
+    "title": "Principal Investigators",
     "section": "",
-    "text": "Eligibility\nDatabrary policies and your home institution determine whether you are eligible to be granted access to Databrary as an Authorized Investigator. Here are some factors that contribute to that determination:",
+    "text": "Eligibility\nDatabrary policies and your home institution determine whether you are eligible to be granted access to Databrary as an Authorized Investigator. To be eligible as a Databrary Authorized Investigator, you must meet these factors:",
     "crumbs": [
       "Getting Authorized",
-      "Authorized Researchers"
+      "Principal Investigators"
     ]
   },
   {
     "objectID": "getting-authorized/authorized-researchers.html#eligibility",
     "href": "getting-authorized/authorized-researchers.html#eligibility",
-    "title": "Authorized Researchers",
+    "title": "Principal Investigators",
     "section": "",
-    "text": "I conduct independent, unsupervised, research at my institution;\nI submit funding proposals as lead investigator;\nI have Principal Investigator (PI) status or hold a tenure-track faculty position at my institution;\nMy institution maintains or uses an ethics board to review and approve research involving human subjects (or non-human animals where relevant);\nI have current training that addresses research ethics with human subject (e.g. CITI training);\nI would like to reuse or upload data to Databrary.\nI sponsor and supervise lab staff and students who work on my projects or on collaborative projects, and I have authority to supervise their access to data that I share or or others have shared on Databrary.",
+    "text": "I conduct independent, unsupervised, research at my institution;\nI submit funding proposals as lead investigator;\nI have Principal Investigator (PI) status or hold a tenure-track faculty position at my institution;\nMy institution maintains or uses an ethics board to review and approve research involving human subjects (or non-human animals where relevant);\nI have current training that addresses research ethics with human subjects (e.g. CITI training);\nI would like to reuse or upload data to Databrary.\nI sponsor and supervise lab staff and students who work on my projects or on collaborative projects, and I have authority to supervise their access to data that I share or others have shared on Databrary.",
     "crumbs": [
       "Getting Authorized",
-      "Authorized Researchers"
+      "Principal Investigators"
     ]
   },
   {
     "objectID": "getting-authorized/authorized-researchers.html#seeking-authorization",
     "href": "getting-authorized/authorized-researchers.html#seeking-authorization",
-    "title": "Authorized Researchers",
+    "title": "Principal Investigators",
     "section": "Seeking Authorization",
-    "text": "Seeking Authorization\nIf these factors apply to you, you must register on Databrary, request authorization from your institution, and secure authorization.\nRegistration involves creating an account, setting a password, and confirming your account. Requesting authorization involves securing approval from an official at your institution by means of formal signatures on the Databrary Access Agreement (DAA) and its Annexes.\nIf you know who at your institution reviews, approves, and signs data access agreements or other contracts, that is probably the person who will need to sign the DAA. You also may need to sign it. If you don’t know the person at your institution, Databrary staff will help identify the right person. Databrary will work with you and your institution to secure signatures on the DAA.",
+    "text": "Seeking Authorization\nIf these factors apply to you, you must register on Databrary, request authorization from your institution, and complete our Databrary Authorization form.\n\n1. Register on Databrary\nRegistration involves creating an account using your institutional email, setting a password, and confirming your account.\n\n\n2. Request Authorization\nRequesting authorization involves securing approval and signatures from both you and the Authorized Organizational Representative (AOR) at your institution on the Databrary Access Agreement (DAA) and its Annexes.\nIf you know who at your institution reviews, approves, and signs data access agreements or other contracts, that is your AOR who will need to sign the DAA. If you don’t know who that person at your institution is, Databrary staff will help identify the right person. Databrary will work with you and your institution to secure signatures on the DAA. Please email contact@databrary.org if you need assistance in finding your AOR.\n\n\n3. Databrary Authorization Form\nLastly, please fill out the Databrary Authorization form. Once your responses are submitted, the Databrary team will contact you with next steps.",
     "crumbs": [
       "Getting Authorized",
-      "Authorized Researchers"
+      "Principal Investigators"
     ]
   },
   {
     "objectID": "getting-authorized/sponsored-researchers.html",
     "href": "getting-authorized/sponsored-researchers.html",
-    "title": "Students",
+    "title": "Research Staff and Students",
     "section": "",
-    "text": "Eligibility\nDatabrary policies, your home institution, and the Authorized Investigator who supervises your research determine whether you are eligible to be granted access to Databrary as an Affiliate. Here are some factors that contribute to that determination:",
+    "text": "Eligibility\n** can we change “Authorized Investigator” to “Principal Investigator”?\nDatabrary policies, your home institution, and the Authorized Investigator who supervises your research determine whether you are eligible to be granted access to Databrary as a Sponsored Researcher. To be eligible as a Databrary Sponsored Researcher, you must meet these factors:",
     "crumbs": [
       "Getting Authorized",
-      "Students"
+      "Research Staff and Students"
     ]
   },
   {
     "objectID": "getting-authorized/sponsored-researchers.html#eligibility",
     "href": "getting-authorized/sponsored-researchers.html#eligibility",
-    "title": "Students",
+    "title": "Research Staff and Students",
     "section": "",
     "text": "I conduct research under the supervision of an Authorized Investigator’s sponsorship or someone who is eligible to become an Authorized Investigator;\nI am a student, research staff, or post-doctoral researcher.\nI have current training that addresses research ethics with human subjects (e.g.CITI training).",
     "crumbs": [
       "Getting Authorized",
-      "Students"
+      "Research Staff and Students"
     ]
   },
   {
     "objectID": "getting-authorized/sponsored-researchers.html#seeking-authorization",
     "href": "getting-authorized/sponsored-researchers.html#seeking-authorization",
-    "title": "Students",
+    "title": "Research Staff and Students",
     "section": "Seeking Authorization",
-    "text": "Seeking Authorization\nIf these factors apply to you, must register for Databrary, request authorization from your research supervisor, and secure that person’s authorization. If your research supervisor is already a Databrary Authorized Investigator, that person will receive a request to add you to their list of sponsored Affiliate researchers. If your research supervisor is not a Databrary Authorized Investigator, they too will need to register for Databrary, request authorization from their institution, and secure authorization The authorization process involves approval from an institutional official by means of formal signatures on the Databrary Access Agreement and its Annexes.",
+    "text": "Seeking Authorization\nIf these factors apply to you, must register for Databrary, request authorization from your research supervisor, and secure that person’s authorization.\n\n1. Register on Databrary\nRegistration involves creating an account using your institutional email, setting a password, and confirming your account.\n\n\n2. Request Authorization From Your\nIf your research supervisor is already a Databrary Authorized Investigator, that person will receive a request to add you to their list of sponsored researchers.\nIf your research supervisor is not a Databrary Authorized Investigator, they will need to register for Databrary, request authorization from their institution, and complete The authorization process involves approval from an institutional official by means of formal signatures on the Databrary Access Agreement and its Annexes.",
     "crumbs": [
       "Getting Authorized",
-      "Students"
+      "Research Staff and Students"
     ]
   },
   {
@@ -626,6 +648,17 @@
     "crumbs": [
       "Managing My Account",
       "How to Delete Your Account"
+    ]
+  },
+  {
+    "objectID": "managing-my-account/2FA-guidelines.html",
+    "href": "managing-my-account/2FA-guidelines.html",
+    "title": "2FA Guidelines",
+    "section": "",
+    "text": "Databrary requires two-factor authentication (2FA) to protect your account and the sensitive research data you access. This guide will help you set up and use an authenticator app.\nFor more information, please go to the 2FA Guide on our website.",
+    "crumbs": [
+      "Managing My Account",
+      "2FA Guidelines"
     ]
   },
   {

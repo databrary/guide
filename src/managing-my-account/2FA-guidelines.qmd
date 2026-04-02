@@ -1,1 +1,5 @@
 # 2FA Guidelines {.unnumbered}
+
+Databrary requires two-factor authentication (2FA) to protect your account and the sensitive research data you access. This guide will help you set up and use an authenticator app.
+
+For more information, please go to the [2FA Guide](https://databrary.org/support/authenticator-guide) on our website.

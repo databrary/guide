@@ -1,10 +1,47 @@
-# Roles {.unnumbered}
+# Authorized Roles {.unnumbered}
 
-This page describes the different roles a person might have in the Databrary system.
+There are two types of roles a person may be authorized with on Databrary, **Authorized Investigator** or **Sponsored Researcher**. 
 
-## Authorized Investigators
+## Authorized Investigator
 
-## Sponsored Researchers
+### What is an Authorized Investigator?
 
+An Authorized Investigator is typically a person who has PI status or equivalent at their institution. On Databrary, Authorized Investigators have the ability to authorize research staff, post-docs, or students as Sponsored Researchers. They have the ability to create volumes, manage collaborators on their volumes, and share their volume publicly on Databrary.
 
+### Eligibility
 
+Databrary policies and your home institution determine whether you are eligible to be granted access to Databrary as an Authorized Investigator. To be eligible as a Databrary Authorized Investigator, you must meet these factors: 
+
+- I conduct independent, unsupervised, research at my institution;
+- I submit funding proposals as lead investigator;
+- I have Principal Investigator (PI) status or hold a tenure-track faculty position at my institution;
+- My institution maintains or uses an ethics board to review and approve research involving human subjects (or non-human animals where relevant);
+- I have current training that addresses research ethics with human subject (e.g. CITI training);
+- I would like to reuse or upload data to Databrary.
+- I sponsor and supervise lab staff and students who work on my projects or on collaborative projects, and I have authority to supervise their access to data that I share or or others have shared on Databrary.
+
+### Seeking Authorization
+If these factors apply to you, you can find more information [here.](authorized-researchers.qmd)
+
+## Sponsored Researcher
+
+### What is a Sponsored Researcher?
+
+A Sponsored Researcher is typically a student or research staff who conducts research under a PI's supervision. On Databrary, Sponsored Researchers have the ability to edit their Authorized Investigator's volumes, as well as any volumes they are added as a collaborator on. 
+
+::: {.callout-note}
+
+In some cases, a Sponsored Researcher may be able to create volumes if their Authorized Investigator upgrades their account privileges.  
+
+:::
+
+### Eligibility
+
+Databrary policies, your home institution, and the Authorized Investigator who supervises your research determines whether you are eligible to be granted access to Databrary as a Sponsored Researcher.To be eligible as a Databrary Sponsored Researcher, you must meet these factors:
+
+- I conduct research under the supervision of an Authorized Investigator’s sponsorship or someone who is eligible to become an Authorized Investigator;
+- I am a student, research staff, or post-doctoral researcher.
+- I have current training that addresses research ethics with human subjects (e.g.[CITI training](https://about.citiprogram.org/)).
+
+### Seeking Authorization
+If these factors apply to you, you can find more information [here.](sponsored-researchers.qmd)
