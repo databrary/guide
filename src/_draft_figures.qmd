@@ -1,0 +1,14 @@
+---
+title: "_draft_figures"
+format: html
+---
+
+```{mermaid}
+flowchart TD
+  A["Databrary"] ---|"Databrary Access Agreement"| B["Institution"]
+  B ---|"Ethics Review & Training"| C["Researcher"]
+  C ---|"Databrary Sharing Permission"| D["Participant"]
+  A ---|"Databrary Access Agreement"| E["Another Institution"]
+  E ---|"Ethics Review & Training"| F["Another Researcher"]
+```
+
