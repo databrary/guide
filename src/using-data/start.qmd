@@ -1,3 +1,5 @@
 # Using Data {.unnumbered}
 
 Background behind accessing/retrieving/pulling/using data.
+
+You can browse information on DB without restriction. If you want to use the data beyond browsing these are the considerations to keep in mind.

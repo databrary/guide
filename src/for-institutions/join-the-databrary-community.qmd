@@ -1,48 +1,50 @@
 # The Databrary Community {.unnumbered}
 
-As of February 2026, Databrary is currently partnering with 869 institutions globally. 
+As of February 2026, Databrary is currently partnering with 869 institutions globally.
 
 If you would like to check if your institution is already in the Databrary community, you can search through the [full list of institutions](https://databrary.org/search?tab=2) on Databrary.
 
-## How to Join the Databrary Community {-}
+## How to Join the Databrary Community {.unnumbered}
 
-If your institution is not yet a part of the Databrary community and you would like to create an account through them, you must first go through the authorization process with your institution and Databrary. 
+If your institution is not yet a part of the Databrary community and you would like to create an account through them, you must first go through the authorization process with your institution and Databrary.
 
 Please follow the next steps:
 
-1. Identify your Authorized Organizational Representative (AOR).
+1.  Identify your Authorized Organizational Representative (AOR) [^join-the-databrary-community-1].
 
-2. Create and register an account on [Databrary](https://databrary.org/user/register).
+2.  Create and register an account on [Databrary](https://databrary.org/user/register) using your institutional email.
 
-3. Send the following contact information of the AOR to [authorize@databrary.org](authorize@databrary.org):
+3.  Send the following contact information of the AOR to [authorize@databrary.org](authorize@databrary.org):
 
-- Full name
-- Email address
-- Website link
+[^join-the-databrary-community-1]: Outside of the U.S., an Authorized Organizational Representative is also referred to as signing official, sponsored projects administrator, or authorized signatory
 
-4. Send your Access Agreement to your institution for their approval.
+-   Full name
+-   Email address
+-   Title of position
+-   Website link
 
-- The agreement should be submitted to the office that handles research administration or research agreements. By signing the agreement, your institution agrees that they will take responsibility for your use of Databrary, verifies that you are an independent researcher, and confirms there is an IRB that oversees your research activities.
-- The individual who can sign the Access Agreement is typically an Authorized Organizational Representative (AOR). 
+4.  Send your Access Agreement to your institution for their approval.
 
-### How to Find Your Authorized Organizational Representative {-}
+-   The agreement should be submitted to the office that handles research administration or research agreements. By signing the agreement, your institution agrees that they will take responsibility for your use of Databrary, verifies that you are an independent researcher, and confirms there is an IRB that oversees your research activities.
+-   The individual who can sign the Access Agreement is typically an Authorized Organizational Representative (AOR).
+
+### How to Find Your Authorized Organizational Representative {.unnumbered}
 
 An Authorized Organizational Representative (AOR) is a person granted authority by their Institution to sign the Databrary Access Agreement on behalf of the Institution and thereby bind the Institution to the terms of the Databary Access Agreement.
 
 Here are examples of institutional offices that an AOR typically resides in:
 
-- Office of Sponsored Research
-- Office of Research Administration
-- Office of Grants and Contracts
-- Vice President for Research
-- Provost
-- Vice Rector of Research
-- Vice Provost of Research
-- Vice Chancellor
-- Dean
-- Director of Institute
+-   Office of Sponsored Research
+-   Office of Research Administration
+-   Office of Grants and Contracts
+-   Vice President for Research
+-   Provost
+-   Vice Rector of Research
+-   Vice Provost of Research
+-   Vice Chancellor
+-   Dean
+-   Director of Institute
 
 <!-- ### How to Register as an Institutional Admin {-} -->
 
 <!-- Steps to register as institutional admin. -->
-

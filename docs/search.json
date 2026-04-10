@@ -470,7 +470,7 @@
     "href": "for-institutions/join-the-databrary-community.html#how-to-join-the-databrary-community",
     "title": "The Databrary Community",
     "section": "",
-    "text": "Identify your Authorized Organizational Representative (AOR).\nCreate and register an account on Databrary.\nSend the following contact information of the AOR to authorize@databrary.org:\n\n\nFull name\nEmail address\nWebsite link\n\n\nSend your Access Agreement to your institution for their approval.\n\n\nThe agreement should be submitted to the office that handles research administration or research agreements. By signing the agreement, your institution agrees that they will take responsibility for your use of Databrary, verifies that you are an independent researcher, and confirms there is an IRB that oversees your research activities.\nThe individual who can sign the Access Agreement is typically an Authorized Organizational Representative (AOR).\n\n\nHow to Find Your Authorized Organizational Representative\nAn Authorized Organizational Representative (AOR) is a person granted authority by their Institution to sign the Databrary Access Agreement on behalf of the Institution and thereby bind the Institution to the terms of the Databary Access Agreement.\nHere are examples of institutional offices that an AOR typically resides in:\n\nOffice of Sponsored Research\nOffice of Research Administration\nOffice of Grants and Contracts\nVice President for Research\nProvost\nVice Rector of Research\nVice Provost of Research\nVice Chancellor\nDean\nDirector of Institute",
+    "text": "Identify your Authorized Organizational Representative (AOR) 1.\nCreate and register an account on Databrary using your institutional email.\nSend the following contact information of the AOR to authorize@databrary.org:\n\n\nFull name\nEmail address\nTitle of position\nWebsite link\n\n\nSend your Access Agreement to your institution for their approval.\n\n\nThe agreement should be submitted to the office that handles research administration or research agreements. By signing the agreement, your institution agrees that they will take responsibility for your use of Databrary, verifies that you are an independent researcher, and confirms there is an IRB that oversees your research activities.\nThe individual who can sign the Access Agreement is typically an Authorized Organizational Representative (AOR).\n\n\nHow to Find Your Authorized Organizational Representative\nAn Authorized Organizational Representative (AOR) is a person granted authority by their Institution to sign the Databrary Access Agreement on behalf of the Institution and thereby bind the Institution to the terms of the Databary Access Agreement.\nHere are examples of institutional offices that an AOR typically resides in:\n\nOffice of Sponsored Research\nOffice of Research Administration\nOffice of Grants and Contracts\nVice President for Research\nProvost\nVice Rector of Research\nVice Provost of Research\nVice Chancellor\nDean\nDirector of Institute",
     "crumbs": [
       "For Institutions",
       "The Databrary Community"
@@ -525,7 +525,7 @@
     "href": "getting-authorized/start.html",
     "title": "Getting Authorized",
     "section": "",
-    "text": "Why Do I Need to Get Authorized?\nAll Databrary users must be authorized by either their institution or an active Databrary authorized researcher in order to access non-public data on Databrary.\nDatabrary strives to uphold the highest research ethics while maximizing open and secure access to research data. We achieve this through multiple means, one of them being requiring that researchers fulfill all institutional requirements, including ethics board or Institutional Review Board (IRB) review if needed, in order to use Databrary materials.\nIf you represent an institution, see this section for information about how researchers gain access to Databrary via a formal process of institutional authorization.\nIf you are a researcher, see this section about how to start the authorization process with your institution.\nIf you are a research staff member, postdoc, graduate or undergraduate student, see this section for information about how to gain access to restricted data via your research supervisor.\nAny person may browse and view Databrary’s public materials consistent with the Terms & Conditions of Use.",
+    "text": "Why Do I Need to Get Authorized?\nDatabrary follows a restricted access data sharing model due to the sensitive identifiable data we host. All Databrary users must be authorized by either their institution or an active Databrary authorized researcher in order to access data on Databrary.\nPlease refer to our Data Ethics page for more information about our data ethics principles.\nDatabrary strives to uphold the highest research ethics while maximizing open and secure access to research data. We achieve this through multiple means, one of them being requiring that researchers fulfill all institutional requirements, including ethics board or Institutional Review Board (IRB) review if needed, in order to use Databrary materials.\nIf you represent an institution, see this section for information about how researchers gain access to Databrary via a formal process of institutional authorization.\nIf you are a researcher, see this section about how to start the authorization process with your institution.\nIf you are a research staff member, postdoc, graduate or undergraduate student, see this section for information about how to gain access to restricted data via your research supervisor.\nAny person may browse and view Databrary’s public materials consistent with the Terms & Conditions of Use.",
     "crumbs": [
       "Getting Authorized"
     ]
@@ -590,7 +590,7 @@
     "href": "getting-authorized/authorized-researchers.html#seeking-authorization",
     "title": "Principal Investigators",
     "section": "Seeking Authorization",
-    "text": "Seeking Authorization\nIf these factors apply to you, you must register on Databrary, request authorization from your institution, and complete our Databrary Authorization form.\n\n1. Register on Databrary\nRegistration involves creating an account using your institutional email, setting a password, and confirming your account.\n\n\n2. Request Authorization\nRequesting authorization involves securing approval and signatures from both you and the Authorized Organizational Representative (AOR) at your institution on the Databrary Access Agreement (DAA) and its Annexes.\nIf you know who at your institution reviews, approves, and signs data access agreements or other contracts, that is your AOR who will need to sign the DAA. If you don’t know who that person at your institution is, Databrary staff will help identify the right person. Databrary will work with you and your institution to secure signatures on the DAA. Please email contact@databrary.org if you need assistance in finding your AOR.\n\n\n3. Databrary Authorization Form\nLastly, please fill out the Databrary Authorization form. Once your responses are submitted, the Databrary team will contact you with next steps.",
+    "text": "Seeking Authorization\nIf these factors apply to you, you must register on Databrary, request authorization from your institution, and complete our Databrary Authorization form.\nIf you would like to check if your institution is already in the Databrary community, you can search through the full list of institutions on Databrary.\nIf your institution is not yet a part of the Databrary community, please read our Databrary Community page\n\n1. Register on Databrary\nRegistration involves creating an account using your institutional email, setting a password, and confirming your account.\n\n\n2. Request Authorization\nRequesting authorization involves securing approval and signatures from both you and the Authorized Organizational Representative (AOR) at your institution on the Databrary Access Agreement (DAA) and its Annexes.\nIf you know who at your institution reviews, approves, and signs data access agreements or other contracts, that is your AOR who will need to sign the DAA. If you don’t know who that person at your institution is, Databrary staff will help identify the right person. Databrary will work with you and your institution to secure signatures on the DAA. Please email contact@databrary.org if you need assistance in finding your AOR.\n\n\n3. Databrary Authorization Form\nLastly, please fill out the Databrary Authorization form. Once your responses are submitted, the Databrary team will contact you with next steps.",
     "crumbs": [
       "Getting Authorized",
       "Principal Investigators"
@@ -601,7 +601,7 @@
     "href": "getting-authorized/sponsored-researchers.html",
     "title": "Research Staff and Students",
     "section": "",
-    "text": "Eligibility\n** can we change “Authorized Investigator” to “Principal Investigator”?\nDatabrary policies, your home institution, and the Authorized Investigator who supervises your research determine whether you are eligible to be granted access to Databrary as a Sponsored Researcher. To be eligible as a Databrary Sponsored Researcher, you must meet these factors:",
+    "text": "Eligibility\nDatabrary policies, your home institution, and the professor who supervises your research determine whether you are eligible to be granted access to Databrary as a Sponsored Researcher. To be eligible as a Databrary Sponsored Researcher, you must meet these factors:",
     "crumbs": [
       "Getting Authorized",
       "Research Staff and Students"
@@ -623,7 +623,7 @@
     "href": "getting-authorized/sponsored-researchers.html#seeking-authorization",
     "title": "Research Staff and Students",
     "section": "Seeking Authorization",
-    "text": "Seeking Authorization\nIf these factors apply to you, must register for Databrary, request authorization from your research supervisor, and secure that person’s authorization.\n\n1. Register on Databrary\nRegistration involves creating an account using your institutional email, setting a password, and confirming your account.\n\n\n2. Request Authorization From Your\nIf your research supervisor is already a Databrary Authorized Investigator, that person will receive a request to add you to their list of sponsored researchers.\nIf your research supervisor is not a Databrary Authorized Investigator, they will need to register for Databrary, request authorization from their institution, and complete The authorization process involves approval from an institutional official by means of formal signatures on the Databrary Access Agreement and its Annexes.",
+    "text": "Seeking Authorization\nIf these factors apply to you, must register for Databrary, request authorization from your research supervisor, and secure that person’s authorization.\n\n1. Register on Databrary\nRegistration involves creating an account using your institutional email, setting a password, and confirming your account.\n\n\n2. Request Authorization From Your Research Supervisor\nIf your research supervisor is already a Databrary Authorized Investigator, that person will receive a request to add you to their list of sponsored researchers.\nIf your research supervisor is not a Databrary Authorized Investigator, they will need to register for Databrary, request authorization from their institution, and complete The authorization process involves approval from an institutional official by means of formal signatures on the Databrary Access Agreement and its Annexes.",
     "crumbs": [
       "Getting Authorized",
       "Research Staff and Students"
@@ -840,7 +840,7 @@
     "href": "using-data/start.html",
     "title": "Using Data",
     "section": "",
-    "text": "Background behind accessing/retrieving/pulling/using data.",
+    "text": "Background behind accessing/retrieving/pulling/using data.\nYou can browse information on DB without restriction. If you want to use the data beyond browsing these are the considerations to keep in mind.",
     "crumbs": [
       "Using Data"
     ]
@@ -1639,6 +1639,17 @@
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>J</span>  <span class='chapter-title'>Grants</span>"
+    ]
+  },
+  {
+    "objectID": "for-institutions/join-the-databrary-community.html#footnotes",
+    "href": "for-institutions/join-the-databrary-community.html#footnotes",
+    "title": "The Databrary Community",
+    "section": "",
+    "text": "Outside of the U.S., an Authorized Organizational Representative is also referred to as signing official, sponsored projects administrator, or authorized signatory↩︎",
+    "crumbs": [
+      "For Institutions",
+      "The Databrary Community"
     ]
   }
 ]

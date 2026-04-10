@@ -17,6 +17,10 @@ To be eligible as a Databrary Authorized Investigator, you must meet these facto
 
 If these factors apply to you, you must [register](https://nyu.databrary.org/user/register) on Databrary, request authorization from your institution, and complete our Databrary Authorization form.
 
+If you would like to check if your institution is already in the Databrary community, you can search through the [full list of institutions](https://databrary.org/search?tab=2) on Databrary.
+
+If your institution is not yet a part of the Databrary community, please read our [Databrary Community](../for-institutions/join-the-databrary-community.qmd) page
+
 ### 1. Register on Databrary
 
 Registration involves creating an account using your institutional email, setting a password, and confirming your account.
