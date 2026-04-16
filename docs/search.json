@@ -477,6 +477,17 @@
     ]
   },
   {
+    "objectID": "for-institutions/join-the-databrary-community.html#footnotes",
+    "href": "for-institutions/join-the-databrary-community.html#footnotes",
+    "title": "The Databrary Community",
+    "section": "",
+    "text": "Outside of the U.S., an Authorized Organizational Representative is also referred to as signing official, sponsored projects administrator, or authorized signatory↩︎",
+    "crumbs": [
+      "For Institutions",
+      "The Databrary Community"
+    ]
+  },
+  {
     "objectID": "for-institutions/granting-authorization.html",
     "href": "for-institutions/granting-authorization.html",
     "title": "Granting Authorization",
@@ -525,7 +536,7 @@
     "href": "getting-authorized/start.html",
     "title": "Getting Authorized",
     "section": "",
-    "text": "Why Do I Need to Get Authorized?\nDatabrary follows a restricted access data sharing model due to the sensitive identifiable data we host. All Databrary users must be authorized by either their institution or an active Databrary authorized researcher in order to access data on Databrary.\nPlease refer to our Data Ethics page for more information about our data ethics principles.\nDatabrary strives to uphold the highest research ethics while maximizing open and secure access to research data. We achieve this through multiple means, one of them being requiring that researchers fulfill all institutional requirements, including ethics board or Institutional Review Board (IRB) review if needed, in order to use Databrary materials.\nIf you represent an institution, see this section for information about how researchers gain access to Databrary via a formal process of institutional authorization.\nIf you are a researcher, see this section about how to start the authorization process with your institution.\nIf you are a research staff member, postdoc, graduate or undergraduate student, see this section for information about how to gain access to restricted data via your research supervisor.\nAny person may browse and view Databrary’s public materials consistent with the Terms & Conditions of Use.",
+    "text": "Why Do I Need to Get Authorized?\nDatabrary follows a restricted access data sharing model due to the sensitive identifiable data we host. All Databrary users must be authorized by either their institution or an active Databrary authorized researcher in order to access identifiable data on Databrary.\nPlease refer to our Data Ethics page for more information about our data ethics principles.\nDatabrary strives to uphold the highest research ethics while maximizing open and secure access to research data. We achieve this through multiple means, one of them being requiring that researchers fulfill all institutional requirements, including ethics board or Institutional Review Board (IRB) review if needed, in order to use Databrary materials.\nIf you represent an institution, see this section for information about how researchers gain access to Databrary via a formal process of institutional authorization.\nIf you are a researcher, see this section about how to start the authorization process with your institution.\nIf you are a research staff member, postdoc, graduate or undergraduate student, see this section for information about how to gain access to restricted data via your research supervisor.\nAny person may browse and view Databrary’s public materials consistent with the Terms & Conditions of Use.",
     "crumbs": [
       "Getting Authorized"
     ]
@@ -630,34 +641,33 @@
     ]
   },
   {
-    "objectID": "managing-my-account/start.html",
-    "href": "managing-my-account/start.html",
-    "title": "Managing My Account",
+    "objectID": "profile-management/start.html",
+    "href": "profile-management/start.html",
+    "title": "Profile Management",
     "section": "",
-    "text": "Section describing how to manage notifications, adding sponsors, etc.",
+    "text": "Profile Dashboard\nThrough your Databrary profile, you can view and manage your volumes, sponsors, sponsored researchers, and account settings.",
     "crumbs": [
-      "Managing My Account"
+      "Profile Management"
     ]
   },
   {
-    "objectID": "managing-my-account/how-to-delete-your-account.html",
-    "href": "managing-my-account/how-to-delete-your-account.html",
-    "title": "How to Delete Your Account",
+    "objectID": "profile-management/start.html#profile-dashboard",
+    "href": "profile-management/start.html#profile-dashboard",
+    "title": "Profile Management",
     "section": "",
-    "text": "Steps on how to delete acc.",
+    "text": "Volumes\nYour dashboard displays all of your volumes and/or volumes that you have access to as a collaborator or sponsored researcher.\n\n\n\n\n\n\n\n\n\nThrough your dashboard, you can create a new volume and search for a specific volume or volume owner through your volume list.\n\n\n\n\n\n\n\n\n\n\n\nSponsors and Sponsored Researchers\nYour dashboard also displays your sponsors and your sponsored researchers, if applicable.\n\n\n\n\n\n\n\n\n\nSelecting a sponsor or sponsor researcher from your list will highlight all the volumes in your volume list that the selected person has access to.\n\n\n\n\n\n\n\n\n\nFor more information about how to manage your sponsored researchers, see this section",
     "crumbs": [
-      "Managing My Account",
-      "How to Delete Your Account"
+      "Profile Management"
     ]
   },
   {
-    "objectID": "managing-my-account/2FA-guidelines.html",
-    "href": "managing-my-account/2FA-guidelines.html",
+    "objectID": "profile-management/2FA-guidelines.html",
+    "href": "profile-management/2FA-guidelines.html",
     "title": "2FA Guidelines",
     "section": "",
     "text": "Databrary requires two-factor authentication (2FA) to protect your account and the sensitive research data you access. This guide will help you set up and use an authenticator app.\nFor more information, please go to the 2FA Guide on our website.",
     "crumbs": [
-      "Managing My Account",
+      "Profile Management",
       "2FA Guidelines"
     ]
   },
@@ -1639,17 +1649,6 @@
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>J</span>  <span class='chapter-title'>Grants</span>"
-    ]
-  },
-  {
-    "objectID": "for-institutions/join-the-databrary-community.html#footnotes",
-    "href": "for-institutions/join-the-databrary-community.html#footnotes",
-    "title": "The Databrary Community",
-    "section": "",
-    "text": "Outside of the U.S., an Authorized Organizational Representative is also referred to as signing official, sponsored projects administrator, or authorized signatory↩︎",
-    "crumbs": [
-      "For Institutions",
-      "The Databrary Community"
     ]
   }
 ]

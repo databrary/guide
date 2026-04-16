@@ -464,5 +464,14 @@
   },
   "for-institutions/join-the-databrary-community.qmd": {
     "join-the-databrary-community.html": "bea2fc9f"
+  },
+  "profile-management/start.qmd": {
+    "start.html": "ab872ab7"
+  },
+  "profile-management/managing-my-account.qmd": {
+    "managing-my-account.html": "4fa28eaf"
+  },
+  "profile-management/2FA-guidelines.qmd": {
+    "2FA-guidelines.html": "cae8017b"
   }
 }
