@@ -2,7 +2,7 @@
 
 Databrary follows a restricted access data sharing model due to the sensitive identifiable data we host. All Databrary users **must** be authorized by either their institution or an active Databrary authorized researcher in order to access identifiable data on Databrary. 
 
-Please refer to our [Data Ethics](../ethics/ethics.qmd) page for more information about our data ethics principles.
+Please refer to our [Data Ethics](../ethics/ethics.qmd) page for more information about Databrary's ethical principles.
 
 ::: {.callout-note}
 
@@ -12,7 +12,7 @@ If you do not complete the authorization process, but you have a registered acco
 
 ## Why Do I Need to Get Authorized? {.unnumbered}
 
-Databrary strives to uphold the highest research ethics while maximizing open and secure access to research data. We achieve this through multiple means, one of them being requiring that researchers fulfill all institutional requirements, including ethics board or Institutional Review Board (IRB) review if needed, in order to use Databrary materials.
+Databrary strives to uphold the highest standards of research ethics while maximizing open and secure access to research data. We achieve this through multiple means, one of them being requiring that researchers fulfill all institutional requirements, including research ethics board or Institutional Review Board (IRB) review if needed, in order to use Databrary materials.
 
 
 
@@ -22,4 +22,4 @@ If you are a **researcher**, see [this section](authorized-researchers.qmd) abou
 
 If you are a **research staff member, postdoc, graduate or undergraduate student**, see [this section](sponsored-researchers.qmd) for information about how to gain access to restricted data via your research supervisor. 
 
-Any person may browse and view Databrary's public materials consistent with the [Terms & Conditions of Use](add new .qmd).
+Any person may browse and view Databrary's public materials consistent with the [Terms & Conditions of Use](/appendices/terms.qmd). You may only download public materials if you are logged in to Databrary.
