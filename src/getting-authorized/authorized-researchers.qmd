@@ -19,7 +19,7 @@ If these criteria apply to you, you must [register](https://nyu.databrary.org/us
 
 If you would like to check if your institution is already part of the Databrary community, you can search through the [full list of institutions](https://databrary.org/search?tab=2) on Databrary.
 
-If your institution is not yet a part of the Databrary community, please read our [Databrary Community](../for-institutions/join-the-databrary-community.qmd) page
+If your institution is not yet a part of the Databrary community, please read our [Databrary Community](../for-institutions/join-the-databrary-community.qmd) page.
 
 ### 1. Register on Databrary
 
@@ -27,7 +27,7 @@ Registration involves creating an account using your institutional email, settin
 
 ::: {.callout-note}
 
-An institutional email address is granted to you by the institution/university in which you are employed and does NOT end in `.com`.
+An institutional email address is the email address granted to you by the institution or university in which you are employed and does **not** end in `.com`.
 
 :::
 
@@ -35,7 +35,9 @@ An institutional email address is granted to you by the institution/university i
 
 Requesting authorization involves securing approval and signatures from both you and the Authorized Organizational Representative (AOR) at your institution on the [Databrary Access Agreement (DAA)](../appendices/access_agreement.qmd) and its Annexes.
 
-If you know who at your institution reviews, approves, and signs data access agreements or other contracts, that is your AOR who will need to sign the DAA. If you don't know who that person at your institution is, Databrary staff will help identify the right person. Databrary will work with you and your institution to secure signatures on the DAA. Please email [contact@databrary.org](contact@databrary.org) if you need assistance in finding your AOR. 
+If you know who at your institution reviews, approves, and signs data access agreements or other contracts, that is your AOR who will need to sign the DAA. If you don't know who that person at your institution is, Databrary staff will help identify the right person. Databrary will work with you and your institution to secure signatures on the DAA. 
+
+Please email [contact@databrary.org](contact@databrary.org) if you need assistance in finding your AOR. 
 
 ### 3. Databrary Authorization Form
 

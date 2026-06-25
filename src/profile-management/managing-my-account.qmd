@@ -1,1 +1,19 @@
 # Managing My Account {-}
+
+You can manage your personal information, account information, notifications, sponsors, and sponsored researchers in your account settings by clicking on the pencil icon.
+
+```{r echo=FALSE}
+knitr::include_graphics("img/edit_profile.png")
+```
+
+## Editting Your Personal Information
+
+Your profile contains your publicly visible personal information. In this section, you can add and update your name and ORCID, select your institutional affiliation, and add a link to a relevant website.
+
+```{r echo=FALSE}
+knitr::include_graphics("img/edit_profile_2.png")
+```
+
+## Editting Your Account Information
+
+Your account contains your login information and two-factor authentication status. 

@@ -2,4 +2,77 @@
 
 Databrary requires two-factor authentication (2FA) to protect your account and the sensitive research data you access. This guide will help you set up and use an authenticator app.
 
-For more information, please go to the [2FA Guide](https://databrary.org/support/authenticator-guide) on our website.
+## What is Two-Factor Authentication?
+
+Two-factor authentication adds an extra layer of security to your account. In addition to your password, you'll need to enter a 6-digit code from an authenticator app on your phone or computer each time you log in.
+
+## Compatible Authenticator Apps
+
+Any TOTP (Time-based One-Time Password) compatible authenticator app will work with Databrary. Here are some common options:
+
+- Google Authenticator (iOS/Android) — Free and simple to use. Available on the App Store and Google Play.
+- Microsoft Authenticator (iOS/Android) — Free, with cloud backup support. Available on the App Store and Google Play.
+- Duo Mobile (iOS/Android) — Popular in educational institutions. If your institution uses Duo, you may already have this installed. Available on the App Store and Google Play.
+- Authy (iOS/Android/Desktop) — Free, supports multi-device sync and encrypted cloud backups. Available at authy.com.
+- Apple Passwords (iOS/macOS) — Built into Apple devices. On iOS 18+ and macOS Sequoia+, use the standalone Passwords app. On older versions, access via Settings → Passwords.
+- Password Managers — Many password managers like 1Password, Bitwarden, and LastPass include TOTP authenticator functionality.
+
+## Setting Up Two-Factor Authentication
+
+1. Download an authenticator app — Choose one of the apps listed above and install it on your device.
+2. Scan the QR code — During registration or login, Databrary will display a QR code. Open your authenticator app and use it to scan the code.
+3. Enter the verification code — Your authenticator app will display a 6-digit code that changes every 30 seconds. Enter this code to complete setup.
+4. Save your recovery phrase — After setup, you'll receive a 12-word recovery phrase. Store this in a safe place — you can use it to regain access if you lose your authenticator device.
+
+## Can't Scan the QR Code?
+
+If your authenticator app can't scan the QR code, you can set up manually:
+
+1. Click "Can't scan? Set up manually instead" on the setup screen.
+2. In your authenticator app, choose to add an account manually or enter a setup key.
+3. Enter the setup key shown on the Databrary setup screen. Use these settings:
+- Type: Time-based (TOTP)
+- Digits: 6
+- Time step: 30 seconds
+- Algorithm: SHA-1
+
+## Logging In with Two-Factor Authentication
+
+1. Enter your email and password as usual.
+2. Open your authenticator app and find your Databrary account.
+3. Enter the current 6-digit code shown in the app.
+
+::: {.callout-note}
+Codes change every 30 seconds. If a code doesn't work, wait for the next one and try again.
+:::
+
+## Lost Access to Your Authenticator?
+
+If you've lost access to your authenticator app:
+
+1. On the login screen, after entering your password, click "Use recovery phrase instead".
+2. Enter your 12-word recovery phrase.
+3. You'll be prompted to set up a new authenticator — scan the new QR code with your authenticator app.
+
+::: {.callout-note}
+If you don't have your recovery phrase and can't access your authenticator app, please [contact us](https://databrary.org/support/contact-us) for assistance.
+:::
+
+## Troubleshooting
+
+### Code not working? 
+
+Make sure the time on your phone is accurate. TOTP codes depend on synchronized time so you must enable automatic time setting on your device.
+
+### Multiple Databrary entries? 
+
+If you see multiple Databrary entries in your authenticator app, use the most recent one. You can delete older entries.
+
+### Switching phones? 
+
+Before switching to a new phone, either:
+
+- Use an authenticator app that supports cloud backup (ie. Microsoft Authenticator or Authy)
+- Keep your recovery phrase handy to set up on the new device
+
+
