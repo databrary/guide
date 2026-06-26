@@ -665,18 +665,40 @@
     "href": "profile-management/managing-my-account.html",
     "title": "Managing My Account",
     "section": "",
-    "text": "Editting Your Personal Information\nYou can manage your personal information, account information, notifications, sponsors, and sponsored researchers in your account settings by clicking on the pencil icon.\nYour profile contains your publicly visible personal information. In this section, you can add and update your name and ORCID, select your institutional affiliation, and add a link to a relevant website.",
+    "text": "Editing Your Personal Information\nYou can manage your personal information, account information, notifications, sponsors, and sponsored researchers in your account settings by clicking on the pencil icon.\nYour profile contains your publicly visible personal information. In this section, you can add and update your name and ORCID, select your institutional affiliation, and add a link to a relevant website.",
     "crumbs": [
       "Profile Management",
       "Managing My Account"
     ]
   },
   {
-    "objectID": "profile-management/managing-my-account.html#editting-your-account-information",
-    "href": "profile-management/managing-my-account.html#editting-your-account-information",
+    "objectID": "profile-management/managing-my-account.html#editing-your-account-information",
+    "href": "profile-management/managing-my-account.html#editing-your-account-information",
     "title": "Managing My Account",
-    "section": "Editting Your Account Information",
-    "text": "Editting Your Account Information\nYour account contains your login information and two-factor authentication status.",
+    "section": "Editing Your Account Information",
+    "text": "Editing Your Account Information\nYour account contains your login information and two-factor authentication status.",
+    "crumbs": [
+      "Profile Management",
+      "Managing My Account"
+    ]
+  },
+  {
+    "objectID": "profile-management/managing-my-account.html#editing-your-notifications-settings",
+    "href": "profile-management/managing-my-account.html#editing-your-notifications-settings",
+    "title": "Managing My Account",
+    "section": "Editing Your Notifications Settings",
+    "text": "Editing Your Notifications Settings\nYour notifications settings is where you can set your notification, alert, and email preferences for: - Your account - Your authorization status - Your affiliates - Your volume activity - Sitewide activity - Newsletter subscription - Download status - Transcoding status - File upload status - Linked content activity\n\n\n\n\n\n\n\n\n\nYou can set your preferences to be: - Immediate Email - Immediate Email and Notification - Online Only - Daily Digest - Weekly Digest - None",
+    "crumbs": [
+      "Profile Management",
+      "Managing My Account"
+    ]
+  },
+  {
+    "objectID": "profile-management/managing-my-account.html#editing-your-sponsors",
+    "href": "profile-management/managing-my-account.html#editing-your-sponsors",
+    "title": "Managing My Account",
+    "section": "Editing Your Sponsors",
+    "text": "Editing Your Sponsors\nYour sponsors page is where you can request authorization from a research sponsor and institution, review sponsorship requests and review your current sponsors under you.",
     "crumbs": [
       "Profile Management",
       "Managing My Account"
@@ -757,6 +779,16 @@
     "crumbs": [
       "Profile Management",
       "2FA Guidelines"
+    ]
+  },
+  {
+    "objectID": "managing-my-sponsored-researchers/start.html",
+    "href": "managing-my-sponsored-researchers/start.html",
+    "title": "Managing My Sponsored Researchers",
+    "section": "",
+    "text": "External Institution Sponsorships\nAs a Databrary Authorized Investigator, you can\nIf permitted by their institution, an Authorized Investigator may sponsor a person outside of their institution and grant them Sponsored Researcher status. Institutions may establish policies governing the selection and management of Sponsored Researchers by their Authorized Investigators.\nIf you are eligible to be an Authorized Investigator at your home institution, you must apply for access to Databrary through your home institution. Except in unusual circumstances, researchers eligible to be Authorized Investigators at your home institution should not be granted access to Databrary as the Sponsored Researcher of another Authorized Investigator either from the same institution or a different one. Databrary welcomes questions about these policies. Please email contact@databrary.org.",
+    "crumbs": [
+      "Managing My Sponsored Researchers"
     ]
   },
   {
