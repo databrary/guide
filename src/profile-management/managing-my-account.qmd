@@ -8,7 +8,7 @@ knitr::include_graphics("img/edit_profile.png")
 
 ## Editing Your Personal Information
 
-Your profile contains your publicly visible personal information. In this section, you can add and update your name and ORCID, select your institutional affiliation, and add a link to a relevant website.
+Your profile contains your publicly visible personal information. In this section, you can add and update your name and ORCID, select your institutional affiliation, and add a link to a relevant website (i.e. personal profile page on your institution's website).
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/edit_profile_2.png")
@@ -25,6 +25,7 @@ knitr::include_graphics("img/edit_account.png")
 ## Editing Your Notifications Settings
 
 Your notifications settings is where you can set your notification, alert, and email preferences for:
+
 - Your account
 - Your authorization status
 - Your affiliates
@@ -41,6 +42,7 @@ knitr::include_graphics("img/notification_settings.png")
 ```
 
 You can set your preferences to be: 
+
 - Immediate Email
 - Immediate Email and Notification
 - Online Only
@@ -52,9 +54,11 @@ You can set your preferences to be:
 knitr::include_graphics("img/notification_settings_2.png")
 ```
 
+Databrary does not control your personal notification settings.
+
 ## Editing Your Sponsors
 
-Your sponsors page is where you can request authorization from a research sponsor and institution, review sponsorship requests and review your current sponsors under you. 
+Your sponsors page is where you can request authorization from a research sponsor and institution, review sponsorship requests, and review your current sponsors under you. 
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/sponsors.png")

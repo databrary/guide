@@ -26,7 +26,7 @@ Your dashboard also displays your sponsors and your sponsored researchers, if ap
 knitr::include_graphics("img/sponsors_sponsored_researchers.png")
 ```
 
-Selecting a sponsor or sponsor researcher from your list will highlight all the volumes in your volume list that the selected person has access to.
+Selecting a sponsor or sponsored researcher from your list will highlight all the volumes in your volume list that the selected person has access to.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/highlight_volume.png")

@@ -655,7 +655,7 @@
     "href": "profile-management/start.html#profile-dashboard",
     "title": "Profile Management",
     "section": "",
-    "text": "Volumes\nYour dashboard displays all of your volumes and/or volumes that you have access to as a collaborator or sponsored researcher.\n\n\n\n\n\n\n\n\n\nThrough your dashboard, you can create a new volume and search for a specific volume or volume owner through your volume list.\n\n\n\n\n\n\n\n\n\n\n\nSponsors and Sponsored Researchers\nYour dashboard also displays your sponsors and your sponsored researchers, if applicable.\n\n\n\n\n\n\n\n\n\nSelecting a sponsor or sponsor researcher from your list will highlight all the volumes in your volume list that the selected person has access to.\n\n\n\n\n\n\n\n\n\nFor more information about how to manage your sponsored researchers, see this section",
+    "text": "Volumes\nYour dashboard displays all of your volumes and/or volumes that you have access to as a collaborator or sponsored researcher.\n\n\n\n\n\n\n\n\n\nThrough your dashboard, you can create a new volume and search for a specific volume or volume owner through your volume list.\n\n\n\n\n\n\n\n\n\n\n\nSponsors and Sponsored Researchers\nYour dashboard also displays your sponsors and your sponsored researchers, if applicable.\n\n\n\n\n\n\n\n\n\nSelecting a sponsor or sponsored researcher from your list will highlight all the volumes in your volume list that the selected person has access to.\n\n\n\n\n\n\n\n\n\nFor more information about how to manage your sponsored researchers, see this section",
     "crumbs": [
       "Profile Management"
     ]
@@ -665,7 +665,7 @@
     "href": "profile-management/managing-my-account.html",
     "title": "Managing My Account",
     "section": "",
-    "text": "Editing Your Personal Information\nYou can manage your personal information, account information, notifications, sponsors, and sponsored researchers in your account settings by clicking on the pencil icon.\nYour profile contains your publicly visible personal information. In this section, you can add and update your name and ORCID, select your institutional affiliation, and add a link to a relevant website.",
+    "text": "Editing Your Personal Information\nYou can manage your personal information, account information, notifications, sponsors, and sponsored researchers in your account settings by clicking on the pencil icon.\nYour profile contains your publicly visible personal information. In this section, you can add and update your name and ORCID, select your institutional affiliation, and add a link to a relevant website (i.e. personal profile page on your institution’s website).",
     "crumbs": [
       "Profile Management",
       "Managing My Account"
@@ -687,7 +687,7 @@
     "href": "profile-management/managing-my-account.html#editing-your-notifications-settings",
     "title": "Managing My Account",
     "section": "Editing Your Notifications Settings",
-    "text": "Editing Your Notifications Settings\nYour notifications settings is where you can set your notification, alert, and email preferences for: - Your account - Your authorization status - Your affiliates - Your volume activity - Sitewide activity - Newsletter subscription - Download status - Transcoding status - File upload status - Linked content activity\n\n\n\n\n\n\n\n\n\nYou can set your preferences to be: - Immediate Email - Immediate Email and Notification - Online Only - Daily Digest - Weekly Digest - None",
+    "text": "Editing Your Notifications Settings\nYour notifications settings is where you can set your notification, alert, and email preferences for:\n\nYour account\nYour authorization status\nYour affiliates\nYour volume activity\nSitewide activity\nNewsletter subscription\nDownload status\nTranscoding status\nFile upload status\nLinked content activity\n\n\n\n\n\n\n\n\n\n\nYou can set your preferences to be:\n\nImmediate Email\nImmediate Email and Notification\nOnline Only\nDaily Digest\nWeekly Digest\nNone\n\n\n\n\n\n\n\n\n\n\nDatabrary does not control your personal notification settings.",
     "crumbs": [
       "Profile Management",
       "Managing My Account"
@@ -698,7 +698,7 @@
     "href": "profile-management/managing-my-account.html#editing-your-sponsors",
     "title": "Managing My Account",
     "section": "Editing Your Sponsors",
-    "text": "Editing Your Sponsors\nYour sponsors page is where you can request authorization from a research sponsor and institution, review sponsorship requests and review your current sponsors under you.",
+    "text": "Editing Your Sponsors\nYour sponsors page is where you can request authorization from a research sponsor and institution, review sponsorship requests, and review your current sponsors under you.",
     "crumbs": [
       "Profile Management",
       "Managing My Account"
