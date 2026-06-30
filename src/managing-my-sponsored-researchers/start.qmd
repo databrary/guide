@@ -1,6 +1,12 @@
-# Managing My Sponsored Researchers {.unnumbered}
+# Managing Sponsored Researchers {.unnumbered}
 
-As a Databrary Authorized Investigator, you can 
+As a Databrary Authorized Investigator, you can sponsor your students, research staff, and post-doctoral researchers who conduct research under your supervision.
+
+For more information about who can be your sponsored researcher, see [this section](/getting-authorized/sponsored-researchers.qmd).
+
+::: {.callout-important}
+You are not responsible for the use of Databrary by another individual who qualifies for Authorized Investigator status at their home institution.
+:::
 
 ## External Institution Sponsorships
 

@@ -32,4 +32,4 @@ Selecting a sponsor or sponsored researcher from your list will highlight all th
 knitr::include_graphics("img/highlight_volume.png")
 ```
 
-For more information about how to manage your sponsored researchers, see [this section](/managing-my-sponsored-researchers.qmd)  
+For more information about how to manage your sponsored researchers, see [this section](/managing-my-sponsored-researchers.qmd).  

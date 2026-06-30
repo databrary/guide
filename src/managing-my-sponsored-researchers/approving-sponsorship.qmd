@@ -1,10 +1,25 @@
 # Approving Sponsorship {.unnumbered}
 
-## Sponsored Researcher Eligibility {-}
+After you have registered as a Databrary Authorized Investigator, you can request and grant Sponsored Researcher access to your students, research staff, and post-doctoral researchers.
+
+## How to Grant Access to Sponsored Researchers
+
+1. Log in to your Databrary account.
+2. Navigate to your profile by clicking on your name in the top-right corner. 
+```{r echo=FALSE}
+knitr::include_graphics("img/navigate-profile.png")
+```
+3. Click on the 'edit' button next to your name.
+```{r echo=FALSE}
+knitr::include_graphics("img/edit-profile.png")
+```
+4. Navigate to the 'Sponsored Researchers' page to review your sponsored researcher requests.
+```{r echo=FALSE}
+knitr::include_graphics("img/edit-affiliates.png")
+```
+
+::: {.callout-important}
+Sponsored Researchers will not have access to non-public data on Databrary until *after* the Authorized Investigator has submitted all paperwork to Databrary and has granted the Sponsored Researcher appropriate access.
+:::
 
 
-## External Sponsored Researcher Eligibility {-}
-
-If permitted by their Institution, an Authorized Investigator may grant a person outside their Institution Affiliate status. Institutions may establish policies governing the selection and management of Affiliates by their Authorized Investigators.
-
-If a person is eligible to be an Authorized Investigator at their home Institution, that person must apply for access to Databrary through their home Institution. Except in unusual circumstances, researchers eligible to be Authorized Investigators at their home Institution should not be granted access to Databrary as the Sponsored Researcher of another Authorized Investigator either from the same Institution or a different one. Databrary welcomes questions about these policies. Please email [contact@databrary.org](contact@databrary.org).
