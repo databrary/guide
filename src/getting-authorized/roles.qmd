@@ -1,12 +1,12 @@
 # Authorized Roles {.unnumbered}
 
-There are two types of roles a person may be authorized with on Databrary, **Authorized Investigator** or **Sponsored Researcher**. 
+There are two types of roles a person may be authorized with on Databrary, **Authorized Investigator** or **Supervised Researcher**. 
 
 ## Authorized Investigator
 
 ### What is an Authorized Investigator?
 
-An Authorized Investigator is typically a person who has PI status or equivalent at their institution. On Databrary, Authorized Investigators have the ability to authorize research staff, post-docs, or students as Sponsored Researchers. They have the ability to create volumes, manage collaborators on their volumes, and share their volume publicly on Databrary.
+An Authorized Investigator is typically a person who has PI status or equivalent at their institution. On Databrary, Authorized Investigators have the ability to authorize research staff, post-docs, or students as Supervised Researchers. Only Authorized Investigators have the ability to create volumes, manage collaborators on their volumes, and share their volume publicly on Databrary.
 
 ### Eligibility
 
@@ -21,35 +21,35 @@ Databrary policies and your home institution determine whether you are eligible 
 - I sponsor and supervise lab staff and students who work on my projects or on collaborative projects, and I have authority to supervise their access to data that I share or others have shared on Databrary.
 
 ### Seeking Authorization
-If these criteria apply to you, you can find more information [here.](authorized-researchers.qmd)
+If these criteria apply to you, you can find more information about how to request authorization [here.](authorized-researchers.qmd)
 
-## Sponsored Researcher
+## Supervised Researcher
 
-### What is a Sponsored Researcher?
+### What is a Supervised Researcher?
 
 ::: {.callout-note}
 
-Sponsored Researchers are currently referred to as "Affiliates" on Databrary. By August 2026, the term "Affiliates" will be removed and changed to  "Sponsored Researchers". 
+Supervised Researchers are currently referred to as "Affiliates" on Databrary. By August 2026, the term "Affiliates" will be removed and changed to  "Supervised Researchers". 
 
 :::
 
-A Sponsored Researcher is typically a student or research staff who conducts research under a research supervisor. On Databrary, Sponsored Researchers have the ability to edit their Authorized Investigator's volumes, as well as any volumes that they are added as a collaborator. 
+A Supervised Researcher is typically a student or research staff who conducts research under a research supervisor. On Databrary, Supervised Researchers have the ability to edit their Authorized Investigator's volumes, as well as any volumes that they are added to as a collaborator. 
 
 ::: {.callout-note}
 
-In some cases, a Sponsored Researcher may be able to create volumes if their Authorized Investigator upgrades their account privileges.  
+In some cases, a Supervised Researcher may be able to create volumes if their Authorized Investigator upgrades their account privileges.  
 
 :::
 
 ### Eligibility
 
-Databrary policies, your home institution, and the Authorized Investigator who supervises your research determines whether you are eligible to be granted access to Databrary as a Sponsored Researcher. To be eligible as a Databrary Sponsored Researcher, you must meet these criteria:
+Databrary policies, your home institution, and the Authorized Investigator who supervises your research determines whether you are eligible to be granted access to Databrary as a Supervised Researcher. To be eligible as a Databrary Supervised Researcher, you must meet these criteria:
 
 - I conduct research under the supervision of an Authorized Investigator’s sponsorship or someone who is eligible to become an Authorized Investigator;
 - I am a student, research staff, or post-doctoral researcher.
 - I have current training that addresses research ethics with human subjects (e.g.[CITI training](https://about.citiprogram.org/)).
 
-Before you can be authorized as a Sponsored Researcher, your research supervisor must be authorized as an Authorized Investigator on Databrary. 
+Before you can be authorized as a Supervised Researcher, your research supervisor must be authorized as an Authorized Investigator on Databrary. 
 
 ### Seeking Authorization
-If these criteria apply to you, you can find more information [here.](sponsored-researchers.qmd)
+If these criteria apply to you, you can find more information about how to request authorization [here.](sponsored-researchers.qmd)

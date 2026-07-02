@@ -5,7 +5,7 @@ After you have registered as a Databrary Authorized Investigator, you can reques
 ## How to Grant Access to Sponsored Researchers
 
 1. Log in to your Databrary account.
-2. Navigate to your profile by clicking on your name in the top-right corner. 
+2. Navigate to your profile by clicking on your name in the top-right corner.  
 ```{r echo=FALSE}
 knitr::include_graphics("img/navigate-profile.png")
 ```

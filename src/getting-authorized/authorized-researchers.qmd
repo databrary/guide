@@ -39,6 +39,6 @@ If you know who at your institution reviews, approves, and signs data access agr
 
 Please email [contact@databrary.org](contact@databrary.org) if you need assistance in finding your AOR. 
 
-### 3. Databrary Authorization Form
+### 3. Databrary Authorization Request Form
 
-Lastly, please fill out the [Databrary Authorization form](https://airtable.com/appcrDDgPR8DGVGsS/shrtBwpYGFbvylwCV). Once your responses are submitted, the Databrary team will contact you with next steps.
+Lastly, please fill out the [Databrary Authorization Request form](https://airtable.com/appcrDDgPR8DGVGsS/shrtBwpYGFbvylwCV). Once your responses are submitted, the Databrary team will contact you with next steps.

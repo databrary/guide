@@ -20,6 +20,8 @@ Registration involves creating an account using your institutional email, settin
 
 If your research supervisor is already a Databrary Authorized Investigator, that person will receive a request to add you to their list of sponsored researchers.
 
-If your research supervisor is **not** a Databrary Authorized Investigator, they will need to register for Databrary, request authorization from their institution, and complete authorization.
+If your research supervisor is **not** a Databrary Authorized Investigator, they will need to register for Databrary, request authorization from their institution, and complete authorization. Your research supervisor can find more information about how to register as a Databrary Authorized Investigator, [here](../getting-authorized/authorized-researchers.qmd).
 
-The authorization process involves approval from an institutional official by means of formal signatures on the [Databrary Access Agreement](../appendices/access_agreement.qmd) and its Annexes.
+The authorization and approval process is **not** immediate. This process requires coordination across university administration and may take weeks to months.
+
+
