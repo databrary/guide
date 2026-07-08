@@ -601,7 +601,7 @@
     "href": "getting-authorized/authorized-researchers.html#seeking-authorization",
     "title": "Principal Investigators",
     "section": "Seeking Authorization",
-    "text": "Seeking Authorization\nIf these criteria apply to you, you must register on Databrary, request authorization from your institution, and complete our Databrary Authorization form.\nIf you would like to check if your institution is already part of the Databrary community, you can search through the full list of institutions on Databrary.\nIf your institution is not yet a part of the Databrary community, please read our Databrary Community page.\n\n1. Register on Databrary\nRegistration involves creating an account using your institutional email, setting a password, and confirming your account.\n\n\n\n\n\n\nNote\n\n\n\nAn institutional email address is the email address granted to you by the institution or university in which you are employed and does not end in .com.\n\n\n\n\n2. Request Authorization\nRequesting authorization involves securing approval and signatures from both you and the Authorized Organizational Representative (AOR) at your institution on the Databrary Access Agreement (DAA) and its Annexes.\nIf you know who at your institution reviews, approves, and signs data access agreements or other contracts, that is your AOR who will need to sign the DAA. If you don’t know who that person at your institution is, Databrary staff will help identify the right person. Databrary will work with you and your institution to secure signatures on the DAA.\nPlease email contact@databrary.org if you need assistance in finding your AOR.\n\n\n3. Databrary Authorization Request Form\nLastly, please fill out the Databrary Authorization Request form. Once your responses are submitted, the Databrary team will contact you with next steps.",
+    "text": "Seeking Authorization\nIf these criteria apply to you, you must register on Databrary, request authorization from your institution, and complete our Databrary Authorization form.\nIf you would like to check if your institution is already part of the Databrary community, you can search through the full list of institutions on Databrary.\nIf your institution is not yet a part of the Databrary community, please read our Databrary Community page.\n\n1. Register on Databrary\nRegistration involves creating an account using your institutional email, setting a password, and confirming your account. You can register for a Databrary account through this link.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nAn institutional email address is the email address granted to you by the institution or university in which you are employed and does not end in .com.\n\n\n\n\n2. Request Authorization\nRequesting authorization involves securing approval and signatures from both you and the Authorized Organizational Representative (AOR) at your institution on the Databrary Access Agreement (DAA) and its Annexes.\nIf you know who at your institution reviews, approves, and signs data access agreements or other contracts, that is your AOR who will need to sign the DAA. If you don’t know who that person at your institution is, Databrary staff will help identify the right person. Databrary will work with you and your institution to secure signatures on the DAA.\nPlease email contact@databrary.org if you need assistance in finding your AOR.\n\n\n3. Databrary Authorization Request Form\nLastly, please fill out the Databrary Authorization Request form. Once your responses are submitted, the Databrary team will contact you with next steps.",
     "crumbs": [
       "Getting Authorized",
       "Principal Investigators"
@@ -634,7 +634,7 @@
     "href": "getting-authorized/sponsored-researchers.html#seeking-authorization",
     "title": "Research Staff and Students",
     "section": "Seeking Authorization",
-    "text": "Seeking Authorization\nIf these factors apply to you, must register for Databrary, request authorization from your research supervisor, and secure that person’s authorization.\n\n1. Register on Databrary\nRegistration involves creating an account using your institutional email, setting a password, and confirming your account.\n\n\n2. Request Authorization From Your Research Supervisor\nIf your research supervisor is already a Databrary Authorized Investigator, that person will receive a request to add you to their list of sponsored researchers.\nIf your research supervisor is not a Databrary Authorized Investigator, they will need to register for Databrary, request authorization from their institution, and complete authorization. Your research supervisor can find more information about how to register as a Databrary Authorized Investigator, here.\nThe authorization and approval process is not immediate. This process requires coordination across university administration and may take weeks to months.",
+    "text": "Seeking Authorization\nIf these factors apply to you, must register for Databrary, request authorization from your research supervisor, and secure that person’s authorization.\n\n1. Register on Databrary\nRegistration involves creating an account using your institutional email, setting a password, and confirming your account. You can register for a Databrary account through this link.\n\n\n\n\n\n\n\n\n\n\n\n2. Request Authorization From Your Research Supervisor\nIf your research supervisor is already a Databrary Authorized Investigator, that person will receive a request to add you to their list of sponsored researchers.\nIf your research supervisor is not a Databrary Authorized Investigator, they will need to register for Databrary, request authorization from their institution, and complete authorization. Your research supervisor can find more information about how to register as a Databrary Authorized Investigator, here.\nThe authorization and approval process is not immediate. This process requires coordination across university administration and may take weeks to months.",
     "crumbs": [
       "Getting Authorized",
       "Research Staff and Students"
@@ -698,7 +698,7 @@
     "href": "profile-management/managing-my-account.html#editing-your-sponsors",
     "title": "Managing My Account",
     "section": "Editing Your Sponsors",
-    "text": "Editing Your Sponsors\nYour sponsors page is where you can request authorization from a research sponsor and institution, review sponsorship requests, and review your current sponsors under you.",
+    "text": "Editing Your Sponsors\nYour sponsors page is where you can request authorization from a research sponsor and institution, review sponsorship requests, and review the institutions and people currently sponsoring you.",
     "crumbs": [
       "Profile Management",
       "Managing My Account"
@@ -709,7 +709,7 @@
     "href": "profile-management/2FA-guidelines.html",
     "title": "2FA Guidelines",
     "section": "",
-    "text": "What is Two-Factor Authentication?\nDatabrary requires two-factor authentication (2FA) to protect your account and the sensitive research data you access. This guide will help you set up and use an authenticator app.\nTwo-factor authentication adds an extra layer of security to your account. In addition to your password, you’ll need to enter a 6-digit code from an authenticator app on your phone or computer each time you log in.",
+    "text": "What is Two-Factor Authentication?\nIn early 2026 Two Factor Authentication (2FA) was implemented as a required security update.\nDatabrary requires two-factor authentication (2FA) to protect your account and the sensitive research data you access. This guide will help you set up and use an authenticator app.\nTwo-factor authentication adds an extra layer of security to your account. In addition to your password, you’ll need to enter a 6-digit code from an authenticator app on your phone or computer each time you log in.",
     "crumbs": [
       "Profile Management",
       "2FA Guidelines"
@@ -796,7 +796,7 @@
     "href": "managing-my-sponsored-researchers/approving-sponsorship.html",
     "title": "Approving Sponsorship",
     "section": "",
-    "text": "How to Grant Access to Sponsored Researchers\nAfter you have registered as a Databrary Authorized Investigator, you can request and grant Sponsored Researcher access to your students, research staff, and post-doctoral researchers.",
+    "text": "How to Grant Access to Sponsored Researchers\nAfter you have registered as a Databrary Authorized Investigator, you can request and grant Sponsored Researcher access to your students, research staff, and post-doctoral researchers.\nAccess to other researcher’s data shared on Databrary\nGranting no access",
     "crumbs": [
       "Managing Sponsored Researchers",
       "Approving Sponsorship"
@@ -807,7 +807,7 @@
     "href": "managing-my-sponsored-researchers/approving-sponsorship.html#how-to-grant-access-to-sponsored-researchers",
     "title": "Approving Sponsorship",
     "section": "",
-    "text": "Log in to your Databrary account.\nNavigate to your profile by clicking on your name in the top-right corner.\n\n\n\nClick on the ‘edit’ button next to your name.\n\n\n\nNavigate to the ‘Sponsored Researchers’ page to review your sponsored researcher requests.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nSponsored Researchers will not have access to non-public data on Databrary until after the Authorized Investigator has submitted all paperwork to Databrary and has granted the Sponsored Researcher appropriate access.",
+    "text": "Log in to your Databrary account.\nNavigate to your profile by clicking on your name in the top-right corner.\n\n\n\nClick on the ‘edit’ button next to your name.\n\n\n\nNavigate to the ‘Sponsored Researchers’ page to review your sponsored researcher requests.\n\n\n\nClick “Authorize New Affiliate” and type in the name of the person you would like to sponsor.\n\n\n\nReview the type of access you are granting to your Supervised Researcher and set the expiration date of their sponsorship.\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nSponsored Researchers will not have access to non-public data on Databrary until after the Authorized Investigator has submitted all paperwork to Databrary and has granted the Sponsored Researcher appropriate access.",
     "crumbs": [
       "Managing Sponsored Researchers",
       "Approving Sponsorship"
@@ -1769,6 +1769,17 @@
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>J</span>  <span class='chapter-title'>Grants</span>"
+    ]
+  },
+  {
+    "objectID": "profile-management/managing-my-account.html#editing-your-supervised-researchers",
+    "href": "profile-management/managing-my-account.html#editing-your-supervised-researchers",
+    "title": "Managing My Account",
+    "section": "Editing Your Supervised Researchers",
+    "text": "Editing Your Supervised Researchers\nIf you are an Authorized Investigator, your affiliates page is where you can review, approve, and renew authorization requests from your research staff, post-docs, or students.\nYou can find more information about how to manage your supervised researchers in this section, Managing Supervised Researchers.",
+    "crumbs": [
+      "Profile Management",
+      "Managing My Account"
     ]
   }
 ]

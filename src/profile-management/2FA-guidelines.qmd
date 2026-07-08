@@ -1,5 +1,7 @@
 # 2FA Guidelines {.unnumbered}
 
+In early 2026 Two Factor Authentication (2FA) was implemented as a required security update. 
+
 Databrary requires two-factor authentication (2FA) to protect your account and the sensitive research data you access. This guide will help you set up and use an authenticator app.
 
 ## What is Two-Factor Authentication?

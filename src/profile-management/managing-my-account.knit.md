@@ -1,0 +1,103 @@
+# Managing My Account {-}
+
+You can manage your personal information, account information, notifications, sponsors, and sponsored researchers in your account settings by clicking on the pencil icon.
+
+
+::: {.cell}
+::: {.cell-output-display}
+![](img/edit_profile.png)
+:::
+:::
+
+
+## Editing Your Personal Information
+
+Your profile contains your publicly visible personal information. In this section, you can add and update your name and ORCID, select your institutional affiliation, and add a link to a relevant website (i.e. personal profile page on your institution's website).
+
+
+::: {.cell}
+::: {.cell-output-display}
+![](img/edit_profile_2.png)
+:::
+:::
+
+
+## Editing Your Account Information
+
+Your account contains your login information and two-factor authentication status. 
+
+
+::: {.cell}
+::: {.cell-output-display}
+![](img/edit_account.png)
+:::
+:::
+
+
+## Editing Your Notifications Settings
+
+Your notifications settings is where you can set your notification, alert, and email preferences for:
+
+- Your account
+- Your authorization status
+- Your affiliates
+- Your volume activity
+- Sitewide activity
+- Newsletter subscription
+- Download status
+- Transcoding status
+- File upload status
+- Linked content activity
+
+
+::: {.cell}
+::: {.cell-output-display}
+![](img/notification_settings.png)
+:::
+:::
+
+
+You can set your preferences to be: 
+
+- Immediate Email
+- Immediate Email and Notification
+- Online Only
+- Daily Digest
+- Weekly Digest
+- None
+
+
+::: {.cell}
+::: {.cell-output-display}
+![](img/notification_settings_2.png)
+:::
+:::
+
+
+Databrary does not control your personal notification settings.
+
+## Editing Your Sponsors
+
+Your sponsors page is where you can request authorization from a research sponsor and institution, review sponsorship requests, and review the institutions and people currently sponsoring you. 
+
+
+::: {.cell}
+::: {.cell-output-display}
+![](img/sponsors.png)
+:::
+:::
+
+
+## Editing Your Supervised Researchers
+
+If you are an Authorized Investigator, your affiliates page is where you can review, approve, and renew authorization requests from your research staff, post-docs, or students. 
+
+You can find more information about how to manage your supervised researchers in this section, [Managing Supervised Researchers](../managing-my-sponsored-researchers.qmd).
+
+
+::: {.cell}
+::: {.cell-output-display}
+![](img/affiliates.png)
+:::
+:::
+

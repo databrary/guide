@@ -23,7 +23,11 @@ If your institution is not yet a part of the Databrary community, please read ou
 
 ### 1. Register on Databrary
 
-Registration involves creating an account using your institutional email, setting a password, and confirming your account.
+Registration involves creating an account using your institutional email, setting a password, and confirming your account. You can register for a Databrary account through this [link](https://nyu.databrary.org/user/register).
+
+```{r echo=FALSE}
+knitr::include_graphics("img/register.png")
+```
 
 ::: {.callout-note}
 
