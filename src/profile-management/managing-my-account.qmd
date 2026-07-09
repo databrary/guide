@@ -43,12 +43,12 @@ knitr::include_graphics("img/notification_settings.png")
 
 You can set your preferences to be: 
 
-- Immediate Email
-- Immediate Email and Notification
-- Online Only
-- Daily Digest
-- Weekly Digest
-- None
+- **Immediate Email**: An email is sent right away as soon as the triggering event occurs. No in-app notification is created for this option.
+- **Immediate Email and Notification**: The user receives both an immediate email and an in-app notification for the same event at the same time.
+- **Online Only**: The user only receives an in-app notification, which is visible in the notifications panel on the site, and no email is sent. If the user has push notifications enabled, they may also get a push notification.
+- **Daily Digest**: Notifications for the event are batched and sent once per day in a single summary email, delivered each morning at approximately 6:30 AM EST.
+- **Weekly Digest**: Notifications for the event are batched and sent once per week in a single summary email, delivered Sunday mornings at approximately 5:00 AM EST.
+- **None**: No notification is sent at all for that event type.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/notification_settings_2.png")
@@ -58,7 +58,7 @@ Databrary does not control your personal notification settings.
 
 ## Editing Your Sponsors
 
-Your sponsors page is where you can request authorization from a research sponsor and institution, review sponsorship requests, and review the institutions and people currently sponsoring you. 
+Your sponsors page is where you can request authorization from your research sponsor(s) and institution(s), review sponsorship requests, and review the institutions and people currently sponsoring you. 
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/sponsors.png")

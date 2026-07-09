@@ -687,7 +687,7 @@
     "href": "profile-management/managing-my-account.html#editing-your-notifications-settings",
     "title": "Managing My Account",
     "section": "Editing Your Notifications Settings",
-    "text": "Editing Your Notifications Settings\nYour notifications settings is where you can set your notification, alert, and email preferences for:\n\nYour account\nYour authorization status\nYour affiliates\nYour volume activity\nSitewide activity\nNewsletter subscription\nDownload status\nTranscoding status\nFile upload status\nLinked content activity\n\n\n\n\n\n\n\n\n\n\nYou can set your preferences to be:\n\nImmediate Email\nImmediate Email and Notification\nOnline Only\nDaily Digest\nWeekly Digest\nNone\n\n\n\n\n\n\n\n\n\n\nDatabrary does not control your personal notification settings.",
+    "text": "Editing Your Notifications Settings\nYour notifications settings is where you can set your notification, alert, and email preferences for:\n\nYour account\nYour authorization status\nYour affiliates\nYour volume activity\nSitewide activity\nNewsletter subscription\nDownload status\nTranscoding status\nFile upload status\nLinked content activity\n\n\n\n\n\n\n\n\n\n\nYou can set your preferences to be:\n\nImmediate Email: An email is sent right away as soon as the triggering event occurs. No in-app notification is created for this option.\nImmediate Email and Notification: The user receives both an immediate email and an in-app notification for the same event at the same time.\nOnline Only: The user only receives an in-app notification, which is visible in the notifications panel on the site, and no email is sent. If the user has push notifications enabled, they may also get a push notification.\nDaily Digest: Notifications for the event are batched and sent once per day in a single summary email, delivered each morning at approximately 6:30 AM EST.\nWeekly Digest: Notifications for the event are batched and sent once per week in a single summary email, delivered Sunday mornings at approximately 5:00 AM EST.\nNone: No notification is sent at all for that event type.\n\n\n\n\n\n\n\n\n\n\nDatabrary does not control your personal notification settings.",
     "crumbs": [
       "Profile Management",
       "Managing My Account"
@@ -698,7 +698,7 @@
     "href": "profile-management/managing-my-account.html#editing-your-sponsors",
     "title": "Managing My Account",
     "section": "Editing Your Sponsors",
-    "text": "Editing Your Sponsors\nYour sponsors page is where you can request authorization from a research sponsor and institution, review sponsorship requests, and review the institutions and people currently sponsoring you.",
+    "text": "Editing Your Sponsors\nYour sponsors page is where you can request authorization from your research sponsor(s) and institution(s), review sponsorship requests, and review the institutions and people currently sponsoring you.",
     "crumbs": [
       "Profile Management",
       "Managing My Account"
@@ -796,7 +796,7 @@
     "href": "managing-my-sponsored-researchers/approving-sponsorship.html",
     "title": "Approving Sponsorship",
     "section": "",
-    "text": "How to Grant Access to Sponsored Researchers\nAfter you have registered as a Databrary Authorized Investigator, you can request and grant Sponsored Researcher access to your students, research staff, and post-doctoral researchers.\nAccess to other researcher’s data shared on Databrary\nGranting no access",
+    "text": "How to Grant Access to Sponsored Researchers\nAfter you have registered as a Databrary Authorized Investigator, you can request and grant Sponsored Researcher access to your students, research staff, and post-doctoral researchers.\nAccess to other researcher’s data shared on Databrary:\nAccess to all of my own data (including private volumes):\nExpiration Date: - The expiration date for your Supervised Researcher can be set to a maximum of one year.",
     "crumbs": [
       "Managing Sponsored Researchers",
       "Approving Sponsorship"
@@ -807,7 +807,7 @@
     "href": "managing-my-sponsored-researchers/approving-sponsorship.html#how-to-grant-access-to-sponsored-researchers",
     "title": "Approving Sponsorship",
     "section": "",
-    "text": "Log in to your Databrary account.\nNavigate to your profile by clicking on your name in the top-right corner.\n\n\n\nClick on the ‘edit’ button next to your name.\n\n\n\nNavigate to the ‘Sponsored Researchers’ page to review your sponsored researcher requests.\n\n\n\nClick “Authorize New Affiliate” and type in the name of the person you would like to sponsor.\n\n\n\nReview the type of access you are granting to your Supervised Researcher and set the expiration date of their sponsorship.\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nSponsored Researchers will not have access to non-public data on Databrary until after the Authorized Investigator has submitted all paperwork to Databrary and has granted the Sponsored Researcher appropriate access.",
+    "text": "Log in to your Databrary account.\nNavigate to your profile by clicking on your name in the top-right corner.\n\n\n\nClick on the ‘edit’ button next to your name.\n\n\n\nNavigate to the ‘Sponsored Researchers’ page to review your sponsored researcher requests.\n\n\n\nClick “Authorize New Affiliate” and type in the name of the person you would like to sponsor.\n\n\n\nReview the type of access you are granting to your Supervised Researcher and set the expiration date of their sponsorship.\n\n\n\n\nGranting no access restricts your Supervised Researcher from accessing non-public data on Databrary. Non-public data includes data that has release levels set to private, authorized users, and learning audiences.\nGranting full access allows your Supervised Researcher to access other researcher’s non-public data on Databrary. They will be able to view data that has release levels set to authorized users, learning audiences, and public.\n\n\n\nGranting no access restricts your Supervised Researcher from accessing your unshared volumes. They can only access your data once you have shared it on Databrary.\n\nGranting view only access allows your Supervised Researcher to view and download your shared and unshared data.\nGranting edit access allows your Supervised Researcher to view, download, and edit your shared and unshared data.\nGranting manager access allows your Supervised Researcher to view, download, and edit your shared and unshared data. They can also create new volumes and manage collaborator access to your volumes on your behalf.\n\n\n\n\n\n\n\nNote\n\n\n\nYour Supervised Researcher cannot share your volume with any access level. Only you as the volume owner can share your volume.\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nSponsored Researchers will not have access to non-public data on Databrary until after the Authorized Investigator has submitted all paperwork to Databrary and has granted the Sponsored Researcher appropriate access.",
     "crumbs": [
       "Managing Sponsored Researchers",
       "Approving Sponsorship"
