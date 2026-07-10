@@ -694,11 +694,11 @@
     ]
   },
   {
-    "objectID": "profile-management/managing-my-account.html#editing-your-sponsors",
-    "href": "profile-management/managing-my-account.html#editing-your-sponsors",
+    "objectID": "profile-management/managing-my-account.html#editing-authorizations-and-supervision",
+    "href": "profile-management/managing-my-account.html#editing-authorizations-and-supervision",
     "title": "Managing My Account",
-    "section": "Editing Your Sponsors",
-    "text": "Editing Your Sponsors\nYour sponsors page is where you can request authorization from your research sponsor(s) and institution(s), review sponsorship requests, and review the institutions and people currently sponsoring you.",
+    "section": "Editing Authorizations and Supervision",
+    "text": "Editing Authorizations and Supervision\nDescription of why sections are split\n\nSupervised ResearchersAuthorized Investigators\n\n\nYour sponsors page is where you can request authorization from your research sponsor(s) and institution(s), review sponsorship requests, and review the institutions and people currently sponsoring you.\n\n\n\n\n\n\n\n\n\n\n\nIf you are an Authorized Investigator, your affiliates page is where you can review, approve, and renew authorization requests from your research staff, post-docs, or students.\n\n\n\n\n\n\n\n\n\nYou can find more information about how to manage your supervised researchers in this section, Managing Supervised Researchers.",
     "crumbs": [
       "Profile Management",
       "Managing My Account"
@@ -786,7 +786,7 @@
     "href": "managing-my-sponsored-researchers/start.html",
     "title": "Managing Sponsored Researchers",
     "section": "",
-    "text": "External Institution Sponsorships\nAs a Databrary Authorized Investigator, you can sponsor your students, research staff, and post-doctoral researchers who conduct research under your supervision.\nFor more information about who can be your sponsored researcher, see this section.\nIf permitted by their institution, an Authorized Investigator may sponsor a person outside of their institution and grant them Sponsored Researcher status. Institutions may establish policies governing the selection and management of Sponsored Researchers by their Authorized Investigators.\nIf you are eligible to be an Authorized Investigator at your home institution, you must apply for access to Databrary through your home institution. Except in unusual circumstances, researchers eligible to be Authorized Investigators at your home institution should not be granted access to Databrary as the Sponsored Researcher of another Authorized Investigator either from the same institution or a different one. Databrary welcomes questions about these policies. Please email contact@databrary.org.",
+    "text": "As a Databrary Authorized Investigator, you can sponsor your students, research staff, and post-doctoral researchers who conduct research under your supervision.\nFor more information about who can be your sponsored researcher, see this section.\n\n\n\n\n\n\nImportant\n\n\n\nYou should not be responsible for the use of Databrary by another individual who qualifies for Authorized Investigator status at their home institution. They are responsible for seeking their own Authorized Investigator status. Information about collaborators\n\n\nFor more information about approving sponsorships, navigate here.\nFor more information about renewing sponsorships, navigate here.\nFor more information about removing sponsored researchers, navigate here.",
     "crumbs": [
       "Managing Sponsored Researchers"
     ]
@@ -796,7 +796,7 @@
     "href": "managing-my-sponsored-researchers/approving-sponsorship.html",
     "title": "Approving Sponsorship",
     "section": "",
-    "text": "How to Grant Access to Sponsored Researchers\nAfter you have registered as a Databrary Authorized Investigator, you can request and grant Sponsored Researcher access to your students, research staff, and post-doctoral researchers.\nAccess to other researcher’s data shared on Databrary:\nAccess to all of my own data (including private volumes):\nExpiration Date: - The expiration date for your Supervised Researcher can be set to a maximum of one year.",
+    "text": "How to Grant Access to Sponsored Researchers\nAfter you have registered as a Databrary Authorized Investigator, you can request and grant Sponsored Researcher access to your students, research staff, and post-doctoral researchers.\nAccess to other researcher’s data shared on Databrary:\nAccess to all of my own data (including private volumes):\nExpiration Date:",
     "crumbs": [
       "Managing Sponsored Researchers",
       "Approving Sponsorship"
@@ -807,10 +807,21 @@
     "href": "managing-my-sponsored-researchers/approving-sponsorship.html#how-to-grant-access-to-sponsored-researchers",
     "title": "Approving Sponsorship",
     "section": "",
-    "text": "Log in to your Databrary account.\nNavigate to your profile by clicking on your name in the top-right corner.\n\n\n\nClick on the ‘edit’ button next to your name.\n\n\n\nNavigate to the ‘Sponsored Researchers’ page to review your sponsored researcher requests.\n\n\n\nClick “Authorize New Affiliate” and type in the name of the person you would like to sponsor.\n\n\n\nReview the type of access you are granting to your Supervised Researcher and set the expiration date of their sponsorship.\n\n\n\n\nGranting no access restricts your Supervised Researcher from accessing non-public data on Databrary. Non-public data includes data that has release levels set to private, authorized users, and learning audiences.\nGranting full access allows your Supervised Researcher to access other researcher’s non-public data on Databrary. They will be able to view data that has release levels set to authorized users, learning audiences, and public.\n\n\n\nGranting no access restricts your Supervised Researcher from accessing your unshared volumes. They can only access your data once you have shared it on Databrary.\n\nGranting view only access allows your Supervised Researcher to view and download your shared and unshared data.\nGranting edit access allows your Supervised Researcher to view, download, and edit your shared and unshared data.\nGranting manager access allows your Supervised Researcher to view, download, and edit your shared and unshared data. They can also create new volumes and manage collaborator access to your volumes on your behalf.\n\n\n\n\n\n\n\nNote\n\n\n\nYour Supervised Researcher cannot share your volume with any access level. Only you as the volume owner can share your volume.\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nSponsored Researchers will not have access to non-public data on Databrary until after the Authorized Investigator has submitted all paperwork to Databrary and has granted the Sponsored Researcher appropriate access.",
+    "text": "Log in to your Databrary account.\nNavigate to your profile by clicking on your name in the top-right corner.\n\n\n\nClick on the ‘edit’ button next to your name.\n\n\n\nThere are two ways you can grant sponsorship. Navigate to the ‘Sponsored Researchers’ page to authorize a new affiliate or review your sponsored researcher requests.\n\n\n\nAuthorize New AffiliateSponsorship Requests\n\n\nType in the name of the person you would like to sponsor.\n\n\n\n\n\n\n\n\n\n\n\nSelect the person you would like to sponsor.\n\n\n\n\n\n\n\n\n\n\n\n\n\nReview the type of access you are granting to your Supervised Researcher and set the expiration date of their sponsorship.\n\n\n\n\nGranting no access restricts your Supervised Researcher from accessing non-public data on Databrary. Non-public data includes data that has release levels set to private, authorized users, and learning audiences.\nGranting full access allows your Supervised Researcher to access other researcher’s non-public data on Databrary. They will be able to view data that has release levels set to authorized users, learning audiences, and public.\n\n\n\nGranting no access restricts your Supervised Researcher from accessing your unshared volumes. They can only access your data once you have shared it on Databrary.\n\nGranting view only access allows your Supervised Researcher to view and download your shared and unshared data.\nGranting edit access allows your Supervised Researcher to view, download, and edit your shared and unshared data.\nGranting manager access allows your Supervised Researcher to view, download, and edit your shared and unshared data. They can also create new volumes and manage collaborator access to your volumes on your behalf.\n\n\n\n\n\n\n\nNote\n\n\n\nYour Supervised Researcher cannot share your volume with any access level. Only you as the volume owner can share your volume.\n\n\n\n\nThe expiration date for your Supervised Researcher can be set to a maximum of one year.\n\n\n\n\n\n\n\nImportant\n\n\n\nSponsored Researchers will not have access to non-public data on Databrary until after the Authorized Investigator has submitted all paperwork to Databrary and has granted the Sponsored Researcher appropriate access.",
     "crumbs": [
       "Managing Sponsored Researchers",
       "Approving Sponsorship"
+    ]
+  },
+  {
+    "objectID": "managing-my-sponsored-researchers/renewing-sponsorship.html",
+    "href": "managing-my-sponsored-researchers/renewing-sponsorship.html",
+    "title": "Renewing Sponsorship",
+    "section": "",
+    "text": "All Supervised Researcher’s sponsorships will expire on a date defined by you or by the default one year expiration date. Before your Supervised Researcher’s sponsorship expires, you will receive a notification from Databrary reminding you to renew their sponsorship if needed.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nYou can customize how you would like to be notified of your Supervised Researcher’s expiring sponsorship through your Notifications Settings. For more guidance on how to manage your Notifications Settings, navigate to this section.",
+    "crumbs": [
+      "Managing Sponsored Researchers",
+      "Renewing Sponsorship"
     ]
   },
   {
@@ -1769,17 +1780,6 @@
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>J</span>  <span class='chapter-title'>Grants</span>"
-    ]
-  },
-  {
-    "objectID": "profile-management/managing-my-account.html#editing-your-supervised-researchers",
-    "href": "profile-management/managing-my-account.html#editing-your-supervised-researchers",
-    "title": "Managing My Account",
-    "section": "Editing Your Supervised Researchers",
-    "text": "Editing Your Supervised Researchers\nIf you are an Authorized Investigator, your affiliates page is where you can review, approve, and renew authorization requests from your research staff, post-docs, or students.\nYou can find more information about how to manage your supervised researchers in this section, Managing Supervised Researchers.",
-    "crumbs": [
-      "Profile Management",
-      "Managing My Account"
     ]
   }
 ]

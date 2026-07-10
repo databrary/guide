@@ -56,20 +56,28 @@ knitr::include_graphics("img/notification_settings_2.png")
 
 Databrary does not control your personal notification settings.
 
-## Editing Your Sponsors
+## Editing Authorizations and Supervision 
 
+Description of why sections are split
+
+::: {.panel-tabset}
+
+## Supervised Researchers
 Your sponsors page is where you can request authorization from your research sponsor(s) and institution(s), review sponsorship requests, and review the institutions and people currently sponsoring you. 
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/sponsors.png")
 ```
 
-## Editing Your Supervised Researchers
+## Authorized Investigators
 
 If you are an Authorized Investigator, your affiliates page is where you can review, approve, and renew authorization requests from your research staff, post-docs, or students. 
-
-You can find more information about how to manage your supervised researchers in this section, [Managing Supervised Researchers](../managing-my-sponsored-researchers.qmd).
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/affiliates.png")
 ```
+
+You can find more information about how to manage your supervised researchers in this section, [Managing Supervised Researchers](../managing-my-sponsored-researchers.qmd).
+
+:::
+

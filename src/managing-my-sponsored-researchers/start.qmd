@@ -5,11 +5,11 @@ As a Databrary Authorized Investigator, you can sponsor your students, research 
 For more information about who can be your sponsored researcher, see [this section](/getting-authorized/sponsored-researchers.qmd).
 
 ::: {.callout-important}
-You are not responsible for the use of Databrary by another individual who qualifies for Authorized Investigator status at their home institution.
+You should not be responsible for the use of Databrary by another individual who qualifies for Authorized Investigator status at their home institution. They are responsible for seeking their own Authorized Investigator status. Information about collaborators
 :::
 
-## External Institution Sponsorships
+For more information about **approving sponsorships**, navigate [here](/managing-my-sponsored-researchers/approving-sponsorship.qmd).
 
-If permitted by their institution, an Authorized Investigator may sponsor  a person outside of their institution and grant them Sponsored Researcher status. Institutions may establish policies governing the selection and management of Sponsored Researchers by their Authorized Investigators.
+For more information about **renewing sponsorships**, navigate [here](/managing-my-sponsored-researchers/renewing-sponsorship.qmd).
 
-If you are eligible to be an Authorized Investigator at your home institution, you must apply for access to Databrary through your home institution. Except in unusual circumstances, researchers eligible to be Authorized Investigators at your home institution should not be granted access to Databrary as the Sponsored Researcher of another Authorized Investigator either from the same institution or a different one. Databrary welcomes questions about these policies. Please email [contact@databrary.org](contact@databrary.org).
+For more information about **removing sponsored researchers**, navigate [here](/managing-my-sponsored-researchers/removing-sponsorship.qmd).

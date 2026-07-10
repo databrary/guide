@@ -2,6 +2,16 @@
 
 After you have registered as a Databrary Authorized Investigator, you can request and grant Sponsored Researcher access to your students, research staff, and post-doctoral researchers.
 
+::: {.callout-note}
+
+If permitted by their institution, an Authorized Investigator may sponsor  a person outside of their institution and grant them Sponsored Researcher status. Institutions may establish policies governing the selection and management of Sponsored Researchers by their Authorized Investigators.
+
+If this individual needs access to your volumes, once they have Authorized Investigator status, they can be added as a **collaborator**. *Redirect to section about managing collaborator on volume*
+
+If you are eligible to be an Authorized Investigator at your home institution, you must apply for access to Databrary through your home institution. Except in unusual circumstances, researchers eligible to be Authorized Investigators at your home institution should not be granted access to Databrary as the Sponsored Researcher of another Authorized Investigator either from the same institution or a different one. Databrary welcomes questions about these policies. Please email [contact@databrary.org](contact@databrary.org).
+
+:::
+
 ## How to Grant Access to Sponsored Researchers
 
 1. Log in to your Databrary account.
@@ -13,16 +23,28 @@ knitr::include_graphics("img/navigate-profile.png")
 ```{r echo=FALSE}
 knitr::include_graphics("img/edit-profile.png")
 ```
-4. Navigate to the 'Sponsored Researchers' page to review your sponsored researcher requests.
+4. There are two ways you can grant sponsorship. Navigate to the 'Sponsored Researchers' page to authorize a new affiliate or review your sponsored researcher requests.
 ```{r echo=FALSE}
 knitr::include_graphics("img/affiliates-copy.png")
 ```
-5. Click "Authorize New Affiliate" and type in the name of the person you would like to sponsor.
+::: {.panel-tabset}
+
+## Authorize New Affiliate 
+
+Type in the name of the person you would like to sponsor.
 ```{r echo=FALSE}
 knitr::include_graphics("img/add-affiliate.png")
 ```
 
-6. Review the type of access you are granting to your Supervised Researcher and set the expiration date of their sponsorship.
+## Sponsorship Requests
+
+Select the person you would like to sponsor.
+```{r echo=FALSE}
+knitr::include_graphics("img/add-affiliate.png")
+```  
+
+:::
+5. Review the type of access you are granting to your Supervised Researcher and set the expiration date of their sponsorship.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/affiliate-access.png")
@@ -45,10 +67,13 @@ Your Supervised Researcher **cannot** share your volume with any access level. O
 :::     
      
 **Expiration Date:**
-- The expiration date for your Supervised Researcher can be set to a maximum of one year.       
+
+- The expiration date for your Supervised Researcher can be set to a maximum of one year.      
      
 ::: {.callout-important}
 Sponsored Researchers will not have access to non-public data on Databrary until *after* the Authorized Investigator has submitted all paperwork to Databrary and has granted the Sponsored Researcher appropriate access.
 :::
+
+
 
 
