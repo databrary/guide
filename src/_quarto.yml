@@ -64,23 +64,21 @@ book:
         - managing-my-sponsored-researchers/approving-sponsorship.qmd
         - managing-my-sponsored-researchers/renewing-sponsorship.qmd
         - managing-my-sponsored-researchers/removing-sponsors.qmd
-    - part: project-guidelines/start.qmd
-      chapters: 
-        - project-guidelines/new-project.qmd
-        - project-guidelines/ongoing-project.qmd
-        - project-guidelines/completed-project.qmd
-        - project-guidelines/best-practices.qmd
-    - part: contributing-data/start.qmd
-      chapters:
-       - contributing-data/create-a-volume.qmd
-       - contributing-data/edit-a-volume.qmd
+   # - part: project-guidelines/start.qmd
+   #   chapters: 
+   #     - project-guidelines/new-project.qmd
+   #     - project-guidelines/ongoing-project.qmd
+   #     - project-guidelines/completed-project.qmd
+   #     - project-guidelines/best-practices.qmd
+   # - part: contributing-data/start.qmd
+   #   chapters:
+   #    - contributing-data/create-a-volume.qmd
+   #    - contributing-data/edit-a-volume.qmd
     - part: using-data/start.qmd
       chapters: 
-        - using-data/using-data.qmd
-        - using-data/downloading-data.qmd
-        - using-data/reusing-data.qmd
         - using-data/finding-data.qmd
-    - part: lectures-and-talks/start.qmd
+        - using-data/downloading-data.qmd
+        - using-data/custom-collections.qmd
     - part: technology-and-security/start.qmd
       chapters: 
         - technology-and-security/software.qmd
@@ -153,6 +151,7 @@ book:
     - appendices/terms.qmd
     - appendices/participant_info.qmd
     - appendices/grants.qmd
+    - appendices/technology-and-security.qmd
   repo-url: https://github.com/databrary/guide
   repo-actions: [edit, issue]
   repo-subdir: src

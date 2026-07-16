@@ -1,3 +1,0 @@
-# How To Use Datasets {.unnumbered}
-
-Description and intention/purpose of datasets.

@@ -163,7 +163,7 @@
     "href": "ethics/data-reuse.html",
     "title": "Data Reuse",
     "section": "",
-    "text": "Primary Data Collection\nThe information below is intended to help prepare IRB or ethics board materials for researchers who plan to store and share video data in Databrary.\nIt may be adapted to suit the specific purposes of the researcher and requirements of the institution. Researchers should confirm institution, agency, directorate/, and program-specific application requirements before submission.\nPlease contact us at contact@databrary.org for further assistance.\nData will be handled by the team of researchers approved on the IRB protocols of all Principal Investigators and Co-Investigators. Data are linked to participants by subject ID. However, video data are potentially identifiable because participants’ faces are visible and their names may be heard. With participant consent, study data will be stored on Databrary, a secure web-based video library housed at NYU, allowing permission-based access to coders from all labs comprising the project team.\nAt the end of each lab visit, caregivers will be asked whether they are comfortable:\nIf caregivers agree to video sharing, the videos will be made available to authorized researchers as outlined below. If caregivers do not agree, their videos will be accessible only by researchers on the project protocol and not shared with the larger community.\nParents will also be told that they can share portions of data or ask for particular sessions not to be shared while sharing other sessions.\nThe policies for sharing videos and other potentially identifiable data on Databrary have been carefully developed and monitored with the advice of the legal counsel, grants and contracts office, and IRBs of both New York University and The Pennsylvania State University.\nCurrently, more than 780 institutions in the U.S. and around the world have formally approved the Databrary Access Agreement to enable video sharing and reuse.",
+    "text": "Primary Data Collection\nThe information below is intended to help prepare IRB or ethics board materials for researchers who plan to store and share video data in Databrary.\nIt may be adapted to suit the specific purposes of the researcher and requirements of the institution. Researchers should confirm institution, agency, directorate/, and program-specific application requirements before submission.\nPlease contact us at contact@databrary.org for further assistance.\nData will be handled by the team of researchers approved on the IRB protocols of all Principal Investigators and Co-Investigators. Data are linked to participants by subject ID. However, video data are potentially identifiable because participants’ faces are visible and their names may be heard. With participant consent, study data will be stored on Databrary, a secure web-based video library housed at NYU, allowing permission-based access to coders from all labs comprising the project team.\nAt the end of each lab visit, caregivers will be asked whether they are comfortable:\nIf caregivers agree to video sharing, the videos will be made available to authorized researchers as outlined below. If caregivers do not agree, their videos will be accessible only by researchers on the project protocol and not shared with the larger community.\nParents will also be told that they can share portions of data or ask for particular sessions not to be shared while sharing other sessions.\nThe policies for sharing videos and other potentially identifiable data on Databrary have been carefully developed and monitored with the advice of the legal counsel, grants and contracts office, and IRBs of both New York University and The Pennsylvania State University.\nCurrently, more than 780 institutions in the U.S. and around the world have formally approved the Databrary Access Agreement to enable video sharing and reuse.\nIf you are using Databrary to store and download video data as part of a collaborative data collection, you must ensure your IRB protocol and data management aligns with Databrary’s technical and security guidelines.",
     "crumbs": [
       "Data Ethics",
       "Data Reuse"
@@ -694,11 +694,11 @@
     ]
   },
   {
-    "objectID": "profile-management/managing-my-account.html#editing-authorizations-and-supervision",
-    "href": "profile-management/managing-my-account.html#editing-authorizations-and-supervision",
+    "objectID": "profile-management/managing-my-account.html#editing-authorizations-and-supervisions",
+    "href": "profile-management/managing-my-account.html#editing-authorizations-and-supervisions",
     "title": "Managing My Account",
-    "section": "Editing Authorizations and Supervision",
-    "text": "Editing Authorizations and Supervision\nDescription of why sections are split\n\nSupervised ResearchersAuthorized Investigators\n\n\nYour sponsors page is where you can request authorization from your research sponsor(s) and institution(s), review sponsorship requests, and review the institutions and people currently sponsoring you.\n\n\n\n\n\n\n\n\n\n\n\nIf you are an Authorized Investigator, your affiliates page is where you can review, approve, and renew authorization requests from your research staff, post-docs, or students.\n\n\n\n\n\n\n\n\n\nYou can find more information about how to manage your supervised researchers in this section, Managing Supervised Researchers.",
+    "section": "Editing Authorizations and Supervisions",
+    "text": "Editing Authorizations and Supervisions\nDescription of why sections are split.\n\nSupervised ResearchersAuthorized Investigators\n\n\nYour sponsors page is where you can request authorization from your research sponsor(s) and institution(s), review sponsorship requests, and review the institutions and people currently sponsoring you.\n\n\n\n\n\n\n\n\n\n\n\nIf you are an Authorized Investigator, your affiliates page is where you can review, approve, and renew authorization requests from your research staff, post-docs, or students.\n\n\n\n\n\n\n\n\n\nYou can find more information about how to manage your supervised researchers in this section, Managing Supervised Researchers.",
     "crumbs": [
       "Profile Management",
       "Managing My Account"
@@ -818,162 +818,10 @@
     "href": "managing-my-sponsored-researchers/renewing-sponsorship.html",
     "title": "Renewing Sponsorship",
     "section": "",
-    "text": "All Supervised Researcher’s sponsorships will expire on a date defined by you or by the default one year expiration date. Before your Supervised Researcher’s sponsorship expires, you will receive a notification from Databrary reminding you to renew their sponsorship if needed.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nYou can customize how you would like to be notified of your Supervised Researcher’s expiring sponsorship through your Notifications Settings. For more guidance on how to manage your Notifications Settings, navigate to this section.",
+    "text": "Viewing Your Expired Supervised Researchers\nAll Supervised Researcher’s sponsorships will expire on a date defined by you or by the default one year expiration date. Before your Supervised Researcher’s sponsorship expires, you will receive a notification from Databrary reminding you to renew their sponsorship if needed.\nIn the Affiliates page, you can view all of your expired Supervised Researchers.\nSometimes, your expired Supervised Researchers will not be readily displayed. To display your expired Supervised Researchers:",
     "crumbs": [
       "Managing Sponsored Researchers",
       "Renewing Sponsorship"
-    ]
-  },
-  {
-    "objectID": "project-guidelines/start.html",
-    "href": "project-guidelines/start.html",
-    "title": "Project Guidelines",
-    "section": "",
-    "text": "Steps delineating workflow to set up a project.",
-    "crumbs": [
-      "Project Guidelines"
-    ]
-  },
-  {
-    "objectID": "project-guidelines/new-project.html",
-    "href": "project-guidelines/new-project.html",
-    "title": "New Project",
-    "section": "",
-    "text": "Step 1: Navigate to Profile\nBefore collecting data is the best time to start planning for curation of your project. In this case, you would upload and curate data on Databrary as data collection is ongoing.\nSign in to your Databrary account on Databrary.\nClick on Your Name to navigate to your profile.\nknitr::include_graphics(\"img/db-main-page-logged-in.png\")",
-    "crumbs": [
-      "Project Guidelines",
-      "New Project"
-    ]
-  },
-  {
-    "objectID": "project-guidelines/new-project.html#step2",
-    "href": "project-guidelines/new-project.html#step2",
-    "title": "New Project",
-    "section": "Step 2: Create a Volume",
-    "text": "Step 2: Create a Volume\nClick on Create Volume to the right of Data Owner Volumes\n\n#knitr::include_graphics(\"img/db-create-volume.JPG\")",
-    "crumbs": [
-      "Project Guidelines",
-      "New Project"
-    ]
-  },
-  {
-    "objectID": "project-guidelines/ongoing-project.html",
-    "href": "project-guidelines/ongoing-project.html",
-    "title": "Ongoing Project",
-    "section": "",
-    "text": "Example text.",
-    "crumbs": [
-      "Project Guidelines",
-      "Ongoing Project"
-    ]
-  },
-  {
-    "objectID": "project-guidelines/completed-project.html",
-    "href": "project-guidelines/completed-project.html",
-    "title": "Completed Project",
-    "section": "",
-    "text": "The following items need to be considered to prepare for upload:\n\nDo you have (at least some of) participants’ permission to share their data with other authorized Databrary investigators? If not, who is allowed access to the videos?\nDo you have IRB permission to share the data on Databrary?\nAll video tapes need to be digitized\nHow are the data organized? Will these need to be re-organized to utilize the Databrary Spreadsheet structure?",
-    "crumbs": [
-      "Project Guidelines",
-      "Completed Project"
-    ]
-  },
-  {
-    "objectID": "project-guidelines/best-practices.html",
-    "href": "project-guidelines/best-practices.html",
-    "title": "Best Practices",
-    "section": "",
-    "text": "Description of Dataset\nThe description should contain information regarding:\nIt is not helpful to just copy and paste the article abstract in the dataset overview. The abstract can be added as supplemental information but it should not be the only thing in the description.\nIf the volume is not shared publicly on Databrary but it is available on a case-by-case basis, make sure to note this in your description.",
-    "crumbs": [
-      "Project Guidelines",
-      "Best Practices"
-    ]
-  },
-  {
-    "objectID": "project-guidelines/best-practices.html#description-of-dataset",
-    "href": "project-guidelines/best-practices.html#description-of-dataset",
-    "title": "Best Practices",
-    "section": "",
-    "text": "The context of data collection\nThe types of data uploaded (e.g. video, pictures, programming code)\nThe year(s) data was collected\n\n\n\nHelpful Format: This qualitative study interviewed 22 adult residents of two Boston-area communities, to find out about their difficulties paying water utility bills, the coping strategies they rely on to manage unaffordable water bills, and associated health effects. The data was collected during August to October of 2018. The dataset includes:\n\n22 interview transcripts (RTF files)\nParticipant attribute table\n\nCode book\n\nUnhelpful Format: Researchers can study complex developmental phenomena with all the inherent noise and complexity or simplify behaviors to hone in on the essential aspects of a phenomenon.\n\n\n\nex. Requests for sharing will be assessed on a case-by-case basis. Please contact person@university.edu for all inquiries and requests regarding this dataset.",
-    "crumbs": [
-      "Project Guidelines",
-      "Best Practices"
-    ]
-  },
-  {
-    "objectID": "project-guidelines/best-practices.html#external-links",
-    "href": "project-guidelines/best-practices.html#external-links",
-    "title": "Best Practices",
-    "section": "External Links",
-    "text": "External Links\nVolumes should have external links to the following:\n\nThe journal article (if it’s been published)\nThe parent volume\nOther Databrary volumes that use the parent volume data (ex. the many LEGO projects)\nProject website (ex. PLAY project volume should link to PLAY website)",
-    "crumbs": [
-      "Project Guidelines",
-      "Best Practices"
-    ]
-  },
-  {
-    "objectID": "project-guidelines/best-practices.html#organizing-the-data",
-    "href": "project-guidelines/best-practices.html#organizing-the-data",
-    "title": "Best Practices",
-    "section": "Organizing the Data",
-    "text": "Organizing the Data\nWhen organizing your data, you will need separate folders for each data type:\n\nEach participant’s video data\n\nDo share age, gender, race, ethnicity, language, group, tasks, and context (lab/home, state, country)\nDo not share birth date or test date publicly\n\nExemplar folder of videos that are public\n\nIf public permissoin is not explicitly given, blurred out faces of participants.\n\nCoding spreadsheet with .csv files from all participants\n\nThe same level of permission granted from each participant should reflect on the associated spreadsheet.\n\nCoding manual\n\nSharing permission is public\n\nCoding scripts\n\nSharing permission is public\n\nAnalysis scripts\n\nSharing permission is public\n\nProcessed data\n\nSharing permission is public\n\nDocument about how to use the data and how to use the files",
-    "crumbs": [
-      "Project Guidelines",
-      "Best Practices"
-    ]
-  },
-  {
-    "objectID": "project-guidelines/best-practices.html#sharing-coding-spreadsheets",
-    "href": "project-guidelines/best-practices.html#sharing-coding-spreadsheets",
-    "title": "Best Practices",
-    "section": "Sharing Coding Spreadsheets",
-    "text": "Sharing Coding Spreadsheets\n\nDelete unnecessary or extraneous columns\nDelete unnecessary or extraneous codes\nSPSS and Datavyu files should not have birth date and test date\n\nAlternative: You can create an age column for the kid that is openly shared",
-    "crumbs": [
-      "Project Guidelines",
-      "Best Practices"
-    ]
-  },
-  {
-    "objectID": "project-guidelines/best-practices.html#using-the-materials-folder",
-    "href": "project-guidelines/best-practices.html#using-the-materials-folder",
-    "title": "Best Practices",
-    "section": "Using the Materials Folder",
-    "text": "Using the Materials Folder",
-    "crumbs": [
-      "Project Guidelines",
-      "Best Practices"
-    ]
-  },
-  {
-    "objectID": "contributing-data/start.html",
-    "href": "contributing-data/start.html",
-    "title": "Contributing Data",
-    "section": "",
-    "text": "Example text.",
-    "crumbs": [
-      "Contributing Data"
-    ]
-  },
-  {
-    "objectID": "contributing-data/create-a-volume.html",
-    "href": "contributing-data/create-a-volume.html",
-    "title": "Create a Volume",
-    "section": "",
-    "text": "Definition of volume.\nSteps to create a volume.",
-    "crumbs": [
-      "Contributing Data",
-      "Create a Volume"
-    ]
-  },
-  {
-    "objectID": "contributing-data/edit-a-volume.html",
-    "href": "contributing-data/edit-a-volume.html",
-    "title": "Edit a Volume",
-    "section": "",
-    "text": "Steps to edit a volume.",
-    "crumbs": [
-      "Contributing Data",
-      "Edit a Volume"
     ]
   },
   {
@@ -981,7 +829,37 @@
     "href": "using-data/start.html",
     "title": "Using Data",
     "section": "",
-    "text": "Background behind accessing/retrieving/pulling/using data.\nYou can browse information on DB without restriction. If you want to use the data beyond browsing these are the considerations to keep in mind.",
+    "text": "Research Use\nBackground behind accessing/retrieving/pulling/using data.\nYou can browse information on DB without restriction. If you want to use the data beyond browsing these are the considerations to keep in mind.\nDatabrary’s main goal is to encourage the reuse of sensitive, identifiable behavioral research data. There are research uses and non-research uses. Some of the non-research uses can be for teaching and talks. You must be in conversation with your IRB about using data.\nFind language about Databrary’s mission for open science and data reuse. Considerations for each of those",
+    "crumbs": [
+      "Using Data"
+    ]
+  },
+  {
+    "objectID": "using-data/start.html#non-research-use",
+    "href": "using-data/start.html#non-research-use",
+    "title": "Using Data",
+    "section": "Non-Research Use",
+    "text": "Non-Research Use\nMust be public or learning audiences release levels\nResearch/non-research uses. Non-research uses must obtain the correct participant permissions.\nOutline all the different use cases: - broad research reuse- link to section - lectures and talks - secondary research",
+    "crumbs": [
+      "Using Data"
+    ]
+  },
+  {
+    "objectID": "using-data/start.html#how-to-cite",
+    "href": "using-data/start.html#how-to-cite",
+    "title": "Using Data",
+    "section": "How to Cite",
+    "text": "How to Cite\n\n\n\nReused Data\nShared data should have a citation on the volume profile page under the ‘How to cite’ heading. Citations take the format of:\nLastName, FirstInitial. (year volume was added). Title of Volume. Databrary. Retrieved Month DD, YYYY from [link to assigned doi].\nSoska, K., Seisler, A. & Gilmore, R. (2018). Databrary & Datavyu Help Videos. Databrary. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686.\n\n\n\nDatabrary\nDatabrary. (2014). Databrary.org. https://nyu.databrary.org/\nDatavyu Team (2014). Datavyu: A Video Coding Tool. Databrary Project, New York University. URL http://datavyu.org.",
+    "crumbs": [
+      "Using Data"
+    ]
+  },
+  {
+    "objectID": "using-data/start.html#ethics-of-reusing-data",
+    "href": "using-data/start.html#ethics-of-reusing-data",
+    "title": "Using Data",
+    "section": "Ethics of Reusing Data",
+    "text": "Ethics of Reusing Data\nAuthorized Investigators must secure Institutional approvals prior to conducting research with data shared on Databrary.\nFor more information about secondary reuse, see (this section)",
     "crumbs": [
       "Using Data"
     ]
@@ -991,43 +869,10 @@
     "href": "using-data/downloading-data.html",
     "title": "Downloading Data",
     "section": "",
-    "text": "Steps to download files.",
+    "text": "Steps to download files.\nIf you are downloading big sessions/files, it will take a while. Think about your storage space.",
     "crumbs": [
       "Using Data",
       "Downloading Data"
-    ]
-  },
-  {
-    "objectID": "using-data/reusing-data.html",
-    "href": "using-data/reusing-data.html",
-    "title": "Reusing Data",
-    "section": "",
-    "text": "Ethics of Reusing Data\nAuthorized Investigators must secure Institutional approvals prior to conducting research with data shared on Databrary. In the U.S. context, conducting secondary analysis on shared video data may not qualify as human subjects research because there is no direct contact with research participants. Still, a research project involving video data reuse may require ethics board or IRB review and approval because the data are identifiable.",
-    "crumbs": [
-      "Using Data",
-      "Reusing Data"
-    ]
-  },
-  {
-    "objectID": "using-data/reusing-data.html#how-to-cite-reused-data",
-    "href": "using-data/reusing-data.html#how-to-cite-reused-data",
-    "title": "Reusing Data",
-    "section": "How to Cite Reused Data",
-    "text": "How to Cite Reused Data\nShared data should have a citation on the volume profile page under the ‘How to cite’ heading. Citations take the format of:\nLastName, FirstInitial. (year volume was added). Title of Volume. Databrary. Retrieved Month DD, YYYY from [link to assigned doi].\nAdmin, D., Gilmore, R.O., Seisler, A.R. & Soska, K. (2018). Databrary & Datavyu Help Videos. Databrary. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686.\ninsert screenshot here",
-    "crumbs": [
-      "Using Data",
-      "Reusing Data"
-    ]
-  },
-  {
-    "objectID": "using-data/reusing-data.html#how-to-cite-databrary",
-    "href": "using-data/reusing-data.html#how-to-cite-databrary",
-    "title": "Reusing Data",
-    "section": "How to Cite Databrary",
-    "text": "How to Cite Databrary\nDatabrary. (2014). Databrary.org. https://nyu.databrary.org/\nDatavyu Team (2014). Datavyu: A Video Coding Tool. Databrary Project, New York University. URL http://datavyu.org.",
-    "crumbs": [
-      "Using Data",
-      "Reusing Data"
     ]
   },
   {
@@ -1780,6 +1625,50 @@
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>J</span>  <span class='chapter-title'>Grants</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/technology-and-security.html",
+    "href": "appendices/technology-and-security.html",
+    "title": "Appendix K — Databrary Data Security and Technical Requirements",
+    "section": "",
+    "text": "https://nyu.app.box.com/s/vnzp5valjvlkilcyb1c3yjvdgp82y0cg",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>K</span>  <span class='chapter-title'>Databrary Data Security and Technical Requirements</span>"
+    ]
+  },
+  {
+    "objectID": "managing-my-sponsored-researchers/renewing-sponsorship.html#how-to-renew-sponsorship",
+    "href": "managing-my-sponsored-researchers/renewing-sponsorship.html#how-to-renew-sponsorship",
+    "title": "Renewing Sponsorship",
+    "section": "How to Renew Sponsorship",
+    "text": "How to Renew Sponsorship\n\nClick the ‘Edit’ icon to review and update your Supervised Researcher’s access and expiration date.\n\n\n\n\n\n\n\n\n\n\n\nSelect the ‘Expiration Date’ field to input your Supervised Researcher’s new expiration date.",
+    "crumbs": [
+      "Managing Sponsored Researchers",
+      "Renewing Sponsorship"
+    ]
+  },
+  {
+    "objectID": "managing-my-sponsored-researchers/renewing-sponsorship.html#viewing-your-expired-supervised-researchers",
+    "href": "managing-my-sponsored-researchers/renewing-sponsorship.html#viewing-your-expired-supervised-researchers",
+    "title": "Renewing Sponsorship",
+    "section": "",
+    "text": "Select ‘Filter’ to open up your filters menu.\n\n\n\nFrom here, toggle off ‘Hide Expired Affiliates’.",
+    "crumbs": [
+      "Managing Sponsored Researchers",
+      "Renewing Sponsorship"
+    ]
+  },
+  {
+    "objectID": "managing-my-sponsored-researchers/removing-sponsors.html",
+    "href": "managing-my-sponsored-researchers/removing-sponsors.html",
+    "title": "Removing Sponsored Researchers",
+    "section": "",
+    "text": "If your Sponsored Researcher is no longer working under your research supervisor or at your institution, you should remove their sponsorship status.\nIf they still need access to your collaborative data, they must apply for sponsorship through their new Research Supervisor. Once their sponsorship is approved, you can add them as a collaborator on your volumes.",
+    "crumbs": [
+      "Managing Sponsored Researchers",
+      "Removing Sponsored Researchers"
     ]
   }
 ]

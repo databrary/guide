@@ -1,3 +1,0 @@
-# Curate Data {.unnumbered}
-
-How to curate data.

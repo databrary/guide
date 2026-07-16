@@ -473,5 +473,11 @@
   },
   "profile-management/2FA-guidelines.qmd": {
     "2FA-guidelines.html": "cae8017b"
+  },
+  "using-data/custom-collections.qmd": {
+    "custom-collections.html": "972766ec"
+  },
+  "appendices/technology-and-security.qmd": {
+    "technology-and-security.html": "5b1adb3a"
   }
 }

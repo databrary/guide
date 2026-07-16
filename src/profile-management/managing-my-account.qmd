@@ -56,9 +56,9 @@ knitr::include_graphics("img/notification_settings_2.png")
 
 Databrary does not control your personal notification settings.
 
-## Editing Authorizations and Supervision 
+## Editing Authorizations and Supervisions 
 
-Description of why sections are split
+Description of why sections are split.
 
 ::: {.panel-tabset}
 

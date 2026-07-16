@@ -30,6 +30,8 @@ The policies for sharing videos and other potentially identifiable data on Datab
 
 Currently, more than 780 institutions in the U.S. and around the world have formally approved the Databrary Access Agreement to enable video sharing and reuse. 
 
+If you are using Databrary to store and download video data as part of a collaborative data collection, you must ensure your IRB protocol and data management aligns with Databrary's [technical and security guidelines](/appendices/technology-and-security.qmd).
+
 ## Secondary Reuse {- #reuse}
 
 This project will conduct secondary analyses of participant data obtained from Databrary, an online platform for the storage, sharing, and re-use of video and other research data. 

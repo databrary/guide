@@ -1,1 +1,7 @@
 # Removing Sponsored Researchers {.unnumbered}
+
+If your Sponsored Researcher is no longer working under your research supervisor or at your institution, you should remove their sponsorship status. 
+
+If they still need access to your collaborative data, they must apply for sponsorship through their new Research Supervisor. Once their sponsorship is approved, you can add them as a collaborator on your volumes. 
+
+

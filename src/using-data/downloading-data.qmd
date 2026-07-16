@@ -1,3 +1,5 @@
 # Downloading Data {.unnumbered}
 
 Steps to download files.
+
+If you are downloading big sessions/files, it will take a while. Think about your storage space. 
