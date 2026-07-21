@@ -825,6 +825,39 @@
     ]
   },
   {
+    "objectID": "managing-my-sponsored-researchers/renewing-sponsorship.html#viewing-your-expired-supervised-researchers",
+    "href": "managing-my-sponsored-researchers/renewing-sponsorship.html#viewing-your-expired-supervised-researchers",
+    "title": "Renewing Sponsorship",
+    "section": "",
+    "text": "Select ‘Filter’ to open up your filters menu.\n\n\n\nFrom here, toggle off ‘Hide Expired Affiliates’.",
+    "crumbs": [
+      "Managing Sponsored Researchers",
+      "Renewing Sponsorship"
+    ]
+  },
+  {
+    "objectID": "managing-my-sponsored-researchers/renewing-sponsorship.html#how-to-renew-sponsorship",
+    "href": "managing-my-sponsored-researchers/renewing-sponsorship.html#how-to-renew-sponsorship",
+    "title": "Renewing Sponsorship",
+    "section": "How to Renew Sponsorship",
+    "text": "How to Renew Sponsorship\n\nClick the ‘Edit’ icon to review and update your Supervised Researcher’s access and expiration date.\n\n\n\n\n\n\n\n\n\n\n\nSelect the ‘Expiration Date’ field to input your Supervised Researcher’s new expiration date.",
+    "crumbs": [
+      "Managing Sponsored Researchers",
+      "Renewing Sponsorship"
+    ]
+  },
+  {
+    "objectID": "managing-my-sponsored-researchers/removing-sponsors.html",
+    "href": "managing-my-sponsored-researchers/removing-sponsors.html",
+    "title": "Removing Supervised Researchers",
+    "section": "",
+    "text": "If your Supervised Researcher is no longer working under your research supervision or at your institution, you should remove their sponsorship status.\nIf they still need access to your collaborative data on Databrary, they must apply for sponsorship through their new Research Supervisor. Once their sponsorship is approved, you can add them as a collaborator on your volumes.\n\nHow to Remove Your Supervised Researcher\n\nClick the ‘Remove’ icon.\n\n\n\n\n\n\n\n\n\n\n\nReview and confirm the information in the pop-up modal to remove your Supervised Researcher.",
+    "crumbs": [
+      "Managing Sponsored Researchers",
+      "Removing Supervised Researchers"
+    ]
+  },
+  {
     "objectID": "using-data/start.html",
     "href": "using-data/start.html",
     "title": "Using Data",
@@ -873,6 +906,50 @@
     "crumbs": [
       "Using Data",
       "Downloading Data"
+    ]
+  },
+  {
+    "objectID": "using-data/downloading-data.html#download-as-zip",
+    "href": "using-data/downloading-data.html#download-as-zip",
+    "title": "Downloading Data",
+    "section": "Download as ZIP",
+    "text": "Download as ZIP\nWhen a file is compressed by Databrary, the name of the file with be prepared with the pathway to find the file. If the file is intended to be used for further analysis, it is important to rename the file to a more descriptive name. The adapted name may interrupt data mining such as the file name “session1” may be renamed to “001-session1”. In this case, consider downloading the original data to avoid from renaming massive files.\nIf you are downloading big sessions, folders, and/or files, downloading is not immediate and it will take a while for Databrary to prepare the data for download. If you are encountering downloading issues, you can try to download the data in smaller chunks.\nIt is also important to think about your available local storage space when downloading big sessions and/or files.\n\nDownloading a Single Session or Folder as ZIP\nTo download a single session or folder as a ZIP, select the session or folder and click the ‘Download’ button. This will download the data in a format that is compatible with the Databrary platform.\n\n\n\n\n\n\n\n\n\n\n\nDownloading Volume as ZIP\nTo download all the data from a volume as a ZIP, scroll to the bottom of the page and click ‘Download all as ZIP’. This will download the data in a format that is compatible with the Databrary platform.",
+    "crumbs": [
+      "Using Data",
+      "Downloading Data"
+    ]
+  },
+  {
+    "objectID": "using-data/downloading-data.html#download-links",
+    "href": "using-data/downloading-data.html#download-links",
+    "title": "Downloading Data",
+    "section": "Download Links",
+    "text": "Download Links\nOnce your download is ready, you will receive an email with the download link.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nYour download link has an expiration. If your download link expires before you are able to download the data to your local computer, you will have to download the data from Databrary again.",
+    "crumbs": [
+      "Using Data",
+      "Downloading Data"
+    ]
+  },
+  {
+    "objectID": "using-data/custom-collections.html",
+    "href": "using-data/custom-collections.html",
+    "title": "Custom Collections",
+    "section": "",
+    "text": "Custom Collection Key Terms\nA custom collection, is a volume that unifies sessions, folders, and files from one or more other volumes and presents it all in one place. The original data stays in the original volume; the custom collection just copies and links to it.\nAny volume on Databrary can become a custom collection. As soon as a volume contains at least one link to data in another volume, it is treated and displayed as a custom collection. In a custom collection, you can view the linked volumes, the number of uploaded and linked files, and link data to your other volumes.",
+    "crumbs": [
+      "Using Data",
+      "Custom Collections"
+    ]
+  },
+  {
+    "objectID": "using-data/custom-collections.html#custom-collection-key-terms",
+    "href": "using-data/custom-collections.html#custom-collection-key-terms",
+    "title": "Custom Collections",
+    "section": "",
+    "text": "Link Types\n- Linked volume: An entire volume is linked into the custom collection. All of its sessions and folders appear in the destination.\n- Linked session: A single session from another volume is linked into the custom collection.\n- Linked folder: A single folder from another volume is linked into the custom collection.\n- Linked file: A single file from another volume is linked into a specific session or folder in the custom collection.\n\n\nContent Categories\n- Native content: Sessions, folders, and files that were created or uploaded directly in the custom collection. These belong to the collection and are not linked from anywhere else.\n- Linked content: Sessions, folders, and files that originate in a source volume and are linked into the custom collection. They are displayed in the collection but owned by the source volume.\n- Added content: Files uploaded directly into a linked session or folder within the custom collection. They live in the collection only — they do not appear in the source volume. They behave like native files for editing purposes.\n\n\nRecords (Metadata)\n- Source records: Records, like participant metadata, that belong to the source volume and move with the linked content. They appear in the collection as read-only and are not edittable.\n- Supplementary records: Records created in the custom collection and manually assigned to linked content. They exist only within the collection and can be edited or removed by collaborators with write access to the collection.",
+    "crumbs": [
+      "Using Data",
+      "Custom Collections"
     ]
   },
   {
@@ -1636,94 +1713,6 @@
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>K</span>  <span class='chapter-title'>Databrary Data Security and Technical Requirements</span>"
-    ]
-  },
-  {
-    "objectID": "managing-my-sponsored-researchers/renewing-sponsorship.html#how-to-renew-sponsorship",
-    "href": "managing-my-sponsored-researchers/renewing-sponsorship.html#how-to-renew-sponsorship",
-    "title": "Renewing Sponsorship",
-    "section": "How to Renew Sponsorship",
-    "text": "How to Renew Sponsorship\n\nClick the ‘Edit’ icon to review and update your Supervised Researcher’s access and expiration date.\n\n\n\n\n\n\n\n\n\n\n\nSelect the ‘Expiration Date’ field to input your Supervised Researcher’s new expiration date.",
-    "crumbs": [
-      "Managing Sponsored Researchers",
-      "Renewing Sponsorship"
-    ]
-  },
-  {
-    "objectID": "managing-my-sponsored-researchers/renewing-sponsorship.html#viewing-your-expired-supervised-researchers",
-    "href": "managing-my-sponsored-researchers/renewing-sponsorship.html#viewing-your-expired-supervised-researchers",
-    "title": "Renewing Sponsorship",
-    "section": "",
-    "text": "Select ‘Filter’ to open up your filters menu.\n\n\n\nFrom here, toggle off ‘Hide Expired Affiliates’.",
-    "crumbs": [
-      "Managing Sponsored Researchers",
-      "Renewing Sponsorship"
-    ]
-  },
-  {
-    "objectID": "managing-my-sponsored-researchers/removing-sponsors.html",
-    "href": "managing-my-sponsored-researchers/removing-sponsors.html",
-    "title": "Removing Supervised Researchers",
-    "section": "",
-    "text": "If your Supervised Researcher is no longer working under your research supervision or at your institution, you should remove their sponsorship status.\nIf they still need access to your collaborative data on Databrary, they must apply for sponsorship through their new Research Supervisor. Once their sponsorship is approved, you can add them as a collaborator on your volumes.\n\nHow to Remove Your Supervised Researcher\n\nClick the ‘Remove’ icon.\n\n\n\n\n\n\n\n\n\n\n\nReview and confirm the information in the pop-up modal to remove your Supervised Researcher.",
-    "crumbs": [
-      "Managing Sponsored Researchers",
-      "Removing Supervised Researchers"
-    ]
-  },
-  {
-    "objectID": "using-data/downloading-data.html#download-as-.zip",
-    "href": "using-data/downloading-data.html#download-as-.zip",
-    "title": "Downloading Data",
-    "section": "Download as .zip",
-    "text": "Download as .zip\nWhen a file is compressed by Databrary, the name of the file with be prepared with the pathway to find the file. If the file is intended to be used for further analysis, it is important to rename the file to a more descriptive name. The adapted name may interrupt data mining such as the file name “session1” may be renamed to “001-session1”. In this case, consider downloading the original data to avoid from renaming massive files.\nIf you are downloading big sessions and/or files, downloading is not immediate and it will take a while for Databrary to prepare the data for download. If you are encountering downloading issues, you can try to download the data in smaller chunks.\nIt is also important to think about your available local storage space when downloading big sessions and/or files.",
-    "crumbs": [
-      "Using Data",
-      "Downloading Data"
-    ]
-  },
-  {
-    "objectID": "using-data/downloading-data.html#download-as-zip",
-    "href": "using-data/downloading-data.html#download-as-zip",
-    "title": "Downloading Data",
-    "section": "Download as ZIP",
-    "text": "Download as ZIP\nWhen a file is compressed by Databrary, the name of the file with be prepared with the pathway to find the file. If the file is intended to be used for further analysis, it is important to rename the file to a more descriptive name. The adapted name may interrupt data mining such as the file name “session1” may be renamed to “001-session1”. In this case, consider downloading the original data to avoid from renaming massive files.\nIf you are downloading big sessions, folders, and/or files, downloading is not immediate and it will take a while for Databrary to prepare the data for download. If you are encountering downloading issues, you can try to download the data in smaller chunks.\nIt is also important to think about your available local storage space when downloading big sessions and/or files.\n\nDownloading a Single Session or Folder as ZIP\nTo download a single session or folder as a ZIP, select the session or folder and click the ‘Download’ button. This will download the data in a format that is compatible with the Databrary platform.\n\n\n\n\n\n\n\n\n\n\n\nDownloading Volume as ZIP\nTo download all the data from a volume as a ZIP, scroll to the bottom of the page and click ‘Download all as ZIP’. This will download the data in a format that is compatible with the Databrary platform.",
-    "crumbs": [
-      "Using Data",
-      "Downloading Data"
-    ]
-  },
-  {
-    "objectID": "using-data/downloading-data.html#download-links",
-    "href": "using-data/downloading-data.html#download-links",
-    "title": "Downloading Data",
-    "section": "Download Links",
-    "text": "Download Links\nOnce your download is ready, you will receive an email with the download link.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nYour download link has an expiration. If your download link expires before you are able to download the data to your local computer, you will have to download the data from Databrary again.",
-    "crumbs": [
-      "Using Data",
-      "Downloading Data"
-    ]
-  },
-  {
-    "objectID": "using-data/custom-collections.html",
-    "href": "using-data/custom-collections.html",
-    "title": "Custom Collections",
-    "section": "",
-    "text": "Custom Collection Key Terms\nA custom collection, is a volume that unifies sessions, folders, and files from one or more other volumes and presents it all in one place. The original data stays in the original volume; the custom collection just copies and links to it.\nAny volume on Databrary can become a custom collection. As soon as a volume contains at least one link to data in another volume, it is treated and displayed as a custom collection. In a custom collection, you can view the linked volumes, the number of uploaded and linked files, and link data to your other volumes.",
-    "crumbs": [
-      "Using Data",
-      "Custom Collections"
-    ]
-  },
-  {
-    "objectID": "using-data/custom-collections.html#custom-collection-key-terms",
-    "href": "using-data/custom-collections.html#custom-collection-key-terms",
-    "title": "Custom Collections",
-    "section": "",
-    "text": "Link Types\n- Linked volume: An entire volume is linked into the custom collection. All of its sessions and folders appear in the destination.\n- Linked session: A single session from another volume is linked into the custom collection.\n- Linked folder: A single folder from another volume is linked into the custom collection.\n- Linked file: A single file from another volume is linked into a specific session or folder in the custom collection.\n\n\nContent Categories\n- Native content: Sessions, folders, and files that were created or uploaded directly in the custom collection. These belong to the collection and are not linked from anywhere else.\n- Linked content: Sessions, folders, and files that originate in a source volume and are linked into the custom collection. They are displayed in the collection but owned by the source volume.\n- Added content: Files uploaded directly into a linked session or folder within the custom collection. They live in the collection only — they do not appear in the source volume. They behave like native files for editing purposes.\n\n\nRecords (Metadata)\n- Source records: Records, like participant metadata, that belong to the source volume and move with the linked content. They appear in the collection as read-only and are not edittable.\n- Supplementary records: Records created in the custom collection and manually assigned to linked content. They exist only within the collection and can be edited or removed by collaborators with write access to the collection.",
-    "crumbs": [
-      "Using Data",
-      "Custom Collections"
     ]
   }
 ]
