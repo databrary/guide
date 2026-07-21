@@ -277,7 +277,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../managing-my-sponsored-researchers/removing-sponsors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Removing Sponsored Researchers</span></a>
+ <span class="menu-text">Removing Supervised Researchers</span></a>
   </div>
 </li>
       </ul>
@@ -434,8 +434,19 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#custom-collection-key-terms" id="toc-custom-collection-key-terms" class="nav-link active" data-scroll-target="#custom-collection-key-terms">Custom Collection Key Terms</a>
+  <ul>
+  <li><a href="#link-types" id="toc-link-types" class="nav-link" data-scroll-target="#link-types">Link Types</a></li>
+  <li><a href="#content-categories" id="toc-content-categories" class="nav-link" data-scroll-target="#content-categories">Content Categories</a></li>
+  <li><a href="#records-metadata" id="toc-records-metadata" class="nav-link" data-scroll-target="#records-metadata">Records (Metadata)</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/using-data/custom-collections.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -459,8 +470,40 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>A custom collection, is a volume that unifies sessions, folders, and files from one or more other volumes and presents it all in one place. The original data stays in the original volume; the custom collection just copies and links to it.</p>
+<p>Any volume on Databrary can become a custom collection. As soon as a volume contains at least one link to data in another volume, it is treated and displayed as a custom collection. In a custom collection, you can view the linked volumes, the number of uploaded and linked files, and link data to your other volumes.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/custom-collection.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="custom-collection-key-terms" class="level2">
+<h2 class="anchored" data-anchor-id="custom-collection-key-terms">Custom Collection Key Terms</h2>
+<section id="link-types" class="level3">
+<h3 class="anchored" data-anchor-id="link-types">Link Types</h3>
+<p><strong>- Linked volume:</strong> An entire volume is linked into the custom collection. All of its sessions and folders appear in the destination.</p>
+<p><strong>- Linked session:</strong> A single session from another volume is linked into the custom collection.</p>
+<p><strong>- Linked folder:</strong> A single folder from another volume is linked into the custom collection.</p>
+<p><strong>- Linked file:</strong> A single file from another volume is linked into a specific session or folder in the custom collection.</p>
+</section>
+<section id="content-categories" class="level3">
+<h3 class="anchored" data-anchor-id="content-categories">Content Categories</h3>
+<p><strong>- Native content:</strong> Sessions, folders, and files that were created or uploaded directly in the custom collection. These belong to the collection and are not linked from anywhere else.</p>
+<p><strong>- Linked content:</strong> Sessions, folders, and files that originate in a source volume and are linked into the custom collection. They are displayed in the collection but owned by the source volume.</p>
+<p><strong>- Added content:</strong> Files uploaded directly into a linked session or folder within the custom collection. They live in the collection only — they do not appear in the source volume. They behave like native files for editing purposes.</p>
+</section>
+<section id="records-metadata" class="level3">
+<h3 class="anchored" data-anchor-id="records-metadata">Records (Metadata)</h3>
+<p><strong>- Source records:</strong> Records, like participant metadata, that belong to the source volume and move with the linked content. They appear in the collection as read-only and are not edittable.</p>
+<p><strong>- Supplementary records:</strong> Records created in the custom collection and manually assigned to linked content. They exist only within the collection and can be edited or removed by collaborators with write access to the collection.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -880,4 +923,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/using-data/custom-collections.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/using-data/custom-collections.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

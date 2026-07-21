@@ -40,7 +40,7 @@ knitr::include_graphics("img/filter-off-affiliates.png")
 knitr::include_graphics("img/edit-affiliate.png")
 ```
 
-1. Select the 'Expiration Date' field to input your Supervised Researcher's new expiration date.
+2. Select the 'Expiration Date' field to input your Supervised Researcher's new expiration date.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/edit-date.png")

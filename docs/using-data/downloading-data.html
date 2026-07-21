@@ -277,7 +277,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../managing-my-sponsored-researchers/removing-sponsors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Removing Sponsored Researchers</span></a>
+ <span class="menu-text">Removing Supervised Researchers</span></a>
   </div>
 </li>
       </ul>
@@ -434,8 +434,20 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#download-a-single-file" id="toc-download-a-single-file" class="nav-link active" data-scroll-target="#download-a-single-file">Download a Single File</a></li>
+  <li><a href="#download-as-zip" id="toc-download-as-zip" class="nav-link" data-scroll-target="#download-as-zip">Download as ZIP</a>
+  <ul>
+  <li><a href="#downloading-a-single-session-or-folder-as-zip" id="toc-downloading-a-single-session-or-folder-as-zip" class="nav-link" data-scroll-target="#downloading-a-single-session-or-folder-as-zip">Downloading a Single Session or Folder as ZIP</a></li>
+  <li><a href="#downloading-volume-as-zip" id="toc-downloading-volume-as-zip" class="nav-link" data-scroll-target="#downloading-volume-as-zip">Downloading Volume as ZIP</a></li>
+  </ul></li>
+  <li><a href="#download-links" id="toc-download-links" class="nav-link" data-scroll-target="#download-links">Download Links</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/using-data/downloading-data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -459,10 +471,81 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Steps to download files.</p>
-<p>If you are downloading big sessions/files, it will take a while. Think about your storage space.</p>
+<p>Downloading data from Databrary is a two-step process.</p>
+<section id="download-a-single-file" class="level2">
+<h2 class="anchored" data-anchor-id="download-a-single-file">Download a Single File</h2>
+<p>To download a single file, select the file and click the ‘Download’ button. This will download the data in a format that is compatible with the Databrary platform.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/download-single-files.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<!-- If the video provided in the single session is not transcoding properly, seek the original data by downloading original data. The Download Original button offers an option to download the exact file uploaded from the manager of the volume. -->
+</section>
+<section id="download-as-zip" class="level2">
+<h2 class="anchored" data-anchor-id="download-as-zip">Download as ZIP</h2>
+<p>When a file is compressed by Databrary, the name of the file with be prepared with the pathway to find the file. If the file is intended to be used for further analysis, it is important to rename the file to a more descriptive name. The adapted name may interrupt data mining such as the file name “session1” may be renamed to “001-session1”. In this case, consider downloading the original data to avoid from renaming massive files.</p>
+<p>If you are downloading big sessions, folders, and/or files, downloading is not immediate and it will take a while for Databrary to prepare the data for download. If you are encountering downloading issues, you can try to download the data in smaller chunks.</p>
+<p>It is also important to think about your available local storage space when downloading big sessions and/or files.</p>
+<section id="downloading-a-single-session-or-folder-as-zip" class="level3">
+<h3 class="anchored" data-anchor-id="downloading-a-single-session-or-folder-as-zip">Downloading a Single Session or Folder as ZIP</h3>
+<p>To download a single session or folder as a ZIP, select the session or folder and click the ‘Download’ button. This will download the data in a format that is compatible with the Databrary platform.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/download-zip-session.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="downloading-volume-as-zip" class="level3">
+<h3 class="anchored" data-anchor-id="downloading-volume-as-zip">Downloading Volume as ZIP</h3>
+<p>To download all the data from a volume as a ZIP, scroll to the bottom of the page and click ‘Download all as ZIP’. This will download the data in a format that is compatible with the Databrary platform.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/download-volume-zip.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="download-links" class="level2">
+<h2 class="anchored" data-anchor-id="download-links">Download Links</h2>
+<p>Once your download is ready, you will receive an email with the download link.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/download-email.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Your download link has an expiration. If your download link expires before you are able to download the data to your local computer, you will have to download the data from Databrary again.</p>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -882,4 +965,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/using-data/downloading-data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/using-data/downloading-data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

@@ -1,8 +1,6 @@
 # Using Data {.unnumbered}
 
-Background behind accessing/retrieving/pulling/using data.
-
-You can browse information on DB without restriction. If you want to use the data beyond browsing these are the considerations to keep in mind.
+You can browse information on Databrary without restriction. If you want to use the data beyond browsing, these are the considerations to keep in mind.
 
 Databrary's main goal is to encourage the reuse of sensitive, identifiable behavioral research data. There are research uses and non-research uses. Some of the non-research uses can be for teaching and talks. You must be in conversation with your IRB about using data.
 
@@ -31,18 +29,22 @@ Mention different use cases. Volume ID 955
 ### Reused Data
 Shared data should have a citation on the volume profile page under the ‘How to cite’ heading. Citations take the format of:
 
-LastName, FirstInitial. (year volume was added). Title of Volume. Databrary. Retrieved Month DD, YYYY from [link to assigned doi].
+> LastName, FirstInitial. (year volume was added). Title of Volume. Databrary. Retrieved Month DD, YYYY from [link to assigned doi].
 
-Soska, K., Seisler, A. & Gilmore, R. (2018). Databrary & Datavyu Help Videos. Databrary. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686.
+> Soska, K., Seisler, A. & Gilmore, R. (2018). Databrary & Datavyu Help Videos. Databrary. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686.
 
-<!-- insert screenshot here -->
+```{r echo=FALSE}
+knitr::include_graphics("img/citation.png")
+```
 
 ### Databrary
-Databrary. (2014). Databrary.org. https://nyu.databrary.org/
+Citations take the format of:
 
-Datavyu Team (2014). Datavyu: A Video Coding Tool. Databrary Project, New York University. URL http://datavyu.org.
+> Databrary. (2014). Databrary.org. https://nyu.databrary.org/
+
+> Datavyu Team (2014). Datavyu: A Video Coding Tool. Databrary Project, New York University. URL http://datavyu.org.
 
 ## Ethics of Reusing Data
 Authorized Investigators must secure Institutional approvals prior to conducting research with data shared on Databrary. 
 
-For more information about secondary reuse, see (this section) 
+For more information about secondary reuse, see the [Data Reuse page](../ethics/data-reuse/secondary-reuse.qmd).
