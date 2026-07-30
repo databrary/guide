@@ -1,2 +1,17 @@
 # Finding Datasets {.unnumbered}
 
+To find data on Databrary, you can use the search page or search through a specific researcher's profile.
+
+## Search Page
+Basics of how to use search page
+
+## Researcher's Profile
+Basics of how to use profile
+
+## Popular Volumes
+This page lists some Databrary volumes that are especially popular and widely accessed.
+
+### Volumes
+
+-
+-

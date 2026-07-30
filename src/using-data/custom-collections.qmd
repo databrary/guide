@@ -4,9 +4,17 @@ A custom collection, is a volume that unifies sessions, folders, and files from 
 
 Any volume on Databrary can become a custom collection. As soon as a volume contains at least one link to data in another volume, it is treated and displayed as a custom collection. In a custom collection, you can view the linked volumes, the number of uploaded and linked files, and link data to your other volumes.
 
+^[Databrary is grateful to the support from the U.S. National Science Foundation “Collaborative Research: HNDS-I: Enhancing Infrastructure For Discovery About Human Behavior”, NSF 2444730 and NSF 2444731. The project period is March 1, 2025 to February 28, 2027.]
+
 ```{r echo=FALSE}
 knitr::include_graphics("img/custom-collection.png")
 ```
+
+## Why Should I Use Custom Collections?
+blurb 
+
+- Lego dataset, primary volume is original data and secondary volume can be annotations created using the original data. Original data and secondary analysis
+- Collection of clips a researcher may want to show in class
 
 ## Custom Collection Key Terms
 

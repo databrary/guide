@@ -1,6 +1,25 @@
 # Downloading Data {.unnumbered}
 
-Downloading data from Databrary is a two-step process.
+Downloading data from Databrary is a two-step process. First, you may request to download data. A modal will appear with 
+
+```{r echo=FALSE}
+knitr::include_graphics("img/download-modal.png")
+```
+
+Once
+
+Include screenshot of new download modal with file size on staging.*
+
+::: {.callout-important}
+If you receive a download link with 0gb, you do not have an authorized account and are not permitted to download data that is not public. 
+```{r echo=FALSE}
+knitr::include_graphics("img/zerogb.png")
+```
+
+Registration does not automatically grant you access to Databrary resources. Registration, creating an account, and Authorization, requesting authorization and completing the Databrary access agreement by you and your institution are two separate processes. 
+
+Anything tagged as Authorized Users or Learning Audiences is shared with other Authorized Databrary users. Private data can only be seen by the volume creator and their chosen research team.
+:::
 
 ## Download a Single File
 To download a single file, select the file and click the 'Download' button. This will download the data in a format that is compatible with the Databrary platform. 
@@ -15,6 +34,8 @@ knitr::include_graphics("img/download-single-files.png")
 When a file is compressed by Databrary, the name of the file with be prepared with the pathway to find the file. If the file is intended to be used for further analysis, it is important to rename the file to a more descriptive name. The adapted name may interrupt data mining such as the file name "session1" may be renamed to "001-session1". In this case, consider downloading the original data to avoid from renaming massive files.
 
 If you are downloading big sessions, folders, and/or files, downloading is not immediate and it will take a while for Databrary to prepare the data for download. If you are encountering downloading issues, you can try to download the data in smaller chunks.
+
+*Include callout-If this is over 50gb-1tb or higher it may take several hours to a day. If tb or more, may take a week or more. Do not download the data again and your download will process in the order of a queue.* 
 
 It is also important to think about your available local storage space when downloading big sessions and/or files. 
 

@@ -862,17 +862,27 @@
     "href": "using-data/start.html",
     "title": "Using Data",
     "section": "",
-    "text": "Research Use\nYou can browse information on Databrary without restriction. If you want to use the data beyond browsing, these are the considerations to keep in mind.\nDatabrary’s main goal is to encourage the reuse of sensitive, identifiable behavioral research data. There are research uses and non-research uses. Some of the non-research uses can be for teaching and talks. You must be in conversation with your IRB about using data.\nFind language about Databrary’s mission for open science and data reuse. Considerations for each of those",
+    "text": "Research Purposes\nDatabrary’s main goal is to encourage the reuse of sensitive, identifiable behavioral research data. The data on Databrary can be used for research purposes and non-research purposes, such as the documentation of methodological details, the demonstration of computer-based tasks, or the showing of video clips for teaching or scientific presentations.\nDatabrary is structured upon a restricted access and open sharing framework. Open sharing on Databrary allows researchers to reuse data without contacting the owner. However, access to Databrary is restricted by the completion of a formal agreement between a researcher’s university and Databrary. The formal agreement states that the researcher is affiliated with their university and that the university will be responsible for the researcher’s relationship with Databrary.\nYou must be in conversation with your IRB about using data for research purposes. You will need to decide what constitutes as research with your IRB.\nHere is what NIH constitutes as research: https://irbo.nih.gov/irb-review/not-human-subjects-research/#frequently-asked-questions.",
     "crumbs": [
       "Using Data"
     ]
   },
   {
-    "objectID": "using-data/start.html#non-research-use",
-    "href": "using-data/start.html#non-research-use",
+    "objectID": "using-data/start.html#research-purposes",
+    "href": "using-data/start.html#research-purposes",
     "title": "Using Data",
-    "section": "Non-Research Use",
-    "text": "Non-Research Use\nMust be public or learning audiences release levels\nResearch/non-research uses. Non-research uses must obtain the correct participant permissions.\nOutline all the different use cases: - broad research reuse- link to section - lectures and talks - secondary research",
+    "section": "",
+    "text": "Secondary Research Reuse\nSecondary research involves conducting secondary analyses of participant data obtained from Databrary. Participants’ consent for study participation and release of data must have been obtained by the original researcher under the oversight of their institutional review board.\nFor more information about secondary research, see the Data Reuse page.",
+    "crumbs": [
+      "Using Data"
+    ]
+  },
+  {
+    "objectID": "using-data/start.html#non-research-purposes",
+    "href": "using-data/start.html#non-research-purposes",
+    "title": "Using Data",
+    "section": "Non-Research Purposes",
+    "text": "Non-Research Purposes\n\nLectures and Talks\nYou can also use data on Databrary for non-research purposes, like lectures and talks. The data must have obtained the correct participant permissions and be shared on Databrary with public or learning audiences release levels.\nInclude screenshot of public/learning audiences icons. https://databrary.org/support/using-shared\nFor more information about release levels, see the Sharing Release Level section.\nInclude warning that data permissioned at authorized user or private level may not be used for lectures and talks.\nInclude callout for lab meeting contexts- During informal conversations or small lab meetings, it may be appropriate to use authorized users only data to discuss research. If there are people who are not on your IRB protocol in the meeting, you must use learning audience or public shared data.",
     "crumbs": [
       "Using Data"
     ]
@@ -882,7 +892,7 @@
     "href": "using-data/start.html#how-to-cite",
     "title": "Using Data",
     "section": "How to Cite",
-    "text": "How to Cite\n\n\n\nReused Data\nShared data should have a citation on the volume profile page under the ‘How to cite’ heading. Citations take the format of:\n\nLastName, FirstInitial. (year volume was added). Title of Volume. Databrary. Retrieved Month DD, YYYY from [link to assigned doi].\n\n\nSoska, K., Seisler, A. & Gilmore, R. (2018). Databrary & Datavyu Help Videos. Databrary. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686.\n\n\n\n\n\n\n\n\n\n\n\n\nDatabrary\nCitations take the format of:\n\nDatabrary. (2014). Databrary.org. https://nyu.databrary.org/\n\n\nDatavyu Team (2014). Datavyu: A Video Coding Tool. Databrary Project, New York University. URL http://datavyu.org.",
+    "text": "How to Cite\n\n\n\nReused Data\nShared data should have a citation on the volume profile page under the ‘How to cite’ heading. Citations take the format of:\n\nLastName, FirstInitial. (year volume was added). Title of Volume. Databrary. Retrieved Month DD, YYYY from [link to assigned doi].\n\n\nSoska, K., Seisler, A. & Gilmore, R. (2018). Databrary & Datavyu Help Videos. Databrary. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686.\n\n\n\n\n\n\n\n\n\n\n\n\nDatabrary\nCitations take the format of:\n\nDatabrary. (2014). Databrary.org. https://nyu.databrary.org/\n\n\nDatavyu Team (2014). Datavyu: A Video Coding Tool. Databrary Project, New York University. URL http://datavyu.org.\n\n\n\nDOIs\nOnce your volume is shared, a Digital Object Identifier(DOI) will be automatically minted for your volume. If you need a reference and you are citing the source of your data, use the citation. If you would like to direct people to your data, use the DOI.",
     "crumbs": [
       "Using Data"
     ]
@@ -898,11 +908,44 @@
     ]
   },
   {
+    "objectID": "using-data/finding-data.html",
+    "href": "using-data/finding-data.html",
+    "title": "Finding Datasets",
+    "section": "",
+    "text": "Search Page\nTo find data on Databrary, you can use the search page or search through a specific researcher’s profile.\nBasics of how to use search page",
+    "crumbs": [
+      "Using Data",
+      "Finding Datasets"
+    ]
+  },
+  {
+    "objectID": "using-data/finding-data.html#researchers-profile",
+    "href": "using-data/finding-data.html#researchers-profile",
+    "title": "Finding Datasets",
+    "section": "Researcher’s Profile",
+    "text": "Researcher’s Profile\nBasics of how to use profile",
+    "crumbs": [
+      "Using Data",
+      "Finding Datasets"
+    ]
+  },
+  {
+    "objectID": "using-data/finding-data.html#popular-volumes",
+    "href": "using-data/finding-data.html#popular-volumes",
+    "title": "Finding Datasets",
+    "section": "Popular Volumes",
+    "text": "Popular Volumes\nThis page lists some Databrary volumes that are especially popular and widely accessed.\n\nVolumes",
+    "crumbs": [
+      "Using Data",
+      "Finding Datasets"
+    ]
+  },
+  {
     "objectID": "using-data/downloading-data.html",
     "href": "using-data/downloading-data.html",
     "title": "Downloading Data",
     "section": "",
-    "text": "Download a Single File\nDownloading data from Databrary is a two-step process.\nTo download a single file, select the file and click the ‘Download’ button. This will download the data in a format that is compatible with the Databrary platform.",
+    "text": "Download a Single File\nDownloading data from Databrary is a two-step process. First, you may request to download data. A modal will appear with\nOnce\nInclude screenshot of new download modal with file size on staging.*\nTo download a single file, select the file and click the ‘Download’ button. This will download the data in a format that is compatible with the Databrary platform.",
     "crumbs": [
       "Using Data",
       "Downloading Data"
@@ -913,7 +956,7 @@
     "href": "using-data/downloading-data.html#download-as-zip",
     "title": "Downloading Data",
     "section": "Download as ZIP",
-    "text": "Download as ZIP\nWhen a file is compressed by Databrary, the name of the file with be prepared with the pathway to find the file. If the file is intended to be used for further analysis, it is important to rename the file to a more descriptive name. The adapted name may interrupt data mining such as the file name “session1” may be renamed to “001-session1”. In this case, consider downloading the original data to avoid from renaming massive files.\nIf you are downloading big sessions, folders, and/or files, downloading is not immediate and it will take a while for Databrary to prepare the data for download. If you are encountering downloading issues, you can try to download the data in smaller chunks.\nIt is also important to think about your available local storage space when downloading big sessions and/or files.\n\nDownloading a Single Session or Folder as ZIP\nTo download a single session or folder as a ZIP, select the session or folder and click the ‘Download’ button. This will download the data in a format that is compatible with the Databrary platform.\n\n\n\n\n\n\n\n\n\n\n\nDownloading Volume as ZIP\nTo download all the data from a volume as a ZIP, scroll to the bottom of the page and click ‘Download all as ZIP’. This will download the data in a format that is compatible with the Databrary platform.",
+    "text": "Download as ZIP\nWhen a file is compressed by Databrary, the name of the file with be prepared with the pathway to find the file. If the file is intended to be used for further analysis, it is important to rename the file to a more descriptive name. The adapted name may interrupt data mining such as the file name “session1” may be renamed to “001-session1”. In this case, consider downloading the original data to avoid from renaming massive files.\nIf you are downloading big sessions, folders, and/or files, downloading is not immediate and it will take a while for Databrary to prepare the data for download. If you are encountering downloading issues, you can try to download the data in smaller chunks.\nInclude callout-If this is over 50gb-1tb or higher it may take several hours to a day. If tb or more, may take a week or more. Do not download the data again and your download will process in the order of a queue.\nIt is also important to think about your available local storage space when downloading big sessions and/or files.\n\nDownloading a Single Session or Folder as ZIP\nTo download a single session or folder as a ZIP, select the session or folder and click the ‘Download’ button. This will download the data in a format that is compatible with the Databrary platform.\n\n\n\n\n\n\n\n\n\n\n\nDownloading Volume as ZIP\nTo download all the data from a volume as a ZIP, scroll to the bottom of the page and click ‘Download all as ZIP’. This will download the data in a format that is compatible with the Databrary platform.",
     "crumbs": [
       "Using Data",
       "Downloading Data"
@@ -935,7 +978,18 @@
     "href": "using-data/custom-collections.html",
     "title": "Custom Collections",
     "section": "",
-    "text": "Custom Collection Key Terms\nA custom collection, is a volume that unifies sessions, folders, and files from one or more other volumes and presents it all in one place. The original data stays in the original volume; the custom collection just copies and links to it.\nAny volume on Databrary can become a custom collection. As soon as a volume contains at least one link to data in another volume, it is treated and displayed as a custom collection. In a custom collection, you can view the linked volumes, the number of uploaded and linked files, and link data to your other volumes.",
+    "text": "Why Should I Use Custom Collections?\nA custom collection, is a volume that unifies sessions, folders, and files from one or more other volumes and presents it all in one place. The original data stays in the original volume; the custom collection just copies and links to it.\nAny volume on Databrary can become a custom collection. As soon as a volume contains at least one link to data in another volume, it is treated and displayed as a custom collection. In a custom collection, you can view the linked volumes, the number of uploaded and linked files, and link data to your other volumes.\n1\nblurb",
+    "crumbs": [
+      "Using Data",
+      "Custom Collections"
+    ]
+  },
+  {
+    "objectID": "using-data/custom-collections.html#why-should-i-use-custom-collections",
+    "href": "using-data/custom-collections.html#why-should-i-use-custom-collections",
+    "title": "Custom Collections",
+    "section": "",
+    "text": "Lego dataset, primary volume is original data and secondary volume can be annotations created using the original data. Original data and secondary analysis\nCollection of clips a researcher may want to show in class",
     "crumbs": [
       "Using Data",
       "Custom Collections"
@@ -945,8 +999,19 @@
     "objectID": "using-data/custom-collections.html#custom-collection-key-terms",
     "href": "using-data/custom-collections.html#custom-collection-key-terms",
     "title": "Custom Collections",
+    "section": "Custom Collection Key Terms",
+    "text": "Custom Collection Key Terms\n\nLink Types\n- Linked volume: An entire volume is linked into the custom collection. All of its sessions and folders appear in the destination.\n- Linked session: A single session from another volume is linked into the custom collection.\n- Linked folder: A single folder from another volume is linked into the custom collection.\n- Linked file: A single file from another volume is linked into a specific session or folder in the custom collection.\n\n\nContent Categories\n- Native content: Sessions, folders, and files that were created or uploaded directly in the custom collection. These belong to the collection and are not linked from anywhere else.\n- Linked content: Sessions, folders, and files that originate in a source volume and are linked into the custom collection. They are displayed in the collection but owned by the source volume.\n- Added content: Files uploaded directly into a linked session or folder within the custom collection. They live in the collection only — they do not appear in the source volume. They behave like native files for editing purposes.\n\n\nRecords (Metadata)\n- Source records: Records, like participant metadata, that belong to the source volume and move with the linked content. They appear in the collection as read-only and are not edittable.\n- Supplementary records: Records created in the custom collection and manually assigned to linked content. They exist only within the collection and can be edited or removed by collaborators with write access to the collection.",
+    "crumbs": [
+      "Using Data",
+      "Custom Collections"
+    ]
+  },
+  {
+    "objectID": "using-data/custom-collections.html#footnotes",
+    "href": "using-data/custom-collections.html#footnotes",
+    "title": "Custom Collections",
     "section": "",
-    "text": "Link Types\n- Linked volume: An entire volume is linked into the custom collection. All of its sessions and folders appear in the destination.\n- Linked session: A single session from another volume is linked into the custom collection.\n- Linked folder: A single folder from another volume is linked into the custom collection.\n- Linked file: A single file from another volume is linked into a specific session or folder in the custom collection.\n\n\nContent Categories\n- Native content: Sessions, folders, and files that were created or uploaded directly in the custom collection. These belong to the collection and are not linked from anywhere else.\n- Linked content: Sessions, folders, and files that originate in a source volume and are linked into the custom collection. They are displayed in the collection but owned by the source volume.\n- Added content: Files uploaded directly into a linked session or folder within the custom collection. They live in the collection only — they do not appear in the source volume. They behave like native files for editing purposes.\n\n\nRecords (Metadata)\n- Source records: Records, like participant metadata, that belong to the source volume and move with the linked content. They appear in the collection as read-only and are not edittable.\n- Supplementary records: Records created in the custom collection and manually assigned to linked content. They exist only within the collection and can be edited or removed by collaborators with write access to the collection.",
+    "text": "Databrary is grateful to the support from the U.S. National Science Foundation “Collaborative Research: HNDS-I: Enhancing Infrastructure For Discovery About Human Behavior”, NSF 2444730 and NSF 2444731. The project period is March 1, 2025 to February 28, 2027.↩︎",
     "crumbs": [
       "Using Data",
       "Custom Collections"
