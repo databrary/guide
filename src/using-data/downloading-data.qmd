@@ -1,14 +1,18 @@
 # Downloading Data {.unnumbered}
 
-Downloading data from Databrary is a two-step process. First, you may request to download data. A modal will appear with 
+Downloading data from Databrary is a two-step process. 
+
+First, you may request to download data. A modal will appear with information about the ZIP size, what is included in your download, and the estimated processing time until your download begins.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/download-modal.png")
 ```
 
-Once
+Once your download is ready, you will receive an email with your download link.
 
-Include screenshot of new download modal with file size on staging.*
+```{r echo=FALSE}
+knitr::include_graphics("img/zerogb.png")
+```
 
 ::: {.callout-important}
 If you receive a download link with 0gb, you do not have an authorized account and are not permitted to download data that is not public. 
@@ -35,7 +39,9 @@ When a file is compressed by Databrary, the name of the file with be prepared wi
 
 If you are downloading big sessions, folders, and/or files, downloading is not immediate and it will take a while for Databrary to prepare the data for download. If you are encountering downloading issues, you can try to download the data in smaller chunks.
 
-*Include callout-If this is over 50gb-1tb or higher it may take several hours to a day. If tb or more, may take a week or more. Do not download the data again and your download will process in the order of a queue.* 
+::: {.callout-note}
+If your download request is between 50gb to 1tb, your request may take several hours to a day to process. If your request is 1tb or more, it may take a week or more to process. Do not download the data again and your download will process in the order of a queue.
+:::
 
 It is also important to think about your available local storage space when downloading big sessions and/or files. 
 

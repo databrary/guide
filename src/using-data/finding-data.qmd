@@ -1,17 +1,35 @@
 # Finding Datasets {.unnumbered}
 
-To find data on Databrary, you can use the search page or search through a specific researcher's profile.
+To find data on Databrary, you can use the search page to find a specific volume or browse all volumes.
 
 ## Search Page
-Basics of how to use search page
+On Databrary's home page, you can use the **search bar** to find datasets or click on 'Find Clips' to browse our **explore page**.
 
-## Researcher's Profile
-Basics of how to use profile
+```{r echo=FALSE}
+knitr::include_graphics("img/homepage-search.png")
+```
+
+Using the search bar will display all volumes with your defined query. You can sort volumes by release levels, volume sharing status, file type, and tags on this page.
+
+```{r echo=FALSE}
+knitr::include_graphics("img/search-page.png")
+```
+
+Our explore page displays all volumes hosted on Databrary. You can refine your search here by using the sorting options or defining a query using the search bar.
+
+```{r echo=FALSE}
+knitr::include_graphics("img/explore-page.png")
+```
 
 ## Popular Volumes
 This page lists some Databrary volumes that are especially popular and widely accessed.
 
-### Volumes
-
--
--
+- [The Complex Emotion Expression Database (CEED)](https://databrary.org/volume/874)
+- [Child Affective Face Expression (CAFE)](https://databrary.org/volume/30)
+- [Eye-Gaze FoCuS Database](https://databrary.org/volume/884)
+- [Falls Experiences by Older Adult Residents in Long-Term Care Homes](https://databrary.org/volume/739)
+- [ManyBabies 1: Walkthrough videos](https://databrary.org/volume/896)
+- [MetroBaby](https://databrary.org/volume/8)
+- [SayCAM](https://databrary.org/volume/564)
+- [Science of Everyday Play](https://databrary.org/volume/1612)
+- [SEEDLingS](https://databrary.org/party/61)

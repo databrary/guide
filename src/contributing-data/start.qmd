@@ -1,3 +1,92 @@
 # Contributing Data {.unnumbered}
 
-Example text.
+To contribute data to Databrary, you can create a new volume that will hold the collection of data or materials associated with your research project. 
+
+## Step 1: Create a Volume
+
+Click on 'Create Volume' in the right side of your top navigation bar.
+
+```{r echo=FALSE}
+knitr::include_graphics("img/step-1.png")
+```
+
+## Step 2: Volume Overview
+
+The Volume Overview contains information about the Title, Description, Internal Short Name and key words.
+
+```{r echo=FALSE}
+knitr::include_graphics("img/volume-overview.png")
+```
+
+Please describe the context of data collection and the types of data that will be uploaded (e.g. video, pictures, coding files, survey data, etc.). Below is a recommended template for each field: 
+
+### Title
+
+### Description of Dataset
+This dataset focuses on [Provide provide a description of behavor, location of study, and age range]. Dataset includes [Enter description of videos, questionnaires, materials, etc.].
+
+Videos were [Provide a general description of what the videos were coded for ie., transcribed for mother speech and child vocalizations; coded for mother and child object interaction; child locomotion and emotion).].
+
+This volume contains [List the types of files along with approximate numbers for each. Some examples are provided below]:
+
+- *xx* videos (MP4/MOV files)
+- *xx* of Datavyu transcription files (OPF files)
+- *xx* of Datavyu coding files (OPF files)
+- Questionnaire data (.xls file)
+- Several video exemplars of child behaviors (.mp4 files)
+- Transcription manual (.docx file)
+- Coding manual (.docx file)
+- Scripts for processing and exporting data from Datayu (Ruby)
+- Materials folder containing stimuli, copies of questionnaires used in study, additional participant demographic information, and other materials utilized for the study.
+- Exemplar study intake video of experimenter with participant
+
+### Internal Short Name
+
+### Keywords
+Only Volume Owners, Co-Authors, and Authorized Investigators can enter keywords. It is best practice to use keywords that would have been used in the associated journal article.
+
+## Step 3: Manage Access
+Here, you can choose volume sharing options (ie., shared, overview only, or private) and add collaborators (faculty, staff, students) that already have an account on Databrary that is Sponsored by an Institution or an Authorized Investigator.
+
+```{r echo=FALSE}
+knitr::include_graphics("img/manage-access.png")
+```
+
+### Sharing Level
+**Private**: The volume is private to you and your chosen Supervised Researchers and volume collaborators.
+
+**Volume Overview Only**: The volume's title and description is visible to authorized Databrary users.
+
+**Shared**: The volume and its contents are visible, accessible and downloadable to authorized Databrary users.
+
+## Step 4: Design Spreadsheet
+
+Here, you can choose all the categories and sub-categories you would like to include in your spreadsheet for participant and session metadata. You will need to select the categories and the fields within each category that apply to your study.
+
+```{r echo=FALSE}
+knitr::include_graphics("img/design-spreadsheet.png")
+```
+
+Please select all the categories and fields that you know about, even if the information is constant across the entire dataset or true to every participant or session. This makes your dataset more valuable and enhances its potential for reuse.
+
+*Include definitions of spreadsheet categories*
+
+## Step 5: Enter Data
+Now, you can add your data to the volume! You must ensure that you have appropriate participant permissions to share data on Databrary. Please navigate to our [Obtaining Permissions page](/ethics/data-collection-and-permissions.qmd) to learn more about obtaining the appropriate participant permissions.
+
+Once you have obtained your participant permission, you must determine which Databrary sharing release level should be used for your participant's data. 
+
+```{r echo=FALSE}
+knitr::include_graphics("img/release-levels.png")
+```
+
+### Session Release Level
+The session release level automatically sets the same release level for all files uploaded under that session.
+
+```{r echo=FALSE}
+knitr::include_graphics("img/session-release-level.png")
+```
+
+### File Release Level
+
+
