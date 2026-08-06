@@ -281,14 +281,18 @@ ul.task-list li input[type="checkbox"] {
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Contributing Data</span></span>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../using-data/start.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Using Data</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../using-data/finding-data.html" class="sidebar-item-text sidebar-link">
@@ -313,11 +317,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../technology-and-security/start.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Technology and Security</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../technology-and-security/software.html" class="sidebar-item-text sidebar-link">
@@ -352,13 +356,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
  <span class="menu-text">Appendices</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/access_agreement.html" class="sidebar-item-text sidebar-link">
@@ -469,7 +473,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Downloading data from Databrary is a two-step process. First, you may request to download data. A modal will appear with</p>
+<p>Downloading data from Databrary is a two-step process.</p>
+<p>First, you may request to download data. A modal will appear with information about the ZIP size, what is included in your download, and the estimated processing time until your download begins.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -479,8 +484,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>Once</p>
-<p>Include screenshot of new download modal with file size on staging.*</p>
+<p>Once your download is ready, you will receive an email with your download link.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/zerogb.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -523,7 +536,19 @@ Important
 <h2 class="anchored" data-anchor-id="download-as-zip">Download as ZIP</h2>
 <p>When a file is compressed by Databrary, the name of the file with be prepared with the pathway to find the file. If the file is intended to be used for further analysis, it is important to rename the file to a more descriptive name. The adapted name may interrupt data mining such as the file name “session1” may be renamed to “001-session1”. In this case, consider downloading the original data to avoid from renaming massive files.</p>
 <p>If you are downloading big sessions, folders, and/or files, downloading is not immediate and it will take a while for Databrary to prepare the data for download. If you are encountering downloading issues, you can try to download the data in smaller chunks.</p>
-<p><em>Include callout-If this is over 50gb-1tb or higher it may take several hours to a day. If tb or more, may take a week or more. Do not download the data again and your download will process in the order of a queue.</em></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If your download request is between 50gb to 1tb, your request may take several hours to a day to process. If your request is 1tb or more, it may take a week or more to process. Do not download the data again and your download will process in the order of a queue.</p>
+</div>
+</div>
 <p>It is also important to think about your available local storage space when downloading big sessions and/or files.</p>
 <section id="downloading-a-single-session-or-folder-as-zip" class="level3">
 <h3 class="anchored" data-anchor-id="downloading-a-single-session-or-folder-as-zip">Downloading a Single Session or Folder as ZIP</h3>

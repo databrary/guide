@@ -70,7 +70,7 @@ book:
    #     - project-guidelines/ongoing-project.qmd
    #     - project-guidelines/completed-project.qmd
    #     - project-guidelines/best-practices.qmd
-   # - part: contributing-data/start.qmd
+    - part: contributing-data/start.qmd
    #   chapters:
    #    - contributing-data/create-a-volume.qmd
    #    - contributing-data/edit-a-volume.qmd
