@@ -40,7 +40,7 @@ When a file is compressed by Databrary, the name of the file with be prepared wi
 If you are downloading big sessions, folders, and/or files, downloading is not immediate and it will take a while for Databrary to prepare the data for download. If you are encountering downloading issues, you can try to download the data in smaller chunks.
 
 ::: {.callout-note}
-If your download request is between 50gb to 1tb, your request may take several hours to a day to process. If your request is 1tb or more, it may take a week or more to process. Do not download the data again and your download will process in the order of a queue.
+If your download request is between 50gb to 1tb, your request may take several hours to a day to process. If your request is 1tb or more, it may take a week or more to process. Do not request to download the data again. Your download will process in the order of a queue.
 :::
 
 It is also important to think about your available local storage space when downloading big sessions and/or files. 

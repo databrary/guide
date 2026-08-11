@@ -23,7 +23,7 @@ For more information about secondary research, see the [Data Reuse page](../ethi
 ## Non-Research Purposes
 
 ### Lectures and Talks
-You can also use data on Databrary for non-research purposes, like lectures and talks. The data must have obtained the correct participant permissions and be shared on Databrary with public ![](img/public.png){style="height: 1em; width: auto;"} or learning audiences ![](img/learning-audiences.png){style="height: 1em; width: auto;"} release levels. These release levels permit an authorized user to show clips or excerpts in public settings like classrooms and talks.
+You can also use data on Databrary for non-research purposes, like lectures and talks. The data must have obtained the correct participant permissions and be shared on Databrary with public ![](img/public.png){style="height: 1em; width: auto;"} or learning audiences ![](img/learning-audiences.png){style="height: 1em; width: auto;"} release levels. These release levels permit an authorized user to show clips or excerpts in public settings like classrooms and talks, even if that presentation is video-recorded.
 
 For more information about release levels, see the [Sharing Release Level section](../ethics/data-collection-and-permissions.qmd).
 

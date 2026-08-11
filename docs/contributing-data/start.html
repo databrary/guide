@@ -2,16 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Contributing Data – Databrary Guide</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -37,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../managing-my-sponsored-researchers/removing-sponsors.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1f3d5cd3961055ad9ac6a76443b528c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ca7bfe637e992632417002da0d1e1fd6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -454,6 +452,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#step-3-manage-access" id="toc-step-3-manage-access" class="nav-link" data-scroll-target="#step-3-manage-access">Step 3: Manage Access</a>
   <ul>
   <li><a href="#sharing-level" id="toc-sharing-level" class="nav-link" data-scroll-target="#sharing-level">Sharing Level</a></li>
+  <li><a href="#collaborators" id="toc-collaborators" class="nav-link" data-scroll-target="#collaborators">Collaborators</a></li>
   </ul></li>
   <li><a href="#step-4-design-spreadsheet" id="toc-step-4-design-spreadsheet" class="nav-link" data-scroll-target="#step-4-design-spreadsheet">Step 4: Design Spreadsheet</a></li>
   <li><a href="#step-5-enter-data" id="toc-step-5-enter-data" class="nav-link" data-scroll-target="#step-5-enter-data">Step 5: Enter Data</a>
@@ -486,10 +485,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p><em>## Setting up Volume</em> <em>## Entering Data</em> <em>## Sharing Volume</em></p>
 <p>To contribute data to Databrary, you can create a new volume that will hold the collection of data or materials associated with your research project.</p>
 <section id="step-1-create-a-volume" class="level2">
 <h2 class="anchored" data-anchor-id="step-1-create-a-volume">Step 1: Create a Volume</h2>
 <p>Click on ‘Create Volume’ in the right side of your top navigation bar.</p>
+<p><em>Include callout note that only authorized investigators can create a volume</em></p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -515,10 +516,11 @@ ul.task-list li input[type="checkbox"] {
 <p>Please describe the context of data collection and the types of data that will be uploaded (e.g.&nbsp;video, pictures, coding files, survey data, etc.). Below is a recommended template for each field:</p>
 <section id="title" class="level3">
 <h3 class="anchored" data-anchor-id="title">Title</h3>
+<p><em>The title could be the title of the publication or a good description of the tasks or data involved. For better reuse and discoverability, the title should be informative to researchers</em></p>
 </section>
 <section id="description-of-dataset" class="level3">
 <h3 class="anchored" data-anchor-id="description-of-dataset">Description of Dataset</h3>
-<p>This dataset focuses on [Provide provide a description of behavor, location of study, and age range]. Dataset includes [Enter description of videos, questionnaires, materials, etc.].</p>
+<p>This dataset focuses on [Provide provide a description of behavor, location of study, and age range]. Dataset includes [Enter description of tasks, videos, questionnaires, materials, etc.].</p>
 <p>Videos were [Provide a general description of what the videos were coded for ie., transcribed for mother speech and child vocalizations; coded for mother and child object interaction; child locomotion and emotion).].</p>
 <p>This volume contains [List the types of files along with approximate numbers for each. Some examples are provided below]:</p>
 <ul>
@@ -533,9 +535,11 @@ ul.task-list li input[type="checkbox"] {
 <li>Materials folder containing stimuli, copies of questionnaires used in study, additional participant demographic information, and other materials utilized for the study.</li>
 <li>Exemplar study intake video of experimenter with participant</li>
 </ul>
+<p><em>You may not have a complete description of your dataset when you first create your volume. It is best practice to fill out as much information as you have and continue to add more information as your dataset becomes more filled out. The description can also include the abstract of the paper or any associated products.</em></p>
 </section>
 <section id="internal-short-name" class="level3">
 <h3 class="anchored" data-anchor-id="internal-short-name">Internal Short Name</h3>
+<p>The only people who can see the internal short name are you and your Supervised Researchers. You can use whatever lab convention makes the most sense to you.</p>
 </section>
 <section id="keywords" class="level3">
 <h3 class="anchored" data-anchor-id="keywords">Keywords</h3>
@@ -559,11 +563,16 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Private</strong>: The volume is private to you and your chosen Supervised Researchers and volume collaborators.</p>
 <p><strong>Volume Overview Only</strong>: The volume’s title and description is visible to authorized Databrary users.</p>
 <p><strong>Shared</strong>: The volume and its contents are visible, accessible and downloadable to authorized Databrary users.</p>
+<p><em>Emphasize that this controls public Databrary visibility for your volume</em></p>
+</section>
+<section id="collaborators" class="level3">
+<h3 class="anchored" data-anchor-id="collaborators">Collaborators</h3>
+<p><em>Include screenshots for add collaborator modal and the different roles. Explain owner is only one that can share, what is a co-author, why to transfer volumes</em></p>
 </section>
 </section>
 <section id="step-4-design-spreadsheet" class="level2">
 <h2 class="anchored" data-anchor-id="step-4-design-spreadsheet">Step 4: Design Spreadsheet</h2>
-<p>Here, you can choose all the categories and sub-categories you would like to include in your spreadsheet for participant and session metadata. You will need to select the categories and the fields within each category that apply to your study.</p>
+<p>Here, you can choose all the categories and sub-categories you would like to include in your spreadsheet for participant and session metadata. You will need to select the categories and the fields within each category that apply to your study. You can always add or remove categories from your volume at any point and the metadata will be retained.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -589,6 +598,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+<p>The release levels will dictate the level of access to your data once your volume is <strong>shared</strong>.</p>
+<p><em>Include information from ‘Add Data’ from old guide</em></p>
 <section id="session-release-level" class="level3">
 <h3 class="anchored" data-anchor-id="session-release-level">Session Release Level</h3>
 <p>The session release level automatically sets the same release level for all files uploaded under that session.</p>

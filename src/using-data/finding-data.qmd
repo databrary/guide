@@ -2,6 +2,8 @@
 
 To find data on Databrary, you can use the search page to find a specific volume or browse all volumes.
 
+*You are only seeing volumes that are private from other researchers. If you want to reuse data, find shared volumes. Explain users and institutions search page more. Don't need to differentiate between search and find clips page. Search queries are ordered off of relevance. Break down components of page more. Include calloutbox of DB search only returning volumes and we are planning to search for specific files and sessions*
+
 ## Search Page
 On Databrary's home page, you can use the **search bar** to find datasets or click on 'Find Clips' to browse our **explore page**.
 
