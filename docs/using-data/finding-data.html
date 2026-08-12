@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Finding Datasets – Databrary Guide</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -34,15 +37,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../using-data/start.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ca7bfe637e992632417002da0d1e1fd6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1f3d5cd3961055ad9ac6a76443b528c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -281,8 +283,21 @@ ul.task-list li input[type="checkbox"] {
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Contributing Data</span></span>
+      <div class="sidebar-item-container"> 
+            <a href="../contributing-data/start.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contributing Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../contributing-data/start.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contributing Data</span></a>
+  </div>
+</li>
+      </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
@@ -441,7 +456,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#search-page" id="toc-search-page" class="nav-link active" data-scroll-target="#search-page">Search Page</a></li>
+  <li><a href="#search-page--volumes" id="toc-search-page--volumes" class="nav-link active" data-scroll-target="#search-page--volumes">Search Page- Volumes</a>
+  <ul>
+  <li><a href="#filter-options" id="toc-filter-options" class="nav-link" data-scroll-target="#filter-options">Filter Options</a>
+  <ul class="collapse">
+  <li><a href="#file-release-levels" id="toc-file-release-levels" class="nav-link" data-scroll-target="#file-release-levels"><strong>File Release Levels</strong></a></li>
+  <li><a href="#volume-sharing-levels" id="toc-volume-sharing-levels" class="nav-link" data-scroll-target="#volume-sharing-levels"><strong>Volume Sharing Levels</strong></a></li>
+  <li><a href="#file-type" id="toc-file-type" class="nav-link" data-scroll-target="#file-type"><strong>File Type</strong></a></li>
+  <li><a href="#tag" id="toc-tag" class="nav-link" data-scroll-target="#tag"><strong>Tag</strong></a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#search-page--users" id="toc-search-page--users" class="nav-link" data-scroll-target="#search-page--users">Search Page- Users</a></li>
+  <li><a href="#search-page--institutions" id="toc-search-page--institutions" class="nav-link" data-scroll-target="#search-page--institutions">Search Page- Institutions</a></li>
   <li><a href="#popular-volumes" id="toc-popular-volumes" class="nav-link" data-scroll-target="#popular-volumes">Popular Volumes</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/using-data/finding-data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -469,10 +495,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>To find data on Databrary, you can use the search page to find a specific volume or browse all volumes.</p>
-<p><em>You are only seeing volumes that are private from other researchers. If you want to reuse data, find shared volumes. Explain users and institutions search page more. Don’t need to differentiate between search and find clips page. Search queries are ordered off of relevance. Break down components of page more. Include calloutbox of DB search only returning volumes and we are planning to search for specific files and sessions</em></p>
-<section id="search-page" class="level2">
-<h2 class="anchored" data-anchor-id="search-page">Search Page</h2>
-<p>On Databrary’s home page, you can use the <strong>search bar</strong> to find datasets or click on ‘Find Clips’ to browse our <strong>explore page</strong>.</p>
+<p><em>You are only seeing volumes that are private from other researchers. Explain users and institutions search page more. Break down components of page more.</em></p>
+<section id="search-page--volumes" class="level2">
+<h2 class="anchored" data-anchor-id="search-page--volumes">Search Page- Volumes</h2>
+<p>On Databrary’s home page, you can use the <strong>search bar</strong> to find datasets or click on <strong>‘Find Clips’</strong> to browse our all volumes.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -482,7 +508,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>Using the search bar will display all volumes with your defined query. You can sort volumes by release levels, volume sharing status, file type, and tags on this page.</p>
+<p>Using the search bar will display all volumes with your defined query. The returned results are ordered off of relevance. You can sort volumes by release levels, volume sharing status, file type, and tags on this page.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -492,12 +518,96 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>Our explore page displays all volumes hosted on Databrary. You can refine your search here by using the sorting options or defining a query using the search bar.</p>
+<section id="filter-options" class="level3">
+<h3 class="anchored" data-anchor-id="filter-options">Filter Options</h3>
+<p>You can refine your search by using the filter options at the top of the volume list.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="img/explore-page.png" class="img-fluid figure-img"></p>
+<p><img src="img/search-filter.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="file-release-levels" class="level4">
+<h4 class="anchored" data-anchor-id="file-release-levels"><strong>File Release Levels</strong></h4>
+<p>You can sort volumes by public, authorized users, or learning audiences release levels.</p>
+</section>
+<section id="volume-sharing-levels" class="level4">
+<h4 class="anchored" data-anchor-id="volume-sharing-levels"><strong>Volume Sharing Levels</strong></h4>
+<p>You can sort volumes by private, overview only, or shared levels.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you want to reuse data, you must find <strong>shared</strong> volumes.</p>
+</div>
+</div>
+</section>
+<section id="file-type" class="level4">
+<h4 class="anchored" data-anchor-id="file-type"><strong>File Type</strong></h4>
+<p>You can sort volumes by video, audio, image, document, or other file types.</p>
+</section>
+<section id="tag" class="level4">
+<h4 class="anchored" data-anchor-id="tag"><strong>Tag</strong></h4>
+<p>You can enter a specific tag you are interested in to return volumes associated with that tag.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The search function only returns volumes and does not return queries including specific files or sessions. Databrary is planning to implement this functionality in the near future.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="search-page--users" class="level2">
+<h2 class="anchored" data-anchor-id="search-page--users">Search Page- Users</h2>
+<p>You can also use the search page to find other Databrary users. On this page, you can view all users, authorized only users and all users’ email addresses.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/search-users.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The email addresses in the screenshot above have been covered for privacy purposes.</p>
+</div>
+</div>
+</section>
+<section id="search-page--institutions" class="level2">
+<h2 class="anchored" data-anchor-id="search-page--institutions">Search Page- Institutions</h2>
+<p>Lastly, you can use the search page to find institutions registered on Databrary.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/search-institutions.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>

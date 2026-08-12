@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Contributing Data – Databrary Guide</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -34,15 +37,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../managing-my-sponsored-researchers/removing-sponsors.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ca7bfe637e992632417002da0d1e1fd6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1f3d5cd3961055ad9ac6a76443b528c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -281,8 +283,21 @@ ul.task-list li input[type="checkbox"] {
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Contributing Data</span></span>
+      <div class="sidebar-item-container"> 
+            <a href="../contributing-data/start.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Contributing Data</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../contributing-data/start.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Contributing Data</span></a>
+  </div>
+</li>
+      </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
@@ -441,25 +456,35 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#step-1-create-a-volume" id="toc-step-1-create-a-volume" class="nav-link active" data-scroll-target="#step-1-create-a-volume">Step 1: Create a Volume</a></li>
-  <li><a href="#step-2-volume-overview" id="toc-step-2-volume-overview" class="nav-link" data-scroll-target="#step-2-volume-overview">Step 2: Volume Overview</a>
+  <li><a href="#setting-up-volume" id="toc-setting-up-volume" class="nav-link active" data-scroll-target="#setting-up-volume">Setting up Volume</a>
   <ul>
-  <li><a href="#title" id="toc-title" class="nav-link" data-scroll-target="#title">Title</a></li>
-  <li><a href="#description-of-dataset" id="toc-description-of-dataset" class="nav-link" data-scroll-target="#description-of-dataset">Description of Dataset</a></li>
-  <li><a href="#internal-short-name" id="toc-internal-short-name" class="nav-link" data-scroll-target="#internal-short-name">Internal Short Name</a></li>
-  <li><a href="#keywords" id="toc-keywords" class="nav-link" data-scroll-target="#keywords">Keywords</a></li>
+  <li><a href="#step-1-create-a-volume" id="toc-step-1-create-a-volume" class="nav-link" data-scroll-target="#step-1-create-a-volume">Step 1: Create a Volume</a></li>
+  <li><a href="#step-2-volume-overview" id="toc-step-2-volume-overview" class="nav-link" data-scroll-target="#step-2-volume-overview">Step 2: Volume Overview</a>
+  <ul class="collapse">
+  <li><a href="#title" id="toc-title" class="nav-link" data-scroll-target="#title"><strong>Title</strong></a></li>
+  <li><a href="#description-of-dataset" id="toc-description-of-dataset" class="nav-link" data-scroll-target="#description-of-dataset"><strong>Description of Dataset</strong></a></li>
+  <li><a href="#internal-short-name" id="toc-internal-short-name" class="nav-link" data-scroll-target="#internal-short-name"><strong>Internal Short Name</strong></a></li>
+  <li><a href="#keywords" id="toc-keywords" class="nav-link" data-scroll-target="#keywords"><strong>Keywords</strong></a></li>
   </ul></li>
   <li><a href="#step-3-manage-access" id="toc-step-3-manage-access" class="nav-link" data-scroll-target="#step-3-manage-access">Step 3: Manage Access</a>
-  <ul>
-  <li><a href="#sharing-level" id="toc-sharing-level" class="nav-link" data-scroll-target="#sharing-level">Sharing Level</a></li>
-  <li><a href="#collaborators" id="toc-collaborators" class="nav-link" data-scroll-target="#collaborators">Collaborators</a></li>
+  <ul class="collapse">
+  <li><a href="#sharing-level" id="toc-sharing-level" class="nav-link" data-scroll-target="#sharing-level"><strong>Sharing Level</strong></a></li>
+  <li><a href="#owner" id="toc-owner" class="nav-link" data-scroll-target="#owner"><strong>Owner</strong></a></li>
+  <li><a href="#coauthors" id="toc-coauthors" class="nav-link" data-scroll-target="#coauthors"><strong>Coauthors</strong></a></li>
+  <li><a href="#collaborators" id="toc-collaborators" class="nav-link" data-scroll-target="#collaborators"><strong>Collaborators</strong></a></li>
   </ul></li>
   <li><a href="#step-4-design-spreadsheet" id="toc-step-4-design-spreadsheet" class="nav-link" data-scroll-target="#step-4-design-spreadsheet">Step 4: Design Spreadsheet</a></li>
-  <li><a href="#step-5-enter-data" id="toc-step-5-enter-data" class="nav-link" data-scroll-target="#step-5-enter-data">Step 5: Enter Data</a>
-  <ul>
-  <li><a href="#session-release-level" id="toc-session-release-level" class="nav-link" data-scroll-target="#session-release-level">Session Release Level</a></li>
-  <li><a href="#file-release-level" id="toc-file-release-level" class="nav-link" data-scroll-target="#file-release-level">File Release Level</a></li>
   </ul></li>
+  <li><a href="#entering-data" id="toc-entering-data" class="nav-link" data-scroll-target="#entering-data">Entering Data</a>
+  <ul>
+  <li><a href="#step-5-enter-data" id="toc-step-5-enter-data" class="nav-link" data-scroll-target="#step-5-enter-data">Step 5: Enter Data</a>
+  <ul class="collapse">
+  <li><a href="#creating-a-session-or-folder" id="toc-creating-a-session-or-folder" class="nav-link" data-scroll-target="#creating-a-session-or-folder"><strong>Creating a Session or Folder</strong></a></li>
+  <li><a href="#adding-files-to-a-session-or-folder" id="toc-adding-files-to-a-session-or-folder" class="nav-link" data-scroll-target="#adding-files-to-a-session-or-folder"><strong>Adding Files to a Session or Folder</strong></a></li>
+  <li><a href="#release-levels" id="toc-release-levels" class="nav-link" data-scroll-target="#release-levels"><strong>Release Levels</strong></a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#sharing-the-volume" id="toc-sharing-the-volume" class="nav-link" data-scroll-target="#sharing-the-volume">Sharing the Volume</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/contributing-data/start.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -485,12 +510,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><em>## Setting up Volume</em> <em>## Entering Data</em> <em>## Sharing Volume</em></p>
 <p>To contribute data to Databrary, you can create a new volume that will hold the collection of data or materials associated with your research project.</p>
-<section id="step-1-create-a-volume" class="level2">
-<h2 class="anchored" data-anchor-id="step-1-create-a-volume">Step 1: Create a Volume</h2>
+<section id="setting-up-volume" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-volume">Setting up Volume</h2>
+<section id="step-1-create-a-volume" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-create-a-volume">Step 1: Create a Volume</h3>
 <p>Click on ‘Create Volume’ in the right side of your top navigation bar.</p>
-<p><em>Include callout note that only authorized investigators can create a volume</em></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Only Authorized Investigators with an active Databrary Access Agreement can create a volume.</p>
+</div>
+</div>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -501,8 +539,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="step-2-volume-overview" class="level2">
-<h2 class="anchored" data-anchor-id="step-2-volume-overview">Step 2: Volume Overview</h2>
+<section id="step-2-volume-overview" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-volume-overview">Step 2: Volume Overview</h3>
 <p>The Volume Overview contains information about the Title, Description, Internal Short Name and key words.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -513,15 +551,21 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>Please describe the context of data collection and the types of data that will be uploaded (e.g.&nbsp;video, pictures, coding files, survey data, etc.). Below is a recommended template for each field:</p>
-<section id="title" class="level3">
-<h3 class="anchored" data-anchor-id="title">Title</h3>
-<p><em>The title could be the title of the publication or a good description of the tasks or data involved. For better reuse and discoverability, the title should be informative to researchers</em></p>
+<p>Please describe the context of data collection and the types of data that will be uploaded (e.g.&nbsp;video, pictures, coding files, survey data, etc.).</p>
+<section id="title" class="level4">
+<h4 class="anchored" data-anchor-id="title"><strong>Title</strong></h4>
+<p>The title could be the title of the publication or a good description of the tasks and/or data involved. For better reuse and discoverability, the title should be informative to external researchers.</p>
 </section>
-<section id="description-of-dataset" class="level3">
-<h3 class="anchored" data-anchor-id="description-of-dataset">Description of Dataset</h3>
+<section id="description-of-dataset" class="level4">
+<h4 class="anchored" data-anchor-id="description-of-dataset"><strong>Description of Dataset</strong></h4>
+<p>Below is an example format for the description of the dataset:</p>
+<blockquote class="blockquote">
 <p>This dataset focuses on [Provide provide a description of behavor, location of study, and age range]. Dataset includes [Enter description of tasks, videos, questionnaires, materials, etc.].</p>
+</blockquote>
+<blockquote class="blockquote">
 <p>Videos were [Provide a general description of what the videos were coded for ie., transcribed for mother speech and child vocalizations; coded for mother and child object interaction; child locomotion and emotion).].</p>
+</blockquote>
+<blockquote class="blockquote">
 <p>This volume contains [List the types of files along with approximate numbers for each. Some examples are provided below]:</p>
 <ul>
 <li><em>xx</em> videos (MP4/MOV files)</li>
@@ -535,19 +579,21 @@ ul.task-list li input[type="checkbox"] {
 <li>Materials folder containing stimuli, copies of questionnaires used in study, additional participant demographic information, and other materials utilized for the study.</li>
 <li>Exemplar study intake video of experimenter with participant</li>
 </ul>
-<p><em>You may not have a complete description of your dataset when you first create your volume. It is best practice to fill out as much information as you have and continue to add more information as your dataset becomes more filled out. The description can also include the abstract of the paper or any associated products.</em></p>
+</blockquote>
+<p>You may not have a complete description of your dataset when you first create your volume. It is best practice to fill out as much information as you have and continue to add more information as your dataset becomes more complete.</p>
+<p>The description can also include the abstract of the paper or any associated products.</p>
 </section>
-<section id="internal-short-name" class="level3">
-<h3 class="anchored" data-anchor-id="internal-short-name">Internal Short Name</h3>
+<section id="internal-short-name" class="level4">
+<h4 class="anchored" data-anchor-id="internal-short-name"><strong>Internal Short Name</strong></h4>
 <p>The only people who can see the internal short name are you and your Supervised Researchers. You can use whatever lab convention makes the most sense to you.</p>
 </section>
-<section id="keywords" class="level3">
-<h3 class="anchored" data-anchor-id="keywords">Keywords</h3>
+<section id="keywords" class="level4">
+<h4 class="anchored" data-anchor-id="keywords"><strong>Keywords</strong></h4>
 <p>Only Volume Owners, Co-Authors, and Authorized Investigators can enter keywords. It is best practice to use keywords that would have been used in the associated journal article.</p>
 </section>
 </section>
-<section id="step-3-manage-access" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-manage-access">Step 3: Manage Access</h2>
+<section id="step-3-manage-access" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-manage-access">Step 3: Manage Access</h3>
 <p>Here, you can choose volume sharing options (ie., shared, overview only, or private) and add collaborators (faculty, staff, students) that already have an account on Databrary that is Sponsored by an Institution or an Authorized Investigator.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -558,20 +604,86 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<section id="sharing-level" class="level3">
-<h3 class="anchored" data-anchor-id="sharing-level">Sharing Level</h3>
+<section id="sharing-level" class="level4">
+<h4 class="anchored" data-anchor-id="sharing-level"><strong>Sharing Level</strong></h4>
 <p><strong>Private</strong>: The volume is private to you and your chosen Supervised Researchers and volume collaborators.</p>
 <p><strong>Volume Overview Only</strong>: The volume’s title and description is visible to authorized Databrary users.</p>
 <p><strong>Shared</strong>: The volume and its contents are visible, accessible and downloadable to authorized Databrary users.</p>
-<p><em>Emphasize that this controls public Databrary visibility for your volume</em></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The sharing level controls public Databrary visibility for your volume. Databrary users will not be able to see your volume and its contents unless your volume is shared.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Only the volume owner can share the volume.</p>
+</div>
+</div>
 </section>
-<section id="collaborators" class="level3">
-<h3 class="anchored" data-anchor-id="collaborators">Collaborators</h3>
-<p><em>Include screenshots for add collaborator modal and the different roles. Explain owner is only one that can share, what is a co-author, why to transfer volumes</em></p>
+<section id="owner" class="level4">
+<h4 class="anchored" data-anchor-id="owner"><strong>Owner</strong></h4>
+<p>Databrary requires that volumes have a <strong>single owner</strong>. Volume owners can transfer ownership of their volume to another Authorized Investigator, to a registered institution or to Databrary.</p>
+<p>Transferring ownership typically happens when the data ownership should be under a co-PI or when an Authorized Investigator moves to a new institution.</p>
+<p>When you move to a new institution, you’ll need to work with the relevant parties at your institution and your new institution to determine if and how data you collected there may be transferred to your new institution or be retained by your old institution. This determination is independent of Databrary. You will likely also want to locate where local records of the data are stored.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We advise that Databrary not be the sole source of storage for any research data.</p>
+</div>
+</div>
+<p>Different institutions make different determinations about data transfer, which can depend on the institutions involved, type of data, project status, and source of funding. We have seen cases where data collected and contributed to Databrary become owned by the original institution (i.e., the old institution becomes the volume owner on Databrary) or they are transferred to another institution and you remain the volume owner (with your new institution sponsoring your Databrary access).</p>
+</section>
+<section id="coauthors" class="level4">
+<h4 class="anchored" data-anchor-id="coauthors"><strong>Coauthors</strong></h4>
+<p>Coauthors are people who should get scholarly credit for your volume.</p>
+</section>
+<section id="collaborators" class="level4">
+<h4 class="anchored" data-anchor-id="collaborators"><strong>Collaborators</strong></h4>
+<p>Collaborators are your Supervised Researchers, co-PIs, or external collaborators that have access to your volume and can view, edit, and/or manage your dataset.</p>
+<section id="collaborator-access-levels" class="level5">
+<h5 class="anchored" data-anchor-id="collaborator-access-levels"><strong>Collaborator Access Levels</strong></h5>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/access-level-collaborator.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li><strong>Read Only</strong>: Collaborator can view and download the datasets in the volume but they will not be able to edit anything.</li>
+<li><strong>Read/Write</strong>: Collaborator can view, download, and edit the datasets in the volume.</li>
+<li><strong>Manager</strong>: Collaborator can view, download, and edit the datasets in the volume. They can also create new volumes with the supervising Authorized Investigator as the owner. In addition, managers can manage all collaborators on the volume and add or remove collaborators.</li>
+</ul>
 </section>
 </section>
-<section id="step-4-design-spreadsheet" class="level2">
-<h2 class="anchored" data-anchor-id="step-4-design-spreadsheet">Step 4: Design Spreadsheet</h2>
+</section>
+<section id="step-4-design-spreadsheet" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-design-spreadsheet">Step 4: Design Spreadsheet</h3>
 <p>Here, you can choose all the categories and sub-categories you would like to include in your spreadsheet for participant and session metadata. You will need to select the categories and the fields within each category that apply to your study. You can always add or remove categories from your volume at any point and the metadata will be retained.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -583,12 +695,64 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>Please select all the categories and fields that you know about, even if the information is constant across the entire dataset or true to every participant or session. This makes your dataset more valuable and enhances its potential for reuse.</p>
-<p><em>Include definitions of spreadsheet categories</em></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/spreadsheet-categories.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
-<section id="step-5-enter-data" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-enter-data">Step 5: Enter Data</h2>
+</section>
+<section id="entering-data" class="level2">
+<h2 class="anchored" data-anchor-id="entering-data">Entering Data</h2>
+<section id="step-5-enter-data" class="level3">
+<h3 class="anchored" data-anchor-id="step-5-enter-data">Step 5: Enter Data</h3>
 <p>Now, you can add your data to the volume! You must ensure that you have appropriate participant permissions to share data on Databrary. Please navigate to our <a href="../ethics/data-collection-and-permissions.html">Obtaining Permissions page</a> to learn more about obtaining the appropriate participant permissions.</p>
-<p>Once you have obtained your participant permission, you must determine which Databrary sharing release level should be used for your participant’s data.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/enter-data.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="creating-a-session-or-folder" class="level4">
+<h4 class="anchored" data-anchor-id="creating-a-session-or-folder"><strong>Creating a Session or Folder</strong></h4>
+<p>Sessions are for data related to participant sessions and folders are for materials related to the study such as surveys, sample consent forms, and stimuli.</p>
+<p>Sessions need to be added individually. Once the Participant ID is entered, the related metadata will be filled in. Then, the rest of the session information will need to be added individually.</p>
+</section>
+<section id="adding-files-to-a-session-or-folder" class="level4">
+<h4 class="anchored" data-anchor-id="adding-files-to-a-session-or-folder"><strong>Adding Files to a Session or Folder</strong></h4>
+<p>To add files to a session or folder: 1. Find the name of the session or folder that you wish to add files to. 2. Click the ‘edit’ icon which will open up a session details page.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/edit-session.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<ol start="3" type="1">
+<li>You may upload files by either dragging and dropping them into the outlined space or by clicking and selecting the files you wish to upload.</li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/add-files.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="release-levels" class="level4">
+<h4 class="anchored" data-anchor-id="release-levels"><strong>Release Levels</strong></h4>
+<p>When you have obtained your participant permission, you must determine which Databrary sharing release level should be used for your participant’s data.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -599,9 +763,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>The release levels will dictate the level of access to your data once your volume is <strong>shared</strong>.</p>
-<p><em>Include information from ‘Add Data’ from old guide</em></p>
-<section id="session-release-level" class="level3">
-<h3 class="anchored" data-anchor-id="session-release-level">Session Release Level</h3>
+<section id="session-release-level" class="level5">
+<h5 class="anchored" data-anchor-id="session-release-level">Session Release Level</h5>
 <p>The session release level automatically sets the same release level for all files uploaded under that session.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -613,11 +776,41 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="file-release-level" class="level3">
-<h3 class="anchored" data-anchor-id="file-release-level">File Release Level</h3>
-
-
+<section id="file-release-level" class="level5">
+<h5 class="anchored" data-anchor-id="file-release-level">File Release Level</h5>
+<p>The file release level is set for a particularfile/data asset uploaded under that session that is more or less restrictive than the session release level.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If there are files with less restrictive release levels in your session, your session release level column will display an alert.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/file-release-level.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
+</section>
+</section>
+</section>
+<section id="sharing-the-volume" class="level2">
+<h2 class="anchored" data-anchor-id="sharing-the-volume">Sharing the Volume</h2>
+<p>When the volume is ready ie., when a paper goes to press or a grant period ends, the volume owner can share the volume with all authorized Databrary users. This is controlled in the ‘Manage Access’ tab.</p>
+<p>Sharing the volume makes the data contained in the dataset available to authorized Databrary users, but only in accordance with the session, folder, and file release levels selected by the volume owner and volume collaborators. Individual data files marked Private remain accessible only to people the volume owner specifically selects.</p>
+
+
 </section>
 
 </main> <!-- /main -->

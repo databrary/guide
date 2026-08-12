@@ -11,9 +11,9 @@ Most of the data shared on Databrary are consistent with broad consent, meaning 
 :::
 
 ## Research Purposes
-Research uses almost always require ethics board or IRB approval. Consult your institution's ethics board or IRB to determine whether your intended use is or isn't research, and proceed accordingly. You will need to decide what constitutes as research with your IRB. 
+Research uses almost always require ethics board or IRB approval. Please consult your institution's ethics board or IRB to determine whether your intended use is or is not considered research and proceed accordingly. 
 
-Here is what NIH constitutes as research: https://irbo.nih.gov/irb-review/not-human-subjects-research/#frequently-asked-questions.
+For guidance, here is what the [NIH constitutes as research](https://irbo.nih.gov/irb-review/not-human-subjects-research/#frequently-asked-questions).
 
 ### Secondary Research Reuse
 Secondary research involves conducting secondary analyses of participant data obtained from Databrary. Participants’ consent for study participation and release of data must have been obtained by the original researcher under the oversight of their institutional review board.

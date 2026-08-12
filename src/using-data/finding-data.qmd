@@ -2,25 +2,64 @@
 
 To find data on Databrary, you can use the search page to find a specific volume or browse all volumes.
 
-*You are only seeing volumes that are private from other researchers. If you want to reuse data, find shared volumes. Explain users and institutions search page more. Don't need to differentiate between search and find clips page. Search queries are ordered off of relevance. Break down components of page more. Include calloutbox of DB search only returning volumes and we are planning to search for specific files and sessions*
+*You are only seeing volumes that are private from other researchers.  Explain users and institutions search page more. Break down components of page more.*
 
-## Search Page
-On Databrary's home page, you can use the **search bar** to find datasets or click on 'Find Clips' to browse our **explore page**.
+## Search Page- Volumes
+On Databrary's home page, you can use the **search bar** to find datasets or click on **'Find Clips'** to browse our all volumes.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/homepage-search.png")
 ```
 
-Using the search bar will display all volumes with your defined query. You can sort volumes by release levels, volume sharing status, file type, and tags on this page.
+Using the search bar will display all volumes with your defined query. The returned results are ordered off of relevance. You can sort volumes by release levels, volume sharing status, file type, and tags on this page.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/search-page.png")
 ```
 
-Our explore page displays all volumes hosted on Databrary. You can refine your search here by using the sorting options or defining a query using the search bar.
+### Filter Options
+You can refine your search by using the filter options at the top of the volume list.
 
 ```{r echo=FALSE}
-knitr::include_graphics("img/explore-page.png")
+knitr::include_graphics("img/search-filter.png")
+```
+
+#### **File Release Levels**
+You can sort volumes by public, authorized users, or learning audiences release levels.
+
+#### **Volume Sharing Levels**
+You can sort volumes by private, overview only, or shared levels.
+
+::: {.callout-important}
+If you want to reuse data, you must find **shared** volumes. 
+:::
+
+#### **File Type**
+You can sort volumes by video, audio, image, document, or other file types.
+
+#### **Tag**
+You can enter a specific tag you are interested in to return volumes associated with that tag. 
+
+::: {.callout-note}
+The search function only returns volumes and does not return queries including specific files or sessions. Databrary is planning to implement this functionality in the near future.
+:::
+
+## Search Page- Users
+You can also use the search page to find other Databrary users. On this page, you can view all users, authorized only users and all users' email addresses.
+
+```{r echo=FALSE}
+knitr::include_graphics("img/search-users.png")
+```
+
+::: {.callout-note}
+The email addresses in the screenshot above have been covered for privacy purposes.
+:::
+
+## Search Page- Institutions
+Lastly, you can use the search page to find institutions registered on Databrary.
+
+```{r echo=FALSE}
+knitr::include_graphics("img/search-institutions.png")
 ```
 
 ## Popular Volumes
