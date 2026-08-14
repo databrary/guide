@@ -14,7 +14,7 @@ Custom collections are an easy way to create a new volume and citable product as
 Here are some example use cases for custom collections:
 
 - The primary volume is the original data and the secondary volume can be secondary analysis created using the original data.
-- Collection of clips a researcher may want to show in class
+- Collection of clips a researcher may want to show in class.
 
 ## Custom Collection Key Terms
 

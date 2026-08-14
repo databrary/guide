@@ -2,8 +2,6 @@
 
 To find data on Databrary, you can use the search page to find a specific volume or browse all volumes.
 
-*You are only seeing volumes that are private from other researchers.  Explain users and institutions search page more. Break down components of page more.*
-
 ## Search Page- Volumes
 On Databrary's home page, you can use the **search bar** to find datasets or click on **'Find Clips'** to browse our all volumes.
 
@@ -11,7 +9,8 @@ On Databrary's home page, you can use the **search bar** to find datasets or cli
 knitr::include_graphics("img/homepage-search.png")
 ```
 
-Using the search bar will display all volumes with your defined query. The returned results are ordered off of relevance. You can sort volumes by release levels, volume sharing status, file type, and tags on this page.
+Using the search bar will display all volumes with your defined query and will search for any titles of volumes, investigator-defined volume descriptions, names of users, and names of institutions that contain your query. You can sort volumes by release levels, volume sharing status, file type, and tags on this page.
+
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/search-page.png")
@@ -28,7 +27,7 @@ knitr::include_graphics("img/search-filter.png")
 You can sort volumes by public, authorized users, or learning audiences release levels.
 
 #### **Volume Sharing Levels**
-You can sort volumes by private, overview only, or shared levels.
+You can sort volumes by private, overview only, or shared levels. The only private volumes you are able to see are your own private volumes or private volumes from other researchers that have granted you access.
 
 ::: {.callout-important}
 If you want to reuse data, you must find **shared** volumes. 
@@ -56,7 +55,7 @@ The email addresses in the screenshot above have been covered for privacy purpos
 :::
 
 ## Search Page- Institutions
-Lastly, you can use the search page to find institutions registered on Databrary.
+You can use the search page to find institutions registered on Databrary.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/search-institutions.png")

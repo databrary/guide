@@ -477,14 +477,13 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#entering-data" id="toc-entering-data" class="nav-link" data-scroll-target="#entering-data">Entering Data</a>
   <ul>
-  <li><a href="#step-5-enter-data" id="toc-step-5-enter-data" class="nav-link" data-scroll-target="#step-5-enter-data">Step 5: Enter Data</a>
-  <ul class="collapse">
+  <li><a href="#session-vs.-folder" id="toc-session-vs.-folder" class="nav-link" data-scroll-target="#session-vs.-folder"><strong>Session vs.&nbsp;Folder</strong></a></li>
   <li><a href="#creating-a-session-or-folder" id="toc-creating-a-session-or-folder" class="nav-link" data-scroll-target="#creating-a-session-or-folder"><strong>Creating a Session or Folder</strong></a></li>
   <li><a href="#adding-files-to-a-session-or-folder" id="toc-adding-files-to-a-session-or-folder" class="nav-link" data-scroll-target="#adding-files-to-a-session-or-folder"><strong>Adding Files to a Session or Folder</strong></a></li>
   <li><a href="#release-levels" id="toc-release-levels" class="nav-link" data-scroll-target="#release-levels"><strong>Release Levels</strong></a></li>
   </ul></li>
-  </ul></li>
   <li><a href="#sharing-the-volume" id="toc-sharing-the-volume" class="nav-link" data-scroll-target="#sharing-the-volume">Sharing the Volume</a></li>
+  <li><a href="#example-volumes" id="toc-example-volumes" class="nav-link" data-scroll-target="#example-volumes">Example Volumes</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/contributing-data/start.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -658,7 +657,20 @@ Important
 </section>
 <section id="coauthors" class="level4">
 <h4 class="anchored" data-anchor-id="coauthors"><strong>Coauthors</strong></h4>
-<p>Coauthors are people who should get scholarly credit for your volume.</p>
+<p>Coauthors are people who should get scholarly credit for your volume. Including someone as a coauthor means their name will show up in the volume citation and the DOI once it gets minted.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Co-authorship does not affect who has access to your volume. If you would like to grant access to your volume, you must add them as a colalborator.</p>
+</div>
+</div>
 </section>
 <section id="collaborators" class="level4">
 <h4 class="anchored" data-anchor-id="collaborators"><strong>Collaborators</strong></h4>
@@ -684,17 +696,7 @@ Important
 </section>
 <section id="step-4-design-spreadsheet" class="level3">
 <h3 class="anchored" data-anchor-id="step-4-design-spreadsheet">Step 4: Design Spreadsheet</h3>
-<p>Here, you can choose all the categories and sub-categories you would like to include in your spreadsheet for participant and session metadata. You will need to select the categories and the fields within each category that apply to your study. You can always add or remove categories from your volume at any point and the metadata will be retained.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="img/design-spreadsheet.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Please select all the categories and fields that you know about, even if the information is constant across the entire dataset or true to every participant or session. This makes your dataset more valuable and enhances its potential for reuse.</p>
+<p>Here, you can choose all the categories and sub-categories you would like to include in your spreadsheet for participant and session metadata. You will need to select the categories and the fields within each category that apply to your study.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -704,12 +706,24 @@ Important
 </div>
 </div>
 </div>
+<p>Please select all the categories and fields that you know about, even if the information is constant across the entire dataset or true to every participant or session. This makes your dataset more valuable and enhances its potential for reuse.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You can always add or remove categories from your volume at any point and the metadata will be retained.</p>
+</div>
+</div>
 </section>
 </section>
 <section id="entering-data" class="level2">
 <h2 class="anchored" data-anchor-id="entering-data">Entering Data</h2>
-<section id="step-5-enter-data" class="level3">
-<h3 class="anchored" data-anchor-id="step-5-enter-data">Step 5: Enter Data</h3>
 <p>Now, you can add your data to the volume! You must ensure that you have appropriate participant permissions to share data on Databrary. Please navigate to our <a href="../ethics/data-collection-and-permissions.html">Obtaining Permissions page</a> to learn more about obtaining the appropriate participant permissions.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -720,14 +734,31 @@ Important
 </div>
 </div>
 </div>
+<section id="session-vs.-folder" class="level4">
+<h4 class="anchored" data-anchor-id="session-vs.-folder"><strong>Session vs.&nbsp;Folder</strong></h4>
+<p>Sessions are used for data related to participant sessions. A session usually involves data from an individual participant while they performed a task or tasks in a specific study location at a defined time.</p>
+<p>Folders are used for materials related to the study such as surveys, sample consent forms, and stimuli. Some cases that you would use a folder for are:</p>
+<ul>
+<li>Exemplar videos</li>
+<li>Coding spreadsheets</li>
+<li>Coding manual</li>
+<li>Coding scripts</li>
+<li>Analysis scripts</li>
+<li>Processed data</li>
+<li>.readme file on how to use the data</li>
+</ul>
+</section>
 <section id="creating-a-session-or-folder" class="level4">
 <h4 class="anchored" data-anchor-id="creating-a-session-or-folder"><strong>Creating a Session or Folder</strong></h4>
-<p>Sessions are for data related to participant sessions and folders are for materials related to the study such as surveys, sample consent forms, and stimuli.</p>
-<p>Sessions need to be added individually. Once the Participant ID is entered, the related metadata will be filled in. Then, the rest of the session information will need to be added individually.</p>
+<p>Sessions and folders need to be added individually. Once the Participant ID is entered, the related metadata will be filled in. Then, the rest of the session information will need to be added individually.</p>
 </section>
 <section id="adding-files-to-a-session-or-folder" class="level4">
 <h4 class="anchored" data-anchor-id="adding-files-to-a-session-or-folder"><strong>Adding Files to a Session or Folder</strong></h4>
-<p>To add files to a session or folder: 1. Find the name of the session or folder that you wish to add files to. 2. Click the ‘edit’ icon which will open up a session details page.</p>
+<p>To add files to a session or folder:</p>
+<ol type="1">
+<li>Find the name of the session or folder that you wish to add files to.</li>
+<li>Click the ‘edit’ icon which will open up a session details page.</li>
+</ol>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -764,8 +795,8 @@ Important
 </div>
 <p>The release levels will dictate the level of access to your data once your volume is <strong>shared</strong>.</p>
 <section id="session-release-level" class="level5">
-<h5 class="anchored" data-anchor-id="session-release-level">Session Release Level</h5>
-<p>The session release level automatically sets the same release level for all files uploaded under that session.</p>
+<h5 class="anchored" data-anchor-id="session-release-level"><strong>Session Release Level</strong></h5>
+<p>The session release level automatically sets the same release level for all files uploaded under that session from that point forward.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -775,10 +806,24 @@ Important
 </div>
 </div>
 </div>
+<p>When you first create a session, the release level is automatically set to private. If you would like to change the release level, you must edit it manually.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Changing the session release level does not automatically apply the same release level to existing files under the session. You must update the file release levels manually if you would like it to match the new session release level.</p>
+</div>
+</div>
 </section>
 <section id="file-release-level" class="level5">
-<h5 class="anchored" data-anchor-id="file-release-level">File Release Level</h5>
-<p>The file release level is set for a particularfile/data asset uploaded under that session that is more or less restrictive than the session release level.</p>
+<h5 class="anchored" data-anchor-id="file-release-level"><strong>File Release Level</strong></h5>
+<p>The file release level is set for a particular file or data asset uploaded under that session that is more or less restrictive than the session release level.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -804,11 +849,34 @@ Note
 </section>
 </section>
 </section>
-</section>
 <section id="sharing-the-volume" class="level2">
 <h2 class="anchored" data-anchor-id="sharing-the-volume">Sharing the Volume</h2>
 <p>When the volume is ready ie., when a paper goes to press or a grant period ends, the volume owner can share the volume with all authorized Databrary users. This is controlled in the ‘Manage Access’ tab.</p>
 <p>Sharing the volume makes the data contained in the dataset available to authorized Databrary users, but only in accordance with the session, folder, and file release levels selected by the volume owner and volume collaborators. Individual data files marked Private remain accessible only to people the volume owner specifically selects.</p>
+<p>Once your volume is shared, Databrary will automatically mint a DOI for your volume. This DOI is distinct from any published journal article and can be used to directly index your Databrary volume.</p>
+<p>The DOI will replace the Databrary volume URL.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="img/doi.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="example-volumes" class="level2">
+<h2 class="anchored" data-anchor-id="example-volumes">Example Volumes</h2>
+<p>These are volumes that you can refer to for guidance about creating a robust Databrary volume:</p>
+<ul>
+<li><a href="https://nyu.databrary.org/volume/1273">Practice and proficiency: Factors that facilitate infant walking skill</a></li>
+<li><a href="https://nyu.databrary.org/volume/1042">The impact factor in infant development: Falling like a baby</a></li>
+<li><a href="https://nyu.databrary.org/volume/1118">Infant exuberant object play at home: Immense amounts of time-distributed, variable practice</a></li>
+<li><a href="https://nyu.databrary.org/volume/1567">How Mothers Help Children Learn to Use Everyday Objects</a></li>
+<li><a href="https://nyu.databrary.org/volume/89">The cost of simplifying complex developmental phenomena: A new perspective on learning to walk</a></li>
+<li><a href="https://nyu.databrary.org/volume/739">Falls experienced by older adult residents in long-term care homes</a></li>
+<li><a href="https://nyu.databrary.org/volume/1550">Health Effects of Unaffordable Water</a></li>
+</ul>
 
 
 </section>
