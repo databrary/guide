@@ -6,14 +6,16 @@
 No. To become an Authorized Investigator on Databrary you and your institution must meet __all__ of the following conditions. 
 
 **Researcher Eligibility Conditions:**
-+ Have PI status or eligibility to conduct independent research at your institution 
-+ Have all current research ethics training that addresses human subjects policy and issues required by your institution
+
+- Have PI status or eligibility to conduct independent research at your institution 
+- Have all current research ethics training that addresses human subjects policy and issues required by your institution
 
 
 **Institution Eligibility Conditions:**
-+ Your institution accepts responsibility for its Authorized Researcher’s actions relating to the use of Databrary  
-+ Your institution must maintain an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects
-+ Your institution  grants you the authority to choose and manage affiliates who meet Databrary's qualifications and agree to follow Databrary's ethical principles
+
+- Your institution accepts responsibility for its Authorized Researcher’s actions relating to the use of Databrary  
+- Your institution must maintain an ethics or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects
+- Your institution  grants you the authority to choose and manage affiliates who meet Databrary's qualifications and agree to follow Databrary's ethical principles
 
 Data on Databrary is provided for non-commercial and non-personal use only and is subject to the terms of use outlined in the Databrary Access Agreement.
 

@@ -1,1 +1,99 @@
 # Glossary {.unnumbered}
+
+## A > Z
+
+- **Access:** Determines which people can view, show, or otherwise use data on Databrary.
+- **Access Role on Volume:** When viewing a volume, this label defines the relationship of the individual to the volume owner. The roles are:
+  - “Owner” is the volume owner.
+  - “Owner’s Sponsored Researcher” is a sponsored researcher of the volume owner.
+  - “Collaborator” is either an authorized investigator or sponsored researcher of an authorized investigator who is not the volume owner.
+- **Approval Source:** Authorizing institution or sponsoring investigator
+- **Approval Source *Column*:** When the volume owner or volume manager is viewing the ‘Manage Access’ page for a volume, in the ‘Collaborator’ table, this column displays the name of the sponsoring authorized investigator for this individual if the person is a sponsored researcher. “Authorized Investigator” is displayed if the individual is an authorized investigator.
+- **Approved User:** Authorized investigator, institutional admin, or sponsored researcher who has access to restricted-access files or private-access files on Databrary.
+- **Authorized Institution:** An academic, research, government, or health entity with an active, signed contract with Databrary.
+- **Authorized Investigator:** A researcher who is granted access to Databrary by their institution (including the option to create volumes, own volumes, share volumes, manage collaborators on volumes, sponsor researchers, and access restricted-access files on Databrary). Authorized investigators must have the equivalent of PI status at their authorizing institution.
+- **Authorized-User Files:** Restricted-access files that cannot be redistributed or shown publicly in any form. These are intended for research use only. If files include participant data, participant(s) must have given permission for access by authorized users.
+- **Authorized Users:** Approved users who can access restricted-access files on shared volumes (i.e., authorized investigators and their sponsored researchers with access to restricted-access files).
+- **Authorizing Institution:** An authorized institution that takes responsibility for and can authorize an authorized investigator.
+- **Collaborator on a Volume:** An approved user who was explicitly added to the volume by the volume owner but is not sponsored by the volume owner. All collaborators must be authorized investigators or sponsored researchers who are sponsored by other than the volume owner. Collaborators cannot be people who have yet to be authorized or sponsored. Collaborators may be at the owner’s institution or a different institution.
+- **File-specific Access Privileges to Files on Volume:**
+  - File types:
+    - All files (including private-access files)
+    - Restricted-access files and public-access files
+    - Public-access files
+- **Files:** Data inside a volume.
+- **Institutional Admin:** A person who manages the authorized institution’s volumes and can grant or revoke access to authorized investigators or other institutional admins.
+- **Institutional Affiliation:** An institution that an approved user associates themselves with. Affiliation might be different from the authorizing institution.
+- **Learning-Audience Files:** Restricted-access files that can be used for educational, informational, and research purposes. These files can be shown publicly, and presentations may be recorded and made available on the internet (e.g., YouTube). If files include participant data, participant(s) must have given permission for access by learning audiences.
+- **Participant-Level Files:** A set of files accompanied by metadata that relate to an individual or a group of individuals at a particular place and/or time, permissioned at a particular release level.
+- **Private-Access Files:** Files that are restricted to the volume owner and individuals chosen by the owner (i.e., sponsored researchers or collaborators). If files include identifiable participant data, participant(s) did not give permission for access by authorized users or the public.
+- **Public-Access Files:** Files hosted on Databrary that are accessible to anyone on the internet. If files include participant data, participant must have given permission for public access.
+- **Restricted-Access Files:** Files labeled as “Authorized Users” or “Learning Audiences” that are only accessible by authorized users. If files include participant data, participant must have given permission for access by authorized users.
+- **Shared Volume:** A volume whose owner set access to be visible on Databrary to authorized users who are not the owner’s chosen sponsored researchers or collaborators. That is, the volume will be viewable on the internet with a URL that resolves to that volume indefinitely. (A DOI could be minted at this point.) Sharing a volume is a deliberate decision that can only be done by the volume owner. Files in a shared volume can be labeled as “Public,” “Learning Audiences,” “Authorized Users,” or “Private.”
+- **Sponsored Researcher:** A researcher (e.g., student, staff member, or other person who is not an authorized investigator) who is granted access to Databrary by an authorized investigator who agrees to take responsibility for their use of Databrary.
+- **Sponsoring Investigator:** An authorized investigator who chooses and takes responsibility for (i.e., sponsors) a sponsored researcher.
+- **Superinstitution:** An institution that is granted additional privileges (e.g., to authorize institutions and investigators or remove accounts). Databrary is the only superinstitution.
+- **Unshared Volume:** A volume whose owner has set access to be visible on Databrary only to approved users who are the owner’s chosen sponsored researchers or collaborators. The default state of a volume is unshared. Files in an unshared volume can be labeled as “Public,” “Learning Audiences,” “Authorized Users,” or “Private.” Regardless of label, until the volume is shared, no files will be visible to anyone on Databrary other than the volume owner and the owner’s chosen sponsored researchers and collaborators.
+- **Volume:** A dataset or set of files accompanied by metadata. A volume can be owned by either an authorized investigator or an authorized institution.
+- **Volume Manager:** An approved user selected by the volume owner who has read/write privileges on a volume, edit the volume name and description, and can propose collaborators. The volume manager cannot share the volume or provide access to collaborators or sponsored researchers.
+- **Volume Metadata:** Information about a volume or files in the volume.
+- **Volume Owner:** The authorized investigator who is responsible for setting access level to the volume to chosen sponsored researchers and collaborators and for sharing the volume.
+- **Volume-Level Files:** Collection of files in a volume that do not apply to a specific session or individual (they could apply to the entire volume or to a particular set of participants). Such files include annotation manuals, analysis scripts, protocols, survey data, processed data, template consent forms, blank questionnaires, and so on. Files can be set to any access level, but access level for identifiable data must be set based on participant permissions.
+- **Volume-wide Access Privileges on Volume:**
+  - Manager: Can propose collaborators, edit volume name and description
+  - Read/Write access to volume files
+  - Read-Only access
+  - Cannot see or access the volume
+
+## Categorical
+
+### Actions
+
+- **Access:** Determines which people can view, show, or otherwise use data on Databrary.
+- **Approval Source:** Authorizing institution or sponsoring investigator
+- **Approval Source *column*:** When the volume owner or volume manager is viewing the ‘Manage Access’ page for a volume, in the ‘Collaborator’ table, this column displays the name of the sponsoring authorized investigator for this individual if the person is a sponsored researcher. “Authorized Investigator” is displayed if the individual is an authorized investigator. 
+- **Institutional Affiliation:** An institution that an approved user associates themselves with. Affiliation might be different from the authorizing institution.
+
+### Entities 
+
+- **Authorized Institution:** An academic, research, government, or health entity with an active, signed contract with Databrary.
+- **Authorizing Institution:** An authorized institution that takes responsibility for and can authorize an authorized investigator
+- **Superinstitution:** An institution that is granted additional privileges (e.g., to authorize institutions and investigators or remove accounts). Databrary is the only superinstitution.
+- **Files:** Data inside a volume 
+- **Public-Access Files:** Files hosted on Databrary that are accessible to anyone on the internet. If files include participant data, participant must have given permission for public access.
+- **Restricted-Access Files:** Files labeled as “Authorized Users” or “Learning Audiences” that are only accessible by authorized users. If files include participant data, participant must have given permission for access by authorized users.
+- **Private-Access Files:** Files that are restricted to the volume owner and individuals chosen by the owner (i.e., sponsored researchers or collaborators). If files include identifiable participant data, participant(s) did not give permission for access by authorized users or the public.
+- **Authorized-User Files:** Restricted-access files that cannot be redistributed or shown publicly in any form. These are intended for research use only. If files include participant data, participant(s) must have given permission for access by authorized users.
+- **Learning-Audience Files:** Restricted-access files that can be used for educational, informational, and research purposes. These files can be shown publicly, and presentations may be recorded and made available on the internet (e.g., YouTube). If files include participant data, participant(s) must have given permission for access by learning audiences.
+- **Participant-Level Files:** A set of files accompanied by metadata that relate to an individual or a group of individuals at a particular place and/or time, permissioned at a particular release level.
+- **Volume:** A dataset or set of files accompanied by metadata. A volume can be owned by either an authorized investigator or an authorized institution.
+- **Volume Metadata:** Information about a volume or files in the volume.
+- **Volume-Level Files:** Collection of files in a volume that do not apply to a specific session or individual (they could apply to the entire volume or to a particular set of participants). Such files include annotation manuals, analysis scripts, protocols, survey data, processed data, template consent forms, blank questionnaires, and so on. Files can be set to any access level, but access level for identifiable data must be set based on participant permissions.
+- **Unshared Volume:** A volume whose owner has set access to be visible on Databrary only to approved users who are the owner’s chosen sponsored researchers or collaborators. The default state of a volume is unshared. Files in an unshared volume can be labeled as “Public,” “Learning Audiences,” “Authorized Users,” or “Private.” Regardless of label, until the volume is shared, no files will be visible to anyone on Databrary other than the volume owner and the owner’s chosen sponsored researchers and collaborators.
+- **Shared Volume:** A volume whose owner set access to be visible on Databrary to authorized users who are not the owner’s chosen sponsored researchers or collaborators. That is, the volume will be viewable on the internet with a URL that resolves to that volume indefinitely. (A DOI could be minted at this point.) Sharing a volume is a deliberate decision that can only be done by the volume owner. Files in a shared volume can be labeled as “Public,” “Learning Audiences,” “Authorized Users,” or “Private.”
+
+### People
+
+- **Institutional Admin:** A person who manages the authorized institution’s volumes and can grant or revoke access to authorized investigators or other institutional admins.
+- **Approved User:** Authorized investigator, institutional admin, or sponsored researcher who has access to restricted-access files or private-access files on Databrary.
+- **Authorized Users:** Approved users who can access restricted-access files on shared volumes (i.e., authorized investigators and their sponsored researchers with access to restricted-access files). 
+- **Authorized Investigator:** A researcher who is granted access to Databrary by their institution (including the option to create volumes, own volumes, share volumes, manage collaborators on volumes, sponsor researchers, and access restricted-access files on Databrary). Authorized investigators must have the equivalent of PI status at their authorizing institution
+- **Sponsoring Investigator:** An authorized investigator who chooses and takes responsibility for (i.e., sponsors) a sponsored researcher.
+- **Sponsored Researcher:** A researcher (e.g., student, staff member, or other person who is not an authorized investigator) who is granted access to Databrary by an authorized investigator who agrees to take responsibility for their use of Databrary.
+- **Volume Owner:** The authorized investigator who is responsible for setting access level to the volume to chosen sponsored researchers and collaborators and for sharing the volume.
+- **Volume Manager:** An approved user selected by the volume owner who has read/write privileges on a volume, edit the volume name and description, and can propose collaborators. The volume manager cannot share the volume or provide access to collaborators or sponsored researchers.
+- **Collaborator on a Volume:** An approved user who was explicitly added to the volume by the volume owner but is not sponsored by the volume owner. All collaborators must be authorized investigators or sponsored researchers who are sponsored by other than the volume owner. Collaborators cannot be people who have yet to be authorized or sponsored. Collaborators may be at the owner’s institution or a different institution.
+- **Access Role on Volume:** When viewing a volume, this label defines the relationship of the individual to the volume owner. The roles are:
+  - “Owner” is the volume owner. 
+  - “Owner’s Sponsored Researcher” is a sponsored researcher of the volume owner. 
+  - “Collaborator” is either an authorized investigator or sponsored researcher of an authorized investigator who is not the volume owner.
+- **Volume-wide Access Privileges on Volume:**
+  - Manager: Can propose collaborators, edit volume name and description
+  - Read/Write access to volume files
+  - Read-Only access
+  - Cannot see or access the volume
+- **File-specific Access Privileges to Files on Volume:**
+  - File types:
+    - All files (including private-access files)
+    - Restricted-access files and public-access files
+    - Public-access files
