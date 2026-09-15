@@ -34,9 +34,9 @@ The title could be the title of the publication or a good description of the tas
 
 Below is an example format for the description of the dataset:
 
-> This dataset focuses on \[Provide provide a description of behavor, location of study, and age range\]. Dataset includes \[Enter description of tasks, videos, questionnaires, materials, etc.\].
+> This dataset focuses on \[Provide a description of behavior, location of study, and participant age range\]. Dataset includes \[Enter description of tasks, videos, questionnaires, materials, etc.\].
 
-> Videos were \[Provide a general description of what the videos were coded for ie., transcribed for mother speech and child vocalizations; coded for mother and child object interaction; child locomotion and emotion).\].
+> Videos were \[Provide a general description of what the videos were coded for ie., transcribed for mother speech and child vocalizations; coded for mother and child object interaction; child locomotion and emotion\].
 
 > This volume contains \[List the types of files along with approximate numbers for each. Some examples are provided below\]:
 >
@@ -48,10 +48,10 @@ Below is an example format for the description of the dataset:
 > - Transcription manual (.docx file)
 > - Coding manual (.docx file)
 > - Scripts for processing and exporting data from Datayu (Ruby)
-> - Materials folder containing stimuli, copies of questionnaires used in study, additional participant demographic information, and other materials utilized for the study.
+> - Materials folder containing stimuli, copies of questionnaires used in study, additional participant demographic information, and other materials utilized for the study
 > - Exemplar study intake video of experimenter with participant
 
-You may not have a complete description of your dataset when you first create your volume. It is best practice to fill out as much information as you have and continue to add more information as your dataset becomes more complete.
+You may not have a complete description of your dataset when you first create your volume. It is best practice to fill out as much information as you have and to add more information as your dataset becomes more complete.
 
 The description can also include the abstract of the paper or any associated products.
 
@@ -65,7 +65,7 @@ Only Volume Owners, Co-Authors, and Authorized Investigators can enter keywords.
 
 ### Step 3: Manage Access
 
-Here, you can choose volume sharing options (ie., shared, overview only, or private) and add collaborators (faculty, staff, students) that already have an account on Databrary that is Sponsored by an Institution or an Authorized Investigator.
+Here, you can choose volume sharing options (ie., shared, overview only, or private) and add collaborators (faculty, staff, students) that already have an account on Databrary that is sponsored by an Institution or an Authorized Investigator.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/manage-access.png")
@@ -89,7 +89,7 @@ Only the volume owner can share the volume.
 
 #### **Owner**
 
-Databrary requires that volumes have a **single owner**. Volume owners can transfer ownership of their volume to another Authorized Investigator, to a registered institution or to Databrary.
+Databrary requires that volumes have a **single owner**. Volume owners can transfer ownership of their volume to another Authorized Investigator or to a registered institution or to Databrary.
 
 Transferring ownership typically happens when the data ownership should be under a co-PI or when an Authorized Investigator moves to a new institution.
 
@@ -134,7 +134,7 @@ knitr::include_graphics("img/spreadsheet-categories.png")
 Please select all the categories and fields that you know about, even if the information is constant across the entire dataset or true to every participant or session. This makes your dataset more valuable and enhances its potential for reuse.
 
 ::: callout-note
-You can always add or remove categories from your volume at any point and the metadata will be retained.
+You can always remove categories from your volume at any point and the metadata will be retained if you choose to reenable them.
 :::
 
 ## Entering Data
@@ -161,14 +161,14 @@ Folders are used for materials related to the study such as surveys, sample cons
 
 #### **Creating a Session or Folder**
 
-Sessions and folders need to be added individually. Once the Participant ID is entered, the related metadata will be filled in. Then, the rest of the session information will need to be added individually.
+Sessions and folders need to be added individually. Once the Participant ID is entered, the metadata related to the Participant ID will be filled in. Then, the rest of the session information will need to be added individually.
 
 #### **Adding Files to a Session or Folder**
 
 To add files to a session or folder:
 
 1.  Find the name of the session or folder that you wish to add files to.
-2.  Click the 'edit' icon which will open up a session details page.
+2.  Click the 'Edit' icon which will open up a session details page.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/edit-session.png")
@@ -201,7 +201,7 @@ knitr::include_graphics("img/session-release-level.png")
 When you first create a session, the release level is automatically set to private. If you would like to change the release level, you must edit it manually.
 
 ::: callout-note
-Changing the session release level does not automatically apply the same release level to existing files under the session. You must update the file release levels manually if you would like it to match the new session release level.
+Changing the session release level does not automatically change the release level to existing files under the session. You must update the file release levels manually if you would like it to match the new session release level.
 :::
 
 ##### **File Release Level**
@@ -224,7 +224,7 @@ Sharing the volume makes the data contained in the dataset available to authoriz
 
 Once your volume is shared, Databrary will automatically mint a DOI for your volume. This DOI is distinct from any published journal article and can be used to directly index your Databrary volume.
 
-The DOI will replace the Databrary volume URL.
+The DOI will replace the Databrary volume URL in the "How to Cite" section.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/doi.png")

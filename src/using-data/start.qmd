@@ -30,9 +30,9 @@ For more information about release levels, see the [Sharing Release Level sectio
 ::: {.callout-important}
 Data that is released as authorized user or private may not be used for lectures and talks.
 
-However, in lab meeting contexts ie., informal conversations, small lab meetings, it may be appropriate to use data released as authorized user to discuss research.
+However, in lab meeting contexts ie., informal conversations, small lab meetings, it may be appropriate to use data released at the authorized user level to discuss research.
 
-If there are people who are **not** on your IRB protocol in the meeting, you **must** use data released as learning audiences or public.
+If there are people who are **not** on your IRB protocol in the meeting, you **must** use data released at the learning audiences or public level.
 :::
 
 ## How to Cite 
@@ -44,9 +44,9 @@ Mention different use cases. Volume ID 955
 -->
 
 ### Reused Data
-Shared data should have a citation on the volume profile page under the ‘How to cite’ heading. Citations take the format of:
+Shared data should have a citation on the volume profile page in the ‘How to Cite’ section Citations take the format of:
 
-> LastName, FirstInitial. (year volume was added). Title of Volume. Databrary. Retrieved Month DD, YYYY from [link to assigned doi].
+> LastName, FirstInitial. (year volume was added). Title of Volume. Databrary. Retrieved Month DD, YYYY from [link to assigned DOI].
 
 > Soska, K., Seisler, A. & Gilmore, R. (2018). Databrary & Datavyu Help Videos. Databrary. Retrieved February 7, 2023 from http://doi.org/10.17910/B7.686.
 
@@ -62,7 +62,7 @@ Citations take the format of:
 > Datavyu Team (2014). Datavyu: A Video Coding Tool. Databrary Project, New York University. URL http://datavyu.org.
 
 ### DOIs
-Once your volume is shared, a Digital Object Identifier(DOI) will be automatically minted for your volume. If you need a reference and you are citing the source of your data, use the citation. If you would like to direct people to your data, use the DOI.
+Once your volume is shared, a Digital Object Identifier(DOI) will be automatically minted for your volume. If you need a reference and you are citing the source of your data, it is best to use the citation. If you would like to direct people to your data, it is best to use the DOI.
 
 ## Ethics of Reusing Data
 Authorized Investigators must secure Institutional approvals prior to conducting research with data shared on Databrary. 

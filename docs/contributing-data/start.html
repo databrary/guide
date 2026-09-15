@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1f3d5cd3961055ad9ac6a76443b528c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f4865b58d8f661e945ae1fa6086588a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -328,29 +331,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../technology-and-security/start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Technology and Security</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../technology-and-security/software.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Software</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../technology-and-security/security-faqs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Security FAQs</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../faq.html" class="sidebar-item-text sidebar-link">
@@ -371,13 +351,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
  <span class="menu-text">Appendices</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/access_agreement.html" class="sidebar-item-text sidebar-link">
@@ -559,10 +539,10 @@ Note
 <h4 class="anchored" data-anchor-id="description-of-dataset"><strong>Description of Dataset</strong></h4>
 <p>Below is an example format for the description of the dataset:</p>
 <blockquote class="blockquote">
-<p>This dataset focuses on [Provide provide a description of behavor, location of study, and age range]. Dataset includes [Enter description of tasks, videos, questionnaires, materials, etc.].</p>
+<p>This dataset focuses on [Provide a description of behavior, location of study, and participant age range]. Dataset includes [Enter description of tasks, videos, questionnaires, materials, etc.].</p>
 </blockquote>
 <blockquote class="blockquote">
-<p>Videos were [Provide a general description of what the videos were coded for ie., transcribed for mother speech and child vocalizations; coded for mother and child object interaction; child locomotion and emotion).].</p>
+<p>Videos were [Provide a general description of what the videos were coded for ie., transcribed for mother speech and child vocalizations; coded for mother and child object interaction; child locomotion and emotion].</p>
 </blockquote>
 <blockquote class="blockquote">
 <p>This volume contains [List the types of files along with approximate numbers for each. Some examples are provided below]:</p>
@@ -575,11 +555,11 @@ Note
 <li>Transcription manual (.docx file)</li>
 <li>Coding manual (.docx file)</li>
 <li>Scripts for processing and exporting data from Datayu (Ruby)</li>
-<li>Materials folder containing stimuli, copies of questionnaires used in study, additional participant demographic information, and other materials utilized for the study.</li>
+<li>Materials folder containing stimuli, copies of questionnaires used in study, additional participant demographic information, and other materials utilized for the study</li>
 <li>Exemplar study intake video of experimenter with participant</li>
 </ul>
 </blockquote>
-<p>You may not have a complete description of your dataset when you first create your volume. It is best practice to fill out as much information as you have and continue to add more information as your dataset becomes more complete.</p>
+<p>You may not have a complete description of your dataset when you first create your volume. It is best practice to fill out as much information as you have and to add more information as your dataset becomes more complete.</p>
 <p>The description can also include the abstract of the paper or any associated products.</p>
 </section>
 <section id="internal-short-name" class="level4">
@@ -593,7 +573,7 @@ Note
 </section>
 <section id="step-3-manage-access" class="level3">
 <h3 class="anchored" data-anchor-id="step-3-manage-access">Step 3: Manage Access</h3>
-<p>Here, you can choose volume sharing options (ie., shared, overview only, or private) and add collaborators (faculty, staff, students) that already have an account on Databrary that is Sponsored by an Institution or an Authorized Investigator.</p>
+<p>Here, you can choose volume sharing options (ie., shared, overview only, or private) and add collaborators (faculty, staff, students) that already have an account on Databrary that is sponsored by an Institution or an Authorized Investigator.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -637,7 +617,7 @@ Note
 </section>
 <section id="owner" class="level4">
 <h4 class="anchored" data-anchor-id="owner"><strong>Owner</strong></h4>
-<p>Databrary requires that volumes have a <strong>single owner</strong>. Volume owners can transfer ownership of their volume to another Authorized Investigator, to a registered institution or to Databrary.</p>
+<p>Databrary requires that volumes have a <strong>single owner</strong>. Volume owners can transfer ownership of their volume to another Authorized Investigator or to a registered institution or to Databrary.</p>
 <p>Transferring ownership typically happens when the data ownership should be under a co-PI or when an Authorized Investigator moves to a new institution.</p>
 <p>When you move to a new institution, you’ll need to work with the relevant parties at your institution and your new institution to determine if and how data you collected there may be transferred to your new institution or be retained by your old institution. This determination is independent of Databrary. You will likely also want to locate where local records of the data are stored.</p>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -717,7 +697,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>You can always add or remove categories from your volume at any point and the metadata will be retained.</p>
+<p>You can always remove categories from your volume at any point and the metadata will be retained if you choose to reenable them.</p>
 </div>
 </div>
 </section>
@@ -750,14 +730,14 @@ Note
 </section>
 <section id="creating-a-session-or-folder" class="level4">
 <h4 class="anchored" data-anchor-id="creating-a-session-or-folder"><strong>Creating a Session or Folder</strong></h4>
-<p>Sessions and folders need to be added individually. Once the Participant ID is entered, the related metadata will be filled in. Then, the rest of the session information will need to be added individually.</p>
+<p>Sessions and folders need to be added individually. Once the Participant ID is entered, the metadata related to the Participant ID will be filled in. Then, the rest of the session information will need to be added individually.</p>
 </section>
 <section id="adding-files-to-a-session-or-folder" class="level4">
 <h4 class="anchored" data-anchor-id="adding-files-to-a-session-or-folder"><strong>Adding Files to a Session or Folder</strong></h4>
 <p>To add files to a session or folder:</p>
 <ol type="1">
 <li>Find the name of the session or folder that you wish to add files to.</li>
-<li>Click the ‘edit’ icon which will open up a session details page.</li>
+<li>Click the ‘Edit’ icon which will open up a session details page.</li>
 </ol>
 <div class="cell">
 <div class="cell-output-display">
@@ -817,7 +797,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Changing the session release level does not automatically apply the same release level to existing files under the session. You must update the file release levels manually if you would like it to match the new session release level.</p>
+<p>Changing the session release level does not automatically change the release level to existing files under the session. You must update the file release levels manually if you would like it to match the new session release level.</p>
 </div>
 </div>
 </section>
@@ -854,7 +834,7 @@ Note
 <p>When the volume is ready ie., when a paper goes to press or a grant period ends, the volume owner can share the volume with all authorized Databrary users. This is controlled in the ‘Manage Access’ tab.</p>
 <p>Sharing the volume makes the data contained in the dataset available to authorized Databrary users, but only in accordance with the session, folder, and file release levels selected by the volume owner and volume collaborators. Individual data files marked Private remain accessible only to people the volume owner specifically selects.</p>
 <p>Once your volume is shared, Databrary will automatically mint a DOI for your volume. This DOI is distinct from any published journal article and can be used to directly index your Databrary volume.</p>
-<p>The DOI will replace the Databrary volume URL.</p>
+<p>The DOI will replace the Databrary volume URL in the “How to Cite” section.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>

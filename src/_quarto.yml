@@ -80,10 +80,10 @@ book:
         - using-data/finding-data.qmd
         - using-data/downloading-data.qmd
         - using-data/custom-collections.qmd
-    - part: technology-and-security/start.qmd
-      chapters: 
-        - technology-and-security/software.qmd
-        - technology-and-security/security-faqs.qmd
+   # - part: technology-and-security/start.qmd
+   #   chapters: 
+   #     - technology-and-security/software.qmd
+   #     - technology-and-security/security-faqs.qmd
     #- part: "Admin"
     #  chapters:
     #   - admin/flowcharts.qmd 

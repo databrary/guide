@@ -44,7 +44,7 @@ The search function only returns volumes and does not return queries including s
 :::
 
 ## Search Page- Users
-You can also use the search page to find other Databrary users. On this page, you can view all users, authorized only users and all users' email addresses.
+You can also use the search page to find other Databrary users. On this page, you can view all users, authorized only users, and all users' email addresses.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/search-users.png")
