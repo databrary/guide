@@ -17,7 +17,7 @@ knitr::include_graphics("img/search-page.png")
 ```
 
 ### Filter Options
-You can refine your search by using the filter options at the top of the volume list.
+You can filter all available volumes or refine your search by using the filter options at the top of the volume list.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/search-filter.png")
@@ -26,8 +26,16 @@ knitr::include_graphics("img/search-filter.png")
 #### **File Release Levels**
 You can sort volumes by public, authorized users, or learning audiences release levels.
 
+```{r echo=FALSE}
+knitr::include_graphics("img/file-release-levels.png")
+```
+
 #### **Volume Sharing Levels**
 You can sort volumes by private, overview only, or shared levels. The only private volumes you are able to see are your own private volumes or private volumes from other researchers that have granted you access.
+
+```{r echo=FALSE}
+knitr::include_graphics("img/volume-levels.png")
+```
 
 ::: {.callout-important}
 If you want to reuse data, you must find **shared** volumes. 
@@ -36,8 +44,28 @@ If you want to reuse data, you must find **shared** volumes.
 #### **File Type**
 You can sort volumes by video, audio, image, document, or other file types.
 
+```{r echo=FALSE}
+knitr::include_graphics("img/file-type.png")
+```
+
+For example, if you would like to find volumes containing annotation files: 
+
+- Select 'Other' as the File Type.
+```{r echo=FALSE}
+knitr::include_graphics("img/other-file.png")
+```
+
+- Select 'opf' as the Format Type.
+```{r echo=FALSE}
+knitr::include_graphics("img/opf-file.png")
+```
+
 #### **Tag**
 You can enter a specific tag you are interested in to return volumes associated with that tag. 
+
+```{r echo=FALSE}
+knitr::include_graphics("img/tag.png")
+```
 
 ::: {.callout-note}
 The search function only returns volumes and does not return queries including specific files or sessions. Databrary is planning to implement this functionality in the near future.
