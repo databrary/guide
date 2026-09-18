@@ -1,5 +1,0 @@
-# Create a Volume {.unnumbered}
-
-Definition of volume.
-
-Steps to create a volume.

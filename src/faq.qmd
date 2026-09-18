@@ -77,5 +77,3 @@ At the moment, no. When we implement our fee-for-service/subscription model late
 At the moment, no. However, we can not guarantee that large videos will transcode or stream well.
 
 If you need to download videos in bulk or large videos, please consider using the *databraryr* package. It can be much faster than the web application.
-
-## Security Practice FAQs

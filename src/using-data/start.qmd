@@ -7,7 +7,7 @@ The data on Databrary can be used for [research purposes](#research-purposes) an
 Databrary is structured upon a restricted access and open sharing framework. Open sharing on Databrary allows researchers to reuse data without contacting the volume owner. However, access to Databrary is restricted by the completion of a formal agreement between a researcher’s university and Databrary. The formal agreement states that the researcher is affiliated with their university and that the university will be responsible for the researcher’s relationship with Databrary.
 
 ::: {.callout-note}
-Most of the data shared on Databrary are consistent with broad consent, meaning that participants or parents have given permission for unspecified future uses of the data.
+Most of the data shared on Databrary are consistent with broad consent, meaning that participants or parents have given permission for unspecified future uses of the data. Even if you are not consenting human participants for research, your activities still constitute human-subjects research and thus require oversight from the ethics board or IRB at your institution.
 :::
 
 ## Research Purposes {#research-purposes}

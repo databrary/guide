@@ -48,14 +48,14 @@ You can sort volumes by video, audio, image, document, or other file types.
 knitr::include_graphics("img/file-type.png")
 ```
 
-For example, if you would like to find volumes containing annotation files: 
+For example, if you would like to find volumes containing Datavyu annotation files: 
 
-- Select 'Other' as the File Type.
+- Select **'Other'** as the File Type.
 ```{r echo=FALSE}
 knitr::include_graphics("img/other-file.png")
 ```
 
-- Select 'opf' as the Format Type.
+- Select **'opf'** as the Format Type.
 ```{r echo=FALSE}
 knitr::include_graphics("img/opf-file.png")
 ```
