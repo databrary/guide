@@ -23,11 +23,6 @@ Datasets are organized into separate volumes with system-wide unique (integer) i
 
 Individual users and institutions are assigned system-wide unique identifiers and have some overlapping data elements (e.g., prename, sortname). Access privileges are granted hierarchically in a parent/child organization. 
 
-For example, Databrary is the parent of New York University (NYU); NYU is the parent of Karen Adolph and multiple other Authorized Investigators; Karen Adolph is the parent of multiple Sponsored Researchers who have broad access to volumes Dr. Adolph has created. Further details about how Authorized Investigators assign access permission to Sponsored Researchers can be found in the System Roles section below.
-
-## Sharing Release Levels
-Restricted data and metadata are controlled by a specific set of [sharing release levels](../contributing-data/start/#release-levels). These levels apply at the session, file, and asset level. Newly uploaded files default to Private. The terminology associated with these levels, the icons used to identify the levels, and the level of user access permitted are deeply embedded in the Databrary policy framework.
-
 ## API
 All Databrary frontend calls use the API. The volume/slot/asset identifier scheme described previously supports API calls of the following form:
 
@@ -47,12 +42,11 @@ The system generates and updates standard bibliographic citations for a volume b
 ## System Roles
 
 ### Super User
-The system supports a small number of Super User accounts. Only an existing Super User can grant Super User privileges to another account holder. A Super User have the following privileges:
+The system supports a small number of Super User accounts. Only an existing Super User can grant Super User privileges to another account holder. A Super User has the following privileges:
 
 - Editing user (party) account information
 - Changing a user’s parent (sponsor) and child (affiliate) links
 - Granting or removing system-wide access privileges
-- Resetting user passwords
 - Monitoring and managing the health of the system as a whole, including restarting stalled video transcoding jobs via an admin dashboard
 - Generating email related to the process for requesting authorization from an institution for specific users
 
