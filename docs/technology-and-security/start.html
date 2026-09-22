@@ -2,23 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Technology and Security – Databrary Guide</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -36,18 +30,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../technology-and-security/software.html" rel="next">
+<link href="../technology-and-security/requirements.html" rel="next">
 <link href="../using-data/custom-collections.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f4865b58d8f661e945ae1fa6086588a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ca7bfe637e992632417002da0d1e1fd6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -146,6 +141,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../ethics/ethics.html" class="sidebar-item-text sidebar-link">
@@ -342,14 +343,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../technology-and-security/software.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Software</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../technology-and-security/security-faqs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Security FAQs</span></a>
+  <a href="../technology-and-security/requirements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Security and Technical Requirements</span></a>
   </div>
 </li>
       </ul>
@@ -362,100 +357,35 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../glossary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Glossary</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../api.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Databrary API</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
- <span class="menu-text">Appendices</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/access_agreement.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Formal Access Agreement</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/sharing-release-participants.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Data Sharing Release: Participants</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/sharing-release-staff.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Data Sharing Release: Staff</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/sharing-release-script.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Sample Release Script</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/post-visit-release-email.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Post-visit release email</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/irb-application-template.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">IRB application template</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/privacy_policy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">Databrary Privacy Policy</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/terms.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">Terms and Conditions of Use</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/participant_info.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">I</span>&nbsp; <span class="chapter-title">Participant Bill of Rights</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/grants.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">J</span>&nbsp; <span class="chapter-title">Grants</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/technology-and-security.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">K</span>&nbsp; <span class="chapter-title">Databrary Data Security and Technical Requirements</span></span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#technology-stack" id="toc-technology-stack" class="nav-link active" data-scroll-target="#technology-stack">Technology Stack</a>
+  <ul>
+  <li><a href="#frontend" id="toc-frontend" class="nav-link" data-scroll-target="#frontend">Frontend</a></li>
+  <li><a href="#backend" id="toc-backend" class="nav-link" data-scroll-target="#backend">Backend</a></li>
+  </ul></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application">Application</a></li>
+  <li><a href="#api" id="toc-api" class="nav-link" data-scroll-target="#api">API</a></li>
+  <li><a href="#backend-services" id="toc-backend-services" class="nav-link" data-scroll-target="#backend-services">Backend Services</a></li>
+  <li><a href="#system-roles" id="toc-system-roles" class="nav-link" data-scroll-target="#system-roles">System Roles</a>
+  <ul>
+  <li><a href="#super-user" id="toc-super-user" class="nav-link" data-scroll-target="#super-user">Super User</a></li>
+  <li><a href="#user" id="toc-user" class="nav-link" data-scroll-target="#user">User</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/technology-and-security/start.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -479,8 +409,93 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="technology-stack" class="level2">
+<h2 class="anchored" data-anchor-id="technology-stack">Technology Stack</h2>
+<p>The Databrary application runs on a virtual machine running CentOS managed by NYU IT. Automatic transcoding of all uploaded video and audio files is handled by NYU’s High Performance Computing (HPC) cluster. Data is stored in Isilon arrays that are managed by the NYU Libraries.</p>
+<section id="frontend" class="level3">
+<h3 class="anchored" data-anchor-id="frontend">Frontend</h3>
+<ul>
+<li>AngularJS 1.4</li>
+<li>Coffee Script 1.7.1</li>
+<li>JQuery 1.12.3</li>
+<li>Stylus 0.54.5 + nib 1.1.2</li>
+</ul>
+</section>
+<section id="backend" class="level3">
+<h3 class="anchored" data-anchor-id="backend">Backend</h3>
+<ul>
+<li>GHC 8.0.2</li>
+<li>Haskell 2010</li>
+<li>Solr 6.6</li>
+<li>PostgreSQL 9.5</li>
+<li>FFmpeg 4.2.4</li>
+</ul>
+</section>
+</section>
+<section id="application" class="level2">
+<h2 class="anchored" data-anchor-id="application">Application</h2>
+<p>Datasets are organized into separate volumes with system-wide unique (integer) identifiers. Groups of data files related to a specific person or people (or non-human animal), date, time, and location are grouped into sessions (slots) within a volume. Individual files (assets) of varying types are organized within a session (slot). Sessions (slots) and files (assets) are assigned system-wide unique (integer) identifiers.</p>
+<p>Individual users and institutions are assigned system-wide unique identifiers and have some overlapping data elements (e.g., prename, sortname). Access privileges are granted hierarchically in a parent/child organization.</p>
+</section>
+<section id="api" class="level2">
+<h2 class="anchored" data-anchor-id="api">API</h2>
+<p>All Databrary frontend calls use the API. The volume/slot/asset identifier scheme described previously supports API calls of the following form:</p>
+<p>https://nyu.databrary.org/volume/1/slot/9807?asset=9200</p>
+<p>This call accesses the Databrary “leaf” logo in volume 1, slot (session) 9807, with asset ID 9200. Similarly, https://nyu.databrary.org/party/12 returns information about all of the Authorized Investigators who are authorized through party 12, The Pennsylvania State University.</p>
+<p>Most, but not all of the Databrary API is <a href="https://github.com/databrary/route-doc">documented</a>. If it is necessary to change the API calls in the rewrite, then the API should be versioned, and the new system should support current API calls.</p>
+</section>
+<section id="backend-services" class="level2">
+<h2 class="anchored" data-anchor-id="backend-services">Backend Services</h2>
+<p>All audio and video files uploaded automatically generate transcoding jobs that are handled by the NYU HPC.</p>
+<p>The system mints a Digital Object Identifier (DOI) when a volume is shared.</p>
+<p>The system generates and updates standard bibliographic citations for a volume based on volume data and metadata.</p>
+</section>
+<section id="system-roles" class="level2">
+<h2 class="anchored" data-anchor-id="system-roles">System Roles</h2>
+<section id="super-user" class="level3">
+<h3 class="anchored" data-anchor-id="super-user">Super User</h3>
+<p>The system supports a small number of Super User accounts. Only an existing Super User can grant Super User privileges to another account holder. A Super User has the following privileges:</p>
+<ul>
+<li>Editing user (party) account information</li>
+<li>Changing a user’s parent (sponsor) and child (affiliate) links</li>
+<li>Granting or removing system-wide access privileges</li>
+<li>Monitoring and managing the health of the system as a whole, including restarting stalled video transcoding jobs via an admin dashboard</li>
+<li>Generating email related to the process for requesting authorization from an institution for specific users</li>
+</ul>
+</section>
+<section id="user" class="level3">
+<h3 class="anchored" data-anchor-id="user">User</h3>
+<p>The system supports user accounts with the following features and privileges:</p>
+<ul>
+<li>Account creation</li>
+<li>Requesting authorization from an institution or individual (party)</li>
+<li>Editing user profile information (ORCID, web site, social media, additional email accounts, department)</li>
+<li>Two tiers of access: Authorized Investigators and Supervised Researchers
+<ul>
+<li>Authorized Investigators are specifically linked to an authorizing institution (party) when the Super User establishes that link. Authorized Investigators can:
+<ul>
+<li>Create, edit, share, and unshare volumes</li>
+<li>Create, edit, and delete sessions (slots) in volumes they own or co-own</li>
+<li>Upload, download, modify, and delete files (assets) in sessions in volumes they own or co-own</li>
+<li>Modify which other users (Authorized Investigators or Affiliates) have access to a volume, session (slot), or file (asset); this includes removing access.</li>
+<li>With regard to Affiliate, Authorized Investigators determine:
+<ul>
+<li>The Affiliate’s level of access to all of Databrary (no access or full access to shared data)</li>
+<li>The Affiliate’s level of access to the Authorized Investigator’s data (no access; read-only access; read/write access; manager access)</li>
+</ul></li>
+<li>Modify the level (sharing release level) assigned to a session (slot) or file (asset)</li>
+</ul></li>
+<li>Supervised Researchers’ privileges to access restricted data on Databrary are specifically linked to one or more Authorized Investigators. The Authorized Investigator controls that link. Links should expire on a regular (timed) basis. When linked to an Authorized Investigator, Affiliates have the level of access granted by that Authorized Investigator to:
+<ol type="i">
+<li>Databrary as a whole (default is none)</li>
+<li>to specific volumes owned by the Authorized Investigator.</li>
+</ol></li>
+</ul></li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -890,8 +905,8 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../technology-and-security/software.html" class="pagination-link" aria-label="Software">
-        <span class="nav-page-text">Software</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../technology-and-security/requirements.html" class="pagination-link" aria-label="Data Security and Technical Requirements">
+        <span class="nav-page-text">Data Security and Technical Requirements</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -900,4 +915,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/technology-and-security/start.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/technology-and-security/start.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

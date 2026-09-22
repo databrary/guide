@@ -16,6 +16,10 @@ Using the search bar will display all volumes with your defined query and will s
 knitr::include_graphics("img/search-page.png")
 ```
 
+::: {.callout-note}
+The search function only returns volumes and does not return queries including specific files or sessions. Databrary is planning to implement this functionality in the near future.
+:::
+
 ### Filter Options
 You can filter all available volumes or refine your search by using the filter options at the top of the volume list.
 
@@ -24,14 +28,14 @@ knitr::include_graphics("img/search-filter.png")
 ```
 
 #### **File Release Levels**
-You can sort volumes by public, authorized users, or learning audiences release levels.
+You can filter volumes by files that contain public, authorized users, or learning audiences release levels within the volume.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/file-release-levels.png")
 ```
 
-#### **Volume Sharing Levels**
-You can sort volumes by private, overview only, or shared levels. The only private volumes you are able to see are your own private volumes or private volumes from other researchers that have granted you access.
+#### **Volume Sharing Statuses**
+You can filter volumes by unshared (private), overview only, or shared statuses. The only unshared (private) volumes you are able to see are your own unshared (private) volumes or unshared (private) volumes from other researchers that have granted you access.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/volume-levels.png")
@@ -42,34 +46,30 @@ If you want to reuse data, you must find **shared** volumes.
 :::
 
 #### **File Type**
-You can sort volumes by video, audio, image, document, or other file types.
+You can filter volumes by volumes that contain video, audio, image, document, or other file types.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/file-type.png")
 ```
 
-For example, if you would like to find volumes containing annotation files: 
+For example, if you would like to find volumes containing Datavyu annotation files: 
 
-- Select 'Other' as the File Type.
+- Select **'Other'** as the File Type.
 ```{r echo=FALSE}
 knitr::include_graphics("img/other-file.png")
 ```
 
-- Select 'opf' as the Format Type.
+- Select **'opf'** as the Format Type.
 ```{r echo=FALSE}
 knitr::include_graphics("img/opf-file.png")
 ```
 
 #### **Tag**
-You can enter a specific tag you are interested in to return volumes associated with that tag. 
+You can enter a specific tag you are interested in to return volumes associated with that tag. Tags are user-defined and are not standardized throughout Databrary. 
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/tag.png")
 ```
-
-::: {.callout-note}
-The search function only returns volumes and does not return queries including specific files or sessions. Databrary is planning to implement this functionality in the near future.
-:::
 
 ## Search Page- Users
 You can also use the search page to find other Databrary users. On this page, you can view all users, authorized only users, and all users' email addresses.

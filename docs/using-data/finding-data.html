@@ -2,23 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Finding Datasets – Databrary Guide</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../using-data/start.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f4865b58d8f661e945ae1fa6086588a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ca7bfe637e992632417002da0d1e1fd6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -146,6 +141,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../ethics/ethics.html" class="sidebar-item-text sidebar-link">
@@ -331,6 +332,23 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../technology-and-security/start.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Technology and Security</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../technology-and-security/requirements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Security and Technical Requirements</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../faq.html" class="sidebar-item-text sidebar-link">
@@ -339,93 +357,10 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../glossary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Glossary</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../api.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Databrary API</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
- <span class="menu-text">Appendices</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/access_agreement.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Formal Access Agreement</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/sharing-release-participants.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Data Sharing Release: Participants</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/sharing-release-staff.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Data Sharing Release: Staff</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/sharing-release-script.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Sample Release Script</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/post-visit-release-email.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Post-visit release email</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/irb-application-template.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">IRB application template</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/privacy_policy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">Databrary Privacy Policy</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/terms.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">Terms and Conditions of Use</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/participant_info.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">I</span>&nbsp; <span class="chapter-title">Participant Bill of Rights</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/grants.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">J</span>&nbsp; <span class="chapter-title">Grants</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/technology-and-security.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">K</span>&nbsp; <span class="chapter-title">Databrary Data Security and Technical Requirements</span></span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -441,7 +376,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#filter-options" id="toc-filter-options" class="nav-link" data-scroll-target="#filter-options">Filter Options</a>
   <ul class="collapse">
   <li><a href="#file-release-levels" id="toc-file-release-levels" class="nav-link" data-scroll-target="#file-release-levels"><strong>File Release Levels</strong></a></li>
-  <li><a href="#volume-sharing-levels" id="toc-volume-sharing-levels" class="nav-link" data-scroll-target="#volume-sharing-levels"><strong>Volume Sharing Levels</strong></a></li>
+  <li><a href="#volume-sharing-statuses" id="toc-volume-sharing-statuses" class="nav-link" data-scroll-target="#volume-sharing-statuses"><strong>Volume Sharing Statuses</strong></a></li>
   <li><a href="#file-type" id="toc-file-type" class="nav-link" data-scroll-target="#file-type"><strong>File Type</strong></a></li>
   <li><a href="#tag" id="toc-tag" class="nav-link" data-scroll-target="#tag"><strong>Tag</strong></a></li>
   </ul></li>
@@ -497,6 +432,19 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The search function only returns volumes and does not return queries including specific files or sessions. Databrary is planning to implement this functionality in the near future.</p>
+</div>
+</div>
 <section id="filter-options" class="level3">
 <h3 class="anchored" data-anchor-id="filter-options">Filter Options</h3>
 <p>You can filter all available volumes or refine your search by using the filter options at the top of the volume list.</p>
@@ -511,7 +459,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="file-release-levels" class="level4">
 <h4 class="anchored" data-anchor-id="file-release-levels"><strong>File Release Levels</strong></h4>
-<p>You can sort volumes by public, authorized users, or learning audiences release levels.</p>
+<p>You can filter volumes by files that contain public, authorized users, or learning audiences release levels within the volume.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -522,9 +470,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="volume-sharing-levels" class="level4">
-<h4 class="anchored" data-anchor-id="volume-sharing-levels"><strong>Volume Sharing Levels</strong></h4>
-<p>You can sort volumes by private, overview only, or shared levels. The only private volumes you are able to see are your own private volumes or private volumes from other researchers that have granted you access.</p>
+<section id="volume-sharing-statuses" class="level4">
+<h4 class="anchored" data-anchor-id="volume-sharing-statuses"><strong>Volume Sharing Statuses</strong></h4>
+<p>You can filter volumes by unshared (private), overview only, or shared statuses. The only unshared (private) volumes you are able to see are your own unshared (private) volumes or unshared (private) volumes from other researchers that have granted you access.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -550,7 +498,7 @@ Important
 </section>
 <section id="file-type" class="level4">
 <h4 class="anchored" data-anchor-id="file-type"><strong>File Type</strong></h4>
-<p>You can sort volumes by video, audio, image, document, or other file types.</p>
+<p>You can filter volumes by volumes that contain video, audio, image, document, or other file types.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -560,9 +508,9 @@ Important
 </div>
 </div>
 </div>
-<p>For example, if you would like to find volumes containing annotation files:</p>
+<p>For example, if you would like to find volumes containing Datavyu annotation files:</p>
 <ul>
-<li>Select ‘Other’ as the File Type.</li>
+<li>Select <strong>‘Other’</strong> as the File Type.</li>
 </ul>
 <div class="cell">
 <div class="cell-output-display">
@@ -574,7 +522,7 @@ Important
 </div>
 </div>
 <ul>
-<li>Select ‘opf’ as the Format Type.</li>
+<li>Select <strong>‘opf’</strong> as the Format Type.</li>
 </ul>
 <div class="cell">
 <div class="cell-output-display">
@@ -588,7 +536,7 @@ Important
 </section>
 <section id="tag" class="level4">
 <h4 class="anchored" data-anchor-id="tag"><strong>Tag</strong></h4>
-<p>You can enter a specific tag you are interested in to return volumes associated with that tag.</p>
+<p>You can enter a specific tag you are interested in to return volumes associated with that tag. Tags are user-defined and are not standardized throughout Databrary.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -596,19 +544,6 @@ Important
 <p><img src="img/tag.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The search function only returns volumes and does not return queries including specific files or sessions. Databrary is planning to implement this functionality in the near future.</p>
 </div>
 </div>
 </section>

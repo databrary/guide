@@ -180,7 +180,7 @@ knitr::include_graphics("img/edit-session.png")
 knitr::include_graphics("img/add-files.png")
 ```
 
-#### **Release Levels**
+#### **Release Levels** {#release-levels}
 
 When you have obtained your participant permission, you must determine which Databrary sharing release level should be used for your participant's data.
 

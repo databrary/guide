@@ -479,5 +479,11 @@
   },
   "appendices/technology-and-security.qmd": {
     "technology-and-security.html": "5b1adb3a"
+  },
+  "technology-and-security/requirements.qmd": {
+    "requirements.html": "d01e3043"
+  },
+  "technology-and-security/specifications.qmd": {
+    "specifications.html": "3dcd0382"
   }
 }
