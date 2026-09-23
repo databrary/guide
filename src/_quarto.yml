@@ -156,6 +156,7 @@ book:
   repo-subdir: src
   
 format:
+#  docx: default
   html:
     theme: cosmo
     number_sections: false

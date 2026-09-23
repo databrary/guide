@@ -1,0 +1,76 @@
+# Data Security and Technical Requirements {.unnumbered}
+
+Copying and/or downloading content from Databrary must be accomplished in a manner
+that safeguards the content, and the research participants involved. Institutions and their
+Authorized Investigators and Affiliates agree to strictly abide by the following
+requirements, and to allow NYU, from time to time, to reasonably audit compliance.
+
+For purposes of these requirements, “Databrary Content” means any potentially
+identifiable data obtained from Databrary, including, but not limited to, audiovisual
+recordings, frame captures, still images, audio tracks, transcripts, annotations, behavioral
+codings, metadata, or any derivatives created from or linked to those materials.
+"Databrary Content" also includes any study data (for example, surveys, assessments,
+ratings, or notes) that can be associated, directly or indirectly, with an identifiable
+participant appearing in the Databrary materials. “Databrary Content” does not include
+data for which participants have provided explicit, documented consent for unrestricted
+public use for teaching and learning purposes.
+
+## **I. Data Security and Technical Requirements** {.unnumbered}
+
+### **1. Encryption** {.unnumbered}
+
+- **Encryption at Rest:** All copies of Databrary Content (including backups) must be stored on systems under the Institution’s control that use strong encryption (e.g., full-disk encryption like BitLocker or FileVault, or encrypted containers).
+- **Encryption in Transit:** Databrary Content must only be transmitted using secure, encrypted channels (e.g., Secure File Transfer Protocol (SFTP), dedicated secure transfer services, or a secure Virtual Private Network (VPN)).
+
+### **2. Access Control** {.unnumbered}
+
+- **Principle of Least Privilege:** Access to Databrary Content (including viewing, copying, exporting, downloading, or otherwise processing, collectively, “Processing”) must be restricted solely to those Authorized Investigators and Affiliates sponsored by the Institution.
+- **Strong Authentication:** Access must be protected by strong, unique passwords (meeting industry best practices for specific complexity requirements) and multi-factor authentication (MFA).
+- **Access Logging and Auditability:** All access to and Processing of Databrary Content must be logged in a manner that records, at minimum, the user account, timestamp, file(s) accessed, and action(s) taken. The Institution agrees to retain these logs in accordance with its records
+retention schedule and to make such logs available to NYU upon reasonable request for audit or incident response purposes. These logs may not be altered or deleted except in accordance with that retention schedule.
+
+### **3. Approved Storage Locations** {.unnumbered}
+
+- Databrary Content must be stored solely on servers or secure cloud environments that are managed by the Institution, and expressly approved by the Institution's IT/Security Office as appropriate for storage of sensitive data.
+- **Prohibition on Unauthorized Devices:** Databrary Content, including any copies or extracts, may only be stored in locations (including on-premises systems or Institution-managed cloud environments) that are owned, managed, and administered by the Institution. Databrary Content may not be stored on personally owned or personally managed devices or in any consumer or personal cloud service.
+- **Physical Security:** Any physical location where Databrary Content is stored or can be accessed must have access controls that restrict entry to authorized personnel only (e.g., keycard or biometric access controls, visitor logs).
+
+### **4. Security Software** {.unnumbered}
+
+- All devices used to access or store Databrary Content must have up-to-date operating systems and security software (e.g., antivirus/anti-malware protection) that are managed and configured by the Institution and prescribed by the Institution’s IT/security office.
+- **Monitoring and Alerting:** The Institution must maintain reasonable technical safeguards to detect and alert on suspicious activity involving Databrary Content, including but not limited to, unauthorized access attempts, atypical download behavior, or attempts to disable or otherwise circumvent security controls.
+
+# **II. Privacy and Procedural Requirements** {.unnumbered}
+
+## **1. De-identification/Coding** {.unnumbered}
+
+-  If any contact identifiers (full names, addresses) are provided alongside the Databrary Content containing identifiable individuals, they must be stored separately from the main working copies of Databrary Content.
+- A secure "key" file linking Databrary Content to identifiers must be stored separately from the Databrary Content itself, in a restricted and encrypted location that meets the same technical and access control requirements set out in this document.
+- To the degree possible, analyses must only be conducted on the minimum number of identifiers (birthdate, name, faces, voices) needed, for the minimum duration of time needed.
+
+## **2. Prohibition of Identification** {.unnumbered}
+
+- Authorized Investigators and Affiliates are explicitly prohibited from
+attempting to re-identify individuals in the Databrary Contentor linking theDatabrary Content with other publicly available information to establish identity.
+
+## **3. Prohibition of Unauthorized Sharing/Disclosure** {.unnumbered}
+
+- Authorized Investigators and Affiliates agree not to share, copy, or distribute the Databrary Content or any portion thereof to anyone outside the approved list of research personnel, including for presentations, teaching, or non-research purposes, except where such sharing is expressly authorized in the informed consent of the participant(s) whose data are included.
+
+## **4. Data Retention and Destruction:** {.unnumbered}
+
+- Institutions and Authorized Investigators and Affiliates agree that all Databrary Content in their possession will have a defined destruction date of (a) the conclusion of the approved research project or (b) five years from the date of access. Extensions may be requested of the Databrary team at their full discretion, only for appropriate research reasons
+- Upon or before that destruction date, Institutions and Authorized Investigators and Affiliates agree to securely destroy or purge all copies of the Databrary Content from all storage media, including backups, in a manner consistent with the Institution’s data sanitization standards and, where feasible, NIST SP 800-88 Secure Media Sanitization Guidelines. Institutions and Authorized Investigators and Affiliates also agree to provide, upon NYU’s request, written certification from the Institution confirming that such destruction has been completed.
+
+# **III. Incident Reporting** {.unnumbered}
+
+For purposes of this Agreement, a “Security Incident” means any actual or suspected loss, theft, unauthorized access, unauthorized disclosure, or unauthorized Processing of Databrary Content, including but not limited to accidental sharing, misdirected transmission, improper download, improper storage, or attempted exfiltration. A “Data Breach” means any Security Incident that has resulted in, or is reasonably believed to have resulted in, access to Databrary Content by an unauthorized individual.
+
+## **1. Data Breach Reporting** {.unnumbered}
+
+- In the event of a Security Incident or Data Breach, you must immediately notify the Institution’s designated IT contact, ideally within 24 hours of discovering the event. The Institution’s IT representative must then provide immediate notice to NYU of the breach or suspected breach.
+- The Breach Reporting must include, at minimum, a summary of the Incident, the date and time of discovery, the systems involved, the categories of Databrary Content exposed or suspected to be exposed, and any relevant access logs or audit trails associated with the Incident.
+
+## **2. Compliance with Regulations** {.unnumbered}
+
+- You and your Institution warrant that you will adhere to strict compliance with all applicable federal, state, and institutional regulations for human subjects research and data privacy (e.g., the Common Rule, institutional policies, and potentially GDPR or other applicable privacy laws depending on the location of the participants or researchers).

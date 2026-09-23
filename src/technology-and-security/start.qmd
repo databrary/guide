@@ -1,7 +1,7 @@
 # Technology and Security {.unnumbered}
 
 ## Technology Stack
-The Databrary application runs on a virtual machine running CentOS managed by NYU IT. Automatic transcoding of all uploaded video and audio files is handled by NYU’s High Performance Computing (HPC) cluster. Data is stored in Isilon arrays that are managed by the NYU Libraries.
+The Databrary application runs on a group of 10 VMWARE virtual machines, divided into Production (5 servers) and Staging (5 servers), running RedHat Enterprise Linux 9 managed by NYU IT. Automatic transcoding of all uploaded video and audio files is handled by NYU’s High Performance Computing (HPC) cluster. Data is stored in a Dell Isilon (Powerscale) storage array that is managed by the NYU Library.
 
 ### Frontend
 
@@ -12,11 +12,70 @@ The Databrary application runs on a virtual machine running CentOS managed by NY
 
 ### Backend
 
-- GHC 8.0.2
-- Haskell 2010
-- Solr 6.6
-- PostgreSQL 9.5
-- FFmpeg 4.2.4
+#### **Poetry**
+
+[Poetry](https://python-poetry.org/docs/) is a tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. Poetry offers a lockfile to ensure repeatable installs and can build your project for distribution.
+
+#### **PNPM**
+
+[PNPM](https://pnpm.io/) is a package manager. A package manager is a tool that helps you keep track of all dependencies of your app in a consistent way. It automates the tasks of dependency installation, upgrading, configuration, and removal. It makes sure that all the packages that your app needs are installed, of the correct version, and up-to-date.
+
+#### **DRF**
+Django REST Framework (DRF) is a toolkit built on top of the Django web framework that allows developers to rapidly build web APIs. It bridges the gap between Django’s relational database ORM and external clients by providing serialization, authentication policies, and viewsets to turn database rows into structured JSON endpoints.
+
+#### **Vite**
+[Vite](https://vite.dev/) is a web front-end build tool that aims to provide a faster and leaner development experience for modern web projects.
+
+#### **Nginx**
+Nginx is a web server application.
+
+#### **Gunicorn (26.2.0)**
+Gunicorn (26.2.0) is a WSGI compliant web server for Python Applications that receive requests sent to the Web Server from a Client and forwards them onto the Python applications or Web Frameworks (such as Flask or Django) in order to run the appropriate application code for the request.
+
+#### **Typescript(7.0.2)**
+[Typescript](https://www.typescriptlang.org/) is a variant of JavaScript. It is a programming language, created by Microsoft and first released in 2012, that adds extra functionality to JavaScript.
+
+#### **Python (3.12)**
+Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. 
+
+#### **React (16)**
+React is an open-source JavaScript library developed by Meta (formerly Facebook) used for building user interfaces, specifically for single-page applications (SPAs).
+
+#### **Celery (5.6)**
+Celery is an open source asynchronous task queue or job queue which is based on distributed message passing. While it supports scheduling, its focus is on operations in real time. Celery requires a message broker to run. As of October 2024, Redis and RabbitMQ are supported and actively maintained and monitored.
+
+#### **Redis (8.2.x)**
+Redis is an open-source, in-memory data structure store used as a database, cache, message broker, and streaming engine.
+
+#### **Elasticsearch (9.4.7)**
+Elasticsearch is an open-source, distributed search and analytics engine designed for handling large volumes of data with near real-time search capabilities.
+
+#### **Kibana (9.5.4)**
+Kibana is a source-available data visualization dashboard for Elasticsearch. Kibana lets users create bar, line, and scatter charts, pie charts, maps, and other visualizations against data stored in an Elasticsearch cluster, and arrange those visualizations into shared dashboards.
+
+#### **Docker (29.8.1)**
+Docker is an open platform for developing, shipping, and running applications. It provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application.
+
+Docker Swarm Backend Stack Services:
+- nginx ← public entry (port 8000), reverse proxy to app
+- app ← Gunicorn Django API
+- celery_transcoding ← heavy async (video transcoding)
+- celery_zip ← heavy async (archive creation)
+- celery_medium ← medium async tasks
+- celery_light ← lightweight / short tasks
+- celery_beat ← periodic task scheduler
+- elasticsearch ← application search (OpenSearch)
+- elasticsearch_logger + kibana + filebeat ← ELK log aggregation
+- prometheus + grafana + exporters ← metrics and dashboards
+- config-extractor ← Alpine one-shot: extracts Grafana/Prometheus from Swarm configs
+
+### Monitoring Applications and Services
+
+#### **Prometheus (3.15)**
+Prometheus is an open-source systems monitoring and alerting toolkit. It collects and stores its metrics as time series data.
+
+#### **Grafana (13.2.2)**
+Grafana is an open-source analytics and visualization web application. It connects to time series databases and other data sources, allowing users to build dashboards that display metrics, logs, and traces. Grafana supports data sources including Prometheus, AWS CloudWatch, Graphite, InfluxDB, Elasticsearch, PostgreSQL, and MySQL.
 
 ## Application
 Datasets are organized into separate volumes with system-wide unique (integer) identifiers. Groups of data files related to a specific person or people (or non-human animal), date, time, and location are grouped into sessions (slots) within a volume. Individual files (assets) of varying types are organized within a session (slot). Sessions (slots) and files (assets) are assigned system-wide unique (integer) identifiers.
@@ -69,3 +128,4 @@ The system supports user accounts with the following features and privileges:
   - Supervised Researchers' privileges to access restricted data on Databrary are specifically linked to one or more Authorized Investigators. The Authorized Investigator controls that link. Links should expire on a regular (timed) basis. When linked to an Authorized Investigator, Affiliates have the level of access granted by that Authorized Investigator to:
     i) Databrary as a whole (default is none) 
     ii) to specific volumes owned by the Authorized Investigator.
+    

@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Technology and Security – Databrary Guide</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -34,15 +40,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../using-data/custom-collections.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ca7bfe637e992632417002da0d1e1fd6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f4865b58d8f661e945ae1fa6086588a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -374,7 +379,28 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#technology-stack" id="toc-technology-stack" class="nav-link active" data-scroll-target="#technology-stack">Technology Stack</a>
   <ul>
   <li><a href="#frontend" id="toc-frontend" class="nav-link" data-scroll-target="#frontend">Frontend</a></li>
-  <li><a href="#backend" id="toc-backend" class="nav-link" data-scroll-target="#backend">Backend</a></li>
+  <li><a href="#backend" id="toc-backend" class="nav-link" data-scroll-target="#backend">Backend</a>
+  <ul class="collapse">
+  <li><a href="#poetry" id="toc-poetry" class="nav-link" data-scroll-target="#poetry"><strong>Poetry</strong></a></li>
+  <li><a href="#pnpm" id="toc-pnpm" class="nav-link" data-scroll-target="#pnpm"><strong>PNPM</strong></a></li>
+  <li><a href="#drf" id="toc-drf" class="nav-link" data-scroll-target="#drf"><strong>DRF</strong></a></li>
+  <li><a href="#vite" id="toc-vite" class="nav-link" data-scroll-target="#vite"><strong>Vite</strong></a></li>
+  <li><a href="#nginx" id="toc-nginx" class="nav-link" data-scroll-target="#nginx"><strong>Nginx</strong></a></li>
+  <li><a href="#gunicorn-26.2.0" id="toc-gunicorn-26.2.0" class="nav-link" data-scroll-target="#gunicorn-26.2.0"><strong>Gunicorn (26.2.0)</strong></a></li>
+  <li><a href="#typescript7.0.2" id="toc-typescript7.0.2" class="nav-link" data-scroll-target="#typescript7.0.2"><strong>Typescript(7.0.2)</strong></a></li>
+  <li><a href="#python-3.12" id="toc-python-3.12" class="nav-link" data-scroll-target="#python-3.12"><strong>Python (3.12)</strong></a></li>
+  <li><a href="#react-16" id="toc-react-16" class="nav-link" data-scroll-target="#react-16"><strong>React (16)</strong></a></li>
+  <li><a href="#celery-5.6" id="toc-celery-5.6" class="nav-link" data-scroll-target="#celery-5.6"><strong>Celery (5.6)</strong></a></li>
+  <li><a href="#redis-8.2.x" id="toc-redis-8.2.x" class="nav-link" data-scroll-target="#redis-8.2.x"><strong>Redis (8.2.x)</strong></a></li>
+  <li><a href="#elasticsearch-9.4.7" id="toc-elasticsearch-9.4.7" class="nav-link" data-scroll-target="#elasticsearch-9.4.7"><strong>Elasticsearch (9.4.7)</strong></a></li>
+  <li><a href="#kibana-9.5.4" id="toc-kibana-9.5.4" class="nav-link" data-scroll-target="#kibana-9.5.4"><strong>Kibana (9.5.4)</strong></a></li>
+  <li><a href="#docker-29.8.1" id="toc-docker-29.8.1" class="nav-link" data-scroll-target="#docker-29.8.1"><strong>Docker (29.8.1)</strong></a></li>
+  </ul></li>
+  <li><a href="#monitoring-applications-and-services" id="toc-monitoring-applications-and-services" class="nav-link" data-scroll-target="#monitoring-applications-and-services">Monitoring Applications and Services</a>
+  <ul class="collapse">
+  <li><a href="#prometheus-3.15" id="toc-prometheus-3.15" class="nav-link" data-scroll-target="#prometheus-3.15"><strong>Prometheus (3.15)</strong></a></li>
+  <li><a href="#grafana-13.2.2" id="toc-grafana-13.2.2" class="nav-link" data-scroll-target="#grafana-13.2.2"><strong>Grafana (13.2.2)</strong></a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application">Application</a></li>
   <li><a href="#api" id="toc-api" class="nav-link" data-scroll-target="#api">API</a></li>
@@ -411,7 +437,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="technology-stack" class="level2">
 <h2 class="anchored" data-anchor-id="technology-stack">Technology Stack</h2>
-<p>The Databrary application runs on a virtual machine running CentOS managed by NYU IT. Automatic transcoding of all uploaded video and audio files is handled by NYU’s High Performance Computing (HPC) cluster. Data is stored in Isilon arrays that are managed by the NYU Libraries.</p>
+<p>The Databrary application runs on a group of 10 VMWARE virtual machines, divided into Production (5 servers) and Staging (5 servers), running RedHat Enterprise Linux 9 managed by NYU IT. Automatic transcoding of all uploaded video and audio files is handled by NYU’s High Performance Computing (HPC) cluster. Data is stored in a Dell Isilon (Powerscale) storage array that is managed by the NYU Library.</p>
 <section id="frontend" class="level3">
 <h3 class="anchored" data-anchor-id="frontend">Frontend</h3>
 <ul>
@@ -423,13 +449,74 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="backend" class="level3">
 <h3 class="anchored" data-anchor-id="backend">Backend</h3>
-<ul>
-<li>GHC 8.0.2</li>
-<li>Haskell 2010</li>
-<li>Solr 6.6</li>
-<li>PostgreSQL 9.5</li>
-<li>FFmpeg 4.2.4</li>
-</ul>
+<section id="poetry" class="level4">
+<h4 class="anchored" data-anchor-id="poetry"><strong>Poetry</strong></h4>
+<p><a href="https://python-poetry.org/docs/">Poetry</a> is a tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. Poetry offers a lockfile to ensure repeatable installs and can build your project for distribution.</p>
+</section>
+<section id="pnpm" class="level4">
+<h4 class="anchored" data-anchor-id="pnpm"><strong>PNPM</strong></h4>
+<p><a href="https://pnpm.io/">PNPM</a> is a package manager. A package manager is a tool that helps you keep track of all dependencies of your app in a consistent way. It automates the tasks of dependency installation, upgrading, configuration, and removal. It makes sure that all the packages that your app needs are installed, of the correct version, and up-to-date.</p>
+</section>
+<section id="drf" class="level4">
+<h4 class="anchored" data-anchor-id="drf"><strong>DRF</strong></h4>
+<p>Django REST Framework (DRF) is a toolkit built on top of the Django web framework that allows developers to rapidly build web APIs. It bridges the gap between Django’s relational database ORM and external clients by providing serialization, authentication policies, and viewsets to turn database rows into structured JSON endpoints.</p>
+</section>
+<section id="vite" class="level4">
+<h4 class="anchored" data-anchor-id="vite"><strong>Vite</strong></h4>
+<p><a href="https://vite.dev/">Vite</a> is a web front-end build tool that aims to provide a faster and leaner development experience for modern web projects.</p>
+</section>
+<section id="nginx" class="level4">
+<h4 class="anchored" data-anchor-id="nginx"><strong>Nginx</strong></h4>
+<p>Nginx is a web server application.</p>
+</section>
+<section id="gunicorn-26.2.0" class="level4">
+<h4 class="anchored" data-anchor-id="gunicorn-26.2.0"><strong>Gunicorn (26.2.0)</strong></h4>
+<p>Gunicorn (26.2.0) is a WSGI compliant web server for Python Applications that receive requests sent to the Web Server from a Client and forwards them onto the Python applications or Web Frameworks (such as Flask or Django) in order to run the appropriate application code for the request.</p>
+</section>
+<section id="typescript7.0.2" class="level4">
+<h4 class="anchored" data-anchor-id="typescript7.0.2"><strong>Typescript(7.0.2)</strong></h4>
+<p><a href="https://www.typescriptlang.org/">Typescript</a> is a variant of JavaScript. It is a programming language, created by Microsoft and first released in 2012, that adds extra functionality to JavaScript.</p>
+</section>
+<section id="python-3.12" class="level4">
+<h4 class="anchored" data-anchor-id="python-3.12"><strong>Python (3.12)</strong></h4>
+<p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.</p>
+</section>
+<section id="react-16" class="level4">
+<h4 class="anchored" data-anchor-id="react-16"><strong>React (16)</strong></h4>
+<p>React is an open-source JavaScript library developed by Meta (formerly Facebook) used for building user interfaces, specifically for single-page applications (SPAs).</p>
+</section>
+<section id="celery-5.6" class="level4">
+<h4 class="anchored" data-anchor-id="celery-5.6"><strong>Celery (5.6)</strong></h4>
+<p>Celery is an open source asynchronous task queue or job queue which is based on distributed message passing. While it supports scheduling, its focus is on operations in real time. Celery requires a message broker to run. As of October 2024, Redis and RabbitMQ are supported and actively maintained and monitored.</p>
+</section>
+<section id="redis-8.2.x" class="level4">
+<h4 class="anchored" data-anchor-id="redis-8.2.x"><strong>Redis (8.2.x)</strong></h4>
+<p>Redis is an open-source, in-memory data structure store used as a database, cache, message broker, and streaming engine.</p>
+</section>
+<section id="elasticsearch-9.4.7" class="level4">
+<h4 class="anchored" data-anchor-id="elasticsearch-9.4.7"><strong>Elasticsearch (9.4.7)</strong></h4>
+<p>Elasticsearch is an open-source, distributed search and analytics engine designed for handling large volumes of data with near real-time search capabilities.</p>
+</section>
+<section id="kibana-9.5.4" class="level4">
+<h4 class="anchored" data-anchor-id="kibana-9.5.4"><strong>Kibana (9.5.4)</strong></h4>
+<p>Kibana is a source-available data visualization dashboard for Elasticsearch. Kibana lets users create bar, line, and scatter charts, pie charts, maps, and other visualizations against data stored in an Elasticsearch cluster, and arrange those visualizations into shared dashboards.</p>
+</section>
+<section id="docker-29.8.1" class="level4">
+<h4 class="anchored" data-anchor-id="docker-29.8.1"><strong>Docker (29.8.1)</strong></h4>
+<p>Docker is an open platform for developing, shipping, and running applications. It provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security let you run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application.</p>
+<p>Docker Swarm Backend Stack Services: - nginx ← public entry (port 8000), reverse proxy to app - app ← Gunicorn Django API - celery_transcoding ← heavy async (video transcoding) - celery_zip ← heavy async (archive creation) - celery_medium ← medium async tasks - celery_light ← lightweight / short tasks - celery_beat ← periodic task scheduler - elasticsearch ← application search (OpenSearch) - elasticsearch_logger + kibana + filebeat ← ELK log aggregation - prometheus + grafana + exporters ← metrics and dashboards - config-extractor ← Alpine one-shot: extracts Grafana/Prometheus from Swarm configs</p>
+</section>
+</section>
+<section id="monitoring-applications-and-services" class="level3">
+<h3 class="anchored" data-anchor-id="monitoring-applications-and-services">Monitoring Applications and Services</h3>
+<section id="prometheus-3.15" class="level4">
+<h4 class="anchored" data-anchor-id="prometheus-3.15"><strong>Prometheus (3.15)</strong></h4>
+<p>Prometheus is an open-source systems monitoring and alerting toolkit. It collects and stores its metrics as time series data.</p>
+</section>
+<section id="grafana-13.2.2" class="level4">
+<h4 class="anchored" data-anchor-id="grafana-13.2.2"><strong>Grafana (13.2.2)</strong></h4>
+<p>Grafana is an open-source analytics and visualization web application. It connects to time series databases and other data sources, allowing users to build dashboards that display metrics, logs, and traces. Grafana supports data sources including Prometheus, AWS CloudWatch, Graphite, InfluxDB, Elasticsearch, PostgreSQL, and MySQL.</p>
+</section>
 </section>
 </section>
 <section id="application" class="level2">

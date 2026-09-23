@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Why Databrary? – Databrary Guide</title>
+<title>Data Security and Technical Requirements – Databrary Guide</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,8 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../glossary.html" rel="next">
-<link href="../about/history.html" rel="prev">
+<link href="../faq.html" rel="next">
+<link href="../technology-and-security/start.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -89,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../about/about.html">About</a></li><li class="breadcrumb-item"><a href="../about/why.html">Why Databrary?</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../technology-and-security/start.html">Technology and Security</a></li><li class="breadcrumb-item"><a href="../technology-and-security/requirements.html">Data Security and Technical Requirements</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -127,11 +127,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../about/about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../about/history.html" class="sidebar-item-text sidebar-link">
@@ -140,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../about/why.html" class="sidebar-item-text sidebar-link active">
+  <a href="../about/why.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Why Databrary?</span></a>
   </div>
 </li>
@@ -341,14 +341,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../technology-and-security/start.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Technology and Security</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../technology-and-security/requirements.html" class="sidebar-item-text sidebar-link">
+  <a href="../technology-and-security/requirements.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Data Security and Technical Requirements</span></a>
   </div>
 </li>
@@ -376,16 +376,34 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#our-framework" id="toc-our-framework" class="nav-link active" data-scroll-target="#our-framework">Our Framework</a></li>
+  <li><a href="#i.-data-security-and-technical-requirements" id="toc-i.-data-security-and-technical-requirements" class="nav-link active" data-scroll-target="#i.-data-security-and-technical-requirements"><strong>I. Data Security and Technical Requirements</strong></a>
+  <ul>
+  <li><a href="#encryption" id="toc-encryption" class="nav-link" data-scroll-target="#encryption"><strong>1. Encryption</strong></a></li>
+  <li><a href="#access-control" id="toc-access-control" class="nav-link" data-scroll-target="#access-control"><strong>2. Access Control</strong></a></li>
+  <li><a href="#approved-storage-locations" id="toc-approved-storage-locations" class="nav-link" data-scroll-target="#approved-storage-locations"><strong>3. Approved Storage Locations</strong></a></li>
+  <li><a href="#security-software" id="toc-security-software" class="nav-link" data-scroll-target="#security-software"><strong>4. Security Software</strong></a></li>
+  </ul></li>
+  <li><a href="#ii.-privacy-and-procedural-requirements" id="toc-ii.-privacy-and-procedural-requirements" class="nav-link" data-scroll-target="#ii.-privacy-and-procedural-requirements"><strong>II. Privacy and Procedural Requirements</strong></a>
+  <ul>
+  <li><a href="#de-identificationcoding" id="toc-de-identificationcoding" class="nav-link" data-scroll-target="#de-identificationcoding"><strong>1. De-identification/Coding</strong></a></li>
+  <li><a href="#prohibition-of-identification" id="toc-prohibition-of-identification" class="nav-link" data-scroll-target="#prohibition-of-identification"><strong>2. Prohibition of Identification</strong></a></li>
+  <li><a href="#prohibition-of-unauthorized-sharingdisclosure" id="toc-prohibition-of-unauthorized-sharingdisclosure" class="nav-link" data-scroll-target="#prohibition-of-unauthorized-sharingdisclosure"><strong>3. Prohibition of Unauthorized Sharing/Disclosure</strong></a></li>
+  <li><a href="#data-retention-and-destruction" id="toc-data-retention-and-destruction" class="nav-link" data-scroll-target="#data-retention-and-destruction"><strong>4. Data Retention and Destruction:</strong></a></li>
+  </ul></li>
+  <li><a href="#iii.-incident-reporting" id="toc-iii.-incident-reporting" class="nav-link" data-scroll-target="#iii.-incident-reporting"><strong>III. Incident Reporting</strong></a>
+  <ul>
+  <li><a href="#data-breach-reporting" id="toc-data-breach-reporting" class="nav-link" data-scroll-target="#data-breach-reporting"><strong>1. Data Breach Reporting</strong></a></li>
+  <li><a href="#compliance-with-regulations" id="toc-compliance-with-regulations" class="nav-link" data-scroll-target="#compliance-with-regulations"><strong>2. Compliance with Regulations</strong></a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/about/why.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/technology-and-security/requirements.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../about/about.html">About</a></li><li class="breadcrumb-item"><a href="../about/why.html">Why Databrary?</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../technology-and-security/start.html">Technology and Security</a></li><li class="breadcrumb-item"><a href="../technology-and-security/requirements.html">Data Security and Technical Requirements</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Why Databrary?</h1>
+<h1 class="title">Data Security and Technical Requirements</h1>
 </div>
 
 
@@ -402,16 +420,89 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Data repositories and libraries provide permanent homes for research findings and raw data. Sharing research data is a vital component of the research process, just like publishing papers and books, giving talks, and teaching classes. Open science and sharing information is how we advance as a community.</p>
-<p>Furthermore, many granting agencies that fund research require that research data be shared. As an NIH-approved repository, Databrary provides NIH grantees with a compliant and streamlined way to fulfill their data-sharing obligations.</p>
-<p>Finally, videos are expensive and time consuming to collect. By sharing and reusing videos, researchers across fields can use video data and glean insights that the original researcher may not have been focusing on, accelerating discovery.</p>
-<section id="our-framework" class="level2">
-<h2 class="anchored" data-anchor-id="our-framework">Our Framework</h2>
-<p>Databrary is structured upon a restricted access and open sharing framework. Open sharing on Databrary allows researchers to reuse data without contacting the owner. However, access to Databrary is restricted by the completion of a formal agreement between a researcher’s university and Databrary. The formal agreement states that the researcher is affiliated with their university and that the university will be responsible for the researcher’s relationship with Databrary.</p>
-<p>This framework aims to advance the widespread sharing of research data while respecting the privacy of research participants.</p>
-<p>We encourage you to read <a href="https://databrary.github.io/guide/appendices/access_agreement.html">Databrary’s Access Agreement</a> and its three annexes. These documents, especially <a href="https://databrary.github.io/guide/appendices/access_agreement.html#daa_annex_III">Annex III-Databrary Access Guide</a>, provide extensive information about how Databrary is structured and how it should be used. You may also get guidance about working with a research ethics board or IRB to see how to incorporate data sharing using Databrary in a Data Management Plan for a grant proposal.</p>
+<p>Copying and/or downloading content from Databrary must be accomplished in a manner that safeguards the content, and the research participants involved. Institutions and their Authorized Investigators and Affiliates agree to strictly abide by the following requirements, and to allow NYU, from time to time, to reasonably audit compliance.</p>
+<p>For purposes of these requirements, “Databrary Content” means any potentially identifiable data obtained from Databrary, including, but not limited to, audiovisual recordings, frame captures, still images, audio tracks, transcripts, annotations, behavioral codings, metadata, or any derivatives created from or linked to those materials. “Databrary Content” also includes any study data (for example, surveys, assessments, ratings, or notes) that can be associated, directly or indirectly, with an identifiable participant appearing in the Databrary materials. “Databrary Content” does not include data for which participants have provided explicit, documented consent for unrestricted public use for teaching and learning purposes.</p>
+<section id="i.-data-security-and-technical-requirements" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="i.-data-security-and-technical-requirements"><strong>I. Data Security and Technical Requirements</strong></h2>
+<section id="encryption" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="encryption"><strong>1. Encryption</strong></h3>
+<ul>
+<li><strong>Encryption at Rest:</strong> All copies of Databrary Content (including backups) must be stored on systems under the Institution’s control that use strong encryption (e.g., full-disk encryption like BitLocker or FileVault, or encrypted containers).</li>
+<li><strong>Encryption in Transit:</strong> Databrary Content must only be transmitted using secure, encrypted channels (e.g., Secure File Transfer Protocol (SFTP), dedicated secure transfer services, or a secure Virtual Private Network (VPN)).</li>
+</ul>
+</section>
+<section id="access-control" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="access-control"><strong>2. Access Control</strong></h3>
+<ul>
+<li><strong>Principle of Least Privilege:</strong> Access to Databrary Content (including viewing, copying, exporting, downloading, or otherwise processing, collectively, “Processing”) must be restricted solely to those Authorized Investigators and Affiliates sponsored by the Institution.</li>
+<li><strong>Strong Authentication:</strong> Access must be protected by strong, unique passwords (meeting industry best practices for specific complexity requirements) and multi-factor authentication (MFA).</li>
+<li><strong>Access Logging and Auditability:</strong> All access to and Processing of Databrary Content must be logged in a manner that records, at minimum, the user account, timestamp, file(s) accessed, and action(s) taken. The Institution agrees to retain these logs in accordance with its records retention schedule and to make such logs available to NYU upon reasonable request for audit or incident response purposes. These logs may not be altered or deleted except in accordance with that retention schedule.</li>
+</ul>
+</section>
+<section id="approved-storage-locations" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="approved-storage-locations"><strong>3. Approved Storage Locations</strong></h3>
+<ul>
+<li>Databrary Content must be stored solely on servers or secure cloud environments that are managed by the Institution, and expressly approved by the Institution’s IT/Security Office as appropriate for storage of sensitive data.</li>
+<li><strong>Prohibition on Unauthorized Devices:</strong> Databrary Content, including any copies or extracts, may only be stored in locations (including on-premises systems or Institution-managed cloud environments) that are owned, managed, and administered by the Institution. Databrary Content may not be stored on personally owned or personally managed devices or in any consumer or personal cloud service.</li>
+<li><strong>Physical Security:</strong> Any physical location where Databrary Content is stored or can be accessed must have access controls that restrict entry to authorized personnel only (e.g., keycard or biometric access controls, visitor logs).</li>
+</ul>
+</section>
+<section id="security-software" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="security-software"><strong>4. Security Software</strong></h3>
+<ul>
+<li>All devices used to access or store Databrary Content must have up-to-date operating systems and security software (e.g., antivirus/anti-malware protection) that are managed and configured by the Institution and prescribed by the Institution’s IT/security office.</li>
+<li><strong>Monitoring and Alerting:</strong> The Institution must maintain reasonable technical safeguards to detect and alert on suspicious activity involving Databrary Content, including but not limited to, unauthorized access attempts, atypical download behavior, or attempts to disable or otherwise circumvent security controls.</li>
+</ul>
+</section>
+</section>
+<section id="ii.-privacy-and-procedural-requirements" class="level1 unnumbered">
+<h1 class="unnumbered"><strong>II. Privacy and Procedural Requirements</strong></h1>
+<section id="de-identificationcoding" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="de-identificationcoding"><strong>1. De-identification/Coding</strong></h2>
+<ul>
+<li>If any contact identifiers (full names, addresses) are provided alongside the Databrary Content containing identifiable individuals, they must be stored separately from the main working copies of Databrary Content.</li>
+<li>A secure “key” file linking Databrary Content to identifiers must be stored separately from the Databrary Content itself, in a restricted and encrypted location that meets the same technical and access control requirements set out in this document.</li>
+<li>To the degree possible, analyses must only be conducted on the minimum number of identifiers (birthdate, name, faces, voices) needed, for the minimum duration of time needed.</li>
+</ul>
+</section>
+<section id="prohibition-of-identification" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="prohibition-of-identification"><strong>2. Prohibition of Identification</strong></h2>
+<ul>
+<li>Authorized Investigators and Affiliates are explicitly prohibited from attempting to re-identify individuals in the Databrary Contentor linking theDatabrary Content with other publicly available information to establish identity.</li>
+</ul>
+</section>
+<section id="prohibition-of-unauthorized-sharingdisclosure" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="prohibition-of-unauthorized-sharingdisclosure"><strong>3. Prohibition of Unauthorized Sharing/Disclosure</strong></h2>
+<ul>
+<li>Authorized Investigators and Affiliates agree not to share, copy, or distribute the Databrary Content or any portion thereof to anyone outside the approved list of research personnel, including for presentations, teaching, or non-research purposes, except where such sharing is expressly authorized in the informed consent of the participant(s) whose data are included.</li>
+</ul>
+</section>
+<section id="data-retention-and-destruction" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="data-retention-and-destruction"><strong>4. Data Retention and Destruction:</strong></h2>
+<ul>
+<li>Institutions and Authorized Investigators and Affiliates agree that all Databrary Content in their possession will have a defined destruction date of (a) the conclusion of the approved research project or (b) five years from the date of access. Extensions may be requested of the Databrary team at their full discretion, only for appropriate research reasons</li>
+<li>Upon or before that destruction date, Institutions and Authorized Investigators and Affiliates agree to securely destroy or purge all copies of the Databrary Content from all storage media, including backups, in a manner consistent with the Institution’s data sanitization standards and, where feasible, NIST SP 800-88 Secure Media Sanitization Guidelines. Institutions and Authorized Investigators and Affiliates also agree to provide, upon NYU’s request, written certification from the Institution confirming that such destruction has been completed.</li>
+</ul>
+</section>
+</section>
+<section id="iii.-incident-reporting" class="level1 unnumbered">
+<h1 class="unnumbered"><strong>III. Incident Reporting</strong></h1>
+<p>For purposes of this Agreement, a “Security Incident” means any actual or suspected loss, theft, unauthorized access, unauthorized disclosure, or unauthorized Processing of Databrary Content, including but not limited to accidental sharing, misdirected transmission, improper download, improper storage, or attempted exfiltration. A “Data Breach” means any Security Incident that has resulted in, or is reasonably believed to have resulted in, access to Databrary Content by an unauthorized individual.</p>
+<section id="data-breach-reporting" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="data-breach-reporting"><strong>1. Data Breach Reporting</strong></h2>
+<ul>
+<li>In the event of a Security Incident or Data Breach, you must immediately notify the Institution’s designated IT contact, ideally within 24 hours of discovering the event. The Institution’s IT representative must then provide immediate notice to NYU of the breach or suspected breach.</li>
+<li>The Breach Reporting must include, at minimum, a summary of the Incident, the date and time of discovery, the systems involved, the categories of Databrary Content exposed or suspected to be exposed, and any relevant access logs or audit trails associated with the Incident.</li>
+</ul>
+</section>
+<section id="compliance-with-regulations" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="compliance-with-regulations"><strong>2. Compliance with Regulations</strong></h2>
+<ul>
+<li>You and your Institution warrant that you will adhere to strict compliance with all applicable federal, state, and institutional regulations for human subjects research and data privacy (e.g., the Common Rule, institutional policies, and potentially GDPR or other applicable privacy laws depending on the location of the participants or researchers).</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -817,13 +908,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../about/history.html" class="pagination-link" aria-label="History">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">History</span>
+      <a href="../technology-and-security/start.html" class="pagination-link" aria-label="Technology and Security">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Technology and Security</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../glossary.html" class="pagination-link" aria-label="Glossary">
-        <span class="nav-page-text">Glossary</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../faq.html" class="pagination-link" aria-label="Frequently Asked Questions">
+        <span class="nav-page-text">Frequently Asked Questions</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -832,4 +923,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/about/why.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/technology-and-security/requirements.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
