@@ -3,14 +3,26 @@
 ## Technology Stack
 The Databrary application runs on a group of 10 VMWARE virtual machines, divided into Production (5 servers) and Staging (5 servers), running RedHat Enterprise Linux 9 managed by NYU IT. Automatic transcoding of all uploaded video and audio files is handled by NYU’s High Performance Computing (HPC) cluster. Data is stored in a Dell Isilon (Powerscale) storage array that is managed by the NYU Library.
 
-### Frontend
+### Repository Roles and Relationships
 
-- AngularJS 1.4
-- Coffee Script 1.7.1
-- JQuery 1.12.3
-- Stylus 0.54.5 + nib 1.1.2
+- databrary-core: Shared Python library (Django 5.2, DRF, Celery). Released as a versioned .whl to GitHub Releases. No runtime image; no test runner in its own CI.
+- backend_2.0: On-prem REST API server. Consumes core; adds Django settings, Celery workers, Gunicorn/nginx, ELK stack, Prometheus/Grafana. CI/CD tests for both core and project code live here.
+- frontend_2.0: React 18 / TypeScript SPA (Single Page Application) built with Vite. Served behind nginx in production.
 
-### Backend
+### Frontend Applications and Processes
+
+- pco01lw-2381s.cfs.its.nyu.edu - 10.47.3.17 (web server 1)
+- pco01lw-2382s.cfs.its.nyu.edu - 10.47.3.18 (web server 2)
+- pco01ld-2383s.cfs.its.nyu.edu - 10.46.0.186 (PostgreSQL)
+- pco01ld-2384s.cfs.its.nyu.edu - 10.46.0.187 (Redis and Jenkins)
+- pco01la-2533s.cfs.its.nyu.edu - 10.46.3.151 (Video transcoding jobs)
+- Nginx - webserver
+- Postgresql - Database server
+- Redis
+- Jenkins
+- Ffmpeg
+
+### Backend Applications and Descriptions
 
 #### **Poetry**
 

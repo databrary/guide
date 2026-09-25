@@ -1,8 +1,79 @@
 # About {.unnumbered}
 
-Based at [New York University](https://www.nyu.edu/), Databrary is the world's only large-scale data repository specializing in storing and sharing research videos in behavioral sciences and the broader research community. It supports the storing, streaming, and sharing of video and audio recordings along with a wide range of accompany research materials such as, transcriptions, images and metadata. 
+Based at [New York University](https://www.nyu.edu/), Databrary is the world's only large-scale data repository specializing in storing and sharing research videos in behavioral sciences and the broader research community. It supports the storing, streaming, and sharing of video and audio recordings along with a wide range of research materials such as transcriptions, images, and metadata. 
 
-## Our Mission
+## Our Team
 
-Databrary's mission is to support data sharing and reuse among researchers in the behavioral, social, educational, developmental, neural and computer sciences. The platform is dedicated to advancing transparency, reproducibility, and collaboration across the research community. Databrary serves as a community of scientists and a resource for those who use video or audio in their research or teaching.
+### Principal Investigators
+
+::: {layout="[40, 60]"}
+::: {#first-column}
+```{r echo=FALSE}
+knitr::include_graphics("img/kea.png")
+```
+:::
+
+::: {#second-column}
+**Karen Adolph** <br>
+Director <br>
+Julius Silver Professor of Psychology and Neural Science <br>
+[New York University](http://www.nyu.edu/) <br>
+[NYU Action Lab](http://psych.nyu.edu/adolph) <br>
+:::
+:::
+
+::: {layout="[40, 60]"}
+::: {#first-column}
+```{r echo=FALSE}
+knitr::include_graphics("img/rog.png")
+```
+:::
+
+::: {#second-column}
+**Rick O. Gilmore** <br>
+Co-Director <br>
+Professor of Psychology <br>
+[The Pennsylvania State University](https://www.psu.edu/) <br>
+[PSU Brain and Behavioral Dynamics Lab](https://gilmore-lab.github.io/) <br>
+:::
+:::
+
+### Staff
+
+::: {layout="[40, 60]"}
+::: {#first-column}
+```{r echo=FALSE}
+knitr::include_graphics("img/kcs.png")
+```
+:::
+
+::: {#second-column}
+**Kasey Soska, Ph.D.** <br>
+Research Support Specialist <br>
+:::
+:::
+
+::: {layout="[40, 60]"}
+::: {#first-column}
+```{r echo=FALSE}
+knitr::include_graphics("img/ars.png")
+```
+:::
+
+::: {#second-column}
+**Andrea Seisler, MA** <br>
+Authorizations Specialist <br>
+:::
+:::
+
+## User Guide Authors {-}
+
+- Karen Adolph
+- Rick Gilmore
+- Andrea Seisler
+- Kasey Soska
+- Stephanie Win
+- Anika Mahadevan
+- Melody Xu
+- Yinghe Liu
 

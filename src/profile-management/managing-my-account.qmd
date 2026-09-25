@@ -1,6 +1,6 @@
 # Managing My Account {-}
 
-You can manage your personal information, account information, notifications, sponsors, and sponsored researchers in your account settings by clicking on the pencil icon.
+You can manage your personal information, account information, notifications, sponsors, and supervised researchers in your account settings by clicking on the pencil icon.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/edit_profile.png")
@@ -58,8 +58,6 @@ Databrary does not control your personal notification settings.
 
 ## Editing Authorizations and Supervisions 
 
-Description of why sections are split.
-
 ::: {.panel-tabset}
 
 ## Supervised Researchers
@@ -69,9 +67,9 @@ Your sponsors page is where you can request authorization from your research spo
 knitr::include_graphics("img/sponsors.png")
 ```
 
-## Authorized Investigators
+## Authorized Researchers
 
-If you are an Authorized Investigator, your affiliates page is where you can review, approve, and renew authorization requests from your research staff, post-docs, or students. 
+If you are an authorized researcher, your affiliates page is where you can review, approve, and renew authorization requests from your research staff, post-docs, or students. 
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/affiliates.png")
@@ -80,4 +78,3 @@ knitr::include_graphics("img/affiliates.png")
 You can find more information about how to manage your supervised researchers in this section, [Managing Supervised Researchers](../managing-my-sponsored-researchers.qmd).
 
 :::
-

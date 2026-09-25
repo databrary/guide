@@ -1,24 +1,24 @@
 # Renewing Sponsorship {.unnumbered}
 
-All Supervised Researcher's sponsorships will expire on a date defined by you or by the default one year expiration date. Before your Supervised Researcher's sponsorship expires, you will receive a notification from Databrary reminding you to renew their sponsorship if needed.
+All supervised researcher's sponsorships will expire on a date defined by you or by the default one year expiration date. Before your supervised researcher's sponsorship expires, you will receive a notification from Databrary reminding you to renew their sponsorship if needed.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/expire-email.png")
 ```
 
 ::: {.callout-note}
-You can customize how you would like to be notified of your Supervised Researcher's expiring sponsorship through your Notifications Settings. For more guidance on how to manage your Notifications Settings, navigate to [this section](profile-management/managing-my-account.qmd).
+You can customize how you would like to be notified of your supervised researcher's expiring sponsorship through your notifications settings. For more guidance on how to manage your notifications settings, navigate to [this section](profile-management/managing-my-account.qmd).
 :::     
 
 ## Viewing Your Expired Supervised Researchers
 
-In the Affiliates page, you can view all of your expired Supervised Researchers. 
+In the Affiliates page, you can view all of your expired supervised researchers. 
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/affiliate-page.png")
 ```
 
-Sometimes, your expired Supervised Researchers will not be readily displayed. To display your expired Supervised Researchers:
+Sometimes, your expired supervised researchers will not be readily displayed. To display your expired supervised researchers:
 
 1. Select 'Filter' to open up your filters menu.
 
@@ -34,13 +34,13 @@ knitr::include_graphics("img/filter-off-affiliates.png")
 
 ## How to Renew Sponsorship
 
-1. Click the 'Edit' icon to review and update your Supervised Researcher's access and expiration date.
+1. Click the 'Edit' icon to review and update your supervised researcher's access and expiration date.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/edit-affiliate.png")
 ```
 
-2. Select the 'Expiration Date' field to input your Supervised Researcher's new expiration date.
+2. Select the 'Expiration Date' field to input your supervised researcher's new expiration date.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/edit-date.png")

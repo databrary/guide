@@ -1,4 +1,4 @@
-# Data Reuse {.unnumbered}
+# Ethics for Data Reuse {.unnumbered}
 
 The information below is intended to help prepare IRB or ethics board materials for researchers who plan to store and share video data in Databrary.
 

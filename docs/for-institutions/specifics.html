@@ -2,23 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Specifics – Databrary Guide</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../for-institutions/for-institutions.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f4865b58d8f661e945ae1fa6086588a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ca7bfe637e992632417002da0d1e1fd6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -155,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../ethics/ethics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Ethics</span></a>
+ <span class="menu-text">Ethical Framework</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -164,19 +159,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../ethics/data-collection-and-permissions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Obtaining Permissions</span></a>
+ <span class="menu-text">Ethics for Data Contribution</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../ethics/data-reuse.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Reuse</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../ethics/grant-funding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Grant Funding</span></a>
+ <span class="menu-text">Ethics for Data Reuse</span></a>
   </div>
 </li>
       </ul>
@@ -265,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../managing-my-sponsored-researchers/start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Managing Sponsored Researchers</span></a>
+ <span class="menu-text">Managing Supervised Researchers</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -293,8 +282,8 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../contributing-data/start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Contributing Data</span></a>
+            <a href="../setting-up-a-volume/start.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Setting Up a Volume</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -302,8 +291,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../contributing-data/start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Contributing Data</span></a>
+  <a href="../setting-up-a-volume/start.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Setting Up a Volume</span></a>
   </div>
 </li>
       </ul>
@@ -366,6 +355,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Databrary API</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Templates and Resources</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -411,9 +406,9 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="the-databrary-access-agreement" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="the-databrary-access-agreement">The Databrary Access Agreement</h2>
-<p>Databrary restricts access to Authorized Investigators whose Institutions sign a formal <a href="../more-information/definitions.qmd#def-daa">Databrary Access Agreement</a>.</p>
-<p>The Databrary Access Agreement combines provisions for data use and data contribution. Unlike data use agreements that allow specific individuals access to a particular dataset for a discrete research purpose, the Databrary Access Agreement allows any Authorized Investigator to access all shared volumes on Databrary and use the volumes for many different Institutionally-approved purposes.</p>
-<p>In addition, the Databrary Access Agreement permits Authorized Investigators to upload data and to share it with other Authorized Investigators in accord with the sharing permissions granted by participants and any required Institutional approvals.</p>
+<p>Databrary restricts access to authorized researchers whose institutions sign a formal <a href="../more-information/definitions.qmd#def-daa">Databrary Access Agreement</a>.</p>
+<p>The Databrary Access Agreement combines provisions for data use and data contribution. Unlike data use agreements that allow specific individuals access to a particular dataset for a discrete research purpose, the Databrary Access Agreement allows any authorized researcher to access all shared volumes on Databrary and use the volumes for many different institutionally-approved purposes.</p>
+<p>In addition, the Databrary Access Agreement permits authorized researchers to upload data and to share it with other authorized researchers in accord with the sharing permissions granted by participants and any required institutional approvals.</p>
 <p>Databrary believes that combining data use and data contribution in a single agreement reduces barriers to data sharing, meets emerging funder mandates to share research data, and accelerates progress in research.</p>
 </section>
 <section id="the-use-of-video-extends-beyond-research" class="level2 unnumbered">
@@ -428,8 +423,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="when-to-involve-a-research-ethics-board-or-irb" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="when-to-involve-a-research-ethics-board-or-irb">When to Involve a Research Ethics Board or IRB</h2>
-<p>Databrary does not require prior research ethics board or IRB approval for an Authorized Investigator to be granted access to the system or to use Databrary’s shared resources for non-research, educational, or pre-research uses.</p>
-<p>However, in signing the Databrary Access Agreement, all Authorized Investigators agree to secure research ethics approval whenever their use of Databrary requires it under the Institution’s policies. Institutions determine which cases require research ethics board or IRB review and approval.</p>
+<p>Databrary does not require prior research ethics board or IRB approval for an authorized researcher to be granted access to the system or to use Databrary’s shared resources for non-research, educational, or pre-research uses.</p>
+<p>However, in signing the Databrary Access Agreement, all authorized researchers agree to secure research ethics approval whenever their use of Databrary requires it under the Institution’s policies. Institutions determine which cases require research ethics board or IRB review and approval.</p>
 </section>
 <section id="what-data-are-shared" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="what-data-are-shared">What Data are Shared</h2>
@@ -439,19 +434,19 @@ ul.task-list li input[type="checkbox"] {
 <li>Data and metadata that are not typically sensitive</li>
 <li>De-identified data</li>
 </ul>
-<p>Exact birth dates may be stored for use in calculating participant ages, but exact birth dates are only exposed to Authorized Investigators or Sponsored Researchers given specific access to the data.</p>
+<p>Exact birth dates may be stored for use in calculating participant ages, but exact birth dates are only exposed to authorized researchers or supervised researchers given specific access to the data.</p>
 <p>Names, addresses, email addresses, financial information, government ID numbers, detailed geographic location information, and other personally identifiable data elements are <strong>not</strong> stored and shared on Databrary.</p>
 </section>
 <section id="securing-permission-to-share-data" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="securing-permission-to-share-data">Securing Permission to Share Data</h2>
-<p>In order to contribute and share identifiable data with Databrary, Authorized Investigators must secure permission from research participants and any other people (e.g., research staff) who are recorded to store the recordings on Databrary.</p>
+<p>In order to contribute and share identifiable data with Databrary, authorized researchers must secure permission from research participants and any other people (e.g., research staff) who are recorded to store the recordings on Databrary.</p>
 <p>Databrary has developed a <a href="../ethics/data-collection-and-permissions.html">Sharing Release Template</a> that informs people depicted in recordings of the potential risks associated with sharing video and other data on Databrary.</p>
-<p>The Sharing Release Template is one of the resources that Databrary has made available to researchers. The template may be adapted for use at any Institution and added to any research ethics or IRB protocol. However, an Institution may require other release language in order to provide equivalent protections.</p>
-<p>Whether de-identified or pseudonymized data may be shared with Databrary without seeking explicit permission from research participants depends on the Authorized Investigator’s Institution. Some ethics boards or IRBs may allow de-identified or pseudonymized data to be shared without the explicit permission of the research participant.</p>
+<p>The Sharing Release Template is one of the resources that Databrary has made available to researchers. The template may be adapted for use at any institution and added to any research ethics or IRB protocol. However, an institution may require other release language in order to provide equivalent protections.</p>
+<p>Whether de-identified or pseudonymized data may be shared with Databrary without seeking explicit permission from research participants depends on the authorized researcher’s institution. Some ethics boards or IRBs may allow de-identified or pseudonymized data to be shared without the explicit permission of the research participant.</p>
 </section>
 <section id="uploading-data-and-assigning-sharing-permission-levels" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="uploading-data-and-assigning-sharing-permission-levels">Uploading Data and Assigning Sharing Permission Levels</h2>
-<p>Authorized Investigators who upload data to Databrary must assign the level of data sharing granted by research participants to each file uploaded.</p>
+<p>Authorized researchers who upload data to Databrary must assign the level of data sharing granted by research participants to each file uploaded.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -461,24 +456,24 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>The sharing level assigned to each file by default is <strong>Private</strong>, meaning that no person other than the Authorized Investigator who uploaded the file and any Sponsored Researchers granted access by the Authorized Investigator, may view the file.</p>
-<p>All newly created volumes are initially made <strong>Private</strong>, accessible only to an Authorized Investigator, any Sponsored Researchers the Authorized Investigator selects, and any other individual Authorized Investigators granted specific access to the volume</p>
-<p>An Authorized Investigator may decide to create an overview of a volume when it is created and make the overview publicly available. The overview can serve as the public face of the volume while the data is being collected and analyzed. This can be useful in documenting progress on a research grant to sponsors. The volume overview does not expose data until the Authorized Investigator chooses to share the volume publicly.</p>
+<p>The sharing level assigned to each file by default is <strong>Private</strong>, meaning that no person other than the authorized researcher who uploaded the file and any supervised researchers granted access by the authorized researcher, may view the file.</p>
+<p>All newly created volumes are initially made <strong>Private</strong>, accessible only to an authorized researcher, any supervised researchers the authorized researcher selects, and any other individual authorized researchers granted specific access to the volume.</p>
+<p>An authorized researcher may decide to create an overview of a volume when it is created and make the overview publicly available. The overview can serve as the public face of the volume while the data is being collected and analyzed. This can be useful in documenting progress on a research grant to sponsors. The volume overview does not expose data until the authorized researcher chooses to share the volume publicly.</p>
 </section>
 <section id="sharing-data-on-databrary" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="sharing-data-on-databrary">Sharing Data on Databrary</h2>
-<p>The Authorized Investigator decides when to share the volume with other Authorized Investigators on Databrary. Typically, Authorized Investigators share the volume when a paper goes to press or a grant period ends.</p>
-<p>This makes the data contained in the volume available to other Authorized Investigators and possibly the public, in accordance with the sharing levels selected by Authorized Investigators and to the permission granted by participants. For example, individual data files marked <strong>Private</strong> remain accessible only to people the Authorized Investigator specifically selects. Similarly, access to volumes labeled <strong>Private</strong> remains solely under the control of the Authorized Investigator.</p>
+<p>The authorized researcher decides when to share the volume with other authorized researchers on Databrary. Typically, authorized researchers share the volume when a paper goes to press or a grant period ends.</p>
+<p>This makes the data contained in the volume available to other authorized researchers and possibly the public, in accordance with the sharing levels selected by authorized researchers and to the permission granted by participants. For example, individual data files marked <strong>Private</strong> remain accessible only to people the authorized researcher specifically selects. Similarly, access to volumes labeled <strong>Private</strong> remains solely under the control of the authorized researcher.</p>
 </section>
 <section id="databrary-and-gdpr" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="databrary-and-gdpr">Databrary and GDPR</h2>
-<p>Authorized Investigators may collect personal data from research participants who have rights under the General Data Protection Regulation (GDPR). GDPR governs the collection of personal data in the European Economic Area (EEA).</p>
-<p>Databrary’s servers are currently located in the United States, and data stored on Databrary may be accessed, downloaded, and re-used by Authorized Investigators and their Sponsored Researchers located outside of the EEA. There are more than 800 Institutions across the globe that have signed the Databrary Access Agreement.</p>
-<p>Databrary maintains a list of Authorized Investigators who have access to shared research data <a href="https://nyu.databrary.org/search?volume=false&amp;f.party_authorization=4&amp;f.party_is_institution=false">here</a>.</p>
-<p>In seeking permission to collect data from research participants governed by GDPR or similar provisions, Authorized Investigators should communicate to research participants information about who may have access to shared data on Databrary and where the data are stored. Institutions and Authorized Investigators assume responsibility for ensuring that research participants give sharing data permission that satisfies the provisions of GDPR and for abiding by other provisions of GDPR.</p>
-<p>Databrary does not typically store information that links a participant’s identity to specific files unless there is a separate agreement between the Authorized Investigator, the Institution, and Databrary to store this type of data. <strong>Therefore, if a research participant requests a copy of data stored on Databrary or the modification or deletion of personal data that is stored on Databrary, the Authorized Investigator or Institution is responsible for responding to the request, not Databrary.</strong></p>
-<p>Databrary cannot guarantee that data previously shared with other Authorized Investigators via Databrary can be retrieved from all Authorized Investigators who accessed a participant’s personal data prior to its modification or removal. Thus, Authorized Investigators should communicate to research participants that there are limits to a participant’s right to modify or delete personal data that have already been shared on Databrary. The <a href="../ethics/data-collection-and-permissions.html">Sharing Release Template</a> contains language for this purpose.</p>
-<p>When accessing data shared by other Authorized Investigators, Institutions and their Authorized Investigators assume responsibility for ensuring that the sharing permission research participants have given in other contexts outside of the EEA meet relevant GDPR provisions.</p>
+<p>Authorized researchers may collect personal data from research participants who have rights under the General Data Protection Regulation (GDPR). GDPR governs the collection of personal data in the European Economic Area (EEA).</p>
+<p>Databrary’s servers are currently located in the United States, and data stored on Databrary may be accessed, downloaded, and re-used by authorized researchers and their supervised researchers located outside of the EEA. There are more than 800 Institutions across the globe that have signed the Databrary Access Agreement.</p>
+<p>Databrary maintains a list of authorized researchers who have access to shared research data <a href="https://nyu.databrary.org/search?volume=false&amp;f.party_authorization=4&amp;f.party_is_institution=false">here</a>.</p>
+<p>In seeking permission to collect data from research participants governed by GDPR or similar provisions, Authorized Investigators should communicate to research participants information about who may have access to shared data on Databrary and where the data are stored. Institutions and authorized researchers assume responsibility for ensuring that research participants give sharing data permission that satisfies the provisions of GDPR and for abiding by other provisions of GDPR.</p>
+<p>Databrary does not typically store information that links a participant’s identity to specific files unless there is a separate agreement between the authorized researcher, the institution, and Databrary to store this type of data. <strong>Therefore, if a research participant requests a copy of data stored on Databrary or the modification or deletion of personal data that is stored on Databrary, the authorized researcher or institution is responsible for responding to the request, not Databrary.</strong></p>
+<p>Databrary cannot guarantee that data previously shared with other authorized researchers via Databrary can be retrieved from all authorized researchers who accessed a participant’s personal data prior to its modification or removal. Thus, authorized researchers should communicate to research participants that there are limits to a participant’s right to modify or delete personal data that have already been shared on Databrary. The <a href="../ethics/data-collection-and-permissions.html">Sharing Release Template</a> contains language for this purpose.</p>
+<p>When accessing data shared by other authorized researchers, institutions and their authorized researchers assume responsibility for ensuring that the sharing permission research participants have given in other contexts outside of the EEA meet relevant GDPR provisions.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -910,8 +905,11 @@ Note
   </div>
 </nav>
 </div> <!-- /content -->
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/for-institutions/specifics.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><style>
+#refs { display: none !important; }
+</style>
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/for-institutions/specifics.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+</body></html>

@@ -1,14 +1,14 @@
 # Approving Sponsorship {.unnumbered}
 
-After you have registered as a Databrary Authorized Investigator, you can request and grant Sponsored Researcher access to your students, research staff, and post-doctoral researchers.
+After you have registered as a Databrary authorized researcher, you can request and grant supervised researcher access to your students, research staff, and post-doctoral researchers.
 
 ::: {.callout-note}
 
-If permitted by their institution, an Authorized Investigator may sponsor  a person outside of their institution and grant them Sponsored Researcher status. Institutions may establish policies governing the selection and management of Sponsored Researchers by their Authorized Investigators.
+If permitted by their institution, an authorized researcher may sponsor  a person outside of their institution and grant them supervised researcher status. Institutions may establish policies governing the selection and management of supervised researchers by their authorized researchers.
 
-If this individual needs access to your volumes, once they have Authorized Investigator status, they can be added as a **collaborator**. *Redirect to section about managing collaborator on volume*
+If this individual needs access to your volumes, once they have authorized researcher status, they can be added as a **collaborator**. 
 
-If you are eligible to be an Authorized Investigator at your home institution, you must apply for access to Databrary through your home institution. Except in unusual circumstances, researchers eligible to be Authorized Investigators at your home institution should not be granted access to Databrary as the Sponsored Researcher of another Authorized Investigator either from the same institution or a different one. Databrary welcomes questions about these policies. Please email [contact@databrary.org](contact@databrary.org).
+If you are eligible to be an authorized researcher at your home institution, you must apply for access to Databrary through your home institution. Except in unusual circumstances, researchers eligible to be authorized researchers at your home institution should not be granted access to Databrary as the supervised researcher of another authorized researcher either from the same institution or a different one. Databrary welcomes questions about these policies. Please email [contact@databrary.org](contact@databrary.org).
 
 :::
 
@@ -23,7 +23,7 @@ knitr::include_graphics("img/navigate-profile.png")
 ```{r echo=FALSE}
 knitr::include_graphics("img/edit-profile.png")
 ```
-4. There are two ways you can grant sponsorship. Navigate to the 'Sponsored Researchers' page to authorize a new affiliate or review your sponsored researcher requests.
+4. There are two ways you can grant sponsorship. Navigate to the 'Sponsored Researchers' page to authorize a new affiliate or review your supervised (sponsored) researcher requests.
 ```{r echo=FALSE}
 knitr::include_graphics("img/affiliates-copy.png")
 ```
@@ -44,7 +44,7 @@ knitr::include_graphics("img/add-affiliate.png")
 ```  
 
 :::
-5. Review the type of access you are granting to your Supervised Researcher and set the expiration date of their sponsorship.
+5. Review the type of access you are granting to your supervised researcher and set the expiration date of their sponsorship.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/affiliate-access.png")
@@ -52,28 +52,26 @@ knitr::include_graphics("img/affiliate-access.png")
    
 **Access to other researcher's data shared on Databrary:**
 
-- Granting **no access** restricts your Supervised Researcher from accessing non-public data on Databrary. Non-public data includes data that has release levels set to private, authorized users, and learning audiences.
-- Granting **full access** allows your Supervised Researcher to access other researcher's non-public data on Databrary. They will be able to view data that has release levels set to authorized users, learning audiences, and public.
+- Granting **no access** restricts your supervised researcher from accessing non-public data on Databrary. Non-public data includes data that has release levels set to private, authorized users, and learning audiences.
+- Granting **full access** allows your supervised researcher to access other researcher's non-public data on Databrary. They will be able to view data that has release levels set to authorized users, learning audiences, and public.
      
 **Access to all of my own data (including private volumes):**
    
-- Granting **no access** restricts your Supervised Researcher from accessing your unshared volumes. They can only access your data once you have shared it on Databrary.  
-- Granting **view only access** allows your Supervised Researcher to view and download your shared and unshared data.
-- Granting **edit access** allows your Supervised Researcher to view, download, **and** edit your shared and unshared data.
-- Granting **manager access** allows your Supervised Researcher to view, download, and edit your shared and unshared data. They can also create new volumes and manage collaborator access to your volumes on your behalf.
+- Granting **no access** restricts your supervised researcher from accessing your unshared volumes. They can only access your data once you have shared it on Databrary.  
+- Granting **view only access** allows your supervised researcher to view and download your shared and unshared data.
+- Granting **edit access** allows your supervised researcher to view, download, **and** edit your shared and unshared data.
+- Granting **manager access** allows your supervised researcher to view, download, and edit your shared and unshared data. They can also create new volumes and manage collaborator access to your volumes on your behalf.
      
 ::: {.callout-note}
-Your Supervised Researcher **cannot** share your volume with any access level. Only you as the volume owner can share your volume.
+Your supervised researcher **cannot** share your volume with any access level. Only you as the volume owner can share your volume.
 :::     
      
 **Expiration Date:**
 
-- The expiration date for your Supervised Researcher can be set to a maximum of one year.      
+- The expiration date for your supervised researcher can be set to a maximum of one year.      
      
 ::: {.callout-important}
-Sponsored Researchers will not have access to non-public data on Databrary until *after* the Authorized Investigator has submitted all paperwork to Databrary and has granted the Sponsored Researcher appropriate access.
+Supervised researchers will not have access to non-public data on Databrary until *after* the authorized researcher has submitted all paperwork to Databrary and has granted the supervised researcher appropriate access.
 :::
-
-
 
 

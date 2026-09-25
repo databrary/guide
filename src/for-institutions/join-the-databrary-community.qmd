@@ -30,7 +30,7 @@ Please follow the next steps:
 
 ### How to Find Your Authorized Organizational Representative {.unnumbered}
 
-An Authorized Organizational Representative (AOR) is a person granted authority by their Institution to sign the Databrary Access Agreement on behalf of the Institution and thereby bind the Institution to the terms of the Databary Access Agreement.
+An Authorized Organizational Representative (AOR) is a person granted authority by their institution to sign the Databrary Access Agreement on behalf of the institution and thereby bind the institution to the terms of the Databary Access Agreement.
 
 Here are examples of institutional offices that an AOR typically resides in:
 

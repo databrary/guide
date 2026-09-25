@@ -1,8 +1,8 @@
 # Removing Supervised Researchers {.unnumbered}
 
-If your Supervised Researcher is no longer working under your research supervision or at your institution, you should remove their sponsorship status. 
+If your supervised researcher is no longer working under your research supervision or at your institution, you should remove their sponsorship status. 
 
-If they still need access to your collaborative data on Databrary, they must apply for sponsorship through their new Research Supervisor. Once their sponsorship is approved, you can add them as a collaborator on your volumes. 
+If they still need access to your collaborative data on Databrary, they must apply for sponsorship through their new research supervisor. Once their sponsorship is approved, you can add them as a collaborator on your volumes. 
 
 ### How to Remove Your Supervised Researcher
 
@@ -12,7 +12,7 @@ If they still need access to your collaborative data on Databrary, they must app
 knitr::include_graphics("img/removing.png")
 ```
 
-2. Review and confirm the information in the pop-up modal to remove your Supervised Researcher.
+2. Review and confirm the information in the pop-up modal to remove your supervised researcher.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/modal.png")

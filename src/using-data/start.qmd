@@ -4,7 +4,7 @@ The materials and data on Databrary are intended to accelerate discovery. The Da
 
 The data on Databrary can be used for [research purposes](#research-purposes) and [non-research purposes](#non-research-purposes). 
 
-Databrary is structured upon a restricted access and open sharing framework. Open sharing on Databrary allows researchers to reuse data without contacting the volume owner. However, access to Databrary is restricted by the completion of a formal agreement between a researcher’s university and Databrary. The formal agreement states that the researcher is affiliated with their university and that the university will be responsible for the researcher’s relationship with Databrary.
+Databrary is structured on a framework of open sharing with restricted access. Open sharing on Databrary allows researchers to reuse data without contacting the original data contributor. However, access to Databrary is restricted to authorized investigators who have completed the formal agreement between the researcher's institution and New York University, the host institution for Databrary. The formal agreement states that the researcher is affiliated with their institution and that the institution will be responsible for the researcher's relationship with Databrary.
 
 ::: {.callout-note}
 Most of the data shared on Databrary are consistent with broad consent, meaning that participants or parents have given permission for unspecified future uses of the data. Even if you are not consenting human participants for research, your activities still constitute human-subjects research and thus require oversight from the ethics board or IRB at your institution.
@@ -65,6 +65,6 @@ Citations take the format of:
 Once your volume is shared, a Digital Object Identifier(DOI) will be automatically minted for your volume. If you need a reference and you are citing the source of your data, it is best to use the citation. If you would like to direct people to your data, it is best to use the DOI.
 
 ## Ethics of Reusing Data
-Authorized Investigators must secure Institutional approvals prior to conducting research with data shared on Databrary. 
+Authorized researchers must secure institutional approvals prior to conducting research with data shared on Databrary. 
 
 For more information about secondary reuse, see the [Data Reuse page](../ethics/data-reuse/secondary-reuse.qmd).

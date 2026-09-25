@@ -2,23 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Contributing Data – Databrary Guide</title>
+<title>Setting Up a Volume – Databrary Guide</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../managing-my-sponsored-researchers/removing-sponsors.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f4865b58d8f661e945ae1fa6086588a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ca7bfe637e992632417002da0d1e1fd6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -89,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../contributing-data/start.html">Contributing Data</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../contributing-data/start.html">Setting Up a Volume</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -155,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../ethics/ethics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Ethics</span></a>
+ <span class="menu-text">Ethical Framework</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -164,19 +159,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../ethics/data-collection-and-permissions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Obtaining Permissions</span></a>
+ <span class="menu-text">Ethics for Data Contribution</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../ethics/data-reuse.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Reuse</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../ethics/grant-funding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Grant Funding</span></a>
+ <span class="menu-text">Ethics for Data Reuse</span></a>
   </div>
 </li>
       </ul>
@@ -294,7 +283,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../contributing-data/start.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Contributing Data</span></a>
+ <span class="menu-text">Setting Up a Volume</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -303,7 +292,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contributing-data/start.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Contributing Data</span></a>
+ <span class="menu-text">Setting Up a Volume</span></a>
   </div>
 </li>
       </ul>
@@ -366,6 +355,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Databrary API</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Templates and Resources</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -376,22 +371,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#setting-up-volume" id="toc-setting-up-volume" class="nav-link active" data-scroll-target="#setting-up-volume">Setting up Volume</a>
-  <ul>
-  <li><a href="#step-1-create-a-volume" id="toc-step-1-create-a-volume" class="nav-link" data-scroll-target="#step-1-create-a-volume">Step 1: Create a Volume</a></li>
+  <li><a href="#step-1-create-a-volume" id="toc-step-1-create-a-volume" class="nav-link active" data-scroll-target="#step-1-create-a-volume">Step 1: Create a Volume</a></li>
   <li><a href="#step-2-volume-overview" id="toc-step-2-volume-overview" class="nav-link" data-scroll-target="#step-2-volume-overview">Step 2: Volume Overview</a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#title" id="toc-title" class="nav-link" data-scroll-target="#title"><strong>Title</strong></a></li>
   <li><a href="#description-of-dataset" id="toc-description-of-dataset" class="nav-link" data-scroll-target="#description-of-dataset"><strong>Description of Dataset</strong></a></li>
   <li><a href="#internal-short-name" id="toc-internal-short-name" class="nav-link" data-scroll-target="#internal-short-name"><strong>Internal Short Name</strong></a></li>
   <li><a href="#keywords" id="toc-keywords" class="nav-link" data-scroll-target="#keywords"><strong>Keywords</strong></a></li>
   </ul></li>
   <li><a href="#step-3-manage-access" id="toc-step-3-manage-access" class="nav-link" data-scroll-target="#step-3-manage-access">Step 3: Manage Access</a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#sharing-level" id="toc-sharing-level" class="nav-link" data-scroll-target="#sharing-level"><strong>Sharing Level</strong></a></li>
   <li><a href="#owner" id="toc-owner" class="nav-link" data-scroll-target="#owner"><strong>Owner</strong></a></li>
   <li><a href="#coauthors" id="toc-coauthors" class="nav-link" data-scroll-target="#coauthors"><strong>Coauthors</strong></a></li>
-  <li><a href="#collaborators" id="toc-collaborators" class="nav-link" data-scroll-target="#collaborators"><strong>Collaborators</strong></a></li>
+  <li><a href="#collaborators" id="toc-collaborators" class="nav-link" data-scroll-target="#collaborators"><strong>Collaborators</strong></a>
+  <ul class="collapse">
+  <li><a href="#collaborator-access-levels" id="toc-collaborator-access-levels" class="nav-link" data-scroll-target="#collaborator-access-levels"><strong>Collaborator Access Levels</strong></a></li>
   </ul></li>
   <li><a href="#step-4-design-spreadsheet" id="toc-step-4-design-spreadsheet" class="nav-link" data-scroll-target="#step-4-design-spreadsheet">Step 4: Design Spreadsheet</a></li>
   </ul></li>
@@ -412,7 +407,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Contributing Data</h1>
+<h1 class="title">Setting Up a Volume</h1>
 </div>
 
 
@@ -430,10 +425,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>To contribute data to Databrary, you can create a new volume that will hold the collection of data or materials associated with your research project.</p>
-<section id="setting-up-volume" class="level2">
-<h2 class="anchored" data-anchor-id="setting-up-volume">Setting up Volume</h2>
-<section id="step-1-create-a-volume" class="level3">
-<h3 class="anchored" data-anchor-id="step-1-create-a-volume">Step 1: Create a Volume</h3>
+<section id="step-1-create-a-volume" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-create-a-volume">Step 1: Create a Volume</h2>
 <p>Click on ‘Create Volume’ in the right side of your top navigation bar.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -445,7 +438,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Only Authorized Investigators with an active Databrary Access Agreement can create a volume.</p>
+<p>Only authorized researchers with an active Databrary Access Agreement can create a volume.</p>
 </div>
 </div>
 <div class="cell">
@@ -458,9 +451,9 @@ Note
 </div>
 </div>
 </section>
-<section id="step-2-volume-overview" class="level3">
-<h3 class="anchored" data-anchor-id="step-2-volume-overview">Step 2: Volume Overview</h3>
-<p>The Volume Overview contains information about the Title, Description, Internal Short Name and key words.</p>
+<section id="step-2-volume-overview" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-volume-overview">Step 2: Volume Overview</h2>
+<p>The volume overview contains information about the title, description, internal short name and key words.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -471,12 +464,12 @@ Note
 </div>
 </div>
 <p>Please describe the context of data collection and the types of data that will be uploaded (e.g.&nbsp;video, pictures, coding files, survey data, etc.).</p>
-<section id="title" class="level4">
-<h4 class="anchored" data-anchor-id="title"><strong>Title</strong></h4>
+<section id="title" class="level3">
+<h3 class="anchored" data-anchor-id="title"><strong>Title</strong></h3>
 <p>The title could be the title of the publication or a good description of the tasks and/or data involved. For better reuse and discoverability, the title should be informative to external researchers.</p>
 </section>
-<section id="description-of-dataset" class="level4">
-<h4 class="anchored" data-anchor-id="description-of-dataset"><strong>Description of Dataset</strong></h4>
+<section id="description-of-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="description-of-dataset"><strong>Description of Dataset</strong></h3>
 <p>Below is an example format for the description of the dataset:</p>
 <blockquote class="blockquote">
 <p>This dataset focuses on [Provide a description of behavior, location of study, and participant age range]. Dataset includes [Enter description of tasks, videos, questionnaires, materials, etc.].</p>
@@ -502,18 +495,18 @@ Note
 <p>You may not have a complete description of your dataset when you first create your volume. It is best practice to fill out as much information as you have and to add more information as your dataset becomes more complete.</p>
 <p>The description can also include the abstract of the paper or any associated products.</p>
 </section>
-<section id="internal-short-name" class="level4">
-<h4 class="anchored" data-anchor-id="internal-short-name"><strong>Internal Short Name</strong></h4>
-<p>The only people who can see the internal short name are you and your Supervised Researchers. You can use whatever lab convention makes the most sense to you.</p>
+<section id="internal-short-name" class="level3">
+<h3 class="anchored" data-anchor-id="internal-short-name"><strong>Internal Short Name</strong></h3>
+<p>The only people who can see the internal short name are you and your supervised researchers. You can use whatever lab convention makes the most sense to you.</p>
 </section>
-<section id="keywords" class="level4">
-<h4 class="anchored" data-anchor-id="keywords"><strong>Keywords</strong></h4>
-<p>Only Volume Owners, Co-Authors, and Authorized Investigators can enter keywords. It is best practice to use keywords that would have been used in the associated journal article.</p>
+<section id="keywords" class="level3">
+<h3 class="anchored" data-anchor-id="keywords"><strong>Keywords</strong></h3>
+<p>Only volume wwners, co-authors, and authorized researchers can enter keywords. It is best practice to use keywords that would have been used in the associated journal article.</p>
 </section>
 </section>
-<section id="step-3-manage-access" class="level3">
-<h3 class="anchored" data-anchor-id="step-3-manage-access">Step 3: Manage Access</h3>
-<p>Here, you can choose volume sharing options (ie., shared, overview only, or private) and add collaborators (faculty, staff, students) that already have an account on Databrary that is sponsored by an Institution or an Authorized Investigator.</p>
+<section id="step-3-manage-access" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-manage-access">Step 3: Manage Access</h2>
+<p>Here, you can choose volume sharing options (ie., shared, overview only, or private) and add collaborators (faculty, staff, students) that already have an account on Databrary that is sponsored by an institution or an authorized investigator.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -523,9 +516,9 @@ Note
 </div>
 </div>
 </div>
-<section id="sharing-level" class="level4">
-<h4 class="anchored" data-anchor-id="sharing-level"><strong>Sharing Level</strong></h4>
-<p><strong>Private</strong>: The volume is private to you and your chosen Supervised Researchers and volume collaborators.</p>
+<section id="sharing-level" class="level3">
+<h3 class="anchored" data-anchor-id="sharing-level"><strong>Sharing Level</strong></h3>
+<p><strong>Private</strong>: The volume is private to you and your chosen supervised researchers and volume collaborators.</p>
 <p><strong>Volume Overview Only</strong>: The volume’s title and description is visible to authorized Databrary users.</p>
 <p><strong>Shared</strong>: The volume and its contents are visible, accessible and downloadable to authorized Databrary users.</p>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -555,9 +548,9 @@ Note
 </div>
 </div>
 </section>
-<section id="owner" class="level4">
-<h4 class="anchored" data-anchor-id="owner"><strong>Owner</strong></h4>
-<p>Databrary requires that volumes have a <strong>single owner</strong>. Volume owners can transfer ownership of their volume to another Authorized Investigator or to a registered institution or to Databrary.</p>
+<section id="owner" class="level3">
+<h3 class="anchored" data-anchor-id="owner"><strong>Owner</strong></h3>
+<p>Databrary requires that volumes have a <strong>single owner</strong>. Volume owners can transfer ownership of their volume to another authorized researcher or to a registered institution or to Databrary.</p>
 <p>Transferring ownership typically happens when the data ownership should be under a co-PI or when an Authorized Investigator moves to a new institution.</p>
 <p>When you move to a new institution, you’ll need to work with the relevant parties at your institution and your new institution to determine if and how data you collected there may be transferred to your new institution or be retained by your old institution. This determination is independent of Databrary. You will likely also want to locate where local records of the data are stored.</p>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -575,8 +568,8 @@ Important
 </div>
 <p>Different institutions make different determinations about data transfer, which can depend on the institutions involved, type of data, project status, and source of funding. We have seen cases where data collected and contributed to Databrary become owned by the original institution (i.e., the old institution becomes the volume owner on Databrary) or they are transferred to another institution and you remain the volume owner (with your new institution sponsoring your Databrary access).</p>
 </section>
-<section id="coauthors" class="level4">
-<h4 class="anchored" data-anchor-id="coauthors"><strong>Coauthors</strong></h4>
+<section id="coauthors" class="level3">
+<h3 class="anchored" data-anchor-id="coauthors"><strong>Coauthors</strong></h3>
 <p>Coauthors are people who should get scholarly credit for your volume. Including someone as a coauthor means their name will show up in the volume citation and the DOI once it gets minted.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -592,11 +585,11 @@ Note
 </div>
 </div>
 </section>
-<section id="collaborators" class="level4">
-<h4 class="anchored" data-anchor-id="collaborators"><strong>Collaborators</strong></h4>
-<p>Collaborators are your Supervised Researchers, co-PIs, or external collaborators that have access to your volume and can view, edit, and/or manage your dataset.</p>
-<section id="collaborator-access-levels" class="level5">
-<h5 class="anchored" data-anchor-id="collaborator-access-levels"><strong>Collaborator Access Levels</strong></h5>
+<section id="collaborators" class="level3">
+<h3 class="anchored" data-anchor-id="collaborators"><strong>Collaborators</strong></h3>
+<p>Collaborators are your supervised researchers, co-PIs, or external collaborators that have access to your volume and can view, edit, and/or manage your dataset.</p>
+<section id="collaborator-access-levels" class="level4">
+<h4 class="anchored" data-anchor-id="collaborator-access-levels"><strong>Collaborator Access Levels</strong></h4>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -609,9 +602,8 @@ Note
 <ul>
 <li><strong>Read Only</strong>: Collaborator can view and download the datasets in the volume but they will not be able to edit anything.</li>
 <li><strong>Read/Write</strong>: Collaborator can view, download, and edit the datasets in the volume.</li>
-<li><strong>Manager</strong>: Collaborator can view, download, and edit the datasets in the volume. They can also create new volumes with the supervising Authorized Investigator as the owner. In addition, managers can manage all collaborators on the volume and add or remove collaborators.</li>
+<li><strong>Manager</strong>: Collaborator can view, download, and edit the datasets in the volume. They can also create new volumes with the supervising authorized researcher as the owner. In addition, managers can manage all collaborators on the volume and add or remove collaborators.</li>
 </ul>
-</section>
 </section>
 </section>
 <section id="step-4-design-spreadsheet" class="level3">
@@ -670,7 +662,7 @@ Note
 </section>
 <section id="creating-a-session-or-folder" class="level4">
 <h4 class="anchored" data-anchor-id="creating-a-session-or-folder"><strong>Creating a Session or Folder</strong></h4>
-<p>Sessions and folders need to be added individually. Once the Participant ID is entered, the metadata related to the Participant ID will be filled in. Then, the rest of the session information will need to be added individually.</p>
+<p>Sessions and folders need to be added individually. Once the participant ID is entered, the metadata related to the participant ID will be filled in. Then, the rest of the session information will need to be added individually.</p>
 </section>
 <section id="adding-files-to-a-session-or-folder" class="level4">
 <h4 class="anchored" data-anchor-id="adding-files-to-a-session-or-folder"><strong>Adding Files to a Session or Folder</strong></h4>
@@ -1215,8 +1207,11 @@ Note
   </div>
 </nav>
 </div> <!-- /content -->
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/contributing-data/start.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><style>
+#refs { display: none !important; }
+</style>
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/contributing-data/start.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+</body></html>

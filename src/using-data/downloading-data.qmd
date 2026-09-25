@@ -22,7 +22,7 @@ knitr::include_graphics("img/zerogb.png")
 
 Registration does not automatically grant you access to Databrary resources. Registration, creating an account, and Authorization, requesting authorization and completing the Databrary access agreement by you and your institution are two separate processes. 
 
-Anything tagged as Authorized Users or Learning Audiences is shared with other Authorized Databrary users. Private data can only be seen by the volume creator and their chosen research team.
+Anything tagged as Authorized Users or Learning Audiences is shared with other authorized Databrary users. Private data can only be seen by the volume owner and their chosen research team.
 :::
 
 ## Download a Single File

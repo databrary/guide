@@ -26,7 +26,6 @@ book:
   title: "Databrary Guide"
   cover-image: include/img/databrary-nav-sm.jpg
   subtitle: "Share data & materials: Discover more, faster."
-  author: ["Rick Gilmore", "Andrea Seisler", "Kasey Soska", "Melody Xu", "Yinghe Liu", "Stephanie Win", "Anika Mahadevan"]
   date: last-modified
   sidebar:
     search: true
@@ -45,7 +44,6 @@ book:
       chapters: 
         - ethics/data-collection-and-permissions.qmd
         - ethics/data-reuse.qmd
-        - ethics/grant-funding.qmd
     - part: for-institutions/for-institutions.qmd
       chapters:
         - for-institutions/specifics.qmd
@@ -72,9 +70,9 @@ book:
    #     - project-guidelines/ongoing-project.qmd
    #     - project-guidelines/completed-project.qmd
    #     - project-guidelines/best-practices.qmd
-    - part: contributing-data/start.qmd
+    - part: setting-up-a-volume/start.qmd
       chapters:
-        - contributing-data/start.qmd
+        - setting-up-a-volume/start.qmd
     - part: using-data/start.qmd
       chapters: 
         - using-data/finding-data.qmd
@@ -100,6 +98,7 @@ book:
     #    - how-to-use-datasets/curate-data.qmd
     - faq.qmd
     - api.qmd
+    - resources.qmd
 
        
     # - quick-start-2.0.qmd
@@ -163,6 +162,11 @@ format:
     css: include/css/style.css
     csl: include/bib/apa.csl
     citations-hover: true
+    include-after-body:
+      text: |
+        <style>
+        #refs { display: none !important; }
+        </style>
     footnotes-hover: true
     toc: true
     toc-depth: 4

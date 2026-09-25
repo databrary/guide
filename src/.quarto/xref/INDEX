@@ -485,5 +485,11 @@
   },
   "technology-and-security/specifications.qmd": {
     "specifications.html": "3dcd0382"
+  },
+  "resources.qmd": {
+    "resources.html": "414066d9"
+  },
+  "setting-up-a-volume/start.qmd": {
+    "start.html": "6e5689ba"
   }
 }

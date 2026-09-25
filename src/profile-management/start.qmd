@@ -1,12 +1,12 @@
 # Profile Management {.unnumbered}
 
-Through your Databrary profile, you can view and manage your volumes, sponsors, sponsored researchers, and account settings.
+Through your Databrary profile, you can view and manage your volumes, sponsors, supervised researchers, and account settings.
 
 ## Profile Dashboard {-}
 
 ### Volumes {-}
 
-Your dashboard displays all of your volumes and/or volumes that you have access to as a collaborator or sponsored researcher. 
+Your dashboard displays all of your volumes and/or volumes that you have access to as a collaborator or supervised researcher. 
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/volume_dashboard.png")
@@ -18,18 +18,18 @@ Through your dashboard, you can create a new volume and search for a specific vo
 knitr::include_graphics("img/volume_dashboard_actions.png")
 ```
 
-### Sponsors and Sponsored Researchers {-}
+### Sponsors and Supervised Researchers {-}
 
-Your dashboard also displays your sponsors and your sponsored researchers, if applicable. 
+Your dashboard also displays your sponsors and your supervised researchers, if applicable. 
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/sponsors_sponsored_researchers.png")
 ```
 
-Selecting a sponsor or sponsored researcher from your list will highlight all the volumes in your volume list that the selected person has access to.
+Selecting a sponsor or supervised researcher from your list will highlight all the volumes in your volume list that the selected person has access to.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/highlight_volume.png")
 ```
 
-For more information about how to manage your sponsored researchers, see [this section](/managing-my-sponsored-researchers.qmd).  
+For more information about how to manage your supervised researchers, see [this section](/managing-my-sponsored-researchers.qmd).  

@@ -2,23 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Ethics – Databrary Guide</title>
+<title>Ethical Framework – Databrary Guide</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../glossary.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f4865b58d8f661e945ae1fa6086588a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ca7bfe637e992632417002da0d1e1fd6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -89,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../ethics/ethics.html">Data Ethics</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../ethics/ethics.html">Ethical Framework</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -155,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../ethics/ethics.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Data Ethics</span></a>
+ <span class="menu-text">Ethical Framework</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -164,19 +159,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../ethics/data-collection-and-permissions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Obtaining Permissions</span></a>
+ <span class="menu-text">Ethics for Data Contribution</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../ethics/data-reuse.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Reuse</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../ethics/grant-funding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Grant Funding</span></a>
+ <span class="menu-text">Ethics for Data Reuse</span></a>
   </div>
 </li>
       </ul>
@@ -265,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../managing-my-sponsored-researchers/start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Managing Sponsored Researchers</span></a>
+ <span class="menu-text">Managing Supervised Researchers</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -293,8 +282,8 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../contributing-data/start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Contributing Data</span></a>
+            <a href="../setting-up-a-volume/start.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Setting Up a Volume</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -302,8 +291,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../contributing-data/start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Contributing Data</span></a>
+  <a href="../setting-up-a-volume/start.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Setting Up a Volume</span></a>
   </div>
 </li>
       </ul>
@@ -366,6 +355,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Databrary API</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Templates and Resources</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -385,7 +380,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Ethics</h1>
+<h1 class="title">Ethical Framework</h1>
 </div>
 
 
@@ -402,19 +397,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Many of the most interesting unsolved scientific questions concern people or the behavior of non-human animals. And many questions about human or animal behavior are informed and enriched through video and audio recordings that are difficult, if not impossible, to de-identify effectively without diminishing their value for future research.</p>
-<p>As a restricted access data repository specialized for storing and sharing sensitive and identifiable research data, especially video, Databrary has developed an interlocking web of ethical principles and policies. These principles and polices aim to advance the widespread sharing of unaltered research recordings while respecting the privacy of research participants.</p>
+<p>Many of the most interesting unsolved scientific questions concern behavior of people or non-human animals. Many questions about human and animal behavior are informed and enriched through video and audio recordings that are difficult to de-identify without diminishing their value for future research.</p>
+<p>As a restricted access data repository specialized for storing and sharing sensitive and identifiable video research data, Databrary developed an ethical policy framework. The framework allows widespread sharing of unaltered research video while respecting the privacy of human participants.</p>
 <section id="principles" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="principles">Principles</h2>
-<p>Databrary strives to uphold the highest research ethics while maximizing open and secure access to research data. We achieve this through multiple means:</p>
 <ul>
-<li>Requiring that researchers fulfill all institutional requirements, including ethics board or Institutional Review Board (IRB) review if needed, in order to use Databrary materials.</li>
-<li>Providing researchers with <a href="https://databrary.org/support/irb/irb-application.html">template language</a> that may be used to apply for and secure ethics board approval.</li>
-<li>Requiring researchers to ask research participants for their permission to share data and providing <a href="https://databrary.org/support/irb/release-template.html">template language</a> to guide the process. We also provide a <a href="https://databrary.org/support/irb/staff-release.html">template</a> for securing sharing permission from research staff that are recorded.</li>
-<li>Providing a sample participant data sharing release <a href="https://databrary.org/support/irb/script.html">script</a> and example <a href="https://databrary.org/support/irb/examples.html">videos</a> of the data sharing release process.</li>
-<li><a href="https://databrary.org/support/irb/email.html">Sample Email</a> requesting data sharing release when it is not possible to obtain permission at the time of the visit.</li>
-<li>Developing consistent <a href="https://databrary.org/support/irb/release-levels.html">terminology and visual icons</a> for documenting sharing release levels.</li>
-<li>Providing <a href="https://databrary.org/support/irb/grandfathering-data.html">guidance</a> about when and how data collected previously might be stored and shared on Databrary.</li>
+<li>The authorized researcher’s institution must be a not-for-profit academic, research, health, or government entity.</li>
+<li>The authorized researcher’s institution must have a research ethics board (Institutional Review Board, IRB) to use Databrary materials or contribute data to Databrary.</li>
+<li>Authorized researchers must have Principal Investigator status at their institution.</li>
+<li>Authorized researchers must take care in authorizing other people (supervised researchers and collaborators) and take responsibility for their conduct and use of Databrary data.</li>
+<li>All researchers must ask human participants for their permission to share data and respect participants’ wishes about sharing their data.</li>
+<li>All researchers must treat Databrary data with the same high standard of care that they treat data collected in their own laboratory.</li>
 </ul>
 
 
@@ -828,14 +821,17 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../ethics/data-collection-and-permissions.html" class="pagination-link" aria-label="Obtaining Permissions">
-        <span class="nav-page-text">Obtaining Permissions</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../ethics/data-collection-and-permissions.html" class="pagination-link" aria-label="Ethics for Data Contribution">
+        <span class="nav-page-text">Ethics for Data Contribution</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/ethics/ethics.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><style>
+#refs { display: none !important; }
+</style>
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/ethics/ethics.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+</body></html>

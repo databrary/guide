@@ -6,27 +6,6 @@ bibliography: "include/bib/references.bib"
 
 This document describes the [Databrary.org](https://databrary.org) data library and how to use it effectively as a tool for safely and securely sharing identifiable research data including video and audio.
 
-Databrary is used by a large and growing community of researchers across the globe, including some large scale research projects [@Soska2021-mh] run by Databrary's co-founders, Karen Adolph and Rick Gilmore, and their collaborators.
+Databrary is used by a large and growing community of researchers across the globe. The widespread use and sharing of video can improve reproducibility and rigor of many different areas of research [@Adolph_KE_Gilmore_RO_Kennedy_JL2017-va; @Gilmore2017-wd].
 
-Databrary's founders believe that the widespread use and sharing of video can improve reproducibility and rigor of many different areas of research [@Adolph_KE_Gilmore_RO_Kennedy_JL2017-va; @Gilmore2017-wd].
-
-## About the authors {-}
-
-[Rick Gilmore](https://rick-gilmore.com) is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.
-
-Andrea Seisler manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.
-
-Kasey Soska is Science Director for the [Play & Learning Across a Year](https://play-project.org) project.
-
-Stephanie Win is a Project Coordinator and UX Specialist on the Databrary team. 
-
-Anika Mahadevan is an undergraduate student in Psychology and Biology at Penn State and will graduate in May 2027.
-
-Melody Xu was a User Support Specialist at Databrary until she began a Ph.D. program at Johns Hopkins University in August 2023.
-
-Yinghe Liu was an undergraduate student in Psychology at Penn State.
-
-
-
-## References {-}
-
+Databrary's mission is to support data sharing and reuse among researchers in the behavioral, social, educational, developmental, neural, and computer sciences. The platform is dedicated to advancing transparency, reproducibility, and collaboration across the research community. Databrary serves as a community of scientists and a resource for those who use video or audio in their research or teaching.

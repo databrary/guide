@@ -2,11 +2,11 @@
 
 ## Eligibility {-}
 
-Databrary policies, your home institution, and the professor who supervises your research determine whether you are eligible to be granted access to Databrary as a **Sponsored Researcher**. To be eligible as a Databrary Sponsored Researcher, you must meet these factors:
+Databrary policies, your home institution, and the professor who supervises your research determine whether you are eligible to be granted access to Databrary as a supervised researcher. To be eligible as a Databrary supervised researcher, you must meet these factors:
 
-- I conduct research under the supervision of an Authorized Investigator's sponsorship or someone who is eligible to become an Authorized Investigator; 
-- I am a student, research staff, or post-doctoral researcher.
-- I have current training that addresses research ethics with human subjects (e.g.[CITI training](https://about.citiprogram.org/)).
+- Conduct research under the supervision of an authorized researcher's sponsorship or someone who is eligible to become an authorized reseracher; 
+- Are a student, research staff, or post-doctoral researcher.
+- Have current training that addresses research ethics with human subjects (e.g.[CITI training](https://about.citiprogram.org/)).
 
 ## Seeking Authorization {-}
 
@@ -22,9 +22,9 @@ knitr::include_graphics("img/register.png")
 
 ### 2. Request Authorization From Your Research Supervisor
 
-If your research supervisor is already a Databrary Authorized Investigator, that person will receive a request to add you to their list of sponsored researchers.
+If your research supervisor is already a Databrary authorized researcher, that person will receive a request to add you to their list of sponsored researchers.
 
-If your research supervisor is **not** a Databrary Authorized Investigator, they will need to register for Databrary, request authorization from their institution, and complete authorization. Your research supervisor can find more information about how to register as a Databrary Authorized Investigator, [here](../getting-authorized/authorized-researchers.qmd).
+If your research supervisor is **not** a Databrary authorized researcher, they will need to register for Databrary, request authorization from their institution, and complete authorization. Your research supervisor can find more information about how to register as a Databrary authorized researcher, [here](../getting-authorized/authorized-researchers.qmd).
 
 The authorization and approval process is **not** immediate. This process requires coordination across university administration and may take weeks to months.
 

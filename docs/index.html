@@ -2,31 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Rick Gilmore">
-<meta name="author" content="Andrea Seisler">
-<meta name="author" content="Kasey Soska">
-<meta name="author" content="Melody Xu">
-<meta name="author" content="Yinghe Liu">
-<meta name="author" content="Stephanie Win">
-<meta name="author" content="Anika Mahadevan">
-<meta name="dcterms.date" content="2026-09-22">
+<meta name="dcterms.date" content="2026-09-25">
 
 <title>Databrary Guide</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -67,14 +54,15 @@ div.csl-indent {
 <link href="./about/about.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f4865b58d8f661e945ae1fa6086588a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ca7bfe637e992632417002da0d1e1fd6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -182,7 +170,7 @@ div.csl-indent {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./ethics/ethics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Ethics</span></a>
+ <span class="menu-text">Ethical Framework</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -191,19 +179,13 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./ethics/data-collection-and-permissions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Obtaining Permissions</span></a>
+ <span class="menu-text">Ethics for Data Contribution</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./ethics/data-reuse.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Reuse</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./ethics/grant-funding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Grant Funding</span></a>
+ <span class="menu-text">Ethics for Data Reuse</span></a>
   </div>
 </li>
       </ul>
@@ -292,7 +274,7 @@ div.csl-indent {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./managing-my-sponsored-researchers/start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Managing Sponsored Researchers</span></a>
+ <span class="menu-text">Managing Supervised Researchers</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -320,8 +302,8 @@ div.csl-indent {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./contributing-data/start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Contributing Data</span></a>
+            <a href="./setting-up-a-volume/start.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Setting Up a Volume</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -329,8 +311,8 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./contributing-data/start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Contributing Data</span></a>
+  <a href="./setting-up-a-volume/start.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Setting Up a Volume</span></a>
   </div>
 </li>
       </ul>
@@ -393,6 +375,12 @@ div.csl-indent {
  <span class="menu-text">Databrary API</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Templates and Resources</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -404,8 +392,6 @@ div.csl-indent {
    
   <ul>
   <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
-  <li><a href="#about-the-authors" id="toc-about-the-authors" class="nav-link" data-scroll-target="#about-the-authors">About the authors</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -422,23 +408,11 @@ div.csl-indent {
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Authors</div>
-    <div class="quarto-title-meta-contents">
-             <p>Rick Gilmore </p>
-             <p>Andrea Seisler </p>
-             <p>Kasey Soska </p>
-             <p>Melody Xu </p>
-             <p>Yinghe Liu </p>
-             <p>Stephanie Win </p>
-             <p>Anika Mahadevan </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 22, 2026</p>
+      <p class="date">September 25, 2026</p>
     </div>
   </div>
   
@@ -454,21 +428,8 @@ div.csl-indent {
 <section id="welcome" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="welcome">Welcome</h2><p><img src="include/img/databrary-nav-sm.jpg" title="Databrary Guide" class="quarto-cover-image nolightbox img-fluid"></p>
 <p>This document describes the <a href="https://databrary.org">Databrary.org</a> data library and how to use it effectively as a tool for safely and securely sharing identifiable research data including video and audio.</p>
-<p>Databrary is used by a large and growing community of researchers across the globe, including some large scale research projects <span class="citation" data-cites="Soska2021-mh">(<a href="#ref-Soska2021-mh" role="doc-biblioref">Soska et al., 2021</a>)</span> run by Databrary’s co-founders, Karen Adolph and Rick Gilmore, and their collaborators.</p>
-<p>Databrary’s founders believe that the widespread use and sharing of video can improve reproducibility and rigor of many different areas of research <span class="citation" data-cites="Adolph_KE_Gilmore_RO_Kennedy_JL2017-va Gilmore2017-wd">(<a href="#ref-Adolph_KE_Gilmore_RO_Kennedy_JL2017-va" role="doc-biblioref">Adolph, K.E., Gilmore, R.O., &amp; Kennedy, J.L., 2017</a>; <a href="#ref-Gilmore2017-wd" role="doc-biblioref">Gilmore &amp; Adolph, 2017</a>)</span>.</p>
-</section>
-<section id="about-the-authors" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="about-the-authors">About the authors</h2>
-<p><a href="https://rick-gilmore.com">Rick Gilmore</a> is Professor of Psychology at Penn State and is the Co-Founder and Co-Director of Databrary.</p>
-<p>Andrea Seisler manages the Brain and Behavioral Dynamics Laboratory at Penn State and is the Authorizations and Support Specialist for Databrary.</p>
-<p>Kasey Soska is Science Director for the <a href="https://play-project.org">Play &amp; Learning Across a Year</a> project.</p>
-<p>Stephanie Win is a Project Coordinator and UX Specialist on the Databrary team.</p>
-<p>Anika Mahadevan is an undergraduate student in Psychology and Biology at Penn State and will graduate in May 2027.</p>
-<p>Melody Xu was a User Support Specialist at Databrary until she began a Ph.D.&nbsp;program at Johns Hopkins University in August 2023.</p>
-<p>Yinghe Liu was an undergraduate student in Psychology at Penn State.</p>
-</section>
-<section id="references" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<p>Databrary is used by a large and growing community of researchers across the globe. The widespread use and sharing of video can improve reproducibility and rigor of many different areas of research <span class="citation" data-cites="Adolph_KE_Gilmore_RO_Kennedy_JL2017-va Gilmore2017-wd">(<a href="#ref-Adolph_KE_Gilmore_RO_Kennedy_JL2017-va" role="doc-biblioref">Adolph, K.E., Gilmore, R.O., &amp; Kennedy, J.L., 2017</a>; <a href="#ref-Gilmore2017-wd" role="doc-biblioref">Gilmore &amp; Adolph, 2017</a>)</span>.</p>
+<p>Databrary’s mission is to support data sharing and reuse among researchers in the behavioral, social, educational, developmental, neural, and computer sciences. The platform is dedicated to advancing transparency, reproducibility, and collaboration across the research community. Databrary serves as a community of scientists and a resource for those who use video or audio in their research or teaching.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
@@ -477,9 +438,6 @@ Adolph, K.E., Gilmore, R.O., &amp; Kennedy, J.L. (2017). Video as data and docum
 </div>
 <div id="ref-Gilmore2017-wd" class="csl-entry" role="listitem">
 Gilmore, R. O., &amp; Adolph, K. E. (2017). Video can make behavioural science more reproducible. <em>Nature Human Behaviour</em>, <em>1</em>(7). <a href="https://doi.org/10.1038/s41562-017-0128">https://doi.org/10.1038/s41562-017-0128</a>
-</div>
-<div id="ref-Soska2021-mh" class="csl-entry" role="listitem">
-Soska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmore, R. O., &amp; Adolph, K. E. (2021). (Hyper)active data curation: A video case study from behavioral science. <em>Journal of Escience Librarianship</em>, <em>10</em>(3). <a href="https://doi.org/10.7191/jeslib.2021.1208">https://doi.org/10.7191/jeslib.2021.1208</a>
 </div>
 </div>
 </section>
@@ -895,8 +853,11 @@ Soska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmo
   </div>
 </nav>
 </div> <!-- /content -->
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><style>
+#refs { display: none !important; }
+</style>
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+</body></html>

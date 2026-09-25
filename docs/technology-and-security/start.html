@@ -2,23 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Technology and Security – Databrary Guide</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../using-data/custom-collections.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f4865b58d8f661e945ae1fa6086588a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ca7bfe637e992632417002da0d1e1fd6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -155,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../ethics/ethics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Ethics</span></a>
+ <span class="menu-text">Ethical Framework</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -164,19 +159,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../ethics/data-collection-and-permissions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Obtaining Permissions</span></a>
+ <span class="menu-text">Ethics for Data Contribution</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../ethics/data-reuse.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Reuse</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../ethics/grant-funding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Grant Funding</span></a>
+ <span class="menu-text">Ethics for Data Reuse</span></a>
   </div>
 </li>
       </ul>
@@ -265,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../managing-my-sponsored-researchers/start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Managing Sponsored Researchers</span></a>
+ <span class="menu-text">Managing Supervised Researchers</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -293,8 +282,8 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../contributing-data/start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Contributing Data</span></a>
+            <a href="../setting-up-a-volume/start.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Setting Up a Volume</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -302,8 +291,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../contributing-data/start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Contributing Data</span></a>
+  <a href="../setting-up-a-volume/start.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Setting Up a Volume</span></a>
   </div>
 </li>
       </ul>
@@ -366,6 +355,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Databrary API</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Templates and Resources</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -378,8 +373,9 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#technology-stack" id="toc-technology-stack" class="nav-link active" data-scroll-target="#technology-stack">Technology Stack</a>
   <ul>
-  <li><a href="#frontend" id="toc-frontend" class="nav-link" data-scroll-target="#frontend">Frontend</a></li>
-  <li><a href="#backend" id="toc-backend" class="nav-link" data-scroll-target="#backend">Backend</a>
+  <li><a href="#repository-roles-and-relationships" id="toc-repository-roles-and-relationships" class="nav-link" data-scroll-target="#repository-roles-and-relationships">Repository Roles and Relationships</a></li>
+  <li><a href="#frontend-applications-and-processes" id="toc-frontend-applications-and-processes" class="nav-link" data-scroll-target="#frontend-applications-and-processes">Frontend Applications and Processes</a></li>
+  <li><a href="#backend-applications-and-descriptions" id="toc-backend-applications-and-descriptions" class="nav-link" data-scroll-target="#backend-applications-and-descriptions">Backend Applications and Descriptions</a>
   <ul class="collapse">
   <li><a href="#poetry" id="toc-poetry" class="nav-link" data-scroll-target="#poetry"><strong>Poetry</strong></a></li>
   <li><a href="#pnpm" id="toc-pnpm" class="nav-link" data-scroll-target="#pnpm"><strong>PNPM</strong></a></li>
@@ -438,17 +434,31 @@ ul.task-list li input[type="checkbox"] {
 <section id="technology-stack" class="level2">
 <h2 class="anchored" data-anchor-id="technology-stack">Technology Stack</h2>
 <p>The Databrary application runs on a group of 10 VMWARE virtual machines, divided into Production (5 servers) and Staging (5 servers), running RedHat Enterprise Linux 9 managed by NYU IT. Automatic transcoding of all uploaded video and audio files is handled by NYU’s High Performance Computing (HPC) cluster. Data is stored in a Dell Isilon (Powerscale) storage array that is managed by the NYU Library.</p>
-<section id="frontend" class="level3">
-<h3 class="anchored" data-anchor-id="frontend">Frontend</h3>
+<section id="repository-roles-and-relationships" class="level3">
+<h3 class="anchored" data-anchor-id="repository-roles-and-relationships">Repository Roles and Relationships</h3>
 <ul>
-<li>AngularJS 1.4</li>
-<li>Coffee Script 1.7.1</li>
-<li>JQuery 1.12.3</li>
-<li>Stylus 0.54.5 + nib 1.1.2</li>
+<li>databrary-core: Shared Python library (Django 5.2, DRF, Celery). Released as a versioned .whl to GitHub Releases. No runtime image; no test runner in its own CI.</li>
+<li>backend_2.0: On-prem REST API server. Consumes core; adds Django settings, Celery workers, Gunicorn/nginx, ELK stack, Prometheus/Grafana. CI/CD tests for both core and project code live here.</li>
+<li>frontend_2.0: React 18 / TypeScript SPA (Single Page Application) built with Vite. Served behind nginx in production.</li>
 </ul>
 </section>
-<section id="backend" class="level3">
-<h3 class="anchored" data-anchor-id="backend">Backend</h3>
+<section id="frontend-applications-and-processes" class="level3">
+<h3 class="anchored" data-anchor-id="frontend-applications-and-processes">Frontend Applications and Processes</h3>
+<ul>
+<li>pco01lw-2381s.cfs.its.nyu.edu - 10.47.3.17 (web server 1)</li>
+<li>pco01lw-2382s.cfs.its.nyu.edu - 10.47.3.18 (web server 2)</li>
+<li>pco01ld-2383s.cfs.its.nyu.edu - 10.46.0.186 (PostgreSQL)</li>
+<li>pco01ld-2384s.cfs.its.nyu.edu - 10.46.0.187 (Redis and Jenkins)</li>
+<li>pco01la-2533s.cfs.its.nyu.edu - 10.46.3.151 (Video transcoding jobs)</li>
+<li>Nginx - webserver</li>
+<li>Postgresql - Database server</li>
+<li>Redis</li>
+<li>Jenkins</li>
+<li>Ffmpeg</li>
+</ul>
+</section>
+<section id="backend-applications-and-descriptions" class="level3">
+<h3 class="anchored" data-anchor-id="backend-applications-and-descriptions">Backend Applications and Descriptions</h3>
 <section id="poetry" class="level4">
 <h4 class="anchored" data-anchor-id="poetry"><strong>Poetry</strong></h4>
 <p><a href="https://python-poetry.org/docs/">Poetry</a> is a tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. Poetry offers a lockfile to ensure repeatable installs and can build your project for distribution.</p>
@@ -998,8 +1008,11 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </nav>
 </div> <!-- /content -->
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/technology-and-security/start.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><style>
+#refs { display: none !important; }
+</style>
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/databrary/guide/edit/main/src/technology-and-security/start.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/databrary/guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+</body></html>
