@@ -1,10 +1,10 @@
-# Managing Supervised Researchers {.unnumbered}
+# Managing Affiliates (Supervised Researchers) {.unnumbered}
 
 As a Databrary authorized researcher, you can sponsor your students, research staff, and post-doctoral researchers who conduct research under your supervision.
 
-For more information about who can be your supervised researcher, see [this section](/getting-authorized/sponsored-researchers.qmd).
+For more information about who can be your affiliate (supervised researcher), see [this section](/getting-authorized/sponsored-researchers.qmd).
 
-::: {.callout-important}
+::: callout-important
 You should not be responsible for the use of Databrary by another individual who qualifies for authorized researcher status at their home institution. They are responsible for seeking their own authorized researcher status.
 :::
 

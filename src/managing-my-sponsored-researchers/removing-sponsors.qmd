@@ -1,18 +1,18 @@
-# Removing Supervised Researchers {.unnumbered}
+# Removing Affiliates (Supervised Researchers) {.unnumbered}
 
-If your supervised researcher is no longer working under your research supervision or at your institution, you should remove their sponsorship status. 
+If your affiliate (supervised researcher) is no longer working under your research supervision or at your institution, you should remove their access.
 
-If they still need access to your collaborative data on Databrary, they must apply for sponsorship through their new research supervisor. Once their sponsorship is approved, you can add them as a collaborator on your volumes. 
+If they still need access to your collaborative data on Databrary, they must apply for sponsorship through their new research supervisor. After their access is approved, you can add them as a collaborator on your volumes.
 
-### How to Remove Your Supervised Researcher
+### How to Remove Your Affiliate (Supervised Researcher)
 
-1. Click the 'Remove' icon.
+1.  Click the 'Remove' icon.
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/removing.png")
 ```
 
-2. Review and confirm the information in the pop-up modal to remove your supervised researcher.
+2.  Review and confirm the information in the pop-up modal to remove your affiliate (supervised researcher).
 
 ```{r echo=FALSE}
 knitr::include_graphics("img/modal.png")
