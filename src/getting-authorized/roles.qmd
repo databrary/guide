@@ -1,12 +1,12 @@
 # Authorized Roles {.unnumbered}
 
-To be authorized on Databrary, you must be an authorized researcher or supervised researcher.
+To be authorized on Databrary, you must be an authorized researcher or affiliate (supervised researcher).
 
 ## Authorized Researcher
 
 ### What is an authorized researcher?
 
-An authorized researcher is a researcher with PI status or equivalent at their institution. Authorized researchers can authorize research staff, post-docs, or students as supervised researchers. Only authorized researchers and their designated manager can create volumes. Designated managers can suggest changes to collaborators on their supervising researcher's volumes but only authorized researchers can manage collaborators on their volumes. Only authorized researchers can share volumes on Databrary.
+An authorized researcher is a researcher with PI status or equivalent at their institution. Authorized researchers can authorize research staff, post-docs, or students as affiliates (supervised researchers). Only authorized researchers and their designated manager can create volumes. Designated managers can suggest changes to collaborators on their supervising researcher's volumes but only authorized researchers can manage collaborators on their volumes. Only authorized researchers can share volumes on Databrary.
 
 ### Eligibility
 
@@ -24,29 +24,29 @@ Databrary policies and your home institution determine whether you are eligible 
 
 If these criteria apply to you, you can find more information about how to request authorization [here.](authorized-researchers.qmd)
 
-## Supervised Researcher
+## Affiliate (Supervised Researcher)
 
-### What is a supervised researcher?
+### What is an affiliate (supervised researcher)?
 
 ::: callout-note
 Supervised researchers are currently referred to as "Affiliates" on Databrary. By August 2026, the term "Affiliates" will be removed and changed to "Supervised Researchers".
 :::
 
-A supervised researcher is typically a student or research staff who conducts research under a research supervisor. On Databrary, supervised researchers have the ability to edit their authorized reseacher's volumes, as well as any volumes that they are added to as a collaborator.
+An affiliate (supervised researcher) is typically a student or research staff who conducts research under a research supervisor. On Databrary, affiliates (supervised researchers) have the ability to edit their authorized reseacher's volumes, as well as any volumes that they are added to as a collaborator.
 
 ::: callout-note
-In some cases, a supervised researcher may be able to create volumes if their authorized researcher upgrades their account privileges.
+In some cases, an affiliate (supervised researcher) may be able to create volumes if their authorized researcher upgrades their account privileges.
 :::
 
 ### Eligibility
 
-Databrary policies, your home institution, and the authorized researcher who supervises your research determines whether you are eligible to be granted access to Databrary as a supervised researcher. To be eligible as a Databrary supervised researcher, you must meet these criteria:
+Databrary policies, your home institution, and the authorized researcher who supervises your research determines whether you are eligible to be granted access to Databrary as an affiliate (supervised researcher). To be eligible as a Databrary affiliate (supervised researcher), you must meet these criteria:
 
 - Conduct research under the supervision of an Authorized Investigator’s sponsorship or someone who is eligible to become an Authorized Investigator;
 - Are a student, research staff, or post-doctoral researcher.
 - Have current training that addresses research ethics with human subjects (e.g.[CITI training](https://about.citiprogram.org/)).
 
-Before you can be authorized as a supervised researcher, your research supervisor must be authorized as an authorized researcher on Databrary.
+Before you can be authorized as an affiliate (supervised researcher), your research supervisor must be authorized as an authorized researcher on Databrary.
 
 ### Seeking Authorization
 

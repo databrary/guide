@@ -26,4 +26,4 @@ Your dashboard also displays your sponsors (authorizing institutions and/or supe
 knitr::include_graphics("img/sponsors_sponsored_researchers.png")
 ```
 
-For more information about how to manage your affiliates (supervised researchers), see [this section](/managing-my-sponsored-researchers.qmd).
+For more information about how to manage your affiliates (supervised researchers), see [this section](/managing-my-sponsored-researchers.qmd)
